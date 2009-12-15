@@ -1,8 +1,10 @@
 \version "2.12.0"
 
-\new RhythmicStaff {
-\set RhythmicStaff.instrumentName = \markup {23 \hspace #2 }
-\set RhythmicStaff.shortInstrumentName = \markup {23 \hspace #2 }
+\new RhythmicStaff <<
+\include "line-breaking.ly"
+{
+\set RhythmicStaff.instrumentName = \markup {23 \hspace #4 }
+\set RhythmicStaff.shortInstrumentName = \markup {23 \hspace #4 }
 \times 2/3 {
 b'4
 b'4
@@ -962,3 +964,4 @@ b'8]
 r2
 }
 }
+>>

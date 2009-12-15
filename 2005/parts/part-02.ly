@@ -1,6 +1,6 @@
 \version "2.12.0"
 
-\new RhythmicStaff  <<
+\new RhythmicStaff <<
 \include "line-breaking.ly"
 {
 \set RhythmicStaff.instrumentName = \markup {2 \hspace #4 }
