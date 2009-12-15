@@ -2,10 +2,10 @@
 \include "layout.ly"
 
 \new Score {
-   \include "part-99.ly"
+   \include "part-24.ly"
 }
 
 \paper {
    oddFooterMarkup = \markup \fill-line { \italic { 
-      "Bača / Poème récursif, verse II / Archinal realiz. / 99 of 64" } }
+      "Bača / Poème récursif, verse II / Archinal realiz. / 24 of 64" } }
 }

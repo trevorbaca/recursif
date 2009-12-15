@@ -4,12 +4,12 @@ import os
 ##
 ## Write once, run once:
 ##
-##    python -i extract_parts.py
+##    python -i explode_full_score.py
 ##
 ## The part files part-01.ly, ..., part-64.ly will be created in the pwd.
 
 
-def extract_parts( ):
+def explode_full_score( ):
    cur_part = 0
    part_file = None
    input = file('converted-full-score.ly', 'r')
@@ -23,6 +23,7 @@ def extract_parts( ):
          part_file = file('part-%s.ly' % str(cur_part).zfill(2), 'w')
          part_file.write('\\version "2.12.0"\n\n')
       if cur_part == 64 and '>>' in line:
+         part_file.write('>>')
          part_file.close( )
          cur_part += 1
       if 'hspace #2' in line:
@@ -33,4 +34,4 @@ def extract_parts( ):
 
 
 if __name__ == '__main__':
-   extract_parts( )
+   explode_full_score( )
