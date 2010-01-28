@@ -1,0 +1,492 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     16942,        482]
+NotebookOptionsPosition[     16054,        448]
+NotebookOutlinePosition[     16413,        464]
+CellTagsIndexPosition[     16370,        461]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Po\[EGrave]me r\[EAcute]cursif (2005).", "Text"],
+
+Cell[BoxData[
+ RowBox[{"<<", "M`"}]], "Input"],
+
+Cell["Source:", "Text"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"e", "[", "1", "]"}], "=", 
+   RowBox[{"Transpose", "[", 
+    RowBox[{"CellularAutomaton", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"24178440", ",", 
+        RowBox[{"{", 
+         RowBox[{"8", ",", "1"}], "}"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", "1", "}"}], ",", "0"}], "}"}], ",", "300", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"211", ",", 
+          RowBox[{"211", "+", "256", "-", "1"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"31", ",", 
+          RowBox[{"31", "+", "64", "-", "1"}]}], "}"}]}], "}"}]}], "]"}], 
+    "]"}]}], ";"}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plus", "@@", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"e", "[", "1", "]"}], "]"}]}]], "Input"],
+
+Cell[BoxData["31189"], "Output"]
+}, Open  ]],
+
+Cell["31189 total attackpoints.", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dimensions", "[", 
+  RowBox[{"e", "[", "1", "]"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"64", ",", "256"}], "}"}]], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"f", "[", "1", "]"}], "=", 
+     RowBox[{"Take", "[", 
+      RowBox[{
+       RowBox[{"e", "[", "1", "]"}], ",", "64", ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"256", "-", "15"}], ",", "256"}], "}"}]}], "]"}]}], ";"}], 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"f", "[", "1", "]"}], "=", 
+    RowBox[{"e", "[", "1", "]"}]}], ";"}]}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dimensions", "[", 
+  RowBox[{"f", "[", "1", "]"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"64", ",", "256"}], "}"}]], "Output"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"t", "[", "n_Integer", "]"}], ":=", 
+  RowBox[{"n", "/.", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"0", "\[Rule]", 
+      RowBox[{"RTree", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "\"\<half\>\""}], "}"}], ",", 
+        RowBox[{"{", "}"}], ",", "\"\<rest\>\""}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"1", "\[Rule]", 
+      RowBox[{"RTree", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "\"\<half\>\""}], "}"}], ",", 
+        RowBox[{"{", "}"}]}], "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"2", "\[Rule]", 
+      RowBox[{"MakeRTree", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "1"}], "}"}], ",", "0", ",", "\"\<quarter\>\""}], 
+       "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"3", "\[Rule]", 
+      RowBox[{"MakeRTree", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "1", ",", "1"}], "}"}], ",", 
+        RowBox[{"-", "1"}], ",", "\"\<quarter\>\""}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"4", "\[Rule]", 
+      RowBox[{"BeamRTree", "[", 
+       RowBox[{"MakeRTree", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", "0", ",", 
+         "\"\<eighth\>\""}], "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"5", "\[Rule]", 
+      RowBox[{"BeamRTree", "[", 
+       RowBox[{"MakeRTree", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], ",", 
+         RowBox[{"-", "1"}], ",", "\"\<eighth\>\""}], "]"}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"6", "\[Rule]", 
+      RowBox[{"BeamRTree", "[", 
+       RowBox[{"MakeRTree", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1"}], 
+          "}"}], ",", 
+         RowBox[{"-", "2"}], ",", "\"\<eighth\>\""}], "]"}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"7", "\[Rule]", 
+      RowBox[{"BeamRTree", "[", 
+       RowBox[{"MakeRTree", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+          "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1"}], 
+          "}"}], ",", 
+         RowBox[{"-", "3"}], ",", "\"\<eighth\>\""}], "]"}], "]"}]}]}], 
+    "\[IndentingNewLine]", "}"}]}]}]], "Input"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"InstLabels", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{
+     "\"\<\\\\set RhythmicStaff.instrument = \\\\markup {\>\"", "<>", 
+      RowBox[{"ToString", "[", "i", "]"}], "<>", 
+      "\"\< \\\\hspace #2 }\\n\\\\set RhythmicStaff.instr = \\\\markup {\>\"",
+       "<>", 
+      RowBox[{"ToString", "[", "i", "]"}], "<>", "\"\< \\\\hspace #2 }\>\""}],
+      ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "1", ",", 
+       RowBox[{"Length", "[", 
+        RowBox[{"f", "[", "1", "]"}], "]"}]}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"S", "=", 
+   RowBox[{"\"\<score\>\"", "[", 
+    RowBox[{"\"\<StaffGroup\>\"", "@@", 
+     RowBox[{"MapThread", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"\"\<RhythmicStaff\>\"", "[", 
+         RowBox[{"#1", ",", 
+          RowBox[{"Sequence", "@@", 
+           RowBox[{"t", "/@", "#2"}]}]}], "]"}], "&"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"InstLabels", ",", 
+         RowBox[{"f", "[", "1", "]"}]}], "}"}]}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"B", "[", "1", "]"}], "=", 
+   RowBox[{"\"\<breaks\>\"", "@@", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"{", "\"\<\\\\time 2/4 s2 \\\\noBreak\>\"", "}"}], ",", 
+            RowBox[{"{", "15", "}"}]}], "]"}], "~", "Join", "~", 
+          RowBox[{"{", 
+           RowBox[{"{", "\"\<s2 \\\\break\>\"", "}"}], "}"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Last", "[", 
+           RowBox[{"Dimensions", "[", 
+            RowBox[{"f", "[", "1", "]"}], "]"}], "]"}], "/", "16"}], 
+         RowBox[{"(*", 
+          RowBox[{"change", " ", "me"}], "*)"}], "}"}]}], "]"}], "//", 
+      RowBox[{
+       RowBox[{"Flatten", "[", 
+        RowBox[{"#", ",", "2"}], "]"}], "&"}]}], ")"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"B", "[", "2", "]"}], "=", 
+   RowBox[{"\"\<breaks\>\"", "@@", 
+    RowBox[{"Flatten", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"\"\<s2*16\>\"", ",", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"\"\<s2\>\"", ",", 
+            RowBox[{"\"\<\\\\mark \\\\markup {\>\"", "<>", 
+             RowBox[{"ToString", "[", 
+              RowBox[{
+               RowBox[{"k", "*", "16"}], "+", "2"}], "]"}], "<>", 
+             "\"\<}\>\""}], ",", "\"\<s2*15\>\""}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"k", ",", "1", ",", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"Last", "[", 
+               RowBox[{"Dimensions", "[", 
+                RowBox[{"f", "[", "1", "]"}], "]"}], "]"}], "/", "16"}], "-", 
+             "1"}]}], 
+           RowBox[{"(*", 
+            RowBox[{"change", " ", "me"}], "*)"}], "}"}]}], "]"}]}], "}"}], 
+      ",", "2"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"B", "[", "3", "]"}], "=", 
+   RowBox[{"\"\<breaks\>\"", "[", 
+    RowBox[{
+     RowBox[{"\"\<s2*\>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Last", "[", 
+        RowBox[{"Dimensions", "[", 
+         RowBox[{"f", "[", "1", "]"}], "]"}], "]"}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     "\"\<\\\\override Score.SpanBar #'transparent = ##f\>\"", ",", 
+     "\[IndentingNewLine]", 
+     "\"\<\\\\override Score.BarLine #'transparent = ##f\>\"", ",", 
+     "\[IndentingNewLine]", 
+     "\"\<\\\\override Score.BarLine #'hair-thickness = #1.0\>\"", ",", 
+     "\[IndentingNewLine]", 
+     "\"\<\\\\override Score.BarLine #'kern = #1.9\>\"", ",", 
+     "\[IndentingNewLine]", 
+     "\"\<\\\\override Score.BarLine #'thick-thickness = #3.0\>\"", ",", 
+     "\[IndentingNewLine]", 
+     "\"\<\\\\override Score.SpanBar #'extra-offset = #'(1.0 . 0)\>\"", ",", 
+     "\[IndentingNewLine]", 
+     "\"\<\\\\override Score.BarLine #'extra-offset = #'(1.0 . 0)\>\"", ",", 
+     "\[IndentingNewLine]", "\"\<\\\\bar \\\"|.\\\"\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"S", "=", 
+   RowBox[{"Insert", "[", 
+    RowBox[{"S", ",", 
+     RowBox[{"B", "[", "1", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"S", "=", 
+   RowBox[{"Insert", "[", 
+    RowBox[{"S", ",", 
+     RowBox[{"B", "[", "2", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"S", "=", 
+   RowBox[{"Insert", "[", 
+    RowBox[{"S", ",", 
+     RowBox[{"B", "[", "3", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"L", "=", 
+   RowBox[{"\"\<layout\>\"", "[", "\[IndentingNewLine]", 
+    RowBox[{"\"\<indent = #0.0\>\"", ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<context\>\"", "[", "\[IndentingNewLine]", 
+      RowBox[{
+      "\"\<\\\\Voice\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<\\\\remove \\\"Forbid_line_break_engraver\\\"\>\"", ",", 
+       "\[IndentingNewLine]", "\"\<tupletFullLength = ##t\>\"", ",", 
+       "\[IndentingNewLine]", "\"\<allowBeamBreak = ##t\>\""}], 
+      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<context\>\"", "[", "\[IndentingNewLine]", 
+      RowBox[{
+      "\"\<\\\\RhythmicStaff\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<\\\\override TimeSignature #'break-visibility = ##(#f #f #t)\>\"",
+        ",", "\[IndentingNewLine]", 
+       "\"\<\\\\override TimeSignature #'transparent = ##t\>\"", ",", 
+       "\[IndentingNewLine]", "\"\<minimumVerticalExtent = ##f\>\"", ",", 
+       "\[IndentingNewLine]", "\"\<verticalExtent = #'(-4.25 . 4.5)\>\""}], 
+      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<context\>\"", "[", "\[IndentingNewLine]", 
+      RowBox[{
+      "\"\<\\\\Score\>\"", ",", "\[IndentingNewLine]", 
+       "\"\<\\\\remove \\\"Bar_number_engraver\\\"\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override SpacingSpanner #'strict-note-spacing = ##t\>\"", ",",
+        "\[IndentingNewLine]", 
+       "\"\<\\\\override SpacingSpanner #'uniform-stretching = ##t\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<proportionalNotationDuration = #(ly:make-moment 1 16)\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override SpanBar #'transparent = ##t\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override BarLine #'transparent = ##t\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override InstrumentName #'self-alignment-X = #right\>\"", ",",
+        "\[IndentingNewLine]", 
+       "\"\<\\\\override InstrumentName #'X-offset-callbacks = \
+#`(,Self_alignment_interface::aligned_on_self)\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override InstrumentName #'font-size = #4\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override InstrumentName #'font-series = #'bold\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override RehearsalMark #'self-alignment-X = #left\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override RehearsalMark #'X-offset-callbacks = \
+#`(,Self_alignment_interface::aligned_on_self)\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override RehearsalMark #'color = #black\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override RehearsalMark #'extra-offset = #'(1.9 . 3)\>\"", ",",
+        "\[IndentingNewLine]", 
+       "\"\<\\\\override RehearsalMark #'font-size = #8\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override RehearsalMark #'print-function = \
+#(make-stencil-boxer 0.3 0.75 Text_interface::print)\>\"", ",", 
+       "\[IndentingNewLine]", "\"\<\\\\override Stem #'direction = #down\>\"",
+        ",", "\[IndentingNewLine]", 
+       "\"\<\\\\override TupletBracket #'direction = #up\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override TupletBracket #'staff-padding = #0.5\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override TupletBracket #'edge-height = #'(0.5 . 0.5)\>\"", 
+       ",", "\[IndentingNewLine]", 
+       "\"\<\\\\override TupletBracket #'thickness = #1.0\>\"", ",", 
+       "\[IndentingNewLine]", 
+       "\"\<\\\\override TupletBracket #'font-series = #'bold\>\""}], 
+      "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"AppendTo", "[", 
+   RowBox[{"S", ",", "L"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "SetDirectory", "[", "\"\<//Users//trevorbaca//Documents//music//rec2\>\"", 
+   "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"strm", "=", 
+   RowBox[{"OpenWrite", "[", "\"\<poeme-2005.ly\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"WriteString", "[", 
+   RowBox[{
+   "strm", ",", "\[IndentingNewLine]", 
+    "\"\<\\\\version \\\"2.7.11\\\"\\n\\n\>\"", ",", "\[IndentingNewLine]", 
+    "\"\<#(set-default-paper-size \\\"11x17\\\")\\n\>\"", ",", 
+    "\[IndentingNewLine]", "\"\<#(set-global-staff-size 8)\\n\\n\>\"", ",", 
+    "\[IndentingNewLine]", "\"\<\\\\paper {\\n\>\"", ",", 
+    "\[IndentingNewLine]", "\"\<topmargin = 20\\mm\\n\>\"", ",", 
+    "\[IndentingNewLine]", "\"\<bottommargin = 15\\mm\\n\>\"", ",", 
+    "\[IndentingNewLine]", "\"\<firstpagenumber = 3\\n\>\"", ",", 
+    "\[IndentingNewLine]", "\"\<printpagenumber = ##t\\n\>\"", ",", 
+    "\[IndentingNewLine]", 
+    "\"\<oddFooterMarkup = \\\\markup \\\\fill-line {\\\\halign #0 \\\\bold \
+\\\\fontsize #8 \\\\fromproperty #'page:page-number-string }\\n\>\"", ",", 
+    "\[IndentingNewLine]", 
+    "\"\<evenFooterMarkup = \\\\markup \\\\fill-line {\\\\halign #0 \\\\bold \
+\\\\fontsize #8 \\\\fromproperty #'page:page-number-string }\\n\>\"", ",", 
+    "\[IndentingNewLine]", 
+    "\"\<oddHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\\n\>\"", ",", 
+    "\[IndentingNewLine]", 
+    "\"\<evenHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\\n\>\"", ",",
+     "\[IndentingNewLine]", "\"\<}\\n\\n\>\"", ",", "\[IndentingNewLine]", 
+    "\"\<\\\\header {\\n\>\"", ",", "\[IndentingNewLine]", 
+    "\"\<tagline = \\\"\\\"\\n\>\"", ",", "\[IndentingNewLine]", 
+    "\"\<}\\n\\n\>\""}], "\[IndentingNewLine]", "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"WriteString", "[", 
+   RowBox[{"strm", ",", 
+    RowBox[{"ToLily", "[", "S", "]"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Close", "[", "strm", "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "Run", "[", 
+    "\"\<. /Users/trevorbaca/.profile && lily poeme-2005.ly > poeme-2005.out \
+2>&1\>\"", "]"}], "*)"}]}]}], "Input"],
+
+Cell["\<\
+POSTPROCESS. Change lines 66520 - 66524 from
+
+\\times 2/3 {
+b'4
+b'4
+b'4
+}
+
+... to ...
+
+\\times 2/3 {
+b'4
+b'4
+\\once \\override TextScript #'extra-offset = #'(-11.5 . -3)
+b'4_\\markup \\fontsize #3 \"[Austin, 2005]\" 
+}\
+\>", "Text"]
+},
+WindowSize->{716, 547},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+ShowSelection->True,
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 11, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 54, 0, 26, "Text"],
+Cell[602, 22, 46, 1, 27, "Input"],
+Cell[651, 25, 23, 0, 26, "Text"],
+Cell[677, 27, 701, 22, 43, "Input"],
+Cell[CellGroupData[{
+Cell[1403, 53, 116, 3, 27, "Input"],
+Cell[1522, 58, 32, 0, 27, "Output"]
+}, Open  ]],
+Cell[1569, 61, 41, 0, 26, "Text"],
+Cell[CellGroupData[{
+Cell[1635, 65, 91, 2, 27, "Input"],
+Cell[1729, 69, 76, 2, 27, "Output"]
+}, Open  ]],
+Cell[1820, 74, 470, 16, 43, "Input"],
+Cell[CellGroupData[{
+Cell[2315, 94, 91, 2, 27, "Input"],
+Cell[2409, 98, 76, 2, 27, "Output"]
+}, Open  ]],
+Cell[2500, 103, 2426, 65, 163, "Input"],
+Cell[4929, 170, 10876, 257, 1483, "Input"],
+Cell[15808, 429, 242, 17, 251, "Text"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
