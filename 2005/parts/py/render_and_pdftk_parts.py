@@ -32,7 +32,7 @@ def glom_score_pdfs( ):
    pdftk_command = 'pdftk %s cat output poeme-2005-parts.pdf'
    pdf_file_names = [ ]
    for file_name in os.listdir('pdf/'):
-      if file_name.startswith('part-') and file_name.endswith('.pdf'):
+      if file_name.endswith('.pdf'):
          pdf_file_names.append(file_name)
    pdf_file_names = ' '.join([str(x) for x in sorted(pdf_file_names)])
    pdftk_command %= pdf_file_names

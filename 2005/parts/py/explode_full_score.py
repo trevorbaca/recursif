@@ -12,7 +12,7 @@ import os
 def explode_full_score( ):
    cur_part = 0
    part_file = None
-   input = file('converted-full-score.ly', 'r')
+   input = file('ly/converted-full-score.ly', 'r')
    for line in input.readlines( ):
       if 'new RhythmicStaff' in line:
          line = '\\new RhythmicStaff <<\n\\include "line-breaking.ly"\n{\n'
