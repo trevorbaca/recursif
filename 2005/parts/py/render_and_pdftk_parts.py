@@ -4,16 +4,16 @@ import os
 def make_score_ly_files( ):
    print 'making score ly files ...'
    for part_number in range(1, 65):
-      score_template = file('ly/score-template.ly', 'r')
+      part_template = file('ly/part-template.ly', 'r')
       score_ly_file = file('ly/parts/%s.ly' % str(part_number).zfill(2), 'w')
-      for line in score_template.readlines( ):
+      for line in part_template.readlines( ):
          if 'part-99' in line:
             line = line.replace('99', str(part_number).zfill(2))
          elif '99 of 64' in line:
             line = line.replace('99', str(part_number))
          score_ly_file.write(line)
       score_ly_file.close( )
-      score_template.close( )
+      part_template.close( )
 
 
 def render_score_pdfs( ):
