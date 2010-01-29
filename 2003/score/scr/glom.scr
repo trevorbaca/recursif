@@ -1,1 +1,0 @@
-pdftk A=pdfs/front-cover.pdf B=pdfs/inside-front-cover.pdf C=pdfs/body.pdf D=pdfs/back-cover.pdf cat A B C D output score.pdf
