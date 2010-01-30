@@ -6,7 +6,7 @@ import os
 ##
 ##    python -i explode_full_score.py
 ##
-## The part files part-01.ly, ..., part-64.ly will be created in the pwd.
+## The part files 01.ly, ..., 64.ly will be created.
 
 
 def explode_full_score( ):
@@ -20,7 +20,7 @@ def explode_full_score( ):
             part_file.write('>>')
             part_file.close( )
          cur_part += 1
-         part_file = file('part-%s.ly' % str(cur_part).zfill(2), 'w')
+         part_file = file('ly/data/%s.ly' % str(cur_part).zfill(2), 'w')
          part_file.write('\\version "2.12.0"\n\n')
       if cur_part == 64 and '>>' in line:
          part_file.write('>>')
