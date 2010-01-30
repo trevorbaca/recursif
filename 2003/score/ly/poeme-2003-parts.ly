@@ -3,13 +3,12 @@
 	Trevor Baca
 %}
 
-\version "2.7.0"
+\version "2.13.10"
 \include "english.ly"
 
 AA = {
 	\time 2/4
 	b'2
-	\context Score \applycontext #(set-bar-number-visibility 16)
 	b'2
 	b'2
 	b'2

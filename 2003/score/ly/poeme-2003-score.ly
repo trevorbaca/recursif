@@ -5,7 +5,7 @@
 
 \version "2.7.0"
 \include "english.ly"
-\include "poeme-recursif-2003-data.ly"
+\include "poeme-2003-parts.ly"
 
 #(set-default-paper-size "tabloid" 'portrait)
 #(set-global-staff-size 8.50)
