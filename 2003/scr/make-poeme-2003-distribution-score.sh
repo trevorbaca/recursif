@@ -1,16 +1,17 @@
 #! /usr/bin/env sh
 
 
-SCOREDIR=~/Documents/scores/recursif/2003/_distribution/score
-SCORENAME=poeme-2003-distribution-score
+FILENAME=poeme-2003-distribution-score
+INPUTDIR=~/Documents/scores/recursif/2003/score/tex
+OUTPUTDIR=~/Documents/score/recursif/2003/_distribution
 
-pdflatex --jobname=${SCORENAME} \
-   -output-directory=${SCOREDIR} \
-   glue-poeme-2003-distribution-score.tex
+pdflatex --jobname=${FILENAME} \
+   -output-directory=${OUTPUTDIR} \
+   ${INPUTDIR}/glue-${FILENAME}.tex
 
 clear
-rmlx ${SCOREDIR}
+rmlx ${OUTPUTDIR}
 
 echo "Distribution score complete.\n"
-echo "Directory: ${SCOREDIR}\n"
-echo "File:      ${SCORENAME}.pdf\n"
+echo "Directory: ${OUTPUTDIR}"
+echo "File:      ${FILENAME}.pdf\n"
