@@ -3,7 +3,7 @@
 
 FILENAME=poeme-2003-distribution-score
 INPUTDIR=~/Documents/scores/recursif/2003/score/tex
-OUTPUTDIR=~/Documents/score/recursif/2003/_distribution
+OUTPUTDIR=~/Documents/scores/recursif/2003/_distribution
 
 pdflatex --jobname=${FILENAME} \
    -output-directory=${OUTPUTDIR} \
