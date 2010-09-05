@@ -7,7 +7,7 @@ OUTPUTDIR=~/Documents/scores/recursif/2003/_distribution
 
 pdflatex --jobname=${FILENAME} \
    -output-directory=${OUTPUTDIR} \
-   ${INPUTDIR}/glue-${FILENAME}.tex
+   ${INPUTDIR}/${FILENAME}.tex
 
 clear
 rmlx ${OUTPUTDIR}
