@@ -2,8 +2,8 @@
 
 
 FILENAME=poeme-2005-distribution-score
-INPUTDIR=~/Documents/scores/recursif/2005/score/tex
-OUTPUTDIR=~/Documents/scores/recursif/2005/_distribution
+INPUTDIR=~/Documents/scores/recursif/2005/mus/score/tex
+OUTPUTDIR=~/Documents/scores/recursif/2005/dist
 
 pdflatex --jobname=${FILENAME} \
    -output-directory=${OUTPUTDIR} \
