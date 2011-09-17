@@ -28,15 +28,15 @@ def make_poeme_2003_page_n(n):
             tuplet = tuplettools.make_diminished_tuplet_from_duration_and_proportions_and_avoid_dots(*args)
          staff.append(tuplet)
       staff_group.append(staff)
-   lily_file = lilyfiletools.make_basic_lily_file(score)
-   del(lily_file[:-1])
-   lily_file.insert(0, '\n'.join([
+   lilypond_file = lilypondfiletools.make_basic_lilypond_file(score)
+   del(lilypond_file[:-1])
+   lilypond_file.insert(0, '\n'.join([
       r'\version "2.13.31"',
       r'\include "english.ly"',
       r'\include "/Users/trevorbaca/Documents/abjad/trunk/abjad/cfg/abjad.scm"',
       r'\include "poeme-2003-paper-settings.ly"',
       r'\include "poeme-2003-layout-settings.ly"',
       ]))
-   lily_file.default_paper_size = '11x17', 'portrait'
-   lily_file.global_staff_size = 8.5
-   return lily_file
+   lilypond_file.default_paper_size = '11x17', 'portrait'
+   lilypond_file.global_staff_size = 8.5
+   return lilypond_file

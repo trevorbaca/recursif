@@ -10,8 +10,8 @@ def make_all_score_page_lys(page_directory):
       file_name = page_directory + 'poeme-2003-page-%s.ly'
       file_name %= str(page_number).zfill(2)
       #iotools.write_expr_to_ly(page_score, file_name)
-      lily_file = file(file_name, 'w')
-      lily_file.write(page_score.format)
+      lilypond_file = file(file_name, 'w')
+      lilypond_file.write(page_score.format)
 
 
 if __name__ == '__main__':
