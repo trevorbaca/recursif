@@ -1,7 +1,7 @@
 from make_integer_divisions_for_part_n_measures_x_to_y import make_integer_divisions_for_part_n_measures_x_to_y
 
 
-def test_make_integer_divisions_for_part_n_measures_x_to_y( ):
+def test_make_integer_divisions_for_part_n_measures_x_to_y():
 
    assert make_integer_divisions_for_part_n_measures_x_to_y(2, 1, 16) == \
       [0, 7, 6, 5, 4, 3, 2, 1, 0, 7, 6, 5, 4, 3, 2, 1]

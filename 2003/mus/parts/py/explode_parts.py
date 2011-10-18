@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 import os
 
-def explode_parts( ):
+def explode_parts():
    cur_part = 1
    part_file = None
    score_directory = '/Users/trevorbaca/Documents/scores/recursif/2003'
    share_directory = '/Users/trevorbaca/Documents/scores/recursif/_share'
    input = file('%s/parts/ly/poeme-2003-parts.ly' % score_directory)
-   for line in input.readlines( ):
+   for line in input.readlines():
       #print line
       if '=' in line:
          part_number_string = str(cur_part).zfill(2)
@@ -44,7 +44,7 @@ def explode_parts( ):
          footer += ' %s of 64" } }\n' % cur_part
          part_file.write(footer)
          part_file.write('}')
-         part_file.close( )
+         part_file.close()
          part_file = None
          cur_part += 1
       elif 'applycontext' in line:
@@ -52,8 +52,8 @@ def explode_parts( ):
       else:
          if part_file is not None:
             part_file.write('\t\t' + line)
-   input.close( )
+   input.close()
 
 
 if __name__ == '__main__':
-   explode_parts( ) 
+   explode_parts() 

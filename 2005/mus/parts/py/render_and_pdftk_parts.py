@@ -1,22 +1,22 @@
 import os
 
 
-def make_score_ly_files( ):
+def make_score_ly_files():
    print 'making score ly files ...'
    for part_number in range(1, 65):
       part_template = file('ly/part-template.ly', 'r')
       score_ly_file = file('ly/parts/%s.ly' % str(part_number).zfill(2), 'w')
-      for line in part_template.readlines( ):
+      for line in part_template.readlines():
          if 'part-99' in line:
             line = line.replace('99', str(part_number).zfill(2))
          elif '99 of 64' in line:
             line = line.replace('99', str(part_number))
          score_ly_file.write(line)
-      score_ly_file.close( )
-      part_template.close( )
+      score_ly_file.close()
+      part_template.close()
 
 
-def render_score_pdfs( ):
+def render_score_pdfs():
    print 'rendering pdfs ...'
    for part_number in range(1, 65):
       part_number_string = str(part_number).zfill(2)
@@ -27,7 +27,7 @@ def render_score_pdfs( ):
    os.system('rm ly/parts/*.ps')
 
 
-def glom_score_pdfs( ):
+def glom_score_pdfs():
    print 'glomming pdfs ...'
    pdftk_command = 'pdftk %s cat output poeme-2005-parts.pdf'
    pdf_file_names = [ ]
@@ -41,7 +41,7 @@ def glom_score_pdfs( ):
 
 
 if __name__ == '__main__':
-   make_score_ly_files( )
-   render_score_pdfs( )
-   glom_score_pdfs( )
+   make_score_ly_files()
+   render_score_pdfs()
+   glom_score_pdfs()
    print 'done.'
