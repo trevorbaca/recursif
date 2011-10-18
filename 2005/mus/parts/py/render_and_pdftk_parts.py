@@ -30,7 +30,7 @@ def render_score_pdfs():
 def glom_score_pdfs():
    print 'glomming pdfs ...'
    pdftk_command = 'pdftk %s cat output poeme-2005-parts.pdf'
-   pdf_file_names = [ ]
+   pdf_file_names = []
    for file_name in os.listdir('pdf/'):
       if file_name.endswith('.pdf'):
          pdf_file_names.append(file_name)

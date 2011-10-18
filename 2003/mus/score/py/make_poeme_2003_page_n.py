@@ -11,11 +11,11 @@ def make_poeme_2003_page_n(n):
    measures_in_page = range(first_measure_on_page, last_measure_on_page + 1)
    duration = Fraction(1, 2)
 
-   score = Score([scoretools.StaffGroup([ ])])
+   score = Score([scoretools.StaffGroup([])])
    staff_group = score[0]
    marktools.TimeSignatureMark(1, 2, target_context = Score)(score)
    for part_number in range(1, 64 + 1):
-      staff = stafftools.make_rhythmic_staff([ ])
+      staff = stafftools.make_rhythmic_staff([])
       staff.set.instrument_name = markuptools.Markup(r'\bold \fontsize #4 {"%s" \hspace #2 ""}' % part_number)
       args = (part_number, first_measure_on_page, last_measure_on_page)
       integer_divisions = make_integer_divisions_for_part_n_measures_x_to_y(*args)
