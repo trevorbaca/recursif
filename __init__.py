@@ -3,6 +3,7 @@ from abjad.tools import instrumenttools
 from abjad.tools import scoretools
 from collections import OrderedDict
 
+
 tags = OrderedDict([
     ('composer', 'Trevor Ba\xc4\x8da'),
     ('forces_tagline', 'for 64 pieces of percussion'),
