@@ -1,15 +1,15 @@
-from abjad.tools import iotools
-from make_poeme_2003_page_n import make_poeme_2003_page_n
 import os
+from abjad import *
+from make_poeme_2003_page_n import make_poeme_2003_page_n
 
 
 def make_all_score_page_lys(page_directory):
     for page_number in range(1, 1 + 1):
-        print 'Making Poeme recursif (2003) page %s ...' % page_number
+        print 'Making Poeme recursif (2003) page {} ...'.format(page_number)
         page_score = make_poeme_2003_page_n(page_number)
-        file_name = page_directory + 'poeme-2003-page-%s.ly'
-        file_name %= str(page_number).zfill(2)
-        #iotools.write_expr_to_ly(page_score, file_name)
+        file_name = page_directory + 'poeme-2003-page-{}.ly'
+        file_name = file_name.format(str(page_number).zfill(2))
+        #persist(page_score).as_ly(file_name)
         lilypond_file = file(file_name, 'w')
         lilypond_file.write(page_score.format)
 
