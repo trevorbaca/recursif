@@ -57,6 +57,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             markup = markup.bold()
             markup = markup.hcenter_in(12)
             set_(staff).instrument_name = markup
+            set_(staff).short_instrument_name = markup
             staves.append(staff)
 
         # make staff group
