@@ -4,23 +4,32 @@ from abjad import *
 from experimental.tools import makertools
 
 
+class ScoreTemplate(abctools.AbjadValueObject):
+
+    def __call__(self):
+        staves = []
+        for staff_index in range(64):
+            staff_number = staff_index + 1
+            staff = Staff()
+            markup = Markup(staff_number)
+            markup = markup.scale((1.5, 1.5))
+            markup = markup.bold()
+            markup = markup.hcenter_in(12)
+            set_(staff).instrument_name = markup
+            set_(staff).short_instrument_name = markup
+            staves.append(staff)
+        staff_group = scoretools.StaffGroup(
+            staves,
+            name='Staff Group',
+            )
+        score = Score(
+            [staff_group], 
+            name='Score',
+            )
+        return score
+
+
 class SegmentMaker(makertools.SegmentMaker):
-    r'''Poème récursif (2003) segment maker.
-    '''
-
-    ### CLASS ATTRIBUTES ###
-
-    __slots__ = (
-        '_final_barline',
-        '_final_markup',
-        '_final_markup_extra_offset',
-        '_lilypond_file',
-        '_measure_duration',
-        '_page_number',
-        '_score',
-        )
-
-    ### INITIALIZER ###
 
     def __init__(
         self,
@@ -35,21 +44,17 @@ class SegmentMaker(makertools.SegmentMaker):
         superclass = super(SegmentMaker, self)
         superclass.__init__(name=name)
         final_barline = bool(final_barline)
-        self._final_barline = final_barline
+        self.final_barline = final_barline
         assert isinstance(final_markup, (Markup, type(None)))
-        self._final_markup = final_markup
-        self._final_markup_extra_offset = final_markup_extra_offset
+        self.final_markup = final_markup
+        self.final_markup_extra_offset = final_markup_extra_offset
         measure_duration = Duration(measure_duration)
-        self._measure_duration = measure_duration
-        self._page_number = page_number
+        self.measure_duration = measure_duration
+        self.page_number = page_number
 
     ### SPECIAL METHODS ###
 
     def __call__(self):
-        r'''Calls segment-maker.
-
-        Returns LilyPond file.
-        '''
         self._make_score()
         self._make_music()
         self._add_final_barline()
@@ -82,9 +87,6 @@ class SegmentMaker(makertools.SegmentMaker):
         lilypond_file = self._lilypond_file
         lilypond_file.use_relative_includes = True
         path = os.path.join(
-            '..',
-            '..',
-            'stylesheets',
             'stylesheet.ily',
             )
         lilypond_file.file_initial_user_includes.append(path)
@@ -136,39 +138,6 @@ class SegmentMaker(makertools.SegmentMaker):
     ### PUBLIC PROPERTIES ###
 
     @property
-    def final_barline(self):
-        r'''Is true when final barline should appear at end of segment.
-        Otherwise false.
-
-        Returns boolean.
-        '''
-        return self._final_barline
-
-    @property
-    def final_markup(self):
-        r'''Gets final markup of segment.
-
-        Set to markup or none.
-        '''
-        return self._final_markup
-
-    @property
-    def final_markup_extra_offset(self):
-        r'''Gets extra offset of segment final markup.
-
-        Set to pair or none.
-        '''
-        return self._final_markup_extra_offset
-
-    @property
-    def measure_duration(self):
-        r'''Gets measure duration of segment.
-
-        Returns duration.
-        '''
-        return self._measure_duration
-
-    @property
     def measure_numbers(self):
         r'''Gets (one-indexed) measure numbers of segment.
 
@@ -179,10 +148,16 @@ class SegmentMaker(makertools.SegmentMaker):
         measure_numbers = range(start_measure_number, stop_measure_number+1)
         return measure_numbers
 
-    @property
-    def page_number(self):
-        r'''Gets page number of segment.
 
-        Returns positive integer.
-        '''
-        return self._page_number
+if __name__ == '__main__':
+    output_directory = os.path.join('~', 'Desktop')
+    for page_number in range(1, 16+1):
+        maker = SegmentMaker(page_number=page_number)
+        lilypond_file = maker()
+        file_name = 'page-%02d.py' % page_number
+        output_file = os.path.join(output_directory, file_name)
+        message = 'Rendering page {} ...'.format(page_number)
+        print(message)
+        persist(lilypond_file).as_pdf(output_file)
+    message = 'Done.'
+    print(message)
