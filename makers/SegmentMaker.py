@@ -27,6 +27,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self,
         final_barline=False,
         final_markup=None,
+        final_markup_extra_offset=None,
         measure_duration=Duration(1, 2),
         page_number=None,
         ):
@@ -38,6 +39,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._final_barline = final_barline
         assert isinstance(final_markup, (Markup, type(None)))
         self._final_markup = final_markup
+        self._final_markup_extra_offset = final_markup_extra_offset
         measure_duration = Duration(measure_duration)
         self._measure_duration = measure_duration
         self._page_number = page_number
@@ -67,7 +69,7 @@ class SegmentMaker(makertools.SegmentMaker):
     def _add_final_barline(self):
         if not self.final_barline:
             return
-        self._score.add_final_bar_line(to_each_voice=True)
+        self._score.add_final_bar_line()
 
     def _add_final_markup(self):
         if self.final_markup is None:
@@ -94,8 +96,10 @@ class SegmentMaker(makertools.SegmentMaker):
     def _make_lilypond_file(self):
         lilypond_file = lilypondfiletools.make_basic_lilypond_file(self._score)
         for item in lilypond_file.items[:]:
-            if getattr(item, 'name', None) in ('layout', 'paper'):
+            if getattr(item, 'name', None) == 'layout':
                 lilypond_file.items.remove(item)
+            elif getattr(item, 'name', None) == 'paper':
+                item.first_page_number = self.page_number
         self._lilypond_file = lilypond_file
 
     def _make_music(self):
@@ -103,8 +107,7 @@ class SegmentMaker(makertools.SegmentMaker):
         for staff_index, staff in enumerate(staves):
             staff_number = staff_index + 1
             for measure_number in self.measure_numbers:
-                measure_index = measure_number - 1
-                n = 255 + staff_number - measure_index
+                n = 255 + staff_number - measure_number
                 k = staff_number - 1
                 note_count = int(mathtools.binomial_coefficient(n, k) % 8)
                 if 0 < note_count:
@@ -124,6 +127,8 @@ class SegmentMaker(makertools.SegmentMaker):
         from recursif import makers
         template = makers.ScoreTemplate()
         score = template()
+        first_measure_number = self.measure_numbers[0]
+        set_(score).current_bar_number = first_measure_number
         for staff in iterate(score).by_class(Staff):
             time_signature = TimeSignature(self.measure_duration)
             attach(time_signature, staff)

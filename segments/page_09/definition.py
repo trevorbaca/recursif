@@ -5,5 +5,5 @@ from recursif import makers
 
 ### INITIALIZATION ###
 segment_maker = makers.SegmentMaker(
-    page_number=1,
+    page_number=9,
     )
