@@ -21,27 +21,85 @@ class ScoreTemplate(abctools.AbjadValueObject):
         
             >>> f(score)
             \context Score = "Score" <<
-                \new Staff \with {
-                    instrumentName = \markup { 1 }
-                } {
-                }
-                \new Staff \with {
-                    instrumentName = \markup { 2 }
-                } {
-                }
-                ...
-                \new Staff \with {
-                    instrumentName = \markup { 62 }
-                } {
-                }
-                \new Staff \with {
-                    instrumentName = \markup { 63 }
-                } {
-                }
-                \new Staff \with {
-                    instrumentName = \markup { 64 }
-                } {
-                }
+                \context StaffGroup = "Staff Group" <<
+                    \new Staff \with {
+                        instrumentName = \markup {
+                            \hcenter-in
+                                #12
+                                \bold
+                                    \scale
+                                        #'(1.5 . 1.5)
+                                        1
+                            }
+                        shortInstrumentName = \markup {
+                            \hcenter-in
+                                #12
+                                \bold
+                                    \scale
+                                        #'(1.5 . 1.5)
+                                        1
+                            }
+                    } {
+                    }
+                    \new Staff \with {
+                        instrumentName = \markup {
+                            \hcenter-in
+                                #12
+                                \bold
+                                    \scale
+                                        #'(1.5 . 1.5)
+                                        2
+                            }
+                        shortInstrumentName = \markup {
+                            \hcenter-in
+                                #12
+                                \bold
+                                    \scale
+                                        #'(1.5 . 1.5)
+                                        2
+                            }
+                    } {
+                    }
+                    ...
+                    \new Staff \with {
+                        instrumentName = \markup {
+                            \hcenter-in
+                                #12
+                                \bold
+                                    \scale
+                                        #'(1.5 . 1.5)
+                                        63
+                            }
+                        shortInstrumentName = \markup {
+                            \hcenter-in
+                                #12
+                                \bold
+                                    \scale
+                                        #'(1.5 . 1.5)
+                                        63
+                            }
+                    } {
+                    }
+                    \new Staff \with {
+                        instrumentName = \markup {
+                            \hcenter-in
+                                #12
+                                \bold
+                                    \scale
+                                        #'(1.5 . 1.5)
+                                        64
+                            }
+                        shortInstrumentName = \markup {
+                            \hcenter-in
+                                #12
+                                \bold
+                                    \scale
+                                        #'(1.5 . 1.5)
+                                        64
+                            }
+                    } {
+                    }
+                >>
             >>
 
         Returns score.
