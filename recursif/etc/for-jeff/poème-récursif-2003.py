@@ -125,8 +125,8 @@ class SegmentMaker(makertools.SegmentMaker):
                     staff.append(rest)
             
     def _make_score(self):
-        from recursif import makers
-        template = makers.ScoreTemplate()
+        import recursif
+        template = recursif.tools.ScoreTemplate()
         score = template()
         first_measure_number = self.measure_numbers[0]
         set_(score).current_bar_number = first_measure_number

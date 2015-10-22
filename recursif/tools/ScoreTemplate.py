@@ -13,8 +13,8 @@ class ScoreTemplate(abctools.AbjadValueObject):
 
         ::
 
-            >>> from recursif import makers
-            >>> template = makers.ScoreTemplate()
+            >>> import recursif
+            >>> template = recursif.tools.ScoreTemplate()
             >>> score = template()
 
         ::
@@ -104,7 +104,6 @@ class ScoreTemplate(abctools.AbjadValueObject):
 
         Returns score.
         '''
-
         # makes staves
         staves = []
         for staff_index in range(64):
@@ -117,18 +116,15 @@ class ScoreTemplate(abctools.AbjadValueObject):
             set_(staff).instrument_name = markup
             set_(staff).short_instrument_name = markup
             staves.append(staff)
-
         # make staff group
         staff_group = scoretools.StaffGroup(
             staves,
             name='Staff Group',
             )
-
         # makes score
         score = Score(
             [staff_group], 
             name='Score',
             )
-        
         # returns score
         return score

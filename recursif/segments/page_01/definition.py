@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 from abjad import *
-from recursif import makers
+import recursif
 
 
 ### INITIALIZATION ###
-segment_maker = makers.SegmentMaker(
+segment_maker = recursif.tools.SegmentMaker(
     page_number=1,
     )
