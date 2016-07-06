@@ -5,7 +5,7 @@ from experimental.tools import makertools
 
 
 class SegmentMaker(makertools.SegmentMaker):
-    r'''Poème récursif (2003) segment maker.
+    r'''Poème récursif (2003) segment-maker.
     '''
 
     ### CLASS ATTRIBUTES ###
