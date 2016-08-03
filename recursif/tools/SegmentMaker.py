@@ -1,11 +1,17 @@
 # -*- coding: utf-8 -*-
+import abjad
+import experimental
 import os
-from abjad import *
-from experimental.tools import makertools
+import recursif
 
 
-class SegmentMaker(makertools.SegmentMaker):
-    r'''Poème récursif (2003) segment-maker.
+class SegmentMaker(experimental.makertools.SegmentMaker):
+    r'''Segment-maker.
+
+    ::
+
+        >>> import recursif
+
     '''
 
     ### CLASS ATTRIBUTES ###
@@ -27,41 +33,49 @@ class SegmentMaker(makertools.SegmentMaker):
         final_barline=False,
         final_markup=None,
         final_markup_extra_offset=None,
-        measure_duration=Duration(1, 2),
+        measure_duration=abjad.Duration(1, 2),
         page_number=None,
         ):
         assert isinstance(page_number, int), repr(page_number)
-        name = 'page {}'.format(page_number)
         superclass = super(SegmentMaker, self)
-        superclass.__init__(name=name)
+        superclass.__init__()
         final_barline = bool(final_barline)
         self._final_barline = final_barline
-        assert isinstance(final_markup, (Markup, type(None)))
+        assert isinstance(final_markup, (abjad.Markup, type(None)))
         self._final_markup = final_markup
         self._final_markup_extra_offset = final_markup_extra_offset
-        measure_duration = Duration(measure_duration)
+        measure_duration = abjad.Duration(measure_duration)
         self._measure_duration = measure_duration
         self._page_number = page_number
 
     ### SPECIAL METHODS ###
 
-    def __call__(self):
+    def __call__(
+        self,
+        segment_metadata=None,
+        previous_segment_metadata=None,
+        ):
         r'''Calls segment-maker.
 
         Returns LilyPond file.
         '''
+        self._segment_metadata = segment_metadata or \
+            abjad.datastructuretools.TypedOrderedDict()
+        self._previous_segment_metadata = previous_segment_metadata or \
+            abjad.datastructuretools.TypedOrderedDict()
         self._make_score()
         self._make_music()
         self._add_final_barline()
         self._add_final_markup()
         self._make_lilypond_file()
         self._configure_lilypond_file()
-        score_block = self.lilypond_file['score']
+        score_block = self._lilypond_file['score']
         score = score_block['Score']
-        if not inspect_(score).is_well_formed():
-            string = inspect_(score).tabulate_well_formedness_violations()
+        if not abjad.inspect_(score).is_well_formed():
+            inspector = abjad.inspect_(score)
+            string = inspector.tabulate_well_formedness_violations()
             raise Exception(string)
-        return self.lilypond_file
+        return self._lilypond_file, self._segment_metadata
 
     ### PRIVATE METHODS ###
 
@@ -80,20 +94,20 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _configure_lilypond_file(self):
         lilypond_file = self._lilypond_file
-        lilypond_file.use_relative_includes = True
+        lilypond_file._use_relative_includes = True
         path = os.path.join(
             '..',
             '..',
             'stylesheets',
             'stylesheet.ily',
             )
-        lilypond_file.file_initial_user_includes.append(path)
-        if not self.name == 'page 1':
-            lilypond_file.header_block.title = None
-            lilypond_file.header_block.composer = None
+        lilypond_file._includes = (path,)
+        lilypond_file.header_block.title = None
+        lilypond_file.header_block.composer = None
 
     def _make_lilypond_file(self):
-        lilypond_file = lilypondfiletools.make_basic_lilypond_file(self._score)
+        lilypond_file = abjad.lilypondfiletools.make_basic_lilypond_file(
+            self._score)
         for item in lilypond_file.items[:]:
             if getattr(item, 'name', None) == 'layout':
                 lilypond_file.items.remove(item)
@@ -102,35 +116,35 @@ class SegmentMaker(makertools.SegmentMaker):
         self._lilypond_file = lilypond_file
 
     def _make_music(self):
-        staves = iterate(self._score).by_class(Staff)
+        staves = abjad.iterate(self._score).by_class(abjad.Staff)
         for staff_index, staff in enumerate(staves):
             staff_number = staff_index + 1
             for measure_number in self.measure_numbers:
                 n = 255 + staff_number - measure_number
                 k = staff_number - 1
-                note_count = int(mathtools.binomial_coefficient(n, k) % 8)
+                note_count = int(
+                    abjad.mathtools.binomial_coefficient(n, k) % 8)
                 if 0 < note_count:
-                    ratio = mathtools.Ratio(note_count * [1])
-                    tuplet = Tuplet.from_duration_and_ratio(
+                    ratio = abjad.mathtools.Ratio(note_count * [1])
+                    tuplet = abjad.Tuplet.from_duration_and_ratio(
                         self.measure_duration,
                         ratio,
                         )
                     staff.append(tuplet)
                     for note in tuplet:
-                        note.written_pitch = NamedPitch('B4')
+                        note.written_pitch = abjad.NamedPitch('B4')
                 else:
-                    rest = Rest(self.measure_duration)
+                    rest = abjad.Rest(self.measure_duration)
                     staff.append(rest)
             
     def _make_score(self):
-        import recursif
         template = recursif.tools.ScoreTemplate()
         score = template()
         first_measure_number = self.measure_numbers[0]
-        set_(score).current_bar_number = first_measure_number
-        for staff in iterate(score).by_class(Staff):
-            time_signature = TimeSignature(self.measure_duration)
-            attach(time_signature, staff)
+        abjad.set_(score).current_bar_number = first_measure_number
+        for staff in abjad.iterate(score).by_class(abjad.Staff):
+            time_signature = abjad.TimeSignature(self.measure_duration)
+            abjad.attach(time_signature, staff)
         self._score = score
 
     ### PUBLIC PROPERTIES ###

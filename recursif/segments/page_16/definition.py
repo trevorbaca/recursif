@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 import recursif
 
 
-### INITIALIZATION ###
-final_markup = Markup('[Austin. August 2003]')
+final_markup = abjad.Markup('[Austin. August 2003]')
 final_markup = final_markup.scale((1.75, 1.75))
+
 segment_maker = recursif.tools.SegmentMaker(
     final_barline=True,
     final_markup=final_markup,
