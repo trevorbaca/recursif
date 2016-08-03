@@ -3,7 +3,7 @@ import collections
 
 
 metadata = collections.OrderedDict([
-    ('catalog_number', 'AWN-001'),
+    ('catalog_number', 'AWN-000-PR'),
     ('composer', 'Trevor Ba\xc4\x8da'),
     ('forces_tagline', 'for 64 pieces of percussion'),
     ('paper_size', '11 x 17 in'),
