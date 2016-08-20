@@ -17,7 +17,7 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
     ### CLASS ATTRIBUTES ###
 
     __slots__ = (
-        '_final_barline',
+        '_final_bar_line',
         '_final_markup',
         '_final_markup_extra_offset',
         '_lilypond_file',
@@ -30,7 +30,7 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
 
     def __init__(
         self,
-        final_barline=False,
+        final_bar_line=False,
         final_markup=None,
         final_markup_extra_offset=None,
         measure_duration=abjad.Duration(1, 2),
@@ -39,8 +39,8 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
         assert isinstance(page_number, int), repr(page_number)
         superclass = super(SegmentMaker, self)
         superclass.__init__()
-        final_barline = bool(final_barline)
-        self._final_barline = final_barline
+        final_bar_line = bool(final_bar_line)
+        self._final_bar_line = final_bar_line
         assert isinstance(final_markup, (abjad.Markup, type(None)))
         self._final_markup = final_markup
         self._final_markup_extra_offset = final_markup_extra_offset
@@ -65,7 +65,7 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
             abjad.datastructuretools.TypedOrderedDict()
         self._make_score()
         self._make_music()
-        self._add_final_barline()
+        self._add_final_bar_line()
         self._add_final_markup()
         self._make_lilypond_file()
         self._configure_lilypond_file()
@@ -79,8 +79,8 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
 
     ### PRIVATE METHODS ###
 
-    def _add_final_barline(self):
-        if not self.final_barline:
+    def _add_final_bar_line(self):
+        if not self.final_bar_line:
             return
         self._score.add_final_bar_line()
 
@@ -150,13 +150,13 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
     ### PUBLIC PROPERTIES ###
 
     @property
-    def final_barline(self):
-        r'''Is true when final barline should appear at end of segment.
+    def final_bar_line(self):
+        r'''Is true when final bar line should appear at end of segment.
         Otherwise false.
 
         Returns boolean.
         '''
-        return self._final_barline
+        return self._final_bar_line
 
     @property
     def final_markup(self):
