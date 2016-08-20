@@ -33,7 +33,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def __init__(
         self,
-        final_barline=False,
+        final_bar_line=False,
         final_markup=None,
         final_markup_extra_offset=None,
         measure_duration=Duration(1, 2),
@@ -43,8 +43,8 @@ class SegmentMaker(makertools.SegmentMaker):
         name = 'page {}'.format(page_number)
         superclass = super(SegmentMaker, self)
         superclass.__init__(name=name)
-        final_barline = bool(final_barline)
-        self.final_barline = final_barline
+        final_bar_line = bool(final_bar_line)
+        self.final_bar_line = final_bar_line
         assert isinstance(final_markup, (Markup, type(None)))
         self.final_markup = final_markup
         self.final_markup_extra_offset = final_markup_extra_offset
@@ -57,7 +57,7 @@ class SegmentMaker(makertools.SegmentMaker):
     def __call__(self):
         self._make_score()
         self._make_music()
-        self._add_final_barline()
+        self._add_final_bar_line()
         self._add_final_markup()
         self._make_lilypond_file()
         self._configure_lilypond_file()
@@ -70,8 +70,8 @@ class SegmentMaker(makertools.SegmentMaker):
 
     ### PRIVATE METHODS ###
 
-    def _add_final_barline(self):
-        if not self.final_barline:
+    def _add_final_bar_line(self):
+        if not self.final_bar_line:
             return
         self._score.add_final_bar_line()
 
