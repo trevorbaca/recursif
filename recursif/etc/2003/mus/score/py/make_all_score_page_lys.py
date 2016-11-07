@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
+import abjad
 import os
-from abjad import *
 from make_poeme_2003_page_n import make_poeme_2003_page_n
 
 

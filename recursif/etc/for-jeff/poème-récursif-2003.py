@@ -1,35 +1,39 @@
 # -*- coding: utf-8 -*-
+import abjad
+import baca
 import os
-from abjad import *
-from experimental.tools import makertools
 
 
-class ScoreTemplate(abctools.AbjadValueObject):
+class ScoreTemplate(abjad.abctools.AbjadValueObject):
+    r'''Score template.
+    '''
 
     def __call__(self):
         staves = []
         for staff_index in range(64):
             staff_number = staff_index + 1
-            staff = Staff()
-            markup = Markup(staff_number)
+            staff = abjad.Staff()
+            markup = abjad.Markup(staff_number)
             markup = markup.scale((1.5, 1.5))
             markup = markup.bold()
             markup = markup.hcenter_in(12)
             set_(staff).instrument_name = markup
             set_(staff).short_instrument_name = markup
             staves.append(staff)
-        staff_group = scoretools.StaffGroup(
+        staff_group = abjad.StaffGroup(
             staves,
             name='Staff Group',
             )
-        score = Score(
+        score = abjad.Score(
             [staff_group], 
             name='Score',
             )
         return score
 
 
-class SegmentMaker(makertools.SegmentMaker):
+class SegmentMaker(baca.tools.SegmentMaker):
+    r'''Segment-maker.
+    '''
 
     def __init__(
         self,
@@ -45,16 +49,20 @@ class SegmentMaker(makertools.SegmentMaker):
         superclass.__init__(name=name)
         final_bar_line = bool(final_bar_line)
         self.final_bar_line = final_bar_line
-        assert isinstance(final_markup, (Markup, type(None)))
+        assert isinstance(final_markup, (abjad.Markup, type(None)))
         self.final_markup = final_markup
         self.final_markup_extra_offset = final_markup_extra_offset
-        measure_duration = Duration(measure_duration)
+        measure_duration = abjad.Duration(measure_duration)
         self.measure_duration = measure_duration
         self.page_number = page_number
 
     ### SPECIAL METHODS ###
 
     def __call__(self):
+        r'''Calls segment-maker.
+
+        Returns LilyPond file.
+        '''
         self._make_score()
         self._make_music()
         self._add_final_bar_line()
@@ -95,7 +103,8 @@ class SegmentMaker(makertools.SegmentMaker):
             lilypond_file.header_block.composer = None
 
     def _make_lilypond_file(self):
-        lilypond_file = lilypondfiletools.make_basic_lilypond_file(self._score)
+        lilypond_file = abjad.lilypondfiletools.make_basic_lilypond_file(
+            self._score)
         for item in lilypond_file.items[:]:
             if getattr(item, 'name', None) == 'layout':
                 lilypond_file.items.remove(item)
@@ -104,24 +113,25 @@ class SegmentMaker(makertools.SegmentMaker):
         self._lilypond_file = lilypond_file
 
     def _make_music(self):
-        staves = iterate(self._score).by_class(Staff)
+        staves = iterate(self._score).by_class(abjad.Staff)
         for staff_index, staff in enumerate(staves):
             staff_number = staff_index + 1
             for measure_number in self.measure_numbers:
                 n = 255 + staff_number - measure_number
                 k = staff_number - 1
-                note_count = int(mathtools.binomial_coefficient(n, k) % 8)
+                note_count = int(
+                    abjad.mathtools.binomial_coefficient(n, k) % 8)
                 if 0 < note_count:
-                    ratio = mathtools.Ratio(note_count * [1])
-                    tuplet = Tuplet.from_duration_and_ratio(
+                    ratio = abjad.Ratio(note_count * [1])
+                    tuplet = abjad.Tuplet.from_duration_and_ratio(
                         self.measure_duration,
                         ratio,
                         )
                     staff.append(tuplet)
                     for note in tuplet:
-                        note.written_pitch = NamedPitch('B4')
+                        note.written_pitch = abjad.NamedPitch('B4')
                 else:
-                    rest = Rest(self.measure_duration)
+                    rest = abjad.Rest(self.measure_duration)
                     staff.append(rest)
             
     def _make_score(self):
@@ -130,8 +140,8 @@ class SegmentMaker(makertools.SegmentMaker):
         score = template()
         first_measure_number = self.measure_numbers[0]
         set_(score).current_bar_number = first_measure_number
-        for staff in iterate(score).by_class(Staff):
-            time_signature = TimeSignature(self.measure_duration)
+        for staff in iterate(score).by_class(abjad.Staff):
+            time_signature = abjad.TimeSignature(self.measure_duration)
             attach(time_signature, staff)
         self._score = score
 
