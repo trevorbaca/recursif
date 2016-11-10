@@ -1,1 +1,2 @@
--e git://github.com/Abjad/abjad.git#egg=abjad
+# Commented out because Travis config file clones Abjad:
+#-e git://github.com/Abjad/abjad.git#egg=abjad
