@@ -22,6 +22,7 @@ install:
 script:
     - ajv doctest ./recursif -x
     - py.test -rf ./recursif -x
+    - python ./recursif/test/test_segments.py
 
 notifications:
     email: false
