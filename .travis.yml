@@ -20,8 +20,8 @@ install:
     - pip install -e .
 
 script:
-    - ajv doctest ./recursif -x
-    - py.test -rf ./recursif -x
+    - ajv doctest -x ./recursif
+    - py.test -xrf ./recursif
     - python ./recursif/test/test_segments.py
 
 notifications:
