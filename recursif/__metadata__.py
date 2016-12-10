@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-import collections
+import abjad
 
 
-metadata = collections.OrderedDict([
+metadata = abjad.datastructuretools.TypedOrderedDict([
     ('catalog_number', 'AWN-000-PR'),
     ('composer', 'Trevor Bača'),
     ('forces_tagline', 'for 64 pieces of percussion'),
