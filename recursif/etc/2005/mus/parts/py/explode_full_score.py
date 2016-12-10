@@ -1,12 +1,14 @@
+# -*- coding: utf-8 -*-
 import os
 
-## Created 2009-12-15 while getting parts ready for B. Archinal. ##
-##
-## Write once, run once:
-##
-##    python -i explode_full_score.py
-##
-## The part files 01.ly, ..., 64.ly will be created.
+r'''
+Created 2009-12-15 while getting parts ready for B. Archinal. ##
+
+Write once, run once:
+
+    python -i explode_full_score.py
+
+The part files 01.ly, ..., 64.ly will be created. '''
 
 
 def explode_full_score():
