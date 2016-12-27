@@ -190,7 +190,7 @@ TupletBracket #'edge-height = #'(0.5 . 0.5)\>", \
 \[IndentingNewLine]"\<allowBeamBreak = ##t\>"\[IndentingNewLine]]\
 \[IndentingNewLine]];\)\), "\[IndentingNewLine]", 
     \(\(AppendTo[S, L];\)\), "\[IndentingNewLine]", 
-    \(\(SetDirectory["\<//Users//trevorbaca//Documents//music//rec2\>"];\)\), \
+    \(\(SetDirectory["\<//Users//trevorbaca//Scores//rec2\>"];\)\), \
 "\[IndentingNewLine]", 
     \(\(strm = OpenWrite["\<poeme-2005-2.ly\>"];\)\), "\[IndentingNewLine]", 
     \(\(WriteString[

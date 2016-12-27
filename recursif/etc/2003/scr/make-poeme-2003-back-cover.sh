@@ -2,8 +2,8 @@
 
 
 FILENAME=poeme-2003-back-cover
-INPUTDIR=~/Documents/scores/recursif/2003/score/tex
-OUTPUTDIR=~/Documents/scores/recursif/2003/score/pdf
+INPUTDIR=~/Scores/recursif/recursif/2003/score/tex
+OUTPUTDIR=~/Scores/recursif/recursif/2003/score/pdf
 
 pdflatex --jobname=${FILENAME} \
    -output-directory=${OUTPUTDIR} \
