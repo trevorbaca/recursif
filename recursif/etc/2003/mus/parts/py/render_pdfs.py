@@ -13,5 +13,5 @@ def render_pdfs(score_directory):
 
 
 if __name__ == '__main__':
-    score_directory = '/Users/trevorbaca/Documents/scores/recursif/2003/parts'
+    score_directory = '/Users/trevorbaca/scores/recursif/2003/parts'
     render_pdfs(score_directory)

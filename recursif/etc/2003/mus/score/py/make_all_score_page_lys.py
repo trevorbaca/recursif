@@ -17,6 +17,6 @@ def make_all_score_page_lys(page_directory):
 
 if __name__ == '__main__':
     os.system('clear')
-    page_directory = '/Users/trevorbaca/Documents/scores/recursif/2003/score/ly/'
+    page_directory = '/Users/trevorbaca/scores/recursif/2003/score/ly/'
     make_all_score_pages(page_directory)
     print ''

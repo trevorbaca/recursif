@@ -1,11 +1,11 @@
 \version "2.13.11"
 \include "english.ly"
-\include "/Users/trevorbaca/Documents/scores/recursif/_share/ly/parts-layout.ly"
+\include "/Users/trevorbaca/scores/recursif/_share/ly/parts-layout.ly"
 
 
 \new Score {
 	\new RhythmicStaff <<
-		\include "/Users/trevorbaca/Documents/scores/recursif/_share/ly/parts-line-breaking.ly"
+		\include "/Users/trevorbaca/scores/recursif/_share/ly/parts-line-breaking.ly"
 		{
 			\set RhythmicStaff.instrumentName = \markup { 60 \hspace #4 }
 			\set RhythmicStaff.shortInstrumentName = \markup { 60 \hspace #4 }

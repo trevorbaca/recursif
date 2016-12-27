@@ -3,7 +3,7 @@ import os
 
 
 def pdftk_pdfs():
-    score_directory = '/Users/trevorbaca/Documents/scores/recursif/2003/parts'
+    score_directory = '/Users/trevorbaca/scores/recursif/2003/parts'
     file_names = os.listdir('%s/pdf/' % score_directory)
     file_names = [x for x in file_names if x.endswith('.pdf')]
     file_names.sort()
