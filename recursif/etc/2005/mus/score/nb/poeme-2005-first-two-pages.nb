@@ -394,7 +394,7 @@ Cell[BoxData[{
    RowBox[{"S", ",", "L"}], "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
-  "SetDirectory", "[", "\"\<//Users//trevorbaca//Documents//music//rec2\>\"", 
+  "SetDirectory", "[", "\"\<//Users//trevorbaca//Scores//rec2\>\"", 
    "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"strm", "=", 
