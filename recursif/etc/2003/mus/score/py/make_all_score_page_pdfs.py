@@ -4,7 +4,7 @@ import os
 
 if __name__ == '__main__':
     os.system('clear')
-    score_directory = '/Users/trevorbaca/Documents/scores/recursif/2003/score/'
+    score_directory = '/Users/trevorbaca/scores/recursif/2003/score/'
     input_directory = os.path.join(score_directory, 'ly')
     output_directory = os.path.join(score_directory, 'pdf')
     for file_name in os.listdir(input_directory):

@@ -3,7 +3,7 @@
 
 \version "2.13.31"
 \include "english.ly"
-\include "/Users/trevorbaca/Documents/abjad/trunk/abjad/cfg/abjad.scm"
+\include "/Users/trevorbaca/abjad/trunk/abjad/cfg/abjad.scm"
 \include "poeme-2003-paper-settings.ly"
 \include "poeme-2003-layout-settings.ly"
 

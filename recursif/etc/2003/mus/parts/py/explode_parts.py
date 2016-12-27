@@ -4,8 +4,8 @@ import os
 def explode_parts():
     cur_part = 1
     part_file = None
-    score_directory = '/Users/trevorbaca/Documents/scores/recursif/2003'
-    share_directory = '/Users/trevorbaca/Documents/scores/recursif/_share'
+    score_directory = '/Users/trevorbaca/scores/recursif/2003'
+    share_directory = '/Users/trevorbaca/scores/recursif/_share'
     input = file('%s/parts/ly/poeme-2003-parts.ly' % score_directory)
     for line in input.readlines():
         #print line

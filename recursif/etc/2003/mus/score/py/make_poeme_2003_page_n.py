@@ -38,7 +38,7 @@ def make_poeme_2003_page_n(n):
     lilypond_file.insert(0, '\n'.join([
         r'\version "2.13.31"',
         r'\include "english.ly"',
-        r'\include "/Users/trevorbaca/Documents/abjad/trunk/abjad/cfg/abjad.scm"',
+        r'\include "/Users/trevorbaca/abjad/trunk/abjad/cfg/abjad.scm"',
         r'\include "poeme-2003-paper-settings.ly"',
         r'\include "poeme-2003-layout-settings.ly"',
         ]))
