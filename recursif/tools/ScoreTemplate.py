@@ -20,7 +20,7 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
 
         ..  container:: example
 
-            **Example.** Calls score template:
+            Calls score template:
 
             ::
 
