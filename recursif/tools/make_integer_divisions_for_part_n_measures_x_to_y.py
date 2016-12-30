@@ -11,9 +11,6 @@ def make_integer_divisions_for_part_n_measures_x_to_y(n, x, y):
 
     ..  container:: example
 
-        **Example.**
-
-
         ::
 
             >>> recursif.tools.make_integer_divisions_for_part_n_measures_x_to_y(2, 1, 16)
