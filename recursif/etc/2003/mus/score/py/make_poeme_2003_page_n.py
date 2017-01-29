@@ -21,16 +21,16 @@ def make_poeme_2003_page_n(n):
         string = r'\bold \fontsize #4 {"%s" \hspace #2 ""}'
         string %= part_number
         staff.set.instrument_name = abjad.Markup(string)
-        args = (part_number, first_measure_on_page, last_measure_on_page)
+        arguments = (part_number, first_measure_on_page, last_measure_on_page)
         integer_divisions = \
-            make_integer_divisions_for_part_n_measures_x_to_y(*args)
+            make_integer_divisions_for_part_n_measures_x_to_y(*arguments)
         for integer_division in integer_divisions:
             if integer_division == 0:
                 tuplet = abjad.Tuplet((1, 1), [abjad.Rest((1, 2))])
             else:
                 proportions = [1] * integer_division
-                args = (duration, proportions)
-                tuplet = abjad.Tuplet.make_diminished_tuplet_from_duration_and_proportions_and_avoid_dots(*args)
+                arguments = (duration, proportions)
+                tuplet = abjad.Tuplet.make_diminished_tuplet_from_duration_and_proportions_and_avoid_dots(*arguments)
             staff.append(tuplet)
         staff_group.append(staff)
     lilypond_file = abjad.lilypondfiletools.make_basic_lilypond_file(score)
