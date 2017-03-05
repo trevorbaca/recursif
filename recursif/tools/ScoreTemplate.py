@@ -104,7 +104,7 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
                 staff_number_word)
             context_name = 'Staff{}'.format(staff_number_word)
             name = 'Staff {}'.format(staff_number)
-            staff = abjad.scoretools.Staff(
+            staff = abjad.Staff(
                 context_name=context_name,
                 name=name,
                 )
@@ -115,7 +115,7 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
             abjad.set_(staff).instrument_name = markup
             abjad.set_(staff).short_instrument_name = markup
             staves.append(staff)
-        staff_group = abjad.scoretools.StaffGroup(
+        staff_group = abjad.StaffGroup(
             staves,
             name='Staff Group',
             )
