@@ -33,7 +33,7 @@ def make_poeme_2003_page_n(n):
                 tuplet = abjad.Tuplet.make_diminished_tuplet_from_duration_and_proportions_and_avoid_dots(*arguments)
             staff.append(tuplet)
         staff_group.append(staff)
-    lilypond_file = abjad.lilypondfiletools.make_basic_lilypond_file(score)
+    lilypond_file = abjad.LilyPondFile.new(score)
     del(lilypond_file[:-1])
     lilypond_file.insert(0, '\n'.join([
         r'\version "2.13.31"',
