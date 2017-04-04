@@ -106,8 +106,7 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
         lilypond_file.header_block.composer = None
 
     def _make_lilypond_file(self):
-        lilypond_file = abjad.lilypondfiletools.make_basic_lilypond_file(
-            self._score)
+        lilypond_file = abjad.LilyPondFile.new(self._score)
         for item in lilypond_file.items[:]:
             if getattr(item, 'name', None) == 'layout':
                 lilypond_file.items.remove(item)
