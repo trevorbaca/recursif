@@ -31,7 +31,7 @@ class ScoreTemplate(abjad.abctools.AbjadValueObject):
         return score
 
 
-class SegmentMaker(baca.tools.SegmentMaker):
+class SegmentMaker(baca.SegmentMaker):
     r'''Segment-maker.
     '''
 
