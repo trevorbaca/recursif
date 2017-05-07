@@ -4,7 +4,7 @@ import baca
 import inflect
 
 
-class ScoreTemplate(baca.tools.ScoreTemplate):
+class ScoreTemplate(baca.ScoreTemplate):
     r'''Score template.
 
     ::
