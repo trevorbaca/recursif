@@ -71,8 +71,8 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
         self._configure_lilypond_file()
         score_block = self._lilypond_file['score']
         score = score_block['Score']
-        if not abjad.inspect_(score).is_well_formed():
-            inspector = abjad.inspect_(score)
+        if not abjad.inspect(score).is_well_formed():
+            inspector = abjad.inspect(score)
             string = inspector.tabulate_well_formedness_violations()
             raise Exception(string)
         return self._lilypond_file, self._segment_metadata
