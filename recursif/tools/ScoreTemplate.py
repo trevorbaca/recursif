@@ -112,8 +112,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             markup = markup.scale((1.5, 1.5))
             markup = markup.bold()
             markup = markup.hcenter_in(12)
-            abjad.set_(staff).instrument_name = markup
-            abjad.set_(staff).short_instrument_name = markup
+            abjad.setting(staff).instrument_name = markup
+            abjad.setting(staff).short_instrument_name = markup
             staves.append(staff)
         staff_group = abjad.StaffGroup(
             staves,
