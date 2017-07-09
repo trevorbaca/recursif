@@ -140,7 +140,7 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
         template = recursif.tools.ScoreTemplate()
         score = template()
         first_measure_number = self.measure_numbers[0]
-        abjad.set_(score).current_bar_number = first_measure_number
+        abjad.setting(score).current_bar_number = first_measure_number
         for staff in abjad.iterate(score).by_class(abjad.Staff):
             time_signature = abjad.TimeSignature(self.measure_duration)
             abjad.attach(time_signature, staff)

@@ -17,8 +17,8 @@ class ScoreTemplate(abjad.abctools.AbjadValueObject):
             markup = markup.scale((1.5, 1.5))
             markup = markup.bold()
             markup = markup.hcenter_in(12)
-            set_(staff).instrument_name = markup
-            set_(staff).short_instrument_name = markup
+            setting(staff).instrument_name = markup
+            setting(staff).short_instrument_name = markup
             staves.append(staff)
         staff_group = abjad.StaffGroup(
             staves,
@@ -138,7 +138,7 @@ class SegmentMaker(baca.SegmentMaker):
         template = recursif.tools.ScoreTemplate()
         score = template()
         first_measure_number = self.measure_numbers[0]
-        set_(score).current_bar_number = first_measure_number
+        setting(score).current_bar_number = first_measure_number
         for staff in iterate(score).by_class(abjad.Staff):
             time_signature = abjad.TimeSignature(self.measure_duration)
             attach(time_signature, staff)
