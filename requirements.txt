@@ -1,4 +1,4 @@
-# Commented out because Travis config file clones Abjad:
+# leave commented-out when cloning trevor/dev:
 #-e git://github.com/Abjad/abjad.git#egg=abjad
 
 inflect
