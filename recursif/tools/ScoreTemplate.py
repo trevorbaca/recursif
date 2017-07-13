@@ -100,8 +100,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         for staff_index in range(64):
             staff_number = staff_index + 1
             staff_number_word = engine.number_to_words(staff_number)
-            staff_number_word = abjad.stringtools.to_upper_camel_case(
-                staff_number_word)
+            staff_number_word = abjad.String(staff_number_word)
+            staff_number_word = staff_number_word.to_upper_camel_case()
             context_name = 'Staff{}'.format(staff_number_word)
             name = 'Staff {}'.format(staff_number)
             staff = abjad.Staff(
