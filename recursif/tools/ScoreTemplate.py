@@ -7,6 +7,7 @@ import inflect
 class ScoreTemplate(baca.ScoreTemplate):
     r'''Score template.
 
+
     ::
 
         >>> import recursif
