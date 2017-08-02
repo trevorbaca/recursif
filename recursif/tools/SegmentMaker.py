@@ -124,7 +124,7 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
                 note_count = int(
                     abjad.mathtools.binomial_coefficient(n, k) % 8)
                 if 0 < note_count:
-                    ratio = abjad.mathtools.Ratio(note_count * [1])
+                    ratio = abjad.Ratio(note_count * [1])
                     tuplet = abjad.Tuplet.from_duration_and_ratio(
                         self.measure_duration,
                         ratio,

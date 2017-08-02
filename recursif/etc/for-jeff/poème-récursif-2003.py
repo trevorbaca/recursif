@@ -4,7 +4,7 @@ import baca
 import os
 
 
-class ScoreTemplate(abjad.abctools.AbjadValueObject):
+class ScoreTemplate(abjad.AbjadValueObject):
     r'''Score template.
     '''
 

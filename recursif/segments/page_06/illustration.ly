@@ -1,6 +1,6 @@
-% 2017-05-04 16:52
+% 2017-08-02 12:57
 
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -8,8 +8,8 @@
 \include "../../stylesheets/stylesheet.ily"
 
 \header {
-    composer = ##f
     title = ##f
+    composer = ##f
 }
 
 \paper {
