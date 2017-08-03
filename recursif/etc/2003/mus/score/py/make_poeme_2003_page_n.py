@@ -13,7 +13,7 @@ def make_poeme_2003_page_n(n):
     measures_in_page = range(first_measure_on_page, last_measure_on_page + 1)
     duration = abjad.Fraction(1, 2)
 
-    score = abjad.Score([abjad.StaffGroup([])])
+    score = abjad.Score([abjad.StaffGroup()])
     staff_group = score[0]
     abjad.TimeSignature(1, 2)(score)
     for part_number in range(1, 64 + 1):
