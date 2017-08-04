@@ -135,7 +135,7 @@ class SegmentMaker(baca.SegmentMaker):
             
     def _make_score(self):
         import recursif
-        template = recursif.tools.ScoreTemplate()
+        template = recursif.ScoreTemplate()
         score = template()
         first_measure_number = self.measure_numbers[0]
         setting(score).current_bar_number = first_measure_number

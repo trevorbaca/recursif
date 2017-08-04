@@ -25,7 +25,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             ::
 
-                >>> template = recursif.tools.ScoreTemplate()
+                >>> template = recursif.ScoreTemplate()
                 >>> score = template()
 
             ::

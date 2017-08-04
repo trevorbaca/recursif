@@ -2,6 +2,6 @@
 import recursif
 
 
-segment_maker = recursif.tools.SegmentMaker(
+segment_maker = recursif.SegmentMaker(
     page_number=11,
     )
