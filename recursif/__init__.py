@@ -8,6 +8,6 @@ if not (
     raise ImportError('Requires Python 3.5.')
 del distutils
 del platform
-from recursif import tools
-from recursif import materials
+from recursif.tools import *
+from recursif.materials import *
 from recursif import segments

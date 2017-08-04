@@ -5,7 +5,7 @@ import os
 import recursif
 
 
-class SegmentMaker(experimental.makertools.SegmentMaker):
+class SegmentMaker(experimental.SegmentMaker):
     r'''Segment-maker.
 
     ::
@@ -65,6 +65,7 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
             abjad.TypedOrderedDict()
         self._make_score()
         self._make_music()
+        self._configure_score()
         self._add_final_bar_line()
         self._add_final_markup()
         self._make_lilypond_file()
@@ -105,6 +106,12 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
         lilypond_file.header_block.title = None
         lilypond_file.header_block.composer = None
 
+    def _configure_score(self):
+        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
+            leaf = abjad.inspect(staff).get_leaf(0)
+            time_signature = abjad.TimeSignature(self.measure_duration)
+            abjad.attach(time_signature, leaf)
+
     def _make_lilypond_file(self):
         lilypond_file = abjad.LilyPondFile.new(self._score)
         for item in lilypond_file.items[:]:
@@ -137,13 +144,9 @@ class SegmentMaker(experimental.makertools.SegmentMaker):
                     staff.append(rest)
             
     def _make_score(self):
-        template = recursif.tools.ScoreTemplate()
-        score = template()
+        score = recursif.ScoreTemplate()()
         first_measure_number = self.measure_numbers[0]
         abjad.setting(score).current_bar_number = first_measure_number
-        for staff in abjad.iterate(score).by_class(abjad.Staff):
-            time_signature = abjad.TimeSignature(self.measure_duration)
-            abjad.attach(time_signature, staff)
         self._score = score
 
     ### PUBLIC PROPERTIES ###
