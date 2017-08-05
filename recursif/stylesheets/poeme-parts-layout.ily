@@ -1,4 +1,4 @@
-#(set-default-paper-size "letter" 'landscape)
+#(set-default-paper-size "letterlandscape")
 #(set-global-staff-size 9)
 
 \paper {
