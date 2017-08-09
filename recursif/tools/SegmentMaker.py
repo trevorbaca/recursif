@@ -52,16 +52,16 @@ class SegmentMaker(experimental.SegmentMaker):
 
     def __call__(
         self,
-        segment_metadata=None,
-        previous_segment_metadata=None,
+        metadata=None,
+        previous_metadata=None,
         ):
         r'''Calls segment-maker.
 
         Returns LilyPond file.
         '''
-        self._segment_metadata = segment_metadata or \
+        self._segment_metadata = metadata or \
             abjad.TypedOrderedDict()
-        self._previous_segment_metadata = previous_segment_metadata or \
+        self._previous_segment_metadata = previous_metadata or \
             abjad.TypedOrderedDict()
         self._make_score()
         self._make_music()
