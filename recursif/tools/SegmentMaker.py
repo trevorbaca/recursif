@@ -59,9 +59,9 @@ class SegmentMaker(experimental.SegmentMaker):
 
         Returns LilyPond file.
         '''
-        self._segment_metadata = metadata or \
+        self._metadata = metadata or \
             abjad.TypedOrderedDict()
-        self._previous_segment_metadata = previous_metadata or \
+        self._previous_metadata = previous_metadata or \
             abjad.TypedOrderedDict()
         self._make_score()
         self._make_music()
@@ -76,7 +76,7 @@ class SegmentMaker(experimental.SegmentMaker):
             inspector = abjad.inspect(score)
             string = inspector.tabulate_well_formedness_violations()
             raise Exception(string)
-        return self._lilypond_file, self._segment_metadata
+        return self._lilypond_file, self._metadata
 
     ### PRIVATE METHODS ###
 
