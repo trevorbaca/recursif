@@ -59,10 +59,8 @@ class SegmentMaker(experimental.SegmentMaker):
 
         Returns LilyPond file.
         '''
-        self._metadata = metadata or \
-            abjad.TypedOrderedDict()
-        self._previous_metadata = previous_metadata or \
-            abjad.TypedOrderedDict()
+        self._metadata = metadata or abjad.TypedOrderedDict()
+        self._previous_metadata = previous_metadata or abjad.TypedOrderedDict()
         self._make_score()
         self._make_music()
         self._configure_score()
