@@ -18,7 +18,7 @@ class ScoreTemplate(abjad.AbjadValueObject):
             markup = markup.bold()
             markup = markup.hcenter_in(12)
             setting(staff).instrument_name = markup
-            setting(staff).short_instrument_name = markup
+            setting(staff).short_name = markup
             staves.append(staff)
         staff_group = abjad.StaffGroup(
             staves,
