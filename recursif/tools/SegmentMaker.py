@@ -140,7 +140,7 @@ class SegmentMaker(experimental.SegmentMaker):
                 else:
                     rest = abjad.Rest(self.measure_duration)
                     staff.append(rest)
-            
+
     def _make_score(self):
         score = recursif.ScoreTemplate()()
         first_measure_number = self.measure_numbers[0]
