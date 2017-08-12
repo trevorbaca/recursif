@@ -1280,7 +1280,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Staff Group',
             )
         score = abjad.Score(
-            [staff_group], 
+            [staff_group],
             name='Score',
             )
         return score
