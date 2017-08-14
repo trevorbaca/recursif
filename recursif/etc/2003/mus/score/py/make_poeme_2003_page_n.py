@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import abjad
 from make_integer_divisions_for_part_n_measures_x_to_y import \
     make_integer_divisions_for_part_n_measures_x_to_y
