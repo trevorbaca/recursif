@@ -1,18 +1,16 @@
-import os
-
 def explode_parts():
     cur_part = 1
     part_file = None
     score_directory = '/Users/trevorbaca/scores/recursif/2003'
     share_directory = '/Users/trevorbaca/scores/recursif/_share'
-    input = file('%s/parts/ly/poeme-2003-parts.ly' % score_directory)
+    input = open('%s/parts/ly/poeme-2003-parts.ly' % score_directory)
     for line in input.readlines():
         #print line
         if '=' in line:
             part_number_string = str(cur_part).zfill(2)
             part_file_name = '%s/parts/ly/parts/%s.ly'
             part_file_name %= (score_directory, part_number_string)
-            part_file = file(part_file_name, 'w')
+            part_file = open(part_file_name, 'w')
             part_file.write('\\version "2.13.11"\n')
             part_file.write('\\include "english.ly"\n')
             layout_include = '\\include "%s/ly/parts-layout.ly"\n\n\n'

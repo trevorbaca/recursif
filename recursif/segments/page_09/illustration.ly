@@ -1,6 +1,6 @@
-% 2017-08-02 12:57
+% 2017-08-16 16:20
 
-\version "2.19.64"
+\version "2.19.65"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -30,7 +30,7 @@
                                 #'(1.5 . 1.5)
                                 1
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -39,8 +39,8 @@
                                 1
                     }
             } {
-                \time 1/2
                 {
+                    \time 1/2
                     b'2
                 }
                 {
@@ -98,7 +98,7 @@
                                 #'(1.5 . 1.5)
                                 2
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -204,7 +204,7 @@
                                 #'(1.5 . 1.5)
                                 3
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -310,7 +310,7 @@
                                 #'(1.5 . 1.5)
                                 4
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -401,7 +401,7 @@
                                 #'(1.5 . 1.5)
                                 5
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -497,7 +497,7 @@
                                 #'(1.5 . 1.5)
                                 6
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -574,7 +574,7 @@
                                 #'(1.5 . 1.5)
                                 7
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -660,7 +660,7 @@
                                 #'(1.5 . 1.5)
                                 8
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -727,7 +727,7 @@
                                 #'(1.5 . 1.5)
                                 9
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -803,7 +803,7 @@
                                 #'(1.5 . 1.5)
                                 10
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -878,7 +878,7 @@
                                 #'(1.5 . 1.5)
                                 11
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -936,7 +936,7 @@
                                 #'(1.5 . 1.5)
                                 12
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -997,7 +997,7 @@
                                 #'(1.5 . 1.5)
                                 13
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1053,7 +1053,7 @@
                                 #'(1.5 . 1.5)
                                 14
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1108,7 +1108,7 @@
                                 #'(1.5 . 1.5)
                                 15
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1154,7 +1154,7 @@
                                 #'(1.5 . 1.5)
                                 16
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1198,7 +1198,7 @@
                                 #'(1.5 . 1.5)
                                 17
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1234,7 +1234,7 @@
                                 #'(1.5 . 1.5)
                                 18
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1270,7 +1270,7 @@
                                 #'(1.5 . 1.5)
                                 19
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1306,7 +1306,7 @@
                                 #'(1.5 . 1.5)
                                 20
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1342,7 +1342,7 @@
                                 #'(1.5 . 1.5)
                                 21
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1378,7 +1378,7 @@
                                 #'(1.5 . 1.5)
                                 22
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1414,7 +1414,7 @@
                                 #'(1.5 . 1.5)
                                 23
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1450,7 +1450,7 @@
                                 #'(1.5 . 1.5)
                                 24
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1486,7 +1486,7 @@
                                 #'(1.5 . 1.5)
                                 25
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1522,7 +1522,7 @@
                                 #'(1.5 . 1.5)
                                 26
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1558,7 +1558,7 @@
                                 #'(1.5 . 1.5)
                                 27
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1594,7 +1594,7 @@
                                 #'(1.5 . 1.5)
                                 28
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1630,7 +1630,7 @@
                                 #'(1.5 . 1.5)
                                 29
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1666,7 +1666,7 @@
                                 #'(1.5 . 1.5)
                                 30
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1702,7 +1702,7 @@
                                 #'(1.5 . 1.5)
                                 31
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1738,7 +1738,7 @@
                                 #'(1.5 . 1.5)
                                 32
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1774,7 +1774,7 @@
                                 #'(1.5 . 1.5)
                                 33
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1783,8 +1783,8 @@
                                 33
                     }
             } {
-                \time 1/2
                 {
+                    \time 1/2
                     b'8
                     b'8
                     b'8
@@ -1890,7 +1890,7 @@
                                 #'(1.5 . 1.5)
                                 34
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -1966,7 +1966,7 @@
                                 #'(1.5 . 1.5)
                                 35
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2042,7 +2042,7 @@
                                 #'(1.5 . 1.5)
                                 36
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2098,7 +2098,7 @@
                                 #'(1.5 . 1.5)
                                 37
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2174,7 +2174,7 @@
                                 #'(1.5 . 1.5)
                                 38
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2230,7 +2230,7 @@
                                 #'(1.5 . 1.5)
                                 39
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2286,7 +2286,7 @@
                                 #'(1.5 . 1.5)
                                 40
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2332,7 +2332,7 @@
                                 #'(1.5 . 1.5)
                                 41
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2408,7 +2408,7 @@
                                 #'(1.5 . 1.5)
                                 42
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2464,7 +2464,7 @@
                                 #'(1.5 . 1.5)
                                 43
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2520,7 +2520,7 @@
                                 #'(1.5 . 1.5)
                                 44
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2566,7 +2566,7 @@
                                 #'(1.5 . 1.5)
                                 45
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2622,7 +2622,7 @@
                                 #'(1.5 . 1.5)
                                 46
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2668,7 +2668,7 @@
                                 #'(1.5 . 1.5)
                                 47
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2714,7 +2714,7 @@
                                 #'(1.5 . 1.5)
                                 48
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2755,7 +2755,7 @@
                                 #'(1.5 . 1.5)
                                 49
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2791,7 +2791,7 @@
                                 #'(1.5 . 1.5)
                                 50
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2827,7 +2827,7 @@
                                 #'(1.5 . 1.5)
                                 51
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2863,7 +2863,7 @@
                                 #'(1.5 . 1.5)
                                 52
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2899,7 +2899,7 @@
                                 #'(1.5 . 1.5)
                                 53
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2935,7 +2935,7 @@
                                 #'(1.5 . 1.5)
                                 54
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -2971,7 +2971,7 @@
                                 #'(1.5 . 1.5)
                                 55
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3007,7 +3007,7 @@
                                 #'(1.5 . 1.5)
                                 56
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3043,7 +3043,7 @@
                                 #'(1.5 . 1.5)
                                 57
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3079,7 +3079,7 @@
                                 #'(1.5 . 1.5)
                                 58
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3115,7 +3115,7 @@
                                 #'(1.5 . 1.5)
                                 59
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3151,7 +3151,7 @@
                                 #'(1.5 . 1.5)
                                 60
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3187,7 +3187,7 @@
                                 #'(1.5 . 1.5)
                                 61
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3223,7 +3223,7 @@
                                 #'(1.5 . 1.5)
                                 62
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3259,7 +3259,7 @@
                                 #'(1.5 . 1.5)
                                 63
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold
@@ -3295,7 +3295,7 @@
                                 #'(1.5 . 1.5)
                                 64
                     }
-                shortInstrumentName = \markup {
+                shortName = \markup {
                     \hcenter-in
                         #12
                         \bold

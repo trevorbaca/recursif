@@ -188,8 +188,8 @@ class SegmentMaker(experimental.SegmentMaker):
         Returns list of positive integers.
         '''
         start_measure_number = 16 * (self.page_number - 1) + 1
-        stop_measure_number = start_measure_number + 16 - 1
-        measure_numbers = range(start_measure_number, stop_measure_number+1)
+        stop = start_measure_number + 16
+        measure_numbers = range(start_measure_number, stop)
         return measure_numbers
 
     @property
