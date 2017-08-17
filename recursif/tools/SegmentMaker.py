@@ -1,10 +1,9 @@
 import abjad
-import experimental
 import os
 import recursif
 
 
-class SegmentMaker(experimental.SegmentMaker):
+class SegmentMaker(abjad.SegmentMaker):
     r'''Segment-maker.
 
     ::
