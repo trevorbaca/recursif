@@ -418,6 +418,7 @@
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
+        \override TextScript.font-name = #"Palatino"
         \override TextScript.X-extent = #'(0 . 0)
         barNumberVisibility = #(every-nth-bar-number-visible 16)
         proportionalNotationDuration = #(ly:make-moment 1 18)
