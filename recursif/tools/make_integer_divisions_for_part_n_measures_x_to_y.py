@@ -27,10 +27,9 @@ def make_integer_divisions_for_part_n_measures_x_to_y(n, x, y):
 
     '''
     divisions = []
-    stop = y + 1
-    for i in range(x, stop):
-        j = 255 + n - i
-        k = n - 1
-        division = int(abjad.mathtools.binomial_coefficient(j, k) % 8)
+    for i in range(x, y + 1):
+        total = 255 + n - i
+        count = n - 1
+        division = int(abjad.mathtools.binomial_coefficient(total, count) % 8)
         divisions.append(division)
     return divisions
