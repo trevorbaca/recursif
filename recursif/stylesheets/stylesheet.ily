@@ -1,6 +1,8 @@
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
 
+\include "context-definitions.ily"
+
 \paper {
     bottom-margin = 7.5\mm
     evenFooterMarkup = \markup
