@@ -1,5 +1,5 @@
 import abjad
-import os
+import pathlib
 import recursif
 
 
@@ -92,12 +92,7 @@ class SegmentMaker(abjad.SegmentMaker):
     def _configure_lilypond_file(self):
         lilypond_file = self._lilypond_file
         lilypond_file._use_relative_includes = True
-        path = os.path.join(
-            '..',
-            '..',
-            'stylesheets',
-            'stylesheet.ily',
-            )
+        path = pathlib.Path('..', '..', 'stylesheets', 'stylesheet.ily')
         lilypond_file._includes = (path,)
         lilypond_file.header_block.title = None
         lilypond_file.header_block.composer = None
@@ -109,7 +104,10 @@ class SegmentMaker(abjad.SegmentMaker):
             abjad.attach(time_signature, leaf)
 
     def _make_lilypond_file(self):
-        lilypond_file = abjad.LilyPondFile.new(self._score)
+        lilypond_file = abjad.LilyPondFile.new(
+            self._score,
+            date_time_token=False,
+            )
         for item in lilypond_file.items[:]:
             if getattr(item, 'name', None) == 'layout':
                 lilypond_file.items.remove(item)

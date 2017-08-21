@@ -1,6 +1,6 @@
 import abjad
 import baca
-import os
+import pathlib
 import recursif
 
 
@@ -95,10 +95,7 @@ class SegmentMaker(baca.SegmentMaker):
     def _configure_lilypond_file(self):
         lilypond_file = self._lilypond_file
         lilypond_file.use_relative_includes = True
-        path = os.path.join(
-            'stylesheet.ily',
-            )
-        lilypond_file.file_initial_user_includes.append(path)
+        lilypond_file.file_initial_user_includes.append(['stylesheet.ily'])
         if not self.name == 'page 1':
             lilypond_file.header_block.title = None
             lilypond_file.header_block.composer = None
@@ -159,12 +156,12 @@ class SegmentMaker(baca.SegmentMaker):
 
 
 if __name__ == '__main__':
-    output_directory = os.path.join('~', 'Desktop')
+    output_directory = pathlib.Path.home() / 'Desktop'
     for page_number in range(1, 16 + 1):
         maker = SegmentMaker(page_number=page_number)
         lilypond_file = maker()
         file_name = 'page-%02d.py' % page_number
-        output_file = os.path.join(output_directory, file_name)
+        output_file = output_directory / file_name
         message = 'Rendering page {} ...'.format(page_number)
         print(message)
         abjad.persist(lilypond_file).as_pdf(output_file)

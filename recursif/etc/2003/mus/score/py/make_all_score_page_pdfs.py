@@ -1,14 +1,14 @@
 import os
+import pathlib
 
 
 if __name__ == '__main__':
     os.system('clear')
     score_directory = '/Users/trevorbaca/scores/recursif/2003/score/'
-    input_directory = os.path.join(score_directory, 'ly')
-    output_directory = os.path.join(score_directory, 'pdf')
-    for file_name in os.listdir(input_directory):
-        if file_name.startswith('poeme-2003-page-') and file_name.endswith('.ly'):
-            full_file_name = os.path.join(input_directory, file_name)
-            command = 'lilypond --output=%s %s' % (output_directory, full_file_name)
-            os.system(command)
-    print ''
+    score_directory = pathlib.Path(score_directory)
+    input_directory = score_directory / 'ly'
+    output_directory = score_directory / 'pdf'
+    for path in input_directory.glob('poeme-2003-page-*.ly'):
+        command = 'lilypond --output=%s %s' % (output_directory, path)
+        os.system(command)
+    print()
