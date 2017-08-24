@@ -116,7 +116,7 @@ class SegmentMaker(abjad.SegmentMaker):
         self._lilypond_file = lilypond_file
 
     def _make_music(self):
-        staves = abjad.iterate(self._score).by_class(abjad.Staff)
+        staves = abjad.iterate(self._score).by_class(abjad.Voice)
         for staff_index, staff in enumerate(staves):
             staff_number = staff_index + 1
             for measure_number in self.measure_numbers:
