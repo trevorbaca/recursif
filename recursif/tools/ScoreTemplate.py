@@ -16,13 +16,11 @@ class ScoreTemplate(baca.ScoreTemplate):
         ::
 
             >>> template = recursif.ScoreTemplate()
-            >>> lilypond_file = template.__illustrate__()
-            >>> path = pathlib.Path(recursif.__path__[0], 'stylesheets')
-            >>> path = path.joinpath('context-definitions.ily')
-            >>> lilypond_file = abjad.new(
-            ...     lilypond_file,
+            >>> path = pathlib.Path(recursif.__path__[0])
+            >>> path = path / 'stylesheets' / 'context-definitions.ily'
+            >>> lilypond_file = template.__illustrate__(
             ...     global_staff_size=11,
-            ...     includes=[str(path)],
+            ...     includes=[path],
             ...     )
             >>> show(lilypond_file) # doctest: +SKIP
 
@@ -40,7 +38,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         1
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -49,6 +47,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         1
                             }
                     } {
+                        \context VoiceOne = "Voice 1" {
+                            s1
+                        }
                     }
                     \context StaffTwo = "Staff 2" \with {
                         instrumentName = \markup {
@@ -59,7 +60,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         2
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -68,6 +69,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         2
                             }
                     } {
+                        \context VoiceTwo = "Voice 2" {
+                            s1
+                        }
                     }
                     \context StaffThree = "Staff 3" \with {
                         instrumentName = \markup {
@@ -78,7 +82,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         3
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -87,6 +91,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         3
                             }
                     } {
+                        \context VoiceThree = "Voice 3" {
+                            s1
+                        }
                     }
                     \context StaffFour = "Staff 4" \with {
                         instrumentName = \markup {
@@ -97,7 +104,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         4
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -106,6 +113,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         4
                             }
                     } {
+                        \context VoiceFour = "Voice 4" {
+                            s1
+                        }
                     }
                     \context StaffFive = "Staff 5" \with {
                         instrumentName = \markup {
@@ -116,7 +126,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         5
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -125,6 +135,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         5
                             }
                     } {
+                        \context VoiceFive = "Voice 5" {
+                            s1
+                        }
                     }
                     \context StaffSix = "Staff 6" \with {
                         instrumentName = \markup {
@@ -135,7 +148,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         6
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -144,6 +157,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         6
                             }
                     } {
+                        \context VoiceSix = "Voice 6" {
+                            s1
+                        }
                     }
                     \context StaffSeven = "Staff 7" \with {
                         instrumentName = \markup {
@@ -154,7 +170,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         7
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -163,6 +179,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         7
                             }
                     } {
+                        \context VoiceSeven = "Voice 7" {
+                            s1
+                        }
                     }
                     \context StaffEight = "Staff 8" \with {
                         instrumentName = \markup {
@@ -173,7 +192,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         8
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -182,6 +201,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         8
                             }
                     } {
+                        \context VoiceEight = "Voice 8" {
+                            s1
+                        }
                     }
                     \context StaffNine = "Staff 9" \with {
                         instrumentName = \markup {
@@ -192,7 +214,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         9
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -201,6 +223,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         9
                             }
                     } {
+                        \context VoiceNine = "Voice 9" {
+                            s1
+                        }
                     }
                     \context StaffTen = "Staff 10" \with {
                         instrumentName = \markup {
@@ -211,7 +236,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         10
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -220,6 +245,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         10
                             }
                     } {
+                        \context VoiceTen = "Voice 10" {
+                            s1
+                        }
                     }
                     \context StaffEleven = "Staff 11" \with {
                         instrumentName = \markup {
@@ -230,7 +258,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         11
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -239,6 +267,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         11
                             }
                     } {
+                        \context VoiceEleven = "Voice 11" {
+                            s1
+                        }
                     }
                     \context StaffTwelve = "Staff 12" \with {
                         instrumentName = \markup {
@@ -249,7 +280,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         12
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -258,6 +289,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         12
                             }
                     } {
+                        \context VoiceTwelve = "Voice 12" {
+                            s1
+                        }
                     }
                     \context StaffThirteen = "Staff 13" \with {
                         instrumentName = \markup {
@@ -268,7 +302,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         13
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -277,6 +311,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         13
                             }
                     } {
+                        \context VoiceThirteen = "Voice 13" {
+                            s1
+                        }
                     }
                     \context StaffFourteen = "Staff 14" \with {
                         instrumentName = \markup {
@@ -287,7 +324,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         14
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -296,6 +333,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         14
                             }
                     } {
+                        \context VoiceFourteen = "Voice 14" {
+                            s1
+                        }
                     }
                     \context StaffFifteen = "Staff 15" \with {
                         instrumentName = \markup {
@@ -306,7 +346,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         15
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -315,6 +355,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         15
                             }
                     } {
+                        \context VoiceFifteen = "Voice 15" {
+                            s1
+                        }
                     }
                     \context StaffSixteen = "Staff 16" \with {
                         instrumentName = \markup {
@@ -325,7 +368,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         16
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -334,6 +377,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         16
                             }
                     } {
+                        \context VoiceSixteen = "Voice 16" {
+                            s1
+                        }
                     }
                     \context StaffSeventeen = "Staff 17" \with {
                         instrumentName = \markup {
@@ -344,7 +390,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         17
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -353,6 +399,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         17
                             }
                     } {
+                        \context VoiceSeventeen = "Voice 17" {
+                            s1
+                        }
                     }
                     \context StaffEighteen = "Staff 18" \with {
                         instrumentName = \markup {
@@ -363,7 +412,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         18
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -372,6 +421,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         18
                             }
                     } {
+                        \context VoiceEighteen = "Voice 18" {
+                            s1
+                        }
                     }
                     \context StaffNineteen = "Staff 19" \with {
                         instrumentName = \markup {
@@ -382,7 +434,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         19
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -391,6 +443,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         19
                             }
                     } {
+                        \context VoiceNineteen = "Voice 19" {
+                            s1
+                        }
                     }
                     \context StaffTwenty = "Staff 20" \with {
                         instrumentName = \markup {
@@ -401,7 +456,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         20
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -410,6 +465,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         20
                             }
                     } {
+                        \context VoiceTwenty = "Voice 20" {
+                            s1
+                        }
                     }
                     \context StaffTwentyOne = "Staff 21" \with {
                         instrumentName = \markup {
@@ -420,7 +478,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         21
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -429,6 +487,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         21
                             }
                     } {
+                        \context VoiceTwentyOne = "Voice 21" {
+                            s1
+                        }
                     }
                     \context StaffTwentyTwo = "Staff 22" \with {
                         instrumentName = \markup {
@@ -439,7 +500,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         22
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -448,6 +509,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         22
                             }
                     } {
+                        \context VoiceTwentyTwo = "Voice 22" {
+                            s1
+                        }
                     }
                     \context StaffTwentyThree = "Staff 23" \with {
                         instrumentName = \markup {
@@ -458,7 +522,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         23
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -467,6 +531,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         23
                             }
                     } {
+                        \context VoiceTwentyThree = "Voice 23" {
+                            s1
+                        }
                     }
                     \context StaffTwentyFour = "Staff 24" \with {
                         instrumentName = \markup {
@@ -477,7 +544,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         24
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -486,6 +553,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         24
                             }
                     } {
+                        \context VoiceTwentyFour = "Voice 24" {
+                            s1
+                        }
                     }
                     \context StaffTwentyFive = "Staff 25" \with {
                         instrumentName = \markup {
@@ -496,7 +566,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         25
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -505,6 +575,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         25
                             }
                     } {
+                        \context VoiceTwentyFive = "Voice 25" {
+                            s1
+                        }
                     }
                     \context StaffTwentySix = "Staff 26" \with {
                         instrumentName = \markup {
@@ -515,7 +588,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         26
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -524,6 +597,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         26
                             }
                     } {
+                        \context VoiceTwentySix = "Voice 26" {
+                            s1
+                        }
                     }
                     \context StaffTwentySeven = "Staff 27" \with {
                         instrumentName = \markup {
@@ -534,7 +610,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         27
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -543,6 +619,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         27
                             }
                     } {
+                        \context VoiceTwentySeven = "Voice 27" {
+                            s1
+                        }
                     }
                     \context StaffTwentyEight = "Staff 28" \with {
                         instrumentName = \markup {
@@ -553,7 +632,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         28
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -562,6 +641,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         28
                             }
                     } {
+                        \context VoiceTwentyEight = "Voice 28" {
+                            s1
+                        }
                     }
                     \context StaffTwentyNine = "Staff 29" \with {
                         instrumentName = \markup {
@@ -572,7 +654,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         29
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -581,6 +663,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         29
                             }
                     } {
+                        \context VoiceTwentyNine = "Voice 29" {
+                            s1
+                        }
                     }
                     \context StaffThirty = "Staff 30" \with {
                         instrumentName = \markup {
@@ -591,7 +676,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         30
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -600,6 +685,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         30
                             }
                     } {
+                        \context VoiceThirty = "Voice 30" {
+                            s1
+                        }
                     }
                     \context StaffThirtyOne = "Staff 31" \with {
                         instrumentName = \markup {
@@ -610,7 +698,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         31
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -619,6 +707,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         31
                             }
                     } {
+                        \context VoiceThirtyOne = "Voice 31" {
+                            s1
+                        }
                     }
                     \context StaffThirtyTwo = "Staff 32" \with {
                         instrumentName = \markup {
@@ -629,7 +720,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         32
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -638,6 +729,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         32
                             }
                     } {
+                        \context VoiceThirtyTwo = "Voice 32" {
+                            s1
+                        }
                     }
                     \context StaffThirtyThree = "Staff 33" \with {
                         instrumentName = \markup {
@@ -648,7 +742,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         33
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -657,6 +751,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         33
                             }
                     } {
+                        \context VoiceThirtyThree = "Voice 33" {
+                            s1
+                        }
                     }
                     \context StaffThirtyFour = "Staff 34" \with {
                         instrumentName = \markup {
@@ -667,7 +764,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         34
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -676,6 +773,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         34
                             }
                     } {
+                        \context VoiceThirtyFour = "Voice 34" {
+                            s1
+                        }
                     }
                     \context StaffThirtyFive = "Staff 35" \with {
                         instrumentName = \markup {
@@ -686,7 +786,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         35
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -695,6 +795,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         35
                             }
                     } {
+                        \context VoiceThirtyFive = "Voice 35" {
+                            s1
+                        }
                     }
                     \context StaffThirtySix = "Staff 36" \with {
                         instrumentName = \markup {
@@ -705,7 +808,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         36
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -714,6 +817,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         36
                             }
                     } {
+                        \context VoiceThirtySix = "Voice 36" {
+                            s1
+                        }
                     }
                     \context StaffThirtySeven = "Staff 37" \with {
                         instrumentName = \markup {
@@ -724,7 +830,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         37
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -733,6 +839,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         37
                             }
                     } {
+                        \context VoiceThirtySeven = "Voice 37" {
+                            s1
+                        }
                     }
                     \context StaffThirtyEight = "Staff 38" \with {
                         instrumentName = \markup {
@@ -743,7 +852,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         38
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -752,6 +861,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         38
                             }
                     } {
+                        \context VoiceThirtyEight = "Voice 38" {
+                            s1
+                        }
                     }
                     \context StaffThirtyNine = "Staff 39" \with {
                         instrumentName = \markup {
@@ -762,7 +874,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         39
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -771,6 +883,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         39
                             }
                     } {
+                        \context VoiceThirtyNine = "Voice 39" {
+                            s1
+                        }
                     }
                     \context StaffForty = "Staff 40" \with {
                         instrumentName = \markup {
@@ -781,7 +896,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         40
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -790,6 +905,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         40
                             }
                     } {
+                        \context VoiceForty = "Voice 40" {
+                            s1
+                        }
                     }
                     \context StaffFortyOne = "Staff 41" \with {
                         instrumentName = \markup {
@@ -800,7 +918,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         41
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -809,6 +927,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         41
                             }
                     } {
+                        \context VoiceFortyOne = "Voice 41" {
+                            s1
+                        }
                     }
                     \context StaffFortyTwo = "Staff 42" \with {
                         instrumentName = \markup {
@@ -819,7 +940,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         42
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -828,6 +949,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         42
                             }
                     } {
+                        \context VoiceFortyTwo = "Voice 42" {
+                            s1
+                        }
                     }
                     \context StaffFortyThree = "Staff 43" \with {
                         instrumentName = \markup {
@@ -838,7 +962,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         43
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -847,6 +971,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         43
                             }
                     } {
+                        \context VoiceFortyThree = "Voice 43" {
+                            s1
+                        }
                     }
                     \context StaffFortyFour = "Staff 44" \with {
                         instrumentName = \markup {
@@ -857,7 +984,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         44
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -866,6 +993,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         44
                             }
                     } {
+                        \context VoiceFortyFour = "Voice 44" {
+                            s1
+                        }
                     }
                     \context StaffFortyFive = "Staff 45" \with {
                         instrumentName = \markup {
@@ -876,7 +1006,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         45
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -885,6 +1015,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         45
                             }
                     } {
+                        \context VoiceFortyFive = "Voice 45" {
+                            s1
+                        }
                     }
                     \context StaffFortySix = "Staff 46" \with {
                         instrumentName = \markup {
@@ -895,7 +1028,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         46
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -904,6 +1037,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         46
                             }
                     } {
+                        \context VoiceFortySix = "Voice 46" {
+                            s1
+                        }
                     }
                     \context StaffFortySeven = "Staff 47" \with {
                         instrumentName = \markup {
@@ -914,7 +1050,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         47
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -923,6 +1059,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         47
                             }
                     } {
+                        \context VoiceFortySeven = "Voice 47" {
+                            s1
+                        }
                     }
                     \context StaffFortyEight = "Staff 48" \with {
                         instrumentName = \markup {
@@ -933,7 +1072,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         48
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -942,6 +1081,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         48
                             }
                     } {
+                        \context VoiceFortyEight = "Voice 48" {
+                            s1
+                        }
                     }
                     \context StaffFortyNine = "Staff 49" \with {
                         instrumentName = \markup {
@@ -952,7 +1094,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         49
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -961,6 +1103,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         49
                             }
                     } {
+                        \context VoiceFortyNine = "Voice 49" {
+                            s1
+                        }
                     }
                     \context StaffFifty = "Staff 50" \with {
                         instrumentName = \markup {
@@ -971,7 +1116,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         50
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -980,6 +1125,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         50
                             }
                     } {
+                        \context VoiceFifty = "Voice 50" {
+                            s1
+                        }
                     }
                     \context StaffFiftyOne = "Staff 51" \with {
                         instrumentName = \markup {
@@ -990,7 +1138,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         51
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -999,6 +1147,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         51
                             }
                     } {
+                        \context VoiceFiftyOne = "Voice 51" {
+                            s1
+                        }
                     }
                     \context StaffFiftyTwo = "Staff 52" \with {
                         instrumentName = \markup {
@@ -1009,7 +1160,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         52
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1018,6 +1169,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         52
                             }
                     } {
+                        \context VoiceFiftyTwo = "Voice 52" {
+                            s1
+                        }
                     }
                     \context StaffFiftyThree = "Staff 53" \with {
                         instrumentName = \markup {
@@ -1028,7 +1182,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         53
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1037,6 +1191,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         53
                             }
                     } {
+                        \context VoiceFiftyThree = "Voice 53" {
+                            s1
+                        }
                     }
                     \context StaffFiftyFour = "Staff 54" \with {
                         instrumentName = \markup {
@@ -1047,7 +1204,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         54
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1056,6 +1213,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         54
                             }
                     } {
+                        \context VoiceFiftyFour = "Voice 54" {
+                            s1
+                        }
                     }
                     \context StaffFiftyFive = "Staff 55" \with {
                         instrumentName = \markup {
@@ -1066,7 +1226,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         55
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1075,6 +1235,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         55
                             }
                     } {
+                        \context VoiceFiftyFive = "Voice 55" {
+                            s1
+                        }
                     }
                     \context StaffFiftySix = "Staff 56" \with {
                         instrumentName = \markup {
@@ -1085,7 +1248,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         56
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1094,6 +1257,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         56
                             }
                     } {
+                        \context VoiceFiftySix = "Voice 56" {
+                            s1
+                        }
                     }
                     \context StaffFiftySeven = "Staff 57" \with {
                         instrumentName = \markup {
@@ -1104,7 +1270,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         57
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1113,6 +1279,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         57
                             }
                     } {
+                        \context VoiceFiftySeven = "Voice 57" {
+                            s1
+                        }
                     }
                     \context StaffFiftyEight = "Staff 58" \with {
                         instrumentName = \markup {
@@ -1123,7 +1292,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         58
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1132,6 +1301,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         58
                             }
                     } {
+                        \context VoiceFiftyEight = "Voice 58" {
+                            s1
+                        }
                     }
                     \context StaffFiftyNine = "Staff 59" \with {
                         instrumentName = \markup {
@@ -1142,7 +1314,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         59
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1151,6 +1323,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         59
                             }
                     } {
+                        \context VoiceFiftyNine = "Voice 59" {
+                            s1
+                        }
                     }
                     \context StaffSixty = "Staff 60" \with {
                         instrumentName = \markup {
@@ -1161,7 +1336,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         60
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1170,6 +1345,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         60
                             }
                     } {
+                        \context VoiceSixty = "Voice 60" {
+                            s1
+                        }
                     }
                     \context StaffSixtyOne = "Staff 61" \with {
                         instrumentName = \markup {
@@ -1180,7 +1358,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         61
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1189,6 +1367,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         61
                             }
                     } {
+                        \context VoiceSixtyOne = "Voice 61" {
+                            s1
+                        }
                     }
                     \context StaffSixtyTwo = "Staff 62" \with {
                         instrumentName = \markup {
@@ -1199,7 +1380,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         62
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1208,6 +1389,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         62
                             }
                     } {
+                        \context VoiceSixtyTwo = "Voice 62" {
+                            s1
+                        }
                     }
                     \context StaffSixtyThree = "Staff 63" \with {
                         instrumentName = \markup {
@@ -1218,7 +1402,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         63
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1227,6 +1411,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         63
                             }
                     } {
+                        \context VoiceSixtyThree = "Voice 63" {
+                            s1
+                        }
                     }
                     \context StaffSixtyFour = "Staff 64" \with {
                         instrumentName = \markup {
@@ -1237,7 +1424,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         #'(1.5 . 1.5)
                                         64
                             }
-                        shortName = \markup {
+                        shortInstrumentName = \markup {
                             \hcenter-in
                                 #12
                                 \bold
@@ -1246,6 +1433,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         64
                             }
                     } {
+                        \context VoiceSixtyFour = "Voice 64" {
+                            s1
+                        }
                     }
                 >>
             >>
@@ -1266,9 +1456,16 @@ class ScoreTemplate(baca.ScoreTemplate):
             staff_number_word = engine.number_to_words(staff_number)
             staff_number_word = abjad.String(staff_number_word)
             staff_number_word = staff_number_word.to_upper_camel_case()
+            context_name = 'Voice{}'.format(staff_number_word)
+            name = 'Voice {}'.format(staff_number)
+            voice = abjad.Voice(
+                context_name=context_name,
+                name=name,
+                )
             context_name = 'Staff{}'.format(staff_number_word)
             name = 'Staff {}'.format(staff_number)
             staff = abjad.Staff(
+                [voice],
                 context_name=context_name,
                 name=name,
                 )
@@ -1277,7 +1474,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             markup = markup.bold()
             markup = markup.hcenter_in(12)
             abjad.setting(staff).instrument_name = markup
-            abjad.setting(staff).short_name = markup
+            abjad.setting(staff).short_instrument_name = markup
             staves.append(staff)
         staff_group = abjad.StaffGroup(
             staves,
