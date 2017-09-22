@@ -1,7 +1,7 @@
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
 
-\include "context-definitions.ily"
+\include "contexts.ily"
 
 \paper {
     bottom-margin = 7.5\mm
