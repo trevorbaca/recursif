@@ -5530,12 +5530,24 @@
                     r2
                     r2
                     {
-                        \once \override TextScript.extra-offset = #'(-17 . -2)
+                        \once \override TextScript.extra-offset = #'(4 . -2)
                         b'2
-                            - \markup {
+                            _ \markup {
                                 \scale
-                                    #'(1.75 . 1.75)
-                                    "[Austin. August 2003]"
+                                    #'(1.5 . 1.5)
+                                    \whiteout
+                                        \upright
+                                            \right-column
+                                                {
+                                                    \line
+                                                        {
+                                                            "Austin, TX."
+                                                        }
+                                                    \line
+                                                        {
+                                                            "August 2003."
+                                                        }
+                                                }
                                 }
                         \bar "|."
                     }

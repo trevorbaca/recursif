@@ -1,4 +1,5 @@
 import abjad
+import baca
 import pathlib
 import recursif
 
@@ -39,7 +40,7 @@ class SegmentMaker(abjad.SegmentMaker):
         superclass.__init__()
         final_bar_line = bool(final_bar_line)
         self._final_bar_line = final_bar_line
-        assert isinstance(final_markup, (abjad.Markup, type(None)))
+        assert isinstance(final_markup, (tuple, list))
         self._final_markup = final_markup
         self._final_markup_extra_offset = final_markup_extra_offset
         measure_duration = abjad.Duration(measure_duration)
@@ -84,8 +85,11 @@ class SegmentMaker(abjad.SegmentMaker):
     def _add_final_markup(self):
         if self.final_markup is None:
             return
+        command = baca.markup.final_markup(*self.final_markup)
+        markup = command.arguments[0]
+        markup = markup.scale((1.5, 1.5))
         self._score.add_final_markup(
-            self.final_markup,
+            markup,
             extra_offset=self.final_markup_extra_offset,
             )
 
