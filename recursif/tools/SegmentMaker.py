@@ -40,7 +40,7 @@ class SegmentMaker(abjad.SegmentMaker):
         superclass.__init__()
         final_bar_line = bool(final_bar_line)
         self._final_bar_line = final_bar_line
-        assert isinstance(final_markup, (tuple, list))
+        assert isinstance(final_markup, (tuple, list, type(None)))
         self._final_markup = final_markup
         self._final_markup_extra_offset = final_markup_extra_offset
         measure_duration = abjad.Duration(measure_duration)
