@@ -1454,14 +1454,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             staff_number_word = engine.number_to_words(staff_number)
             staff_number_word = abjad.String(staff_number_word)
             staff_number_word = staff_number_word.to_upper_camel_case()
-            context_name = 'Voice{}'.format(staff_number_word)
-            name = 'Voice {}'.format(staff_number)
+            context_name = f'Voice{staff_number_word}'
+            name = f'Voice {staff_number}'
             voice = abjad.Voice(
                 context_name=context_name,
                 name=name,
                 )
-            context_name = 'Staff{}'.format(staff_number_word)
-            name = 'Staff {}'.format(staff_number)
+            context_name = f'Staff{staff_number_word}'
+            name = f'Staff {staff_number}'
             staff = abjad.Staff(
                 [voice],
                 context_name=context_name,

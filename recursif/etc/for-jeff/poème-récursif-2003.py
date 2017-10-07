@@ -45,7 +45,7 @@ class SegmentMaker(baca.SegmentMaker):
         page_number=None,
         ):
         assert isinstance(page_number, int), repr(page_number)
-        name = 'page {}'.format(page_number)
+        name = f'page {page_number}'
         superclass = super(SegmentMaker, self)
         superclass.__init__(name=name)
         final_bar_line = bool(final_bar_line)
@@ -162,7 +162,7 @@ if __name__ == '__main__':
         lilypond_file = maker()
         file_name = 'page-%02d.py' % page_number
         output_file = output_directory / file_name
-        message = 'Rendering page {} ...'.format(page_number)
+        message = f'Rendering page {page_number} ...'
         print(message)
         abjad.persist(lilypond_file).as_pdf(output_file)
     message = 'Done.'
