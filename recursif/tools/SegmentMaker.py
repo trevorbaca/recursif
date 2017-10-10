@@ -47,34 +47,6 @@ class SegmentMaker(abjad.SegmentMaker):
         self._measure_duration = measure_duration
         self._page_number = page_number
 
-    ### SPECIAL METHODS ###
-
-    def __call__(
-        self,
-        metadata=None,
-        previous_metadata=None,
-        ):
-        r'''Calls segment-maker.
-
-        Returns LilyPond file.
-        '''
-        self._metadata = metadata or abjad.TypedOrderedDict()
-        self._previous_metadata = previous_metadata or abjad.TypedOrderedDict()
-        self._make_score()
-        self._make_music()
-        self._configure_score()
-        self._add_final_bar_line()
-        self._add_final_markup()
-        self._make_lilypond_file()
-        self._configure_lilypond_file()
-        score_block = self._lilypond_file['score']
-        score = score_block['Score']
-        if not abjad.inspect(score).is_well_formed():
-            inspector = abjad.inspect(score)
-            string = inspector.tabulate_wellformedness()
-            raise Exception(string)
-        return self._lilypond_file, self._metadata
-
     ### PRIVATE METHODS ###
 
     def _add_final_bar_line(self):
@@ -200,3 +172,31 @@ class SegmentMaker(abjad.SegmentMaker):
         Returns positive integer.
         '''
         return self._page_number
+
+    ### PUBLIC METHODS ###
+
+    def run(
+        self,
+        metadata=None,
+        previous_metadata=None,
+        ):
+        r'''Runs segment-maker.
+
+        Returns LilyPond file.
+        '''
+        self._metadata = metadata or abjad.TypedOrderedDict()
+        self._previous_metadata = previous_metadata or abjad.TypedOrderedDict()
+        self._make_score()
+        self._make_music()
+        self._configure_score()
+        self._add_final_bar_line()
+        self._add_final_markup()
+        self._make_lilypond_file()
+        self._configure_lilypond_file()
+        score_block = self._lilypond_file['score']
+        score = score_block['Score']
+        if not abjad.inspect(score).is_well_formed():
+            inspector = abjad.inspect(score)
+            string = inspector.tabulate_wellformedness()
+            raise Exception(string)
+        return self._lilypond_file, self._metadata
