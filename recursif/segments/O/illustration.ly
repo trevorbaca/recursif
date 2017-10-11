@@ -5537,17 +5537,19 @@
                                     #'(1.5 . 1.5)
                                     \whiteout
                                         \upright
-                                            \right-column
-                                                {
-                                                    \line
-                                                        {
-                                                            "Austin, TX."
-                                                        }
-                                                    \line
-                                                        {
-                                                            "August 2003."
-                                                        }
-                                                }
+                                            \with-color
+                                                #black
+                                                \right-column
+                                                    {
+                                                        \line
+                                                            {
+                                                                "Austin, TX."
+                                                            }
+                                                        \line
+                                                            {
+                                                                "August 2003."
+                                                            }
+                                                    }
                                 }
                         \bar "|."
                     }
