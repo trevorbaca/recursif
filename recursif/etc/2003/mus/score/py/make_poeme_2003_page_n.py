@@ -1,6 +1,6 @@
 import abjad
-from make_integer_divisions_for_part_n_measures_x_to_y import \
-    make_integer_divisions_for_part_n_measures_x_to_y
+from integer_divisions import \
+    integer_divisions
 
 
 def make_poeme_2003_page_n(n):
@@ -22,7 +22,7 @@ def make_poeme_2003_page_n(n):
         staff.set.instrument_name = abjad.Markup(string)
         arguments = (part_number, first_measure_on_page, last_measure_on_page)
         integer_divisions = \
-            make_integer_divisions_for_part_n_measures_x_to_y(*arguments)
+            integer_divisions(*arguments)
         for integer_division in integer_divisions:
             if integer_division == 0:
                 tuplet = abjad.Tuplet((1, 1), [abjad.Rest((1, 2))])
