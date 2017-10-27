@@ -110,7 +110,7 @@ class SegmentMaker(baca.SegmentMaker):
         self._lilypond_file = lilypond_file
 
     def _make_music(self):
-        staves = abjad.iterate(self._score).by_class(abjad.Staff)
+        staves = abjad.iterate(self._score).components(abjad.Staff)
         for staff_index, staff in enumerate(staves):
             staff_number = staff_index + 1
             for measure_number in self.measure_numbers:
@@ -136,7 +136,7 @@ class SegmentMaker(baca.SegmentMaker):
         score = template()
         first_measure_number = self.measure_numbers[0]
         abjad.setting(score).current_bar_number = first_measure_number
-        for staff in abjad.iterate(score).by_class(abjad.Staff):
+        for staff in abjad.iterate(score).components(abjad.Staff):
             time_signature = abjad.TimeSignature(self.measure_duration)
             abjad.attach(time_signature, staff)
         self._score = score
