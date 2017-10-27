@@ -74,7 +74,7 @@ class SegmentMaker(abjad.SegmentMaker):
         lilypond_file.header_block.composer = None
 
     def _configure_score(self):
-        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
+        for staff in abjad.iterate(self._score).components(abjad.Staff):
             leaf = abjad.inspect(staff).get_leaf(0)
             time_signature = abjad.TimeSignature(self.measure_duration)
             abjad.attach(time_signature, leaf)
@@ -92,7 +92,7 @@ class SegmentMaker(abjad.SegmentMaker):
         self._lilypond_file = lilypond_file
 
     def _make_music(self):
-        staves = abjad.iterate(self._score).by_class(abjad.Voice)
+        staves = abjad.iterate(self._score).components(abjad.Voice)
         for staff_index, staff in enumerate(staves):
             staff_number = staff_index + 1
             for measure_number in self.measure_numbers:
