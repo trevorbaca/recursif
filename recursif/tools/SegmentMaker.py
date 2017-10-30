@@ -7,9 +7,7 @@ import recursif
 class SegmentMaker(abjad.SegmentMaker):
     r'''Segment-maker.
 
-    ::
-
-        >>> import recursif
+    >>> import recursif
 
     '''
 
