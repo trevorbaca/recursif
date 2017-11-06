@@ -56,7 +56,7 @@ class SegmentMaker(abjad.SegmentMaker):
         if self.final_markup is None:
             return
         command = baca.markup.final_markup(*self.final_markup)
-        markup = command.arguments[0]
+        markup = command.indicators[0]
         markup = markup.scale((1.5, 1.5))
         self._score.add_final_markup(
             markup,
