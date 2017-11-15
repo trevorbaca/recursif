@@ -19,6 +19,7 @@ class SegmentMaker(abjad.SegmentMaker):
         '_final_markup_extra_offset',
         '_lilypond_file',
         '_measure_duration',
+        '_metadata',
         '_page_number',
         '_score',
         )
@@ -164,6 +165,12 @@ class SegmentMaker(abjad.SegmentMaker):
         return measure_numbers
 
     @property
+    def metadata(self):
+        r'''Gets segment metadata after run.
+        '''
+        return self._metadata
+
+    @property
     def page_number(self):
         r'''Gets page number of segment.
 
@@ -197,4 +204,4 @@ class SegmentMaker(abjad.SegmentMaker):
             inspector = abjad.inspect(score)
             string = inspector.tabulate_wellformedness()
             raise Exception(string)
-        return self._lilypond_file, self._metadata
+        return self._lilypond_file
