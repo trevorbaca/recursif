@@ -5517,25 +5517,25 @@
                     {
                         \once \override TextScript.extra-offset = #'(4 . -2)
                         b'2
-                            _ \markup {
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    \whiteout
-                                        \upright
-                                            \with-color
-                                                #black
-                                                \right-column
-                                                    {
-                                                        \line
-                                                            {
-                                                                "Austin, TX."
-                                                            }
-                                                        \line
-                                                            {
-                                                                "August 2003."
-                                                            }
-                                                    }
-                                }
+                        _ \markup {
+                            \scale
+                                #'(1.5 . 1.5)
+                                \whiteout
+                                    \upright
+                                        \with-color
+                                            #black
+                                            \right-column
+                                                {
+                                                    \line
+                                                        {
+                                                            "Austin, TX."
+                                                        }
+                                                    \line
+                                                        {
+                                                            "August 2003."
+                                                        }
+                                                }
+                            }
                         \bar "|."
                     }
                 }
