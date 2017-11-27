@@ -182,6 +182,7 @@ class SegmentMaker(abjad.SegmentMaker):
 
     def run(
         self,
+        builds_metadata=None,
         metadata=None,
         previous_metadata=None,
         ):
@@ -189,8 +190,9 @@ class SegmentMaker(abjad.SegmentMaker):
 
         Returns LilyPond file.
         '''
-        self._metadata = metadata or abjad.TypedOrderedDict()
-        self._previous_metadata = previous_metadata or abjad.TypedOrderedDict()
+        self._builds_metadata = abjad.TypedOrderedDict(builds_metadata)
+        self._metadata = abjad.TypedOrderedDict(metadata)
+        self._previous_metadata = abjad.TypedOrderedDict(previous_metadata)
         self._make_score()
         self._make_music()
         self._configure_score()
