@@ -13,6 +13,8 @@ class SegmentMaker(abjad.SegmentMaker):
 
     ### CLASS ATTRIBUTES ###
 
+    __documentation_section__ = None
+
     __slots__ = (
         '_final_bar_line',
         '_final_markup',

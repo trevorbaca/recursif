@@ -1434,6 +1434,10 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     '''
 
+    ### CLASS VARIABLES ###
+
+    __documentation_section__ = None
+
     ### SPECIAL METHODS ###
 
     def __call__(self):
