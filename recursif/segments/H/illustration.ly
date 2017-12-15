@@ -18,8 +18,8 @@
     \context Score = "Score" \with {
         currentBarNumber = #129
     } <<
-        \context StaffGroup = "Staff Group" <<
-            \context StaffOne = "Staff 1" \with {
+        \context StaffGroup = "StaffGroup" <<
+            \context StaffI = "StaffI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -37,7 +37,7 @@
                                 1
                     }
             } {
-                \context VoiceOne = "Voice 1" {
+                \context VoiceI = "VoiceI" {
                     {
                         \time 1/2
                         b'2
@@ -89,7 +89,7 @@
                     }
                 }
             }
-            \context StaffTwo = "Staff 2" \with {
+            \context StaffII = "StaffII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -107,7 +107,7 @@
                                 2
                     }
             } {
-                \context VoiceTwo = "Voice 2" {
+                \context VoiceII = "VoiceII" {
                     \time 1/2
                     r2
                     \times 4/7 {
@@ -197,7 +197,7 @@
                     }
                 }
             }
-            \context StaffThree = "Staff 3" \with {
+            \context StaffIII = "StaffIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -215,7 +215,7 @@
                                 3
                     }
             } {
-                \context VoiceThree = "Voice 3" {
+                \context VoiceIII = "VoiceIII" {
                     \time 1/2
                     r2
                     r2
@@ -305,7 +305,7 @@
                     }
                 }
             }
-            \context StaffFour = "Staff 4" \with {
+            \context StaffIV = "StaffIV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -323,7 +323,7 @@
                                 4
                     }
             } {
-                \context VoiceFour = "Voice 4" {
+                \context VoiceIV = "VoiceIV" {
                     \time 1/2
                     r2
                     r2
@@ -398,7 +398,7 @@
                     }
                 }
             }
-            \context StaffFive = "Staff 5" \with {
+            \context StaffV = "StaffV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -416,7 +416,7 @@
                                 5
                     }
             } {
-                \context VoiceFive = "Voice 5" {
+                \context VoiceV = "VoiceV" {
                     \time 1/2
                     r2
                     r2
@@ -496,7 +496,7 @@
                     }
                 }
             }
-            \context StaffSix = "Staff 6" \with {
+            \context StaffVI = "StaffVI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -514,7 +514,7 @@
                                 6
                     }
             } {
-                \context VoiceSix = "Voice 6" {
+                \context VoiceVI = "VoiceVI" {
                     \time 1/2
                     r2
                     r2
@@ -575,7 +575,7 @@
                     }
                 }
             }
-            \context StaffSeven = "Staff 7" \with {
+            \context StaffVII = "StaffVII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -593,7 +593,7 @@
                                 7
                     }
             } {
-                \context VoiceSeven = "Voice 7" {
+                \context VoiceVII = "VoiceVII" {
                     \time 1/2
                     r2
                     r2
@@ -663,7 +663,7 @@
                     }
                 }
             }
-            \context StaffEight = "Staff 8" \with {
+            \context StaffVIII = "StaffVIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -681,7 +681,7 @@
                                 8
                     }
             } {
-                \context VoiceEight = "Voice 8" {
+                \context VoiceVIII = "VoiceVIII" {
                     \time 1/2
                     r2
                     r2
@@ -732,7 +732,7 @@
                     }
                 }
             }
-            \context StaffNine = "Staff 9" \with {
+            \context StaffIX = "StaffIX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -750,7 +750,7 @@
                                 9
                     }
             } {
-                \context VoiceNine = "Voice 9" {
+                \context VoiceIX = "VoiceIX" {
                     \time 1/2
                     r2
                     r2
@@ -810,7 +810,7 @@
                     }
                 }
             }
-            \context StaffTen = "Staff 10" \with {
+            \context StaffX = "StaffX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -828,7 +828,7 @@
                                 10
                     }
             } {
-                \context VoiceTen = "Voice 10" {
+                \context VoiceX = "VoiceX" {
                     \time 1/2
                     r2
                     r2
@@ -887,7 +887,7 @@
                     }
                 }
             }
-            \context StaffEleven = "Staff 11" \with {
+            \context StaffXI = "StaffXI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -905,7 +905,7 @@
                                 11
                     }
             } {
-                \context VoiceEleven = "Voice 11" {
+                \context VoiceXI = "VoiceXI" {
                     \time 1/2
                     r2
                     r2
@@ -947,7 +947,7 @@
                     }
                 }
             }
-            \context StaffTwelve = "Staff 12" \with {
+            \context StaffXII = "StaffXII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -965,7 +965,7 @@
                                 12
                     }
             } {
-                \context VoiceTwelve = "Voice 12" {
+                \context VoiceXII = "VoiceXII" {
                     \time 1/2
                     r2
                     r2
@@ -1010,7 +1010,7 @@
                     }
                 }
             }
-            \context StaffThirteen = "Staff 13" \with {
+            \context StaffXIII = "StaffXIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1028,7 +1028,7 @@
                                 13
                     }
             } {
-                \context VoiceThirteen = "Voice 13" {
+                \context VoiceXIII = "VoiceXIII" {
                     \time 1/2
                     r2
                     r2
@@ -1068,7 +1068,7 @@
                     }
                 }
             }
-            \context StaffFourteen = "Staff 14" \with {
+            \context StaffXIV = "StaffXIV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1086,7 +1086,7 @@
                                 14
                     }
             } {
-                \context VoiceFourteen = "Voice 14" {
+                \context VoiceXIV = "VoiceXIV" {
                     \time 1/2
                     r2
                     r2
@@ -1125,7 +1125,7 @@
                     }
                 }
             }
-            \context StaffFifteen = "Staff 15" \with {
+            \context StaffXV = "StaffXV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1143,7 +1143,7 @@
                                 15
                     }
             } {
-                \context VoiceFifteen = "Voice 15" {
+                \context VoiceXV = "VoiceXV" {
                     \time 1/2
                     r2
                     r2
@@ -1173,7 +1173,7 @@
                     }
                 }
             }
-            \context StaffSixteen = "Staff 16" \with {
+            \context StaffXVI = "StaffXVI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1191,7 +1191,7 @@
                                 16
                     }
             } {
-                \context VoiceSixteen = "Voice 16" {
+                \context VoiceXVI = "VoiceXVI" {
                     \time 1/2
                     r2
                     r2
@@ -1219,7 +1219,7 @@
                     }
                 }
             }
-            \context StaffSeventeen = "Staff 17" \with {
+            \context StaffXVII = "StaffXVII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1237,7 +1237,7 @@
                                 17
                     }
             } {
-                \context VoiceSeventeen = "Voice 17" {
+                \context VoiceXVII = "VoiceXVII" {
                     \time 1/2
                     r2
                     r2
@@ -1257,7 +1257,7 @@
                     r2
                 }
             }
-            \context StaffEighteen = "Staff 18" \with {
+            \context StaffXVIII = "StaffXVIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1275,7 +1275,7 @@
                                 18
                     }
             } {
-                \context VoiceEighteen = "Voice 18" {
+                \context VoiceXVIII = "VoiceXVIII" {
                     \time 1/2
                     r2
                     r2
@@ -1295,7 +1295,7 @@
                     r2
                 }
             }
-            \context StaffNineteen = "Staff 19" \with {
+            \context StaffXIX = "StaffXIX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1313,7 +1313,7 @@
                                 19
                     }
             } {
-                \context VoiceNineteen = "Voice 19" {
+                \context VoiceXIX = "VoiceXIX" {
                     \time 1/2
                     r2
                     r2
@@ -1333,7 +1333,7 @@
                     r2
                 }
             }
-            \context StaffTwenty = "Staff 20" \with {
+            \context StaffXX = "StaffXX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1351,7 +1351,7 @@
                                 20
                     }
             } {
-                \context VoiceTwenty = "Voice 20" {
+                \context VoiceXX = "VoiceXX" {
                     \time 1/2
                     r2
                     r2
@@ -1371,7 +1371,7 @@
                     r2
                 }
             }
-            \context StaffTwentyOne = "Staff 21" \with {
+            \context StaffXXI = "StaffXXI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1389,7 +1389,7 @@
                                 21
                     }
             } {
-                \context VoiceTwentyOne = "Voice 21" {
+                \context VoiceXXI = "VoiceXXI" {
                     \time 1/2
                     r2
                     r2
@@ -1409,7 +1409,7 @@
                     r2
                 }
             }
-            \context StaffTwentyTwo = "Staff 22" \with {
+            \context StaffXXII = "StaffXXII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1427,7 +1427,7 @@
                                 22
                     }
             } {
-                \context VoiceTwentyTwo = "Voice 22" {
+                \context VoiceXXII = "VoiceXXII" {
                     \time 1/2
                     r2
                     r2
@@ -1447,7 +1447,7 @@
                     r2
                 }
             }
-            \context StaffTwentyThree = "Staff 23" \with {
+            \context StaffXXIII = "StaffXXIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1465,7 +1465,7 @@
                                 23
                     }
             } {
-                \context VoiceTwentyThree = "Voice 23" {
+                \context VoiceXXIII = "VoiceXXIII" {
                     \time 1/2
                     r2
                     r2
@@ -1485,7 +1485,7 @@
                     r2
                 }
             }
-            \context StaffTwentyFour = "Staff 24" \with {
+            \context StaffXXIV = "StaffXXIV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1503,7 +1503,7 @@
                                 24
                     }
             } {
-                \context VoiceTwentyFour = "Voice 24" {
+                \context VoiceXXIV = "VoiceXXIV" {
                     \time 1/2
                     r2
                     r2
@@ -1523,7 +1523,7 @@
                     r2
                 }
             }
-            \context StaffTwentyFive = "Staff 25" \with {
+            \context StaffXXV = "StaffXXV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1541,7 +1541,7 @@
                                 25
                     }
             } {
-                \context VoiceTwentyFive = "Voice 25" {
+                \context VoiceXXV = "VoiceXXV" {
                     \time 1/2
                     r2
                     r2
@@ -1561,7 +1561,7 @@
                     r2
                 }
             }
-            \context StaffTwentySix = "Staff 26" \with {
+            \context StaffXXVI = "StaffXXVI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1579,7 +1579,7 @@
                                 26
                     }
             } {
-                \context VoiceTwentySix = "Voice 26" {
+                \context VoiceXXVI = "VoiceXXVI" {
                     \time 1/2
                     r2
                     r2
@@ -1599,7 +1599,7 @@
                     r2
                 }
             }
-            \context StaffTwentySeven = "Staff 27" \with {
+            \context StaffXXVII = "StaffXXVII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1617,7 +1617,7 @@
                                 27
                     }
             } {
-                \context VoiceTwentySeven = "Voice 27" {
+                \context VoiceXXVII = "VoiceXXVII" {
                     \time 1/2
                     r2
                     r2
@@ -1637,7 +1637,7 @@
                     r2
                 }
             }
-            \context StaffTwentyEight = "Staff 28" \with {
+            \context StaffXXVIII = "StaffXXVIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1655,7 +1655,7 @@
                                 28
                     }
             } {
-                \context VoiceTwentyEight = "Voice 28" {
+                \context VoiceXXVIII = "VoiceXXVIII" {
                     \time 1/2
                     r2
                     r2
@@ -1675,7 +1675,7 @@
                     r2
                 }
             }
-            \context StaffTwentyNine = "Staff 29" \with {
+            \context StaffXXIX = "StaffXXIX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1693,7 +1693,7 @@
                                 29
                     }
             } {
-                \context VoiceTwentyNine = "Voice 29" {
+                \context VoiceXXIX = "VoiceXXIX" {
                     \time 1/2
                     r2
                     r2
@@ -1713,7 +1713,7 @@
                     r2
                 }
             }
-            \context StaffThirty = "Staff 30" \with {
+            \context StaffXXX = "StaffXXX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1731,7 +1731,7 @@
                                 30
                     }
             } {
-                \context VoiceThirty = "Voice 30" {
+                \context VoiceXXX = "VoiceXXX" {
                     \time 1/2
                     r2
                     r2
@@ -1751,7 +1751,7 @@
                     r2
                 }
             }
-            \context StaffThirtyOne = "Staff 31" \with {
+            \context StaffXXXI = "StaffXXXI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1769,7 +1769,7 @@
                                 31
                     }
             } {
-                \context VoiceThirtyOne = "Voice 31" {
+                \context VoiceXXXI = "VoiceXXXI" {
                     \time 1/2
                     r2
                     r2
@@ -1789,7 +1789,7 @@
                     r2
                 }
             }
-            \context StaffThirtyTwo = "Staff 32" \with {
+            \context StaffXXXII = "StaffXXXII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1807,7 +1807,7 @@
                                 32
                     }
             } {
-                \context VoiceThirtyTwo = "Voice 32" {
+                \context VoiceXXXII = "VoiceXXXII" {
                     \time 1/2
                     r2
                     r2
@@ -1827,7 +1827,7 @@
                     r2
                 }
             }
-            \context StaffThirtyThree = "Staff 33" \with {
+            \context StaffXXXIII = "StaffXXXIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1845,7 +1845,7 @@
                                 33
                     }
             } {
-                \context VoiceThirtyThree = "Voice 33" {
+                \context VoiceXXXIII = "VoiceXXXIII" {
                     {
                         \time 1/2
                         b'8
@@ -1945,7 +1945,7 @@
                     }
                 }
             }
-            \context StaffThirtyFour = "Staff 34" \with {
+            \context StaffXXXIV = "StaffXXXIV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -1963,7 +1963,7 @@
                                 34
                     }
             } {
-                \context VoiceThirtyFour = "Voice 34" {
+                \context VoiceXXXIV = "VoiceXXXIV" {
                     \time 1/2
                     r2
                     {
@@ -2023,7 +2023,7 @@
                     }
                 }
             }
-            \context StaffThirtyFive = "Staff 35" \with {
+            \context StaffXXXV = "StaffXXXV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2041,7 +2041,7 @@
                                 35
                     }
             } {
-                \context VoiceThirtyFive = "Voice 35" {
+                \context VoiceXXXV = "VoiceXXXV" {
                     \time 1/2
                     r2
                     r2
@@ -2101,7 +2101,7 @@
                     }
                 }
             }
-            \context StaffThirtySix = "Staff 36" \with {
+            \context StaffXXXVI = "StaffXXXVI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2119,7 +2119,7 @@
                                 36
                     }
             } {
-                \context VoiceThirtySix = "Voice 36" {
+                \context VoiceXXXVI = "VoiceXXXVI" {
                     \time 1/2
                     r2
                     r2
@@ -2159,7 +2159,7 @@
                     }
                 }
             }
-            \context StaffThirtySeven = "Staff 37" \with {
+            \context StaffXXXVII = "StaffXXXVII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2177,7 +2177,7 @@
                                 37
                     }
             } {
-                \context VoiceThirtySeven = "Voice 37" {
+                \context VoiceXXXVII = "VoiceXXXVII" {
                     \time 1/2
                     r2
                     r2
@@ -2237,7 +2237,7 @@
                     }
                 }
             }
-            \context StaffThirtyEight = "Staff 38" \with {
+            \context StaffXXXVIII = "StaffXXXVIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2255,7 +2255,7 @@
                                 38
                     }
             } {
-                \context VoiceThirtyEight = "Voice 38" {
+                \context VoiceXXXVIII = "VoiceXXXVIII" {
                     \time 1/2
                     r2
                     r2
@@ -2295,7 +2295,7 @@
                     }
                 }
             }
-            \context StaffThirtyNine = "Staff 39" \with {
+            \context StaffXXXIX = "StaffXXXIX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2313,7 +2313,7 @@
                                 39
                     }
             } {
-                \context VoiceThirtyNine = "Voice 39" {
+                \context VoiceXXXIX = "VoiceXXXIX" {
                     \time 1/2
                     r2
                     r2
@@ -2353,7 +2353,7 @@
                     }
                 }
             }
-            \context StaffForty = "Staff 40" \with {
+            \context StaffXL = "StaffXL" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2371,7 +2371,7 @@
                                 40
                     }
             } {
-                \context VoiceForty = "Voice 40" {
+                \context VoiceXL = "VoiceXL" {
                     \time 1/2
                     r2
                     r2
@@ -2401,7 +2401,7 @@
                     }
                 }
             }
-            \context StaffFortyOne = "Staff 41" \with {
+            \context StaffXLI = "StaffXLI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2419,7 +2419,7 @@
                                 41
                     }
             } {
-                \context VoiceFortyOne = "Voice 41" {
+                \context VoiceXLI = "VoiceXLI" {
                     \time 1/2
                     r2
                     r2
@@ -2479,7 +2479,7 @@
                     }
                 }
             }
-            \context StaffFortyTwo = "Staff 42" \with {
+            \context StaffXLII = "StaffXLII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2497,7 +2497,7 @@
                                 42
                     }
             } {
-                \context VoiceFortyTwo = "Voice 42" {
+                \context VoiceXLII = "VoiceXLII" {
                     \time 1/2
                     r2
                     r2
@@ -2537,7 +2537,7 @@
                     }
                 }
             }
-            \context StaffFortyThree = "Staff 43" \with {
+            \context StaffXLIII = "StaffXLIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2555,7 +2555,7 @@
                                 43
                     }
             } {
-                \context VoiceFortyThree = "Voice 43" {
+                \context VoiceXLIII = "VoiceXLIII" {
                     \time 1/2
                     r2
                     r2
@@ -2595,7 +2595,7 @@
                     }
                 }
             }
-            \context StaffFortyFour = "Staff 44" \with {
+            \context StaffXLIV = "StaffXLIV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2613,7 +2613,7 @@
                                 44
                     }
             } {
-                \context VoiceFortyFour = "Voice 44" {
+                \context VoiceXLIV = "VoiceXLIV" {
                     \time 1/2
                     r2
                     r2
@@ -2643,7 +2643,7 @@
                     }
                 }
             }
-            \context StaffFortyFive = "Staff 45" \with {
+            \context StaffXLV = "StaffXLV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2661,7 +2661,7 @@
                                 45
                     }
             } {
-                \context VoiceFortyFive = "Voice 45" {
+                \context VoiceXLV = "VoiceXLV" {
                     \time 1/2
                     r2
                     r2
@@ -2701,7 +2701,7 @@
                     }
                 }
             }
-            \context StaffFortySix = "Staff 46" \with {
+            \context StaffXLVI = "StaffXLVI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2719,7 +2719,7 @@
                                 46
                     }
             } {
-                \context VoiceFortySix = "Voice 46" {
+                \context VoiceXLVI = "VoiceXLVI" {
                     \time 1/2
                     r2
                     r2
@@ -2749,7 +2749,7 @@
                     }
                 }
             }
-            \context StaffFortySeven = "Staff 47" \with {
+            \context StaffXLVII = "StaffXLVII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2767,7 +2767,7 @@
                                 47
                     }
             } {
-                \context VoiceFortySeven = "Voice 47" {
+                \context VoiceXLVII = "VoiceXLVII" {
                     \time 1/2
                     r2
                     r2
@@ -2797,7 +2797,7 @@
                     }
                 }
             }
-            \context StaffFortyEight = "Staff 48" \with {
+            \context StaffXLVIII = "StaffXLVIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2815,7 +2815,7 @@
                                 48
                     }
             } {
-                \context VoiceFortyEight = "Voice 48" {
+                \context VoiceXLVIII = "VoiceXLVIII" {
                     \time 1/2
                     r2
                     r2
@@ -2840,7 +2840,7 @@
                     }
                 }
             }
-            \context StaffFortyNine = "Staff 49" \with {
+            \context StaffXLIX = "StaffXLIX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2858,7 +2858,7 @@
                                 49
                     }
             } {
-                \context VoiceFortyNine = "Voice 49" {
+                \context VoiceXLIX = "VoiceXLIX" {
                     \time 1/2
                     r2
                     r2
@@ -2878,7 +2878,7 @@
                     r2
                 }
             }
-            \context StaffFifty = "Staff 50" \with {
+            \context StaffL = "StaffL" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2896,7 +2896,7 @@
                                 50
                     }
             } {
-                \context VoiceFifty = "Voice 50" {
+                \context VoiceL = "VoiceL" {
                     \time 1/2
                     r2
                     r2
@@ -2916,7 +2916,7 @@
                     r2
                 }
             }
-            \context StaffFiftyOne = "Staff 51" \with {
+            \context StaffLI = "StaffLI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2934,7 +2934,7 @@
                                 51
                     }
             } {
-                \context VoiceFiftyOne = "Voice 51" {
+                \context VoiceLI = "VoiceLI" {
                     \time 1/2
                     r2
                     r2
@@ -2954,7 +2954,7 @@
                     r2
                 }
             }
-            \context StaffFiftyTwo = "Staff 52" \with {
+            \context StaffLII = "StaffLII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -2972,7 +2972,7 @@
                                 52
                     }
             } {
-                \context VoiceFiftyTwo = "Voice 52" {
+                \context VoiceLII = "VoiceLII" {
                     \time 1/2
                     r2
                     r2
@@ -2992,7 +2992,7 @@
                     r2
                 }
             }
-            \context StaffFiftyThree = "Staff 53" \with {
+            \context StaffLIII = "StaffLIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3010,7 +3010,7 @@
                                 53
                     }
             } {
-                \context VoiceFiftyThree = "Voice 53" {
+                \context VoiceLIII = "VoiceLIII" {
                     \time 1/2
                     r2
                     r2
@@ -3030,7 +3030,7 @@
                     r2
                 }
             }
-            \context StaffFiftyFour = "Staff 54" \with {
+            \context StaffLIV = "StaffLIV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3048,7 +3048,7 @@
                                 54
                     }
             } {
-                \context VoiceFiftyFour = "Voice 54" {
+                \context VoiceLIV = "VoiceLIV" {
                     \time 1/2
                     r2
                     r2
@@ -3068,7 +3068,7 @@
                     r2
                 }
             }
-            \context StaffFiftyFive = "Staff 55" \with {
+            \context StaffLV = "StaffLV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3086,7 +3086,7 @@
                                 55
                     }
             } {
-                \context VoiceFiftyFive = "Voice 55" {
+                \context VoiceLV = "VoiceLV" {
                     \time 1/2
                     r2
                     r2
@@ -3106,7 +3106,7 @@
                     r2
                 }
             }
-            \context StaffFiftySix = "Staff 56" \with {
+            \context StaffLVI = "StaffLVI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3124,7 +3124,7 @@
                                 56
                     }
             } {
-                \context VoiceFiftySix = "Voice 56" {
+                \context VoiceLVI = "VoiceLVI" {
                     \time 1/2
                     r2
                     r2
@@ -3144,7 +3144,7 @@
                     r2
                 }
             }
-            \context StaffFiftySeven = "Staff 57" \with {
+            \context StaffLVII = "StaffLVII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3162,7 +3162,7 @@
                                 57
                     }
             } {
-                \context VoiceFiftySeven = "Voice 57" {
+                \context VoiceLVII = "VoiceLVII" {
                     \time 1/2
                     r2
                     r2
@@ -3182,7 +3182,7 @@
                     r2
                 }
             }
-            \context StaffFiftyEight = "Staff 58" \with {
+            \context StaffLVIII = "StaffLVIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3200,7 +3200,7 @@
                                 58
                     }
             } {
-                \context VoiceFiftyEight = "Voice 58" {
+                \context VoiceLVIII = "VoiceLVIII" {
                     \time 1/2
                     r2
                     r2
@@ -3220,7 +3220,7 @@
                     r2
                 }
             }
-            \context StaffFiftyNine = "Staff 59" \with {
+            \context StaffLIX = "StaffLIX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3238,7 +3238,7 @@
                                 59
                     }
             } {
-                \context VoiceFiftyNine = "Voice 59" {
+                \context VoiceLIX = "VoiceLIX" {
                     \time 1/2
                     r2
                     r2
@@ -3258,7 +3258,7 @@
                     r2
                 }
             }
-            \context StaffSixty = "Staff 60" \with {
+            \context StaffLX = "StaffLX" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3276,7 +3276,7 @@
                                 60
                     }
             } {
-                \context VoiceSixty = "Voice 60" {
+                \context VoiceLX = "VoiceLX" {
                     \time 1/2
                     r2
                     r2
@@ -3296,7 +3296,7 @@
                     r2
                 }
             }
-            \context StaffSixtyOne = "Staff 61" \with {
+            \context StaffLXI = "StaffLXI" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3314,7 +3314,7 @@
                                 61
                     }
             } {
-                \context VoiceSixtyOne = "Voice 61" {
+                \context VoiceLXI = "VoiceLXI" {
                     \time 1/2
                     r2
                     r2
@@ -3334,7 +3334,7 @@
                     r2
                 }
             }
-            \context StaffSixtyTwo = "Staff 62" \with {
+            \context StaffLXII = "StaffLXII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3352,7 +3352,7 @@
                                 62
                     }
             } {
-                \context VoiceSixtyTwo = "Voice 62" {
+                \context VoiceLXII = "VoiceLXII" {
                     \time 1/2
                     r2
                     r2
@@ -3372,7 +3372,7 @@
                     r2
                 }
             }
-            \context StaffSixtyThree = "Staff 63" \with {
+            \context StaffLXIII = "StaffLXIII" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3390,7 +3390,7 @@
                                 63
                     }
             } {
-                \context VoiceSixtyThree = "Voice 63" {
+                \context VoiceLXIII = "VoiceLXIII" {
                     \time 1/2
                     r2
                     r2
@@ -3410,7 +3410,7 @@
                     r2
                 }
             }
-            \context StaffSixtyFour = "Staff 64" \with {
+            \context StaffLXIV = "StaffLXIV" \with {
                 instrumentName = \markup {
                     \hcenter-in
                         #12
@@ -3428,7 +3428,7 @@
                                 64
                     }
             } {
-                \context VoiceSixtyFour = "Voice 64" {
+                \context VoiceLXIV = "VoiceLXIV" {
                     \time 1/2
                     r2
                     r2
