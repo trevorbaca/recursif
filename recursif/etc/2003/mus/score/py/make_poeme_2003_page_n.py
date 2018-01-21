@@ -16,7 +16,7 @@ def make_poeme_2003_page_n(n):
     staff_group = score[0]
     abjad.TimeSignature(1, 2)(score)
     for part_number in range(1, 64 + 1):
-        staff = abjad.Staff(context_name='RhythmicStaff')
+        staff = abjad.Staff(lilypond_type='RhythmicStaff')
         string = r'\bold \fontsize #4 {"%s" \hspace #2 ""}'
         string %= part_number
         staff.set.instrument_name = abjad.Markup(string)

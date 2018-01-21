@@ -1449,17 +1449,17 @@ class ScoreTemplate(baca.ScoreTemplate):
         for staff_index in range(64):
             staff_number = staff_index + 1
             staff_numeral = roman.toRoman(staff_number)
-            context_name = f'Voice{staff_numeral}'
+            lilypond_type = f'Voice{staff_numeral}'
             name = f'Voice{staff_numeral}'
             voice = abjad.Voice(
-                context_name=context_name,
+                lilypond_type=lilypond_type,
                 name=name,
                 )
-            context_name = f'Staff{staff_numeral}'
+            lilypond_type = f'Staff{staff_numeral}'
             name = f'Staff{staff_numeral}'
             staff = abjad.Staff(
                 [voice],
-                context_name=context_name,
+                lilypond_type=lilypond_type,
                 name=name,
                 )
             markup = abjad.Markup(staff_number)
