@@ -1,7 +1,7 @@
 import abjad
 
 
-metadata = abjad.TypedOrderedDict([
+metadata = abjad.OrderedDict([
     ('catalog_number', 'AWN-000-PR'),
     ('composer', 'Trevor Bača'),
     ('forces_tagline', 'for 64 pieces of percussion'),
