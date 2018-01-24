@@ -38,53 +38,69 @@
                     }
             } {
                 \context VoiceI = "VoiceI" {
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         \time 1/2
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                 }
@@ -134,7 +150,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -145,11 +162,13 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     r2
@@ -177,7 +196,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -188,11 +208,13 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                 }
@@ -219,7 +241,8 @@
                     \time 1/2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 2/3 {
@@ -235,7 +258,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -255,13 +279,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -283,7 +309,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -300,7 +327,8 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                 }
@@ -337,7 +365,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -351,7 +380,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -365,7 +395,8 @@
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -377,23 +408,27 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                 }
@@ -422,7 +457,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 4/5 {
@@ -462,11 +498,13 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -484,7 +522,8 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 4/5 {
@@ -530,7 +569,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -540,22 +580,26 @@
                         b'4
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 2/3 {
@@ -601,7 +645,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 4/7 {
@@ -613,19 +658,22 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -637,13 +685,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -700,7 +750,8 @@
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -716,7 +767,8 @@
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -751,50 +803,58 @@
                     }
             } {
                 \context VoiceIX = "VoiceIX" {
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         \time 1/2
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -814,10 +874,12 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 2/3 {
@@ -871,28 +933,32 @@
                 \context VoiceX = "VoiceX" {
                     \time 1/2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -919,13 +985,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 2/3 {
@@ -969,13 +1037,15 @@
                     \time 1/2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -983,13 +1053,15 @@
                     }
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1013,7 +1085,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1066,7 +1139,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1075,7 +1149,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1089,17 +1164,20 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1140,25 +1218,29 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1175,7 +1257,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 4/7 {
@@ -1219,14 +1302,16 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1242,7 +1327,8 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1279,13 +1365,15 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1338,7 +1426,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1377,36 +1466,44 @@
                     }
             } {
                 \context VoiceXVII = "VoiceXVII" {
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         \time 1/2
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1505,13 +1602,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1524,22 +1623,26 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1554,11 +1657,13 @@
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1596,7 +1701,8 @@
                     \time 1/2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1608,13 +1714,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1628,7 +1736,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1642,23 +1751,27 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1704,26 +1817,30 @@
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1764,11 +1881,13 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1788,35 +1907,41 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1871,7 +1996,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1886,14 +2012,16 @@
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1908,7 +2036,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1950,7 +2079,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -1964,13 +2094,15 @@
                     }
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -1978,7 +2110,8 @@
                     }
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2030,7 +2163,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2068,66 +2202,58 @@
                     }
             } {
                 \context VoiceXXV = "VoiceXXV" {
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         \time 1/2
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2149,19 +2275,39 @@
                         b'8
                         b'8
                     }
-                    {
+                    \times 2/3 {
+                        b'8
+                        b'8
+                        b'8
+                        b'8
+                        b'8
+                        b'8
+                    }
+                    \times 2/3 {
+                        b'8
+                        b'8
+                        b'8
+                        b'8
+                        b'8
+                        b'8
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2188,39 +2334,45 @@
                 \context VoiceXXVI = "VoiceXXVI" {
                     \time 1/2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2243,13 +2395,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2277,13 +2431,15 @@
                     \time 1/2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2291,13 +2447,15 @@
                     }
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2313,17 +2471,20 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2337,7 +2498,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2366,7 +2528,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2375,7 +2538,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2384,19 +2548,22 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2426,25 +2593,29 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2470,11 +2641,13 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2505,14 +2678,16 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2523,17 +2698,20 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2565,13 +2743,15 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2591,7 +2771,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2624,7 +2805,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2637,7 +2819,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2805,7 +2988,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2818,13 +3002,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 2/3 {
@@ -2841,10 +3027,12 @@
                         b'4
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2853,7 +3041,8 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2912,10 +3101,12 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -2943,13 +3134,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -2960,7 +3153,8 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 2/3 {
@@ -2971,7 +3165,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -3023,17 +3218,20 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3049,7 +3247,8 @@
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3063,7 +3262,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3077,7 +3277,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3139,14 +3340,17 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -3166,7 +3370,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 4/5 {
@@ -3232,7 +3437,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     r2
@@ -3244,7 +3450,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3268,7 +3475,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -3317,13 +3525,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3337,17 +3547,20 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3402,19 +3615,22 @@
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3498,10 +3714,12 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                 }
@@ -3542,7 +3760,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -3551,7 +3770,8 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3566,11 +3786,13 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                 }
@@ -3610,7 +3832,8 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 2/3 {
@@ -3621,7 +3844,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'4
                         b'4
                     }
@@ -3630,7 +3854,8 @@
                         b'4
                         b'4
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                 }
@@ -3673,7 +3898,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -3687,13 +3913,15 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                 }
@@ -3744,7 +3972,8 @@
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'2
                     }
                     \times 4/5 {
@@ -3924,98 +4153,114 @@
                     }
             } {
                 \context VoiceXLIX = "VoiceXLIX" {
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         \time 1/2
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4044,56 +4289,64 @@
                 \context VoiceL = "VoiceL" {
                     \time 1/2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4123,27 +4376,15 @@
                     \time 1/2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4151,13 +4392,15 @@
                     }
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4165,13 +4408,31 @@
                     }
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
+                        b'8
+                        b'8
+                        b'8
+                        b'8
+                    }
+                    r2
+                    r2
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
+                        b'8
+                        b'8
+                        b'8
+                        b'8
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4202,7 +4463,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4211,7 +4473,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4220,7 +4483,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4229,7 +4493,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4261,25 +4526,29 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4289,25 +4558,29 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4340,14 +4613,16 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4358,14 +4633,16 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4399,13 +4676,15 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4417,13 +4696,15 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4458,7 +4739,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4471,7 +4753,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4507,49 +4790,57 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4586,28 +4877,32 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4645,13 +4940,15 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4659,13 +4956,15 @@
                     }
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4704,7 +5003,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4713,7 +5013,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4753,25 +5054,29 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4812,14 +5117,16 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4861,13 +5168,15 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
                         b'8
                     }
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
@@ -4910,7 +5219,8 @@
                     r2
                     r2
                     r2
-                    {
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 1/1 {
                         b'8
                         b'8
                         b'8
