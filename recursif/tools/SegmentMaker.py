@@ -184,7 +184,6 @@ class SegmentMaker(abjad.SegmentMaker):
 
     def run(
         self,
-        documents_metadata=None,
         metadata=None,
         previous_metadata=None,
         ):
@@ -192,7 +191,6 @@ class SegmentMaker(abjad.SegmentMaker):
 
         Returns LilyPond file.
         '''
-        self._documents_metadata = abjad.OrderedDict(documents_metadata)
         self._metadata = abjad.OrderedDict(metadata)
         self._previous_metadata = abjad.OrderedDict(previous_metadata)
         self._make_score()
