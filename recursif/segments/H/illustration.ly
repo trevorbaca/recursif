@@ -13,6 +13,8 @@
 \paper {
     first-page-number = #9
 }
+\include "illustration.ily"
+
 
 \score {
     \context Score = "Score"
@@ -45,73 +47,7 @@
             }
             {
                 \context VoiceI = "VoiceI"
-                {
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        \time 1/2
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                }
+                \HVoiceI
             }
             \context StaffII = "StaffII"
             \with
@@ -135,101 +71,7 @@
             }
             {
                 \context VoiceII = "VoiceII"
-                {
-                    \time 1/2
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                }
+                \HVoiceII
             }
             \context StaffIII = "StaffIII"
             \with
@@ -253,101 +95,7 @@
             }
             {
                 \context VoiceIII = "VoiceIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                }
+                \HVoiceIII
             }
             \context StaffIV = "StaffIV"
             \with
@@ -371,87 +119,7 @@
             }
             {
                 \context VoiceIV = "VoiceIV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                }
+                \HVoiceIV
             }
             \context StaffV = "StaffV"
             \with
@@ -475,89 +143,7 @@
             }
             {
                 \context VoiceV = "VoiceV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceV
             }
             \context StaffVI = "StaffVI"
             \with
@@ -581,71 +167,7 @@
             }
             {
                 \context VoiceVI = "VoiceVI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceVI
             }
             \context StaffVII = "StaffVII"
             \with
@@ -669,81 +191,7 @@
             }
             {
                 \context VoiceVII = "VoiceVII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceVII
             }
             \context StaffVIII = "StaffVIII"
             \with
@@ -767,58 +215,7 @@
             }
             {
                 \context VoiceVIII = "VoiceVIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceVIII
             }
             \context StaffIX = "StaffIX"
             \with
@@ -842,67 +239,7 @@
             }
             {
                 \context VoiceIX = "VoiceIX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                }
+                \HVoiceIX
             }
             \context StaffX = "StaffX"
             \with
@@ -926,66 +263,7 @@
             }
             {
                 \context VoiceX = "VoiceX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                }
+                \HVoiceX
             }
             \context StaffXI = "StaffXI"
             \with
@@ -1009,50 +287,7 @@
             }
             {
                 \context VoiceXI = "VoiceXI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \times 2/3 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                }
+                \HVoiceXI
             }
             \context StaffXII = "StaffXII"
             \with
@@ -1076,53 +311,7 @@
             }
             {
                 \context VoiceXII = "VoiceXII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                }
+                \HVoiceXII
             }
             \context StaffXIII = "StaffXIII"
             \with
@@ -1146,46 +335,7 @@
             }
             {
                 \context VoiceXIII = "VoiceXIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 4/5 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \times 2/3 {
-                        b'4
-                        b'4
-                        b'4
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXIII
             }
             \context StaffXIV = "StaffXIV"
             \with
@@ -1209,45 +359,7 @@
             }
             {
                 \context VoiceXIV = "VoiceXIV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'4
-                        b'4
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXIV
             }
             \context StaffXV = "StaffXV"
             \with
@@ -1271,36 +383,7 @@
             }
             {
                 \context VoiceXV = "VoiceXV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'2
-                    }
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXV
             }
             \context StaffXVI = "StaffXVI"
             \with
@@ -1324,33 +407,7 @@
             }
             {
                 \context VoiceXVI = "VoiceXVI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \times 4/7 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXVI
             }
             \context StaffXVII = "StaffXVII"
             \with
@@ -1374,25 +431,7 @@
             }
             {
                 \context VoiceXVII = "VoiceXVII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXVII
             }
             \context StaffXVIII = "StaffXVIII"
             \with
@@ -1416,25 +455,7 @@
             }
             {
                 \context VoiceXVIII = "VoiceXVIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXVIII
             }
             \context StaffXIX = "StaffXIX"
             \with
@@ -1458,25 +479,7 @@
             }
             {
                 \context VoiceXIX = "VoiceXIX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXIX
             }
             \context StaffXX = "StaffXX"
             \with
@@ -1500,25 +503,7 @@
             }
             {
                 \context VoiceXX = "VoiceXX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXX
             }
             \context StaffXXI = "StaffXXI"
             \with
@@ -1542,25 +527,7 @@
             }
             {
                 \context VoiceXXI = "VoiceXXI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXI
             }
             \context StaffXXII = "StaffXXII"
             \with
@@ -1584,25 +551,7 @@
             }
             {
                 \context VoiceXXII = "VoiceXXII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXII
             }
             \context StaffXXIII = "StaffXXIII"
             \with
@@ -1626,25 +575,7 @@
             }
             {
                 \context VoiceXXIII = "VoiceXXIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXIII
             }
             \context StaffXXIV = "StaffXXIV"
             \with
@@ -1668,25 +599,7 @@
             }
             {
                 \context VoiceXXIV = "VoiceXXIV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXIV
             }
             \context StaffXXV = "StaffXXV"
             \with
@@ -1710,25 +623,7 @@
             }
             {
                 \context VoiceXXV = "VoiceXXV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXV
             }
             \context StaffXXVI = "StaffXXVI"
             \with
@@ -1752,25 +647,7 @@
             }
             {
                 \context VoiceXXVI = "VoiceXXVI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXVI
             }
             \context StaffXXVII = "StaffXXVII"
             \with
@@ -1794,25 +671,7 @@
             }
             {
                 \context VoiceXXVII = "VoiceXXVII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXVII
             }
             \context StaffXXVIII = "StaffXXVIII"
             \with
@@ -1836,25 +695,7 @@
             }
             {
                 \context VoiceXXVIII = "VoiceXXVIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXVIII
             }
             \context StaffXXIX = "StaffXXIX"
             \with
@@ -1878,25 +719,7 @@
             }
             {
                 \context VoiceXXIX = "VoiceXXIX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXIX
             }
             \context StaffXXX = "StaffXXX"
             \with
@@ -1920,25 +743,7 @@
             }
             {
                 \context VoiceXXX = "VoiceXXX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXX
             }
             \context StaffXXXI = "StaffXXXI"
             \with
@@ -1962,25 +767,7 @@
             }
             {
                 \context VoiceXXXI = "VoiceXXXI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXXI
             }
             \context StaffXXXII = "StaffXXXII"
             \with
@@ -2004,25 +791,7 @@
             }
             {
                 \context VoiceXXXII = "VoiceXXXII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXXXII
             }
             \context StaffXXXIII = "StaffXXXIII"
             \with
@@ -2046,121 +815,7 @@
             }
             {
                 \context VoiceXXXIII = "VoiceXXXIII"
-                {
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        \time 1/2
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXXXIII
             }
             \context StaffXXXIV = "StaffXXXIV"
             \with
@@ -2184,73 +839,7 @@
             }
             {
                 \context VoiceXXXIV = "VoiceXXXIV"
-                {
-                    \time 1/2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXXXIV
             }
             \context StaffXXXV = "StaffXXXV"
             \with
@@ -2274,73 +863,7 @@
             }
             {
                 \context VoiceXXXV = "VoiceXXXV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXXXV
             }
             \context StaffXXXVI = "StaffXXXVI"
             \with
@@ -2364,49 +887,7 @@
             }
             {
                 \context VoiceXXXVI = "VoiceXXXVI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXXXVI
             }
             \context StaffXXXVII = "StaffXXXVII"
             \with
@@ -2430,73 +911,7 @@
             }
             {
                 \context VoiceXXXVII = "VoiceXXXVII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXXXVII
             }
             \context StaffXXXVIII = "StaffXXXVIII"
             \with
@@ -2520,49 +935,7 @@
             }
             {
                 \context VoiceXXXVIII = "VoiceXXXVIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXXXVIII
             }
             \context StaffXXXIX = "StaffXXXIX"
             \with
@@ -2586,49 +959,7 @@
             }
             {
                 \context VoiceXXXIX = "VoiceXXXIX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXXXIX
             }
             \context StaffXL = "StaffXL"
             \with
@@ -2652,37 +983,7 @@
             }
             {
                 \context VoiceXL = "VoiceXL"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXL
             }
             \context StaffXLI = "StaffXLI"
             \with
@@ -2706,73 +1007,7 @@
             }
             {
                 \context VoiceXLI = "VoiceXLI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXLI
             }
             \context StaffXLII = "StaffXLII"
             \with
@@ -2796,49 +1031,7 @@
             }
             {
                 \context VoiceXLII = "VoiceXLII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXLII
             }
             \context StaffXLIII = "StaffXLIII"
             \with
@@ -2862,49 +1055,7 @@
             }
             {
                 \context VoiceXLIII = "VoiceXLIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXLIII
             }
             \context StaffXLIV = "StaffXLIV"
             \with
@@ -2928,37 +1079,7 @@
             }
             {
                 \context VoiceXLIV = "VoiceXLIV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXLIV
             }
             \context StaffXLV = "StaffXLV"
             \with
@@ -2982,49 +1103,7 @@
             }
             {
                 \context VoiceXLV = "VoiceXLV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXLV
             }
             \context StaffXLVI = "StaffXLVI"
             \with
@@ -3048,37 +1127,7 @@
             }
             {
                 \context VoiceXLVI = "VoiceXLVI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXLVI
             }
             \context StaffXLVII = "StaffXLVII"
             \with
@@ -3102,37 +1151,7 @@
             }
             {
                 \context VoiceXLVII = "VoiceXLVII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXLVII
             }
             \context StaffXLVIII = "StaffXLVIII"
             \with
@@ -3156,31 +1175,7 @@
             }
             {
                 \context VoiceXLVIII = "VoiceXLVIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 1/1 {
-                        b'8
-                        b'8
-                        b'8
-                        b'8
-                    }
-                }
+                \HVoiceXLVIII
             }
             \context StaffXLIX = "StaffXLIX"
             \with
@@ -3204,25 +1199,7 @@
             }
             {
                 \context VoiceXLIX = "VoiceXLIX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceXLIX
             }
             \context StaffL = "StaffL"
             \with
@@ -3246,25 +1223,7 @@
             }
             {
                 \context VoiceL = "VoiceL"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceL
             }
             \context StaffLI = "StaffLI"
             \with
@@ -3288,25 +1247,7 @@
             }
             {
                 \context VoiceLI = "VoiceLI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLI
             }
             \context StaffLII = "StaffLII"
             \with
@@ -3330,25 +1271,7 @@
             }
             {
                 \context VoiceLII = "VoiceLII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLII
             }
             \context StaffLIII = "StaffLIII"
             \with
@@ -3372,25 +1295,7 @@
             }
             {
                 \context VoiceLIII = "VoiceLIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLIII
             }
             \context StaffLIV = "StaffLIV"
             \with
@@ -3414,25 +1319,7 @@
             }
             {
                 \context VoiceLIV = "VoiceLIV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLIV
             }
             \context StaffLV = "StaffLV"
             \with
@@ -3456,25 +1343,7 @@
             }
             {
                 \context VoiceLV = "VoiceLV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLV
             }
             \context StaffLVI = "StaffLVI"
             \with
@@ -3498,25 +1367,7 @@
             }
             {
                 \context VoiceLVI = "VoiceLVI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLVI
             }
             \context StaffLVII = "StaffLVII"
             \with
@@ -3540,25 +1391,7 @@
             }
             {
                 \context VoiceLVII = "VoiceLVII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLVII
             }
             \context StaffLVIII = "StaffLVIII"
             \with
@@ -3582,25 +1415,7 @@
             }
             {
                 \context VoiceLVIII = "VoiceLVIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLVIII
             }
             \context StaffLIX = "StaffLIX"
             \with
@@ -3624,25 +1439,7 @@
             }
             {
                 \context VoiceLIX = "VoiceLIX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLIX
             }
             \context StaffLX = "StaffLX"
             \with
@@ -3666,25 +1463,7 @@
             }
             {
                 \context VoiceLX = "VoiceLX"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLX
             }
             \context StaffLXI = "StaffLXI"
             \with
@@ -3708,25 +1487,7 @@
             }
             {
                 \context VoiceLXI = "VoiceLXI"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLXI
             }
             \context StaffLXII = "StaffLXII"
             \with
@@ -3750,25 +1511,7 @@
             }
             {
                 \context VoiceLXII = "VoiceLXII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLXII
             }
             \context StaffLXIII = "StaffLXIII"
             \with
@@ -3792,25 +1535,7 @@
             }
             {
                 \context VoiceLXIII = "VoiceLXIII"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLXIII
             }
             \context StaffLXIV = "StaffLXIV"
             \with
@@ -3834,25 +1559,7 @@
             }
             {
                 \context VoiceLXIV = "VoiceLXIV"
-                {
-                    \time 1/2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                    r2
-                }
+                \HVoiceLXIV
             }
         >>
     >>

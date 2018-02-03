@@ -47,6 +47,7 @@ class SegmentMaker(abjad.SegmentMaker):
         measure_duration = abjad.Duration(measure_duration)
         self._measure_duration = measure_duration
         self._page_number = page_number
+        self._segment_directory = None
 
     ### PRIVATE METHODS ###
 
@@ -194,11 +195,13 @@ class SegmentMaker(abjad.SegmentMaker):
         '''
         self._metadata = abjad.OrderedDict(metadata)
         self._previous_metadata = abjad.OrderedDict(previous_metadata)
+        self._segment_directory = segment_directory
         self._make_score()
         self._make_music()
         self._configure_score()
         self._add_final_bar_line()
         self._add_final_markup()
+        self._add_parse_handles()
         self._make_lilypond_file()
         self._configure_lilypond_file()
         score_block = self._lilypond_file['score']
