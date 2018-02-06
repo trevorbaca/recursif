@@ -1,4 +1,4 @@
-IVoiceI = {
+I_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ IVoiceI = {
 }
 
 
-IVoiceII = {
+I_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ IVoiceII = {
 }
 
 
-IVoiceIII = {
+I_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ IVoiceIII = {
 }
 
 
-IVoiceIV = {
+I_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ IVoiceIV = {
 }
 
 
-IVoiceV = {
+I_VoiceV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -453,7 +453,7 @@ IVoiceV = {
 }
 
 
-IVoiceVI = {
+I_VoiceVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -538,7 +538,7 @@ IVoiceVI = {
 }
 
 
-IVoiceVII = {
+I_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ IVoiceVII = {
 }
 
 
-IVoiceVIII = {
+I_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -677,7 +677,7 @@ IVoiceVIII = {
 }
 
 
-IVoiceIX = {
+I_VoiceIX = {
     \times 2/3 {
         \time 1/2
         b'8
@@ -784,7 +784,7 @@ IVoiceIX = {
 }
 
 
-IVoiceX = {
+I_VoiceX = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -874,7 +874,7 @@ IVoiceX = {
 }
 
 
-IVoiceXI = {
+I_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -968,7 +968,7 @@ IVoiceXI = {
 }
 
 
-IVoiceXII = {
+I_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -1031,7 +1031,7 @@ IVoiceXII = {
 }
 
 
-IVoiceXIII = {
+I_VoiceXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1143,7 +1143,7 @@ IVoiceXIII = {
 }
 
 
-IVoiceXIV = {
+I_VoiceXIV = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1227,7 +1227,7 @@ IVoiceXIV = {
 }
 
 
-IVoiceXV = {
+I_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -1293,7 +1293,7 @@ IVoiceXV = {
 }
 
 
-IVoiceXVI = {
+I_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -1339,7 +1339,7 @@ IVoiceXVI = {
 }
 
 
-IVoiceXVII = {
+I_VoiceXVII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1444,7 +1444,7 @@ IVoiceXVII = {
 }
 
 
-IVoiceXVIII = {
+I_VoiceXVIII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -1541,7 +1541,7 @@ IVoiceXVIII = {
 }
 
 
-IVoiceXIX = {
+I_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1624,7 +1624,7 @@ IVoiceXIX = {
 }
 
 
-IVoiceXX = {
+I_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1710,7 +1710,7 @@ IVoiceXX = {
 }
 
 
-IVoiceXXI = {
+I_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1795,7 +1795,7 @@ IVoiceXXI = {
 }
 
 
-IVoiceXXII = {
+I_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1868,7 +1868,7 @@ IVoiceXXII = {
 }
 
 
-IVoiceXXIII = {
+I_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1945,7 +1945,7 @@ IVoiceXXIII = {
 }
 
 
-IVoiceXXIV = {
+I_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -1994,7 +1994,7 @@ IVoiceXXIV = {
 }
 
 
-IVoiceXXV = {
+I_VoiceXXV = {
     \time 1/2
     r2
     r2
@@ -2057,7 +2057,7 @@ IVoiceXXV = {
 }
 
 
-IVoiceXXVI = {
+I_VoiceXXVI = {
     \time 1/2
     r2
     r2
@@ -2120,7 +2120,7 @@ IVoiceXXVI = {
 }
 
 
-IVoiceXXVII = {
+I_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -2173,7 +2173,7 @@ IVoiceXXVII = {
 }
 
 
-IVoiceXXVIII = {
+I_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -2226,7 +2226,7 @@ IVoiceXXVIII = {
 }
 
 
-IVoiceXXIX = {
+I_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -2268,7 +2268,7 @@ IVoiceXXIX = {
 }
 
 
-IVoiceXXX = {
+I_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -2309,7 +2309,7 @@ IVoiceXXX = {
 }
 
 
-IVoiceXXXI = {
+I_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -2341,7 +2341,7 @@ IVoiceXXXI = {
 }
 
 
-IVoiceXXXII = {
+I_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -2370,829 +2370,7 @@ IVoiceXXXII = {
 }
 
 
-IVoiceXXXIII = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        \time 1/2
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXXXIV = {
-    \time 1/2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXXXV = {
-    \time 1/2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXXXVI = {
-    \time 1/2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXXXVII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXXXVIII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXXXIX = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXL = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLI = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLIII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLIV = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLV = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLVI = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLVII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLVIII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-IVoiceXLIX = {
+I_VoiceXXXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -3309,7 +2487,7 @@ IVoiceXLIX = {
 }
 
 
-IVoiceL = {
+I_VoiceXXXIV = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3378,7 +2556,7 @@ IVoiceL = {
 }
 
 
-IVoiceLI = {
+I_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -3447,7 +2625,7 @@ IVoiceLI = {
 }
 
 
-IVoiceLII = {
+I_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -3492,7 +2670,7 @@ IVoiceLII = {
 }
 
 
-IVoiceLIII = {
+I_VoiceXXXVII = {
     \time 1/2
     r2
     r2
@@ -3561,7 +2739,7 @@ IVoiceLIII = {
 }
 
 
-IVoiceLIV = {
+I_VoiceXXXVIII = {
     \time 1/2
     r2
     r2
@@ -3606,7 +2784,7 @@ IVoiceLIV = {
 }
 
 
-IVoiceLV = {
+I_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -3651,7 +2829,7 @@ IVoiceLV = {
 }
 
 
-IVoiceLVI = {
+I_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -3684,7 +2862,7 @@ IVoiceLVI = {
 }
 
 
-IVoiceLVII = {
+I_VoiceXLI = {
     \time 1/2
     r2
     r2
@@ -3753,7 +2931,7 @@ IVoiceLVII = {
 }
 
 
-IVoiceLVIII = {
+I_VoiceXLII = {
     \time 1/2
     r2
     r2
@@ -3798,7 +2976,7 @@ IVoiceLVIII = {
 }
 
 
-IVoiceLIX = {
+I_VoiceXLIII = {
     \time 1/2
     r2
     r2
@@ -3843,7 +3021,7 @@ IVoiceLIX = {
 }
 
 
-IVoiceLX = {
+I_VoiceXLIV = {
     \time 1/2
     r2
     r2
@@ -3876,7 +3054,7 @@ IVoiceLX = {
 }
 
 
-IVoiceLXI = {
+I_VoiceXLV = {
     \time 1/2
     r2
     r2
@@ -3921,7 +3099,7 @@ IVoiceLXI = {
 }
 
 
-IVoiceLXII = {
+I_VoiceXLVI = {
     \time 1/2
     r2
     r2
@@ -3954,7 +3132,7 @@ IVoiceLXII = {
 }
 
 
-IVoiceLXIII = {
+I_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -3987,7 +3165,829 @@ IVoiceLXIII = {
 }
 
 
-IVoiceLXIV = {
+I_VoiceXLVIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceXLIX = {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        \time 1/2
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceL = {
+    \time 1/2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLI = {
+    \time 1/2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLIV = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLV = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLVI = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLVII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLVIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLIX = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLX = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLXI = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLXII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLXIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+I_VoiceLXIV = {
     \time 1/2
     r2
     r2

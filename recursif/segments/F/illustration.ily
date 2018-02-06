@@ -1,4 +1,4 @@
-FVoiceI = {
+F_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ FVoiceI = {
 }
 
 
-FVoiceII = {
+F_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ FVoiceII = {
 }
 
 
-FVoiceIII = {
+F_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ FVoiceIII = {
 }
 
 
-FVoiceIV = {
+F_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ FVoiceIV = {
 }
 
 
-FVoiceV = {
+F_VoiceV = {
     \time 1/2
     r2
     r2
@@ -429,7 +429,7 @@ FVoiceV = {
 }
 
 
-FVoiceVI = {
+F_VoiceVI = {
     \time 1/2
     r2
     r2
@@ -496,7 +496,7 @@ FVoiceVI = {
 }
 
 
-FVoiceVII = {
+F_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -573,7 +573,7 @@ FVoiceVII = {
 }
 
 
-FVoiceVIII = {
+F_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ FVoiceVIII = {
 }
 
 
-FVoiceIX = {
+F_VoiceIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -738,7 +738,7 @@ FVoiceIX = {
 }
 
 
-FVoiceX = {
+F_VoiceX = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -824,7 +824,7 @@ FVoiceX = {
 }
 
 
-FVoiceXI = {
+F_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -908,7 +908,7 @@ FVoiceXI = {
 }
 
 
-FVoiceXII = {
+F_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -969,7 +969,7 @@ FVoiceXII = {
 }
 
 
-FVoiceXIII = {
+F_VoiceXIII = {
     \time 1/2
     r2
     r2
@@ -1035,7 +1035,7 @@ FVoiceXIII = {
 }
 
 
-FVoiceXIV = {
+F_VoiceXIV = {
     \time 1/2
     r2
     r2
@@ -1080,7 +1080,7 @@ FVoiceXIV = {
 }
 
 
-FVoiceXV = {
+F_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -1123,7 +1123,7 @@ FVoiceXV = {
 }
 
 
-FVoiceXVI = {
+F_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -1154,7 +1154,7 @@ FVoiceXVI = {
 }
 
 
-FVoiceXVII = {
+F_VoiceXVII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1263,7 +1263,7 @@ FVoiceXVII = {
 }
 
 
-FVoiceXVIII = {
+F_VoiceXVIII = {
     \time 1/2
     r2
     \times 2/3 {
@@ -1352,7 +1352,7 @@ FVoiceXVIII = {
 }
 
 
-FVoiceXIX = {
+F_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1441,7 +1441,7 @@ FVoiceXIX = {
 }
 
 
-FVoiceXX = {
+F_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1496,7 +1496,7 @@ FVoiceXX = {
 }
 
 
-FVoiceXXI = {
+F_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1585,7 +1585,7 @@ FVoiceXXI = {
 }
 
 
-FVoiceXXII = {
+F_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1658,7 +1658,7 @@ FVoiceXXII = {
 }
 
 
-FVoiceXXIII = {
+F_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1713,7 +1713,7 @@ FVoiceXXIII = {
 }
 
 
-FVoiceXXIV = {
+F_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -1754,7 +1754,7 @@ FVoiceXXIV = {
 }
 
 
-FVoiceXXV = {
+F_VoiceXXV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1867,7 +1867,7 @@ FVoiceXXV = {
 }
 
 
-FVoiceXXVI = {
+F_VoiceXXVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1946,7 +1946,7 @@ FVoiceXXVI = {
 }
 
 
-FVoiceXXVII = {
+F_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -2025,7 +2025,7 @@ FVoiceXXVII = {
 }
 
 
-FVoiceXXVIII = {
+F_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -2072,7 +2072,7 @@ FVoiceXXVIII = {
 }
 
 
-FVoiceXXIX = {
+F_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -2139,7 +2139,7 @@ FVoiceXXIX = {
 }
 
 
-FVoiceXXX = {
+F_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -2186,7 +2186,7 @@ FVoiceXXX = {
 }
 
 
-FVoiceXXXI = {
+F_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -2230,7 +2230,7 @@ FVoiceXXXI = {
 }
 
 
-FVoiceXXXII = {
+F_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -2261,7 +2261,7 @@ FVoiceXXXII = {
 }
 
 
-FVoiceXXXIII = {
+F_VoiceXXXIII = {
     \times 4/7 {
         \time 1/2
         b'8
@@ -2378,7 +2378,7 @@ FVoiceXXXIII = {
 }
 
 
-FVoiceXXXIV = {
+F_VoiceXXXIV = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -2475,7 +2475,7 @@ FVoiceXXXIV = {
 }
 
 
-FVoiceXXXV = {
+F_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -2572,7 +2572,7 @@ FVoiceXXXV = {
 }
 
 
-FVoiceXXXVI = {
+F_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -2648,7 +2648,7 @@ FVoiceXXXVI = {
 }
 
 
-FVoiceXXXVII = {
+F_VoiceXXXVII = {
     \time 1/2
     r2
     r2
@@ -2733,7 +2733,7 @@ FVoiceXXXVII = {
 }
 
 
-FVoiceXXXVIII = {
+F_VoiceXXXVIII = {
     \time 1/2
     r2
     r2
@@ -2806,7 +2806,7 @@ FVoiceXXXVIII = {
 }
 
 
-FVoiceXXXIX = {
+F_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -2884,7 +2884,7 @@ FVoiceXXXIX = {
 }
 
 
-FVoiceXL = {
+F_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -2932,7 +2932,7 @@ FVoiceXL = {
 }
 
 
-FVoiceXLI = {
+F_VoiceXLI = {
     \time 1/2
     r2
     r2
@@ -2995,7 +2995,7 @@ FVoiceXLI = {
 }
 
 
-FVoiceXLII = {
+F_VoiceXLII = {
     \time 1/2
     r2
     r2
@@ -3051,7 +3051,7 @@ FVoiceXLII = {
 }
 
 
-FVoiceXLIII = {
+F_VoiceXLIII = {
     \time 1/2
     r2
     r2
@@ -3111,7 +3111,7 @@ FVoiceXLIII = {
 }
 
 
-FVoiceXLIV = {
+F_VoiceXLIV = {
     \time 1/2
     r2
     r2
@@ -3160,7 +3160,7 @@ FVoiceXLIV = {
 }
 
 
-FVoiceXLV = {
+F_VoiceXLV = {
     \time 1/2
     r2
     r2
@@ -3202,7 +3202,7 @@ FVoiceXLV = {
 }
 
 
-FVoiceXLVI = {
+F_VoiceXLVI = {
     \time 1/2
     r2
     r2
@@ -3236,7 +3236,7 @@ FVoiceXLVI = {
 }
 
 
-FVoiceXLVII = {
+F_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -3268,7 +3268,7 @@ FVoiceXLVII = {
 }
 
 
-FVoiceXLVIII = {
+F_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -3292,7 +3292,7 @@ FVoiceXLVIII = {
 }
 
 
-FVoiceXLIX = {
+F_VoiceXLIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -3409,7 +3409,7 @@ FVoiceXLIX = {
 }
 
 
-FVoiceL = {
+F_VoiceL = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3478,7 +3478,7 @@ FVoiceL = {
 }
 
 
-FVoiceLI = {
+F_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -3547,7 +3547,7 @@ FVoiceLI = {
 }
 
 
-FVoiceLII = {
+F_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -3592,7 +3592,7 @@ FVoiceLII = {
 }
 
 
-FVoiceLIII = {
+F_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -3661,7 +3661,7 @@ FVoiceLIII = {
 }
 
 
-FVoiceLIV = {
+F_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -3706,7 +3706,7 @@ FVoiceLIV = {
 }
 
 
-FVoiceLV = {
+F_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -3751,7 +3751,7 @@ FVoiceLV = {
 }
 
 
-FVoiceLVI = {
+F_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -3784,7 +3784,7 @@ FVoiceLVI = {
 }
 
 
-FVoiceLVII = {
+F_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -3853,7 +3853,7 @@ FVoiceLVII = {
 }
 
 
-FVoiceLVIII = {
+F_VoiceLVIII = {
     \time 1/2
     r2
     r2
@@ -3898,7 +3898,7 @@ FVoiceLVIII = {
 }
 
 
-FVoiceLIX = {
+F_VoiceLIX = {
     \time 1/2
     r2
     r2
@@ -3943,7 +3943,7 @@ FVoiceLIX = {
 }
 
 
-FVoiceLX = {
+F_VoiceLX = {
     \time 1/2
     r2
     r2
@@ -3976,7 +3976,7 @@ FVoiceLX = {
 }
 
 
-FVoiceLXI = {
+F_VoiceLXI = {
     \time 1/2
     r2
     r2
@@ -4021,7 +4021,7 @@ FVoiceLXI = {
 }
 
 
-FVoiceLXII = {
+F_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -4054,7 +4054,7 @@ FVoiceLXII = {
 }
 
 
-FVoiceLXIII = {
+F_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -4087,7 +4087,7 @@ FVoiceLXIII = {
 }
 
 
-FVoiceLXIV = {
+F_VoiceLXIV = {
     \time 1/2
     r2
     r2

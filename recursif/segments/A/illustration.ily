@@ -1,4 +1,4 @@
-AVoiceI = {
+A_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ AVoiceI = {
 }
 
 
-AVoiceII = {
+A_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ AVoiceII = {
 }
 
 
-AVoiceIII = {
+A_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ AVoiceIII = {
 }
 
 
-AVoiceIV = {
+A_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ AVoiceIV = {
 }
 
 
-AVoiceV = {
+A_VoiceV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -453,7 +453,7 @@ AVoiceV = {
 }
 
 
-AVoiceVI = {
+A_VoiceVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -538,7 +538,7 @@ AVoiceVI = {
 }
 
 
-AVoiceVII = {
+A_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ AVoiceVII = {
 }
 
 
-AVoiceVIII = {
+A_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -677,7 +677,7 @@ AVoiceVIII = {
 }
 
 
-AVoiceIX = {
+A_VoiceIX = {
     \times 2/3 {
         \time 1/2
         b'8
@@ -784,7 +784,7 @@ AVoiceIX = {
 }
 
 
-AVoiceX = {
+A_VoiceX = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -874,7 +874,7 @@ AVoiceX = {
 }
 
 
-AVoiceXI = {
+A_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -968,7 +968,7 @@ AVoiceXI = {
 }
 
 
-AVoiceXII = {
+A_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -1031,7 +1031,7 @@ AVoiceXII = {
 }
 
 
-AVoiceXIII = {
+A_VoiceXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1143,7 +1143,7 @@ AVoiceXIII = {
 }
 
 
-AVoiceXIV = {
+A_VoiceXIV = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1227,7 +1227,7 @@ AVoiceXIV = {
 }
 
 
-AVoiceXV = {
+A_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -1293,7 +1293,7 @@ AVoiceXV = {
 }
 
 
-AVoiceXVI = {
+A_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -1339,7 +1339,7 @@ AVoiceXVI = {
 }
 
 
-AVoiceXVII = {
+A_VoiceXVII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1444,7 +1444,7 @@ AVoiceXVII = {
 }
 
 
-AVoiceXVIII = {
+A_VoiceXVIII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -1541,7 +1541,7 @@ AVoiceXVIII = {
 }
 
 
-AVoiceXIX = {
+A_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1624,7 +1624,7 @@ AVoiceXIX = {
 }
 
 
-AVoiceXX = {
+A_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1710,7 +1710,7 @@ AVoiceXX = {
 }
 
 
-AVoiceXXI = {
+A_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1795,7 +1795,7 @@ AVoiceXXI = {
 }
 
 
-AVoiceXXII = {
+A_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1868,7 +1868,7 @@ AVoiceXXII = {
 }
 
 
-AVoiceXXIII = {
+A_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1945,7 +1945,7 @@ AVoiceXXIII = {
 }
 
 
-AVoiceXXIV = {
+A_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -1994,7 +1994,7 @@ AVoiceXXIV = {
 }
 
 
-AVoiceXXV = {
+A_VoiceXXV = {
     \time 1/2
     r2
     r2
@@ -2057,7 +2057,7 @@ AVoiceXXV = {
 }
 
 
-AVoiceXXVI = {
+A_VoiceXXVI = {
     \time 1/2
     r2
     r2
@@ -2120,7 +2120,7 @@ AVoiceXXVI = {
 }
 
 
-AVoiceXXVII = {
+A_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -2173,7 +2173,7 @@ AVoiceXXVII = {
 }
 
 
-AVoiceXXVIII = {
+A_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -2226,7 +2226,7 @@ AVoiceXXVIII = {
 }
 
 
-AVoiceXXIX = {
+A_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -2268,7 +2268,7 @@ AVoiceXXIX = {
 }
 
 
-AVoiceXXX = {
+A_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -2309,7 +2309,7 @@ AVoiceXXX = {
 }
 
 
-AVoiceXXXI = {
+A_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -2341,7 +2341,7 @@ AVoiceXXXI = {
 }
 
 
-AVoiceXXXII = {
+A_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -2370,7 +2370,7 @@ AVoiceXXXII = {
 }
 
 
-AVoiceXXXIII = {
+A_VoiceXXXIII = {
     \time 1/2
     r2
     r2
@@ -2391,7 +2391,7 @@ AVoiceXXXIII = {
 }
 
 
-AVoiceXXXIV = {
+A_VoiceXXXIV = {
     \time 1/2
     r2
     r2
@@ -2412,7 +2412,7 @@ AVoiceXXXIV = {
 }
 
 
-AVoiceXXXV = {
+A_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -2433,7 +2433,7 @@ AVoiceXXXV = {
 }
 
 
-AVoiceXXXVI = {
+A_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -2454,7 +2454,7 @@ AVoiceXXXVI = {
 }
 
 
-AVoiceXXXVII = {
+A_VoiceXXXVII = {
     \time 1/2
     r2
     r2
@@ -2475,7 +2475,7 @@ AVoiceXXXVII = {
 }
 
 
-AVoiceXXXVIII = {
+A_VoiceXXXVIII = {
     \time 1/2
     r2
     r2
@@ -2496,7 +2496,7 @@ AVoiceXXXVIII = {
 }
 
 
-AVoiceXXXIX = {
+A_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -2517,7 +2517,7 @@ AVoiceXXXIX = {
 }
 
 
-AVoiceXL = {
+A_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -2538,7 +2538,7 @@ AVoiceXL = {
 }
 
 
-AVoiceXLI = {
+A_VoiceXLI = {
     \time 1/2
     r2
     r2
@@ -2559,7 +2559,7 @@ AVoiceXLI = {
 }
 
 
-AVoiceXLII = {
+A_VoiceXLII = {
     \time 1/2
     r2
     r2
@@ -2580,7 +2580,7 @@ AVoiceXLII = {
 }
 
 
-AVoiceXLIII = {
+A_VoiceXLIII = {
     \time 1/2
     r2
     r2
@@ -2601,7 +2601,7 @@ AVoiceXLIII = {
 }
 
 
-AVoiceXLIV = {
+A_VoiceXLIV = {
     \time 1/2
     r2
     r2
@@ -2622,7 +2622,7 @@ AVoiceXLIV = {
 }
 
 
-AVoiceXLV = {
+A_VoiceXLV = {
     \time 1/2
     r2
     r2
@@ -2643,7 +2643,7 @@ AVoiceXLV = {
 }
 
 
-AVoiceXLVI = {
+A_VoiceXLVI = {
     \time 1/2
     r2
     r2
@@ -2664,7 +2664,7 @@ AVoiceXLVI = {
 }
 
 
-AVoiceXLVII = {
+A_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -2685,7 +2685,7 @@ AVoiceXLVII = {
 }
 
 
-AVoiceXLVIII = {
+A_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -2706,7 +2706,7 @@ AVoiceXLVIII = {
 }
 
 
-AVoiceXLIX = {
+A_VoiceXLIX = {
     \time 1/2
     r2
     r2
@@ -2727,7 +2727,7 @@ AVoiceXLIX = {
 }
 
 
-AVoiceL = {
+A_VoiceL = {
     \time 1/2
     r2
     r2
@@ -2748,7 +2748,7 @@ AVoiceL = {
 }
 
 
-AVoiceLI = {
+A_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -2769,7 +2769,7 @@ AVoiceLI = {
 }
 
 
-AVoiceLII = {
+A_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -2790,7 +2790,7 @@ AVoiceLII = {
 }
 
 
-AVoiceLIII = {
+A_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -2811,7 +2811,7 @@ AVoiceLIII = {
 }
 
 
-AVoiceLIV = {
+A_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -2832,7 +2832,7 @@ AVoiceLIV = {
 }
 
 
-AVoiceLV = {
+A_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -2853,7 +2853,7 @@ AVoiceLV = {
 }
 
 
-AVoiceLVI = {
+A_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -2874,7 +2874,7 @@ AVoiceLVI = {
 }
 
 
-AVoiceLVII = {
+A_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -2895,7 +2895,7 @@ AVoiceLVII = {
 }
 
 
-AVoiceLVIII = {
+A_VoiceLVIII = {
     \time 1/2
     r2
     r2
@@ -2916,7 +2916,7 @@ AVoiceLVIII = {
 }
 
 
-AVoiceLIX = {
+A_VoiceLIX = {
     \time 1/2
     r2
     r2
@@ -2937,7 +2937,7 @@ AVoiceLIX = {
 }
 
 
-AVoiceLX = {
+A_VoiceLX = {
     \time 1/2
     r2
     r2
@@ -2958,7 +2958,7 @@ AVoiceLX = {
 }
 
 
-AVoiceLXI = {
+A_VoiceLXI = {
     \time 1/2
     r2
     r2
@@ -2979,7 +2979,7 @@ AVoiceLXI = {
 }
 
 
-AVoiceLXII = {
+A_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -3000,7 +3000,7 @@ AVoiceLXII = {
 }
 
 
-AVoiceLXIII = {
+A_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -3021,7 +3021,7 @@ AVoiceLXIII = {
 }
 
 
-AVoiceLXIV = {
+A_VoiceLXIV = {
     \time 1/2
     r2
     r2

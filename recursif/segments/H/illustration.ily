@@ -1,4 +1,4 @@
-HVoiceI = {
+H_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ HVoiceI = {
 }
 
 
-HVoiceII = {
+H_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ HVoiceII = {
 }
 
 
-HVoiceIII = {
+H_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ HVoiceIII = {
 }
 
 
-HVoiceIV = {
+H_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ HVoiceIV = {
 }
 
 
-HVoiceV = {
+H_VoiceV = {
     \time 1/2
     r2
     r2
@@ -429,7 +429,7 @@ HVoiceV = {
 }
 
 
-HVoiceVI = {
+H_VoiceVI = {
     \time 1/2
     r2
     r2
@@ -496,7 +496,7 @@ HVoiceVI = {
 }
 
 
-HVoiceVII = {
+H_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -573,7 +573,7 @@ HVoiceVII = {
 }
 
 
-HVoiceVIII = {
+H_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ HVoiceVIII = {
 }
 
 
-HVoiceIX = {
+H_VoiceIX = {
     \time 1/2
     r2
     r2
@@ -690,7 +690,7 @@ HVoiceIX = {
 }
 
 
-HVoiceX = {
+H_VoiceX = {
     \time 1/2
     r2
     r2
@@ -752,7 +752,7 @@ HVoiceX = {
 }
 
 
-HVoiceXI = {
+H_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -798,7 +798,7 @@ HVoiceXI = {
 }
 
 
-HVoiceXII = {
+H_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -847,7 +847,7 @@ HVoiceXII = {
 }
 
 
-HVoiceXIII = {
+H_VoiceXIII = {
     \time 1/2
     r2
     r2
@@ -889,7 +889,7 @@ HVoiceXIII = {
 }
 
 
-HVoiceXIV = {
+H_VoiceXIV = {
     \time 1/2
     r2
     r2
@@ -930,7 +930,7 @@ HVoiceXIV = {
 }
 
 
-HVoiceXV = {
+H_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -962,7 +962,7 @@ HVoiceXV = {
 }
 
 
-HVoiceXVI = {
+H_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -991,7 +991,7 @@ HVoiceXVI = {
 }
 
 
-HVoiceXVII = {
+H_VoiceXVII = {
     \time 1/2
     r2
     r2
@@ -1012,7 +1012,7 @@ HVoiceXVII = {
 }
 
 
-HVoiceXVIII = {
+H_VoiceXVIII = {
     \time 1/2
     r2
     r2
@@ -1033,7 +1033,7 @@ HVoiceXVIII = {
 }
 
 
-HVoiceXIX = {
+H_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1054,7 +1054,7 @@ HVoiceXIX = {
 }
 
 
-HVoiceXX = {
+H_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1075,7 +1075,7 @@ HVoiceXX = {
 }
 
 
-HVoiceXXI = {
+H_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1096,7 +1096,7 @@ HVoiceXXI = {
 }
 
 
-HVoiceXXII = {
+H_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1117,7 +1117,7 @@ HVoiceXXII = {
 }
 
 
-HVoiceXXIII = {
+H_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1138,7 +1138,7 @@ HVoiceXXIII = {
 }
 
 
-HVoiceXXIV = {
+H_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -1159,7 +1159,7 @@ HVoiceXXIV = {
 }
 
 
-HVoiceXXV = {
+H_VoiceXXV = {
     \time 1/2
     r2
     r2
@@ -1180,7 +1180,7 @@ HVoiceXXV = {
 }
 
 
-HVoiceXXVI = {
+H_VoiceXXVI = {
     \time 1/2
     r2
     r2
@@ -1201,7 +1201,7 @@ HVoiceXXVI = {
 }
 
 
-HVoiceXXVII = {
+H_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -1222,7 +1222,7 @@ HVoiceXXVII = {
 }
 
 
-HVoiceXXVIII = {
+H_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -1243,7 +1243,7 @@ HVoiceXXVIII = {
 }
 
 
-HVoiceXXIX = {
+H_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -1264,7 +1264,7 @@ HVoiceXXIX = {
 }
 
 
-HVoiceXXX = {
+H_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -1285,7 +1285,7 @@ HVoiceXXX = {
 }
 
 
-HVoiceXXXI = {
+H_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -1306,7 +1306,7 @@ HVoiceXXXI = {
 }
 
 
-HVoiceXXXII = {
+H_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -1327,7 +1327,7 @@ HVoiceXXXII = {
 }
 
 
-HVoiceXXXIII = {
+H_VoiceXXXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1444,7 +1444,7 @@ HVoiceXXXIII = {
 }
 
 
-HVoiceXXXIV = {
+H_VoiceXXXIV = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1513,7 +1513,7 @@ HVoiceXXXIV = {
 }
 
 
-HVoiceXXXV = {
+H_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -1582,7 +1582,7 @@ HVoiceXXXV = {
 }
 
 
-HVoiceXXXVI = {
+H_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -1627,7 +1627,7 @@ HVoiceXXXVI = {
 }
 
 
-HVoiceXXXVII = {
+H_VoiceXXXVII = {
     \time 1/2
     r2
     r2
@@ -1696,7 +1696,7 @@ HVoiceXXXVII = {
 }
 
 
-HVoiceXXXVIII = {
+H_VoiceXXXVIII = {
     \time 1/2
     r2
     r2
@@ -1741,7 +1741,7 @@ HVoiceXXXVIII = {
 }
 
 
-HVoiceXXXIX = {
+H_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -1786,7 +1786,7 @@ HVoiceXXXIX = {
 }
 
 
-HVoiceXL = {
+H_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -1819,7 +1819,7 @@ HVoiceXL = {
 }
 
 
-HVoiceXLI = {
+H_VoiceXLI = {
     \time 1/2
     r2
     r2
@@ -1888,7 +1888,7 @@ HVoiceXLI = {
 }
 
 
-HVoiceXLII = {
+H_VoiceXLII = {
     \time 1/2
     r2
     r2
@@ -1933,7 +1933,7 @@ HVoiceXLII = {
 }
 
 
-HVoiceXLIII = {
+H_VoiceXLIII = {
     \time 1/2
     r2
     r2
@@ -1978,7 +1978,7 @@ HVoiceXLIII = {
 }
 
 
-HVoiceXLIV = {
+H_VoiceXLIV = {
     \time 1/2
     r2
     r2
@@ -2011,7 +2011,7 @@ HVoiceXLIV = {
 }
 
 
-HVoiceXLV = {
+H_VoiceXLV = {
     \time 1/2
     r2
     r2
@@ -2056,7 +2056,7 @@ HVoiceXLV = {
 }
 
 
-HVoiceXLVI = {
+H_VoiceXLVI = {
     \time 1/2
     r2
     r2
@@ -2089,7 +2089,7 @@ HVoiceXLVI = {
 }
 
 
-HVoiceXLVII = {
+H_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -2122,7 +2122,7 @@ HVoiceXLVII = {
 }
 
 
-HVoiceXLVIII = {
+H_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -2149,7 +2149,7 @@ HVoiceXLVIII = {
 }
 
 
-HVoiceXLIX = {
+H_VoiceXLIX = {
     \time 1/2
     r2
     r2
@@ -2170,7 +2170,7 @@ HVoiceXLIX = {
 }
 
 
-HVoiceL = {
+H_VoiceL = {
     \time 1/2
     r2
     r2
@@ -2191,7 +2191,7 @@ HVoiceL = {
 }
 
 
-HVoiceLI = {
+H_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -2212,7 +2212,7 @@ HVoiceLI = {
 }
 
 
-HVoiceLII = {
+H_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -2233,7 +2233,7 @@ HVoiceLII = {
 }
 
 
-HVoiceLIII = {
+H_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -2254,7 +2254,7 @@ HVoiceLIII = {
 }
 
 
-HVoiceLIV = {
+H_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -2275,7 +2275,7 @@ HVoiceLIV = {
 }
 
 
-HVoiceLV = {
+H_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -2296,7 +2296,7 @@ HVoiceLV = {
 }
 
 
-HVoiceLVI = {
+H_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -2317,7 +2317,7 @@ HVoiceLVI = {
 }
 
 
-HVoiceLVII = {
+H_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -2338,7 +2338,7 @@ HVoiceLVII = {
 }
 
 
-HVoiceLVIII = {
+H_VoiceLVIII = {
     \time 1/2
     r2
     r2
@@ -2359,7 +2359,7 @@ HVoiceLVIII = {
 }
 
 
-HVoiceLIX = {
+H_VoiceLIX = {
     \time 1/2
     r2
     r2
@@ -2380,7 +2380,7 @@ HVoiceLIX = {
 }
 
 
-HVoiceLX = {
+H_VoiceLX = {
     \time 1/2
     r2
     r2
@@ -2401,7 +2401,7 @@ HVoiceLX = {
 }
 
 
-HVoiceLXI = {
+H_VoiceLXI = {
     \time 1/2
     r2
     r2
@@ -2422,7 +2422,7 @@ HVoiceLXI = {
 }
 
 
-HVoiceLXII = {
+H_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -2443,7 +2443,7 @@ HVoiceLXII = {
 }
 
 
-HVoiceLXIII = {
+H_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -2464,7 +2464,7 @@ HVoiceLXIII = {
 }
 
 
-HVoiceLXIV = {
+H_VoiceLXIV = {
     \time 1/2
     r2
     r2

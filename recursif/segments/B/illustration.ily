@@ -1,4 +1,4 @@
-BVoiceI = {
+B_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ BVoiceI = {
 }
 
 
-BVoiceII = {
+B_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ BVoiceII = {
 }
 
 
-BVoiceIII = {
+B_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ BVoiceIII = {
 }
 
 
-BVoiceIV = {
+B_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ BVoiceIV = {
 }
 
 
-BVoiceV = {
+B_VoiceV = {
     \time 1/2
     r2
     r2
@@ -429,7 +429,7 @@ BVoiceV = {
 }
 
 
-BVoiceVI = {
+B_VoiceVI = {
     \time 1/2
     r2
     r2
@@ -496,7 +496,7 @@ BVoiceVI = {
 }
 
 
-BVoiceVII = {
+B_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -573,7 +573,7 @@ BVoiceVII = {
 }
 
 
-BVoiceVIII = {
+B_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ BVoiceVIII = {
 }
 
 
-BVoiceIX = {
+B_VoiceIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -738,7 +738,7 @@ BVoiceIX = {
 }
 
 
-BVoiceX = {
+B_VoiceX = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -824,7 +824,7 @@ BVoiceX = {
 }
 
 
-BVoiceXI = {
+B_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -908,7 +908,7 @@ BVoiceXI = {
 }
 
 
-BVoiceXII = {
+B_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -969,7 +969,7 @@ BVoiceXII = {
 }
 
 
-BVoiceXIII = {
+B_VoiceXIII = {
     \time 1/2
     r2
     r2
@@ -1035,7 +1035,7 @@ BVoiceXIII = {
 }
 
 
-BVoiceXIV = {
+B_VoiceXIV = {
     \time 1/2
     r2
     r2
@@ -1080,7 +1080,7 @@ BVoiceXIV = {
 }
 
 
-BVoiceXV = {
+B_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -1123,7 +1123,7 @@ BVoiceXV = {
 }
 
 
-BVoiceXVI = {
+B_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -1154,7 +1154,7 @@ BVoiceXVI = {
 }
 
 
-BVoiceXVII = {
+B_VoiceXVII = {
     \times 2/3 {
         \time 1/2
         b'8
@@ -1263,7 +1263,7 @@ BVoiceXVII = {
 }
 
 
-BVoiceXVIII = {
+B_VoiceXVIII = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1352,7 +1352,7 @@ BVoiceXVIII = {
 }
 
 
-BVoiceXIX = {
+B_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1441,7 +1441,7 @@ BVoiceXIX = {
 }
 
 
-BVoiceXX = {
+B_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1496,7 +1496,7 @@ BVoiceXX = {
 }
 
 
-BVoiceXXI = {
+B_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1585,7 +1585,7 @@ BVoiceXXI = {
 }
 
 
-BVoiceXXII = {
+B_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1646,7 +1646,7 @@ BVoiceXXII = {
 }
 
 
-BVoiceXXIII = {
+B_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1701,7 +1701,7 @@ BVoiceXXIII = {
 }
 
 
-BVoiceXXIV = {
+B_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -1736,7 +1736,7 @@ BVoiceXXIV = {
 }
 
 
-BVoiceXXV = {
+B_VoiceXXV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1849,7 +1849,7 @@ BVoiceXXV = {
 }
 
 
-BVoiceXXVI = {
+B_VoiceXXVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1928,7 +1928,7 @@ BVoiceXXVI = {
 }
 
 
-BVoiceXXVII = {
+B_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -2007,7 +2007,7 @@ BVoiceXXVII = {
 }
 
 
-BVoiceXXVIII = {
+B_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -2060,7 +2060,7 @@ BVoiceXXVIII = {
 }
 
 
-BVoiceXXIX = {
+B_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -2127,7 +2127,7 @@ BVoiceXXIX = {
 }
 
 
-BVoiceXXX = {
+B_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -2180,7 +2180,7 @@ BVoiceXXX = {
 }
 
 
-BVoiceXXXI = {
+B_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -2224,7 +2224,7 @@ BVoiceXXXI = {
 }
 
 
-BVoiceXXXII = {
+B_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -2258,7 +2258,7 @@ BVoiceXXXII = {
 }
 
 
-BVoiceXXXIII = {
+B_VoiceXXXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -2351,7 +2351,7 @@ BVoiceXXXIII = {
 }
 
 
-BVoiceXXXIV = {
+B_VoiceXXXIV = {
     \time 1/2
     r2
     \times 4/7 {
@@ -2448,7 +2448,7 @@ BVoiceXXXIV = {
 }
 
 
-BVoiceXXXV = {
+B_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -2545,7 +2545,7 @@ BVoiceXXXV = {
 }
 
 
-BVoiceXXXVI = {
+B_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -2635,7 +2635,7 @@ BVoiceXXXVI = {
 }
 
 
-BVoiceXXXVII = {
+B_VoiceXXXVII = {
     \time 1/2
     r2
     r2
@@ -2720,7 +2720,7 @@ BVoiceXXXVII = {
 }
 
 
-BVoiceXXXVIII = {
+B_VoiceXXXVIII = {
     \time 1/2
     r2
     r2
@@ -2787,7 +2787,7 @@ BVoiceXXXVIII = {
 }
 
 
-BVoiceXXXIX = {
+B_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -2865,7 +2865,7 @@ BVoiceXXXIX = {
 }
 
 
-BVoiceXL = {
+B_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -2916,7 +2916,7 @@ BVoiceXL = {
 }
 
 
-BVoiceXLI = {
+B_VoiceXLI = {
     \time 1/2
     r2
     r2
@@ -2936,83 +2936,6 @@ BVoiceXLI = {
     }
     \times 4/5 {
         b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-BVoiceXLII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
         b'8
         b'8
         b'8
@@ -3025,6 +2948,83 @@ BVoiceXLII = {
         b'8
         b'8
     }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+B_VoiceXLII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
     \times 2/3 {
         b'8
         b'8
@@ -3041,7 +3041,7 @@ BVoiceXLII = {
 }
 
 
-BVoiceXLIII = {
+B_VoiceXLIII = {
     \time 1/2
     r2
     r2
@@ -3087,7 +3087,7 @@ BVoiceXLIII = {
 }
 
 
-BVoiceXLIV = {
+B_VoiceXLIV = {
     \time 1/2
     r2
     r2
@@ -3136,7 +3136,7 @@ BVoiceXLIV = {
 }
 
 
-BVoiceXLV = {
+B_VoiceXLV = {
     \time 1/2
     r2
     r2
@@ -3178,7 +3178,7 @@ BVoiceXLV = {
 }
 
 
-BVoiceXLVI = {
+B_VoiceXLVI = {
     \time 1/2
     r2
     r2
@@ -3219,7 +3219,7 @@ BVoiceXLVI = {
 }
 
 
-BVoiceXLVII = {
+B_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -3251,7 +3251,7 @@ BVoiceXLVII = {
 }
 
 
-BVoiceXLVIII = {
+B_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -3280,7 +3280,7 @@ BVoiceXLVIII = {
 }
 
 
-BVoiceXLIX = {
+B_VoiceXLIX = {
     \time 1/2
     r2
     r2
@@ -3301,7 +3301,7 @@ BVoiceXLIX = {
 }
 
 
-BVoiceL = {
+B_VoiceL = {
     \time 1/2
     r2
     r2
@@ -3322,7 +3322,7 @@ BVoiceL = {
 }
 
 
-BVoiceLI = {
+B_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -3343,7 +3343,7 @@ BVoiceLI = {
 }
 
 
-BVoiceLII = {
+B_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -3364,7 +3364,7 @@ BVoiceLII = {
 }
 
 
-BVoiceLIII = {
+B_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -3385,7 +3385,7 @@ BVoiceLIII = {
 }
 
 
-BVoiceLIV = {
+B_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -3406,7 +3406,7 @@ BVoiceLIV = {
 }
 
 
-BVoiceLV = {
+B_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -3427,7 +3427,7 @@ BVoiceLV = {
 }
 
 
-BVoiceLVI = {
+B_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -3448,7 +3448,7 @@ BVoiceLVI = {
 }
 
 
-BVoiceLVII = {
+B_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -3469,7 +3469,7 @@ BVoiceLVII = {
 }
 
 
-BVoiceLVIII = {
+B_VoiceLVIII = {
     \time 1/2
     r2
     r2
@@ -3490,7 +3490,7 @@ BVoiceLVIII = {
 }
 
 
-BVoiceLIX = {
+B_VoiceLIX = {
     \time 1/2
     r2
     r2
@@ -3511,7 +3511,7 @@ BVoiceLIX = {
 }
 
 
-BVoiceLX = {
+B_VoiceLX = {
     \time 1/2
     r2
     r2
@@ -3532,7 +3532,7 @@ BVoiceLX = {
 }
 
 
-BVoiceLXI = {
+B_VoiceLXI = {
     \time 1/2
     r2
     r2
@@ -3553,7 +3553,7 @@ BVoiceLXI = {
 }
 
 
-BVoiceLXII = {
+B_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -3574,7 +3574,7 @@ BVoiceLXII = {
 }
 
 
-BVoiceLXIII = {
+B_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -3595,7 +3595,7 @@ BVoiceLXIII = {
 }
 
 
-BVoiceLXIV = {
+B_VoiceLXIV = {
     \time 1/2
     r2
     r2

@@ -47,7 +47,7 @@
             }
             {
                 \context VoiceI = "VoiceI"
-                \OVoiceI
+                \O_VoiceI
             }
             \context StaffII = "StaffII"
             \with
@@ -71,7 +71,7 @@
             }
             {
                 \context VoiceII = "VoiceII"
-                \OVoiceII
+                \O_VoiceII
             }
             \context StaffIII = "StaffIII"
             \with
@@ -95,7 +95,7 @@
             }
             {
                 \context VoiceIII = "VoiceIII"
-                \OVoiceIII
+                \O_VoiceIII
             }
             \context StaffIV = "StaffIV"
             \with
@@ -119,7 +119,7 @@
             }
             {
                 \context VoiceIV = "VoiceIV"
-                \OVoiceIV
+                \O_VoiceIV
             }
             \context StaffV = "StaffV"
             \with
@@ -143,7 +143,7 @@
             }
             {
                 \context VoiceV = "VoiceV"
-                \OVoiceV
+                \O_VoiceV
             }
             \context StaffVI = "StaffVI"
             \with
@@ -167,7 +167,7 @@
             }
             {
                 \context VoiceVI = "VoiceVI"
-                \OVoiceVI
+                \O_VoiceVI
             }
             \context StaffVII = "StaffVII"
             \with
@@ -191,7 +191,7 @@
             }
             {
                 \context VoiceVII = "VoiceVII"
-                \OVoiceVII
+                \O_VoiceVII
             }
             \context StaffVIII = "StaffVIII"
             \with
@@ -215,7 +215,7 @@
             }
             {
                 \context VoiceVIII = "VoiceVIII"
-                \OVoiceVIII
+                \O_VoiceVIII
             }
             \context StaffIX = "StaffIX"
             \with
@@ -239,7 +239,7 @@
             }
             {
                 \context VoiceIX = "VoiceIX"
-                \OVoiceIX
+                \O_VoiceIX
             }
             \context StaffX = "StaffX"
             \with
@@ -263,7 +263,7 @@
             }
             {
                 \context VoiceX = "VoiceX"
-                \OVoiceX
+                \O_VoiceX
             }
             \context StaffXI = "StaffXI"
             \with
@@ -287,7 +287,7 @@
             }
             {
                 \context VoiceXI = "VoiceXI"
-                \OVoiceXI
+                \O_VoiceXI
             }
             \context StaffXII = "StaffXII"
             \with
@@ -311,7 +311,7 @@
             }
             {
                 \context VoiceXII = "VoiceXII"
-                \OVoiceXII
+                \O_VoiceXII
             }
             \context StaffXIII = "StaffXIII"
             \with
@@ -335,7 +335,7 @@
             }
             {
                 \context VoiceXIII = "VoiceXIII"
-                \OVoiceXIII
+                \O_VoiceXIII
             }
             \context StaffXIV = "StaffXIV"
             \with
@@ -359,7 +359,7 @@
             }
             {
                 \context VoiceXIV = "VoiceXIV"
-                \OVoiceXIV
+                \O_VoiceXIV
             }
             \context StaffXV = "StaffXV"
             \with
@@ -383,7 +383,7 @@
             }
             {
                 \context VoiceXV = "VoiceXV"
-                \OVoiceXV
+                \O_VoiceXV
             }
             \context StaffXVI = "StaffXVI"
             \with
@@ -407,7 +407,7 @@
             }
             {
                 \context VoiceXVI = "VoiceXVI"
-                \OVoiceXVI
+                \O_VoiceXVI
             }
             \context StaffXVII = "StaffXVII"
             \with
@@ -431,7 +431,7 @@
             }
             {
                 \context VoiceXVII = "VoiceXVII"
-                \OVoiceXVII
+                \O_VoiceXVII
             }
             \context StaffXVIII = "StaffXVIII"
             \with
@@ -455,7 +455,7 @@
             }
             {
                 \context VoiceXVIII = "VoiceXVIII"
-                \OVoiceXVIII
+                \O_VoiceXVIII
             }
             \context StaffXIX = "StaffXIX"
             \with
@@ -479,7 +479,7 @@
             }
             {
                 \context VoiceXIX = "VoiceXIX"
-                \OVoiceXIX
+                \O_VoiceXIX
             }
             \context StaffXX = "StaffXX"
             \with
@@ -503,7 +503,7 @@
             }
             {
                 \context VoiceXX = "VoiceXX"
-                \OVoiceXX
+                \O_VoiceXX
             }
             \context StaffXXI = "StaffXXI"
             \with
@@ -527,7 +527,7 @@
             }
             {
                 \context VoiceXXI = "VoiceXXI"
-                \OVoiceXXI
+                \O_VoiceXXI
             }
             \context StaffXXII = "StaffXXII"
             \with
@@ -551,7 +551,7 @@
             }
             {
                 \context VoiceXXII = "VoiceXXII"
-                \OVoiceXXII
+                \O_VoiceXXII
             }
             \context StaffXXIII = "StaffXXIII"
             \with
@@ -575,7 +575,7 @@
             }
             {
                 \context VoiceXXIII = "VoiceXXIII"
-                \OVoiceXXIII
+                \O_VoiceXXIII
             }
             \context StaffXXIV = "StaffXXIV"
             \with
@@ -599,7 +599,7 @@
             }
             {
                 \context VoiceXXIV = "VoiceXXIV"
-                \OVoiceXXIV
+                \O_VoiceXXIV
             }
             \context StaffXXV = "StaffXXV"
             \with
@@ -623,7 +623,7 @@
             }
             {
                 \context VoiceXXV = "VoiceXXV"
-                \OVoiceXXV
+                \O_VoiceXXV
             }
             \context StaffXXVI = "StaffXXVI"
             \with
@@ -647,7 +647,7 @@
             }
             {
                 \context VoiceXXVI = "VoiceXXVI"
-                \OVoiceXXVI
+                \O_VoiceXXVI
             }
             \context StaffXXVII = "StaffXXVII"
             \with
@@ -671,7 +671,7 @@
             }
             {
                 \context VoiceXXVII = "VoiceXXVII"
-                \OVoiceXXVII
+                \O_VoiceXXVII
             }
             \context StaffXXVIII = "StaffXXVIII"
             \with
@@ -695,7 +695,7 @@
             }
             {
                 \context VoiceXXVIII = "VoiceXXVIII"
-                \OVoiceXXVIII
+                \O_VoiceXXVIII
             }
             \context StaffXXIX = "StaffXXIX"
             \with
@@ -719,7 +719,7 @@
             }
             {
                 \context VoiceXXIX = "VoiceXXIX"
-                \OVoiceXXIX
+                \O_VoiceXXIX
             }
             \context StaffXXX = "StaffXXX"
             \with
@@ -743,7 +743,7 @@
             }
             {
                 \context VoiceXXX = "VoiceXXX"
-                \OVoiceXXX
+                \O_VoiceXXX
             }
             \context StaffXXXI = "StaffXXXI"
             \with
@@ -767,7 +767,7 @@
             }
             {
                 \context VoiceXXXI = "VoiceXXXI"
-                \OVoiceXXXI
+                \O_VoiceXXXI
             }
             \context StaffXXXII = "StaffXXXII"
             \with
@@ -791,7 +791,7 @@
             }
             {
                 \context VoiceXXXII = "VoiceXXXII"
-                \OVoiceXXXII
+                \O_VoiceXXXII
             }
             \context StaffXXXIII = "StaffXXXIII"
             \with
@@ -815,7 +815,7 @@
             }
             {
                 \context VoiceXXXIII = "VoiceXXXIII"
-                \OVoiceXXXIII
+                \O_VoiceXXXIII
             }
             \context StaffXXXIV = "StaffXXXIV"
             \with
@@ -839,7 +839,7 @@
             }
             {
                 \context VoiceXXXIV = "VoiceXXXIV"
-                \OVoiceXXXIV
+                \O_VoiceXXXIV
             }
             \context StaffXXXV = "StaffXXXV"
             \with
@@ -863,7 +863,7 @@
             }
             {
                 \context VoiceXXXV = "VoiceXXXV"
-                \OVoiceXXXV
+                \O_VoiceXXXV
             }
             \context StaffXXXVI = "StaffXXXVI"
             \with
@@ -887,7 +887,7 @@
             }
             {
                 \context VoiceXXXVI = "VoiceXXXVI"
-                \OVoiceXXXVI
+                \O_VoiceXXXVI
             }
             \context StaffXXXVII = "StaffXXXVII"
             \with
@@ -911,7 +911,7 @@
             }
             {
                 \context VoiceXXXVII = "VoiceXXXVII"
-                \OVoiceXXXVII
+                \O_VoiceXXXVII
             }
             \context StaffXXXVIII = "StaffXXXVIII"
             \with
@@ -935,7 +935,7 @@
             }
             {
                 \context VoiceXXXVIII = "VoiceXXXVIII"
-                \OVoiceXXXVIII
+                \O_VoiceXXXVIII
             }
             \context StaffXXXIX = "StaffXXXIX"
             \with
@@ -959,7 +959,7 @@
             }
             {
                 \context VoiceXXXIX = "VoiceXXXIX"
-                \OVoiceXXXIX
+                \O_VoiceXXXIX
             }
             \context StaffXL = "StaffXL"
             \with
@@ -983,7 +983,7 @@
             }
             {
                 \context VoiceXL = "VoiceXL"
-                \OVoiceXL
+                \O_VoiceXL
             }
             \context StaffXLI = "StaffXLI"
             \with
@@ -1007,7 +1007,7 @@
             }
             {
                 \context VoiceXLI = "VoiceXLI"
-                \OVoiceXLI
+                \O_VoiceXLI
             }
             \context StaffXLII = "StaffXLII"
             \with
@@ -1031,7 +1031,7 @@
             }
             {
                 \context VoiceXLII = "VoiceXLII"
-                \OVoiceXLII
+                \O_VoiceXLII
             }
             \context StaffXLIII = "StaffXLIII"
             \with
@@ -1055,7 +1055,7 @@
             }
             {
                 \context VoiceXLIII = "VoiceXLIII"
-                \OVoiceXLIII
+                \O_VoiceXLIII
             }
             \context StaffXLIV = "StaffXLIV"
             \with
@@ -1079,7 +1079,7 @@
             }
             {
                 \context VoiceXLIV = "VoiceXLIV"
-                \OVoiceXLIV
+                \O_VoiceXLIV
             }
             \context StaffXLV = "StaffXLV"
             \with
@@ -1103,7 +1103,7 @@
             }
             {
                 \context VoiceXLV = "VoiceXLV"
-                \OVoiceXLV
+                \O_VoiceXLV
             }
             \context StaffXLVI = "StaffXLVI"
             \with
@@ -1127,7 +1127,7 @@
             }
             {
                 \context VoiceXLVI = "VoiceXLVI"
-                \OVoiceXLVI
+                \O_VoiceXLVI
             }
             \context StaffXLVII = "StaffXLVII"
             \with
@@ -1151,7 +1151,7 @@
             }
             {
                 \context VoiceXLVII = "VoiceXLVII"
-                \OVoiceXLVII
+                \O_VoiceXLVII
             }
             \context StaffXLVIII = "StaffXLVIII"
             \with
@@ -1175,7 +1175,7 @@
             }
             {
                 \context VoiceXLVIII = "VoiceXLVIII"
-                \OVoiceXLVIII
+                \O_VoiceXLVIII
             }
             \context StaffXLIX = "StaffXLIX"
             \with
@@ -1199,7 +1199,7 @@
             }
             {
                 \context VoiceXLIX = "VoiceXLIX"
-                \OVoiceXLIX
+                \O_VoiceXLIX
             }
             \context StaffL = "StaffL"
             \with
@@ -1223,7 +1223,7 @@
             }
             {
                 \context VoiceL = "VoiceL"
-                \OVoiceL
+                \O_VoiceL
             }
             \context StaffLI = "StaffLI"
             \with
@@ -1247,7 +1247,7 @@
             }
             {
                 \context VoiceLI = "VoiceLI"
-                \OVoiceLI
+                \O_VoiceLI
             }
             \context StaffLII = "StaffLII"
             \with
@@ -1271,7 +1271,7 @@
             }
             {
                 \context VoiceLII = "VoiceLII"
-                \OVoiceLII
+                \O_VoiceLII
             }
             \context StaffLIII = "StaffLIII"
             \with
@@ -1295,7 +1295,7 @@
             }
             {
                 \context VoiceLIII = "VoiceLIII"
-                \OVoiceLIII
+                \O_VoiceLIII
             }
             \context StaffLIV = "StaffLIV"
             \with
@@ -1319,7 +1319,7 @@
             }
             {
                 \context VoiceLIV = "VoiceLIV"
-                \OVoiceLIV
+                \O_VoiceLIV
             }
             \context StaffLV = "StaffLV"
             \with
@@ -1343,7 +1343,7 @@
             }
             {
                 \context VoiceLV = "VoiceLV"
-                \OVoiceLV
+                \O_VoiceLV
             }
             \context StaffLVI = "StaffLVI"
             \with
@@ -1367,7 +1367,7 @@
             }
             {
                 \context VoiceLVI = "VoiceLVI"
-                \OVoiceLVI
+                \O_VoiceLVI
             }
             \context StaffLVII = "StaffLVII"
             \with
@@ -1391,7 +1391,7 @@
             }
             {
                 \context VoiceLVII = "VoiceLVII"
-                \OVoiceLVII
+                \O_VoiceLVII
             }
             \context StaffLVIII = "StaffLVIII"
             \with
@@ -1415,7 +1415,7 @@
             }
             {
                 \context VoiceLVIII = "VoiceLVIII"
-                \OVoiceLVIII
+                \O_VoiceLVIII
             }
             \context StaffLIX = "StaffLIX"
             \with
@@ -1439,7 +1439,7 @@
             }
             {
                 \context VoiceLIX = "VoiceLIX"
-                \OVoiceLIX
+                \O_VoiceLIX
             }
             \context StaffLX = "StaffLX"
             \with
@@ -1463,7 +1463,7 @@
             }
             {
                 \context VoiceLX = "VoiceLX"
-                \OVoiceLX
+                \O_VoiceLX
             }
             \context StaffLXI = "StaffLXI"
             \with
@@ -1487,7 +1487,7 @@
             }
             {
                 \context VoiceLXI = "VoiceLXI"
-                \OVoiceLXI
+                \O_VoiceLXI
             }
             \context StaffLXII = "StaffLXII"
             \with
@@ -1511,7 +1511,7 @@
             }
             {
                 \context VoiceLXII = "VoiceLXII"
-                \OVoiceLXII
+                \O_VoiceLXII
             }
             \context StaffLXIII = "StaffLXIII"
             \with
@@ -1535,7 +1535,7 @@
             }
             {
                 \context VoiceLXIII = "VoiceLXIII"
-                \OVoiceLXIII
+                \O_VoiceLXIII
             }
             \context StaffLXIV = "StaffLXIV"
             \with
@@ -1559,7 +1559,7 @@
             }
             {
                 \context VoiceLXIV = "VoiceLXIV"
-                \OVoiceLXIV
+                \O_VoiceLXIV
             }
         >>
     >>
