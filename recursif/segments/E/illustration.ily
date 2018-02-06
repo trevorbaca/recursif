@@ -1,4 +1,4 @@
-EVoiceI = {
+E_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ EVoiceI = {
 }
 
 
-EVoiceII = {
+E_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ EVoiceII = {
 }
 
 
-EVoiceIII = {
+E_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ EVoiceIII = {
 }
 
 
-EVoiceIV = {
+E_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ EVoiceIV = {
 }
 
 
-EVoiceV = {
+E_VoiceV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -453,7 +453,7 @@ EVoiceV = {
 }
 
 
-EVoiceVI = {
+E_VoiceVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -538,7 +538,7 @@ EVoiceVI = {
 }
 
 
-EVoiceVII = {
+E_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ EVoiceVII = {
 }
 
 
-EVoiceVIII = {
+E_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -677,7 +677,7 @@ EVoiceVIII = {
 }
 
 
-EVoiceIX = {
+E_VoiceIX = {
     \times 2/3 {
         \time 1/2
         b'8
@@ -784,7 +784,7 @@ EVoiceIX = {
 }
 
 
-EVoiceX = {
+E_VoiceX = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -874,7 +874,7 @@ EVoiceX = {
 }
 
 
-EVoiceXI = {
+E_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -968,7 +968,7 @@ EVoiceXI = {
 }
 
 
-EVoiceXII = {
+E_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -1031,7 +1031,7 @@ EVoiceXII = {
 }
 
 
-EVoiceXIII = {
+E_VoiceXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1143,7 +1143,7 @@ EVoiceXIII = {
 }
 
 
-EVoiceXIV = {
+E_VoiceXIV = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1227,7 +1227,7 @@ EVoiceXIV = {
 }
 
 
-EVoiceXV = {
+E_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -1293,7 +1293,7 @@ EVoiceXV = {
 }
 
 
-EVoiceXVI = {
+E_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -1339,7 +1339,7 @@ EVoiceXVI = {
 }
 
 
-EVoiceXVII = {
+E_VoiceXVII = {
     \times 4/5 {
         \time 1/2
         b'8
@@ -1444,7 +1444,7 @@ EVoiceXVII = {
 }
 
 
-EVoiceXVIII = {
+E_VoiceXVIII = {
     \time 1/2
     r2
     \times 2/3 {
@@ -1541,7 +1541,7 @@ EVoiceXVIII = {
 }
 
 
-EVoiceXIX = {
+E_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1652,7 +1652,7 @@ EVoiceXIX = {
 }
 
 
-EVoiceXX = {
+E_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1738,7 +1738,7 @@ EVoiceXX = {
 }
 
 
-EVoiceXXI = {
+E_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1823,7 +1823,7 @@ EVoiceXXI = {
 }
 
 
-EVoiceXXII = {
+E_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1896,7 +1896,7 @@ EVoiceXXII = {
 }
 
 
-EVoiceXXIII = {
+E_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1973,7 +1973,7 @@ EVoiceXXIII = {
 }
 
 
-EVoiceXXIV = {
+E_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -2022,7 +2022,7 @@ EVoiceXXIV = {
 }
 
 
-EVoiceXXV = {
+E_VoiceXXV = {
     \time 1/2
     r2
     r2
@@ -2085,7 +2085,7 @@ EVoiceXXV = {
 }
 
 
-EVoiceXXVI = {
+E_VoiceXXVI = {
     \time 1/2
     r2
     r2
@@ -2146,7 +2146,7 @@ EVoiceXXVI = {
 }
 
 
-EVoiceXXVII = {
+E_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -2199,7 +2199,7 @@ EVoiceXXVII = {
 }
 
 
-EVoiceXXVIII = {
+E_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -2244,7 +2244,7 @@ EVoiceXXVIII = {
 }
 
 
-EVoiceXXIX = {
+E_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -2286,7 +2286,7 @@ EVoiceXXIX = {
 }
 
 
-EVoiceXXX = {
+E_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -2319,7 +2319,7 @@ EVoiceXXX = {
 }
 
 
-EVoiceXXXI = {
+E_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -2350,7 +2350,7 @@ EVoiceXXXI = {
 }
 
 
-EVoiceXXXII = {
+E_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -2375,7 +2375,7 @@ EVoiceXXXII = {
 }
 
 
-EVoiceXXXIII = {
+E_VoiceXXXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -2460,7 +2460,7 @@ EVoiceXXXIII = {
 }
 
 
-EVoiceXXXIV = {
+E_VoiceXXXIV = {
     \time 1/2
     r2
     \times 2/3 {
@@ -2549,7 +2549,7 @@ EVoiceXXXIV = {
 }
 
 
-EVoiceXXXV = {
+E_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -2638,7 +2638,7 @@ EVoiceXXXV = {
 }
 
 
-EVoiceXXXVI = {
+E_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -2693,7 +2693,7 @@ EVoiceXXXVI = {
 }
 
 
-EVoiceXXXVII = {
+E_VoiceXXXVII = {
     \time 1/2
     r2
     r2
@@ -2782,7 +2782,7 @@ EVoiceXXXVII = {
 }
 
 
-EVoiceXXXVIII = {
+E_VoiceXXXVIII = {
     \time 1/2
     r2
     r2
@@ -2849,7 +2849,7 @@ EVoiceXXXVIII = {
 }
 
 
-EVoiceXXXIX = {
+E_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -2904,7 +2904,7 @@ EVoiceXXXIX = {
 }
 
 
-EVoiceXL = {
+E_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -2942,7 +2942,7 @@ EVoiceXL = {
 }
 
 
-EVoiceXLI = {
+E_VoiceXLI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -3055,7 +3055,7 @@ EVoiceXLI = {
 }
 
 
-EVoiceXLII = {
+E_VoiceXLII = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3134,7 +3134,7 @@ EVoiceXLII = {
 }
 
 
-EVoiceXLIII = {
+E_VoiceXLIII = {
     \time 1/2
     r2
     r2
@@ -3213,7 +3213,7 @@ EVoiceXLIII = {
 }
 
 
-EVoiceXLIV = {
+E_VoiceXLIV = {
     \time 1/2
     r2
     r2
@@ -3260,7 +3260,7 @@ EVoiceXLIV = {
 }
 
 
-EVoiceXLV = {
+E_VoiceXLV = {
     \time 1/2
     r2
     r2
@@ -3327,7 +3327,7 @@ EVoiceXLV = {
 }
 
 
-EVoiceXLVI = {
+E_VoiceXLVI = {
     \time 1/2
     r2
     r2
@@ -3374,7 +3374,7 @@ EVoiceXLVI = {
 }
 
 
-EVoiceXLVII = {
+E_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -3418,7 +3418,7 @@ EVoiceXLVII = {
 }
 
 
-EVoiceXLVIII = {
+E_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -3449,7 +3449,7 @@ EVoiceXLVIII = {
 }
 
 
-EVoiceXLIX = {
+E_VoiceXLIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -3558,7 +3558,7 @@ EVoiceXLIX = {
 }
 
 
-EVoiceL = {
+E_VoiceL = {
     \time 1/2
     r2
     \times 2/3 {
@@ -3647,7 +3647,7 @@ EVoiceL = {
 }
 
 
-EVoiceLI = {
+E_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -3736,7 +3736,7 @@ EVoiceLI = {
 }
 
 
-EVoiceLII = {
+E_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -3791,7 +3791,7 @@ EVoiceLII = {
 }
 
 
-EVoiceLIII = {
+E_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -3880,7 +3880,7 @@ EVoiceLIII = {
 }
 
 
-EVoiceLIV = {
+E_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -3953,7 +3953,7 @@ EVoiceLIV = {
 }
 
 
-EVoiceLV = {
+E_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -4008,7 +4008,7 @@ EVoiceLV = {
 }
 
 
-EVoiceLVI = {
+E_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -4049,7 +4049,7 @@ EVoiceLVI = {
 }
 
 
-EVoiceLVII = {
+E_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -4114,7 +4114,7 @@ EVoiceLVII = {
 }
 
 
-EVoiceLVIII = {
+E_VoiceLVIII = {
     \time 1/2
     r2
     r2
@@ -4169,7 +4169,7 @@ EVoiceLVIII = {
 }
 
 
-EVoiceLIX = {
+E_VoiceLIX = {
     \time 1/2
     r2
     r2
@@ -4224,7 +4224,7 @@ EVoiceLIX = {
 }
 
 
-EVoiceLX = {
+E_VoiceLX = {
     \time 1/2
     r2
     r2
@@ -4265,7 +4265,7 @@ EVoiceLX = {
 }
 
 
-EVoiceLXI = {
+E_VoiceLXI = {
     \time 1/2
     r2
     r2
@@ -4308,7 +4308,7 @@ EVoiceLXI = {
 }
 
 
-EVoiceLXII = {
+E_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -4349,7 +4349,7 @@ EVoiceLXII = {
 }
 
 
-EVoiceLXIII = {
+E_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -4381,7 +4381,7 @@ EVoiceLXIII = {
 }
 
 
-EVoiceLXIV = {
+E_VoiceLXIV = {
     \time 1/2
     r2
     r2

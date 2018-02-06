@@ -1,4 +1,4 @@
-OVoiceI = {
+O_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ OVoiceI = {
 }
 
 
-OVoiceII = {
+O_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ OVoiceII = {
 }
 
 
-OVoiceIII = {
+O_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ OVoiceIII = {
 }
 
 
-OVoiceIV = {
+O_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ OVoiceIV = {
 }
 
 
-OVoiceV = {
+O_VoiceV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -453,7 +453,7 @@ OVoiceV = {
 }
 
 
-OVoiceVI = {
+O_VoiceVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -538,7 +538,7 @@ OVoiceVI = {
 }
 
 
-OVoiceVII = {
+O_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ OVoiceVII = {
 }
 
 
-OVoiceVIII = {
+O_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -677,7 +677,7 @@ OVoiceVIII = {
 }
 
 
-OVoiceIX = {
+O_VoiceIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -784,7 +784,7 @@ OVoiceIX = {
 }
 
 
-OVoiceX = {
+O_VoiceX = {
     \time 1/2
     r2
     \times 2/3 {
@@ -874,7 +874,7 @@ OVoiceX = {
 }
 
 
-OVoiceXI = {
+O_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -954,7 +954,7 @@ OVoiceXI = {
 }
 
 
-OVoiceXII = {
+O_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -1023,7 +1023,7 @@ OVoiceXII = {
 }
 
 
-OVoiceXIII = {
+O_VoiceXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1135,7 +1135,7 @@ OVoiceXIII = {
 }
 
 
-OVoiceXIV = {
+O_VoiceXIV = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1207,7 +1207,7 @@ OVoiceXIV = {
 }
 
 
-OVoiceXV = {
+O_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -1274,7 +1274,7 @@ OVoiceXV = {
 }
 
 
-OVoiceXVI = {
+O_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -1314,7 +1314,7 @@ OVoiceXVI = {
 }
 
 
-OVoiceXVII = {
+O_VoiceXVII = {
     \times 2/3 {
         \time 1/2
         b'4
@@ -1419,7 +1419,7 @@ OVoiceXVII = {
 }
 
 
-OVoiceXVIII = {
+O_VoiceXVIII = {
     \time 1/2
     r2
     \times 4/5 {
@@ -1516,7 +1516,7 @@ OVoiceXVIII = {
 }
 
 
-OVoiceXIX = {
+O_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1599,7 +1599,7 @@ OVoiceXIX = {
 }
 
 
-OVoiceXX = {
+O_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1679,7 +1679,7 @@ OVoiceXX = {
 }
 
 
-OVoiceXXI = {
+O_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1764,7 +1764,7 @@ OVoiceXXI = {
 }
 
 
-OVoiceXXII = {
+O_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1831,7 +1831,7 @@ OVoiceXXII = {
 }
 
 
-OVoiceXXIII = {
+O_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1908,7 +1908,7 @@ OVoiceXXIII = {
 }
 
 
-OVoiceXXIV = {
+O_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -1957,7 +1957,7 @@ OVoiceXXIV = {
 }
 
 
-OVoiceXXV = {
+O_VoiceXXV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -2068,7 +2068,7 @@ OVoiceXXV = {
 }
 
 
-OVoiceXXVI = {
+O_VoiceXXVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -2149,7 +2149,7 @@ OVoiceXXVI = {
 }
 
 
-OVoiceXXVII = {
+O_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -2226,7 +2226,7 @@ OVoiceXXVII = {
 }
 
 
-OVoiceXXVIII = {
+O_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -2284,7 +2284,7 @@ OVoiceXXVIII = {
 }
 
 
-OVoiceXXIX = {
+O_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -2350,7 +2350,7 @@ OVoiceXXIX = {
 }
 
 
-OVoiceXXX = {
+O_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -2396,7 +2396,7 @@ OVoiceXXX = {
 }
 
 
-OVoiceXXXI = {
+O_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -2440,7 +2440,7 @@ OVoiceXXXI = {
 }
 
 
-OVoiceXXXII = {
+O_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -2470,7 +2470,7 @@ OVoiceXXXII = {
 }
 
 
-OVoiceXXXIII = {
+O_VoiceXXXIII = {
     \times 4/5 {
         \time 1/2
         b'8
@@ -2563,7 +2563,7 @@ OVoiceXXXIII = {
 }
 
 
-OVoiceXXXIV = {
+O_VoiceXXXIV = {
     \time 1/2
     r2
     \times 2/3 {
@@ -2660,7 +2660,7 @@ OVoiceXXXIV = {
 }
 
 
-OVoiceXXXV = {
+O_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -2757,7 +2757,7 @@ OVoiceXXXV = {
 }
 
 
-OVoiceXXXVI = {
+O_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -2833,7 +2833,7 @@ OVoiceXXXVI = {
 }
 
 
-OVoiceXXXVII = {
+O_VoiceXXXVII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -2942,7 +2942,7 @@ OVoiceXXXVII = {
 }
 
 
-OVoiceXXXVIII = {
+O_VoiceXXXVIII = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3027,7 +3027,7 @@ OVoiceXXXVIII = {
 }
 
 
-OVoiceXXXIX = {
+O_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -3117,7 +3117,7 @@ OVoiceXXXIX = {
 }
 
 
-OVoiceXL = {
+O_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -3171,7 +3171,7 @@ OVoiceXL = {
 }
 
 
-OVoiceXLI = {
+O_VoiceXLI = {
     \times 2/3 {
         \time 1/2
         b'8
@@ -3278,7 +3278,7 @@ OVoiceXLI = {
 }
 
 
-OVoiceXLII = {
+O_VoiceXLII = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3368,7 +3368,7 @@ OVoiceXLII = {
 }
 
 
-OVoiceXLIII = {
+O_VoiceXLIII = {
     \time 1/2
     r2
     r2
@@ -3448,7 +3448,7 @@ OVoiceXLIII = {
 }
 
 
-OVoiceXLIV = {
+O_VoiceXLIV = {
     \time 1/2
     r2
     r2
@@ -3511,7 +3511,7 @@ OVoiceXLIV = {
 }
 
 
-OVoiceXLV = {
+O_VoiceXLV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -3623,7 +3623,7 @@ OVoiceXLV = {
 }
 
 
-OVoiceXLVI = {
+O_VoiceXLVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3701,7 +3701,7 @@ OVoiceXLVI = {
 }
 
 
-OVoiceXLVII = {
+O_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -3768,7 +3768,7 @@ OVoiceXLVII = {
 }
 
 
-OVoiceXLVIII = {
+O_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -3811,7 +3811,7 @@ OVoiceXLVIII = {
 }
 
 
-OVoiceXLIX = {
+O_VoiceXLIX = {
     \times 4/7 {
         \time 1/2
         b'8
@@ -3916,7 +3916,7 @@ OVoiceXLIX = {
 }
 
 
-OVoiceL = {
+O_VoiceL = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3999,7 +3999,7 @@ OVoiceL = {
 }
 
 
-OVoiceLI = {
+O_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -4096,7 +4096,7 @@ OVoiceLI = {
 }
 
 
-OVoiceLII = {
+O_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -4177,7 +4177,7 @@ OVoiceLII = {
 }
 
 
-OVoiceLIII = {
+O_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -4262,7 +4262,7 @@ OVoiceLIII = {
 }
 
 
-OVoiceLIV = {
+O_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -4329,7 +4329,7 @@ OVoiceLIV = {
 }
 
 
-OVoiceLV = {
+O_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -4407,7 +4407,7 @@ OVoiceLV = {
 }
 
 
-OVoiceLVI = {
+O_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -4453,7 +4453,7 @@ OVoiceLVI = {
 }
 
 
-OVoiceLVII = {
+O_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -4485,215 +4485,6 @@ OVoiceLVII = {
         b'4
         b'4
         b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-}
-
-
-OVoiceLVIII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-}
-
-
-OVoiceLIX = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-}
-
-
-OVoiceLX = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-}
-
-
-OVoiceLXI = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
     }
     \times 2/3 {
         b'4
@@ -4707,6 +4498,17 @@ OVoiceLXI = {
         b'8
         b'8
     }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         b'2
@@ -4714,7 +4516,205 @@ OVoiceLXI = {
 }
 
 
-OVoiceLXII = {
+O_VoiceLVIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+}
+
+
+O_VoiceLIX = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+}
+
+
+O_VoiceLX = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+}
+
+
+O_VoiceLXI = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+}
+
+
+O_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -4748,7 +4748,7 @@ OVoiceLXII = {
 }
 
 
-OVoiceLXIII = {
+O_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -4780,7 +4780,7 @@ OVoiceLXIII = {
 }
 
 
-OVoiceLXIV = {
+O_VoiceLXIV = {
     \time 1/2
     r2
     r2

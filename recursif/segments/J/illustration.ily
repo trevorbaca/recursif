@@ -1,4 +1,4 @@
-JVoiceI = {
+J_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ JVoiceI = {
 }
 
 
-JVoiceII = {
+J_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ JVoiceII = {
 }
 
 
-JVoiceIII = {
+J_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ JVoiceIII = {
 }
 
 
-JVoiceIV = {
+J_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ JVoiceIV = {
 }
 
 
-JVoiceV = {
+J_VoiceV = {
     \time 1/2
     r2
     r2
@@ -429,7 +429,7 @@ JVoiceV = {
 }
 
 
-JVoiceVI = {
+J_VoiceVI = {
     \time 1/2
     r2
     r2
@@ -496,7 +496,7 @@ JVoiceVI = {
 }
 
 
-JVoiceVII = {
+J_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -573,7 +573,7 @@ JVoiceVII = {
 }
 
 
-JVoiceVIII = {
+J_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ JVoiceVIII = {
 }
 
 
-JVoiceIX = {
+J_VoiceIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -738,7 +738,7 @@ JVoiceIX = {
 }
 
 
-JVoiceX = {
+J_VoiceX = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -824,7 +824,7 @@ JVoiceX = {
 }
 
 
-JVoiceXI = {
+J_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -908,7 +908,7 @@ JVoiceXI = {
 }
 
 
-JVoiceXII = {
+J_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -969,7 +969,7 @@ JVoiceXII = {
 }
 
 
-JVoiceXIII = {
+J_VoiceXIII = {
     \time 1/2
     r2
     r2
@@ -1035,7 +1035,7 @@ JVoiceXIII = {
 }
 
 
-JVoiceXIV = {
+J_VoiceXIV = {
     \time 1/2
     r2
     r2
@@ -1080,7 +1080,7 @@ JVoiceXIV = {
 }
 
 
-JVoiceXV = {
+J_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -1123,7 +1123,7 @@ JVoiceXV = {
 }
 
 
-JVoiceXVI = {
+J_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -1154,7 +1154,7 @@ JVoiceXVI = {
 }
 
 
-JVoiceXVII = {
+J_VoiceXVII = {
     \times 2/3 {
         \time 1/2
         b'8
@@ -1263,7 +1263,7 @@ JVoiceXVII = {
 }
 
 
-JVoiceXVIII = {
+J_VoiceXVIII = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1352,7 +1352,7 @@ JVoiceXVIII = {
 }
 
 
-JVoiceXIX = {
+J_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1441,7 +1441,7 @@ JVoiceXIX = {
 }
 
 
-JVoiceXX = {
+J_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1496,7 +1496,7 @@ JVoiceXX = {
 }
 
 
-JVoiceXXI = {
+J_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1585,7 +1585,7 @@ JVoiceXXI = {
 }
 
 
-JVoiceXXII = {
+J_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1646,7 +1646,7 @@ JVoiceXXII = {
 }
 
 
-JVoiceXXIII = {
+J_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1701,7 +1701,7 @@ JVoiceXXIII = {
 }
 
 
-JVoiceXXIV = {
+J_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -1736,7 +1736,7 @@ JVoiceXXIV = {
 }
 
 
-JVoiceXXV = {
+J_VoiceXXV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1849,7 +1849,7 @@ JVoiceXXV = {
 }
 
 
-JVoiceXXVI = {
+J_VoiceXXVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1928,7 +1928,7 @@ JVoiceXXVI = {
 }
 
 
-JVoiceXXVII = {
+J_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -2007,7 +2007,7 @@ JVoiceXXVII = {
 }
 
 
-JVoiceXXVIII = {
+J_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -2060,7 +2060,7 @@ JVoiceXXVIII = {
 }
 
 
-JVoiceXXIX = {
+J_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -2127,7 +2127,7 @@ JVoiceXXIX = {
 }
 
 
-JVoiceXXX = {
+J_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -2180,7 +2180,7 @@ JVoiceXXX = {
 }
 
 
-JVoiceXXXI = {
+J_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -2224,7 +2224,7 @@ JVoiceXXXI = {
 }
 
 
-JVoiceXXXII = {
+J_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -2258,7 +2258,7 @@ JVoiceXXXII = {
 }
 
 
-JVoiceXXXIII = {
+J_VoiceXXXIII = {
     \times 4/5 {
         \time 1/2
         b'8
@@ -2351,7 +2351,7 @@ JVoiceXXXIII = {
 }
 
 
-JVoiceXXXIV = {
+J_VoiceXXXIV = {
     \time 1/2
     r2
     \times 2/3 {
@@ -2448,7 +2448,7 @@ JVoiceXXXIV = {
 }
 
 
-JVoiceXXXV = {
+J_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -2545,7 +2545,7 @@ JVoiceXXXV = {
 }
 
 
-JVoiceXXXVI = {
+J_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -2621,7 +2621,7 @@ JVoiceXXXVI = {
 }
 
 
-JVoiceXXXVII = {
+J_VoiceXXXVII = {
     \time 1/2
     r2
     r2
@@ -2706,7 +2706,7 @@ JVoiceXXXVII = {
 }
 
 
-JVoiceXXXVIII = {
+J_VoiceXXXVIII = {
     \time 1/2
     r2
     r2
@@ -2773,7 +2773,7 @@ JVoiceXXXVIII = {
 }
 
 
-JVoiceXXXIX = {
+J_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -2849,7 +2849,7 @@ JVoiceXXXIX = {
 }
 
 
-JVoiceXL = {
+J_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -2899,7 +2899,7 @@ JVoiceXL = {
 }
 
 
-JVoiceXLI = {
+J_VoiceXLI = {
     \time 1/2
     r2
     r2
@@ -2916,237 +2916,6 @@ JVoiceXLI = {
         b'8
         b'8
     }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-JVoiceXLII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-JVoiceXLIII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-JVoiceXLIV = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-JVoiceXLV = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
     \times 4/5 {
         b'8
         b'8
@@ -3158,6 +2927,237 @@ JVoiceXLV = {
     \times 1/1 {
         b'2
     }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+J_VoiceXLII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+J_VoiceXLIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+J_VoiceXLIV = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+J_VoiceXLV = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
     \times 4/7 {
         b'8
         b'8
@@ -3175,7 +3175,7 @@ JVoiceXLV = {
 }
 
 
-JVoiceXLVI = {
+J_VoiceXLVI = {
     \time 1/2
     r2
     r2
@@ -3208,7 +3208,7 @@ JVoiceXLVI = {
 }
 
 
-JVoiceXLVII = {
+J_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -3239,7 +3239,7 @@ JVoiceXLVII = {
 }
 
 
-JVoiceXLVIII = {
+J_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -3264,7 +3264,7 @@ JVoiceXLVIII = {
 }
 
 
-JVoiceXLIX = {
+J_VoiceXLIX = {
     \time 1/2
     r2
     r2
@@ -3285,7 +3285,7 @@ JVoiceXLIX = {
 }
 
 
-JVoiceL = {
+J_VoiceL = {
     \time 1/2
     r2
     r2
@@ -3306,7 +3306,7 @@ JVoiceL = {
 }
 
 
-JVoiceLI = {
+J_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -3327,7 +3327,7 @@ JVoiceLI = {
 }
 
 
-JVoiceLII = {
+J_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -3348,7 +3348,7 @@ JVoiceLII = {
 }
 
 
-JVoiceLIII = {
+J_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -3369,7 +3369,7 @@ JVoiceLIII = {
 }
 
 
-JVoiceLIV = {
+J_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -3390,7 +3390,7 @@ JVoiceLIV = {
 }
 
 
-JVoiceLV = {
+J_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -3411,7 +3411,7 @@ JVoiceLV = {
 }
 
 
-JVoiceLVI = {
+J_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -3432,7 +3432,7 @@ JVoiceLVI = {
 }
 
 
-JVoiceLVII = {
+J_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -3453,7 +3453,7 @@ JVoiceLVII = {
 }
 
 
-JVoiceLVIII = {
+J_VoiceLVIII = {
     \time 1/2
     r2
     r2
@@ -3474,7 +3474,7 @@ JVoiceLVIII = {
 }
 
 
-JVoiceLIX = {
+J_VoiceLIX = {
     \time 1/2
     r2
     r2
@@ -3495,7 +3495,7 @@ JVoiceLIX = {
 }
 
 
-JVoiceLX = {
+J_VoiceLX = {
     \time 1/2
     r2
     r2
@@ -3516,7 +3516,7 @@ JVoiceLX = {
 }
 
 
-JVoiceLXI = {
+J_VoiceLXI = {
     \time 1/2
     r2
     r2
@@ -3537,7 +3537,7 @@ JVoiceLXI = {
 }
 
 
-JVoiceLXII = {
+J_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -3558,7 +3558,7 @@ JVoiceLXII = {
 }
 
 
-JVoiceLXIII = {
+J_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -3579,7 +3579,7 @@ JVoiceLXIII = {
 }
 
 
-JVoiceLXIV = {
+J_VoiceLXIV = {
     \time 1/2
     r2
     r2

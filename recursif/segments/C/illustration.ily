@@ -1,4 +1,4 @@
-CVoiceI = {
+C_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ CVoiceI = {
 }
 
 
-CVoiceII = {
+C_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ CVoiceII = {
 }
 
 
-CVoiceIII = {
+C_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ CVoiceIII = {
 }
 
 
-CVoiceIV = {
+C_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ CVoiceIV = {
 }
 
 
-CVoiceV = {
+C_VoiceV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -453,7 +453,7 @@ CVoiceV = {
 }
 
 
-CVoiceVI = {
+C_VoiceVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -538,7 +538,7 @@ CVoiceVI = {
 }
 
 
-CVoiceVII = {
+C_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ CVoiceVII = {
 }
 
 
-CVoiceVIII = {
+C_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -677,7 +677,7 @@ CVoiceVIII = {
 }
 
 
-CVoiceIX = {
+C_VoiceIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -784,7 +784,7 @@ CVoiceIX = {
 }
 
 
-CVoiceX = {
+C_VoiceX = {
     \time 1/2
     r2
     \times 2/3 {
@@ -874,7 +874,7 @@ CVoiceX = {
 }
 
 
-CVoiceXI = {
+C_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -954,7 +954,7 @@ CVoiceXI = {
 }
 
 
-CVoiceXII = {
+C_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -1023,2565 +1023,7 @@ CVoiceXII = {
 }
 
 
-CVoiceXIII = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        \time 1/2
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-}
-
-
-CVoiceXIV = {
-    \time 1/2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-}
-
-
-CVoiceXV = {
-    \time 1/2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-}
-
-
-CVoiceXVI = {
-    \time 1/2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-}
-
-
-CVoiceXVII = {
-    \times 4/7 {
-        \time 1/2
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXVIII = {
-    \time 1/2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXIX = {
-    \time 1/2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXX = {
-    \time 1/2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXI = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXIII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXIV = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXV = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        \time 1/2
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXVI = {
-    \time 1/2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXVII = {
-    \time 1/2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXVIII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXIX = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    r2
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXX = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXXI = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXXII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceXXXIII = {
-    \times 4/7 {
-        \time 1/2
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXXXIV = {
-    \time 1/2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXXXV = {
-    \time 1/2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXXXVI = {
-    \time 1/2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXXXVII = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        \time 1/2
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXXXVIII = {
-    \time 1/2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXXXIX = {
-    \time 1/2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXL = {
-    \time 1/2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXLI = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        \time 1/2
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXLII = {
-    \time 1/2
-    r2
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXLIII = {
-    \time 1/2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXLIV = {
-    \time 1/2
-    r2
-    r2
-    r2
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    r2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-}
-
-
-CVoiceXLV = {
+C_VoiceXIII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -3665,6 +1107,2564 @@ CVoiceXLV = {
         b'8
         b'8
     }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+}
+
+
+C_VoiceXIV = {
+    \time 1/2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+}
+
+
+C_VoiceXV = {
+    \time 1/2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+}
+
+
+C_VoiceXVI = {
+    \time 1/2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+}
+
+
+C_VoiceXVII = {
+    \times 4/7 {
+        \time 1/2
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXVIII = {
+    \time 1/2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXIX = {
+    \time 1/2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXX = {
+    \time 1/2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXI = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXIV = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXV = {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        \time 1/2
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXVI = {
+    \time 1/2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXVII = {
+    \time 1/2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXVIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXIX = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    r2
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXX = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXXI = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXXII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceXXXIII = {
+    \times 4/7 {
+        \time 1/2
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXXXIV = {
+    \time 1/2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXXXV = {
+    \time 1/2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXXXVI = {
+    \time 1/2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXXXVII = {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        \time 1/2
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXXXVIII = {
+    \time 1/2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXXXIX = {
+    \time 1/2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXL = {
+    \time 1/2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXLI = {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        \time 1/2
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXLII = {
+    \time 1/2
+    r2
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXLIII = {
+    \time 1/2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXLIV = {
+    \time 1/2
+    r2
+    r2
+    r2
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    r2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+}
+
+
+C_VoiceXLV = {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        \time 1/2
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
     \times 4/5 {
         b'8
         b'8
@@ -3693,7 +3693,7 @@ CVoiceXLV = {
 }
 
 
-CVoiceXLVI = {
+C_VoiceXLVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3764,7 +3764,7 @@ CVoiceXLVI = {
 }
 
 
-CVoiceXLVII = {
+C_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -3830,7 +3830,7 @@ CVoiceXLVII = {
 }
 
 
-CVoiceXLVIII = {
+C_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -3871,7 +3871,7 @@ CVoiceXLVIII = {
 }
 
 
-CVoiceXLIX = {
+C_VoiceXLIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -3976,7 +3976,7 @@ CVoiceXLIX = {
 }
 
 
-CVoiceL = {
+C_VoiceL = {
     \time 1/2
     r2
     \times 4/7 {
@@ -4087,7 +4087,7 @@ CVoiceL = {
 }
 
 
-CVoiceLI = {
+C_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -4184,7 +4184,7 @@ CVoiceLI = {
 }
 
 
-CVoiceLII = {
+C_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -4271,7 +4271,7 @@ CVoiceLII = {
 }
 
 
-CVoiceLIII = {
+C_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -4356,7 +4356,7 @@ CVoiceLIII = {
 }
 
 
-CVoiceLIV = {
+C_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -4429,7 +4429,7 @@ CVoiceLIV = {
 }
 
 
-CVoiceLV = {
+C_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -4507,7 +4507,7 @@ CVoiceLV = {
 }
 
 
-CVoiceLVI = {
+C_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -4560,7 +4560,7 @@ CVoiceLVI = {
 }
 
 
-CVoiceLVII = {
+C_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -4579,141 +4579,6 @@ CVoiceLVII = {
         b'2
     }
     \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/5 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceLVIII = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-    \times 4/7 {
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-        b'8
-    }
-}
-
-
-CVoiceLIX = {
-    \time 1/2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'2
-    }
-    \times 2/3 {
-        b'4
-        b'4
-        b'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        b'4
-        b'4
-    }
-    \times 2/3 {
-        b'8
         b'8
         b'8
         b'8
@@ -4727,6 +4592,25 @@ CVoiceLIX = {
         b'8
         b'8
     }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
     \times 4/7 {
         b'8
         b'8
@@ -4739,7 +4623,123 @@ CVoiceLIX = {
 }
 
 
-CVoiceLX = {
+C_VoiceLVIII = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceLIX = {
+    \time 1/2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    r2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'2
+    }
+    \times 2/3 {
+        b'4
+        b'4
+        b'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        b'4
+        b'4
+    }
+    \times 2/3 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/5 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+    \times 4/7 {
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+        b'8
+    }
+}
+
+
+C_VoiceLX = {
     \time 1/2
     r2
     r2
@@ -4792,7 +4792,7 @@ CVoiceLX = {
 }
 
 
-CVoiceLXI = {
+C_VoiceLXI = {
     \time 1/2
     r2
     r2
@@ -4834,7 +4834,7 @@ CVoiceLXI = {
 }
 
 
-CVoiceLXII = {
+C_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -4875,7 +4875,7 @@ CVoiceLXII = {
 }
 
 
-CVoiceLXIII = {
+C_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -4907,7 +4907,7 @@ CVoiceLXIII = {
 }
 
 
-CVoiceLXIV = {
+C_VoiceLXIV = {
     \time 1/2
     r2
     r2

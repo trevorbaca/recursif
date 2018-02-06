@@ -1,4 +1,4 @@
-NVoiceI = {
+N_VoiceI = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -67,7 +67,7 @@ NVoiceI = {
 }
 
 
-NVoiceII = {
+N_VoiceII = {
     \time 1/2
     r2
     \times 4/7 {
@@ -164,7 +164,7 @@ NVoiceII = {
 }
 
 
-NVoiceIII = {
+N_VoiceIII = {
     \time 1/2
     r2
     r2
@@ -261,7 +261,7 @@ NVoiceIII = {
 }
 
 
-NVoiceIV = {
+N_VoiceIV = {
     \time 1/2
     r2
     r2
@@ -344,7 +344,7 @@ NVoiceIV = {
 }
 
 
-NVoiceV = {
+N_VoiceV = {
     \time 1/2
     r2
     r2
@@ -429,7 +429,7 @@ NVoiceV = {
 }
 
 
-NVoiceVI = {
+N_VoiceVI = {
     \time 1/2
     r2
     r2
@@ -496,7 +496,7 @@ NVoiceVI = {
 }
 
 
-NVoiceVII = {
+N_VoiceVII = {
     \time 1/2
     r2
     r2
@@ -573,7 +573,7 @@ NVoiceVII = {
 }
 
 
-NVoiceVIII = {
+N_VoiceVIII = {
     \time 1/2
     r2
     r2
@@ -627,7 +627,7 @@ NVoiceVIII = {
 }
 
 
-NVoiceIX = {
+N_VoiceIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -738,7 +738,7 @@ NVoiceIX = {
 }
 
 
-NVoiceX = {
+N_VoiceX = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -824,7 +824,7 @@ NVoiceX = {
 }
 
 
-NVoiceXI = {
+N_VoiceXI = {
     \time 1/2
     r2
     r2
@@ -908,7 +908,7 @@ NVoiceXI = {
 }
 
 
-NVoiceXII = {
+N_VoiceXII = {
     \time 1/2
     r2
     r2
@@ -969,7 +969,7 @@ NVoiceXII = {
 }
 
 
-NVoiceXIII = {
+N_VoiceXIII = {
     \time 1/2
     r2
     r2
@@ -1035,7 +1035,7 @@ NVoiceXIII = {
 }
 
 
-NVoiceXIV = {
+N_VoiceXIV = {
     \time 1/2
     r2
     r2
@@ -1080,7 +1080,7 @@ NVoiceXIV = {
 }
 
 
-NVoiceXV = {
+N_VoiceXV = {
     \time 1/2
     r2
     r2
@@ -1123,7 +1123,7 @@ NVoiceXV = {
 }
 
 
-NVoiceXVI = {
+N_VoiceXVI = {
     \time 1/2
     r2
     r2
@@ -1154,7 +1154,7 @@ NVoiceXVI = {
 }
 
 
-NVoiceXVII = {
+N_VoiceXVII = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1263,7 +1263,7 @@ NVoiceXVII = {
 }
 
 
-NVoiceXVIII = {
+N_VoiceXVIII = {
     \time 1/2
     r2
     \times 2/3 {
@@ -1352,7 +1352,7 @@ NVoiceXVIII = {
 }
 
 
-NVoiceXIX = {
+N_VoiceXIX = {
     \time 1/2
     r2
     r2
@@ -1441,7 +1441,7 @@ NVoiceXIX = {
 }
 
 
-NVoiceXX = {
+N_VoiceXX = {
     \time 1/2
     r2
     r2
@@ -1496,7 +1496,7 @@ NVoiceXX = {
 }
 
 
-NVoiceXXI = {
+N_VoiceXXI = {
     \time 1/2
     r2
     r2
@@ -1585,7 +1585,7 @@ NVoiceXXI = {
 }
 
 
-NVoiceXXII = {
+N_VoiceXXII = {
     \time 1/2
     r2
     r2
@@ -1658,7 +1658,7 @@ NVoiceXXII = {
 }
 
 
-NVoiceXXIII = {
+N_VoiceXXIII = {
     \time 1/2
     r2
     r2
@@ -1713,7 +1713,7 @@ NVoiceXXIII = {
 }
 
 
-NVoiceXXIV = {
+N_VoiceXXIV = {
     \time 1/2
     r2
     r2
@@ -1754,7 +1754,7 @@ NVoiceXXIV = {
 }
 
 
-NVoiceXXV = {
+N_VoiceXXV = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -1867,7 +1867,7 @@ NVoiceXXV = {
 }
 
 
-NVoiceXXVI = {
+N_VoiceXXVI = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -1946,7 +1946,7 @@ NVoiceXXVI = {
 }
 
 
-NVoiceXXVII = {
+N_VoiceXXVII = {
     \time 1/2
     r2
     r2
@@ -2025,7 +2025,7 @@ NVoiceXXVII = {
 }
 
 
-NVoiceXXVIII = {
+N_VoiceXXVIII = {
     \time 1/2
     r2
     r2
@@ -2072,7 +2072,7 @@ NVoiceXXVIII = {
 }
 
 
-NVoiceXXIX = {
+N_VoiceXXIX = {
     \time 1/2
     r2
     r2
@@ -2139,7 +2139,7 @@ NVoiceXXIX = {
 }
 
 
-NVoiceXXX = {
+N_VoiceXXX = {
     \time 1/2
     r2
     r2
@@ -2186,7 +2186,7 @@ NVoiceXXX = {
 }
 
 
-NVoiceXXXI = {
+N_VoiceXXXI = {
     \time 1/2
     r2
     r2
@@ -2230,7 +2230,7 @@ NVoiceXXXI = {
 }
 
 
-NVoiceXXXII = {
+N_VoiceXXXII = {
     \time 1/2
     r2
     r2
@@ -2261,7 +2261,7 @@ NVoiceXXXII = {
 }
 
 
-NVoiceXXXIII = {
+N_VoiceXXXIII = {
     \times 2/3 {
         \time 1/2
         b'4
@@ -2378,7 +2378,7 @@ NVoiceXXXIII = {
 }
 
 
-NVoiceXXXIV = {
+N_VoiceXXXIV = {
     \time 1/2
     r2
     \times 4/5 {
@@ -2475,7 +2475,7 @@ NVoiceXXXIV = {
 }
 
 
-NVoiceXXXV = {
+N_VoiceXXXV = {
     \time 1/2
     r2
     r2
@@ -2572,7 +2572,7 @@ NVoiceXXXV = {
 }
 
 
-NVoiceXXXVI = {
+N_VoiceXXXVI = {
     \time 1/2
     r2
     r2
@@ -2662,7 +2662,7 @@ NVoiceXXXVI = {
 }
 
 
-NVoiceXXXVII = {
+N_VoiceXXXVII = {
     \time 1/2
     r2
     r2
@@ -2747,7 +2747,7 @@ NVoiceXXXVII = {
 }
 
 
-NVoiceXXXVIII = {
+N_VoiceXXXVIII = {
     \time 1/2
     r2
     r2
@@ -2820,7 +2820,7 @@ NVoiceXXXVIII = {
 }
 
 
-NVoiceXXXIX = {
+N_VoiceXXXIX = {
     \time 1/2
     r2
     r2
@@ -2896,7 +2896,7 @@ NVoiceXXXIX = {
 }
 
 
-NVoiceXL = {
+N_VoiceXL = {
     \time 1/2
     r2
     r2
@@ -2943,7 +2943,7 @@ NVoiceXL = {
 }
 
 
-NVoiceXLI = {
+N_VoiceXLI = {
     \time 1/2
     r2
     r2
@@ -3006,7 +3006,7 @@ NVoiceXLI = {
 }
 
 
-NVoiceXLII = {
+N_VoiceXLII = {
     \time 1/2
     r2
     r2
@@ -3062,7 +3062,7 @@ NVoiceXLII = {
 }
 
 
-NVoiceXLIII = {
+N_VoiceXLIII = {
     \time 1/2
     r2
     r2
@@ -3108,7 +3108,7 @@ NVoiceXLIII = {
 }
 
 
-NVoiceXLIV = {
+N_VoiceXLIV = {
     \time 1/2
     r2
     r2
@@ -3157,7 +3157,7 @@ NVoiceXLIV = {
 }
 
 
-NVoiceXLV = {
+N_VoiceXLV = {
     \time 1/2
     r2
     r2
@@ -3199,7 +3199,7 @@ NVoiceXLV = {
 }
 
 
-NVoiceXLVI = {
+N_VoiceXLVI = {
     \time 1/2
     r2
     r2
@@ -3239,7 +3239,7 @@ NVoiceXLVI = {
 }
 
 
-NVoiceXLVII = {
+N_VoiceXLVII = {
     \time 1/2
     r2
     r2
@@ -3270,7 +3270,7 @@ NVoiceXLVII = {
 }
 
 
-NVoiceXLVIII = {
+N_VoiceXLVIII = {
     \time 1/2
     r2
     r2
@@ -3297,7 +3297,7 @@ NVoiceXLVIII = {
 }
 
 
-NVoiceXLIX = {
+N_VoiceXLIX = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         \time 1/2
@@ -3414,7 +3414,7 @@ NVoiceXLIX = {
 }
 
 
-NVoiceL = {
+N_VoiceL = {
     \time 1/2
     r2
     \tweak text #tuplet-number::calc-fraction-text
@@ -3483,7 +3483,7 @@ NVoiceL = {
 }
 
 
-NVoiceLI = {
+N_VoiceLI = {
     \time 1/2
     r2
     r2
@@ -3552,7 +3552,7 @@ NVoiceLI = {
 }
 
 
-NVoiceLII = {
+N_VoiceLII = {
     \time 1/2
     r2
     r2
@@ -3597,7 +3597,7 @@ NVoiceLII = {
 }
 
 
-NVoiceLIII = {
+N_VoiceLIII = {
     \time 1/2
     r2
     r2
@@ -3666,7 +3666,7 @@ NVoiceLIII = {
 }
 
 
-NVoiceLIV = {
+N_VoiceLIV = {
     \time 1/2
     r2
     r2
@@ -3711,7 +3711,7 @@ NVoiceLIV = {
 }
 
 
-NVoiceLV = {
+N_VoiceLV = {
     \time 1/2
     r2
     r2
@@ -3756,7 +3756,7 @@ NVoiceLV = {
 }
 
 
-NVoiceLVI = {
+N_VoiceLVI = {
     \time 1/2
     r2
     r2
@@ -3789,7 +3789,7 @@ NVoiceLVI = {
 }
 
 
-NVoiceLVII = {
+N_VoiceLVII = {
     \time 1/2
     r2
     r2
@@ -3858,7 +3858,7 @@ NVoiceLVII = {
 }
 
 
-NVoiceLVIII = {
+N_VoiceLVIII = {
     \time 1/2
     r2
     r2
@@ -3903,7 +3903,7 @@ NVoiceLVIII = {
 }
 
 
-NVoiceLIX = {
+N_VoiceLIX = {
     \time 1/2
     r2
     r2
@@ -3948,7 +3948,7 @@ NVoiceLIX = {
 }
 
 
-NVoiceLX = {
+N_VoiceLX = {
     \time 1/2
     r2
     r2
@@ -3981,7 +3981,7 @@ NVoiceLX = {
 }
 
 
-NVoiceLXI = {
+N_VoiceLXI = {
     \time 1/2
     r2
     r2
@@ -4026,7 +4026,7 @@ NVoiceLXI = {
 }
 
 
-NVoiceLXII = {
+N_VoiceLXII = {
     \time 1/2
     r2
     r2
@@ -4059,7 +4059,7 @@ NVoiceLXII = {
 }
 
 
-NVoiceLXIII = {
+N_VoiceLXIII = {
     \time 1/2
     r2
     r2
@@ -4092,7 +4092,7 @@ NVoiceLXIII = {
 }
 
 
-NVoiceLXIV = {
+N_VoiceLXIV = {
     \time 1/2
     r2
     r2
