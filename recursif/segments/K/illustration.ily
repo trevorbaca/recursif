@@ -67,6 +67,12 @@ K_VoiceI = {
 }
 
 
+K_StaffI = {
+    \context VoiceI = "VoiceI"
+    \K_VoiceI
+}
+
+
 K_VoiceII = {
     \time 1/2
     r2
@@ -161,6 +167,12 @@ K_VoiceII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+K_StaffII = {
+    \context VoiceII = "VoiceII"
+    \K_VoiceII
 }
 
 
@@ -261,6 +273,12 @@ K_VoiceIII = {
 }
 
 
+K_StaffIII = {
+    \context VoiceIII = "VoiceIII"
+    \K_VoiceIII
+}
+
+
 K_VoiceIV = {
     \time 1/2
     r2
@@ -341,6 +359,12 @@ K_VoiceIV = {
     \times 1/1 {
         b'2
     }
+}
+
+
+K_StaffIV = {
+    \context VoiceIV = "VoiceIV"
+    \K_VoiceIV
 }
 
 
@@ -453,6 +477,12 @@ K_VoiceV = {
 }
 
 
+K_StaffV = {
+    \context VoiceV = "VoiceV"
+    \K_VoiceV
+}
+
+
 K_VoiceVI = {
     \time 1/2
     r2
@@ -535,6 +565,12 @@ K_VoiceVI = {
     \times 1/1 {
         b'2
     }
+}
+
+
+K_StaffVI = {
+    \context VoiceVI = "VoiceVI"
+    \K_VoiceVI
 }
 
 
@@ -627,6 +663,12 @@ K_VoiceVII = {
 }
 
 
+K_StaffVII = {
+    \context VoiceVII = "VoiceVII"
+    \K_VoiceVII
+}
+
+
 K_VoiceVIII = {
     \time 1/2
     r2
@@ -674,6 +716,12 @@ K_VoiceVIII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+K_StaffVIII = {
+    \context VoiceVIII = "VoiceVIII"
+    \K_VoiceVIII
 }
 
 
@@ -784,6 +832,12 @@ K_VoiceIX = {
 }
 
 
+K_StaffIX = {
+    \context VoiceIX = "VoiceIX"
+    \K_VoiceIX
+}
+
+
 K_VoiceX = {
     \time 1/2
     r2
@@ -874,6 +928,12 @@ K_VoiceX = {
 }
 
 
+K_StaffX = {
+    \context VoiceX = "VoiceX"
+    \K_VoiceX
+}
+
+
 K_VoiceXI = {
     \time 1/2
     r2
@@ -954,6 +1014,12 @@ K_VoiceXI = {
 }
 
 
+K_StaffXI = {
+    \context VoiceXI = "VoiceXI"
+    \K_VoiceXI
+}
+
+
 K_VoiceXII = {
     \time 1/2
     r2
@@ -1020,6 +1086,12 @@ K_VoiceXII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+K_StaffXII = {
+    \context VoiceXII = "VoiceXII"
+    \K_VoiceXII
 }
 
 
@@ -1135,6 +1207,12 @@ K_VoiceXIII = {
 }
 
 
+K_StaffXIII = {
+    \context VoiceXIII = "VoiceXIII"
+    \K_VoiceXIII
+}
+
+
 K_VoiceXIV = {
     \time 1/2
     r2
@@ -1207,6 +1285,12 @@ K_VoiceXIV = {
 }
 
 
+K_StaffXIV = {
+    \context VoiceXIV = "VoiceXIV"
+    \K_VoiceXIV
+}
+
+
 K_VoiceXV = {
     \time 1/2
     r2
@@ -1274,6 +1358,12 @@ K_VoiceXV = {
 }
 
 
+K_StaffXV = {
+    \context VoiceXV = "VoiceXV"
+    \K_VoiceXV
+}
+
+
 K_VoiceXVI = {
     \time 1/2
     r2
@@ -1311,6 +1401,12 @@ K_VoiceXVI = {
     \times 1/1 {
         b'2
     }
+}
+
+
+K_StaffXVI = {
+    \context VoiceXVI = "VoiceXVI"
+    \K_VoiceXVI
 }
 
 
@@ -1419,6 +1515,12 @@ K_VoiceXVII = {
 }
 
 
+K_StaffXVII = {
+    \context VoiceXVII = "VoiceXVII"
+    \K_VoiceXVII
+}
+
+
 K_VoiceXVIII = {
     \time 1/2
     r2
@@ -1513,6 +1615,12 @@ K_VoiceXVIII = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXVIII = {
+    \context VoiceXVIII = "VoiceXVIII"
+    \K_VoiceXVIII
 }
 
 
@@ -1627,6 +1735,12 @@ K_VoiceXIX = {
 }
 
 
+K_StaffXIX = {
+    \context VoiceXIX = "VoiceXIX"
+    \K_VoiceXIX
+}
+
+
 K_VoiceXX = {
     \time 1/2
     r2
@@ -1704,6 +1818,12 @@ K_VoiceXX = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXX = {
+    \context VoiceXX = "VoiceXX"
+    \K_VoiceXX
 }
 
 
@@ -1792,6 +1912,12 @@ K_VoiceXXI = {
 }
 
 
+K_StaffXXI = {
+    \context VoiceXXI = "VoiceXXI"
+    \K_VoiceXXI
+}
+
+
 K_VoiceXXII = {
     \time 1/2
     r2
@@ -1856,6 +1982,12 @@ K_VoiceXXII = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXXII = {
+    \context VoiceXXII = "VoiceXXII"
+    \K_VoiceXXII
 }
 
 
@@ -1936,6 +2068,12 @@ K_VoiceXXIII = {
 }
 
 
+K_StaffXXIII = {
+    \context VoiceXXIII = "VoiceXXIII"
+    \K_VoiceXXIII
+}
+
+
 K_VoiceXXIV = {
     \time 1/2
     r2
@@ -1982,6 +2120,12 @@ K_VoiceXXIV = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXXIV = {
+    \context VoiceXXIV = "VoiceXXIV"
+    \K_VoiceXXIV
 }
 
 
@@ -2096,6 +2240,12 @@ K_VoiceXXV = {
 }
 
 
+K_StaffXXV = {
+    \context VoiceXXV = "VoiceXXV"
+    \K_VoiceXXV
+}
+
+
 K_VoiceXXVI = {
     \time 1/2
     r2
@@ -2172,6 +2322,12 @@ K_VoiceXXVI = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXXVI = {
+    \context VoiceXXVI = "VoiceXXVI"
+    \K_VoiceXXVI
 }
 
 
@@ -2252,6 +2408,12 @@ K_VoiceXXVII = {
 }
 
 
+K_StaffXXVII = {
+    \context VoiceXXVII = "VoiceXXVII"
+    \K_VoiceXXVII
+}
+
+
 K_VoiceXXVIII = {
     \time 1/2
     r2
@@ -2313,6 +2475,12 @@ K_VoiceXXVIII = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXXVIII = {
+    \context VoiceXXVIII = "VoiceXXVIII"
+    \K_VoiceXXVIII
 }
 
 
@@ -2382,6 +2550,12 @@ K_VoiceXXIX = {
 }
 
 
+K_StaffXXIX = {
+    \context VoiceXXIX = "VoiceXXIX"
+    \K_VoiceXXIX
+}
+
+
 K_VoiceXXX = {
     \time 1/2
     r2
@@ -2434,6 +2608,12 @@ K_VoiceXXX = {
 }
 
 
+K_StaffXXX = {
+    \context VoiceXXX = "VoiceXXX"
+    \K_VoiceXXX
+}
+
+
 K_VoiceXXXI = {
     \time 1/2
     r2
@@ -2477,6 +2657,12 @@ K_VoiceXXXI = {
 }
 
 
+K_StaffXXXI = {
+    \context VoiceXXXI = "VoiceXXXI"
+    \K_VoiceXXXI
+}
+
+
 K_VoiceXXXII = {
     \time 1/2
     r2
@@ -2507,6 +2693,12 @@ K_VoiceXXXII = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXXXII = {
+    \context VoiceXXXII = "VoiceXXXII"
+    \K_VoiceXXXII
 }
 
 
@@ -2627,6 +2819,12 @@ K_VoiceXXXIII = {
 }
 
 
+K_StaffXXXIII = {
+    \context VoiceXXXIII = "VoiceXXXIII"
+    \K_VoiceXXXIII
+}
+
+
 K_VoiceXXXIV = {
     \time 1/2
     r2
@@ -2721,6 +2919,12 @@ K_VoiceXXXIV = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXXXIV = {
+    \context VoiceXXXIV = "VoiceXXXIV"
+    \K_VoiceXXXIV
 }
 
 
@@ -2821,6 +3025,12 @@ K_VoiceXXXV = {
 }
 
 
+K_StaffXXXV = {
+    \context VoiceXXXV = "VoiceXXXV"
+    \K_VoiceXXXV
+}
+
+
 K_VoiceXXXVI = {
     \time 1/2
     r2
@@ -2908,6 +3118,12 @@ K_VoiceXXXVI = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXXXVI = {
+    \context VoiceXXXVI = "VoiceXXXVI"
+    \K_VoiceXXXVI
 }
 
 
@@ -3020,6 +3236,12 @@ K_VoiceXXXVII = {
 }
 
 
+K_StaffXXXVII = {
+    \context VoiceXXXVII = "VoiceXXXVII"
+    \K_VoiceXXXVII
+}
+
+
 K_VoiceXXXVIII = {
     \time 1/2
     r2
@@ -3096,6 +3318,12 @@ K_VoiceXXXVIII = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXXXVIII = {
+    \context VoiceXXXVIII = "VoiceXXXVIII"
+    \K_VoiceXXXVIII
 }
 
 
@@ -3189,6 +3417,12 @@ K_VoiceXXXIX = {
 }
 
 
+K_StaffXXXIX = {
+    \context VoiceXXXIX = "VoiceXXXIX"
+    \K_VoiceXXXIX
+}
+
+
 K_VoiceXL = {
     \time 1/2
     r2
@@ -3243,6 +3477,12 @@ K_VoiceXL = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXL = {
+    \context VoiceXL = "VoiceXL"
+    \K_VoiceXL
 }
 
 
@@ -3353,6 +3593,12 @@ K_VoiceXLI = {
 }
 
 
+K_StaffXLI = {
+    \context VoiceXLI = "VoiceXLI"
+    \K_VoiceXLI
+}
+
+
 K_VoiceXLII = {
     \time 1/2
     r2
@@ -3446,6 +3692,12 @@ K_VoiceXLII = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXLII = {
+    \context VoiceXLII = "VoiceXLII"
+    \K_VoiceXLII
 }
 
 
@@ -3543,6 +3795,12 @@ K_VoiceXLIII = {
 }
 
 
+K_StaffXLIII = {
+    \context VoiceXLIII = "VoiceXLIII"
+    \K_VoiceXLIII
+}
+
+
 K_VoiceXLIV = {
     \time 1/2
     r2
@@ -3609,6 +3867,12 @@ K_VoiceXLIV = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXLIV = {
+    \context VoiceXLIV = "VoiceXLIV"
+    \K_VoiceXLIV
 }
 
 
@@ -3724,6 +3988,12 @@ K_VoiceXLV = {
 }
 
 
+K_StaffXLV = {
+    \context VoiceXLV = "VoiceXLV"
+    \K_VoiceXLV
+}
+
+
 K_VoiceXLVI = {
     \time 1/2
     r2
@@ -3803,6 +4073,12 @@ K_VoiceXLVI = {
 }
 
 
+K_StaffXLVI = {
+    \context VoiceXLVI = "VoiceXLVI"
+    \K_VoiceXLVI
+}
+
+
 K_VoiceXLVII = {
     \time 1/2
     r2
@@ -3870,6 +4146,12 @@ K_VoiceXLVII = {
 }
 
 
+K_StaffXLVII = {
+    \context VoiceXLVII = "VoiceXLVII"
+    \K_VoiceXLVII
+}
+
+
 K_VoiceXLVIII = {
     \time 1/2
     r2
@@ -3912,6 +4194,12 @@ K_VoiceXLVIII = {
         b'8
         b'8
     }
+}
+
+
+K_StaffXLVIII = {
+    \context VoiceXLVIII = "VoiceXLVIII"
+    \K_VoiceXLVIII
 }
 
 
@@ -4020,6 +4308,12 @@ K_VoiceXLIX = {
 }
 
 
+K_StaffXLIX = {
+    \context VoiceXLIX = "VoiceXLIX"
+    \K_VoiceXLIX
+}
+
+
 K_VoiceL = {
     \time 1/2
     r2
@@ -4100,6 +4394,12 @@ K_VoiceL = {
         b'4
         b'4
     }
+}
+
+
+K_StaffL = {
+    \context VoiceL = "VoiceL"
+    \K_VoiceL
 }
 
 
@@ -4200,6 +4500,12 @@ K_VoiceLI = {
 }
 
 
+K_StaffLI = {
+    \context VoiceLI = "VoiceLI"
+    \K_VoiceLI
+}
+
+
 K_VoiceLII = {
     \time 1/2
     r2
@@ -4282,6 +4588,12 @@ K_VoiceLII = {
         b'4
         b'4
     }
+}
+
+
+K_StaffLII = {
+    \context VoiceLII = "VoiceLII"
+    \K_VoiceLII
 }
 
 
@@ -4370,6 +4682,12 @@ K_VoiceLIII = {
 }
 
 
+K_StaffLIII = {
+    \context VoiceLIII = "VoiceLIII"
+    \K_VoiceLIII
+}
+
+
 K_VoiceLIV = {
     \time 1/2
     r2
@@ -4440,6 +4758,12 @@ K_VoiceLIV = {
         b'4
         b'4
     }
+}
+
+
+K_StaffLIV = {
+    \context VoiceLIV = "VoiceLIV"
+    \K_VoiceLIV
 }
 
 
@@ -4519,6 +4843,12 @@ K_VoiceLV = {
 }
 
 
+K_StaffLV = {
+    \context VoiceLV = "VoiceLV"
+    \K_VoiceLV
+}
+
+
 K_VoiceLVI = {
     \time 1/2
     r2
@@ -4561,6 +4891,12 @@ K_VoiceLVI = {
         b'4
         b'4
     }
+}
+
+
+K_StaffLVI = {
+    \context VoiceLVI = "VoiceLVI"
+    \K_VoiceLVI
 }
 
 
@@ -4627,6 +4963,12 @@ K_VoiceLVII = {
 }
 
 
+K_StaffLVII = {
+    \context VoiceLVII = "VoiceLVII"
+    \K_VoiceLVII
+}
+
+
 K_VoiceLVIII = {
     \time 1/2
     r2
@@ -4688,6 +5030,12 @@ K_VoiceLVIII = {
 }
 
 
+K_StaffLVIII = {
+    \context VoiceLVIII = "VoiceLVIII"
+    \K_VoiceLVIII
+}
+
+
 K_VoiceLIX = {
     \time 1/2
     r2
@@ -4741,6 +5089,12 @@ K_VoiceLIX = {
 }
 
 
+K_StaffLIX = {
+    \context VoiceLIX = "VoiceLIX"
+    \K_VoiceLIX
+}
+
+
 K_VoiceLX = {
     \time 1/2
     r2
@@ -4786,6 +5140,12 @@ K_VoiceLX = {
 }
 
 
+K_StaffLX = {
+    \context VoiceLX = "VoiceLX"
+    \K_VoiceLX
+}
+
+
 K_VoiceLXI = {
     \time 1/2
     r2
@@ -4828,6 +5188,12 @@ K_VoiceLXI = {
 }
 
 
+K_StaffLXI = {
+    \context VoiceLXI = "VoiceLXI"
+    \K_VoiceLXI
+}
+
+
 K_VoiceLXII = {
     \time 1/2
     r2
@@ -4858,6 +5224,12 @@ K_VoiceLXII = {
         b'4
         b'4
     }
+}
+
+
+K_StaffLXII = {
+    \context VoiceLXII = "VoiceLXII"
+    \K_VoiceLXII
 }
 
 
@@ -4892,6 +5264,12 @@ K_VoiceLXIII = {
 }
 
 
+K_StaffLXIII = {
+    \context VoiceLXIII = "VoiceLXIII"
+    \K_VoiceLXIII
+}
+
+
 K_VoiceLXIV = {
     \time 1/2
     r2
@@ -4914,4 +5292,10 @@ K_VoiceLXIV = {
         b'4
         b'4
     }
+}
+
+
+K_StaffLXIV = {
+    \context VoiceLXIV = "VoiceLXIV"
+    \K_VoiceLXIV
 }

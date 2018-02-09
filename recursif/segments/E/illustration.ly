@@ -45,10 +45,7 @@
                                 1
                     }
             }
-            {
-                \context VoiceI = "VoiceI"
-                \E_VoiceI
-            }
+            \E_StaffI
             \context StaffII = "StaffII"
             \with
             {
@@ -69,10 +66,7 @@
                                 2
                     }
             }
-            {
-                \context VoiceII = "VoiceII"
-                \E_VoiceII
-            }
+            \E_StaffII
             \context StaffIII = "StaffIII"
             \with
             {
@@ -93,10 +87,7 @@
                                 3
                     }
             }
-            {
-                \context VoiceIII = "VoiceIII"
-                \E_VoiceIII
-            }
+            \E_StaffIII
             \context StaffIV = "StaffIV"
             \with
             {
@@ -117,10 +108,7 @@
                                 4
                     }
             }
-            {
-                \context VoiceIV = "VoiceIV"
-                \E_VoiceIV
-            }
+            \E_StaffIV
             \context StaffV = "StaffV"
             \with
             {
@@ -141,10 +129,7 @@
                                 5
                     }
             }
-            {
-                \context VoiceV = "VoiceV"
-                \E_VoiceV
-            }
+            \E_StaffV
             \context StaffVI = "StaffVI"
             \with
             {
@@ -165,10 +150,7 @@
                                 6
                     }
             }
-            {
-                \context VoiceVI = "VoiceVI"
-                \E_VoiceVI
-            }
+            \E_StaffVI
             \context StaffVII = "StaffVII"
             \with
             {
@@ -189,10 +171,7 @@
                                 7
                     }
             }
-            {
-                \context VoiceVII = "VoiceVII"
-                \E_VoiceVII
-            }
+            \E_StaffVII
             \context StaffVIII = "StaffVIII"
             \with
             {
@@ -213,10 +192,7 @@
                                 8
                     }
             }
-            {
-                \context VoiceVIII = "VoiceVIII"
-                \E_VoiceVIII
-            }
+            \E_StaffVIII
             \context StaffIX = "StaffIX"
             \with
             {
@@ -237,10 +213,7 @@
                                 9
                     }
             }
-            {
-                \context VoiceIX = "VoiceIX"
-                \E_VoiceIX
-            }
+            \E_StaffIX
             \context StaffX = "StaffX"
             \with
             {
@@ -261,10 +234,7 @@
                                 10
                     }
             }
-            {
-                \context VoiceX = "VoiceX"
-                \E_VoiceX
-            }
+            \E_StaffX
             \context StaffXI = "StaffXI"
             \with
             {
@@ -285,10 +255,7 @@
                                 11
                     }
             }
-            {
-                \context VoiceXI = "VoiceXI"
-                \E_VoiceXI
-            }
+            \E_StaffXI
             \context StaffXII = "StaffXII"
             \with
             {
@@ -309,10 +276,7 @@
                                 12
                     }
             }
-            {
-                \context VoiceXII = "VoiceXII"
-                \E_VoiceXII
-            }
+            \E_StaffXII
             \context StaffXIII = "StaffXIII"
             \with
             {
@@ -333,10 +297,7 @@
                                 13
                     }
             }
-            {
-                \context VoiceXIII = "VoiceXIII"
-                \E_VoiceXIII
-            }
+            \E_StaffXIII
             \context StaffXIV = "StaffXIV"
             \with
             {
@@ -357,10 +318,7 @@
                                 14
                     }
             }
-            {
-                \context VoiceXIV = "VoiceXIV"
-                \E_VoiceXIV
-            }
+            \E_StaffXIV
             \context StaffXV = "StaffXV"
             \with
             {
@@ -381,10 +339,7 @@
                                 15
                     }
             }
-            {
-                \context VoiceXV = "VoiceXV"
-                \E_VoiceXV
-            }
+            \E_StaffXV
             \context StaffXVI = "StaffXVI"
             \with
             {
@@ -405,10 +360,7 @@
                                 16
                     }
             }
-            {
-                \context VoiceXVI = "VoiceXVI"
-                \E_VoiceXVI
-            }
+            \E_StaffXVI
             \context StaffXVII = "StaffXVII"
             \with
             {
@@ -429,10 +381,7 @@
                                 17
                     }
             }
-            {
-                \context VoiceXVII = "VoiceXVII"
-                \E_VoiceXVII
-            }
+            \E_StaffXVII
             \context StaffXVIII = "StaffXVIII"
             \with
             {
@@ -453,10 +402,7 @@
                                 18
                     }
             }
-            {
-                \context VoiceXVIII = "VoiceXVIII"
-                \E_VoiceXVIII
-            }
+            \E_StaffXVIII
             \context StaffXIX = "StaffXIX"
             \with
             {
@@ -477,10 +423,7 @@
                                 19
                     }
             }
-            {
-                \context VoiceXIX = "VoiceXIX"
-                \E_VoiceXIX
-            }
+            \E_StaffXIX
             \context StaffXX = "StaffXX"
             \with
             {
@@ -501,10 +444,7 @@
                                 20
                     }
             }
-            {
-                \context VoiceXX = "VoiceXX"
-                \E_VoiceXX
-            }
+            \E_StaffXX
             \context StaffXXI = "StaffXXI"
             \with
             {
@@ -525,10 +465,7 @@
                                 21
                     }
             }
-            {
-                \context VoiceXXI = "VoiceXXI"
-                \E_VoiceXXI
-            }
+            \E_StaffXXI
             \context StaffXXII = "StaffXXII"
             \with
             {
@@ -549,10 +486,7 @@
                                 22
                     }
             }
-            {
-                \context VoiceXXII = "VoiceXXII"
-                \E_VoiceXXII
-            }
+            \E_StaffXXII
             \context StaffXXIII = "StaffXXIII"
             \with
             {
@@ -573,10 +507,7 @@
                                 23
                     }
             }
-            {
-                \context VoiceXXIII = "VoiceXXIII"
-                \E_VoiceXXIII
-            }
+            \E_StaffXXIII
             \context StaffXXIV = "StaffXXIV"
             \with
             {
@@ -597,10 +528,7 @@
                                 24
                     }
             }
-            {
-                \context VoiceXXIV = "VoiceXXIV"
-                \E_VoiceXXIV
-            }
+            \E_StaffXXIV
             \context StaffXXV = "StaffXXV"
             \with
             {
@@ -621,10 +549,7 @@
                                 25
                     }
             }
-            {
-                \context VoiceXXV = "VoiceXXV"
-                \E_VoiceXXV
-            }
+            \E_StaffXXV
             \context StaffXXVI = "StaffXXVI"
             \with
             {
@@ -645,10 +570,7 @@
                                 26
                     }
             }
-            {
-                \context VoiceXXVI = "VoiceXXVI"
-                \E_VoiceXXVI
-            }
+            \E_StaffXXVI
             \context StaffXXVII = "StaffXXVII"
             \with
             {
@@ -669,10 +591,7 @@
                                 27
                     }
             }
-            {
-                \context VoiceXXVII = "VoiceXXVII"
-                \E_VoiceXXVII
-            }
+            \E_StaffXXVII
             \context StaffXXVIII = "StaffXXVIII"
             \with
             {
@@ -693,10 +612,7 @@
                                 28
                     }
             }
-            {
-                \context VoiceXXVIII = "VoiceXXVIII"
-                \E_VoiceXXVIII
-            }
+            \E_StaffXXVIII
             \context StaffXXIX = "StaffXXIX"
             \with
             {
@@ -717,10 +633,7 @@
                                 29
                     }
             }
-            {
-                \context VoiceXXIX = "VoiceXXIX"
-                \E_VoiceXXIX
-            }
+            \E_StaffXXIX
             \context StaffXXX = "StaffXXX"
             \with
             {
@@ -741,10 +654,7 @@
                                 30
                     }
             }
-            {
-                \context VoiceXXX = "VoiceXXX"
-                \E_VoiceXXX
-            }
+            \E_StaffXXX
             \context StaffXXXI = "StaffXXXI"
             \with
             {
@@ -765,10 +675,7 @@
                                 31
                     }
             }
-            {
-                \context VoiceXXXI = "VoiceXXXI"
-                \E_VoiceXXXI
-            }
+            \E_StaffXXXI
             \context StaffXXXII = "StaffXXXII"
             \with
             {
@@ -789,10 +696,7 @@
                                 32
                     }
             }
-            {
-                \context VoiceXXXII = "VoiceXXXII"
-                \E_VoiceXXXII
-            }
+            \E_StaffXXXII
             \context StaffXXXIII = "StaffXXXIII"
             \with
             {
@@ -813,10 +717,7 @@
                                 33
                     }
             }
-            {
-                \context VoiceXXXIII = "VoiceXXXIII"
-                \E_VoiceXXXIII
-            }
+            \E_StaffXXXIII
             \context StaffXXXIV = "StaffXXXIV"
             \with
             {
@@ -837,10 +738,7 @@
                                 34
                     }
             }
-            {
-                \context VoiceXXXIV = "VoiceXXXIV"
-                \E_VoiceXXXIV
-            }
+            \E_StaffXXXIV
             \context StaffXXXV = "StaffXXXV"
             \with
             {
@@ -861,10 +759,7 @@
                                 35
                     }
             }
-            {
-                \context VoiceXXXV = "VoiceXXXV"
-                \E_VoiceXXXV
-            }
+            \E_StaffXXXV
             \context StaffXXXVI = "StaffXXXVI"
             \with
             {
@@ -885,10 +780,7 @@
                                 36
                     }
             }
-            {
-                \context VoiceXXXVI = "VoiceXXXVI"
-                \E_VoiceXXXVI
-            }
+            \E_StaffXXXVI
             \context StaffXXXVII = "StaffXXXVII"
             \with
             {
@@ -909,10 +801,7 @@
                                 37
                     }
             }
-            {
-                \context VoiceXXXVII = "VoiceXXXVII"
-                \E_VoiceXXXVII
-            }
+            \E_StaffXXXVII
             \context StaffXXXVIII = "StaffXXXVIII"
             \with
             {
@@ -933,10 +822,7 @@
                                 38
                     }
             }
-            {
-                \context VoiceXXXVIII = "VoiceXXXVIII"
-                \E_VoiceXXXVIII
-            }
+            \E_StaffXXXVIII
             \context StaffXXXIX = "StaffXXXIX"
             \with
             {
@@ -957,10 +843,7 @@
                                 39
                     }
             }
-            {
-                \context VoiceXXXIX = "VoiceXXXIX"
-                \E_VoiceXXXIX
-            }
+            \E_StaffXXXIX
             \context StaffXL = "StaffXL"
             \with
             {
@@ -981,10 +864,7 @@
                                 40
                     }
             }
-            {
-                \context VoiceXL = "VoiceXL"
-                \E_VoiceXL
-            }
+            \E_StaffXL
             \context StaffXLI = "StaffXLI"
             \with
             {
@@ -1005,10 +885,7 @@
                                 41
                     }
             }
-            {
-                \context VoiceXLI = "VoiceXLI"
-                \E_VoiceXLI
-            }
+            \E_StaffXLI
             \context StaffXLII = "StaffXLII"
             \with
             {
@@ -1029,10 +906,7 @@
                                 42
                     }
             }
-            {
-                \context VoiceXLII = "VoiceXLII"
-                \E_VoiceXLII
-            }
+            \E_StaffXLII
             \context StaffXLIII = "StaffXLIII"
             \with
             {
@@ -1053,10 +927,7 @@
                                 43
                     }
             }
-            {
-                \context VoiceXLIII = "VoiceXLIII"
-                \E_VoiceXLIII
-            }
+            \E_StaffXLIII
             \context StaffXLIV = "StaffXLIV"
             \with
             {
@@ -1077,10 +948,7 @@
                                 44
                     }
             }
-            {
-                \context VoiceXLIV = "VoiceXLIV"
-                \E_VoiceXLIV
-            }
+            \E_StaffXLIV
             \context StaffXLV = "StaffXLV"
             \with
             {
@@ -1101,10 +969,7 @@
                                 45
                     }
             }
-            {
-                \context VoiceXLV = "VoiceXLV"
-                \E_VoiceXLV
-            }
+            \E_StaffXLV
             \context StaffXLVI = "StaffXLVI"
             \with
             {
@@ -1125,10 +990,7 @@
                                 46
                     }
             }
-            {
-                \context VoiceXLVI = "VoiceXLVI"
-                \E_VoiceXLVI
-            }
+            \E_StaffXLVI
             \context StaffXLVII = "StaffXLVII"
             \with
             {
@@ -1149,10 +1011,7 @@
                                 47
                     }
             }
-            {
-                \context VoiceXLVII = "VoiceXLVII"
-                \E_VoiceXLVII
-            }
+            \E_StaffXLVII
             \context StaffXLVIII = "StaffXLVIII"
             \with
             {
@@ -1173,10 +1032,7 @@
                                 48
                     }
             }
-            {
-                \context VoiceXLVIII = "VoiceXLVIII"
-                \E_VoiceXLVIII
-            }
+            \E_StaffXLVIII
             \context StaffXLIX = "StaffXLIX"
             \with
             {
@@ -1197,10 +1053,7 @@
                                 49
                     }
             }
-            {
-                \context VoiceXLIX = "VoiceXLIX"
-                \E_VoiceXLIX
-            }
+            \E_StaffXLIX
             \context StaffL = "StaffL"
             \with
             {
@@ -1221,10 +1074,7 @@
                                 50
                     }
             }
-            {
-                \context VoiceL = "VoiceL"
-                \E_VoiceL
-            }
+            \E_StaffL
             \context StaffLI = "StaffLI"
             \with
             {
@@ -1245,10 +1095,7 @@
                                 51
                     }
             }
-            {
-                \context VoiceLI = "VoiceLI"
-                \E_VoiceLI
-            }
+            \E_StaffLI
             \context StaffLII = "StaffLII"
             \with
             {
@@ -1269,10 +1116,7 @@
                                 52
                     }
             }
-            {
-                \context VoiceLII = "VoiceLII"
-                \E_VoiceLII
-            }
+            \E_StaffLII
             \context StaffLIII = "StaffLIII"
             \with
             {
@@ -1293,10 +1137,7 @@
                                 53
                     }
             }
-            {
-                \context VoiceLIII = "VoiceLIII"
-                \E_VoiceLIII
-            }
+            \E_StaffLIII
             \context StaffLIV = "StaffLIV"
             \with
             {
@@ -1317,10 +1158,7 @@
                                 54
                     }
             }
-            {
-                \context VoiceLIV = "VoiceLIV"
-                \E_VoiceLIV
-            }
+            \E_StaffLIV
             \context StaffLV = "StaffLV"
             \with
             {
@@ -1341,10 +1179,7 @@
                                 55
                     }
             }
-            {
-                \context VoiceLV = "VoiceLV"
-                \E_VoiceLV
-            }
+            \E_StaffLV
             \context StaffLVI = "StaffLVI"
             \with
             {
@@ -1365,10 +1200,7 @@
                                 56
                     }
             }
-            {
-                \context VoiceLVI = "VoiceLVI"
-                \E_VoiceLVI
-            }
+            \E_StaffLVI
             \context StaffLVII = "StaffLVII"
             \with
             {
@@ -1389,10 +1221,7 @@
                                 57
                     }
             }
-            {
-                \context VoiceLVII = "VoiceLVII"
-                \E_VoiceLVII
-            }
+            \E_StaffLVII
             \context StaffLVIII = "StaffLVIII"
             \with
             {
@@ -1413,10 +1242,7 @@
                                 58
                     }
             }
-            {
-                \context VoiceLVIII = "VoiceLVIII"
-                \E_VoiceLVIII
-            }
+            \E_StaffLVIII
             \context StaffLIX = "StaffLIX"
             \with
             {
@@ -1437,10 +1263,7 @@
                                 59
                     }
             }
-            {
-                \context VoiceLIX = "VoiceLIX"
-                \E_VoiceLIX
-            }
+            \E_StaffLIX
             \context StaffLX = "StaffLX"
             \with
             {
@@ -1461,10 +1284,7 @@
                                 60
                     }
             }
-            {
-                \context VoiceLX = "VoiceLX"
-                \E_VoiceLX
-            }
+            \E_StaffLX
             \context StaffLXI = "StaffLXI"
             \with
             {
@@ -1485,10 +1305,7 @@
                                 61
                     }
             }
-            {
-                \context VoiceLXI = "VoiceLXI"
-                \E_VoiceLXI
-            }
+            \E_StaffLXI
             \context StaffLXII = "StaffLXII"
             \with
             {
@@ -1509,10 +1326,7 @@
                                 62
                     }
             }
-            {
-                \context VoiceLXII = "VoiceLXII"
-                \E_VoiceLXII
-            }
+            \E_StaffLXII
             \context StaffLXIII = "StaffLXIII"
             \with
             {
@@ -1533,10 +1347,7 @@
                                 63
                     }
             }
-            {
-                \context VoiceLXIII = "VoiceLXIII"
-                \E_VoiceLXIII
-            }
+            \E_StaffLXIII
             \context StaffLXIV = "StaffLXIV"
             \with
             {
@@ -1557,10 +1368,7 @@
                                 64
                     }
             }
-            {
-                \context VoiceLXIV = "VoiceLXIV"
-                \E_VoiceLXIV
-            }
+            \E_StaffLXIV
         >>
     >>
 }

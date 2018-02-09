@@ -201,7 +201,7 @@ class SegmentMaker(abjad.SegmentMaker):
         self._configure_score()
         self._add_final_bar_line()
         self._add_final_markup()
-        self._add_parse_handles()
+        self._add_container_identifiers()
         self._make_lilypond_file()
         self._configure_lilypond_file()
         score_block = self._lilypond_file['score']

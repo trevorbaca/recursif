@@ -67,6 +67,12 @@ O_VoiceI = {
 }
 
 
+O_StaffI = {
+    \context VoiceI = "VoiceI"
+    \O_VoiceI
+}
+
+
 O_VoiceII = {
     \time 1/2
     r2
@@ -161,6 +167,12 @@ O_VoiceII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffII = {
+    \context VoiceII = "VoiceII"
+    \O_VoiceII
 }
 
 
@@ -261,6 +273,12 @@ O_VoiceIII = {
 }
 
 
+O_StaffIII = {
+    \context VoiceIII = "VoiceIII"
+    \O_VoiceIII
+}
+
+
 O_VoiceIV = {
     \time 1/2
     r2
@@ -341,6 +359,12 @@ O_VoiceIV = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffIV = {
+    \context VoiceIV = "VoiceIV"
+    \O_VoiceIV
 }
 
 
@@ -453,6 +477,12 @@ O_VoiceV = {
 }
 
 
+O_StaffV = {
+    \context VoiceV = "VoiceV"
+    \O_VoiceV
+}
+
+
 O_VoiceVI = {
     \time 1/2
     r2
@@ -535,6 +565,12 @@ O_VoiceVI = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffVI = {
+    \context VoiceVI = "VoiceVI"
+    \O_VoiceVI
 }
 
 
@@ -627,6 +663,12 @@ O_VoiceVII = {
 }
 
 
+O_StaffVII = {
+    \context VoiceVII = "VoiceVII"
+    \O_VoiceVII
+}
+
+
 O_VoiceVIII = {
     \time 1/2
     r2
@@ -674,6 +716,12 @@ O_VoiceVIII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffVIII = {
+    \context VoiceVIII = "VoiceVIII"
+    \O_VoiceVIII
 }
 
 
@@ -784,6 +832,12 @@ O_VoiceIX = {
 }
 
 
+O_StaffIX = {
+    \context VoiceIX = "VoiceIX"
+    \O_VoiceIX
+}
+
+
 O_VoiceX = {
     \time 1/2
     r2
@@ -874,6 +928,12 @@ O_VoiceX = {
 }
 
 
+O_StaffX = {
+    \context VoiceX = "VoiceX"
+    \O_VoiceX
+}
+
+
 O_VoiceXI = {
     \time 1/2
     r2
@@ -954,6 +1014,12 @@ O_VoiceXI = {
 }
 
 
+O_StaffXI = {
+    \context VoiceXI = "VoiceXI"
+    \O_VoiceXI
+}
+
+
 O_VoiceXII = {
     \time 1/2
     r2
@@ -1020,6 +1086,12 @@ O_VoiceXII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXII = {
+    \context VoiceXII = "VoiceXII"
+    \O_VoiceXII
 }
 
 
@@ -1135,6 +1207,12 @@ O_VoiceXIII = {
 }
 
 
+O_StaffXIII = {
+    \context VoiceXIII = "VoiceXIII"
+    \O_VoiceXIII
+}
+
+
 O_VoiceXIV = {
     \time 1/2
     r2
@@ -1207,6 +1285,12 @@ O_VoiceXIV = {
 }
 
 
+O_StaffXIV = {
+    \context VoiceXIV = "VoiceXIV"
+    \O_VoiceXIV
+}
+
+
 O_VoiceXV = {
     \time 1/2
     r2
@@ -1274,6 +1358,12 @@ O_VoiceXV = {
 }
 
 
+O_StaffXV = {
+    \context VoiceXV = "VoiceXV"
+    \O_VoiceXV
+}
+
+
 O_VoiceXVI = {
     \time 1/2
     r2
@@ -1311,6 +1401,12 @@ O_VoiceXVI = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXVI = {
+    \context VoiceXVI = "VoiceXVI"
+    \O_VoiceXVI
 }
 
 
@@ -1419,6 +1515,12 @@ O_VoiceXVII = {
 }
 
 
+O_StaffXVII = {
+    \context VoiceXVII = "VoiceXVII"
+    \O_VoiceXVII
+}
+
+
 O_VoiceXVIII = {
     \time 1/2
     r2
@@ -1516,6 +1618,12 @@ O_VoiceXVIII = {
 }
 
 
+O_StaffXVIII = {
+    \context VoiceXVIII = "VoiceXVIII"
+    \O_VoiceXVIII
+}
+
+
 O_VoiceXIX = {
     \time 1/2
     r2
@@ -1599,6 +1707,12 @@ O_VoiceXIX = {
 }
 
 
+O_StaffXIX = {
+    \context VoiceXIX = "VoiceXIX"
+    \O_VoiceXIX
+}
+
+
 O_VoiceXX = {
     \time 1/2
     r2
@@ -1676,6 +1790,12 @@ O_VoiceXX = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXX = {
+    \context VoiceXX = "VoiceXX"
+    \O_VoiceXX
 }
 
 
@@ -1764,6 +1884,12 @@ O_VoiceXXI = {
 }
 
 
+O_StaffXXI = {
+    \context VoiceXXI = "VoiceXXI"
+    \O_VoiceXXI
+}
+
+
 O_VoiceXXII = {
     \time 1/2
     r2
@@ -1828,6 +1954,12 @@ O_VoiceXXII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXXII = {
+    \context VoiceXXII = "VoiceXXII"
+    \O_VoiceXXII
 }
 
 
@@ -1908,6 +2040,12 @@ O_VoiceXXIII = {
 }
 
 
+O_StaffXXIII = {
+    \context VoiceXXIII = "VoiceXXIII"
+    \O_VoiceXXIII
+}
+
+
 O_VoiceXXIV = {
     \time 1/2
     r2
@@ -1954,6 +2092,12 @@ O_VoiceXXIV = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXXIV = {
+    \context VoiceXXIV = "VoiceXXIV"
+    \O_VoiceXXIV
 }
 
 
@@ -2068,6 +2212,12 @@ O_VoiceXXV = {
 }
 
 
+O_StaffXXV = {
+    \context VoiceXXV = "VoiceXXV"
+    \O_VoiceXXV
+}
+
+
 O_VoiceXXVI = {
     \time 1/2
     r2
@@ -2149,6 +2299,12 @@ O_VoiceXXVI = {
 }
 
 
+O_StaffXXVI = {
+    \context VoiceXXVI = "VoiceXXVI"
+    \O_VoiceXXVI
+}
+
+
 O_VoiceXXVII = {
     \time 1/2
     r2
@@ -2226,6 +2382,12 @@ O_VoiceXXVII = {
 }
 
 
+O_StaffXXVII = {
+    \context VoiceXXVII = "VoiceXXVII"
+    \O_VoiceXXVII
+}
+
+
 O_VoiceXXVIII = {
     \time 1/2
     r2
@@ -2281,6 +2443,12 @@ O_VoiceXXVIII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXXVIII = {
+    \context VoiceXXVIII = "VoiceXXVIII"
+    \O_VoiceXXVIII
 }
 
 
@@ -2350,6 +2518,12 @@ O_VoiceXXIX = {
 }
 
 
+O_StaffXXIX = {
+    \context VoiceXXIX = "VoiceXXIX"
+    \O_VoiceXXIX
+}
+
+
 O_VoiceXXX = {
     \time 1/2
     r2
@@ -2393,6 +2567,12 @@ O_VoiceXXX = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXXX = {
+    \context VoiceXXX = "VoiceXXX"
+    \O_VoiceXXX
 }
 
 
@@ -2440,6 +2620,12 @@ O_VoiceXXXI = {
 }
 
 
+O_StaffXXXI = {
+    \context VoiceXXXI = "VoiceXXXI"
+    \O_VoiceXXXI
+}
+
+
 O_VoiceXXXII = {
     \time 1/2
     r2
@@ -2467,6 +2653,12 @@ O_VoiceXXXII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXXXII = {
+    \context VoiceXXXII = "VoiceXXXII"
+    \O_VoiceXXXII
 }
 
 
@@ -2560,6 +2752,12 @@ O_VoiceXXXIII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXXXIII = {
+    \context VoiceXXXIII = "VoiceXXXIII"
+    \O_VoiceXXXIII
 }
 
 
@@ -2660,6 +2858,12 @@ O_VoiceXXXIV = {
 }
 
 
+O_StaffXXXIV = {
+    \context VoiceXXXIV = "VoiceXXXIV"
+    \O_VoiceXXXIV
+}
+
+
 O_VoiceXXXV = {
     \time 1/2
     r2
@@ -2757,6 +2961,12 @@ O_VoiceXXXV = {
 }
 
 
+O_StaffXXXV = {
+    \context VoiceXXXV = "VoiceXXXV"
+    \O_VoiceXXXV
+}
+
+
 O_VoiceXXXVI = {
     \time 1/2
     r2
@@ -2830,6 +3040,12 @@ O_VoiceXXXVI = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXXXVI = {
+    \context VoiceXXXVI = "VoiceXXXVI"
+    \O_VoiceXXXVI
 }
 
 
@@ -2942,6 +3158,12 @@ O_VoiceXXXVII = {
 }
 
 
+O_StaffXXXVII = {
+    \context VoiceXXXVII = "VoiceXXXVII"
+    \O_VoiceXXXVII
+}
+
+
 O_VoiceXXXVIII = {
     \time 1/2
     r2
@@ -3024,6 +3246,12 @@ O_VoiceXXXVIII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXXXVIII = {
+    \context VoiceXXXVIII = "VoiceXXXVIII"
+    \O_VoiceXXXVIII
 }
 
 
@@ -3117,6 +3345,12 @@ O_VoiceXXXIX = {
 }
 
 
+O_StaffXXXIX = {
+    \context VoiceXXXIX = "VoiceXXXIX"
+    \O_VoiceXXXIX
+}
+
+
 O_VoiceXL = {
     \time 1/2
     r2
@@ -3168,6 +3402,12 @@ O_VoiceXL = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXL = {
+    \context VoiceXL = "VoiceXL"
+    \O_VoiceXL
 }
 
 
@@ -3278,6 +3518,12 @@ O_VoiceXLI = {
 }
 
 
+O_StaffXLI = {
+    \context VoiceXLI = "VoiceXLI"
+    \O_VoiceXLI
+}
+
+
 O_VoiceXLII = {
     \time 1/2
     r2
@@ -3368,6 +3614,12 @@ O_VoiceXLII = {
 }
 
 
+O_StaffXLII = {
+    \context VoiceXLII = "VoiceXLII"
+    \O_VoiceXLII
+}
+
+
 O_VoiceXLIII = {
     \time 1/2
     r2
@@ -3448,6 +3700,12 @@ O_VoiceXLIII = {
 }
 
 
+O_StaffXLIII = {
+    \context VoiceXLIII = "VoiceXLIII"
+    \O_VoiceXLIII
+}
+
+
 O_VoiceXLIV = {
     \time 1/2
     r2
@@ -3508,6 +3766,12 @@ O_VoiceXLIV = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXLIV = {
+    \context VoiceXLIV = "VoiceXLIV"
+    \O_VoiceXLIV
 }
 
 
@@ -3623,6 +3887,12 @@ O_VoiceXLV = {
 }
 
 
+O_StaffXLV = {
+    \context VoiceXLV = "VoiceXLV"
+    \O_VoiceXLV
+}
+
+
 O_VoiceXLVI = {
     \time 1/2
     r2
@@ -3701,6 +3971,12 @@ O_VoiceXLVI = {
 }
 
 
+O_StaffXLVI = {
+    \context VoiceXLVI = "VoiceXLVI"
+    \O_VoiceXLVI
+}
+
+
 O_VoiceXLVII = {
     \time 1/2
     r2
@@ -3768,6 +4044,12 @@ O_VoiceXLVII = {
 }
 
 
+O_StaffXLVII = {
+    \context VoiceXLVII = "VoiceXLVII"
+    \O_VoiceXLVII
+}
+
+
 O_VoiceXLVIII = {
     \time 1/2
     r2
@@ -3808,6 +4090,12 @@ O_VoiceXLVIII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffXLVIII = {
+    \context VoiceXLVIII = "VoiceXLVIII"
+    \O_VoiceXLVIII
 }
 
 
@@ -3916,6 +4204,12 @@ O_VoiceXLIX = {
 }
 
 
+O_StaffXLIX = {
+    \context VoiceXLIX = "VoiceXLIX"
+    \O_VoiceXLIX
+}
+
+
 O_VoiceL = {
     \time 1/2
     r2
@@ -3996,6 +4290,12 @@ O_VoiceL = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffL = {
+    \context VoiceL = "VoiceL"
+    \O_VoiceL
 }
 
 
@@ -4096,6 +4396,12 @@ O_VoiceLI = {
 }
 
 
+O_StaffLI = {
+    \context VoiceLI = "VoiceLI"
+    \O_VoiceLI
+}
+
+
 O_VoiceLII = {
     \time 1/2
     r2
@@ -4174,6 +4480,12 @@ O_VoiceLII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffLII = {
+    \context VoiceLII = "VoiceLII"
+    \O_VoiceLII
 }
 
 
@@ -4262,6 +4574,12 @@ O_VoiceLIII = {
 }
 
 
+O_StaffLIII = {
+    \context VoiceLIII = "VoiceLIII"
+    \O_VoiceLIII
+}
+
+
 O_VoiceLIV = {
     \time 1/2
     r2
@@ -4326,6 +4644,12 @@ O_VoiceLIV = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffLIV = {
+    \context VoiceLIV = "VoiceLIV"
+    \O_VoiceLIV
 }
 
 
@@ -4407,6 +4731,12 @@ O_VoiceLV = {
 }
 
 
+O_StaffLV = {
+    \context VoiceLV = "VoiceLV"
+    \O_VoiceLV
+}
+
+
 O_VoiceLVI = {
     \time 1/2
     r2
@@ -4450,6 +4780,12 @@ O_VoiceLVI = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffLVI = {
+    \context VoiceLVI = "VoiceLVI"
+    \O_VoiceLVI
 }
 
 
@@ -4516,6 +4852,12 @@ O_VoiceLVII = {
 }
 
 
+O_StaffLVII = {
+    \context VoiceLVII = "VoiceLVII"
+    \O_VoiceLVII
+}
+
+
 O_VoiceLVIII = {
     \time 1/2
     r2
@@ -4573,6 +4915,12 @@ O_VoiceLVIII = {
 }
 
 
+O_StaffLVIII = {
+    \context VoiceLVIII = "VoiceLVIII"
+    \O_VoiceLVIII
+}
+
+
 O_VoiceLIX = {
     \time 1/2
     r2
@@ -4626,6 +4974,12 @@ O_VoiceLIX = {
 }
 
 
+O_StaffLIX = {
+    \context VoiceLIX = "VoiceLIX"
+    \O_VoiceLIX
+}
+
+
 O_VoiceLX = {
     \time 1/2
     r2
@@ -4672,6 +5026,12 @@ O_VoiceLX = {
 }
 
 
+O_StaffLX = {
+    \context VoiceLX = "VoiceLX"
+    \O_VoiceLX
+}
+
+
 O_VoiceLXI = {
     \time 1/2
     r2
@@ -4714,6 +5074,12 @@ O_VoiceLXI = {
 }
 
 
+O_StaffLXI = {
+    \context VoiceLXI = "VoiceLXI"
+    \O_VoiceLXI
+}
+
+
 O_VoiceLXII = {
     \time 1/2
     r2
@@ -4748,6 +5114,12 @@ O_VoiceLXII = {
 }
 
 
+O_StaffLXII = {
+    \context VoiceLXII = "VoiceLXII"
+    \O_VoiceLXII
+}
+
+
 O_VoiceLXIII = {
     \time 1/2
     r2
@@ -4777,6 +5149,12 @@ O_VoiceLXIII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+O_StaffLXIII = {
+    \context VoiceLXIII = "VoiceLXIII"
+    \O_VoiceLXIII
 }
 
 
@@ -4822,4 +5200,10 @@ O_VoiceLXIV = {
             }                                                            %! SCORE2
         \bar "|."                                                        %! SCORE1
     }
+}
+
+
+O_StaffLXIV = {
+    \context VoiceLXIV = "VoiceLXIV"
+    \O_VoiceLXIV
 }
