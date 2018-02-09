@@ -67,6 +67,12 @@ N_VoiceI = {
 }
 
 
+N_StaffI = {
+    \context VoiceI = "VoiceI"
+    \N_VoiceI
+}
+
+
 N_VoiceII = {
     \time 1/2
     r2
@@ -161,6 +167,12 @@ N_VoiceII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+N_StaffII = {
+    \context VoiceII = "VoiceII"
+    \N_VoiceII
 }
 
 
@@ -261,6 +273,12 @@ N_VoiceIII = {
 }
 
 
+N_StaffIII = {
+    \context VoiceIII = "VoiceIII"
+    \N_VoiceIII
+}
+
+
 N_VoiceIV = {
     \time 1/2
     r2
@@ -341,6 +359,12 @@ N_VoiceIV = {
     \times 1/1 {
         b'2
     }
+}
+
+
+N_StaffIV = {
+    \context VoiceIV = "VoiceIV"
+    \N_VoiceIV
 }
 
 
@@ -429,6 +453,12 @@ N_VoiceV = {
 }
 
 
+N_StaffV = {
+    \context VoiceV = "VoiceV"
+    \N_VoiceV
+}
+
+
 N_VoiceVI = {
     \time 1/2
     r2
@@ -493,6 +523,12 @@ N_VoiceVI = {
         b'8
         b'8
     }
+}
+
+
+N_StaffVI = {
+    \context VoiceVI = "VoiceVI"
+    \N_VoiceVI
 }
 
 
@@ -573,6 +609,12 @@ N_VoiceVII = {
 }
 
 
+N_StaffVII = {
+    \context VoiceVII = "VoiceVII"
+    \N_VoiceVII
+}
+
+
 N_VoiceVIII = {
     \time 1/2
     r2
@@ -624,6 +666,12 @@ N_VoiceVIII = {
         b'8
         b'8
     }
+}
+
+
+N_StaffVIII = {
+    \context VoiceVIII = "VoiceVIII"
+    \N_VoiceVIII
 }
 
 
@@ -738,6 +786,12 @@ N_VoiceIX = {
 }
 
 
+N_StaffIX = {
+    \context VoiceIX = "VoiceIX"
+    \N_VoiceIX
+}
+
+
 N_VoiceX = {
     \time 1/2
     r2
@@ -821,6 +875,12 @@ N_VoiceX = {
         b'8
         b'8
     }
+}
+
+
+N_StaffX = {
+    \context VoiceX = "VoiceX"
+    \N_VoiceX
 }
 
 
@@ -908,6 +968,12 @@ N_VoiceXI = {
 }
 
 
+N_StaffXI = {
+    \context VoiceXI = "VoiceXI"
+    \N_VoiceXI
+}
+
+
 N_VoiceXII = {
     \time 1/2
     r2
@@ -966,6 +1032,12 @@ N_VoiceXII = {
         b'8
         b'8
     }
+}
+
+
+N_StaffXII = {
+    \context VoiceXII = "VoiceXII"
+    \N_VoiceXII
 }
 
 
@@ -1035,6 +1107,12 @@ N_VoiceXIII = {
 }
 
 
+N_StaffXIII = {
+    \context VoiceXIII = "VoiceXIII"
+    \N_VoiceXIII
+}
+
+
 N_VoiceXIV = {
     \time 1/2
     r2
@@ -1077,6 +1155,12 @@ N_VoiceXIV = {
         b'4
         b'4
     }
+}
+
+
+N_StaffXIV = {
+    \context VoiceXIV = "VoiceXIV"
+    \N_VoiceXIV
 }
 
 
@@ -1123,6 +1207,12 @@ N_VoiceXV = {
 }
 
 
+N_StaffXV = {
+    \context VoiceXV = "VoiceXV"
+    \N_VoiceXV
+}
+
+
 N_VoiceXVI = {
     \time 1/2
     r2
@@ -1151,6 +1241,12 @@ N_VoiceXVI = {
         b'4
         b'4
     }
+}
+
+
+N_StaffXVI = {
+    \context VoiceXVI = "VoiceXVI"
+    \N_VoiceXVI
 }
 
 
@@ -1263,6 +1359,12 @@ N_VoiceXVII = {
 }
 
 
+N_StaffXVII = {
+    \context VoiceXVII = "VoiceXVII"
+    \N_VoiceXVII
+}
+
+
 N_VoiceXVIII = {
     \time 1/2
     r2
@@ -1349,6 +1451,12 @@ N_VoiceXVIII = {
         b'8
         b'8
     }
+}
+
+
+N_StaffXVIII = {
+    \context VoiceXVIII = "VoiceXVIII"
+    \N_VoiceXVIII
 }
 
 
@@ -1441,6 +1549,12 @@ N_VoiceXIX = {
 }
 
 
+N_StaffXIX = {
+    \context VoiceXIX = "VoiceXIX"
+    \N_VoiceXIX
+}
+
+
 N_VoiceXX = {
     \time 1/2
     r2
@@ -1493,6 +1607,12 @@ N_VoiceXX = {
         b'8
         b'8
     }
+}
+
+
+N_StaffXX = {
+    \context VoiceXX = "VoiceXX"
+    \N_VoiceXX
 }
 
 
@@ -1585,6 +1705,12 @@ N_VoiceXXI = {
 }
 
 
+N_StaffXXI = {
+    \context VoiceXXI = "VoiceXXI"
+    \N_VoiceXXI
+}
+
+
 N_VoiceXXII = {
     \time 1/2
     r2
@@ -1658,6 +1784,12 @@ N_VoiceXXII = {
 }
 
 
+N_StaffXXII = {
+    \context VoiceXXII = "VoiceXXII"
+    \N_VoiceXXII
+}
+
+
 N_VoiceXXIII = {
     \time 1/2
     r2
@@ -1713,6 +1845,12 @@ N_VoiceXXIII = {
 }
 
 
+N_StaffXXIII = {
+    \context VoiceXXIII = "VoiceXXIII"
+    \N_VoiceXXIII
+}
+
+
 N_VoiceXXIV = {
     \time 1/2
     r2
@@ -1751,6 +1889,12 @@ N_VoiceXXIV = {
         b'8
         b'8
     }
+}
+
+
+N_StaffXXIV = {
+    \context VoiceXXIV = "VoiceXXIV"
+    \N_VoiceXXIV
 }
 
 
@@ -1867,6 +2011,12 @@ N_VoiceXXV = {
 }
 
 
+N_StaffXXV = {
+    \context VoiceXXV = "VoiceXXV"
+    \N_VoiceXXV
+}
+
+
 N_VoiceXXVI = {
     \time 1/2
     r2
@@ -1943,6 +2093,12 @@ N_VoiceXXVI = {
         b'4
         b'4
     }
+}
+
+
+N_StaffXXVI = {
+    \context VoiceXXVI = "VoiceXXVI"
+    \N_VoiceXXVI
 }
 
 
@@ -2025,6 +2181,12 @@ N_VoiceXXVII = {
 }
 
 
+N_StaffXXVII = {
+    \context VoiceXXVII = "VoiceXXVII"
+    \N_VoiceXXVII
+}
+
+
 N_VoiceXXVIII = {
     \time 1/2
     r2
@@ -2069,6 +2231,12 @@ N_VoiceXXVIII = {
         b'4
         b'4
     }
+}
+
+
+N_StaffXXVIII = {
+    \context VoiceXXVIII = "VoiceXXVIII"
+    \N_VoiceXXVIII
 }
 
 
@@ -2139,6 +2307,12 @@ N_VoiceXXIX = {
 }
 
 
+N_StaffXXIX = {
+    \context VoiceXXIX = "VoiceXXIX"
+    \N_VoiceXXIX
+}
+
+
 N_VoiceXXX = {
     \time 1/2
     r2
@@ -2186,6 +2360,12 @@ N_VoiceXXX = {
 }
 
 
+N_StaffXXX = {
+    \context VoiceXXX = "VoiceXXX"
+    \N_VoiceXXX
+}
+
+
 N_VoiceXXXI = {
     \time 1/2
     r2
@@ -2230,6 +2410,12 @@ N_VoiceXXXI = {
 }
 
 
+N_StaffXXXI = {
+    \context VoiceXXXI = "VoiceXXXI"
+    \N_VoiceXXXI
+}
+
+
 N_VoiceXXXII = {
     \time 1/2
     r2
@@ -2258,6 +2444,12 @@ N_VoiceXXXII = {
         b'4
         b'4
     }
+}
+
+
+N_StaffXXXII = {
+    \context VoiceXXXII = "VoiceXXXII"
+    \N_VoiceXXXII
 }
 
 
@@ -2378,6 +2570,12 @@ N_VoiceXXXIII = {
 }
 
 
+N_StaffXXXIII = {
+    \context VoiceXXXIII = "VoiceXXXIII"
+    \N_VoiceXXXIII
+}
+
+
 N_VoiceXXXIV = {
     \time 1/2
     r2
@@ -2472,6 +2670,12 @@ N_VoiceXXXIV = {
         b'8
         b'8
     }
+}
+
+
+N_StaffXXXIV = {
+    \context VoiceXXXIV = "VoiceXXXIV"
+    \N_VoiceXXXIV
 }
 
 
@@ -2572,6 +2776,12 @@ N_VoiceXXXV = {
 }
 
 
+N_StaffXXXV = {
+    \context VoiceXXXV = "VoiceXXXV"
+    \N_VoiceXXXV
+}
+
+
 N_VoiceXXXVI = {
     \time 1/2
     r2
@@ -2662,6 +2872,12 @@ N_VoiceXXXVI = {
 }
 
 
+N_StaffXXXVI = {
+    \context VoiceXXXVI = "VoiceXXXVI"
+    \N_VoiceXXXVI
+}
+
+
 N_VoiceXXXVII = {
     \time 1/2
     r2
@@ -2747,6 +2963,12 @@ N_VoiceXXXVII = {
 }
 
 
+N_StaffXXXVII = {
+    \context VoiceXXXVII = "VoiceXXXVII"
+    \N_VoiceXXXVII
+}
+
+
 N_VoiceXXXVIII = {
     \time 1/2
     r2
@@ -2817,6 +3039,12 @@ N_VoiceXXXVIII = {
         b'4
         b'4
     }
+}
+
+
+N_StaffXXXVIII = {
+    \context VoiceXXXVIII = "VoiceXXXVIII"
+    \N_VoiceXXXVIII
 }
 
 
@@ -2896,6 +3124,12 @@ N_VoiceXXXIX = {
 }
 
 
+N_StaffXXXIX = {
+    \context VoiceXXXIX = "VoiceXXXIX"
+    \N_VoiceXXXIX
+}
+
+
 N_VoiceXL = {
     \time 1/2
     r2
@@ -2940,6 +3174,12 @@ N_VoiceXL = {
         b'4
         b'4
     }
+}
+
+
+N_StaffXL = {
+    \context VoiceXL = "VoiceXL"
+    \N_VoiceXL
 }
 
 
@@ -3006,6 +3246,12 @@ N_VoiceXLI = {
 }
 
 
+N_StaffXLI = {
+    \context VoiceXLI = "VoiceXLI"
+    \N_VoiceXLI
+}
+
+
 N_VoiceXLII = {
     \time 1/2
     r2
@@ -3062,6 +3308,12 @@ N_VoiceXLII = {
 }
 
 
+N_StaffXLII = {
+    \context VoiceXLII = "VoiceXLII"
+    \N_VoiceXLII
+}
+
+
 N_VoiceXLIII = {
     \time 1/2
     r2
@@ -3105,6 +3357,12 @@ N_VoiceXLIII = {
     \times 1/1 {
         b'2
     }
+}
+
+
+N_StaffXLIII = {
+    \context VoiceXLIII = "VoiceXLIII"
+    \N_VoiceXLIII
 }
 
 
@@ -3157,6 +3415,12 @@ N_VoiceXLIV = {
 }
 
 
+N_StaffXLIV = {
+    \context VoiceXLIV = "VoiceXLIV"
+    \N_VoiceXLIV
+}
+
+
 N_VoiceXLV = {
     \time 1/2
     r2
@@ -3196,6 +3460,12 @@ N_VoiceXLV = {
         b'8
         b'8
     }
+}
+
+
+N_StaffXLV = {
+    \context VoiceXLV = "VoiceXLV"
+    \N_VoiceXLV
 }
 
 
@@ -3239,6 +3509,12 @@ N_VoiceXLVI = {
 }
 
 
+N_StaffXLVI = {
+    \context VoiceXLVI = "VoiceXLVI"
+    \N_VoiceXLVI
+}
+
+
 N_VoiceXLVII = {
     \time 1/2
     r2
@@ -3270,6 +3546,12 @@ N_VoiceXLVII = {
 }
 
 
+N_StaffXLVII = {
+    \context VoiceXLVII = "VoiceXLVII"
+    \N_VoiceXLVII
+}
+
+
 N_VoiceXLVIII = {
     \time 1/2
     r2
@@ -3294,6 +3576,12 @@ N_VoiceXLVIII = {
         b'8
         b'8
     }
+}
+
+
+N_StaffXLVIII = {
+    \context VoiceXLVIII = "VoiceXLVIII"
+    \N_VoiceXLVIII
 }
 
 
@@ -3414,6 +3702,12 @@ N_VoiceXLIX = {
 }
 
 
+N_StaffXLIX = {
+    \context VoiceXLIX = "VoiceXLIX"
+    \N_VoiceXLIX
+}
+
+
 N_VoiceL = {
     \time 1/2
     r2
@@ -3480,6 +3774,12 @@ N_VoiceL = {
         b'8
         b'8
     }
+}
+
+
+N_StaffL = {
+    \context VoiceL = "VoiceL"
+    \N_VoiceL
 }
 
 
@@ -3552,6 +3852,12 @@ N_VoiceLI = {
 }
 
 
+N_StaffLI = {
+    \context VoiceLI = "VoiceLI"
+    \N_VoiceLI
+}
+
+
 N_VoiceLII = {
     \time 1/2
     r2
@@ -3594,6 +3900,12 @@ N_VoiceLII = {
         b'8
         b'8
     }
+}
+
+
+N_StaffLII = {
+    \context VoiceLII = "VoiceLII"
+    \N_VoiceLII
 }
 
 
@@ -3666,6 +3978,12 @@ N_VoiceLIII = {
 }
 
 
+N_StaffLIII = {
+    \context VoiceLIII = "VoiceLIII"
+    \N_VoiceLIII
+}
+
+
 N_VoiceLIV = {
     \time 1/2
     r2
@@ -3708,6 +4026,12 @@ N_VoiceLIV = {
         b'8
         b'8
     }
+}
+
+
+N_StaffLIV = {
+    \context VoiceLIV = "VoiceLIV"
+    \N_VoiceLIV
 }
 
 
@@ -3756,6 +4080,12 @@ N_VoiceLV = {
 }
 
 
+N_StaffLV = {
+    \context VoiceLV = "VoiceLV"
+    \N_VoiceLV
+}
+
+
 N_VoiceLVI = {
     \time 1/2
     r2
@@ -3786,6 +4116,12 @@ N_VoiceLVI = {
         b'8
         b'8
     }
+}
+
+
+N_StaffLVI = {
+    \context VoiceLVI = "VoiceLVI"
+    \N_VoiceLVI
 }
 
 
@@ -3858,6 +4194,12 @@ N_VoiceLVII = {
 }
 
 
+N_StaffLVII = {
+    \context VoiceLVII = "VoiceLVII"
+    \N_VoiceLVII
+}
+
+
 N_VoiceLVIII = {
     \time 1/2
     r2
@@ -3900,6 +4242,12 @@ N_VoiceLVIII = {
         b'8
         b'8
     }
+}
+
+
+N_StaffLVIII = {
+    \context VoiceLVIII = "VoiceLVIII"
+    \N_VoiceLVIII
 }
 
 
@@ -3948,6 +4296,12 @@ N_VoiceLIX = {
 }
 
 
+N_StaffLIX = {
+    \context VoiceLIX = "VoiceLIX"
+    \N_VoiceLIX
+}
+
+
 N_VoiceLX = {
     \time 1/2
     r2
@@ -3978,6 +4332,12 @@ N_VoiceLX = {
         b'8
         b'8
     }
+}
+
+
+N_StaffLX = {
+    \context VoiceLX = "VoiceLX"
+    \N_VoiceLX
 }
 
 
@@ -4026,6 +4386,12 @@ N_VoiceLXI = {
 }
 
 
+N_StaffLXI = {
+    \context VoiceLXI = "VoiceLXI"
+    \N_VoiceLXI
+}
+
+
 N_VoiceLXII = {
     \time 1/2
     r2
@@ -4056,6 +4422,12 @@ N_VoiceLXII = {
         b'8
         b'8
     }
+}
+
+
+N_StaffLXII = {
+    \context VoiceLXII = "VoiceLXII"
+    \N_VoiceLXII
 }
 
 
@@ -4092,6 +4464,12 @@ N_VoiceLXIII = {
 }
 
 
+N_StaffLXIII = {
+    \context VoiceLXIII = "VoiceLXIII"
+    \N_VoiceLXIII
+}
+
+
 N_VoiceLXIV = {
     \time 1/2
     r2
@@ -4116,4 +4494,10 @@ N_VoiceLXIV = {
         b'8
         b'8
     }
+}
+
+
+N_StaffLXIV = {
+    \context VoiceLXIV = "VoiceLXIV"
+    \N_VoiceLXIV
 }
