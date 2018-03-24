@@ -1698,11 +1698,10 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self):
+    def __call__(self) -> abjad.Score:
         r'''Calls score template.
-
-        Returns score.
         '''
+        super(ScoreTemplate, self).__init__()
         staves = []
         for staff_index in range(64):
             staff_number = staff_index + 1
