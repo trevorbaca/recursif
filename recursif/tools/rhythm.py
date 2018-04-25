@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def rhythm(voice_number, page_number):
@@ -9,24 +10,20 @@ def rhythm(voice_number, page_number):
     start_measure_number = 16 * (page_number - 1) + 1
     stop = start_measure_number + 16
     measure_numbers = range(start_measure_number, stop)
-    rhythm = []
+    tuplet_ratios = []
     for measure_number in measure_numbers:
         total = 255 + voice_number - measure_number
         count = voice_number - 1
-        note_count = int(
-            abjad.mathtools.binomial_coefficient(total, count) % 8)
-        if 0 < note_count:
-            ratio = abjad.Ratio(note_count * [1])
-            tuplet = abjad.Tuplet.from_duration_and_ratio(
-                abjad.Duration(1, 2),
-                ratio,
-                )
-            leaves = abjad.select(tuplet).leaves()
-            if 4 <= len(leaves):
-                abjad.attach(abjad.Beam(), leaves)
-            rhythm.append(tuplet)
+        count = int(abjad.mathtools.binomial_coefficient(total, count) % 8)
+        if 0 < count:
+            tuplet_ratios.append(count * [1])
         else:
-            rest = abjad.Rest('r2')
-            rhythm.append(rest)
-    rhythm = abjad.select(rhythm)
-    return baca.rhythm(rhythm)
+            tuplet_ratios.append([-1])
+    return baca.RhythmCommand(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
+            tuplet_ratios=tuplet_ratios,
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                ),
+            ),
+        )
