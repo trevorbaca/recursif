@@ -21,6 +21,9 @@ def rhythm(voice_number, page_number):
                 abjad.Duration(1, 2),
                 ratio,
                 )
+            leaves = abjad.select(tuplet).leaves()
+            if 4 <= len(leaves):
+                abjad.attach(abjad.Beam(), leaves)
             rhythm.append(tuplet)
         else:
             rest = abjad.Rest('r2')

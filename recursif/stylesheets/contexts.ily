@@ -172,6 +172,7 @@
         \override TextScript.font-name = #"Palatino"
         \override TextScript.X-extent = #'(0 . 0)
 
+        autoBeaming = ##f
         barNumberVisibility = #(every-nth-bar-number-visible 16)
         proportionalNotationDuration = #(ly:make-moment 1 18)
         tupletFullLength = ##t
