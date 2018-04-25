@@ -2,15 +2,15 @@ import baca
 
 
 after_global = 4
-between_staves = 8
+between_staves = 7
 
 pages = []
 first_page = baca.page(
     baca.system(
         after_global,
-        between_staves,
+        6,
         measure=1,
-        y_offset=0,
+        y_offset=50,
         ),
     number=1,
     )

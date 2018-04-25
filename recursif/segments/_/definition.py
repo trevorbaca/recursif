@@ -27,6 +27,7 @@ for voice_number in range(1, 64 + 1):
     voice_name = f'Voice{numeral}'
     maker(
         voice_name,
+        baca.clef('percussion'),
         baca.suite([
             recursif.margin_markup(str(voice_number)),
             baca.start_markup(str(voice_number), hcenter_in=8),

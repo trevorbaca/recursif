@@ -39,7 +39,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -47,7 +46,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -55,7 +53,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -63,7 +60,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceIV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -71,7 +67,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -79,7 +74,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceVI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -87,7 +81,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceVII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -95,7 +88,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceVIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -103,7 +95,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceIX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -111,7 +102,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -119,7 +109,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -127,7 +116,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -135,7 +123,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -143,7 +130,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXIV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -151,7 +137,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -159,7 +144,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXVI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -167,7 +151,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXVII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -175,7 +158,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXVIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -183,7 +165,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXIX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -191,7 +172,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -199,7 +179,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -207,7 +186,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -215,7 +193,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -223,7 +200,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXIV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -231,7 +207,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -239,7 +214,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXVI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -247,7 +221,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXVII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -255,7 +228,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXVIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -263,7 +235,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXIX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -271,7 +242,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -279,7 +249,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -287,7 +256,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -295,7 +263,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -303,7 +270,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXIV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -311,7 +277,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -319,7 +284,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXVI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -327,7 +291,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXVII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -335,7 +298,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXVIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -343,7 +305,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXXXIX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -351,7 +312,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXL"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -359,7 +319,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -367,7 +326,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -375,7 +333,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -383,7 +340,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLIV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -391,7 +347,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -399,7 +354,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLVI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -407,7 +361,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLVII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -415,7 +368,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLVIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -423,7 +375,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceXLIX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -431,7 +382,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceL"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -439,7 +389,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -447,7 +396,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -455,7 +403,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -463,7 +410,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLIV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -471,7 +417,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -479,7 +424,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLVI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -487,7 +431,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLVII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -495,7 +438,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLVIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -503,7 +445,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLIX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -511,7 +452,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLX"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -519,7 +459,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLXI"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -527,7 +466,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLXII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -535,7 +473,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLXIII"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -543,7 +480,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "VoiceLXIV"
                         {
-                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -575,21 +511,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                 [voice],
                 name=f'Staff{staff_numeral}',
                 )
-#            markup = abjad.Markup(staff_number)
-#            markup = markup.scale((1.5, 1.5))
-#            markup = markup.bold()
-#            markup = markup.hcenter_in(12)
-#            abjad.setting(staff).instrument_name = markup
-#            abjad.setting(staff).short_instrument_name = markup
             abjad.annotate(
                 staff,
                 'default_instrument',
                 recursif.instruments['Percussion'],
-                )
-            abjad.annotate(
-                staff,
-                'default_clef',
-                abjad.Clef('percussion'),
                 )
             staves.append(staff)
 
