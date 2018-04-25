@@ -814,6 +814,7 @@ M_VoiceII = {
         
         % [M VoiceII measure 210]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -826,11 +827,13 @@ M_VoiceII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceII measure 211]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -841,11 +844,13 @@ M_VoiceII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceII measure 212]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -854,18 +859,21 @@ M_VoiceII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceII measure 213]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -897,6 +905,7 @@ M_VoiceII = {
         
         % [M VoiceII measure 218]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -909,11 +918,13 @@ M_VoiceII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceII measure 219]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -924,11 +935,13 @@ M_VoiceII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceII measure 220]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -937,18 +950,21 @@ M_VoiceII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceII measure 221]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -1057,6 +1073,7 @@ M_VoiceIII = {
         
         % [M VoiceIII measure 213]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -1067,6 +1084,7 @@ M_VoiceIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -1080,6 +1098,7 @@ M_VoiceIII = {
         
         % [M VoiceIII measure 215]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -1092,11 +1111,13 @@ M_VoiceIII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceIII measure 216]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -1105,35 +1126,41 @@ M_VoiceIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceIII measure 217]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceIII measure 218]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceIII measure 219]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -1142,11 +1169,13 @@ M_VoiceIII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceIII measure 220]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -1159,6 +1188,7 @@ M_VoiceIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -1172,6 +1202,7 @@ M_VoiceIII = {
         
         % [M VoiceIII measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -1182,6 +1213,7 @@ M_VoiceIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -1270,6 +1302,7 @@ M_VoiceIV = {
         
         % [M VoiceIV measure 212]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -1282,23 +1315,27 @@ M_VoiceIV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceIV measure 213]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceIV measure 214]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -1309,23 +1346,27 @@ M_VoiceIV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceIV measure 215]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceIV measure 216]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -1334,6 +1375,7 @@ M_VoiceIV = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceIV measure 217]                                    %! SM4
@@ -1343,12 +1385,14 @@ M_VoiceIV = {
         
         % [M VoiceIV measure 218]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceIV measure 219]                                    %! SM4
@@ -1367,12 +1411,14 @@ M_VoiceIV = {
         
         % [M VoiceIV measure 221]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -1387,12 +1433,14 @@ M_VoiceIV = {
         
         % [M VoiceIV measure 223]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -1433,6 +1481,7 @@ M_VoiceV = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         c'8
+        [
         ^ \markup {
             \column
                 {
@@ -1470,47 +1519,55 @@ M_VoiceV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceV measure 210]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceV measure 211]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceV measure 212]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceV measure 213]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -1519,6 +1576,7 @@ M_VoiceV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -1539,6 +1597,7 @@ M_VoiceV = {
         
         % [M VoiceV measure 216]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -1551,6 +1610,7 @@ M_VoiceV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -1572,6 +1632,7 @@ M_VoiceV = {
         
         % [M VoiceV measure 219]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -1582,11 +1643,13 @@ M_VoiceV = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceV measure 220]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -1597,6 +1660,7 @@ M_VoiceV = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -1611,6 +1675,7 @@ M_VoiceV = {
         
         % [M VoiceV measure 222]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -1623,11 +1688,13 @@ M_VoiceV = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceV measure 223]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -1636,6 +1703,7 @@ M_VoiceV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -1710,12 +1778,14 @@ M_VoiceVI = {
         
         % [M VoiceVI measure 210]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceVI measure 211]                                    %! SM4
@@ -1725,12 +1795,14 @@ M_VoiceVI = {
         
         % [M VoiceVI measure 212]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceVI measure 213]                                    %! SM4
@@ -1756,6 +1828,7 @@ M_VoiceVI = {
         
         % [M VoiceVI measure 216]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -1768,6 +1841,7 @@ M_VoiceVI = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceVI measure 217]                                    %! SM4
@@ -1776,6 +1850,7 @@ M_VoiceVI = {
         
         % [M VoiceVI measure 218]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -1786,23 +1861,27 @@ M_VoiceVI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceVI measure 219]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceVI measure 220]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -1813,6 +1892,7 @@ M_VoiceVI = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceVI measure 221]                                    %! SM4
@@ -1821,6 +1901,7 @@ M_VoiceVI = {
         
         % [M VoiceVI measure 222]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -1829,11 +1910,13 @@ M_VoiceVI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceVI measure 223]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -1844,6 +1927,7 @@ M_VoiceVI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -1921,24 +2005,28 @@ M_VoiceVII = {
         
         % [M VoiceVII measure 211]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceVII measure 212]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceVII measure 213]                                   %! SM4
@@ -1950,6 +2038,7 @@ M_VoiceVII = {
         
         % [M VoiceVII measure 215]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -1958,6 +2047,7 @@ M_VoiceVII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -1973,29 +2063,34 @@ M_VoiceVII = {
         
         % [M VoiceVII measure 217]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceVII measure 218]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceVII measure 219]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -2006,6 +2101,7 @@ M_VoiceVII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -2020,29 +2116,34 @@ M_VoiceVII = {
         
         % [M VoiceVII measure 221]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceVII measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceVII measure 223]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -2055,6 +2156,7 @@ M_VoiceVII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -2135,12 +2237,14 @@ M_VoiceVIII = {
         
         % [M VoiceVIII measure 212]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceVIII measure 213]                                  %! SM4
@@ -2168,12 +2272,14 @@ M_VoiceVIII = {
         
         % [M VoiceVIII measure 218]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceVIII measure 219]                                  %! SM4
@@ -2194,12 +2300,14 @@ M_VoiceVIII = {
         
         % [M VoiceVIII measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceVIII measure 223]                                  %! SM4
@@ -2242,6 +2350,7 @@ M_VoiceIX = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         c'8
+        [
         ^ \markup {
             \column
                 {
@@ -2283,11 +2392,13 @@ M_VoiceIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceIX measure 210]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2298,11 +2409,13 @@ M_VoiceIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceIX measure 211]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2313,11 +2426,13 @@ M_VoiceIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceIX measure 212]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2328,6 +2443,7 @@ M_VoiceIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -2365,6 +2481,7 @@ M_VoiceIX = {
         
         % [M VoiceIX measure 217]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2377,11 +2494,13 @@ M_VoiceIX = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceIX measure 218]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2394,6 +2513,7 @@ M_VoiceIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -2429,6 +2549,7 @@ M_VoiceIX = {
         
         % [M VoiceIX measure 223]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2437,11 +2558,13 @@ M_VoiceIX = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceIX measure 224]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2450,6 +2573,7 @@ M_VoiceIX = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -2526,17 +2650,20 @@ M_VoiceX = {
         
         % [M VoiceX measure 211]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceX measure 212]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -2547,6 +2674,7 @@ M_VoiceX = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceX measure 213]                                     %! SM4
@@ -2555,6 +2683,7 @@ M_VoiceX = {
         
         % [M VoiceX measure 214]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -2565,18 +2694,21 @@ M_VoiceX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceX measure 215]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -2607,6 +2739,7 @@ M_VoiceX = {
         
         % [M VoiceX measure 220]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -2619,18 +2752,21 @@ M_VoiceX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceX measure 221]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -2653,6 +2789,7 @@ M_VoiceX = {
         
         % [M VoiceX measure 224]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -2661,6 +2798,7 @@ M_VoiceX = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -2731,6 +2869,7 @@ M_VoiceXI = {
         
         % [M VoiceXI measure 211]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2741,6 +2880,7 @@ M_VoiceXI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -2755,29 +2895,34 @@ M_VoiceXI = {
         
         % [M VoiceXI measure 213]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXI measure 214]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXI measure 215]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2788,6 +2933,7 @@ M_VoiceXI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -2807,6 +2953,7 @@ M_VoiceXI = {
         
         % [M VoiceXI measure 219]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2819,11 +2966,13 @@ M_VoiceXI = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXI measure 220]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2832,11 +2981,13 @@ M_VoiceXI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXI measure 221]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2847,6 +2998,7 @@ M_VoiceXI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -2860,6 +3012,7 @@ M_VoiceXI = {
         
         % [M VoiceXI measure 223]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2872,11 +3025,13 @@ M_VoiceXI = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXI measure 224]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -2885,6 +3040,7 @@ M_VoiceXI = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -2970,12 +3126,14 @@ M_VoiceXII = {
         
         % [M VoiceXII measure 214]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXII measure 215]                                   %! SM4
@@ -3008,17 +3166,20 @@ M_VoiceXII = {
         
         % [M VoiceXII measure 221]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXII measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3029,23 +3190,27 @@ M_VoiceXII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXII measure 223]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXII measure 224]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3054,6 +3219,7 @@ M_VoiceXII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -3088,6 +3254,7 @@ M_VoiceXIII = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         c'8
+        [
         ^ \markup {
             \column
                 {
@@ -3125,42 +3292,49 @@ M_VoiceXIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIII measure 210]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIII measure 211]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIII measure 212]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -3182,6 +3356,7 @@ M_VoiceXIII = {
         
         % [M VoiceXIII measure 215]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -3192,11 +3367,13 @@ M_VoiceXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXIII measure 216]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -3207,54 +3384,63 @@ M_VoiceXIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIII measure 217]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIII measure 218]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIII measure 219]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIII measure 220]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -3269,6 +3455,7 @@ M_VoiceXIII = {
         
         % [M VoiceXIII measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -3281,6 +3468,7 @@ M_VoiceXIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -3292,6 +3480,7 @@ M_VoiceXIII = {
         
         % [M VoiceXIII measure 224]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -3300,6 +3489,7 @@ M_VoiceXIII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -3368,12 +3558,14 @@ M_VoiceXIV = {
         
         % [M VoiceXIV measure 210]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXIV measure 211]                                   %! SM4
@@ -3383,12 +3575,14 @@ M_VoiceXIV = {
         
         % [M VoiceXIV measure 212]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXIV measure 213]                                   %! SM4
@@ -3397,6 +3591,7 @@ M_VoiceXIV = {
         
         % [M VoiceXIV measure 214]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3407,23 +3602,27 @@ M_VoiceXIV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIV measure 215]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXIV measure 216]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3434,6 +3633,7 @@ M_VoiceXIV = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXIV measure 217]                                   %! SM4
@@ -3443,12 +3643,14 @@ M_VoiceXIV = {
         
         % [M VoiceXIV measure 218]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXIV measure 219]                                   %! SM4
@@ -3458,12 +3660,14 @@ M_VoiceXIV = {
         
         % [M VoiceXIV measure 220]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXIV measure 221]                                   %! SM4
@@ -3472,6 +3676,7 @@ M_VoiceXIV = {
         
         % [M VoiceXIV measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3480,11 +3685,13 @@ M_VoiceXIV = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXIV measure 223]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3495,11 +3702,13 @@ M_VoiceXIV = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXIV measure 224]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3508,6 +3717,7 @@ M_VoiceXIV = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -3579,24 +3789,28 @@ M_VoiceXV = {
         
         % [M VoiceXV measure 211]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXV measure 212]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXV measure 213]                                    %! SM4
@@ -3616,6 +3830,7 @@ M_VoiceXV = {
         
         % [M VoiceXV measure 216]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -3626,6 +3841,7 @@ M_VoiceXV = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXV measure 217]                                    %! SM4
@@ -3638,24 +3854,28 @@ M_VoiceXV = {
         
         % [M VoiceXV measure 219]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXV measure 220]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXV measure 221]                                    %! SM4
@@ -3676,6 +3896,7 @@ M_VoiceXV = {
         
         % [M VoiceXV measure 224]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -3684,6 +3905,7 @@ M_VoiceXV = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -3758,12 +3980,14 @@ M_VoiceXVI = {
         
         % [M VoiceXVI measure 212]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXVI measure 213]                                   %! SM4
@@ -3778,6 +4002,7 @@ M_VoiceXVI = {
         
         % [M VoiceXVI measure 216]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3788,6 +4013,7 @@ M_VoiceXVI = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXVI measure 217]                                   %! SM4
@@ -3803,12 +4029,14 @@ M_VoiceXVI = {
         
         % [M VoiceXVI measure 220]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXVI measure 221]                                   %! SM4
@@ -3823,6 +4051,7 @@ M_VoiceXVI = {
         
         % [M VoiceXVI measure 224]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -3831,6 +4060,7 @@ M_VoiceXVI = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -3864,6 +4094,7 @@ M_VoiceXVII = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         c'8
+        [
         ^ \markup {
             \column
                 {
@@ -3903,11 +4134,13 @@ M_VoiceXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXVII measure 210]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -3916,11 +4149,13 @@ M_VoiceXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXVII measure 211]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -3929,11 +4164,13 @@ M_VoiceXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXVII measure 212]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -3942,6 +4179,7 @@ M_VoiceXVII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4007,6 +4245,7 @@ M_VoiceXVII = {
         
         % [M VoiceXVII measure 221]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -4019,11 +4258,13 @@ M_VoiceXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXVII measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -4036,11 +4277,13 @@ M_VoiceXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXVII measure 223]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -4053,11 +4296,13 @@ M_VoiceXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXVII measure 224]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -4070,6 +4315,7 @@ M_VoiceXVII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -4146,6 +4392,7 @@ M_VoiceXVIII = {
         
         % [M VoiceXVIII measure 211]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -4156,6 +4403,7 @@ M_VoiceXVIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4168,12 +4416,14 @@ M_VoiceXVIII = {
         
         % [M VoiceXVIII measure 213]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -4205,6 +4455,7 @@ M_VoiceXVIII = {
         
         % [M VoiceXVIII measure 218]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -4213,6 +4464,7 @@ M_VoiceXVIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4226,6 +4478,7 @@ M_VoiceXVIII = {
         
         % [M VoiceXVIII measure 220]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -4238,23 +4491,27 @@ M_VoiceXVIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXVIII measure 221]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXVIII measure 222]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -4263,11 +4520,13 @@ M_VoiceXVIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXVIII measure 223]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -4278,11 +4537,13 @@ M_VoiceXVIII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXVIII measure 224]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -4295,6 +4556,7 @@ M_VoiceXVIII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -4365,6 +4627,7 @@ M_VoiceXIX = {
         
         % [M VoiceXIX measure 211]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4373,11 +4636,13 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXIX measure 212]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4390,11 +4655,13 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXIX measure 213]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4405,6 +4672,7 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4418,6 +4686,7 @@ M_VoiceXIX = {
         
         % [M VoiceXIX measure 215]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4430,11 +4699,13 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXIX measure 216]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4443,35 +4714,41 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIX measure 217]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXIX measure 218]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXIX measure 219]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4484,11 +4761,13 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXIX measure 220]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4497,11 +4776,13 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXIX measure 221]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4512,6 +4793,7 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4525,6 +4807,7 @@ M_VoiceXIX = {
         
         % [M VoiceXIX measure 223]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4533,11 +4816,13 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXIX measure 224]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4550,6 +4835,7 @@ M_VoiceXIX = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -4633,17 +4919,20 @@ M_VoiceXX = {
         
         % [M VoiceXX measure 213]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXX measure 214]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -4654,23 +4943,27 @@ M_VoiceXX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXX measure 215]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXX measure 216]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -4679,6 +4972,7 @@ M_VoiceXX = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXX measure 217]                                    %! SM4
@@ -4688,12 +4982,14 @@ M_VoiceXX = {
         
         % [M VoiceXX measure 218]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXX measure 219]                                    %! SM4
@@ -4709,17 +5005,20 @@ M_VoiceXX = {
         
         % [M VoiceXX measure 221]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXX measure 222]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -4730,23 +5029,27 @@ M_VoiceXX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXX measure 223]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXX measure 224]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -4759,6 +5062,7 @@ M_VoiceXX = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -4835,6 +5139,7 @@ M_VoiceXXI = {
         
         % [M VoiceXXI measure 213]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4843,6 +5148,7 @@ M_VoiceXXI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4863,6 +5169,7 @@ M_VoiceXXI = {
         
         % [M VoiceXXI measure 216]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4875,6 +5182,7 @@ M_VoiceXXI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4896,6 +5204,7 @@ M_VoiceXXI = {
         
         % [M VoiceXXI measure 219]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4906,11 +5215,13 @@ M_VoiceXXI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXI measure 220]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4921,11 +5232,13 @@ M_VoiceXXI = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXXI measure 221]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4934,6 +5247,7 @@ M_VoiceXXI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4954,6 +5268,7 @@ M_VoiceXXI = {
         
         % [M VoiceXXI measure 224]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -4966,6 +5281,7 @@ M_VoiceXXI = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -5062,6 +5378,7 @@ M_VoiceXXII = {
         
         % [M VoiceXXII measure 216]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5074,6 +5391,7 @@ M_VoiceXXII = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXII measure 217]                                  %! SM4
@@ -5082,6 +5400,7 @@ M_VoiceXXII = {
         
         % [M VoiceXXII measure 218]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5092,23 +5411,27 @@ M_VoiceXXII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXII measure 219]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXII measure 220]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5119,6 +5442,7 @@ M_VoiceXXII = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXII measure 221]                                  %! SM4
@@ -5144,6 +5468,7 @@ M_VoiceXXII = {
         
         % [M VoiceXXII measure 224]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5156,6 +5481,7 @@ M_VoiceXXII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -5238,6 +5564,7 @@ M_VoiceXXIII = {
         
         % [M VoiceXXIII measure 215]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -5246,6 +5573,7 @@ M_VoiceXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -5261,29 +5589,34 @@ M_VoiceXXIII = {
         
         % [M VoiceXXIII measure 217]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXIII measure 218]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXIII measure 219]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -5294,6 +5627,7 @@ M_VoiceXXIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5308,24 +5642,28 @@ M_VoiceXXIII = {
         
         % [M VoiceXXIII measure 221]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXIII measure 222]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5337,6 +5675,7 @@ M_VoiceXXIII = {
         
         % [M VoiceXXIII measure 224]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -5349,6 +5688,7 @@ M_VoiceXXIII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -5447,12 +5787,14 @@ M_VoiceXXIV = {
         
         % [M VoiceXXIV measure 218]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXIV measure 219]                                  %! SM4
@@ -5473,12 +5815,14 @@ M_VoiceXXIV = {
         
         % [M VoiceXXIV measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXIV measure 223]                                  %! SM4
@@ -5487,6 +5831,7 @@ M_VoiceXXIV = {
         
         % [M VoiceXXIV measure 224]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5499,6 +5844,7 @@ M_VoiceXXIV = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -5587,6 +5933,7 @@ M_VoiceXXV = {
         
         % [M VoiceXXV measure 217]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -5595,11 +5942,13 @@ M_VoiceXXV = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXXV measure 218]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -5608,6 +5957,7 @@ M_VoiceXXV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5625,6 +5975,7 @@ M_VoiceXXV = {
         
         % [M VoiceXXV measure 221]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -5637,11 +5988,13 @@ M_VoiceXXV = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXXV measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -5654,6 +6007,7 @@ M_VoiceXXV = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -5772,6 +6126,7 @@ M_VoiceXXVI = {
         
         % [M VoiceXXVI measure 219]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5782,11 +6137,13 @@ M_VoiceXXVI = {
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXXVI measure 220]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5795,23 +6152,27 @@ M_VoiceXXVI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXVI measure 221]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 4/5 {
         
         % [M VoiceXXVI measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5820,11 +6181,13 @@ M_VoiceXXVI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXVI measure 223]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -5835,6 +6198,7 @@ M_VoiceXXVI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -5938,6 +6302,7 @@ M_VoiceXXVII = {
         
         % [M VoiceXXVII measure 219]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -5946,11 +6311,13 @@ M_VoiceXXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 4/7 {
         
         % [M VoiceXXVII measure 220]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -5963,6 +6330,7 @@ M_VoiceXXVII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5976,6 +6344,7 @@ M_VoiceXXVII = {
         
         % [M VoiceXXVII measure 222]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -5986,6 +6355,7 @@ M_VoiceXXVII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -6108,12 +6478,14 @@ M_VoiceXXVIII = {
         
         % [M VoiceXXVIII measure 221]                            %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -6128,12 +6500,14 @@ M_VoiceXXVIII = {
         
         % [M VoiceXXVIII measure 223]                            %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -6243,6 +6617,7 @@ M_VoiceXXIX = {
         
         % [M VoiceXXIX measure 221]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -6251,6 +6626,7 @@ M_VoiceXXIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -6262,6 +6638,7 @@ M_VoiceXXIX = {
         
         % [M VoiceXXIX measure 223]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -6274,6 +6651,7 @@ M_VoiceXXIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -6513,6 +6891,7 @@ M_VoiceXXXI = {
         
         % [M VoiceXXXI measure 223]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -6521,6 +6900,7 @@ M_VoiceXXXI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
@@ -6676,6 +7056,7 @@ M_VoiceXXXIII = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         c'8
+        [
         ^ \markup {
             \column
                 {
@@ -6717,11 +7098,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 210]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6732,11 +7115,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 211]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6747,11 +7132,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 212]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6762,11 +7149,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 213]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6777,11 +7166,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 214]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6792,11 +7183,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 215]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6807,11 +7200,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 216]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6822,11 +7217,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 217]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6837,11 +7234,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 218]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6852,11 +7251,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 219]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6867,11 +7268,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 220]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6882,11 +7285,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 221]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6897,11 +7302,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 222]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6912,11 +7319,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 223]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6927,11 +7336,13 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIII measure 224]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -6942,6 +7353,7 @@ M_VoiceXXXIII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -7018,17 +7430,20 @@ M_VoiceXXXIV = {
         
         % [M VoiceXXXIV measure 211]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIV measure 212]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -7039,6 +7454,7 @@ M_VoiceXXXIV = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXIV measure 213]                                 %! SM4
@@ -7056,17 +7472,20 @@ M_VoiceXXXIV = {
         
         % [M VoiceXXXIV measure 215]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIV measure 216]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -7077,6 +7496,7 @@ M_VoiceXXXIV = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXIV measure 217]                                 %! SM4
@@ -7094,17 +7514,20 @@ M_VoiceXXXIV = {
         
         % [M VoiceXXXIV measure 219]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIV measure 220]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -7115,6 +7538,7 @@ M_VoiceXXXIV = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXIV measure 221]                                 %! SM4
@@ -7132,17 +7556,20 @@ M_VoiceXXXIV = {
         
         % [M VoiceXXXIV measure 223]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXIV measure 224]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -7153,6 +7580,7 @@ M_VoiceXXXIV = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -7223,6 +7651,7 @@ M_VoiceXXXV = {
         
         % [M VoiceXXXV measure 211]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -7233,6 +7662,7 @@ M_VoiceXXXV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -7247,24 +7677,28 @@ M_VoiceXXXV = {
         
         % [M VoiceXXXV measure 213]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXXV measure 214]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -7278,6 +7712,7 @@ M_VoiceXXXV = {
         
         % [M VoiceXXXV measure 216]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -7288,6 +7723,7 @@ M_VoiceXXXV = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXV measure 217]                                  %! SM4
@@ -7299,6 +7735,7 @@ M_VoiceXXXV = {
         
         % [M VoiceXXXV measure 219]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -7309,6 +7746,7 @@ M_VoiceXXXV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -7323,24 +7761,28 @@ M_VoiceXXXV = {
         
         % [M VoiceXXXV measure 221]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXXV measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -7354,6 +7796,7 @@ M_VoiceXXXV = {
         
         % [M VoiceXXXV measure 224]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -7364,6 +7807,7 @@ M_VoiceXXXV = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -7449,12 +7893,14 @@ M_VoiceXXXVI = {
         
         % [M VoiceXXXVI measure 214]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXVI measure 215]                                 %! SM4
@@ -7463,6 +7909,7 @@ M_VoiceXXXVI = {
         
         % [M VoiceXXXVI measure 216]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -7473,6 +7920,7 @@ M_VoiceXXXVI = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXVI measure 217]                                 %! SM4
@@ -7499,12 +7947,14 @@ M_VoiceXXXVI = {
         
         % [M VoiceXXXVI measure 222]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXVI measure 223]                                 %! SM4
@@ -7513,6 +7963,7 @@ M_VoiceXXXVI = {
         
         % [M VoiceXXXVI measure 224]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -7523,6 +7974,7 @@ M_VoiceXXXVI = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -7599,6 +8051,7 @@ M_VoiceXXXVII = {
         
         % [M VoiceXXXVII measure 213]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -7609,11 +8062,13 @@ M_VoiceXXXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXVII measure 214]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -7624,6 +8079,7 @@ M_VoiceXXXVII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -7646,48 +8102,56 @@ M_VoiceXXXVII = {
         
         % [M VoiceXXXVII measure 217]                            %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXXVII measure 218]                            %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXXVII measure 219]                            %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXXVII measure 220]                            %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -7709,6 +8173,7 @@ M_VoiceXXXVII = {
         
         % [M VoiceXXXVII measure 223]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -7719,11 +8184,13 @@ M_VoiceXXXVII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXVII measure 224]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -7734,6 +8201,7 @@ M_VoiceXXXVII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -7822,12 +8290,14 @@ M_VoiceXXXVIII = {
         
         % [M VoiceXXXVIII measure 215]                           %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -7845,12 +8315,14 @@ M_VoiceXXXVIII = {
         
         % [M VoiceXXXVIII measure 218]                           %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXVIII measure 219]                               %! SM4
@@ -7860,12 +8332,14 @@ M_VoiceXXXVIII = {
         
         % [M VoiceXXXVIII measure 220]                           %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXVIII measure 221]                               %! SM4
@@ -7874,6 +8348,7 @@ M_VoiceXXXVIII = {
         
         % [M VoiceXXXVIII measure 222]                           %! SM4
         c'8
+        [
         
         c'8
         
@@ -7884,23 +8359,27 @@ M_VoiceXXXVIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXXVIII measure 223]                           %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXXXVIII measure 224]                           %! SM4
         c'8
+        [
         
         c'8
         
@@ -7911,6 +8390,7 @@ M_VoiceXXXVIII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -7993,6 +8473,7 @@ M_VoiceXXXIX = {
         
         % [M VoiceXXXIX measure 215]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -8003,6 +8484,7 @@ M_VoiceXXXIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8023,24 +8505,28 @@ M_VoiceXXXIX = {
         
         % [M VoiceXXXIX measure 219]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXXXIX measure 220]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXXXIX measure 221]                                 %! SM4
@@ -8060,6 +8546,7 @@ M_VoiceXXXIX = {
         
         % [M VoiceXXXIX measure 224]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -8070,6 +8557,7 @@ M_VoiceXXXIX = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -8173,12 +8661,14 @@ M_VoiceXL = {
         
         % [M VoiceXL measure 220]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXL measure 221]                                    %! SM4
@@ -8193,6 +8683,7 @@ M_VoiceXL = {
         
         % [M VoiceXL measure 224]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -8203,6 +8694,7 @@ M_VoiceXL = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -8237,6 +8729,7 @@ M_VoiceXLI = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         c'8
+        [
         ^ \markup {
             \column
                 {
@@ -8274,90 +8767,105 @@ M_VoiceXLI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLI measure 210]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLI measure 211]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLI measure 212]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLI measure 213]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLI measure 214]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLI measure 215]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLI measure 216]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8395,6 +8903,7 @@ M_VoiceXLI = {
         
         % [M VoiceXLI measure 221]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -8405,11 +8914,13 @@ M_VoiceXLI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLI measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -8420,11 +8931,13 @@ M_VoiceXLI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLI measure 223]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -8435,11 +8948,13 @@ M_VoiceXLI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLI measure 224]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -8450,6 +8965,7 @@ M_VoiceXLI = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -8518,12 +9034,14 @@ M_VoiceXLII = {
         
         % [M VoiceXLII measure 210]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLII measure 211]                                  %! SM4
@@ -8533,12 +9051,14 @@ M_VoiceXLII = {
         
         % [M VoiceXLII measure 212]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLII measure 213]                                  %! SM4
@@ -8548,12 +9068,14 @@ M_VoiceXLII = {
         
         % [M VoiceXLII measure 214]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLII measure 215]                                  %! SM4
@@ -8563,12 +9085,14 @@ M_VoiceXLII = {
         
         % [M VoiceXLII measure 216]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLII measure 217]                                  %! SM4
@@ -8577,6 +9101,7 @@ M_VoiceXLII = {
         
         % [M VoiceXLII measure 218]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -8587,18 +9112,21 @@ M_VoiceXLII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLII measure 219]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8624,17 +9152,20 @@ M_VoiceXLII = {
         
         % [M VoiceXLII measure 223]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLII measure 224]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -8645,6 +9176,7 @@ M_VoiceXLII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -8716,24 +9248,28 @@ M_VoiceXLIII = {
         
         % [M VoiceXLIII measure 211]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLIII measure 212]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLIII measure 213]                                 %! SM4
@@ -8746,24 +9282,28 @@ M_VoiceXLIII = {
         
         % [M VoiceXLIII measure 215]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLIII measure 216]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLIII measure 217]                                 %! SM4
@@ -8783,6 +9323,7 @@ M_VoiceXLIII = {
         
         % [M VoiceXLIII measure 220]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -8793,30 +9334,35 @@ M_VoiceXLIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLIII measure 221]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLIII measure 222]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -8830,6 +9376,7 @@ M_VoiceXLIII = {
         
         % [M VoiceXLIII measure 224]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -8840,6 +9387,7 @@ M_VoiceXLIII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -8914,12 +9462,14 @@ M_VoiceXLIV = {
         
         % [M VoiceXLIV measure 212]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLIV measure 213]                                  %! SM4
@@ -8935,12 +9485,14 @@ M_VoiceXLIV = {
         
         % [M VoiceXLIV measure 216]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLIV measure 217]                                  %! SM4
@@ -8955,6 +9507,7 @@ M_VoiceXLIV = {
         
         % [M VoiceXLIV measure 220]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -8965,6 +9518,7 @@ M_VoiceXLIV = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLIV measure 221]                                  %! SM4
@@ -8974,12 +9528,14 @@ M_VoiceXLIV = {
         
         % [M VoiceXLIV measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLIV measure 223]                                  %! SM4
@@ -8988,6 +9544,7 @@ M_VoiceXLIV = {
         
         % [M VoiceXLIV measure 224]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -8998,6 +9555,7 @@ M_VoiceXLIV = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -9075,48 +9633,56 @@ M_VoiceXLV = {
         
         % [M VoiceXLV measure 213]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLV measure 214]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLV measure 215]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLV measure 216]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLV measure 217]                                   %! SM4
@@ -9150,6 +9716,7 @@ M_VoiceXLV = {
         
         % [M VoiceXLV measure 223]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -9160,11 +9727,13 @@ M_VoiceXLV = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLV measure 224]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -9175,6 +9744,7 @@ M_VoiceXLV = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -9255,12 +9825,14 @@ M_VoiceXLVI = {
         
         % [M VoiceXLVI measure 214]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLVI measure 215]                                  %! SM4
@@ -9270,12 +9842,14 @@ M_VoiceXLVI = {
         
         % [M VoiceXLVI measure 216]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLVI measure 217]                                  %! SM4
@@ -9296,6 +9870,7 @@ M_VoiceXLVI = {
         
         % [M VoiceXLVI measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9306,23 +9881,27 @@ M_VoiceXLVI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLVI measure 223]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLVI measure 224]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9333,6 +9912,7 @@ M_VoiceXLVI = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -9416,24 +9996,28 @@ M_VoiceXLVII = {
         
         % [M VoiceXLVII measure 215]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceXLVII measure 216]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLVII measure 217]                                 %! SM4
@@ -9465,6 +10049,7 @@ M_VoiceXLVII = {
         
         % [M VoiceXLVII measure 224]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -9475,6 +10060,7 @@ M_VoiceXLVII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -9561,12 +10147,14 @@ M_VoiceXLVIII = {
         
         % [M VoiceXLVIII measure 216]                            %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceXLVIII measure 217]                                %! SM4
@@ -9593,6 +10181,7 @@ M_VoiceXLVIII = {
         
         % [M VoiceXLVIII measure 224]                            %! SM4
         c'8
+        [
         
         c'8
         
@@ -9603,6 +10192,7 @@ M_VoiceXLVIII = {
         c'8
         
         c'8
+        ]
         
     }
 }
@@ -9636,6 +10226,7 @@ M_VoiceXLIX = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         c'8
+        [
         ^ \markup {
             \column
                 {
@@ -9677,11 +10268,13 @@ M_VoiceXLIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLIX measure 210]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9692,11 +10285,13 @@ M_VoiceXLIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLIX measure 211]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9707,11 +10302,13 @@ M_VoiceXLIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLIX measure 212]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9722,11 +10319,13 @@ M_VoiceXLIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLIX measure 213]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9737,11 +10336,13 @@ M_VoiceXLIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLIX measure 214]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9752,11 +10353,13 @@ M_VoiceXLIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLIX measure 215]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9767,11 +10370,13 @@ M_VoiceXLIX = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceXLIX measure 216]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -9782,6 +10387,7 @@ M_VoiceXLIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -9922,17 +10528,20 @@ M_VoiceL = {
         
         % [M VoiceL measure 211]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceL measure 212]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -9943,6 +10552,7 @@ M_VoiceL = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceL measure 213]                                     %! SM4
@@ -9960,17 +10570,20 @@ M_VoiceL = {
         
         % [M VoiceL measure 215]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceL measure 216]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -9981,6 +10594,7 @@ M_VoiceL = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceL measure 217]                                     %! SM4
@@ -9989,6 +10603,7 @@ M_VoiceL = {
         
         % [M VoiceL measure 218]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -9999,18 +10614,21 @@ M_VoiceL = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceL measure 219]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10027,6 +10645,7 @@ M_VoiceL = {
         
         % [M VoiceL measure 222]                                 %! SM4
         c'8
+        [
         
         c'8
         
@@ -10037,18 +10656,21 @@ M_VoiceL = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceL measure 223]                                 %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10127,6 +10749,7 @@ M_VoiceLI = {
         
         % [M VoiceLI measure 211]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -10137,6 +10760,7 @@ M_VoiceLI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10151,24 +10775,28 @@ M_VoiceLI = {
         
         % [M VoiceLI measure 213]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLI measure 214]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10182,6 +10810,7 @@ M_VoiceLI = {
         
         % [M VoiceLI measure 216]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -10192,6 +10821,7 @@ M_VoiceLI = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLI measure 217]                                    %! SM4
@@ -10211,6 +10841,7 @@ M_VoiceLI = {
         
         % [M VoiceLI measure 220]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -10221,35 +10852,41 @@ M_VoiceLI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLI measure 221]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLI measure 222]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLI measure 223]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -10260,6 +10897,7 @@ M_VoiceLI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10353,12 +10991,14 @@ M_VoiceLII = {
         
         % [M VoiceLII measure 214]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLII measure 215]                                   %! SM4
@@ -10367,6 +11007,7 @@ M_VoiceLII = {
         
         % [M VoiceLII measure 216]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -10377,6 +11018,7 @@ M_VoiceLII = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLII measure 217]                                   %! SM4
@@ -10391,6 +11033,7 @@ M_VoiceLII = {
         
         % [M VoiceLII measure 220]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -10401,6 +11044,7 @@ M_VoiceLII = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLII measure 221]                                   %! SM4
@@ -10410,12 +11054,14 @@ M_VoiceLII = {
         
         % [M VoiceLII measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLII measure 223]                                   %! SM4
@@ -10503,6 +11149,7 @@ M_VoiceLIII = {
         
         % [M VoiceLIII measure 213]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -10513,11 +11160,13 @@ M_VoiceLIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLIII measure 214]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -10528,6 +11177,7 @@ M_VoiceLIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10550,53 +11200,62 @@ M_VoiceLIII = {
         
         % [M VoiceLIII measure 217]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLIII measure 218]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLIII measure 219]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLIII measure 220]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLIII measure 221]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -10607,11 +11266,13 @@ M_VoiceLIII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLIII measure 222]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -10622,6 +11283,7 @@ M_VoiceLIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10726,12 +11388,14 @@ M_VoiceLIV = {
         
         % [M VoiceLIV measure 215]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10749,12 +11413,14 @@ M_VoiceLIV = {
         
         % [M VoiceLIV measure 218]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLIV measure 219]                                   %! SM4
@@ -10764,12 +11430,14 @@ M_VoiceLIV = {
         
         % [M VoiceLIV measure 220]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLIV measure 221]                                   %! SM4
@@ -10787,12 +11455,14 @@ M_VoiceLIV = {
         
         % [M VoiceLIV measure 223]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10883,6 +11553,7 @@ M_VoiceLV = {
         
         % [M VoiceLV measure 215]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -10893,6 +11564,7 @@ M_VoiceLV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -10913,24 +11585,28 @@ M_VoiceLV = {
         
         % [M VoiceLV measure 219]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLV measure 220]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLV measure 221]                                    %! SM4
@@ -10942,6 +11618,7 @@ M_VoiceLV = {
         
         % [M VoiceLV measure 223]                                %! SM4
         c'8
+        [
         
         c'8
         
@@ -10952,6 +11629,7 @@ M_VoiceLV = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -11063,12 +11741,14 @@ M_VoiceLVI = {
         
         % [M VoiceLVI measure 220]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLVI measure 221]                                   %! SM4
@@ -11174,6 +11854,7 @@ M_VoiceLVII = {
         
         % [M VoiceLVII measure 217]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -11184,11 +11865,13 @@ M_VoiceLVII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLVII measure 218]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -11199,11 +11882,13 @@ M_VoiceLVII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLVII measure 219]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -11214,11 +11899,13 @@ M_VoiceLVII = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLVII measure 220]                              %! SM4
         c'8
+        [
         
         c'8
         
@@ -11229,6 +11916,7 @@ M_VoiceLVII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -11361,17 +12049,20 @@ M_VoiceLVIII = {
         
         % [M VoiceLVIII measure 219]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLVIII measure 220]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -11382,6 +12073,7 @@ M_VoiceLVIII = {
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLVIII measure 221]                                 %! SM4
@@ -11390,6 +12082,7 @@ M_VoiceLVIII = {
         
         % [M VoiceLVIII measure 222]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -11400,18 +12093,21 @@ M_VoiceLVIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLVIII measure 223]                             %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -11514,6 +12210,7 @@ M_VoiceLIX = {
         
         % [M VoiceLIX measure 219]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -11524,6 +12221,7 @@ M_VoiceLIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -11538,29 +12236,34 @@ M_VoiceLIX = {
         
         % [M VoiceLIX measure 221]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [M VoiceLIX measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLIX measure 223]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -11571,6 +12274,7 @@ M_VoiceLIX = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -11688,12 +12392,14 @@ M_VoiceLX = {
         
         % [M VoiceLX measure 222]                                %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     
     % [M VoiceLX measure 223]                                    %! SM4
@@ -11805,6 +12511,7 @@ M_VoiceLXI = {
         
         % [M VoiceLXI measure 221]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -11815,11 +12522,13 @@ M_VoiceLXI = {
         c'8
         
         c'8
+        ]
     }
     \times 2/3 {
         
         % [M VoiceLXI measure 222]                               %! SM4
         c'8
+        [
         
         c'8
         
@@ -11830,6 +12539,7 @@ M_VoiceLXI = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -11958,12 +12668,14 @@ M_VoiceLXII = {
         
         % [M VoiceLXII measure 223]                              %! SM4
         c'8
+        [
         
         c'8
         
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -12078,6 +12790,7 @@ M_VoiceLXIII = {
         
         % [M VoiceLXIII measure 223]                             %! SM4
         c'8
+        [
         
         c'8
         
@@ -12088,6 +12801,7 @@ M_VoiceLXIII = {
         c'8
         
         c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
