@@ -4,1371 +4,160 @@
 #(ly:set-option 'relative-includes #t)
 
 \include "../../stylesheets/stylesheet.ily"
-
-\header {
-    title = ##f
-    composer = ##f
-}
-
-\paper {
-    first-page-number = #14
-}
+\include "../../stylesheets/nonfirst-segment.ily"
 \include "illustration.ily"
 
 
 \score {
-    \context Score = "Score"
-    \with
-    {
-        currentBarNumber = #209
-    }
     <<
-        \context StaffGroup = "StaffGroup"
+        {
+            \include "layout.ly"
+        }
+        \context Score = "Score"
+        \with
+        {
+            currentBarNumber = #209
+        }
         <<
-            \context StaffI = "StaffI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                1
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                1
-                    }
-            }
-            \M_StaffI
-            \context StaffII = "StaffII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                2
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                2
-                    }
-            }
-            \M_StaffII
-            \context StaffIII = "StaffIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                3
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                3
-                    }
-            }
-            \M_StaffIII
-            \context StaffIV = "StaffIV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                4
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                4
-                    }
-            }
-            \M_StaffIV
-            \context StaffV = "StaffV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                5
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                5
-                    }
-            }
-            \M_StaffV
-            \context StaffVI = "StaffVI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                6
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                6
-                    }
-            }
-            \M_StaffVI
-            \context StaffVII = "StaffVII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                7
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                7
-                    }
-            }
-            \M_StaffVII
-            \context StaffVIII = "StaffVIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                8
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                8
-                    }
-            }
-            \M_StaffVIII
-            \context StaffIX = "StaffIX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                9
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                9
-                    }
-            }
-            \M_StaffIX
-            \context StaffX = "StaffX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                10
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                10
-                    }
-            }
-            \M_StaffX
-            \context StaffXI = "StaffXI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                11
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                11
-                    }
-            }
-            \M_StaffXI
-            \context StaffXII = "StaffXII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                12
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                12
-                    }
-            }
-            \M_StaffXII
-            \context StaffXIII = "StaffXIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                13
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                13
-                    }
-            }
-            \M_StaffXIII
-            \context StaffXIV = "StaffXIV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                14
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                14
-                    }
-            }
-            \M_StaffXIV
-            \context StaffXV = "StaffXV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                15
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                15
-                    }
-            }
-            \M_StaffXV
-            \context StaffXVI = "StaffXVI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                16
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                16
-                    }
-            }
-            \M_StaffXVI
-            \context StaffXVII = "StaffXVII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                17
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                17
-                    }
-            }
-            \M_StaffXVII
-            \context StaffXVIII = "StaffXVIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                18
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                18
-                    }
-            }
-            \M_StaffXVIII
-            \context StaffXIX = "StaffXIX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                19
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                19
-                    }
-            }
-            \M_StaffXIX
-            \context StaffXX = "StaffXX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                20
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                20
-                    }
-            }
-            \M_StaffXX
-            \context StaffXXI = "StaffXXI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                21
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                21
-                    }
-            }
-            \M_StaffXXI
-            \context StaffXXII = "StaffXXII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                22
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                22
-                    }
-            }
-            \M_StaffXXII
-            \context StaffXXIII = "StaffXXIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                23
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                23
-                    }
-            }
-            \M_StaffXXIII
-            \context StaffXXIV = "StaffXXIV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                24
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                24
-                    }
-            }
-            \M_StaffXXIV
-            \context StaffXXV = "StaffXXV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                25
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                25
-                    }
-            }
-            \M_StaffXXV
-            \context StaffXXVI = "StaffXXVI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                26
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                26
-                    }
-            }
-            \M_StaffXXVI
-            \context StaffXXVII = "StaffXXVII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                27
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                27
-                    }
-            }
-            \M_StaffXXVII
-            \context StaffXXVIII = "StaffXXVIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                28
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                28
-                    }
-            }
-            \M_StaffXXVIII
-            \context StaffXXIX = "StaffXXIX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                29
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                29
-                    }
-            }
-            \M_StaffXXIX
-            \context StaffXXX = "StaffXXX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                30
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                30
-                    }
-            }
-            \M_StaffXXX
-            \context StaffXXXI = "StaffXXXI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                31
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                31
-                    }
-            }
-            \M_StaffXXXI
-            \context StaffXXXII = "StaffXXXII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                32
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                32
-                    }
-            }
-            \M_StaffXXXII
-            \context StaffXXXIII = "StaffXXXIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                33
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                33
-                    }
-            }
-            \M_StaffXXXIII
-            \context StaffXXXIV = "StaffXXXIV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                34
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                34
-                    }
-            }
-            \M_StaffXXXIV
-            \context StaffXXXV = "StaffXXXV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                35
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                35
-                    }
-            }
-            \M_StaffXXXV
-            \context StaffXXXVI = "StaffXXXVI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                36
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                36
-                    }
-            }
-            \M_StaffXXXVI
-            \context StaffXXXVII = "StaffXXXVII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                37
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                37
-                    }
-            }
-            \M_StaffXXXVII
-            \context StaffXXXVIII = "StaffXXXVIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                38
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                38
-                    }
-            }
-            \M_StaffXXXVIII
-            \context StaffXXXIX = "StaffXXXIX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                39
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                39
-                    }
-            }
-            \M_StaffXXXIX
-            \context StaffXL = "StaffXL"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                40
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                40
-                    }
-            }
-            \M_StaffXL
-            \context StaffXLI = "StaffXLI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                41
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                41
-                    }
-            }
-            \M_StaffXLI
-            \context StaffXLII = "StaffXLII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                42
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                42
-                    }
-            }
-            \M_StaffXLII
-            \context StaffXLIII = "StaffXLIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                43
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                43
-                    }
-            }
-            \M_StaffXLIII
-            \context StaffXLIV = "StaffXLIV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                44
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                44
-                    }
-            }
-            \M_StaffXLIV
-            \context StaffXLV = "StaffXLV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                45
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                45
-                    }
-            }
-            \M_StaffXLV
-            \context StaffXLVI = "StaffXLVI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                46
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                46
-                    }
-            }
-            \M_StaffXLVI
-            \context StaffXLVII = "StaffXLVII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                47
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                47
-                    }
-            }
-            \M_StaffXLVII
-            \context StaffXLVIII = "StaffXLVIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                48
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                48
-                    }
-            }
-            \M_StaffXLVIII
-            \context StaffXLIX = "StaffXLIX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                49
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                49
-                    }
-            }
-            \M_StaffXLIX
-            \context StaffL = "StaffL"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                50
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                50
-                    }
-            }
-            \M_StaffL
-            \context StaffLI = "StaffLI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                51
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                51
-                    }
-            }
-            \M_StaffLI
-            \context StaffLII = "StaffLII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                52
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                52
-                    }
-            }
-            \M_StaffLII
-            \context StaffLIII = "StaffLIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                53
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                53
-                    }
-            }
-            \M_StaffLIII
-            \context StaffLIV = "StaffLIV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                54
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                54
-                    }
-            }
-            \M_StaffLIV
-            \context StaffLV = "StaffLV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                55
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                55
-                    }
-            }
-            \M_StaffLV
-            \context StaffLVI = "StaffLVI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                56
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                56
-                    }
-            }
-            \M_StaffLVI
-            \context StaffLVII = "StaffLVII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                57
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                57
-                    }
-            }
-            \M_StaffLVII
-            \context StaffLVIII = "StaffLVIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                58
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                58
-                    }
-            }
-            \M_StaffLVIII
-            \context StaffLIX = "StaffLIX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                59
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                59
-                    }
-            }
-            \M_StaffLIX
-            \context StaffLX = "StaffLX"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                60
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                60
-                    }
-            }
-            \M_StaffLX
-            \context StaffLXI = "StaffLXI"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                61
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                61
-                    }
-            }
-            \M_StaffLXI
-            \context StaffLXII = "StaffLXII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                62
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                62
-                    }
-            }
-            \M_StaffLXII
-            \context StaffLXIII = "StaffLXIII"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                63
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                63
-                    }
-            }
-            \M_StaffLXIII
-            \context StaffLXIV = "StaffLXIV"
-            \with
-            {
-                instrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                64
-                    }
-                shortInstrumentName = \markup {
-                    \hcenter-in
-                        #12
-                        \bold
-                            \scale
-                                #'(1.5 . 1.5)
-                                64
-                    }
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalSkips = "GlobalSkips"
+                \M_GlobalSkips
+            >>
+            \context MusicContext = "MusicContext"
+            {
+                \context StaffGroup = "StaffGroup"
+                <<
+                    \context Staff = "StaffI"
+                    \M_StaffI
+                    \context Staff = "StaffII"
+                    \M_StaffII
+                    \context Staff = "StaffIII"
+                    \M_StaffIII
+                    \context Staff = "StaffIV"
+                    \M_StaffIV
+                    \context Staff = "StaffV"
+                    \M_StaffV
+                    \context Staff = "StaffVI"
+                    \M_StaffVI
+                    \context Staff = "StaffVII"
+                    \M_StaffVII
+                    \context Staff = "StaffVIII"
+                    \M_StaffVIII
+                    \context Staff = "StaffIX"
+                    \M_StaffIX
+                    \context Staff = "StaffX"
+                    \M_StaffX
+                    \context Staff = "StaffXI"
+                    \M_StaffXI
+                    \context Staff = "StaffXII"
+                    \M_StaffXII
+                    \context Staff = "StaffXIII"
+                    \M_StaffXIII
+                    \context Staff = "StaffXIV"
+                    \M_StaffXIV
+                    \context Staff = "StaffXV"
+                    \M_StaffXV
+                    \context Staff = "StaffXVI"
+                    \M_StaffXVI
+                    \context Staff = "StaffXVII"
+                    \M_StaffXVII
+                    \context Staff = "StaffXVIII"
+                    \M_StaffXVIII
+                    \context Staff = "StaffXIX"
+                    \M_StaffXIX
+                    \context Staff = "StaffXX"
+                    \M_StaffXX
+                    \context Staff = "StaffXXI"
+                    \M_StaffXXI
+                    \context Staff = "StaffXXII"
+                    \M_StaffXXII
+                    \context Staff = "StaffXXIII"
+                    \M_StaffXXIII
+                    \context Staff = "StaffXXIV"
+                    \M_StaffXXIV
+                    \context Staff = "StaffXXV"
+                    \M_StaffXXV
+                    \context Staff = "StaffXXVI"
+                    \M_StaffXXVI
+                    \context Staff = "StaffXXVII"
+                    \M_StaffXXVII
+                    \context Staff = "StaffXXVIII"
+                    \M_StaffXXVIII
+                    \context Staff = "StaffXXIX"
+                    \M_StaffXXIX
+                    \context Staff = "StaffXXX"
+                    \M_StaffXXX
+                    \context Staff = "StaffXXXI"
+                    \M_StaffXXXI
+                    \context Staff = "StaffXXXII"
+                    \M_StaffXXXII
+                    \context Staff = "StaffXXXIII"
+                    \M_StaffXXXIII
+                    \context Staff = "StaffXXXIV"
+                    \M_StaffXXXIV
+                    \context Staff = "StaffXXXV"
+                    \M_StaffXXXV
+                    \context Staff = "StaffXXXVI"
+                    \M_StaffXXXVI
+                    \context Staff = "StaffXXXVII"
+                    \M_StaffXXXVII
+                    \context Staff = "StaffXXXVIII"
+                    \M_StaffXXXVIII
+                    \context Staff = "StaffXXXIX"
+                    \M_StaffXXXIX
+                    \context Staff = "StaffXL"
+                    \M_StaffXL
+                    \context Staff = "StaffXLI"
+                    \M_StaffXLI
+                    \context Staff = "StaffXLII"
+                    \M_StaffXLII
+                    \context Staff = "StaffXLIII"
+                    \M_StaffXLIII
+                    \context Staff = "StaffXLIV"
+                    \M_StaffXLIV
+                    \context Staff = "StaffXLV"
+                    \M_StaffXLV
+                    \context Staff = "StaffXLVI"
+                    \M_StaffXLVI
+                    \context Staff = "StaffXLVII"
+                    \M_StaffXLVII
+                    \context Staff = "StaffXLVIII"
+                    \M_StaffXLVIII
+                    \context Staff = "StaffXLIX"
+                    \M_StaffXLIX
+                    \context Staff = "StaffL"
+                    \M_StaffL
+                    \context Staff = "StaffLI"
+                    \M_StaffLI
+                    \context Staff = "StaffLII"
+                    \M_StaffLII
+                    \context Staff = "StaffLIII"
+                    \M_StaffLIII
+                    \context Staff = "StaffLIV"
+                    \M_StaffLIV
+                    \context Staff = "StaffLV"
+                    \M_StaffLV
+                    \context Staff = "StaffLVI"
+                    \M_StaffLVI
+                    \context Staff = "StaffLVII"
+                    \M_StaffLVII
+                    \context Staff = "StaffLVIII"
+                    \M_StaffLVIII
+                    \context Staff = "StaffLIX"
+                    \M_StaffLIX
+                    \context Staff = "StaffLX"
+                    \M_StaffLX
+                    \context Staff = "StaffLXI"
+                    \M_StaffLXI
+                    \context Staff = "StaffLXII"
+                    \M_StaffLXII
+                    \context Staff = "StaffLXIII"
+                    \M_StaffLXIII
+                    \context Staff = "StaffLXIV"
+                    \M_StaffLXIV
+                >>
             }
-            \M_StaffLXIV
         >>
     >>
 }

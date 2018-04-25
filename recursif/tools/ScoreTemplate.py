@@ -1,5 +1,6 @@
 import abjad
 import baca
+import recursif
 import roman
 
 
@@ -21,1673 +22,533 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.f(lilypond_file[abjad.Score])
         \context Score = "Score"
         <<
-            \context StaffGroup = "StaffGroup"
+            \context GlobalContext = "GlobalContext"
             <<
-                \context StaffI = "StaffI"
-                \with
+                \context GlobalRests = "GlobalRests"
                 {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    1
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    1
-                        }
                 }
+                \context GlobalSkips = "GlobalSkips"
                 {
-                    \context VoiceI = "VoiceI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffII = "StaffII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    2
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    2
-                        }
-                }
-                {
-                    \context VoiceII = "VoiceII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffIII = "StaffIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    3
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    3
-                        }
-                }
-                {
-                    \context VoiceIII = "VoiceIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffIV = "StaffIV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    4
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    4
-                        }
-                }
-                {
-                    \context VoiceIV = "VoiceIV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffV = "StaffV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    5
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    5
-                        }
-                }
-                {
-                    \context VoiceV = "VoiceV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffVI = "StaffVI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    6
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    6
-                        }
-                }
-                {
-                    \context VoiceVI = "VoiceVI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffVII = "StaffVII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    7
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    7
-                        }
-                }
-                {
-                    \context VoiceVII = "VoiceVII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffVIII = "StaffVIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    8
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    8
-                        }
-                }
-                {
-                    \context VoiceVIII = "VoiceVIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffIX = "StaffIX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    9
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    9
-                        }
-                }
-                {
-                    \context VoiceIX = "VoiceIX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffX = "StaffX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    10
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    10
-                        }
-                }
-                {
-                    \context VoiceX = "VoiceX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXI = "StaffXI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    11
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    11
-                        }
-                }
-                {
-                    \context VoiceXI = "VoiceXI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXII = "StaffXII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    12
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    12
-                        }
-                }
-                {
-                    \context VoiceXII = "VoiceXII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXIII = "StaffXIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    13
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    13
-                        }
-                }
-                {
-                    \context VoiceXIII = "VoiceXIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXIV = "StaffXIV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    14
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    14
-                        }
-                }
-                {
-                    \context VoiceXIV = "VoiceXIV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXV = "StaffXV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    15
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    15
-                        }
-                }
-                {
-                    \context VoiceXV = "VoiceXV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXVI = "StaffXVI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    16
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    16
-                        }
-                }
-                {
-                    \context VoiceXVI = "VoiceXVI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXVII = "StaffXVII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    17
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    17
-                        }
-                }
-                {
-                    \context VoiceXVII = "VoiceXVII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXVIII = "StaffXVIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    18
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    18
-                        }
-                }
-                {
-                    \context VoiceXVIII = "VoiceXVIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXIX = "StaffXIX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    19
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    19
-                        }
-                }
-                {
-                    \context VoiceXIX = "VoiceXIX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXX = "StaffXX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    20
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    20
-                        }
-                }
-                {
-                    \context VoiceXX = "VoiceXX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXI = "StaffXXI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    21
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    21
-                        }
-                }
-                {
-                    \context VoiceXXI = "VoiceXXI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXII = "StaffXXII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    22
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    22
-                        }
-                }
-                {
-                    \context VoiceXXII = "VoiceXXII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXIII = "StaffXXIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    23
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    23
-                        }
-                }
-                {
-                    \context VoiceXXIII = "VoiceXXIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXIV = "StaffXXIV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    24
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    24
-                        }
-                }
-                {
-                    \context VoiceXXIV = "VoiceXXIV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXV = "StaffXXV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    25
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    25
-                        }
-                }
-                {
-                    \context VoiceXXV = "VoiceXXV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXVI = "StaffXXVI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    26
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    26
-                        }
-                }
-                {
-                    \context VoiceXXVI = "VoiceXXVI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXVII = "StaffXXVII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    27
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    27
-                        }
-                }
-                {
-                    \context VoiceXXVII = "VoiceXXVII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXVIII = "StaffXXVIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    28
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    28
-                        }
-                }
-                {
-                    \context VoiceXXVIII = "VoiceXXVIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXIX = "StaffXXIX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    29
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    29
-                        }
-                }
-                {
-                    \context VoiceXXIX = "VoiceXXIX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXX = "StaffXXX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    30
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    30
-                        }
-                }
-                {
-                    \context VoiceXXX = "VoiceXXX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXI = "StaffXXXI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    31
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    31
-                        }
-                }
-                {
-                    \context VoiceXXXI = "VoiceXXXI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXII = "StaffXXXII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    32
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    32
-                        }
-                }
-                {
-                    \context VoiceXXXII = "VoiceXXXII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXIII = "StaffXXXIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    33
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    33
-                        }
-                }
-                {
-                    \context VoiceXXXIII = "VoiceXXXIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXIV = "StaffXXXIV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    34
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    34
-                        }
-                }
-                {
-                    \context VoiceXXXIV = "VoiceXXXIV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXV = "StaffXXXV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    35
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    35
-                        }
-                }
-                {
-                    \context VoiceXXXV = "VoiceXXXV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXVI = "StaffXXXVI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    36
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    36
-                        }
-                }
-                {
-                    \context VoiceXXXVI = "VoiceXXXVI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXVII = "StaffXXXVII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    37
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    37
-                        }
-                }
-                {
-                    \context VoiceXXXVII = "VoiceXXXVII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXVIII = "StaffXXXVIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    38
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    38
-                        }
-                }
-                {
-                    \context VoiceXXXVIII = "VoiceXXXVIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXXXIX = "StaffXXXIX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    39
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    39
-                        }
-                }
-                {
-                    \context VoiceXXXIX = "VoiceXXXIX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXL = "StaffXL"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    40
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    40
-                        }
-                }
-                {
-                    \context VoiceXL = "VoiceXL"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLI = "StaffXLI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    41
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    41
-                        }
-                }
-                {
-                    \context VoiceXLI = "VoiceXLI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLII = "StaffXLII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    42
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    42
-                        }
-                }
-                {
-                    \context VoiceXLII = "VoiceXLII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLIII = "StaffXLIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    43
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    43
-                        }
-                }
-                {
-                    \context VoiceXLIII = "VoiceXLIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLIV = "StaffXLIV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    44
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    44
-                        }
-                }
-                {
-                    \context VoiceXLIV = "VoiceXLIV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLV = "StaffXLV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    45
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    45
-                        }
-                }
-                {
-                    \context VoiceXLV = "VoiceXLV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLVI = "StaffXLVI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    46
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    46
-                        }
-                }
-                {
-                    \context VoiceXLVI = "VoiceXLVI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLVII = "StaffXLVII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    47
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    47
-                        }
-                }
-                {
-                    \context VoiceXLVII = "VoiceXLVII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLVIII = "StaffXLVIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    48
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    48
-                        }
-                }
-                {
-                    \context VoiceXLVIII = "VoiceXLVIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffXLIX = "StaffXLIX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    49
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    49
-                        }
-                }
-                {
-                    \context VoiceXLIX = "VoiceXLIX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffL = "StaffL"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    50
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    50
-                        }
-                }
-                {
-                    \context VoiceL = "VoiceL"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLI = "StaffLI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    51
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    51
-                        }
-                }
-                {
-                    \context VoiceLI = "VoiceLI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLII = "StaffLII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    52
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    52
-                        }
-                }
-                {
-                    \context VoiceLII = "VoiceLII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLIII = "StaffLIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    53
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    53
-                        }
-                }
-                {
-                    \context VoiceLIII = "VoiceLIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLIV = "StaffLIV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    54
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    54
-                        }
-                }
-                {
-                    \context VoiceLIV = "VoiceLIV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLV = "StaffLV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    55
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    55
-                        }
-                }
-                {
-                    \context VoiceLV = "VoiceLV"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLVI = "StaffLVI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    56
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    56
-                        }
-                }
-                {
-                    \context VoiceLVI = "VoiceLVI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLVII = "StaffLVII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    57
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    57
-                        }
-                }
-                {
-                    \context VoiceLVII = "VoiceLVII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLVIII = "StaffLVIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    58
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    58
-                        }
-                }
-                {
-                    \context VoiceLVIII = "VoiceLVIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLIX = "StaffLIX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    59
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    59
-                        }
-                }
-                {
-                    \context VoiceLIX = "VoiceLIX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLX = "StaffLX"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    60
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    60
-                        }
-                }
-                {
-                    \context VoiceLX = "VoiceLX"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLXI = "StaffLXI"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    61
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    61
-                        }
-                }
-                {
-                    \context VoiceLXI = "VoiceLXI"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLXII = "StaffLXII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    62
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    62
-                        }
-                }
-                {
-                    \context VoiceLXII = "VoiceLXII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLXIII = "StaffLXIII"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    63
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    63
-                        }
-                }
-                {
-                    \context VoiceLXIII = "VoiceLXIII"
-                    {
-                        s1
-                    }
-                }
-                \context StaffLXIV = "StaffLXIV"
-                \with
-                {
-                    instrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    64
-                        }
-                    shortInstrumentName = \markup {
-                        \hcenter-in
-                            #12
-                            \bold
-                                \scale
-                                    #'(1.5 . 1.5)
-                                    64
-                        }
-                }
-                {
-                    \context VoiceLXIV = "VoiceLXIV"
-                    {
-                        s1
-                    }
                 }
             >>
+            \context MusicContext = "MusicContext"
+            {
+                \context StaffGroup = "StaffGroup"
+                <<
+                    \context Staff = "StaffI"
+                    {
+                        \context Voice = "VoiceI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffII"
+                    {
+                        \context Voice = "VoiceII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffIII"
+                    {
+                        \context Voice = "VoiceIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffIV"
+                    {
+                        \context Voice = "VoiceIV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffV"
+                    {
+                        \context Voice = "VoiceV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffVI"
+                    {
+                        \context Voice = "VoiceVI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffVII"
+                    {
+                        \context Voice = "VoiceVII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffVIII"
+                    {
+                        \context Voice = "VoiceVIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffIX"
+                    {
+                        \context Voice = "VoiceIX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffX"
+                    {
+                        \context Voice = "VoiceX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXI"
+                    {
+                        \context Voice = "VoiceXI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXII"
+                    {
+                        \context Voice = "VoiceXII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXIII"
+                    {
+                        \context Voice = "VoiceXIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXIV"
+                    {
+                        \context Voice = "VoiceXIV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXV"
+                    {
+                        \context Voice = "VoiceXV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXVI"
+                    {
+                        \context Voice = "VoiceXVI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXVII"
+                    {
+                        \context Voice = "VoiceXVII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXVIII"
+                    {
+                        \context Voice = "VoiceXVIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXIX"
+                    {
+                        \context Voice = "VoiceXIX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXX"
+                    {
+                        \context Voice = "VoiceXX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXI"
+                    {
+                        \context Voice = "VoiceXXI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXII"
+                    {
+                        \context Voice = "VoiceXXII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXIII"
+                    {
+                        \context Voice = "VoiceXXIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXIV"
+                    {
+                        \context Voice = "VoiceXXIV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXV"
+                    {
+                        \context Voice = "VoiceXXV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXVI"
+                    {
+                        \context Voice = "VoiceXXVI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXVII"
+                    {
+                        \context Voice = "VoiceXXVII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXVIII"
+                    {
+                        \context Voice = "VoiceXXVIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXIX"
+                    {
+                        \context Voice = "VoiceXXIX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXX"
+                    {
+                        \context Voice = "VoiceXXX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXI"
+                    {
+                        \context Voice = "VoiceXXXI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXII"
+                    {
+                        \context Voice = "VoiceXXXII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXIII"
+                    {
+                        \context Voice = "VoiceXXXIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXIV"
+                    {
+                        \context Voice = "VoiceXXXIV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXV"
+                    {
+                        \context Voice = "VoiceXXXV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXVI"
+                    {
+                        \context Voice = "VoiceXXXVI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXVII"
+                    {
+                        \context Voice = "VoiceXXXVII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXVIII"
+                    {
+                        \context Voice = "VoiceXXXVIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXXXIX"
+                    {
+                        \context Voice = "VoiceXXXIX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXL"
+                    {
+                        \context Voice = "VoiceXL"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLI"
+                    {
+                        \context Voice = "VoiceXLI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLII"
+                    {
+                        \context Voice = "VoiceXLII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLIII"
+                    {
+                        \context Voice = "VoiceXLIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLIV"
+                    {
+                        \context Voice = "VoiceXLIV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLV"
+                    {
+                        \context Voice = "VoiceXLV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLVI"
+                    {
+                        \context Voice = "VoiceXLVI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLVII"
+                    {
+                        \context Voice = "VoiceXLVII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLVIII"
+                    {
+                        \context Voice = "VoiceXLVIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffXLIX"
+                    {
+                        \context Voice = "VoiceXLIX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffL"
+                    {
+                        \context Voice = "VoiceL"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLI"
+                    {
+                        \context Voice = "VoiceLI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLII"
+                    {
+                        \context Voice = "VoiceLII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLIII"
+                    {
+                        \context Voice = "VoiceLIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLIV"
+                    {
+                        \context Voice = "VoiceLIV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLV"
+                    {
+                        \context Voice = "VoiceLV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLVI"
+                    {
+                        \context Voice = "VoiceLVI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLVII"
+                    {
+                        \context Voice = "VoiceLVII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLVIII"
+                    {
+                        \context Voice = "VoiceLVIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLIX"
+                    {
+                        \context Voice = "VoiceLIX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLX"
+                    {
+                        \context Voice = "VoiceLX"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLXI"
+                    {
+                        \context Voice = "VoiceLXI"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLXII"
+                    {
+                        \context Voice = "VoiceLXII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLXIII"
+                    {
+                        \context Voice = "VoiceLXIII"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                    \context Staff = "StaffLXIV"
+                    {
+                        \context Voice = "VoiceLXIV"
+                        {
+                            \clef "percussion" %! ST3
+                            s1
+                        }
+                    }
+                >>
+            }
         >>
 
     '''
@@ -1701,37 +562,53 @@ class ScoreTemplate(baca.ScoreTemplate):
     def __call__(self) -> abjad.Score:
         r'''Calls score template.
         '''
+        # GLOBAL CONTEXT
+        global_context = self._make_global_context()
+
         super(ScoreTemplate, self).__init__()
         staves = []
         for staff_index in range(64):
             staff_number = staff_index + 1
             staff_numeral = roman.toRoman(staff_number)
-            lilypond_type = f'Voice{staff_numeral}'
-            name = f'Voice{staff_numeral}'
-            voice = abjad.Voice(
-                lilypond_type=lilypond_type,
-                name=name,
-                )
-            lilypond_type = f'Staff{staff_numeral}'
-            name = f'Staff{staff_numeral}'
+            voice = abjad.Voice(name=f'Voice{staff_numeral}')
             staff = abjad.Staff(
                 [voice],
-                lilypond_type=lilypond_type,
-                name=name,
+                name=f'Staff{staff_numeral}',
                 )
-            markup = abjad.Markup(staff_number)
-            markup = markup.scale((1.5, 1.5))
-            markup = markup.bold()
-            markup = markup.hcenter_in(12)
-            abjad.setting(staff).instrument_name = markup
-            abjad.setting(staff).short_instrument_name = markup
+#            markup = abjad.Markup(staff_number)
+#            markup = markup.scale((1.5, 1.5))
+#            markup = markup.bold()
+#            markup = markup.hcenter_in(12)
+#            abjad.setting(staff).instrument_name = markup
+#            abjad.setting(staff).short_instrument_name = markup
+            abjad.annotate(
+                staff,
+                'default_instrument',
+                recursif.instruments['Percussion'],
+                )
+            abjad.annotate(
+                staff,
+                'default_clef',
+                abjad.Clef('percussion'),
+                )
             staves.append(staff)
+
+        # STAFF GROUP
         staff_group = abjad.StaffGroup(
             staves,
             name='StaffGroup',
             )
-        score = abjad.Score(
+
+        # MUSIC CONTEXT
+        music_context = abjad.Context(
             [staff_group],
+            lilypond_type='MusicContext',
+            name='MusicContext',
+            )
+
+        # SCORE
+        score = abjad.Score(
+            [global_context, music_context],
             name='Score',
             )
         self._assert_lilypond_identifiers(score)
