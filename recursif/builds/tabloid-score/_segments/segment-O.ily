@@ -12298,7 +12298,7 @@ O_VoiceLXIV = {
     r2
     
     % [O VoiceLXIV measure 256]                                  %! SM4
-    \once \override TextScript.extra-offset = #'(4 . -2)
+    \once \override TextScript.extra-offset = #'(10 . 0)
     c'2
     _ \markup {                                                  %! SCORE2
         \whiteout                                                %! SCORE2

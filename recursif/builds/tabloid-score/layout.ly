@@ -13,7 +13,7 @@
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 50) (alignment-distances . (4 6)))                            %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -80,7 +80,7 @@
             % [PageLayout measure 17]                                                    %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -147,7 +147,7 @@
             % [PageLayout measure 33]                                                    %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -214,7 +214,7 @@
             % [PageLayout measure 49]                                                    %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -281,7 +281,7 @@
             % [PageLayout measure 65]                                                    %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -348,7 +348,7 @@
             % [PageLayout measure 81]                                                    %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -415,7 +415,7 @@
             % [PageLayout measure 97]                                                    %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -482,7 +482,7 @@
             % [PageLayout measure 113]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -549,7 +549,7 @@
             % [PageLayout measure 129]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -616,7 +616,7 @@
             % [PageLayout measure 145]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -683,7 +683,7 @@
             % [PageLayout measure 161]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -750,7 +750,7 @@
             % [PageLayout measure 177]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -817,7 +817,7 @@
             % [PageLayout measure 193]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -884,7 +884,7 @@
             % [PageLayout measure 209]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -951,7 +951,7 @@
             % [PageLayout measure 225]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
@@ -1018,7 +1018,7 @@
             % [PageLayout measure 241]                                                   %! SM4
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 0) (alignment-distances . (4 8)))                             %! IC:BREAK
+            #'((Y-offset . 0) (alignment-distances . (4 7)))                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
             
