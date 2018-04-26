@@ -141,6 +141,653 @@ metadata = abjad.OrderedDict(
                 'PercussionVoiceLXIV',
                 ],
             ),
+        (
+            'container_to_part_assignment',
+            abjad.OrderedDict(
+                [
+                    (
+                        'N_PercussionVoiceIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 3),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 2),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceIV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 4),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceIX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 9),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 1),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 53),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 52),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLIV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 54),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLIX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 59),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 51),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLVIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 58),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLVII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 57),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLVI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 56),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 55),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLXIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 63),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLXII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 62),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLXIV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 64),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLXI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 61),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceLX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 60),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceL_a',
+                        (
+                            abjad.PartAssignment('Percussion', 50),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceVIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 8),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceVII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 7),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceVI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 6),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 5),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 13),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 12),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXIV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 14),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXIX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 19),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 11),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 43),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 42),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLIV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 44),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLIX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 49),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 41),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLVIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 48),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLVII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 47),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLVI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 46),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXLV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 45),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXL_a',
+                        (
+                            abjad.PartAssignment('Percussion', 40),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXVIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 18),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXVII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 17),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXVI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 16),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 15),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 23),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 22),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXIV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 24),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXIX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 29),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 21),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXVIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 28),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXVII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 27),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXVI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 26),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 25),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 33),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 32),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXIV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 34),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXIX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 39),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 31),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXVIII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 38),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXVII_a',
+                        (
+                            abjad.PartAssignment('Percussion', 37),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXVI_a',
+                        (
+                            abjad.PartAssignment('Percussion', 36),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXXV_a',
+                        (
+                            abjad.PartAssignment('Percussion', 35),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXXX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 30),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceXX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 20),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    (
+                        'N_PercussionVoiceX_a',
+                        (
+                            abjad.PartAssignment('Percussion', 10),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset(0, 1),
+                                stop_offset=abjad.Offset(8, 1),
+                                ),
+                            ),
+                        ),
+                    ]
+                ),
+            ),
         ('duration', "0'24''"),
         ('first_measure_number', 225),
         ('last_measure_number', 240),

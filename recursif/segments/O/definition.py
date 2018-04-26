@@ -19,6 +19,8 @@ maker = baca.SegmentMaker(
     validate_measure_count=16,
     )
 
+recursif.assign_parts(maker)
+
 for voice_number in range(1, 64 + 1):
     numeral = roman.toRoman(voice_number)
     voice_name = f'PercussionVoice{numeral}'
