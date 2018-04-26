@@ -603,9 +603,9 @@ C_GlobalSkips = {
 }
 
 
-C_VoiceI = {
+C_PercussionVoiceI = {
     
-    % [C VoiceI measure 49]                                      %! SM4
+    % [C PercussionVoiceI measure 49]                            %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -656,63 +656,63 @@ C_VoiceI = {
             1                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceI measure 50]                                      %! SM4
+    % [C PercussionVoiceI measure 50]                            %! SM4
     c'2
     
-    % [C VoiceI measure 51]                                      %! SM4
+    % [C PercussionVoiceI measure 51]                            %! SM4
     c'2
     
-    % [C VoiceI measure 52]                                      %! SM4
+    % [C PercussionVoiceI measure 52]                            %! SM4
     c'2
     
-    % [C VoiceI measure 53]                                      %! SM4
+    % [C PercussionVoiceI measure 53]                            %! SM4
     c'2
     
-    % [C VoiceI measure 54]                                      %! SM4
+    % [C PercussionVoiceI measure 54]                            %! SM4
     c'2
     
-    % [C VoiceI measure 55]                                      %! SM4
+    % [C PercussionVoiceI measure 55]                            %! SM4
     c'2
     
-    % [C VoiceI measure 56]                                      %! SM4
+    % [C PercussionVoiceI measure 56]                            %! SM4
     c'2
     
-    % [C VoiceI measure 57]                                      %! SM4
+    % [C PercussionVoiceI measure 57]                            %! SM4
     c'2
     
-    % [C VoiceI measure 58]                                      %! SM4
+    % [C PercussionVoiceI measure 58]                            %! SM4
     c'2
     
-    % [C VoiceI measure 59]                                      %! SM4
+    % [C PercussionVoiceI measure 59]                            %! SM4
     c'2
     
-    % [C VoiceI measure 60]                                      %! SM4
+    % [C PercussionVoiceI measure 60]                            %! SM4
     c'2
     
-    % [C VoiceI measure 61]                                      %! SM4
+    % [C PercussionVoiceI measure 61]                            %! SM4
     c'2
     
-    % [C VoiceI measure 62]                                      %! SM4
+    % [C PercussionVoiceI measure 62]                            %! SM4
     c'2
     
-    % [C VoiceI measure 63]                                      %! SM4
+    % [C PercussionVoiceI measure 63]                            %! SM4
     c'2
     
-    % [C VoiceI measure 64]                                      %! SM4
+    % [C PercussionVoiceI measure 64]                            %! SM4
     c'2
     
 }
 
 
 C_StaffI = {
-    \context Voice = "VoiceI"
-    \C_VoiceI
+    \context Voice = "PercussionVoiceI"
+    \C_PercussionVoiceI
 }
 
 
-C_VoiceII = {
+C_PercussionVoiceII = {
     
-    % [C VoiceII measure 49]                                     %! SM4
+    % [C PercussionVoiceII measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -764,7 +764,7 @@ C_VoiceII = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 4/7 {
         
-        % [C VoiceII measure 50]                                 %! SM4
+        % [C PercussionVoiceII measure 50]                       %! SM4
         c'8
         [
         
@@ -783,7 +783,7 @@ C_VoiceII = {
     }
     \times 2/3 {
         
-        % [C VoiceII measure 51]                                 %! SM4
+        % [C PercussionVoiceII measure 51]                       %! SM4
         c'8
         [
         
@@ -800,7 +800,7 @@ C_VoiceII = {
     }
     \times 4/5 {
         
-        % [C VoiceII measure 52]                                 %! SM4
+        % [C PercussionVoiceII measure 52]                       %! SM4
         c'8
         [
         
@@ -814,7 +814,7 @@ C_VoiceII = {
         ]
     }
     
-    % [C VoiceII measure 53]                                     %! SM4
+    % [C PercussionVoiceII measure 53]                           %! SM4
     c'8
     [
     
@@ -826,7 +826,7 @@ C_VoiceII = {
     ]
     \times 2/3 {
         
-        % [C VoiceII measure 54]                                 %! SM4
+        % [C PercussionVoiceII measure 54]                       %! SM4
         c'4
         
         c'4
@@ -834,19 +834,19 @@ C_VoiceII = {
         c'4
     }
     
-    % [C VoiceII measure 55]                                     %! SM4
+    % [C PercussionVoiceII measure 55]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceII measure 56]                                     %! SM4
+    % [C PercussionVoiceII measure 56]                           %! SM4
     c'2
     
-    % [C VoiceII measure 57]                                     %! SM4
+    % [C PercussionVoiceII measure 57]                           %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceII measure 58]                                 %! SM4
+        % [C PercussionVoiceII measure 58]                       %! SM4
         c'8
         [
         
@@ -865,7 +865,7 @@ C_VoiceII = {
     }
     \times 2/3 {
         
-        % [C VoiceII measure 59]                                 %! SM4
+        % [C PercussionVoiceII measure 59]                       %! SM4
         c'8
         [
         
@@ -882,7 +882,7 @@ C_VoiceII = {
     }
     \times 4/5 {
         
-        % [C VoiceII measure 60]                                 %! SM4
+        % [C PercussionVoiceII measure 60]                       %! SM4
         c'8
         [
         
@@ -896,7 +896,7 @@ C_VoiceII = {
         ]
     }
     
-    % [C VoiceII measure 61]                                     %! SM4
+    % [C PercussionVoiceII measure 61]                           %! SM4
     c'8
     [
     
@@ -908,7 +908,7 @@ C_VoiceII = {
     ]
     \times 2/3 {
         
-        % [C VoiceII measure 62]                                 %! SM4
+        % [C PercussionVoiceII measure 62]                       %! SM4
         c'4
         
         c'4
@@ -916,26 +916,26 @@ C_VoiceII = {
         c'4
     }
     
-    % [C VoiceII measure 63]                                     %! SM4
+    % [C PercussionVoiceII measure 63]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceII measure 64]                                     %! SM4
+    % [C PercussionVoiceII measure 64]                           %! SM4
     c'2
     
 }
 
 
 C_StaffII = {
-    \context Voice = "VoiceII"
-    \C_VoiceII
+    \context Voice = "PercussionVoiceII"
+    \C_PercussionVoiceII
 }
 
 
-C_VoiceIII = {
+C_PercussionVoiceIII = {
     
-    % [C VoiceIII measure 49]                                    %! SM4
+    % [C PercussionVoiceIII measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -986,14 +986,14 @@ C_VoiceIII = {
             3                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceIII measure 50]                                    %! SM4
+    % [C PercussionVoiceIII measure 50]                          %! SM4
     r2
     
-    % [C VoiceIII measure 51]                                    %! SM4
+    % [C PercussionVoiceIII measure 51]                          %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceIII measure 52]                                %! SM4
+        % [C PercussionVoiceIII measure 52]                      %! SM4
         c'4
         
         c'4
@@ -1002,7 +1002,7 @@ C_VoiceIII = {
     }
     \times 2/3 {
         
-        % [C VoiceIII measure 53]                                %! SM4
+        % [C PercussionVoiceIII measure 53]                      %! SM4
         c'8
         [
         
@@ -1018,13 +1018,13 @@ C_VoiceIII = {
         ]
     }
     
-    % [C VoiceIII measure 54]                                    %! SM4
+    % [C PercussionVoiceIII measure 54]                          %! SM4
     c'4
     
     c'4
     \times 4/7 {
         
-        % [C VoiceIII measure 55]                                %! SM4
+        % [C PercussionVoiceIII measure 55]                      %! SM4
         c'8
         [
         
@@ -1043,7 +1043,7 @@ C_VoiceIII = {
     }
     \times 4/5 {
         
-        % [C VoiceIII measure 56]                                %! SM4
+        % [C PercussionVoiceIII measure 56]                      %! SM4
         c'8
         [
         
@@ -1057,7 +1057,7 @@ C_VoiceIII = {
         ]
     }
     
-    % [C VoiceIII measure 57]                                    %! SM4
+    % [C PercussionVoiceIII measure 57]                          %! SM4
     c'8
     [
     
@@ -1068,7 +1068,7 @@ C_VoiceIII = {
     c'8
     ]
     
-    % [C VoiceIII measure 58]                                    %! SM4
+    % [C PercussionVoiceIII measure 58]                          %! SM4
     c'8
     [
     
@@ -1080,7 +1080,7 @@ C_VoiceIII = {
     ]
     \times 4/5 {
         
-        % [C VoiceIII measure 59]                                %! SM4
+        % [C PercussionVoiceIII measure 59]                      %! SM4
         c'8
         [
         
@@ -1095,7 +1095,7 @@ C_VoiceIII = {
     }
     \times 4/7 {
         
-        % [C VoiceIII measure 60]                                %! SM4
+        % [C PercussionVoiceIII measure 60]                      %! SM4
         c'8
         [
         
@@ -1113,13 +1113,13 @@ C_VoiceIII = {
         ]
     }
     
-    % [C VoiceIII measure 61]                                    %! SM4
+    % [C PercussionVoiceIII measure 61]                          %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceIII measure 62]                                %! SM4
+        % [C PercussionVoiceIII measure 62]                      %! SM4
         c'8
         [
         
@@ -1136,7 +1136,7 @@ C_VoiceIII = {
     }
     \times 2/3 {
         
-        % [C VoiceIII measure 63]                                %! SM4
+        % [C PercussionVoiceIII measure 63]                      %! SM4
         c'4
         
         c'4
@@ -1144,21 +1144,21 @@ C_VoiceIII = {
         c'4
     }
     
-    % [C VoiceIII measure 64]                                    %! SM4
+    % [C PercussionVoiceIII measure 64]                          %! SM4
     c'2
     
 }
 
 
 C_StaffIII = {
-    \context Voice = "VoiceIII"
-    \C_VoiceIII
+    \context Voice = "PercussionVoiceIII"
+    \C_PercussionVoiceIII
 }
 
 
-C_VoiceIV = {
+C_PercussionVoiceIV = {
     
-    % [C VoiceIV measure 49]                                     %! SM4
+    % [C PercussionVoiceIV measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1209,14 +1209,14 @@ C_VoiceIV = {
             4                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceIV measure 50]                                     %! SM4
+    % [C PercussionVoiceIV measure 50]                           %! SM4
     r2
     
-    % [C VoiceIV measure 51]                                     %! SM4
+    % [C PercussionVoiceIV measure 51]                           %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceIV measure 52]                                 %! SM4
+        % [C PercussionVoiceIV measure 52]                       %! SM4
         c'8
         [
         
@@ -1234,7 +1234,7 @@ C_VoiceIV = {
         ]
     }
     
-    % [C VoiceIV measure 53]                                     %! SM4
+    % [C PercussionVoiceIV measure 53]                           %! SM4
     c'8
     [
     
@@ -1246,7 +1246,7 @@ C_VoiceIV = {
     ]
     \times 2/3 {
         
-        % [C VoiceIV measure 54]                                 %! SM4
+        % [C PercussionVoiceIV measure 54]                       %! SM4
         c'8
         [
         
@@ -1262,7 +1262,7 @@ C_VoiceIV = {
         ]
     }
     
-    % [C VoiceIV measure 55]                                     %! SM4
+    % [C PercussionVoiceIV measure 55]                           %! SM4
     c'8
     [
     
@@ -1274,7 +1274,7 @@ C_VoiceIV = {
     ]
     \times 4/5 {
         
-        % [C VoiceIV measure 56]                                 %! SM4
+        % [C PercussionVoiceIV measure 56]                       %! SM4
         c'8
         [
         
@@ -1288,10 +1288,10 @@ C_VoiceIV = {
         ]
     }
     
-    % [C VoiceIV measure 57]                                     %! SM4
+    % [C PercussionVoiceIV measure 57]                           %! SM4
     r2
     
-    % [C VoiceIV measure 58]                                     %! SM4
+    % [C PercussionVoiceIV measure 58]                           %! SM4
     c'8
     [
     
@@ -1302,11 +1302,11 @@ C_VoiceIV = {
     c'8
     ]
     
-    % [C VoiceIV measure 59]                                     %! SM4
+    % [C PercussionVoiceIV measure 59]                           %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceIV measure 60]                                 %! SM4
+        % [C PercussionVoiceIV measure 60]                       %! SM4
         c'4
         
         c'4
@@ -1314,7 +1314,7 @@ C_VoiceIV = {
         c'4
     }
     
-    % [C VoiceIV measure 61]                                     %! SM4
+    % [C PercussionVoiceIV measure 61]                           %! SM4
     c'8
     [
     
@@ -1325,12 +1325,12 @@ C_VoiceIV = {
     c'8
     ]
     
-    % [C VoiceIV measure 62]                                     %! SM4
+    % [C PercussionVoiceIV measure 62]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceIV measure 63]                                     %! SM4
+    % [C PercussionVoiceIV measure 63]                           %! SM4
     c'8
     [
     
@@ -1341,21 +1341,21 @@ C_VoiceIV = {
     c'8
     ]
     
-    % [C VoiceIV measure 64]                                     %! SM4
+    % [C PercussionVoiceIV measure 64]                           %! SM4
     c'2
     
 }
 
 
 C_StaffIV = {
-    \context Voice = "VoiceIV"
-    \C_VoiceIV
+    \context Voice = "PercussionVoiceIV"
+    \C_PercussionVoiceIV
 }
 
 
-C_VoiceV = {
+C_PercussionVoiceV = {
     
-    % [C VoiceV measure 49]                                      %! SM4
+    % [C PercussionVoiceV measure 49]                            %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1414,7 +1414,7 @@ C_VoiceV = {
     c'8
     ]
     
-    % [C VoiceV measure 50]                                      %! SM4
+    % [C PercussionVoiceV measure 50]                            %! SM4
     c'8
     [
     
@@ -1425,7 +1425,7 @@ C_VoiceV = {
     c'8
     ]
     
-    % [C VoiceV measure 51]                                      %! SM4
+    % [C PercussionVoiceV measure 51]                            %! SM4
     c'8
     [
     
@@ -1436,7 +1436,7 @@ C_VoiceV = {
     c'8
     ]
     
-    % [C VoiceV measure 52]                                      %! SM4
+    % [C PercussionVoiceV measure 52]                            %! SM4
     c'8
     [
     
@@ -1448,7 +1448,7 @@ C_VoiceV = {
     ]
     \times 4/5 {
         
-        % [C VoiceV measure 53]                                  %! SM4
+        % [C PercussionVoiceV measure 53]                        %! SM4
         c'8
         [
         
@@ -1462,11 +1462,11 @@ C_VoiceV = {
         ]
     }
     
-    % [C VoiceV measure 54]                                      %! SM4
+    % [C PercussionVoiceV measure 54]                            %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceV measure 55]                                  %! SM4
+        % [C PercussionVoiceV measure 55]                        %! SM4
         c'4
         
         c'4
@@ -1475,7 +1475,7 @@ C_VoiceV = {
     }
     \times 4/7 {
         
-        % [C VoiceV measure 56]                                  %! SM4
+        % [C PercussionVoiceV measure 56]                        %! SM4
         c'8
         [
         
@@ -1493,18 +1493,18 @@ C_VoiceV = {
         ]
     }
     
-    % [C VoiceV measure 57]                                      %! SM4
+    % [C PercussionVoiceV measure 57]                            %! SM4
     c'4
     
     c'4
     
-    % [C VoiceV measure 58]                                      %! SM4
+    % [C PercussionVoiceV measure 58]                            %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceV measure 59]                                  %! SM4
+        % [C PercussionVoiceV measure 59]                        %! SM4
         c'8
         [
         
@@ -1521,7 +1521,7 @@ C_VoiceV = {
     }
     \times 2/3 {
         
-        % [C VoiceV measure 60]                                  %! SM4
+        % [C PercussionVoiceV measure 60]                        %! SM4
         c'8
         [
         
@@ -1538,7 +1538,7 @@ C_VoiceV = {
     }
     \times 2/3 {
         
-        % [C VoiceV measure 61]                                  %! SM4
+        % [C PercussionVoiceV measure 61]                        %! SM4
         c'4
         
         c'4
@@ -1547,7 +1547,7 @@ C_VoiceV = {
     }
     \times 4/7 {
         
-        % [C VoiceV measure 62]                                  %! SM4
+        % [C PercussionVoiceV measure 62]                        %! SM4
         c'8
         [
         
@@ -1566,7 +1566,7 @@ C_VoiceV = {
     }
     \times 4/5 {
         
-        % [C VoiceV measure 63]                                  %! SM4
+        % [C PercussionVoiceV measure 63]                        %! SM4
         c'8
         [
         
@@ -1580,21 +1580,21 @@ C_VoiceV = {
         ]
     }
     
-    % [C VoiceV measure 64]                                      %! SM4
+    % [C PercussionVoiceV measure 64]                            %! SM4
     c'2
     
 }
 
 
 C_StaffV = {
-    \context Voice = "VoiceV"
-    \C_VoiceV
+    \context Voice = "PercussionVoiceV"
+    \C_PercussionVoiceV
 }
 
 
-C_VoiceVI = {
+C_PercussionVoiceVI = {
     
-    % [C VoiceVI measure 49]                                     %! SM4
+    % [C PercussionVoiceVI measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1645,7 +1645,7 @@ C_VoiceVI = {
             6                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceVI measure 50]                                     %! SM4
+    % [C PercussionVoiceVI measure 50]                           %! SM4
     c'8
     [
     
@@ -1656,10 +1656,10 @@ C_VoiceVI = {
     c'8
     ]
     
-    % [C VoiceVI measure 51]                                     %! SM4
+    % [C PercussionVoiceVI measure 51]                           %! SM4
     r2
     
-    % [C VoiceVI measure 52]                                     %! SM4
+    % [C PercussionVoiceVI measure 52]                           %! SM4
     c'8
     [
     
@@ -1670,11 +1670,11 @@ C_VoiceVI = {
     c'8
     ]
     
-    % [C VoiceVI measure 53]                                     %! SM4
+    % [C PercussionVoiceVI measure 53]                           %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceVI measure 54]                                 %! SM4
+        % [C PercussionVoiceVI measure 54]                       %! SM4
         c'4
         
         c'4
@@ -1682,13 +1682,13 @@ C_VoiceVI = {
         c'4
     }
     
-    % [C VoiceVI measure 55]                                     %! SM4
+    % [C PercussionVoiceVI measure 55]                           %! SM4
     c'4
     
     c'4
     \times 4/7 {
         
-        % [C VoiceVI measure 56]                                 %! SM4
+        % [C PercussionVoiceVI measure 56]                       %! SM4
         c'8
         [
         
@@ -1706,11 +1706,11 @@ C_VoiceVI = {
         ]
     }
     
-    % [C VoiceVI measure 57]                                     %! SM4
+    % [C PercussionVoiceVI measure 57]                           %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceVI measure 58]                                 %! SM4
+        % [C PercussionVoiceVI measure 58]                       %! SM4
         c'8
         [
         
@@ -1726,7 +1726,7 @@ C_VoiceVI = {
         ]
     }
     
-    % [C VoiceVI measure 59]                                     %! SM4
+    % [C PercussionVoiceVI measure 59]                           %! SM4
     c'8
     [
     
@@ -1738,7 +1738,7 @@ C_VoiceVI = {
     ]
     \times 2/3 {
         
-        % [C VoiceVI measure 60]                                 %! SM4
+        % [C PercussionVoiceVI measure 60]                       %! SM4
         c'8
         [
         
@@ -1754,11 +1754,11 @@ C_VoiceVI = {
         ]
     }
     
-    % [C VoiceVI measure 61]                                     %! SM4
+    % [C PercussionVoiceVI measure 61]                           %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceVI measure 62]                                 %! SM4
+        % [C PercussionVoiceVI measure 62]                       %! SM4
         c'8
         [
         
@@ -1773,7 +1773,7 @@ C_VoiceVI = {
     }
     \times 2/3 {
         
-        % [C VoiceVI measure 63]                                 %! SM4
+        % [C PercussionVoiceVI measure 63]                       %! SM4
         c'8
         [
         
@@ -1789,21 +1789,21 @@ C_VoiceVI = {
         ]
     }
     
-    % [C VoiceVI measure 64]                                     %! SM4
+    % [C PercussionVoiceVI measure 64]                           %! SM4
     c'2
     
 }
 
 
 C_StaffVI = {
-    \context Voice = "VoiceVI"
-    \C_VoiceVI
+    \context Voice = "PercussionVoiceVI"
+    \C_PercussionVoiceVI
 }
 
 
-C_VoiceVII = {
+C_PercussionVoiceVII = {
     
-    % [C VoiceVII measure 49]                                    %! SM4
+    % [C PercussionVoiceVII measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1854,10 +1854,10 @@ C_VoiceVII = {
             7                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceVII measure 50]                                    %! SM4
+    % [C PercussionVoiceVII measure 50]                          %! SM4
     r2
     
-    % [C VoiceVII measure 51]                                    %! SM4
+    % [C PercussionVoiceVII measure 51]                          %! SM4
     c'8
     [
     
@@ -1868,7 +1868,7 @@ C_VoiceVII = {
     c'8
     ]
     
-    % [C VoiceVII measure 52]                                    %! SM4
+    % [C PercussionVoiceVII measure 52]                          %! SM4
     c'8
     [
     
@@ -1879,14 +1879,14 @@ C_VoiceVII = {
     c'8
     ]
     
-    % [C VoiceVII measure 53]                                    %! SM4
+    % [C PercussionVoiceVII measure 53]                          %! SM4
     r2
     
-    % [C VoiceVII measure 54]                                    %! SM4
+    % [C PercussionVoiceVII measure 54]                          %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceVII measure 55]                                %! SM4
+        % [C PercussionVoiceVII measure 55]                      %! SM4
         c'8
         [
         
@@ -1901,7 +1901,7 @@ C_VoiceVII = {
     }
     \times 2/3 {
         
-        % [C VoiceVII measure 56]                                %! SM4
+        % [C PercussionVoiceVII measure 56]                      %! SM4
         c'4
         
         c'4
@@ -1909,7 +1909,7 @@ C_VoiceVII = {
         c'4
     }
     
-    % [C VoiceVII measure 57]                                    %! SM4
+    % [C PercussionVoiceVII measure 57]                          %! SM4
     c'8
     [
     
@@ -1920,7 +1920,7 @@ C_VoiceVII = {
     c'8
     ]
     
-    % [C VoiceVII measure 58]                                    %! SM4
+    % [C PercussionVoiceVII measure 58]                          %! SM4
     c'8
     [
     
@@ -1932,7 +1932,7 @@ C_VoiceVII = {
     ]
     \times 2/3 {
         
-        % [C VoiceVII measure 59]                                %! SM4
+        % [C PercussionVoiceVII measure 59]                      %! SM4
         c'8
         [
         
@@ -1948,12 +1948,12 @@ C_VoiceVII = {
         ]
     }
     
-    % [C VoiceVII measure 60]                                    %! SM4
+    % [C PercussionVoiceVII measure 60]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceVII measure 61]                                    %! SM4
+    % [C PercussionVoiceVII measure 61]                          %! SM4
     c'8
     [
     
@@ -1964,7 +1964,7 @@ C_VoiceVII = {
     c'8
     ]
     
-    % [C VoiceVII measure 62]                                    %! SM4
+    % [C PercussionVoiceVII measure 62]                          %! SM4
     c'8
     [
     
@@ -1976,7 +1976,7 @@ C_VoiceVII = {
     ]
     \times 4/7 {
         
-        % [C VoiceVII measure 63]                                %! SM4
+        % [C PercussionVoiceVII measure 63]                      %! SM4
         c'8
         [
         
@@ -1994,21 +1994,21 @@ C_VoiceVII = {
         ]
     }
     
-    % [C VoiceVII measure 64]                                    %! SM4
+    % [C PercussionVoiceVII measure 64]                          %! SM4
     c'2
     
 }
 
 
 C_StaffVII = {
-    \context Voice = "VoiceVII"
-    \C_VoiceVII
+    \context Voice = "PercussionVoiceVII"
+    \C_PercussionVoiceVII
 }
 
 
-C_VoiceVIII = {
+C_PercussionVoiceVIII = {
     
-    % [C VoiceVIII measure 49]                                   %! SM4
+    % [C PercussionVoiceVIII measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2059,13 +2059,13 @@ C_VoiceVIII = {
             8                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceVIII measure 50]                                   %! SM4
+    % [C PercussionVoiceVIII measure 50]                         %! SM4
     r2
     
-    % [C VoiceVIII measure 51]                                   %! SM4
+    % [C PercussionVoiceVIII measure 51]                         %! SM4
     r2
     
-    % [C VoiceVIII measure 52]                                   %! SM4
+    % [C PercussionVoiceVIII measure 52]                         %! SM4
     c'8
     [
     
@@ -2076,17 +2076,17 @@ C_VoiceVIII = {
     c'8
     ]
     
-    % [C VoiceVIII measure 53]                                   %! SM4
+    % [C PercussionVoiceVIII measure 53]                         %! SM4
     r2
     
-    % [C VoiceVIII measure 54]                                   %! SM4
+    % [C PercussionVoiceVIII measure 54]                         %! SM4
     r2
     
-    % [C VoiceVIII measure 55]                                   %! SM4
+    % [C PercussionVoiceVIII measure 55]                         %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceVIII measure 56]                               %! SM4
+        % [C PercussionVoiceVIII measure 56]                     %! SM4
         c'4
         
         c'4
@@ -2094,10 +2094,10 @@ C_VoiceVIII = {
         c'4
     }
     
-    % [C VoiceVIII measure 57]                                   %! SM4
+    % [C PercussionVoiceVIII measure 57]                         %! SM4
     r2
     
-    % [C VoiceVIII measure 58]                                   %! SM4
+    % [C PercussionVoiceVIII measure 58]                         %! SM4
     c'8
     [
     
@@ -2108,18 +2108,18 @@ C_VoiceVIII = {
     c'8
     ]
     
-    % [C VoiceVIII measure 59]                                   %! SM4
+    % [C PercussionVoiceVIII measure 59]                         %! SM4
     r2
     
-    % [C VoiceVIII measure 60]                                   %! SM4
+    % [C PercussionVoiceVIII measure 60]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceVIII measure 61]                                   %! SM4
+    % [C PercussionVoiceVIII measure 61]                         %! SM4
     r2
     
-    % [C VoiceVIII measure 62]                                   %! SM4
+    % [C PercussionVoiceVIII measure 62]                         %! SM4
     c'8
     [
     
@@ -2130,24 +2130,24 @@ C_VoiceVIII = {
     c'8
     ]
     
-    % [C VoiceVIII measure 63]                                   %! SM4
+    % [C PercussionVoiceVIII measure 63]                         %! SM4
     r2
     
-    % [C VoiceVIII measure 64]                                   %! SM4
+    % [C PercussionVoiceVIII measure 64]                         %! SM4
     c'2
     
 }
 
 
 C_StaffVIII = {
-    \context Voice = "VoiceVIII"
-    \C_VoiceVIII
+    \context Voice = "PercussionVoiceVIII"
+    \C_PercussionVoiceVIII
 }
 
 
-C_VoiceIX = {
+C_PercussionVoiceIX = {
     
-    % [C VoiceIX measure 49]                                     %! SM4
+    % [C PercussionVoiceIX measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2200,23 +2200,23 @@ C_VoiceIX = {
     
     c'4
     
-    % [C VoiceIX measure 50]                                     %! SM4
+    % [C PercussionVoiceIX measure 50]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceIX measure 51]                                     %! SM4
+    % [C PercussionVoiceIX measure 51]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceIX measure 52]                                     %! SM4
+    % [C PercussionVoiceIX measure 52]                           %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceIX measure 53]                                 %! SM4
+        % [C PercussionVoiceIX measure 53]                       %! SM4
         c'8
         [
         
@@ -2233,7 +2233,7 @@ C_VoiceIX = {
     }
     \times 2/3 {
         
-        % [C VoiceIX measure 54]                                 %! SM4
+        % [C PercussionVoiceIX measure 54]                       %! SM4
         c'8
         [
         
@@ -2250,7 +2250,7 @@ C_VoiceIX = {
     }
     \times 2/3 {
         
-        % [C VoiceIX measure 55]                                 %! SM4
+        % [C PercussionVoiceIX measure 55]                       %! SM4
         c'8
         [
         
@@ -2267,7 +2267,7 @@ C_VoiceIX = {
     }
     \times 2/3 {
         
-        % [C VoiceIX measure 56]                                 %! SM4
+        % [C PercussionVoiceIX measure 56]                       %! SM4
         c'8
         [
         
@@ -2284,7 +2284,7 @@ C_VoiceIX = {
     }
     \times 2/3 {
         
-        % [C VoiceIX measure 57]                                 %! SM4
+        % [C PercussionVoiceIX measure 57]                       %! SM4
         c'4
         
         c'4
@@ -2293,7 +2293,7 @@ C_VoiceIX = {
     }
     \times 2/3 {
         
-        % [C VoiceIX measure 58]                                 %! SM4
+        % [C PercussionVoiceIX measure 58]                       %! SM4
         c'4
         
         c'4
@@ -2302,7 +2302,7 @@ C_VoiceIX = {
     }
     \times 4/7 {
         
-        % [C VoiceIX measure 59]                                 %! SM4
+        % [C PercussionVoiceIX measure 59]                       %! SM4
         c'8
         [
         
@@ -2321,7 +2321,7 @@ C_VoiceIX = {
     }
     \times 4/7 {
         
-        % [C VoiceIX measure 60]                                 %! SM4
+        % [C PercussionVoiceIX measure 60]                       %! SM4
         c'8
         [
         
@@ -2340,7 +2340,7 @@ C_VoiceIX = {
     }
     \times 4/5 {
         
-        % [C VoiceIX measure 61]                                 %! SM4
+        % [C PercussionVoiceIX measure 61]                       %! SM4
         c'8
         [
         
@@ -2355,7 +2355,7 @@ C_VoiceIX = {
     }
     \times 4/5 {
         
-        % [C VoiceIX measure 62]                                 %! SM4
+        % [C PercussionVoiceIX measure 62]                       %! SM4
         c'8
         [
         
@@ -2369,24 +2369,24 @@ C_VoiceIX = {
         ]
     }
     
-    % [C VoiceIX measure 63]                                     %! SM4
+    % [C PercussionVoiceIX measure 63]                           %! SM4
     c'2
     
-    % [C VoiceIX measure 64]                                     %! SM4
+    % [C PercussionVoiceIX measure 64]                           %! SM4
     c'2
     
 }
 
 
 C_StaffIX = {
-    \context Voice = "VoiceIX"
-    \C_VoiceIX
+    \context Voice = "PercussionVoiceIX"
+    \C_PercussionVoiceIX
 }
 
 
-C_VoiceX = {
+C_PercussionVoiceX = {
     
-    % [C VoiceX measure 49]                                      %! SM4
+    % [C PercussionVoiceX measure 49]                            %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2438,7 +2438,7 @@ C_VoiceX = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 2/3 {
         
-        % [C VoiceX measure 50]                                  %! SM4
+        % [C PercussionVoiceX measure 50]                        %! SM4
         c'8
         [
         
@@ -2454,7 +2454,7 @@ C_VoiceX = {
         ]
     }
     
-    % [C VoiceX measure 51]                                      %! SM4
+    % [C PercussionVoiceX measure 51]                            %! SM4
     c'8
     [
     
@@ -2465,20 +2465,20 @@ C_VoiceX = {
     c'8
     ]
     
-    % [C VoiceX measure 52]                                      %! SM4
+    % [C PercussionVoiceX measure 52]                            %! SM4
     c'4
     
     c'4
     
-    % [C VoiceX measure 53]                                      %! SM4
+    % [C PercussionVoiceX measure 53]                            %! SM4
     r2
     
-    % [C VoiceX measure 54]                                      %! SM4
+    % [C PercussionVoiceX measure 54]                            %! SM4
     c'4
     
     c'4
     
-    % [C VoiceX measure 55]                                      %! SM4
+    % [C PercussionVoiceX measure 55]                            %! SM4
     c'8
     [
     
@@ -2490,7 +2490,7 @@ C_VoiceX = {
     ]
     \times 2/3 {
         
-        % [C VoiceX measure 56]                                  %! SM4
+        % [C PercussionVoiceX measure 56]                        %! SM4
         c'8
         [
         
@@ -2506,11 +2506,11 @@ C_VoiceX = {
         ]
     }
     
-    % [C VoiceX measure 57]                                      %! SM4
+    % [C PercussionVoiceX measure 57]                            %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceX measure 58]                                  %! SM4
+        % [C PercussionVoiceX measure 58]                        %! SM4
         c'8
         [
         
@@ -2524,13 +2524,13 @@ C_VoiceX = {
         ]
     }
     
-    % [C VoiceX measure 59]                                      %! SM4
+    % [C PercussionVoiceX measure 59]                            %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceX measure 60]                                  %! SM4
+        % [C PercussionVoiceX measure 60]                        %! SM4
         c'4
         
         c'4
@@ -2538,7 +2538,7 @@ C_VoiceX = {
         c'4
     }
     
-    % [C VoiceX measure 61]                                      %! SM4
+    % [C PercussionVoiceX measure 61]                            %! SM4
     c'8
     [
     
@@ -2550,7 +2550,7 @@ C_VoiceX = {
     ]
     \times 4/7 {
         
-        % [C VoiceX measure 62]                                  %! SM4
+        % [C PercussionVoiceX measure 62]                        %! SM4
         c'8
         [
         
@@ -2568,26 +2568,26 @@ C_VoiceX = {
         ]
     }
     
-    % [C VoiceX measure 63]                                      %! SM4
+    % [C PercussionVoiceX measure 63]                            %! SM4
     c'4
     
     c'4
     
-    % [C VoiceX measure 64]                                      %! SM4
+    % [C PercussionVoiceX measure 64]                            %! SM4
     c'2
     
 }
 
 
 C_StaffX = {
-    \context Voice = "VoiceX"
-    \C_VoiceX
+    \context Voice = "PercussionVoiceX"
+    \C_PercussionVoiceX
 }
 
 
-C_VoiceXI = {
+C_PercussionVoiceXI = {
     
-    % [C VoiceXI measure 49]                                     %! SM4
+    % [C PercussionVoiceXI measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2638,16 +2638,16 @@ C_VoiceXI = {
             11                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXI measure 50]                                     %! SM4
+    % [C PercussionVoiceXI measure 50]                           %! SM4
     r2
     
-    % [C VoiceXI measure 51]                                     %! SM4
+    % [C PercussionVoiceXI measure 51]                           %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXI measure 52]                                 %! SM4
+        % [C PercussionVoiceXI measure 52]                       %! SM4
         c'8
         [
         
@@ -2663,7 +2663,7 @@ C_VoiceXI = {
         ]
     }
     
-    % [C VoiceXI measure 53]                                     %! SM4
+    % [C PercussionVoiceXI measure 53]                           %! SM4
     c'8
     [
     
@@ -2674,7 +2674,7 @@ C_VoiceXI = {
     c'8
     ]
     
-    % [C VoiceXI measure 54]                                     %! SM4
+    % [C PercussionVoiceXI measure 54]                           %! SM4
     c'8
     [
     
@@ -2685,13 +2685,13 @@ C_VoiceXI = {
     c'8
     ]
     
-    % [C VoiceXI measure 55]                                     %! SM4
+    % [C PercussionVoiceXI measure 55]                           %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXI measure 56]                                 %! SM4
+        % [C PercussionVoiceXI measure 56]                       %! SM4
         c'8
         [
         
@@ -2707,14 +2707,14 @@ C_VoiceXI = {
         ]
     }
     
-    % [C VoiceXI measure 57]                                     %! SM4
+    % [C PercussionVoiceXI measure 57]                           %! SM4
     r2
     
-    % [C VoiceXI measure 58]                                     %! SM4
+    % [C PercussionVoiceXI measure 58]                           %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXI measure 59]                                 %! SM4
+        % [C PercussionVoiceXI measure 59]                       %! SM4
         c'4
         
         c'4
@@ -2722,11 +2722,11 @@ C_VoiceXI = {
         c'4
     }
     
-    % [C VoiceXI measure 60]                                     %! SM4
+    % [C PercussionVoiceXI measure 60]                           %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXI measure 61]                                 %! SM4
+        % [C PercussionVoiceXI measure 61]                       %! SM4
         c'8
         [
         
@@ -2742,13 +2742,13 @@ C_VoiceXI = {
         ]
     }
     
-    % [C VoiceXI measure 62]                                     %! SM4
+    % [C PercussionVoiceXI measure 62]                           %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXI measure 63]                                 %! SM4
+        % [C PercussionVoiceXI measure 63]                       %! SM4
         c'4
         
         c'4
@@ -2756,21 +2756,21 @@ C_VoiceXI = {
         c'4
     }
     
-    % [C VoiceXI measure 64]                                     %! SM4
+    % [C PercussionVoiceXI measure 64]                           %! SM4
     c'2
     
 }
 
 
 C_StaffXI = {
-    \context Voice = "VoiceXI"
-    \C_VoiceXI
+    \context Voice = "PercussionVoiceXI"
+    \C_PercussionVoiceXI
 }
 
 
-C_VoiceXII = {
+C_PercussionVoiceXII = {
     
-    % [C VoiceXII measure 49]                                    %! SM4
+    % [C PercussionVoiceXII measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2821,14 +2821,14 @@ C_VoiceXII = {
             12                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXII measure 50]                                    %! SM4
+    % [C PercussionVoiceXII measure 50]                          %! SM4
     r2
     
-    % [C VoiceXII measure 51]                                    %! SM4
+    % [C PercussionVoiceXII measure 51]                          %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXII measure 52]                                %! SM4
+        % [C PercussionVoiceXII measure 52]                      %! SM4
         c'8
         [
         
@@ -2844,10 +2844,10 @@ C_VoiceXII = {
         ]
     }
     
-    % [C VoiceXII measure 53]                                    %! SM4
+    % [C PercussionVoiceXII measure 53]                          %! SM4
     r2
     
-    % [C VoiceXII measure 54]                                    %! SM4
+    % [C PercussionVoiceXII measure 54]                          %! SM4
     c'8
     [
     
@@ -2858,11 +2858,11 @@ C_VoiceXII = {
     c'8
     ]
     
-    % [C VoiceXII measure 55]                                    %! SM4
+    % [C PercussionVoiceXII measure 55]                          %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXII measure 56]                                %! SM4
+        % [C PercussionVoiceXII measure 56]                      %! SM4
         c'8
         [
         
@@ -2878,17 +2878,17 @@ C_VoiceXII = {
         ]
     }
     
-    % [C VoiceXII measure 57]                                    %! SM4
+    % [C PercussionVoiceXII measure 57]                          %! SM4
     r2
     
-    % [C VoiceXII measure 58]                                    %! SM4
+    % [C PercussionVoiceXII measure 58]                          %! SM4
     r2
     
-    % [C VoiceXII measure 59]                                    %! SM4
+    % [C PercussionVoiceXII measure 59]                          %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXII measure 60]                                %! SM4
+        % [C PercussionVoiceXII measure 60]                      %! SM4
         c'8
         [
         
@@ -2902,7 +2902,7 @@ C_VoiceXII = {
         ]
     }
     
-    % [C VoiceXII measure 61]                                    %! SM4
+    % [C PercussionVoiceXII measure 61]                          %! SM4
     c'8
     [
     
@@ -2914,7 +2914,7 @@ C_VoiceXII = {
     ]
     \times 2/3 {
         
-        % [C VoiceXII measure 62]                                %! SM4
+        % [C PercussionVoiceXII measure 62]                      %! SM4
         c'8
         [
         
@@ -2930,7 +2930,7 @@ C_VoiceXII = {
         ]
     }
     
-    % [C VoiceXII measure 63]                                    %! SM4
+    % [C PercussionVoiceXII measure 63]                          %! SM4
     c'8
     [
     
@@ -2941,21 +2941,21 @@ C_VoiceXII = {
     c'8
     ]
     
-    % [C VoiceXII measure 64]                                    %! SM4
+    % [C PercussionVoiceXII measure 64]                          %! SM4
     c'2
     
 }
 
 
 C_StaffXII = {
-    \context Voice = "VoiceXII"
-    \C_VoiceXII
+    \context Voice = "PercussionVoiceXII"
+    \C_PercussionVoiceXII
 }
 
 
-C_VoiceXIII = {
+C_PercussionVoiceXIII = {
     
-    % [C VoiceXIII measure 49]                                   %! SM4
+    % [C PercussionVoiceXIII measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3014,7 +3014,7 @@ C_VoiceXIII = {
     c'8
     ]
     
-    % [C VoiceXIII measure 50]                                   %! SM4
+    % [C PercussionVoiceXIII measure 50]                         %! SM4
     c'8
     [
     
@@ -3025,7 +3025,7 @@ C_VoiceXIII = {
     c'8
     ]
     
-    % [C VoiceXIII measure 51]                                   %! SM4
+    % [C PercussionVoiceXIII measure 51]                         %! SM4
     c'8
     [
     
@@ -3036,7 +3036,7 @@ C_VoiceXIII = {
     c'8
     ]
     
-    % [C VoiceXIII measure 52]                                   %! SM4
+    % [C PercussionVoiceXIII measure 52]                         %! SM4
     c'8
     [
     
@@ -3048,7 +3048,7 @@ C_VoiceXIII = {
     ]
     \times 2/3 {
         
-        % [C VoiceXIII measure 53]                               %! SM4
+        % [C PercussionVoiceXIII measure 53]                     %! SM4
         c'8
         [
         
@@ -3065,7 +3065,7 @@ C_VoiceXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXIII measure 54]                               %! SM4
+        % [C PercussionVoiceXIII measure 54]                     %! SM4
         c'8
         [
         
@@ -3081,17 +3081,17 @@ C_VoiceXIII = {
         ]
     }
     
-    % [C VoiceXIII measure 55]                                   %! SM4
+    % [C PercussionVoiceXIII measure 55]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXIII measure 56]                                   %! SM4
+    % [C PercussionVoiceXIII measure 56]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXIII measure 57]                                   %! SM4
+    % [C PercussionVoiceXIII measure 57]                         %! SM4
     c'8
     [
     
@@ -3102,7 +3102,7 @@ C_VoiceXIII = {
     c'8
     ]
     
-    % [C VoiceXIII measure 58]                                   %! SM4
+    % [C PercussionVoiceXIII measure 58]                         %! SM4
     c'8
     [
     
@@ -3113,7 +3113,7 @@ C_VoiceXIII = {
     c'8
     ]
     
-    % [C VoiceXIII measure 59]                                   %! SM4
+    % [C PercussionVoiceXIII measure 59]                         %! SM4
     c'8
     [
     
@@ -3124,7 +3124,7 @@ C_VoiceXIII = {
     c'8
     ]
     
-    % [C VoiceXIII measure 60]                                   %! SM4
+    % [C PercussionVoiceXIII measure 60]                         %! SM4
     c'8
     [
     
@@ -3136,7 +3136,7 @@ C_VoiceXIII = {
     ]
     \times 4/7 {
         
-        % [C VoiceXIII measure 61]                               %! SM4
+        % [C PercussionVoiceXIII measure 61]                     %! SM4
         c'8
         [
         
@@ -3155,7 +3155,7 @@ C_VoiceXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXIII measure 62]                               %! SM4
+        % [C PercussionVoiceXIII measure 62]                     %! SM4
         c'4
         
         c'4
@@ -3164,7 +3164,7 @@ C_VoiceXIII = {
     }
     \times 4/5 {
         
-        % [C VoiceXIII measure 63]                               %! SM4
+        % [C PercussionVoiceXIII measure 63]                     %! SM4
         c'8
         [
         
@@ -3178,21 +3178,21 @@ C_VoiceXIII = {
         ]
     }
     
-    % [C VoiceXIII measure 64]                                   %! SM4
+    % [C PercussionVoiceXIII measure 64]                         %! SM4
     c'2
     
 }
 
 
 C_StaffXIII = {
-    \context Voice = "VoiceXIII"
-    \C_VoiceXIII
+    \context Voice = "PercussionVoiceXIII"
+    \C_PercussionVoiceXIII
 }
 
 
-C_VoiceXIV = {
+C_PercussionVoiceXIV = {
     
-    % [C VoiceXIV measure 49]                                    %! SM4
+    % [C PercussionVoiceXIV measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3243,7 +3243,7 @@ C_VoiceXIV = {
             14                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXIV measure 50]                                    %! SM4
+    % [C PercussionVoiceXIV measure 50]                          %! SM4
     c'8
     [
     
@@ -3254,10 +3254,10 @@ C_VoiceXIV = {
     c'8
     ]
     
-    % [C VoiceXIV measure 51]                                    %! SM4
+    % [C PercussionVoiceXIV measure 51]                          %! SM4
     r2
     
-    % [C VoiceXIV measure 52]                                    %! SM4
+    % [C PercussionVoiceXIV measure 52]                          %! SM4
     c'8
     [
     
@@ -3268,15 +3268,15 @@ C_VoiceXIV = {
     c'8
     ]
     
-    % [C VoiceXIV measure 53]                                    %! SM4
+    % [C PercussionVoiceXIV measure 53]                          %! SM4
     r2
     
-    % [C VoiceXIV measure 54]                                    %! SM4
+    % [C PercussionVoiceXIV measure 54]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXIV measure 55]                                    %! SM4
+    % [C PercussionVoiceXIV measure 55]                          %! SM4
     c'8
     [
     
@@ -3287,15 +3287,15 @@ C_VoiceXIV = {
     c'8
     ]
     
-    % [C VoiceXIV measure 56]                                    %! SM4
+    % [C PercussionVoiceXIV measure 56]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXIV measure 57]                                    %! SM4
+    % [C PercussionVoiceXIV measure 57]                          %! SM4
     r2
     
-    % [C VoiceXIV measure 58]                                    %! SM4
+    % [C PercussionVoiceXIV measure 58]                          %! SM4
     c'8
     [
     
@@ -3306,10 +3306,10 @@ C_VoiceXIV = {
     c'8
     ]
     
-    % [C VoiceXIV measure 59]                                    %! SM4
+    % [C PercussionVoiceXIV measure 59]                          %! SM4
     r2
     
-    % [C VoiceXIV measure 60]                                    %! SM4
+    % [C PercussionVoiceXIV measure 60]                          %! SM4
     c'8
     [
     
@@ -3320,14 +3320,14 @@ C_VoiceXIV = {
     c'8
     ]
     
-    % [C VoiceXIV measure 61]                                    %! SM4
+    % [C PercussionVoiceXIV measure 61]                          %! SM4
     r2
     
-    % [C VoiceXIV measure 62]                                    %! SM4
+    % [C PercussionVoiceXIV measure 62]                          %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXIV measure 63]                                %! SM4
+        % [C PercussionVoiceXIV measure 63]                      %! SM4
         c'8
         [
         
@@ -3343,21 +3343,21 @@ C_VoiceXIV = {
         ]
     }
     
-    % [C VoiceXIV measure 64]                                    %! SM4
+    % [C PercussionVoiceXIV measure 64]                          %! SM4
     c'2
     
 }
 
 
 C_StaffXIV = {
-    \context Voice = "VoiceXIV"
-    \C_VoiceXIV
+    \context Voice = "PercussionVoiceXIV"
+    \C_PercussionVoiceXIV
 }
 
 
-C_VoiceXV = {
+C_PercussionVoiceXV = {
     
-    % [C VoiceXV measure 49]                                     %! SM4
+    % [C PercussionVoiceXV measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3408,10 +3408,10 @@ C_VoiceXV = {
             15                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXV measure 50]                                     %! SM4
+    % [C PercussionVoiceXV measure 50]                           %! SM4
     r2
     
-    % [C VoiceXV measure 51]                                     %! SM4
+    % [C PercussionVoiceXV measure 51]                           %! SM4
     c'8
     [
     
@@ -3422,7 +3422,7 @@ C_VoiceXV = {
     c'8
     ]
     
-    % [C VoiceXV measure 52]                                     %! SM4
+    % [C PercussionVoiceXV measure 52]                           %! SM4
     c'8
     [
     
@@ -3433,14 +3433,14 @@ C_VoiceXV = {
     c'8
     ]
     
-    % [C VoiceXV measure 53]                                     %! SM4
+    % [C PercussionVoiceXV measure 53]                           %! SM4
     r2
     
-    % [C VoiceXV measure 54]                                     %! SM4
+    % [C PercussionVoiceXV measure 54]                           %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXV measure 55]                                 %! SM4
+        % [C PercussionVoiceXV measure 55]                       %! SM4
         c'8
         [
         
@@ -3456,18 +3456,18 @@ C_VoiceXV = {
         ]
     }
     
-    % [C VoiceXV measure 56]                                     %! SM4
+    % [C PercussionVoiceXV measure 56]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXV measure 57]                                     %! SM4
+    % [C PercussionVoiceXV measure 57]                           %! SM4
     r2
     
-    % [C VoiceXV measure 58]                                     %! SM4
+    % [C PercussionVoiceXV measure 58]                           %! SM4
     r2
     
-    % [C VoiceXV measure 59]                                     %! SM4
+    % [C PercussionVoiceXV measure 59]                           %! SM4
     c'8
     [
     
@@ -3478,7 +3478,7 @@ C_VoiceXV = {
     c'8
     ]
     
-    % [C VoiceXV measure 60]                                     %! SM4
+    % [C PercussionVoiceXV measure 60]                           %! SM4
     c'8
     [
     
@@ -3489,14 +3489,14 @@ C_VoiceXV = {
     c'8
     ]
     
-    % [C VoiceXV measure 61]                                     %! SM4
+    % [C PercussionVoiceXV measure 61]                           %! SM4
     r2
     
-    % [C VoiceXV measure 62]                                     %! SM4
+    % [C PercussionVoiceXV measure 62]                           %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXV measure 63]                                 %! SM4
+        % [C PercussionVoiceXV measure 63]                       %! SM4
         c'8
         [
         
@@ -3514,21 +3514,21 @@ C_VoiceXV = {
         ]
     }
     
-    % [C VoiceXV measure 64]                                     %! SM4
+    % [C PercussionVoiceXV measure 64]                           %! SM4
     c'2
     
 }
 
 
 C_StaffXV = {
-    \context Voice = "VoiceXV"
-    \C_VoiceXV
+    \context Voice = "PercussionVoiceXV"
+    \C_PercussionVoiceXV
 }
 
 
-C_VoiceXVI = {
+C_PercussionVoiceXVI = {
     
-    % [C VoiceXVI measure 49]                                    %! SM4
+    % [C PercussionVoiceXVI measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3579,13 +3579,13 @@ C_VoiceXVI = {
             16                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXVI measure 50]                                    %! SM4
+    % [C PercussionVoiceXVI measure 50]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 51]                                    %! SM4
+    % [C PercussionVoiceXVI measure 51]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 52]                                    %! SM4
+    % [C PercussionVoiceXVI measure 52]                          %! SM4
     c'8
     [
     
@@ -3596,30 +3596,30 @@ C_VoiceXVI = {
     c'8
     ]
     
-    % [C VoiceXVI measure 53]                                    %! SM4
+    % [C PercussionVoiceXVI measure 53]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 54]                                    %! SM4
+    % [C PercussionVoiceXVI measure 54]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 55]                                    %! SM4
+    % [C PercussionVoiceXVI measure 55]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 56]                                    %! SM4
+    % [C PercussionVoiceXVI measure 56]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXVI measure 57]                                    %! SM4
+    % [C PercussionVoiceXVI measure 57]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 58]                                    %! SM4
+    % [C PercussionVoiceXVI measure 58]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 59]                                    %! SM4
+    % [C PercussionVoiceXVI measure 59]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 60]                                    %! SM4
+    % [C PercussionVoiceXVI measure 60]                          %! SM4
     c'8
     [
     
@@ -3630,31 +3630,31 @@ C_VoiceXVI = {
     c'8
     ]
     
-    % [C VoiceXVI measure 61]                                    %! SM4
+    % [C PercussionVoiceXVI measure 61]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 62]                                    %! SM4
+    % [C PercussionVoiceXVI measure 62]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 63]                                    %! SM4
+    % [C PercussionVoiceXVI measure 63]                          %! SM4
     r2
     
-    % [C VoiceXVI measure 64]                                    %! SM4
+    % [C PercussionVoiceXVI measure 64]                          %! SM4
     c'2
     
 }
 
 
 C_StaffXVI = {
-    \context Voice = "VoiceXVI"
-    \C_VoiceXVI
+    \context Voice = "PercussionVoiceXVI"
+    \C_PercussionVoiceXVI
 }
 
 
-C_VoiceXVII = {
+C_PercussionVoiceXVII = {
     \times 4/7 {
         
-        % [C VoiceXVII measure 49]                               %! SM4
+        % [C PercussionVoiceXVII measure 49]                     %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3721,7 +3721,7 @@ C_VoiceXVII = {
     }
     \times 4/7 {
         
-        % [C VoiceXVII measure 50]                               %! SM4
+        % [C PercussionVoiceXVII measure 50]                     %! SM4
         c'8
         [
         
@@ -3740,7 +3740,7 @@ C_VoiceXVII = {
     }
     \times 4/7 {
         
-        % [C VoiceXVII measure 51]                               %! SM4
+        % [C PercussionVoiceXVII measure 51]                     %! SM4
         c'8
         [
         
@@ -3759,7 +3759,7 @@ C_VoiceXVII = {
     }
     \times 4/7 {
         
-        % [C VoiceXVII measure 52]                               %! SM4
+        % [C PercussionVoiceXVII measure 52]                     %! SM4
         c'8
         [
         
@@ -3778,7 +3778,7 @@ C_VoiceXVII = {
     }
     \times 2/3 {
         
-        % [C VoiceXVII measure 53]                               %! SM4
+        % [C PercussionVoiceXVII measure 53]                     %! SM4
         c'4
         
         c'4
@@ -3787,7 +3787,7 @@ C_VoiceXVII = {
     }
     \times 2/3 {
         
-        % [C VoiceXVII measure 54]                               %! SM4
+        % [C PercussionVoiceXVII measure 54]                     %! SM4
         c'4
         
         c'4
@@ -3796,7 +3796,7 @@ C_VoiceXVII = {
     }
     \times 2/3 {
         
-        % [C VoiceXVII measure 55]                               %! SM4
+        % [C PercussionVoiceXVII measure 55]                     %! SM4
         c'4
         
         c'4
@@ -3805,7 +3805,7 @@ C_VoiceXVII = {
     }
     \times 2/3 {
         
-        % [C VoiceXVII measure 56]                               %! SM4
+        % [C PercussionVoiceXVII measure 56]                     %! SM4
         c'4
         
         c'4
@@ -3813,20 +3813,20 @@ C_VoiceXVII = {
         c'4
     }
     
-    % [C VoiceXVII measure 57]                                   %! SM4
+    % [C PercussionVoiceXVII measure 57]                         %! SM4
     c'2
     
-    % [C VoiceXVII measure 58]                                   %! SM4
+    % [C PercussionVoiceXVII measure 58]                         %! SM4
     c'2
     
-    % [C VoiceXVII measure 59]                                   %! SM4
+    % [C PercussionVoiceXVII measure 59]                         %! SM4
     c'2
     
-    % [C VoiceXVII measure 60]                                   %! SM4
+    % [C PercussionVoiceXVII measure 60]                         %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceXVII measure 61]                               %! SM4
+        % [C PercussionVoiceXVII measure 61]                     %! SM4
         c'8
         [
         
@@ -3841,7 +3841,7 @@ C_VoiceXVII = {
     }
     \times 4/5 {
         
-        % [C VoiceXVII measure 62]                               %! SM4
+        % [C PercussionVoiceXVII measure 62]                     %! SM4
         c'8
         [
         
@@ -3856,7 +3856,7 @@ C_VoiceXVII = {
     }
     \times 4/5 {
         
-        % [C VoiceXVII measure 63]                               %! SM4
+        % [C PercussionVoiceXVII measure 63]                     %! SM4
         c'8
         [
         
@@ -3871,7 +3871,7 @@ C_VoiceXVII = {
     }
     \times 4/5 {
         
-        % [C VoiceXVII measure 64]                               %! SM4
+        % [C PercussionVoiceXVII measure 64]                     %! SM4
         c'8
         [
         
@@ -3889,14 +3889,14 @@ C_VoiceXVII = {
 
 
 C_StaffXVII = {
-    \context Voice = "VoiceXVII"
-    \C_VoiceXVII
+    \context Voice = "PercussionVoiceXVII"
+    \C_PercussionVoiceXVII
 }
 
 
-C_VoiceXVIII = {
+C_PercussionVoiceXVIII = {
     
-    % [C VoiceXVIII measure 49]                                  %! SM4
+    % [C PercussionVoiceXVIII measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3947,16 +3947,16 @@ C_VoiceXVIII = {
             18                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXVIII measure 50]                                  %! SM4
+    % [C PercussionVoiceXVIII measure 50]                        %! SM4
     c'2
     
-    % [C VoiceXVIII measure 51]                                  %! SM4
+    % [C PercussionVoiceXVIII measure 51]                        %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXVIII measure 52]                              %! SM4
+        % [C PercussionVoiceXVIII measure 52]                    %! SM4
         c'4
         
         c'4
@@ -3964,7 +3964,7 @@ C_VoiceXVIII = {
         c'4
     }
     
-    % [C VoiceXVIII measure 53]                                  %! SM4
+    % [C PercussionVoiceXVIII measure 53]                        %! SM4
     c'8
     [
     
@@ -3975,11 +3975,11 @@ C_VoiceXVIII = {
     c'8
     ]
     
-    % [C VoiceXVIII measure 54]                                  %! SM4
+    % [C PercussionVoiceXVIII measure 54]                        %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXVIII measure 55]                              %! SM4
+        % [C PercussionVoiceXVIII measure 55]                    %! SM4
         c'8
         [
         
@@ -3996,7 +3996,7 @@ C_VoiceXVIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXVIII measure 56]                              %! SM4
+        % [C PercussionVoiceXVIII measure 56]                    %! SM4
         c'4
         
         c'4
@@ -4004,11 +4004,11 @@ C_VoiceXVIII = {
         c'4
     }
     
-    % [C VoiceXVIII measure 57]                                  %! SM4
+    % [C PercussionVoiceXVIII measure 57]                        %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXVIII measure 58]                              %! SM4
+        % [C PercussionVoiceXVIII measure 58]                    %! SM4
         c'8
         [
         
@@ -4027,7 +4027,7 @@ C_VoiceXVIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXVIII measure 59]                              %! SM4
+        % [C PercussionVoiceXVIII measure 59]                    %! SM4
         c'8
         [
         
@@ -4044,7 +4044,7 @@ C_VoiceXVIII = {
     }
     \times 4/5 {
         
-        % [C VoiceXVIII measure 60]                              %! SM4
+        % [C PercussionVoiceXVIII measure 60]                    %! SM4
         c'8
         [
         
@@ -4058,7 +4058,7 @@ C_VoiceXVIII = {
         ]
     }
     
-    % [C VoiceXVIII measure 61]                                  %! SM4
+    % [C PercussionVoiceXVIII measure 61]                        %! SM4
     c'8
     [
     
@@ -4070,7 +4070,7 @@ C_VoiceXVIII = {
     ]
     \times 4/7 {
         
-        % [C VoiceXVIII measure 62]                              %! SM4
+        % [C PercussionVoiceXVIII measure 62]                    %! SM4
         c'8
         [
         
@@ -4088,13 +4088,13 @@ C_VoiceXVIII = {
         ]
     }
     
-    % [C VoiceXVIII measure 63]                                  %! SM4
+    % [C PercussionVoiceXVIII measure 63]                        %! SM4
     c'4
     
     c'4
     \times 4/5 {
         
-        % [C VoiceXVIII measure 64]                              %! SM4
+        % [C PercussionVoiceXVIII measure 64]                    %! SM4
         c'8
         [
         
@@ -4112,14 +4112,14 @@ C_VoiceXVIII = {
 
 
 C_StaffXVIII = {
-    \context Voice = "VoiceXVIII"
-    \C_VoiceXVIII
+    \context Voice = "PercussionVoiceXVIII"
+    \C_PercussionVoiceXVIII
 }
 
 
-C_VoiceXIX = {
+C_PercussionVoiceXIX = {
     
-    % [C VoiceXIX measure 49]                                    %! SM4
+    % [C PercussionVoiceXIX measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4170,11 +4170,11 @@ C_VoiceXIX = {
             19                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXIX measure 50]                                    %! SM4
+    % [C PercussionVoiceXIX measure 50]                          %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXIX measure 51]                                %! SM4
+        % [C PercussionVoiceXIX measure 51]                      %! SM4
         c'8
         [
         
@@ -4193,7 +4193,7 @@ C_VoiceXIX = {
     }
     \times 4/5 {
         
-        % [C VoiceXIX measure 52]                                %! SM4
+        % [C PercussionVoiceXIX measure 52]                      %! SM4
         c'8
         [
         
@@ -4207,13 +4207,13 @@ C_VoiceXIX = {
         ]
     }
     
-    % [C VoiceXIX measure 53]                                    %! SM4
+    % [C PercussionVoiceXIX measure 53]                          %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXIX measure 54]                                %! SM4
+        % [C PercussionVoiceXIX measure 54]                      %! SM4
         c'8
         [
         
@@ -4230,7 +4230,7 @@ C_VoiceXIX = {
     }
     \times 4/5 {
         
-        % [C VoiceXIX measure 55]                                %! SM4
+        % [C PercussionVoiceXIX measure 55]                      %! SM4
         c'8
         [
         
@@ -4245,7 +4245,7 @@ C_VoiceXIX = {
     }
     \times 4/7 {
         
-        % [C VoiceXIX measure 56]                                %! SM4
+        % [C PercussionVoiceXIX measure 56]                      %! SM4
         c'8
         [
         
@@ -4263,7 +4263,7 @@ C_VoiceXIX = {
         ]
     }
     
-    % [C VoiceXIX measure 57]                                    %! SM4
+    % [C PercussionVoiceXIX measure 57]                          %! SM4
     c'8
     [
     
@@ -4274,7 +4274,7 @@ C_VoiceXIX = {
     c'8
     ]
     
-    % [C VoiceXIX measure 58]                                    %! SM4
+    % [C PercussionVoiceXIX measure 58]                          %! SM4
     c'8
     [
     
@@ -4286,7 +4286,7 @@ C_VoiceXIX = {
     ]
     \times 4/5 {
         
-        % [C VoiceXIX measure 59]                                %! SM4
+        % [C PercussionVoiceXIX measure 59]                      %! SM4
         c'8
         [
         
@@ -4301,7 +4301,7 @@ C_VoiceXIX = {
     }
     \times 4/7 {
         
-        % [C VoiceXIX measure 60]                                %! SM4
+        % [C PercussionVoiceXIX measure 60]                      %! SM4
         c'8
         [
         
@@ -4319,13 +4319,13 @@ C_VoiceXIX = {
         ]
     }
     
-    % [C VoiceXIX measure 61]                                    %! SM4
+    % [C PercussionVoiceXIX measure 61]                          %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXIX measure 62]                                %! SM4
+        % [C PercussionVoiceXIX measure 62]                      %! SM4
         c'8
         [
         
@@ -4342,7 +4342,7 @@ C_VoiceXIX = {
     }
     \times 4/7 {
         
-        % [C VoiceXIX measure 63]                                %! SM4
+        % [C PercussionVoiceXIX measure 63]                      %! SM4
         c'8
         [
         
@@ -4361,7 +4361,7 @@ C_VoiceXIX = {
     }
     \times 4/5 {
         
-        % [C VoiceXIX measure 64]                                %! SM4
+        % [C PercussionVoiceXIX measure 64]                      %! SM4
         c'8
         [
         
@@ -4379,14 +4379,14 @@ C_VoiceXIX = {
 
 
 C_StaffXIX = {
-    \context Voice = "VoiceXIX"
-    \C_VoiceXIX
+    \context Voice = "PercussionVoiceXIX"
+    \C_PercussionVoiceXIX
 }
 
 
-C_VoiceXX = {
+C_PercussionVoiceXX = {
     
-    % [C VoiceXX measure 49]                                     %! SM4
+    % [C PercussionVoiceXX measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4437,16 +4437,16 @@ C_VoiceXX = {
             20                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXX measure 50]                                     %! SM4
+    % [C PercussionVoiceXX measure 50]                           %! SM4
     r2
     
-    % [C VoiceXX measure 51]                                     %! SM4
+    % [C PercussionVoiceXX measure 51]                           %! SM4
     r2
     
-    % [C VoiceXX measure 52]                                     %! SM4
+    % [C PercussionVoiceXX measure 52]                           %! SM4
     c'2
     
-    % [C VoiceXX measure 53]                                     %! SM4
+    % [C PercussionVoiceXX measure 53]                           %! SM4
     c'8
     [
     
@@ -4457,12 +4457,12 @@ C_VoiceXX = {
     c'8
     ]
     
-    % [C VoiceXX measure 54]                                     %! SM4
+    % [C PercussionVoiceXX measure 54]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXX measure 55]                                     %! SM4
+    % [C PercussionVoiceXX measure 55]                           %! SM4
     c'8
     [
     
@@ -4474,7 +4474,7 @@ C_VoiceXX = {
     ]
     \times 4/7 {
         
-        % [C VoiceXX measure 56]                                 %! SM4
+        % [C PercussionVoiceXX measure 56]                       %! SM4
         c'8
         [
         
@@ -4492,10 +4492,10 @@ C_VoiceXX = {
         ]
     }
     
-    % [C VoiceXX measure 57]                                     %! SM4
+    % [C PercussionVoiceXX measure 57]                           %! SM4
     r2
     
-    % [C VoiceXX measure 58]                                     %! SM4
+    % [C PercussionVoiceXX measure 58]                           %! SM4
     c'8
     [
     
@@ -4506,11 +4506,11 @@ C_VoiceXX = {
     c'8
     ]
     
-    % [C VoiceXX measure 59]                                     %! SM4
+    % [C PercussionVoiceXX measure 59]                           %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXX measure 60]                                 %! SM4
+        % [C PercussionVoiceXX measure 60]                       %! SM4
         c'4
         
         c'4
@@ -4518,7 +4518,7 @@ C_VoiceXX = {
         c'4
     }
     
-    % [C VoiceXX measure 61]                                     %! SM4
+    % [C PercussionVoiceXX measure 61]                           %! SM4
     c'8
     [
     
@@ -4529,12 +4529,12 @@ C_VoiceXX = {
     c'8
     ]
     
-    % [C VoiceXX measure 62]                                     %! SM4
+    % [C PercussionVoiceXX measure 62]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXX measure 63]                                     %! SM4
+    % [C PercussionVoiceXX measure 63]                           %! SM4
     c'8
     [
     
@@ -4546,7 +4546,7 @@ C_VoiceXX = {
     ]
     \times 4/5 {
         
-        % [C VoiceXX measure 64]                                 %! SM4
+        % [C PercussionVoiceXX measure 64]                       %! SM4
         c'8
         [
         
@@ -4564,14 +4564,14 @@ C_VoiceXX = {
 
 
 C_StaffXX = {
-    \context Voice = "VoiceXX"
-    \C_VoiceXX
+    \context Voice = "PercussionVoiceXX"
+    \C_PercussionVoiceXX
 }
 
 
-C_VoiceXXI = {
+C_PercussionVoiceXXI = {
     
-    % [C VoiceXXI measure 49]                                    %! SM4
+    % [C PercussionVoiceXXI measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4622,17 +4622,17 @@ C_VoiceXXI = {
             21                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXI measure 50]                                    %! SM4
+    % [C PercussionVoiceXXI measure 50]                          %! SM4
     r2
     
-    % [C VoiceXXI measure 51]                                    %! SM4
+    % [C PercussionVoiceXXI measure 51]                          %! SM4
     r2
     
-    % [C VoiceXXI measure 52]                                    %! SM4
+    % [C PercussionVoiceXXI measure 52]                          %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXXI measure 53]                                %! SM4
+        % [C PercussionVoiceXXI measure 53]                      %! SM4
         c'8
         [
         
@@ -4651,7 +4651,7 @@ C_VoiceXXI = {
     }
     \times 2/3 {
         
-        % [C VoiceXXI measure 54]                                %! SM4
+        % [C PercussionVoiceXXI measure 54]                      %! SM4
         c'4
         
         c'4
@@ -4659,11 +4659,11 @@ C_VoiceXXI = {
         c'4
     }
     
-    % [C VoiceXXI measure 55]                                    %! SM4
+    % [C PercussionVoiceXXI measure 55]                          %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceXXI measure 56]                                %! SM4
+        % [C PercussionVoiceXXI measure 56]                      %! SM4
         c'8
         [
         
@@ -4678,7 +4678,7 @@ C_VoiceXXI = {
     }
     \times 2/3 {
         
-        % [C VoiceXXI measure 57]                                %! SM4
+        % [C PercussionVoiceXXI measure 57]                      %! SM4
         c'8
         [
         
@@ -4695,7 +4695,7 @@ C_VoiceXXI = {
     }
     \times 2/3 {
         
-        % [C VoiceXXI measure 58]                                %! SM4
+        % [C PercussionVoiceXXI measure 58]                      %! SM4
         c'8
         [
         
@@ -4711,18 +4711,18 @@ C_VoiceXXI = {
         ]
     }
     
-    % [C VoiceXXI measure 59]                                    %! SM4
+    % [C PercussionVoiceXXI measure 59]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXI measure 60]                                    %! SM4
+    % [C PercussionVoiceXXI measure 60]                          %! SM4
     c'4
     
     c'4
     \times 4/7 {
         
-        % [C VoiceXXI measure 61]                                %! SM4
+        % [C PercussionVoiceXXI measure 61]                      %! SM4
         c'8
         [
         
@@ -4741,7 +4741,7 @@ C_VoiceXXI = {
     }
     \times 2/3 {
         
-        % [C VoiceXXI measure 62]                                %! SM4
+        % [C PercussionVoiceXXI measure 62]                      %! SM4
         c'4
         
         c'4
@@ -4749,11 +4749,11 @@ C_VoiceXXI = {
         c'4
     }
     
-    % [C VoiceXXI measure 63]                                    %! SM4
+    % [C PercussionVoiceXXI measure 63]                          %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceXXI measure 64]                                %! SM4
+        % [C PercussionVoiceXXI measure 64]                      %! SM4
         c'8
         [
         
@@ -4771,14 +4771,14 @@ C_VoiceXXI = {
 
 
 C_StaffXXI = {
-    \context Voice = "VoiceXXI"
-    \C_VoiceXXI
+    \context Voice = "PercussionVoiceXXI"
+    \C_PercussionVoiceXXI
 }
 
 
-C_VoiceXXII = {
+C_PercussionVoiceXXII = {
     
-    % [C VoiceXXII measure 49]                                   %! SM4
+    % [C PercussionVoiceXXII measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4829,23 +4829,23 @@ C_VoiceXXII = {
             22                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXII measure 50]                                   %! SM4
+    % [C PercussionVoiceXXII measure 50]                         %! SM4
     r2
     
-    % [C VoiceXXII measure 51]                                   %! SM4
+    % [C PercussionVoiceXXII measure 51]                         %! SM4
     r2
     
-    % [C VoiceXXII measure 52]                                   %! SM4
+    % [C PercussionVoiceXXII measure 52]                         %! SM4
     r2
     
-    % [C VoiceXXII measure 53]                                   %! SM4
+    % [C PercussionVoiceXXII measure 53]                         %! SM4
     r2
     
-    % [C VoiceXXII measure 54]                                   %! SM4
+    % [C PercussionVoiceXXII measure 54]                         %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXXII measure 55]                               %! SM4
+        % [C PercussionVoiceXXII measure 55]                     %! SM4
         c'8
         [
         
@@ -4862,7 +4862,7 @@ C_VoiceXXII = {
     }
     \times 4/5 {
         
-        % [C VoiceXXII measure 56]                               %! SM4
+        % [C PercussionVoiceXXII measure 56]                     %! SM4
         c'8
         [
         
@@ -4876,15 +4876,15 @@ C_VoiceXXII = {
         ]
     }
     
-    % [C VoiceXXII measure 57]                                   %! SM4
+    % [C PercussionVoiceXXII measure 57]                         %! SM4
     r2
     
-    % [C VoiceXXII measure 58]                                   %! SM4
+    % [C PercussionVoiceXXII measure 58]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXII measure 59]                                   %! SM4
+    % [C PercussionVoiceXXII measure 59]                         %! SM4
     c'8
     [
     
@@ -4895,19 +4895,19 @@ C_VoiceXXII = {
     c'8
     ]
     
-    % [C VoiceXXII measure 60]                                   %! SM4
+    % [C PercussionVoiceXXII measure 60]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXII measure 61]                                   %! SM4
+    % [C PercussionVoiceXXII measure 61]                         %! SM4
     r2
     
-    % [C VoiceXXII measure 62]                                   %! SM4
+    % [C PercussionVoiceXXII measure 62]                         %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXXII measure 63]                               %! SM4
+        % [C PercussionVoiceXXII measure 63]                     %! SM4
         c'8
         [
         
@@ -4924,7 +4924,7 @@ C_VoiceXXII = {
     }
     \times 4/5 {
         
-        % [C VoiceXXII measure 64]                               %! SM4
+        % [C PercussionVoiceXXII measure 64]                     %! SM4
         c'8
         [
         
@@ -4942,14 +4942,14 @@ C_VoiceXXII = {
 
 
 C_StaffXXII = {
-    \context Voice = "VoiceXXII"
-    \C_VoiceXXII
+    \context Voice = "PercussionVoiceXXII"
+    \C_PercussionVoiceXXII
 }
 
 
-C_VoiceXXIII = {
+C_PercussionVoiceXXIII = {
     
-    % [C VoiceXXIII measure 49]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5000,23 +5000,23 @@ C_VoiceXXIII = {
             23                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXIII measure 50]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 50]                        %! SM4
     r2
     
-    % [C VoiceXXIII measure 51]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 51]                        %! SM4
     r2
     
-    % [C VoiceXXIII measure 52]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 52]                        %! SM4
     r2
     
-    % [C VoiceXXIII measure 53]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 53]                        %! SM4
     r2
     
-    % [C VoiceXXIII measure 54]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 54]                        %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXXIII measure 55]                              %! SM4
+        % [C PercussionVoiceXXIII measure 55]                    %! SM4
         c'8
         [
         
@@ -5034,10 +5034,10 @@ C_VoiceXXIII = {
         ]
     }
     
-    % [C VoiceXXIII measure 56]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 56]                        %! SM4
     c'2
     
-    % [C VoiceXXIII measure 57]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 57]                        %! SM4
     c'8
     [
     
@@ -5048,7 +5048,7 @@ C_VoiceXXIII = {
     c'8
     ]
     
-    % [C VoiceXXIII measure 58]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 58]                        %! SM4
     c'8
     [
     
@@ -5059,13 +5059,13 @@ C_VoiceXXIII = {
     c'8
     ]
     
-    % [C VoiceXXIII measure 59]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 59]                        %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXXIII measure 60]                              %! SM4
+        % [C PercussionVoiceXXIII measure 60]                    %! SM4
         c'8
         [
         
@@ -5081,7 +5081,7 @@ C_VoiceXXIII = {
         ]
     }
     
-    % [C VoiceXXIII measure 61]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 61]                        %! SM4
     c'8
     [
     
@@ -5092,7 +5092,7 @@ C_VoiceXXIII = {
     c'8
     ]
     
-    % [C VoiceXXIII measure 62]                                  %! SM4
+    % [C PercussionVoiceXXIII measure 62]                        %! SM4
     c'8
     [
     
@@ -5104,7 +5104,7 @@ C_VoiceXXIII = {
     ]
     \times 2/3 {
         
-        % [C VoiceXXIII measure 63]                              %! SM4
+        % [C PercussionVoiceXXIII measure 63]                    %! SM4
         c'4
         
         c'4
@@ -5113,7 +5113,7 @@ C_VoiceXXIII = {
     }
     \times 4/5 {
         
-        % [C VoiceXXIII measure 64]                              %! SM4
+        % [C PercussionVoiceXXIII measure 64]                    %! SM4
         c'8
         [
         
@@ -5131,14 +5131,14 @@ C_VoiceXXIII = {
 
 
 C_StaffXXIII = {
-    \context Voice = "VoiceXXIII"
-    \C_VoiceXXIII
+    \context Voice = "PercussionVoiceXXIII"
+    \C_PercussionVoiceXXIII
 }
 
 
-C_VoiceXXIV = {
+C_PercussionVoiceXXIV = {
     
-    % [C VoiceXXIV measure 49]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5189,31 +5189,31 @@ C_VoiceXXIV = {
             24                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXIV measure 50]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 50]                         %! SM4
     r2
     
-    % [C VoiceXXIV measure 51]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 51]                         %! SM4
     r2
     
-    % [C VoiceXXIV measure 52]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 52]                         %! SM4
     r2
     
-    % [C VoiceXXIV measure 53]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 53]                         %! SM4
     r2
     
-    % [C VoiceXXIV measure 54]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 54]                         %! SM4
     r2
     
-    % [C VoiceXXIV measure 55]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 55]                         %! SM4
     r2
     
-    % [C VoiceXXIV measure 56]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 56]                         %! SM4
     c'2
     
-    % [C VoiceXXIV measure 57]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 57]                         %! SM4
     r2
     
-    % [C VoiceXXIV measure 58]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 58]                         %! SM4
     c'8
     [
     
@@ -5224,11 +5224,11 @@ C_VoiceXXIV = {
     c'8
     ]
     
-    % [C VoiceXXIV measure 59]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 59]                         %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXXIV measure 60]                               %! SM4
+        % [C PercussionVoiceXXIV measure 60]                     %! SM4
         c'8
         [
         
@@ -5244,10 +5244,10 @@ C_VoiceXXIV = {
         ]
     }
     
-    % [C VoiceXXIV measure 61]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 61]                         %! SM4
     r2
     
-    % [C VoiceXXIV measure 62]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 62]                         %! SM4
     c'8
     [
     
@@ -5258,11 +5258,11 @@ C_VoiceXXIV = {
     c'8
     ]
     
-    % [C VoiceXXIV measure 63]                                   %! SM4
+    % [C PercussionVoiceXXIV measure 63]                         %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXXIV measure 64]                               %! SM4
+        % [C PercussionVoiceXXIV measure 64]                     %! SM4
         c'8
         [
         
@@ -5280,14 +5280,14 @@ C_VoiceXXIV = {
 
 
 C_StaffXXIV = {
-    \context Voice = "VoiceXXIV"
-    \C_VoiceXXIV
+    \context Voice = "PercussionVoiceXXIV"
+    \C_PercussionVoiceXXIV
 }
 
 
-C_VoiceXXV = {
+C_PercussionVoiceXXV = {
     
-    % [C VoiceXXV measure 49]                                    %! SM4
+    % [C PercussionVoiceXXV measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5346,7 +5346,7 @@ C_VoiceXXV = {
     c'8
     ]
     
-    % [C VoiceXXV measure 50]                                    %! SM4
+    % [C PercussionVoiceXXV measure 50]                          %! SM4
     c'8
     [
     
@@ -5357,7 +5357,7 @@ C_VoiceXXV = {
     c'8
     ]
     
-    % [C VoiceXXV measure 51]                                    %! SM4
+    % [C PercussionVoiceXXV measure 51]                          %! SM4
     c'8
     [
     
@@ -5368,7 +5368,7 @@ C_VoiceXXV = {
     c'8
     ]
     
-    % [C VoiceXXV measure 52]                                    %! SM4
+    % [C PercussionVoiceXXV measure 52]                          %! SM4
     c'8
     [
     
@@ -5379,7 +5379,7 @@ C_VoiceXXV = {
     c'8
     ]
     
-    % [C VoiceXXV measure 53]                                    %! SM4
+    % [C PercussionVoiceXXV measure 53]                          %! SM4
     c'8
     [
     
@@ -5390,7 +5390,7 @@ C_VoiceXXV = {
     c'8
     ]
     
-    % [C VoiceXXV measure 54]                                    %! SM4
+    % [C PercussionVoiceXXV measure 54]                          %! SM4
     c'8
     [
     
@@ -5401,7 +5401,7 @@ C_VoiceXXV = {
     c'8
     ]
     
-    % [C VoiceXXV measure 55]                                    %! SM4
+    % [C PercussionVoiceXXV measure 55]                          %! SM4
     c'8
     [
     
@@ -5412,7 +5412,7 @@ C_VoiceXXV = {
     c'8
     ]
     
-    % [C VoiceXXV measure 56]                                    %! SM4
+    % [C PercussionVoiceXXV measure 56]                          %! SM4
     c'8
     [
     
@@ -5424,7 +5424,7 @@ C_VoiceXXV = {
     ]
     \times 2/3 {
         
-        % [C VoiceXXV measure 57]                                %! SM4
+        % [C PercussionVoiceXXV measure 57]                      %! SM4
         c'4
         
         c'4
@@ -5433,7 +5433,7 @@ C_VoiceXXV = {
     }
     \times 2/3 {
         
-        % [C VoiceXXV measure 58]                                %! SM4
+        % [C PercussionVoiceXXV measure 58]                      %! SM4
         c'4
         
         c'4
@@ -5442,7 +5442,7 @@ C_VoiceXXV = {
     }
     \times 4/7 {
         
-        % [C VoiceXXV measure 59]                                %! SM4
+        % [C PercussionVoiceXXV measure 59]                      %! SM4
         c'8
         [
         
@@ -5461,7 +5461,7 @@ C_VoiceXXV = {
     }
     \times 4/7 {
         
-        % [C VoiceXXV measure 60]                                %! SM4
+        % [C PercussionVoiceXXV measure 60]                      %! SM4
         c'8
         [
         
@@ -5479,14 +5479,14 @@ C_VoiceXXV = {
         ]
     }
     
-    % [C VoiceXXV measure 61]                                    %! SM4
+    % [C PercussionVoiceXXV measure 61]                          %! SM4
     c'2
     
-    % [C VoiceXXV measure 62]                                    %! SM4
+    % [C PercussionVoiceXXV measure 62]                          %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceXXV measure 63]                                %! SM4
+        % [C PercussionVoiceXXV measure 63]                      %! SM4
         c'8
         [
         
@@ -5501,7 +5501,7 @@ C_VoiceXXV = {
     }
     \times 4/5 {
         
-        % [C VoiceXXV measure 64]                                %! SM4
+        % [C PercussionVoiceXXV measure 64]                      %! SM4
         c'8
         [
         
@@ -5519,14 +5519,14 @@ C_VoiceXXV = {
 
 
 C_StaffXXV = {
-    \context Voice = "VoiceXXV"
-    \C_VoiceXXV
+    \context Voice = "PercussionVoiceXXV"
+    \C_PercussionVoiceXXV
 }
 
 
-C_VoiceXXVI = {
+C_PercussionVoiceXXVI = {
     
-    % [C VoiceXXVI measure 49]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5577,7 +5577,7 @@ C_VoiceXXVI = {
             26                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXVI measure 50]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 50]                         %! SM4
     c'8
     [
     
@@ -5588,10 +5588,10 @@ C_VoiceXXVI = {
     c'8
     ]
     
-    % [C VoiceXXVI measure 51]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 51]                         %! SM4
     r2
     
-    % [C VoiceXXVI measure 52]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 52]                         %! SM4
     c'8
     [
     
@@ -5602,10 +5602,10 @@ C_VoiceXXVI = {
     c'8
     ]
     
-    % [C VoiceXXVI measure 53]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 53]                         %! SM4
     r2
     
-    % [C VoiceXXVI measure 54]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 54]                         %! SM4
     c'8
     [
     
@@ -5616,10 +5616,10 @@ C_VoiceXXVI = {
     c'8
     ]
     
-    % [C VoiceXXVI measure 55]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 55]                         %! SM4
     r2
     
-    % [C VoiceXXVI measure 56]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 56]                         %! SM4
     c'8
     [
     
@@ -5630,11 +5630,11 @@ C_VoiceXXVI = {
     c'8
     ]
     
-    % [C VoiceXXVI measure 57]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 57]                         %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXXVI measure 58]                               %! SM4
+        % [C PercussionVoiceXXVI measure 58]                     %! SM4
         c'8
         [
         
@@ -5648,13 +5648,13 @@ C_VoiceXXVI = {
         ]
     }
     
-    % [C VoiceXXVI measure 59]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 59]                         %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXXVI measure 60]                               %! SM4
+        % [C PercussionVoiceXXVI measure 60]                     %! SM4
         c'4
         
         c'4
@@ -5662,7 +5662,7 @@ C_VoiceXXVI = {
         c'4
     }
     
-    % [C VoiceXXVI measure 61]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 61]                         %! SM4
     c'8
     [
     
@@ -5674,7 +5674,7 @@ C_VoiceXXVI = {
     ]
     \times 2/3 {
         
-        % [C VoiceXXVI measure 62]                               %! SM4
+        % [C PercussionVoiceXXVI measure 62]                     %! SM4
         c'4
         
         c'4
@@ -5682,13 +5682,13 @@ C_VoiceXXVI = {
         c'4
     }
     
-    % [C VoiceXXVI measure 63]                                   %! SM4
+    % [C PercussionVoiceXXVI measure 63]                         %! SM4
     c'4
     
     c'4
     \times 4/5 {
         
-        % [C VoiceXXVI measure 64]                               %! SM4
+        % [C PercussionVoiceXXVI measure 64]                     %! SM4
         c'8
         [
         
@@ -5706,14 +5706,14 @@ C_VoiceXXVI = {
 
 
 C_StaffXXVI = {
-    \context Voice = "VoiceXXVI"
-    \C_VoiceXXVI
+    \context Voice = "PercussionVoiceXXVI"
+    \C_PercussionVoiceXXVI
 }
 
 
-C_VoiceXXVII = {
+C_PercussionVoiceXXVII = {
     
-    % [C VoiceXXVII measure 49]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5764,10 +5764,10 @@ C_VoiceXXVII = {
             27                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXVII measure 50]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 50]                        %! SM4
     r2
     
-    % [C VoiceXXVII measure 51]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 51]                        %! SM4
     c'8
     [
     
@@ -5778,7 +5778,7 @@ C_VoiceXXVII = {
     c'8
     ]
     
-    % [C VoiceXXVII measure 52]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 52]                        %! SM4
     c'8
     [
     
@@ -5789,13 +5789,13 @@ C_VoiceXXVII = {
     c'8
     ]
     
-    % [C VoiceXXVII measure 53]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 53]                        %! SM4
     r2
     
-    % [C VoiceXXVII measure 54]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 54]                        %! SM4
     r2
     
-    % [C VoiceXXVII measure 55]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 55]                        %! SM4
     c'8
     [
     
@@ -5806,7 +5806,7 @@ C_VoiceXXVII = {
     c'8
     ]
     
-    % [C VoiceXXVII measure 56]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 56]                        %! SM4
     c'8
     [
     
@@ -5817,14 +5817,14 @@ C_VoiceXXVII = {
     c'8
     ]
     
-    % [C VoiceXXVII measure 57]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 57]                        %! SM4
     r2
     
-    % [C VoiceXXVII measure 58]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 58]                        %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXXVII measure 59]                              %! SM4
+        % [C PercussionVoiceXXVII measure 59]                    %! SM4
         c'4
         
         c'4
@@ -5832,11 +5832,11 @@ C_VoiceXXVII = {
         c'4
     }
     
-    % [C VoiceXXVII measure 60]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 60]                        %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXXVII measure 61]                              %! SM4
+        % [C PercussionVoiceXXVII measure 61]                    %! SM4
         c'8
         [
         
@@ -5852,13 +5852,13 @@ C_VoiceXXVII = {
         ]
     }
     
-    % [C VoiceXXVII measure 62]                                  %! SM4
+    % [C PercussionVoiceXXVII measure 62]                        %! SM4
     c'4
     
     c'4
     \times 4/7 {
         
-        % [C VoiceXXVII measure 63]                              %! SM4
+        % [C PercussionVoiceXXVII measure 63]                    %! SM4
         c'8
         [
         
@@ -5877,7 +5877,7 @@ C_VoiceXXVII = {
     }
     \times 4/5 {
         
-        % [C VoiceXXVII measure 64]                              %! SM4
+        % [C PercussionVoiceXXVII measure 64]                    %! SM4
         c'8
         [
         
@@ -5895,14 +5895,14 @@ C_VoiceXXVII = {
 
 
 C_StaffXXVII = {
-    \context Voice = "VoiceXXVII"
-    \C_VoiceXXVII
+    \context Voice = "PercussionVoiceXXVII"
+    \C_PercussionVoiceXXVII
 }
 
 
-C_VoiceXXVIII = {
+C_PercussionVoiceXXVIII = {
     
-    % [C VoiceXXVIII measure 49]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 49]                       %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5953,13 +5953,13 @@ C_VoiceXXVIII = {
             28                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXVIII measure 50]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 50]                       %! SM4
     r2
     
-    % [C VoiceXXVIII measure 51]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 51]                       %! SM4
     r2
     
-    % [C VoiceXXVIII measure 52]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 52]                       %! SM4
     c'8
     [
     
@@ -5970,16 +5970,16 @@ C_VoiceXXVIII = {
     c'8
     ]
     
-    % [C VoiceXXVIII measure 53]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 53]                       %! SM4
     r2
     
-    % [C VoiceXXVIII measure 54]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 54]                       %! SM4
     r2
     
-    % [C VoiceXXVIII measure 55]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 55]                       %! SM4
     r2
     
-    % [C VoiceXXVIII measure 56]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 56]                       %! SM4
     c'8
     [
     
@@ -5990,17 +5990,17 @@ C_VoiceXXVIII = {
     c'8
     ]
     
-    % [C VoiceXXVIII measure 57]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 57]                       %! SM4
     r2
     
-    % [C VoiceXXVIII measure 58]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 58]                       %! SM4
     r2
     
-    % [C VoiceXXVIII measure 59]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 59]                       %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXXVIII measure 60]                             %! SM4
+        % [C PercussionVoiceXXVIII measure 60]                   %! SM4
         c'8
         [
         
@@ -6014,7 +6014,7 @@ C_VoiceXXVIII = {
         ]
     }
     
-    % [C VoiceXXVIII measure 61]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 61]                       %! SM4
     c'8
     [
     
@@ -6026,7 +6026,7 @@ C_VoiceXXVIII = {
     ]
     \times 2/3 {
         
-        % [C VoiceXXVIII measure 62]                             %! SM4
+        % [C PercussionVoiceXXVIII measure 62]                   %! SM4
         c'8
         [
         
@@ -6042,7 +6042,7 @@ C_VoiceXXVIII = {
         ]
     }
     
-    % [C VoiceXXVIII measure 63]                                 %! SM4
+    % [C PercussionVoiceXXVIII measure 63]                       %! SM4
     c'8
     [
     
@@ -6054,7 +6054,7 @@ C_VoiceXXVIII = {
     ]
     \times 4/5 {
         
-        % [C VoiceXXVIII measure 64]                             %! SM4
+        % [C PercussionVoiceXXVIII measure 64]                   %! SM4
         c'8
         [
         
@@ -6072,14 +6072,14 @@ C_VoiceXXVIII = {
 
 
 C_StaffXXVIII = {
-    \context Voice = "VoiceXXVIII"
-    \C_VoiceXXVIII
+    \context Voice = "PercussionVoiceXXVIII"
+    \C_PercussionVoiceXXVIII
 }
 
 
-C_VoiceXXIX = {
+C_PercussionVoiceXXIX = {
     
-    % [C VoiceXXIX measure 49]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -6130,16 +6130,16 @@ C_VoiceXXIX = {
             29                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXIX measure 50]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 50]                         %! SM4
     r2
     
-    % [C VoiceXXIX measure 51]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 51]                         %! SM4
     r2
     
-    % [C VoiceXXIX measure 52]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 52]                         %! SM4
     r2
     
-    % [C VoiceXXIX measure 53]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 53]                         %! SM4
     c'8
     [
     
@@ -6150,7 +6150,7 @@ C_VoiceXXIX = {
     c'8
     ]
     
-    % [C VoiceXXIX measure 54]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 54]                         %! SM4
     c'8
     [
     
@@ -6161,7 +6161,7 @@ C_VoiceXXIX = {
     c'8
     ]
     
-    % [C VoiceXXIX measure 55]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 55]                         %! SM4
     c'8
     [
     
@@ -6172,7 +6172,7 @@ C_VoiceXXIX = {
     c'8
     ]
     
-    % [C VoiceXXIX measure 56]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 56]                         %! SM4
     c'8
     [
     
@@ -6183,20 +6183,20 @@ C_VoiceXXIX = {
     c'8
     ]
     
-    % [C VoiceXXIX measure 57]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 57]                         %! SM4
     r2
     
-    % [C VoiceXXIX measure 58]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 58]                         %! SM4
     r2
     
-    % [C VoiceXXIX measure 59]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 59]                         %! SM4
     r2
     
-    % [C VoiceXXIX measure 60]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 60]                         %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXXIX measure 61]                               %! SM4
+        % [C PercussionVoiceXXIX measure 61]                     %! SM4
         c'4
         
         c'4
@@ -6205,7 +6205,7 @@ C_VoiceXXIX = {
     }
     \times 4/7 {
         
-        % [C VoiceXXIX measure 62]                               %! SM4
+        % [C PercussionVoiceXXIX measure 62]                     %! SM4
         c'8
         [
         
@@ -6223,11 +6223,11 @@ C_VoiceXXIX = {
         ]
     }
     
-    % [C VoiceXXIX measure 63]                                   %! SM4
+    % [C PercussionVoiceXXIX measure 63]                         %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceXXIX measure 64]                               %! SM4
+        % [C PercussionVoiceXXIX measure 64]                     %! SM4
         c'8
         [
         
@@ -6245,14 +6245,14 @@ C_VoiceXXIX = {
 
 
 C_StaffXXIX = {
-    \context Voice = "VoiceXXIX"
-    \C_VoiceXXIX
+    \context Voice = "PercussionVoiceXXIX"
+    \C_PercussionVoiceXXIX
 }
 
 
-C_VoiceXXX = {
+C_PercussionVoiceXXX = {
     
-    % [C VoiceXXX measure 49]                                    %! SM4
+    % [C PercussionVoiceXXX measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -6303,19 +6303,19 @@ C_VoiceXXX = {
             30                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXX measure 50]                                    %! SM4
+    % [C PercussionVoiceXXX measure 50]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 51]                                    %! SM4
+    % [C PercussionVoiceXXX measure 51]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 52]                                    %! SM4
+    % [C PercussionVoiceXXX measure 52]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 53]                                    %! SM4
+    % [C PercussionVoiceXXX measure 53]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 54]                                    %! SM4
+    % [C PercussionVoiceXXX measure 54]                          %! SM4
     c'8
     [
     
@@ -6326,10 +6326,10 @@ C_VoiceXXX = {
     c'8
     ]
     
-    % [C VoiceXXX measure 55]                                    %! SM4
+    % [C PercussionVoiceXXX measure 55]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 56]                                    %! SM4
+    % [C PercussionVoiceXXX measure 56]                          %! SM4
     c'8
     [
     
@@ -6340,23 +6340,23 @@ C_VoiceXXX = {
     c'8
     ]
     
-    % [C VoiceXXX measure 57]                                    %! SM4
+    % [C PercussionVoiceXXX measure 57]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 58]                                    %! SM4
+    % [C PercussionVoiceXXX measure 58]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 59]                                    %! SM4
+    % [C PercussionVoiceXXX measure 59]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 60]                                    %! SM4
+    % [C PercussionVoiceXXX measure 60]                          %! SM4
     r2
     
-    % [C VoiceXXX measure 61]                                    %! SM4
+    % [C PercussionVoiceXXX measure 61]                          %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXXX measure 62]                                %! SM4
+        % [C PercussionVoiceXXX measure 62]                      %! SM4
         c'8
         [
         
@@ -6371,7 +6371,7 @@ C_VoiceXXX = {
     }
     \times 2/3 {
         
-        % [C VoiceXXX measure 63]                                %! SM4
+        % [C PercussionVoiceXXX measure 63]                      %! SM4
         c'8
         [
         
@@ -6388,7 +6388,7 @@ C_VoiceXXX = {
     }
     \times 4/5 {
         
-        % [C VoiceXXX measure 64]                                %! SM4
+        % [C PercussionVoiceXXX measure 64]                      %! SM4
         c'8
         [
         
@@ -6406,14 +6406,14 @@ C_VoiceXXX = {
 
 
 C_StaffXXX = {
-    \context Voice = "VoiceXXX"
-    \C_VoiceXXX
+    \context Voice = "PercussionVoiceXXX"
+    \C_PercussionVoiceXXX
 }
 
 
-C_VoiceXXXI = {
+C_PercussionVoiceXXXI = {
     
-    % [C VoiceXXXI measure 49]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -6464,22 +6464,22 @@ C_VoiceXXXI = {
             31                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXXI measure 50]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 50]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 51]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 51]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 52]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 52]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 53]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 53]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 54]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 54]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 55]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 55]                         %! SM4
     c'8
     [
     
@@ -6490,7 +6490,7 @@ C_VoiceXXXI = {
     c'8
     ]
     
-    % [C VoiceXXXI measure 56]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 56]                         %! SM4
     c'8
     [
     
@@ -6501,26 +6501,26 @@ C_VoiceXXXI = {
     c'8
     ]
     
-    % [C VoiceXXXI measure 57]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 57]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 58]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 58]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 59]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 59]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 60]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 60]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 61]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 61]                         %! SM4
     r2
     
-    % [C VoiceXXXI measure 62]                                   %! SM4
+    % [C PercussionVoiceXXXI measure 62]                         %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXXXI measure 63]                               %! SM4
+        % [C PercussionVoiceXXXI measure 63]                     %! SM4
         c'4
         
         c'4
@@ -6529,7 +6529,7 @@ C_VoiceXXXI = {
     }
     \times 4/5 {
         
-        % [C VoiceXXXI measure 64]                               %! SM4
+        % [C PercussionVoiceXXXI measure 64]                     %! SM4
         c'8
         [
         
@@ -6547,14 +6547,14 @@ C_VoiceXXXI = {
 
 
 C_StaffXXXI = {
-    \context Voice = "VoiceXXXI"
-    \C_VoiceXXXI
+    \context Voice = "PercussionVoiceXXXI"
+    \C_PercussionVoiceXXXI
 }
 
 
-C_VoiceXXXII = {
+C_PercussionVoiceXXXII = {
     
-    % [C VoiceXXXII measure 49]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -6605,25 +6605,25 @@ C_VoiceXXXII = {
             32                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXXII measure 50]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 50]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 51]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 51]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 52]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 52]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 53]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 53]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 54]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 54]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 55]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 55]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 56]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 56]                        %! SM4
     c'8
     [
     
@@ -6634,29 +6634,29 @@ C_VoiceXXXII = {
     c'8
     ]
     
-    % [C VoiceXXXII measure 57]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 57]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 58]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 58]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 59]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 59]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 60]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 60]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 61]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 61]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 62]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 62]                        %! SM4
     r2
     
-    % [C VoiceXXXII measure 63]                                  %! SM4
+    % [C PercussionVoiceXXXII measure 63]                        %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXXXII measure 64]                              %! SM4
+        % [C PercussionVoiceXXXII measure 64]                    %! SM4
         c'8
         [
         
@@ -6674,15 +6674,15 @@ C_VoiceXXXII = {
 
 
 C_StaffXXXII = {
-    \context Voice = "VoiceXXXII"
-    \C_VoiceXXXII
+    \context Voice = "PercussionVoiceXXXII"
+    \C_PercussionVoiceXXXII
 }
 
 
-C_VoiceXXXIII = {
+C_PercussionVoiceXXXIII = {
     \times 4/7 {
         
-        % [C VoiceXXXIII measure 49]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 49]                   %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -6749,7 +6749,7 @@ C_VoiceXXXIII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXIII measure 50]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 50]                   %! SM4
         c'8
         [
         
@@ -6768,7 +6768,7 @@ C_VoiceXXXIII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXIII measure 51]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 51]                   %! SM4
         c'8
         [
         
@@ -6787,7 +6787,7 @@ C_VoiceXXXIII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXIII measure 52]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 52]                   %! SM4
         c'8
         [
         
@@ -6806,7 +6806,7 @@ C_VoiceXXXIII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXIII measure 53]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 53]                   %! SM4
         c'8
         [
         
@@ -6825,7 +6825,7 @@ C_VoiceXXXIII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXIII measure 54]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 54]                   %! SM4
         c'8
         [
         
@@ -6844,7 +6844,7 @@ C_VoiceXXXIII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXIII measure 55]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 55]                   %! SM4
         c'8
         [
         
@@ -6863,7 +6863,7 @@ C_VoiceXXXIII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXIII measure 56]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 56]                   %! SM4
         c'8
         [
         
@@ -6882,7 +6882,7 @@ C_VoiceXXXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIII measure 57]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 57]                   %! SM4
         c'4
         
         c'4
@@ -6891,7 +6891,7 @@ C_VoiceXXXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIII measure 58]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 58]                   %! SM4
         c'4
         
         c'4
@@ -6900,7 +6900,7 @@ C_VoiceXXXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIII measure 59]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 59]                   %! SM4
         c'4
         
         c'4
@@ -6909,7 +6909,7 @@ C_VoiceXXXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIII measure 60]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 60]                   %! SM4
         c'4
         
         c'4
@@ -6918,7 +6918,7 @@ C_VoiceXXXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIII measure 61]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 61]                   %! SM4
         c'4
         
         c'4
@@ -6927,7 +6927,7 @@ C_VoiceXXXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIII measure 62]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 62]                   %! SM4
         c'4
         
         c'4
@@ -6936,7 +6936,7 @@ C_VoiceXXXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIII measure 63]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 63]                   %! SM4
         c'4
         
         c'4
@@ -6945,7 +6945,7 @@ C_VoiceXXXIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIII measure 64]                             %! SM4
+        % [C PercussionVoiceXXXIII measure 64]                   %! SM4
         c'4
         
         c'4
@@ -6957,14 +6957,14 @@ C_VoiceXXXIII = {
 
 
 C_StaffXXXIII = {
-    \context Voice = "VoiceXXXIII"
-    \C_VoiceXXXIII
+    \context Voice = "PercussionVoiceXXXIII"
+    \C_PercussionVoiceXXXIII
 }
 
 
-C_VoiceXXXIV = {
+C_PercussionVoiceXXXIV = {
     
-    % [C VoiceXXXIV measure 49]                                  %! SM4
+    % [C PercussionVoiceXXXIV measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -7015,16 +7015,16 @@ C_VoiceXXXIV = {
             34                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXXIV measure 50]                                  %! SM4
+    % [C PercussionVoiceXXXIV measure 50]                        %! SM4
     c'2
     
-    % [C VoiceXXXIV measure 51]                                  %! SM4
+    % [C PercussionVoiceXXXIV measure 51]                        %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXXXIV measure 52]                              %! SM4
+        % [C PercussionVoiceXXXIV measure 52]                    %! SM4
         c'4
         
         c'4
@@ -7032,7 +7032,7 @@ C_VoiceXXXIV = {
         c'4
     }
     
-    % [C VoiceXXXIV measure 53]                                  %! SM4
+    % [C PercussionVoiceXXXIV measure 53]                        %! SM4
     c'8
     [
     
@@ -7044,7 +7044,7 @@ C_VoiceXXXIV = {
     ]
     \times 4/5 {
         
-        % [C VoiceXXXIV measure 54]                              %! SM4
+        % [C PercussionVoiceXXXIV measure 54]                    %! SM4
         c'8
         [
         
@@ -7059,7 +7059,7 @@ C_VoiceXXXIV = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIV measure 55]                              %! SM4
+        % [C PercussionVoiceXXXIV measure 55]                    %! SM4
         c'8
         [
         
@@ -7076,7 +7076,7 @@ C_VoiceXXXIV = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXIV measure 56]                              %! SM4
+        % [C PercussionVoiceXXXIV measure 56]                    %! SM4
         c'8
         [
         
@@ -7094,11 +7094,11 @@ C_VoiceXXXIV = {
         ]
     }
     
-    % [C VoiceXXXIV measure 57]                                  %! SM4
+    % [C PercussionVoiceXXXIV measure 57]                        %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXXXIV measure 58]                              %! SM4
+        % [C PercussionVoiceXXXIV measure 58]                    %! SM4
         c'8
         [
         
@@ -7112,13 +7112,13 @@ C_VoiceXXXIV = {
         ]
     }
     
-    % [C VoiceXXXIV measure 59]                                  %! SM4
+    % [C PercussionVoiceXXXIV measure 59]                        %! SM4
     c'4
     
     c'4
     \times 4/7 {
         
-        % [C VoiceXXXIV measure 60]                              %! SM4
+        % [C PercussionVoiceXXXIV measure 60]                    %! SM4
         c'8
         [
         
@@ -7136,7 +7136,7 @@ C_VoiceXXXIV = {
         ]
     }
     
-    % [C VoiceXXXIV measure 61]                                  %! SM4
+    % [C PercussionVoiceXXXIV measure 61]                        %! SM4
     c'8
     [
     
@@ -7147,11 +7147,11 @@ C_VoiceXXXIV = {
     c'8
     ]
     
-    % [C VoiceXXXIV measure 62]                                  %! SM4
+    % [C PercussionVoiceXXXIV measure 62]                        %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXXXIV measure 63]                              %! SM4
+        % [C PercussionVoiceXXXIV measure 63]                    %! SM4
         c'8
         [
         
@@ -7168,7 +7168,7 @@ C_VoiceXXXIV = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIV measure 64]                              %! SM4
+        % [C PercussionVoiceXXXIV measure 64]                    %! SM4
         c'4
         
         c'4
@@ -7180,14 +7180,14 @@ C_VoiceXXXIV = {
 
 
 C_StaffXXXIV = {
-    \context Voice = "VoiceXXXIV"
-    \C_VoiceXXXIV
+    \context Voice = "PercussionVoiceXXXIV"
+    \C_PercussionVoiceXXXIV
 }
 
 
-C_VoiceXXXV = {
+C_PercussionVoiceXXXV = {
     
-    % [C VoiceXXXV measure 49]                                   %! SM4
+    % [C PercussionVoiceXXXV measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -7238,11 +7238,11 @@ C_VoiceXXXV = {
             35                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXXV measure 50]                                   %! SM4
+    % [C PercussionVoiceXXXV measure 50]                         %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXXXV measure 51]                               %! SM4
+        % [C PercussionVoiceXXXV measure 51]                     %! SM4
         c'8
         [
         
@@ -7261,7 +7261,7 @@ C_VoiceXXXV = {
     }
     \times 4/5 {
         
-        % [C VoiceXXXV measure 52]                               %! SM4
+        % [C PercussionVoiceXXXV measure 52]                     %! SM4
         c'8
         [
         
@@ -7275,13 +7275,13 @@ C_VoiceXXXV = {
         ]
     }
     
-    % [C VoiceXXXV measure 53]                                   %! SM4
+    % [C PercussionVoiceXXXV measure 53]                         %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXXXV measure 54]                               %! SM4
+        % [C PercussionVoiceXXXV measure 54]                     %! SM4
         c'8
         [
         
@@ -7297,11 +7297,11 @@ C_VoiceXXXV = {
         ]
     }
     
-    % [C VoiceXXXV measure 55]                                   %! SM4
+    % [C PercussionVoiceXXXV measure 55]                         %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXXXV measure 56]                               %! SM4
+        % [C PercussionVoiceXXXV measure 56]                     %! SM4
         c'4
         
         c'4
@@ -7309,7 +7309,7 @@ C_VoiceXXXV = {
         c'4
     }
     
-    % [C VoiceXXXV measure 57]                                   %! SM4
+    % [C PercussionVoiceXXXV measure 57]                         %! SM4
     c'8
     [
     
@@ -7320,7 +7320,7 @@ C_VoiceXXXV = {
     c'8
     ]
     
-    % [C VoiceXXXV measure 58]                                   %! SM4
+    % [C PercussionVoiceXXXV measure 58]                         %! SM4
     c'8
     [
     
@@ -7332,7 +7332,7 @@ C_VoiceXXXV = {
     ]
     \times 4/7 {
         
-        % [C VoiceXXXV measure 59]                               %! SM4
+        % [C PercussionVoiceXXXV measure 59]                     %! SM4
         c'8
         [
         
@@ -7351,7 +7351,7 @@ C_VoiceXXXV = {
     }
     \times 4/5 {
         
-        % [C VoiceXXXV measure 60]                               %! SM4
+        % [C PercussionVoiceXXXV measure 60]                     %! SM4
         c'8
         [
         
@@ -7366,7 +7366,7 @@ C_VoiceXXXV = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXV measure 61]                               %! SM4
+        % [C PercussionVoiceXXXV measure 61]                     %! SM4
         c'8
         [
         
@@ -7382,16 +7382,16 @@ C_VoiceXXXV = {
         ]
     }
     
-    % [C VoiceXXXV measure 62]                                   %! SM4
+    % [C PercussionVoiceXXXV measure 62]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXXV measure 63]                                   %! SM4
+    % [C PercussionVoiceXXXV measure 63]                         %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXXXV measure 64]                               %! SM4
+        % [C PercussionVoiceXXXV measure 64]                     %! SM4
         c'4
         
         c'4
@@ -7403,14 +7403,14 @@ C_VoiceXXXV = {
 
 
 C_StaffXXXV = {
-    \context Voice = "VoiceXXXV"
-    \C_VoiceXXXV
+    \context Voice = "PercussionVoiceXXXV"
+    \C_PercussionVoiceXXXV
 }
 
 
-C_VoiceXXXVI = {
+C_PercussionVoiceXXXVI = {
     
-    % [C VoiceXXXVI measure 49]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -7461,16 +7461,16 @@ C_VoiceXXXVI = {
             36                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXXVI measure 50]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 50]                        %! SM4
     r2
     
-    % [C VoiceXXXVI measure 51]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 51]                        %! SM4
     r2
     
-    % [C VoiceXXXVI measure 52]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 52]                        %! SM4
     c'2
     
-    % [C VoiceXXXVI measure 53]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 53]                        %! SM4
     c'8
     [
     
@@ -7481,12 +7481,12 @@ C_VoiceXXXVI = {
     c'8
     ]
     
-    % [C VoiceXXXVI measure 54]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 54]                        %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXXVI measure 55]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 55]                        %! SM4
     c'8
     [
     
@@ -7498,7 +7498,7 @@ C_VoiceXXXVI = {
     ]
     \times 2/3 {
         
-        % [C VoiceXXXVI measure 56]                              %! SM4
+        % [C PercussionVoiceXXXVI measure 56]                    %! SM4
         c'4
         
         c'4
@@ -7506,10 +7506,10 @@ C_VoiceXXXVI = {
         c'4
     }
     
-    % [C VoiceXXXVI measure 57]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 57]                        %! SM4
     r2
     
-    % [C VoiceXXXVI measure 58]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 58]                        %! SM4
     c'8
     [
     
@@ -7520,13 +7520,13 @@ C_VoiceXXXVI = {
     c'8
     ]
     
-    % [C VoiceXXXVI measure 59]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 59]                        %! SM4
     r2
     
-    % [C VoiceXXXVI measure 60]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 60]                        %! SM4
     c'2
     
-    % [C VoiceXXXVI measure 61]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 61]                        %! SM4
     c'8
     [
     
@@ -7538,7 +7538,7 @@ C_VoiceXXXVI = {
     ]
     \times 2/3 {
         
-        % [C VoiceXXXVI measure 62]                              %! SM4
+        % [C PercussionVoiceXXXVI measure 62]                    %! SM4
         c'8
         [
         
@@ -7554,7 +7554,7 @@ C_VoiceXXXVI = {
         ]
     }
     
-    % [C VoiceXXXVI measure 63]                                  %! SM4
+    % [C PercussionVoiceXXXVI measure 63]                        %! SM4
     c'8
     [
     
@@ -7566,7 +7566,7 @@ C_VoiceXXXVI = {
     ]
     \times 2/3 {
         
-        % [C VoiceXXXVI measure 64]                              %! SM4
+        % [C PercussionVoiceXXXVI measure 64]                    %! SM4
         c'4
         
         c'4
@@ -7578,14 +7578,14 @@ C_VoiceXXXVI = {
 
 
 C_StaffXXXVI = {
-    \context Voice = "VoiceXXXVI"
-    \C_VoiceXXXVI
+    \context Voice = "PercussionVoiceXXXVI"
+    \C_PercussionVoiceXXXVI
 }
 
 
-C_VoiceXXXVII = {
+C_PercussionVoiceXXXVII = {
     
-    % [C VoiceXXXVII measure 49]                                 %! SM4
+    % [C PercussionVoiceXXXVII measure 49]                       %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -7644,7 +7644,7 @@ C_VoiceXXXVII = {
     c'8
     ]
     
-    % [C VoiceXXXVII measure 50]                                 %! SM4
+    % [C PercussionVoiceXXXVII measure 50]                       %! SM4
     c'8
     [
     
@@ -7655,7 +7655,7 @@ C_VoiceXXXVII = {
     c'8
     ]
     
-    % [C VoiceXXXVII measure 51]                                 %! SM4
+    % [C PercussionVoiceXXXVII measure 51]                       %! SM4
     c'8
     [
     
@@ -7666,7 +7666,7 @@ C_VoiceXXXVII = {
     c'8
     ]
     
-    % [C VoiceXXXVII measure 52]                                 %! SM4
+    % [C PercussionVoiceXXXVII measure 52]                       %! SM4
     c'8
     [
     
@@ -7678,7 +7678,7 @@ C_VoiceXXXVII = {
     ]
     \times 2/3 {
         
-        % [C VoiceXXXVII measure 53]                             %! SM4
+        % [C PercussionVoiceXXXVII measure 53]                   %! SM4
         c'4
         
         c'4
@@ -7687,7 +7687,7 @@ C_VoiceXXXVII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXVII measure 54]                             %! SM4
+        % [C PercussionVoiceXXXVII measure 54]                   %! SM4
         c'8
         [
         
@@ -7706,7 +7706,7 @@ C_VoiceXXXVII = {
     }
     \times 4/5 {
         
-        % [C VoiceXXXVII measure 55]                             %! SM4
+        % [C PercussionVoiceXXXVII measure 55]                   %! SM4
         c'8
         [
         
@@ -7720,11 +7720,11 @@ C_VoiceXXXVII = {
         ]
     }
     
-    % [C VoiceXXXVII measure 56]                                 %! SM4
+    % [C PercussionVoiceXXXVII measure 56]                       %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXXXVII measure 57]                             %! SM4
+        % [C PercussionVoiceXXXVII measure 57]                   %! SM4
         c'8
         [
         
@@ -7741,7 +7741,7 @@ C_VoiceXXXVII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXVII measure 58]                             %! SM4
+        % [C PercussionVoiceXXXVII measure 58]                   %! SM4
         c'8
         [
         
@@ -7757,21 +7757,21 @@ C_VoiceXXXVII = {
         ]
     }
     
-    % [C VoiceXXXVII measure 59]                                 %! SM4
+    % [C PercussionVoiceXXXVII measure 59]                       %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXXVII measure 60]                                 %! SM4
+    % [C PercussionVoiceXXXVII measure 60]                       %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXXVII measure 61]                                 %! SM4
+    % [C PercussionVoiceXXXVII measure 61]                       %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceXXXVII measure 62]                             %! SM4
+        % [C PercussionVoiceXXXVII measure 62]                   %! SM4
         c'8
         [
         
@@ -7786,7 +7786,7 @@ C_VoiceXXXVII = {
     }
     \times 4/7 {
         
-        % [C VoiceXXXVII measure 63]                             %! SM4
+        % [C PercussionVoiceXXXVII measure 63]                   %! SM4
         c'8
         [
         
@@ -7805,7 +7805,7 @@ C_VoiceXXXVII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXVII measure 64]                             %! SM4
+        % [C PercussionVoiceXXXVII measure 64]                   %! SM4
         c'4
         
         c'4
@@ -7817,14 +7817,14 @@ C_VoiceXXXVII = {
 
 
 C_StaffXXXVII = {
-    \context Voice = "VoiceXXXVII"
-    \C_VoiceXXXVII
+    \context Voice = "PercussionVoiceXXXVII"
+    \C_PercussionVoiceXXXVII
 }
 
 
-C_VoiceXXXVIII = {
+C_PercussionVoiceXXXVIII = {
     
-    % [C VoiceXXXVIII measure 49]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 49]                      %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -7875,7 +7875,7 @@ C_VoiceXXXVIII = {
             38                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXXVIII measure 50]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 50]                      %! SM4
     c'8
     [
     
@@ -7886,10 +7886,10 @@ C_VoiceXXXVIII = {
     c'8
     ]
     
-    % [C VoiceXXXVIII measure 51]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 51]                      %! SM4
     r2
     
-    % [C VoiceXXXVIII measure 52]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 52]                      %! SM4
     c'8
     [
     
@@ -7900,11 +7900,11 @@ C_VoiceXXXVIII = {
     c'8
     ]
     
-    % [C VoiceXXXVIII measure 53]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 53]                      %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXXXVIII measure 54]                            %! SM4
+        % [C PercussionVoiceXXXVIII measure 54]                  %! SM4
         c'8
         [
         
@@ -7919,7 +7919,7 @@ C_VoiceXXXVIII = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXVIII measure 55]                            %! SM4
+        % [C PercussionVoiceXXXVIII measure 55]                  %! SM4
         c'8
         [
         
@@ -7935,18 +7935,18 @@ C_VoiceXXXVIII = {
         ]
     }
     
-    % [C VoiceXXXVIII measure 56]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 56]                      %! SM4
     c'2
     
-    % [C VoiceXXXVIII measure 57]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 57]                      %! SM4
     r2
     
-    % [C VoiceXXXVIII measure 58]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 58]                      %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXXVIII measure 59]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 59]                      %! SM4
     c'8
     [
     
@@ -7957,16 +7957,16 @@ C_VoiceXXXVIII = {
     c'8
     ]
     
-    % [C VoiceXXXVIII measure 60]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 60]                      %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXXXVIII measure 61]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 61]                      %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXXXVIII measure 62]                            %! SM4
+        % [C PercussionVoiceXXXVIII measure 62]                  %! SM4
         c'8
         [
         
@@ -7984,13 +7984,13 @@ C_VoiceXXXVIII = {
         ]
     }
     
-    % [C VoiceXXXVIII measure 63]                                %! SM4
+    % [C PercussionVoiceXXXVIII measure 63]                      %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXXXVIII measure 64]                            %! SM4
+        % [C PercussionVoiceXXXVIII measure 64]                  %! SM4
         c'4
         
         c'4
@@ -8002,14 +8002,14 @@ C_VoiceXXXVIII = {
 
 
 C_StaffXXXVIII = {
-    \context Voice = "VoiceXXXVIII"
-    \C_VoiceXXXVIII
+    \context Voice = "PercussionVoiceXXXVIII"
+    \C_PercussionVoiceXXXVIII
 }
 
 
-C_VoiceXXXIX = {
+C_PercussionVoiceXXXIX = {
     
-    % [C VoiceXXXIX measure 49]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -8060,10 +8060,10 @@ C_VoiceXXXIX = {
             39                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXXXIX measure 50]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 50]                        %! SM4
     r2
     
-    % [C VoiceXXXIX measure 51]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 51]                        %! SM4
     c'8
     [
     
@@ -8074,7 +8074,7 @@ C_VoiceXXXIX = {
     c'8
     ]
     
-    % [C VoiceXXXIX measure 52]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 52]                        %! SM4
     c'8
     [
     
@@ -8085,14 +8085,14 @@ C_VoiceXXXIX = {
     c'8
     ]
     
-    % [C VoiceXXXIX measure 53]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 53]                        %! SM4
     r2
     
-    % [C VoiceXXXIX measure 54]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 54]                        %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXXXIX measure 55]                              %! SM4
+        % [C PercussionVoiceXXXIX measure 55]                    %! SM4
         c'4
         
         c'4
@@ -8101,7 +8101,7 @@ C_VoiceXXXIX = {
     }
     \times 4/5 {
         
-        % [C VoiceXXXIX measure 56]                              %! SM4
+        % [C PercussionVoiceXXXIX measure 56]                    %! SM4
         c'8
         [
         
@@ -8115,7 +8115,7 @@ C_VoiceXXXIX = {
         ]
     }
     
-    % [C VoiceXXXIX measure 57]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 57]                        %! SM4
     c'8
     [
     
@@ -8126,7 +8126,7 @@ C_VoiceXXXIX = {
     c'8
     ]
     
-    % [C VoiceXXXIX measure 58]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 58]                        %! SM4
     c'8
     [
     
@@ -8137,13 +8137,13 @@ C_VoiceXXXIX = {
     c'8
     ]
     
-    % [C VoiceXXXIX measure 59]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 59]                        %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXXXIX measure 60]                              %! SM4
+        % [C PercussionVoiceXXXIX measure 60]                    %! SM4
         c'8
         [
         
@@ -8159,7 +8159,7 @@ C_VoiceXXXIX = {
         ]
     }
     
-    % [C VoiceXXXIX measure 61]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 61]                        %! SM4
     c'8
     [
     
@@ -8170,7 +8170,7 @@ C_VoiceXXXIX = {
     c'8
     ]
     
-    % [C VoiceXXXIX measure 62]                                  %! SM4
+    % [C PercussionVoiceXXXIX measure 62]                        %! SM4
     c'8
     [
     
@@ -8182,7 +8182,7 @@ C_VoiceXXXIX = {
     ]
     \times 4/5 {
         
-        % [C VoiceXXXIX measure 63]                              %! SM4
+        % [C PercussionVoiceXXXIX measure 63]                    %! SM4
         c'8
         [
         
@@ -8197,7 +8197,7 @@ C_VoiceXXXIX = {
     }
     \times 2/3 {
         
-        % [C VoiceXXXIX measure 64]                              %! SM4
+        % [C PercussionVoiceXXXIX measure 64]                    %! SM4
         c'4
         
         c'4
@@ -8209,14 +8209,14 @@ C_VoiceXXXIX = {
 
 
 C_StaffXXXIX = {
-    \context Voice = "VoiceXXXIX"
-    \C_VoiceXXXIX
+    \context Voice = "PercussionVoiceXXXIX"
+    \C_PercussionVoiceXXXIX
 }
 
 
-C_VoiceXL = {
+C_PercussionVoiceXL = {
     
-    % [C VoiceXL measure 49]                                     %! SM4
+    % [C PercussionVoiceXL measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -8267,13 +8267,13 @@ C_VoiceXL = {
             40                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXL measure 50]                                     %! SM4
+    % [C PercussionVoiceXL measure 50]                           %! SM4
     r2
     
-    % [C VoiceXL measure 51]                                     %! SM4
+    % [C PercussionVoiceXL measure 51]                           %! SM4
     r2
     
-    % [C VoiceXL measure 52]                                     %! SM4
+    % [C PercussionVoiceXL measure 52]                           %! SM4
     c'8
     [
     
@@ -8284,17 +8284,17 @@ C_VoiceXL = {
     c'8
     ]
     
-    % [C VoiceXL measure 53]                                     %! SM4
+    % [C PercussionVoiceXL measure 53]                           %! SM4
     r2
     
-    % [C VoiceXL measure 54]                                     %! SM4
+    % [C PercussionVoiceXL measure 54]                           %! SM4
     r2
     
-    % [C VoiceXL measure 55]                                     %! SM4
+    % [C PercussionVoiceXL measure 55]                           %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXL measure 56]                                 %! SM4
+        % [C PercussionVoiceXL measure 56]                       %! SM4
         c'8
         [
         
@@ -8308,10 +8308,10 @@ C_VoiceXL = {
         ]
     }
     
-    % [C VoiceXL measure 57]                                     %! SM4
+    % [C PercussionVoiceXL measure 57]                           %! SM4
     r2
     
-    % [C VoiceXL measure 58]                                     %! SM4
+    % [C PercussionVoiceXL measure 58]                           %! SM4
     c'8
     [
     
@@ -8322,11 +8322,11 @@ C_VoiceXL = {
     c'8
     ]
     
-    % [C VoiceXL measure 59]                                     %! SM4
+    % [C PercussionVoiceXL measure 59]                           %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXL measure 60]                                 %! SM4
+        % [C PercussionVoiceXL measure 60]                       %! SM4
         c'8
         [
         
@@ -8342,10 +8342,10 @@ C_VoiceXL = {
         ]
     }
     
-    % [C VoiceXL measure 61]                                     %! SM4
+    % [C PercussionVoiceXL measure 61]                           %! SM4
     r2
     
-    % [C VoiceXL measure 62]                                     %! SM4
+    % [C PercussionVoiceXL measure 62]                           %! SM4
     c'8
     [
     
@@ -8356,11 +8356,11 @@ C_VoiceXL = {
     c'8
     ]
     
-    % [C VoiceXL measure 63]                                     %! SM4
+    % [C PercussionVoiceXL measure 63]                           %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXL measure 64]                                 %! SM4
+        % [C PercussionVoiceXL measure 64]                       %! SM4
         c'4
         
         c'4
@@ -8372,14 +8372,14 @@ C_VoiceXL = {
 
 
 C_StaffXL = {
-    \context Voice = "VoiceXL"
-    \C_VoiceXL
+    \context Voice = "PercussionVoiceXL"
+    \C_PercussionVoiceXL
 }
 
 
-C_VoiceXLI = {
+C_PercussionVoiceXLI = {
     
-    % [C VoiceXLI measure 49]                                    %! SM4
+    % [C PercussionVoiceXLI measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -8432,23 +8432,23 @@ C_VoiceXLI = {
     
     c'4
     
-    % [C VoiceXLI measure 50]                                    %! SM4
+    % [C PercussionVoiceXLI measure 50]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLI measure 51]                                    %! SM4
+    % [C PercussionVoiceXLI measure 51]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLI measure 52]                                    %! SM4
+    % [C PercussionVoiceXLI measure 52]                          %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXLI measure 53]                                %! SM4
+        % [C PercussionVoiceXLI measure 53]                      %! SM4
         c'8
         [
         
@@ -8465,7 +8465,7 @@ C_VoiceXLI = {
     }
     \times 2/3 {
         
-        % [C VoiceXLI measure 54]                                %! SM4
+        % [C PercussionVoiceXLI measure 54]                      %! SM4
         c'8
         [
         
@@ -8482,7 +8482,7 @@ C_VoiceXLI = {
     }
     \times 2/3 {
         
-        % [C VoiceXLI measure 55]                                %! SM4
+        % [C PercussionVoiceXLI measure 55]                      %! SM4
         c'8
         [
         
@@ -8499,7 +8499,7 @@ C_VoiceXLI = {
     }
     \times 2/3 {
         
-        % [C VoiceXLI measure 56]                                %! SM4
+        % [C PercussionVoiceXLI measure 56]                      %! SM4
         c'8
         [
         
@@ -8515,14 +8515,14 @@ C_VoiceXLI = {
         ]
     }
     
-    % [C VoiceXLI measure 57]                                    %! SM4
+    % [C PercussionVoiceXLI measure 57]                          %! SM4
     c'2
     
-    % [C VoiceXLI measure 58]                                    %! SM4
+    % [C PercussionVoiceXLI measure 58]                          %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceXLI measure 59]                                %! SM4
+        % [C PercussionVoiceXLI measure 59]                      %! SM4
         c'8
         [
         
@@ -8537,7 +8537,7 @@ C_VoiceXLI = {
     }
     \times 4/5 {
         
-        % [C VoiceXLI measure 60]                                %! SM4
+        % [C PercussionVoiceXLI measure 60]                      %! SM4
         c'8
         [
         
@@ -8552,7 +8552,7 @@ C_VoiceXLI = {
     }
     \times 4/7 {
         
-        % [C VoiceXLI measure 61]                                %! SM4
+        % [C PercussionVoiceXLI measure 61]                      %! SM4
         c'8
         [
         
@@ -8571,7 +8571,7 @@ C_VoiceXLI = {
     }
     \times 4/7 {
         
-        % [C VoiceXLI measure 62]                                %! SM4
+        % [C PercussionVoiceXLI measure 62]                      %! SM4
         c'8
         [
         
@@ -8590,7 +8590,7 @@ C_VoiceXLI = {
     }
     \times 2/3 {
         
-        % [C VoiceXLI measure 63]                                %! SM4
+        % [C PercussionVoiceXLI measure 63]                      %! SM4
         c'4
         
         c'4
@@ -8599,7 +8599,7 @@ C_VoiceXLI = {
     }
     \times 2/3 {
         
-        % [C VoiceXLI measure 64]                                %! SM4
+        % [C PercussionVoiceXLI measure 64]                      %! SM4
         c'4
         
         c'4
@@ -8611,14 +8611,14 @@ C_VoiceXLI = {
 
 
 C_StaffXLI = {
-    \context Voice = "VoiceXLI"
-    \C_VoiceXLI
+    \context Voice = "PercussionVoiceXLI"
+    \C_PercussionVoiceXLI
 }
 
 
-C_VoiceXLII = {
+C_PercussionVoiceXLII = {
     
-    % [C VoiceXLII measure 49]                                   %! SM4
+    % [C PercussionVoiceXLII measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -8670,7 +8670,7 @@ C_VoiceXLII = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 2/3 {
         
-        % [C VoiceXLII measure 50]                               %! SM4
+        % [C PercussionVoiceXLII measure 50]                     %! SM4
         c'8
         [
         
@@ -8686,7 +8686,7 @@ C_VoiceXLII = {
         ]
     }
     
-    % [C VoiceXLII measure 51]                                   %! SM4
+    % [C PercussionVoiceXLII measure 51]                         %! SM4
     c'8
     [
     
@@ -8697,20 +8697,20 @@ C_VoiceXLII = {
     c'8
     ]
     
-    % [C VoiceXLII measure 52]                                   %! SM4
+    % [C PercussionVoiceXLII measure 52]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLII measure 53]                                   %! SM4
+    % [C PercussionVoiceXLII measure 53]                         %! SM4
     r2
     
-    % [C VoiceXLII measure 54]                                   %! SM4
+    % [C PercussionVoiceXLII measure 54]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLII measure 55]                                   %! SM4
+    % [C PercussionVoiceXLII measure 55]                         %! SM4
     c'8
     [
     
@@ -8722,7 +8722,7 @@ C_VoiceXLII = {
     ]
     \times 2/3 {
         
-        % [C VoiceXLII measure 56]                               %! SM4
+        % [C PercussionVoiceXLII measure 56]                     %! SM4
         c'8
         [
         
@@ -8738,11 +8738,11 @@ C_VoiceXLII = {
         ]
     }
     
-    % [C VoiceXLII measure 57]                                   %! SM4
+    % [C PercussionVoiceXLII measure 57]                         %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXLII measure 58]                               %! SM4
+        % [C PercussionVoiceXLII measure 58]                     %! SM4
         c'8
         [
         
@@ -8761,7 +8761,7 @@ C_VoiceXLII = {
     }
     \times 2/3 {
         
-        % [C VoiceXLII measure 59]                               %! SM4
+        % [C PercussionVoiceXLII measure 59]                     %! SM4
         c'8
         [
         
@@ -8777,10 +8777,10 @@ C_VoiceXLII = {
         ]
     }
     
-    % [C VoiceXLII measure 60]                                   %! SM4
+    % [C PercussionVoiceXLII measure 60]                         %! SM4
     c'2
     
-    % [C VoiceXLII measure 61]                                   %! SM4
+    % [C PercussionVoiceXLII measure 61]                         %! SM4
     c'8
     [
     
@@ -8792,7 +8792,7 @@ C_VoiceXLII = {
     ]
     \times 4/5 {
         
-        % [C VoiceXLII measure 62]                               %! SM4
+        % [C PercussionVoiceXLII measure 62]                     %! SM4
         c'8
         [
         
@@ -8807,7 +8807,7 @@ C_VoiceXLII = {
     }
     \times 2/3 {
         
-        % [C VoiceXLII measure 63]                               %! SM4
+        % [C PercussionVoiceXLII measure 63]                     %! SM4
         c'8
         [
         
@@ -8824,7 +8824,7 @@ C_VoiceXLII = {
     }
     \times 2/3 {
         
-        % [C VoiceXLII measure 64]                               %! SM4
+        % [C PercussionVoiceXLII measure 64]                     %! SM4
         c'4
         
         c'4
@@ -8836,14 +8836,14 @@ C_VoiceXLII = {
 
 
 C_StaffXLII = {
-    \context Voice = "VoiceXLII"
-    \C_VoiceXLII
+    \context Voice = "PercussionVoiceXLII"
+    \C_PercussionVoiceXLII
 }
 
 
-C_VoiceXLIII = {
+C_PercussionVoiceXLIII = {
     
-    % [C VoiceXLIII measure 49]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -8894,16 +8894,16 @@ C_VoiceXLIII = {
             43                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXLIII measure 50]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 50]                        %! SM4
     r2
     
-    % [C VoiceXLIII measure 51]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 51]                        %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXLIII measure 52]                              %! SM4
+        % [C PercussionVoiceXLIII measure 52]                    %! SM4
         c'8
         [
         
@@ -8919,7 +8919,7 @@ C_VoiceXLIII = {
         ]
     }
     
-    % [C VoiceXLIII measure 53]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 53]                        %! SM4
     c'8
     [
     
@@ -8930,7 +8930,7 @@ C_VoiceXLIII = {
     c'8
     ]
     
-    % [C VoiceXLIII measure 54]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 54]                        %! SM4
     c'8
     [
     
@@ -8941,13 +8941,13 @@ C_VoiceXLIII = {
     c'8
     ]
     
-    % [C VoiceXLIII measure 55]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 55]                        %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXLIII measure 56]                              %! SM4
+        % [C PercussionVoiceXLIII measure 56]                    %! SM4
         c'8
         [
         
@@ -8963,17 +8963,17 @@ C_VoiceXLIII = {
         ]
     }
     
-    % [C VoiceXLIII measure 57]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 57]                        %! SM4
     r2
     
-    % [C VoiceXLIII measure 58]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 58]                        %! SM4
     r2
     
-    % [C VoiceXLIII measure 59]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 59]                        %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXLIII measure 60]                              %! SM4
+        % [C PercussionVoiceXLIII measure 60]                    %! SM4
         c'4
         
         c'4
@@ -8981,13 +8981,13 @@ C_VoiceXLIII = {
         c'4
     }
     
-    % [C VoiceXLIII measure 61]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 61]                        %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXLIII measure 62]                              %! SM4
+        % [C PercussionVoiceXLIII measure 62]                    %! SM4
         c'8
         [
         
@@ -9003,11 +9003,11 @@ C_VoiceXLIII = {
         ]
     }
     
-    % [C VoiceXLIII measure 63]                                  %! SM4
+    % [C PercussionVoiceXLIII measure 63]                        %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceXLIII measure 64]                              %! SM4
+        % [C PercussionVoiceXLIII measure 64]                    %! SM4
         c'4
         
         c'4
@@ -9019,14 +9019,14 @@ C_VoiceXLIII = {
 
 
 C_StaffXLIII = {
-    \context Voice = "VoiceXLIII"
-    \C_VoiceXLIII
+    \context Voice = "PercussionVoiceXLIII"
+    \C_PercussionVoiceXLIII
 }
 
 
-C_VoiceXLIV = {
+C_PercussionVoiceXLIV = {
     
-    % [C VoiceXLIV measure 49]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -9077,14 +9077,14 @@ C_VoiceXLIV = {
             44                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXLIV measure 50]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 50]                         %! SM4
     r2
     
-    % [C VoiceXLIV measure 51]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 51]                         %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXLIV measure 52]                               %! SM4
+        % [C PercussionVoiceXLIV measure 52]                     %! SM4
         c'8
         [
         
@@ -9100,10 +9100,10 @@ C_VoiceXLIV = {
         ]
     }
     
-    % [C VoiceXLIV measure 53]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 53]                         %! SM4
     r2
     
-    % [C VoiceXLIV measure 54]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 54]                         %! SM4
     c'8
     [
     
@@ -9114,11 +9114,11 @@ C_VoiceXLIV = {
     c'8
     ]
     
-    % [C VoiceXLIV measure 55]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 55]                         %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXLIV measure 56]                               %! SM4
+        % [C PercussionVoiceXLIV measure 56]                     %! SM4
         c'8
         [
         
@@ -9134,17 +9134,17 @@ C_VoiceXLIV = {
         ]
     }
     
-    % [C VoiceXLIV measure 57]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 57]                         %! SM4
     r2
     
-    % [C VoiceXLIV measure 58]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 58]                         %! SM4
     r2
     
-    % [C VoiceXLIV measure 59]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 59]                         %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceXLIV measure 60]                               %! SM4
+        % [C PercussionVoiceXLIV measure 60]                     %! SM4
         c'8
         [
         
@@ -9162,7 +9162,7 @@ C_VoiceXLIV = {
         ]
     }
     
-    % [C VoiceXLIV measure 61]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 61]                         %! SM4
     c'8
     [
     
@@ -9173,12 +9173,12 @@ C_VoiceXLIV = {
     c'8
     ]
     
-    % [C VoiceXLIV measure 62]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 62]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLIV measure 63]                                   %! SM4
+    % [C PercussionVoiceXLIV measure 63]                         %! SM4
     c'8
     [
     
@@ -9190,7 +9190,7 @@ C_VoiceXLIV = {
     ]
     \times 2/3 {
         
-        % [C VoiceXLIV measure 64]                               %! SM4
+        % [C PercussionVoiceXLIV measure 64]                     %! SM4
         c'4
         
         c'4
@@ -9202,14 +9202,14 @@ C_VoiceXLIV = {
 
 
 C_StaffXLIV = {
-    \context Voice = "VoiceXLIV"
-    \C_VoiceXLIV
+    \context Voice = "PercussionVoiceXLIV"
+    \C_PercussionVoiceXLIV
 }
 
 
-C_VoiceXLV = {
+C_PercussionVoiceXLV = {
     
-    % [C VoiceXLV measure 49]                                    %! SM4
+    % [C PercussionVoiceXLV measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -9268,7 +9268,7 @@ C_VoiceXLV = {
     c'8
     ]
     
-    % [C VoiceXLV measure 50]                                    %! SM4
+    % [C PercussionVoiceXLV measure 50]                          %! SM4
     c'8
     [
     
@@ -9279,7 +9279,7 @@ C_VoiceXLV = {
     c'8
     ]
     
-    % [C VoiceXLV measure 51]                                    %! SM4
+    % [C PercussionVoiceXLV measure 51]                          %! SM4
     c'8
     [
     
@@ -9290,7 +9290,7 @@ C_VoiceXLV = {
     c'8
     ]
     
-    % [C VoiceXLV measure 52]                                    %! SM4
+    % [C PercussionVoiceXLV measure 52]                          %! SM4
     c'8
     [
     
@@ -9302,7 +9302,7 @@ C_VoiceXLV = {
     ]
     \times 2/3 {
         
-        % [C VoiceXLV measure 53]                                %! SM4
+        % [C PercussionVoiceXLV measure 53]                      %! SM4
         c'8
         [
         
@@ -9319,7 +9319,7 @@ C_VoiceXLV = {
     }
     \times 2/3 {
         
-        % [C VoiceXLV measure 54]                                %! SM4
+        % [C PercussionVoiceXLV measure 54]                      %! SM4
         c'8
         [
         
@@ -9335,17 +9335,17 @@ C_VoiceXLV = {
         ]
     }
     
-    % [C VoiceXLV measure 55]                                    %! SM4
+    % [C PercussionVoiceXLV measure 55]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLV measure 56]                                    %! SM4
+    % [C PercussionVoiceXLV measure 56]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLV measure 57]                                    %! SM4
+    % [C PercussionVoiceXLV measure 57]                          %! SM4
     c'8
     [
     
@@ -9356,7 +9356,7 @@ C_VoiceXLV = {
     c'8
     ]
     
-    % [C VoiceXLV measure 58]                                    %! SM4
+    % [C PercussionVoiceXLV measure 58]                          %! SM4
     c'8
     [
     
@@ -9367,7 +9367,7 @@ C_VoiceXLV = {
     c'8
     ]
     
-    % [C VoiceXLV measure 59]                                    %! SM4
+    % [C PercussionVoiceXLV measure 59]                          %! SM4
     c'8
     [
     
@@ -9378,7 +9378,7 @@ C_VoiceXLV = {
     c'8
     ]
     
-    % [C VoiceXLV measure 60]                                    %! SM4
+    % [C PercussionVoiceXLV measure 60]                          %! SM4
     c'8
     [
     
@@ -9390,7 +9390,7 @@ C_VoiceXLV = {
     ]
     \times 4/5 {
         
-        % [C VoiceXLV measure 61]                                %! SM4
+        % [C PercussionVoiceXLV measure 61]                      %! SM4
         c'8
         [
         
@@ -9404,11 +9404,11 @@ C_VoiceXLV = {
         ]
     }
     
-    % [C VoiceXLV measure 62]                                    %! SM4
+    % [C PercussionVoiceXLV measure 62]                          %! SM4
     c'2
     \times 4/7 {
         
-        % [C VoiceXLV measure 63]                                %! SM4
+        % [C PercussionVoiceXLV measure 63]                      %! SM4
         c'8
         [
         
@@ -9427,7 +9427,7 @@ C_VoiceXLV = {
     }
     \times 2/3 {
         
-        % [C VoiceXLV measure 64]                                %! SM4
+        % [C PercussionVoiceXLV measure 64]                      %! SM4
         c'4
         
         c'4
@@ -9439,14 +9439,14 @@ C_VoiceXLV = {
 
 
 C_StaffXLV = {
-    \context Voice = "VoiceXLV"
-    \C_VoiceXLV
+    \context Voice = "PercussionVoiceXLV"
+    \C_PercussionVoiceXLV
 }
 
 
-C_VoiceXLVI = {
+C_PercussionVoiceXLVI = {
     
-    % [C VoiceXLVI measure 49]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -9497,7 +9497,7 @@ C_VoiceXLVI = {
             46                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXLVI measure 50]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 50]                         %! SM4
     c'8
     [
     
@@ -9508,10 +9508,10 @@ C_VoiceXLVI = {
     c'8
     ]
     
-    % [C VoiceXLVI measure 51]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 51]                         %! SM4
     r2
     
-    % [C VoiceXLVI measure 52]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 52]                         %! SM4
     c'8
     [
     
@@ -9522,15 +9522,15 @@ C_VoiceXLVI = {
     c'8
     ]
     
-    % [C VoiceXLVI measure 53]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 53]                         %! SM4
     r2
     
-    % [C VoiceXLVI measure 54]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 54]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLVI measure 55]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 55]                         %! SM4
     c'8
     [
     
@@ -9541,15 +9541,15 @@ C_VoiceXLVI = {
     c'8
     ]
     
-    % [C VoiceXLVI measure 56]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 56]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLVI measure 57]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 57]                         %! SM4
     r2
     
-    % [C VoiceXLVI measure 58]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 58]                         %! SM4
     c'8
     [
     
@@ -9560,10 +9560,10 @@ C_VoiceXLVI = {
     c'8
     ]
     
-    % [C VoiceXLVI measure 59]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 59]                         %! SM4
     r2
     
-    % [C VoiceXLVI measure 60]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 60]                         %! SM4
     c'8
     [
     
@@ -9574,11 +9574,11 @@ C_VoiceXLVI = {
     c'8
     ]
     
-    % [C VoiceXLVI measure 61]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 61]                         %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXLVI measure 62]                               %! SM4
+        % [C PercussionVoiceXLVI measure 62]                     %! SM4
         c'4
         
         c'4
@@ -9586,13 +9586,13 @@ C_VoiceXLVI = {
         c'4
     }
     
-    % [C VoiceXLVI measure 63]                                   %! SM4
+    % [C PercussionVoiceXLVI measure 63]                         %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceXLVI measure 64]                               %! SM4
+        % [C PercussionVoiceXLVI measure 64]                     %! SM4
         c'4
         
         c'4
@@ -9604,14 +9604,14 @@ C_VoiceXLVI = {
 
 
 C_StaffXLVI = {
-    \context Voice = "VoiceXLVI"
-    \C_VoiceXLVI
+    \context Voice = "PercussionVoiceXLVI"
+    \C_PercussionVoiceXLVI
 }
 
 
-C_VoiceXLVII = {
+C_PercussionVoiceXLVII = {
     
-    % [C VoiceXLVII measure 49]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -9662,10 +9662,10 @@ C_VoiceXLVII = {
             47                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXLVII measure 50]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 50]                        %! SM4
     r2
     
-    % [C VoiceXLVII measure 51]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 51]                        %! SM4
     c'8
     [
     
@@ -9676,7 +9676,7 @@ C_VoiceXLVII = {
     c'8
     ]
     
-    % [C VoiceXLVII measure 52]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 52]                        %! SM4
     c'8
     [
     
@@ -9687,14 +9687,14 @@ C_VoiceXLVII = {
     c'8
     ]
     
-    % [C VoiceXLVII measure 53]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 53]                        %! SM4
     r2
     
-    % [C VoiceXLVII measure 54]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 54]                        %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXLVII measure 55]                              %! SM4
+        % [C PercussionVoiceXLVII measure 55]                    %! SM4
         c'8
         [
         
@@ -9710,18 +9710,18 @@ C_VoiceXLVII = {
         ]
     }
     
-    % [C VoiceXLVII measure 56]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 56]                        %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLVII measure 57]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 57]                        %! SM4
     r2
     
-    % [C VoiceXLVII measure 58]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 58]                        %! SM4
     r2
     
-    % [C VoiceXLVII measure 59]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 59]                        %! SM4
     c'8
     [
     
@@ -9732,7 +9732,7 @@ C_VoiceXLVII = {
     c'8
     ]
     
-    % [C VoiceXLVII measure 60]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 60]                        %! SM4
     c'8
     [
     
@@ -9743,14 +9743,14 @@ C_VoiceXLVII = {
     c'8
     ]
     
-    % [C VoiceXLVII measure 61]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 61]                        %! SM4
     r2
     
-    % [C VoiceXLVII measure 62]                                  %! SM4
+    % [C PercussionVoiceXLVII measure 62]                        %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceXLVII measure 63]                              %! SM4
+        % [C PercussionVoiceXLVII measure 63]                    %! SM4
         c'8
         [
         
@@ -9765,7 +9765,7 @@ C_VoiceXLVII = {
     }
     \times 2/3 {
         
-        % [C VoiceXLVII measure 64]                              %! SM4
+        % [C PercussionVoiceXLVII measure 64]                    %! SM4
         c'4
         
         c'4
@@ -9777,14 +9777,14 @@ C_VoiceXLVII = {
 
 
 C_StaffXLVII = {
-    \context Voice = "VoiceXLVII"
-    \C_VoiceXLVII
+    \context Voice = "PercussionVoiceXLVII"
+    \C_PercussionVoiceXLVII
 }
 
 
-C_VoiceXLVIII = {
+C_PercussionVoiceXLVIII = {
     
-    % [C VoiceXLVIII measure 49]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 49]                       %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -9835,13 +9835,13 @@ C_VoiceXLVIII = {
             48                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXLVIII measure 50]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 50]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 51]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 51]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 52]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 52]                       %! SM4
     c'8
     [
     
@@ -9852,30 +9852,30 @@ C_VoiceXLVIII = {
     c'8
     ]
     
-    % [C VoiceXLVIII measure 53]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 53]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 54]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 54]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 55]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 55]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 56]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 56]                       %! SM4
     c'4
     
     c'4
     
-    % [C VoiceXLVIII measure 57]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 57]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 58]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 58]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 59]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 59]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 60]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 60]                       %! SM4
     c'8
     [
     
@@ -9886,17 +9886,17 @@ C_VoiceXLVIII = {
     c'8
     ]
     
-    % [C VoiceXLVIII measure 61]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 61]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 62]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 62]                       %! SM4
     r2
     
-    % [C VoiceXLVIII measure 63]                                 %! SM4
+    % [C PercussionVoiceXLVIII measure 63]                       %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceXLVIII measure 64]                             %! SM4
+        % [C PercussionVoiceXLVIII measure 64]                   %! SM4
         c'4
         
         c'4
@@ -9908,14 +9908,14 @@ C_VoiceXLVIII = {
 
 
 C_StaffXLVIII = {
-    \context Voice = "VoiceXLVIII"
-    \C_VoiceXLVIII
+    \context Voice = "PercussionVoiceXLVIII"
+    \C_PercussionVoiceXLVIII
 }
 
 
-C_VoiceXLIX = {
+C_PercussionVoiceXLIX = {
     
-    % [C VoiceXLIX measure 49]                                   %! SM4
+    % [C PercussionVoiceXLIX measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -9966,17 +9966,17 @@ C_VoiceXLIX = {
             49                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceXLIX measure 50]                                   %! SM4
+    % [C PercussionVoiceXLIX measure 50]                         %! SM4
     c'2
     
-    % [C VoiceXLIX measure 51]                                   %! SM4
+    % [C PercussionVoiceXLIX measure 51]                         %! SM4
     c'2
     
-    % [C VoiceXLIX measure 52]                                   %! SM4
+    % [C PercussionVoiceXLIX measure 52]                         %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceXLIX measure 53]                               %! SM4
+        % [C PercussionVoiceXLIX measure 53]                     %! SM4
         c'8
         [
         
@@ -9991,7 +9991,7 @@ C_VoiceXLIX = {
     }
     \times 4/5 {
         
-        % [C VoiceXLIX measure 54]                               %! SM4
+        % [C PercussionVoiceXLIX measure 54]                     %! SM4
         c'8
         [
         
@@ -10006,7 +10006,7 @@ C_VoiceXLIX = {
     }
     \times 4/5 {
         
-        % [C VoiceXLIX measure 55]                               %! SM4
+        % [C PercussionVoiceXLIX measure 55]                     %! SM4
         c'8
         [
         
@@ -10021,7 +10021,7 @@ C_VoiceXLIX = {
     }
     \times 4/5 {
         
-        % [C VoiceXLIX measure 56]                               %! SM4
+        % [C PercussionVoiceXLIX measure 56]                     %! SM4
         c'8
         [
         
@@ -10036,7 +10036,7 @@ C_VoiceXLIX = {
     }
     \times 2/3 {
         
-        % [C VoiceXLIX measure 57]                               %! SM4
+        % [C PercussionVoiceXLIX measure 57]                     %! SM4
         c'4
         
         c'4
@@ -10045,7 +10045,7 @@ C_VoiceXLIX = {
     }
     \times 2/3 {
         
-        % [C VoiceXLIX measure 58]                               %! SM4
+        % [C PercussionVoiceXLIX measure 58]                     %! SM4
         c'4
         
         c'4
@@ -10054,7 +10054,7 @@ C_VoiceXLIX = {
     }
     \times 2/3 {
         
-        % [C VoiceXLIX measure 59]                               %! SM4
+        % [C PercussionVoiceXLIX measure 59]                     %! SM4
         c'4
         
         c'4
@@ -10063,7 +10063,7 @@ C_VoiceXLIX = {
     }
     \times 2/3 {
         
-        % [C VoiceXLIX measure 60]                               %! SM4
+        % [C PercussionVoiceXLIX measure 60]                     %! SM4
         c'4
         
         c'4
@@ -10072,26 +10072,7 @@ C_VoiceXLIX = {
     }
     \times 4/7 {
         
-        % [C VoiceXLIX measure 61]                               %! SM4
-        c'8
-        [
-        
-        c'8
-        
-        c'8
-        
-        c'8
-        
-        c'8
-        
-        c'8
-        
-        c'8
-        ]
-    }
-    \times 4/7 {
-        
-        % [C VoiceXLIX measure 62]                               %! SM4
+        % [C PercussionVoiceXLIX measure 61]                     %! SM4
         c'8
         [
         
@@ -10110,7 +10091,7 @@ C_VoiceXLIX = {
     }
     \times 4/7 {
         
-        % [C VoiceXLIX measure 63]                               %! SM4
+        % [C PercussionVoiceXLIX measure 62]                     %! SM4
         c'8
         [
         
@@ -10129,7 +10110,26 @@ C_VoiceXLIX = {
     }
     \times 4/7 {
         
-        % [C VoiceXLIX measure 64]                               %! SM4
+        % [C PercussionVoiceXLIX measure 63]                     %! SM4
+        c'8
+        [
+        
+        c'8
+        
+        c'8
+        
+        c'8
+        
+        c'8
+        
+        c'8
+        
+        c'8
+        ]
+    }
+    \times 4/7 {
+        
+        % [C PercussionVoiceXLIX measure 64]                     %! SM4
         c'8
         [
         
@@ -10151,14 +10151,14 @@ C_VoiceXLIX = {
 
 
 C_StaffXLIX = {
-    \context Voice = "VoiceXLIX"
-    \C_VoiceXLIX
+    \context Voice = "PercussionVoiceXLIX"
+    \C_PercussionVoiceXLIX
 }
 
 
-C_VoiceL = {
+C_PercussionVoiceL = {
     
-    % [C VoiceL measure 49]                                      %! SM4
+    % [C PercussionVoiceL measure 49]                            %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -10210,7 +10210,7 @@ C_VoiceL = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 4/7 {
         
-        % [C VoiceL measure 50]                                  %! SM4
+        % [C PercussionVoiceL measure 50]                        %! SM4
         c'8
         [
         
@@ -10229,7 +10229,7 @@ C_VoiceL = {
     }
     \times 2/3 {
         
-        % [C VoiceL measure 51]                                  %! SM4
+        % [C PercussionVoiceL measure 51]                        %! SM4
         c'8
         [
         
@@ -10246,7 +10246,7 @@ C_VoiceL = {
     }
     \times 4/5 {
         
-        % [C VoiceL measure 52]                                  %! SM4
+        % [C PercussionVoiceL measure 52]                        %! SM4
         c'8
         [
         
@@ -10260,7 +10260,7 @@ C_VoiceL = {
         ]
     }
     
-    % [C VoiceL measure 53]                                      %! SM4
+    % [C PercussionVoiceL measure 53]                            %! SM4
     c'8
     [
     
@@ -10272,7 +10272,7 @@ C_VoiceL = {
     ]
     \times 4/7 {
         
-        % [C VoiceL measure 54]                                  %! SM4
+        % [C PercussionVoiceL measure 54]                        %! SM4
         c'8
         [
         
@@ -10290,13 +10290,13 @@ C_VoiceL = {
         ]
     }
     
-    % [C VoiceL measure 55]                                      %! SM4
+    % [C PercussionVoiceL measure 55]                            %! SM4
     c'4
     
     c'4
     \times 4/5 {
         
-        % [C VoiceL measure 56]                                  %! SM4
+        % [C PercussionVoiceL measure 56]                        %! SM4
         c'8
         [
         
@@ -10310,11 +10310,11 @@ C_VoiceL = {
         ]
     }
     
-    % [C VoiceL measure 57]                                      %! SM4
+    % [C PercussionVoiceL measure 57]                            %! SM4
     r2
     \times 4/5 {
         
-        % [C VoiceL measure 58]                                  %! SM4
+        % [C PercussionVoiceL measure 58]                        %! SM4
         c'8
         [
         
@@ -10328,13 +10328,13 @@ C_VoiceL = {
         ]
     }
     
-    % [C VoiceL measure 59]                                      %! SM4
+    % [C PercussionVoiceL measure 59]                            %! SM4
     c'4
     
     c'4
     \times 4/7 {
         
-        % [C VoiceL measure 60]                                  %! SM4
+        % [C PercussionVoiceL measure 60]                        %! SM4
         c'8
         [
         
@@ -10352,7 +10352,7 @@ C_VoiceL = {
         ]
     }
     
-    % [C VoiceL measure 61]                                      %! SM4
+    % [C PercussionVoiceL measure 61]                            %! SM4
     c'8
     [
     
@@ -10364,7 +10364,7 @@ C_VoiceL = {
     ]
     \times 4/5 {
         
-        % [C VoiceL measure 62]                                  %! SM4
+        % [C PercussionVoiceL measure 62]                        %! SM4
         c'8
         [
         
@@ -10379,7 +10379,7 @@ C_VoiceL = {
     }
     \times 2/3 {
         
-        % [C VoiceL measure 63]                                  %! SM4
+        % [C PercussionVoiceL measure 63]                        %! SM4
         c'8
         [
         
@@ -10396,7 +10396,7 @@ C_VoiceL = {
     }
     \times 4/7 {
         
-        % [C VoiceL measure 64]                                  %! SM4
+        % [C PercussionVoiceL measure 64]                        %! SM4
         c'8
         [
         
@@ -10418,14 +10418,14 @@ C_VoiceL = {
 
 
 C_StaffL = {
-    \context Voice = "VoiceL"
-    \C_VoiceL
+    \context Voice = "PercussionVoiceL"
+    \C_PercussionVoiceL
 }
 
 
-C_VoiceLI = {
+C_PercussionVoiceLI = {
     
-    % [C VoiceLI measure 49]                                     %! SM4
+    % [C PercussionVoiceLI measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -10476,14 +10476,14 @@ C_VoiceLI = {
             51                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLI measure 50]                                     %! SM4
+    % [C PercussionVoiceLI measure 50]                           %! SM4
     r2
     
-    % [C VoiceLI measure 51]                                     %! SM4
+    % [C PercussionVoiceLI measure 51]                           %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceLI measure 52]                                 %! SM4
+        % [C PercussionVoiceLI measure 52]                       %! SM4
         c'4
         
         c'4
@@ -10492,7 +10492,7 @@ C_VoiceLI = {
     }
     \times 2/3 {
         
-        % [C VoiceLI measure 53]                                 %! SM4
+        % [C PercussionVoiceLI measure 53]                       %! SM4
         c'8
         [
         
@@ -10508,13 +10508,13 @@ C_VoiceLI = {
         ]
     }
     
-    % [C VoiceLI measure 54]                                     %! SM4
+    % [C PercussionVoiceLI measure 54]                           %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceLI measure 55]                                 %! SM4
+        % [C PercussionVoiceLI measure 55]                       %! SM4
         c'4
         
         c'4
@@ -10522,10 +10522,10 @@ C_VoiceLI = {
         c'4
     }
     
-    % [C VoiceLI measure 56]                                     %! SM4
+    % [C PercussionVoiceLI measure 56]                           %! SM4
     c'2
     
-    % [C VoiceLI measure 57]                                     %! SM4
+    % [C PercussionVoiceLI measure 57]                           %! SM4
     c'8
     [
     
@@ -10536,7 +10536,7 @@ C_VoiceLI = {
     c'8
     ]
     
-    % [C VoiceLI measure 58]                                     %! SM4
+    % [C PercussionVoiceLI measure 58]                           %! SM4
     c'8
     [
     
@@ -10548,7 +10548,7 @@ C_VoiceLI = {
     ]
     \times 4/7 {
         
-        % [C VoiceLI measure 59]                                 %! SM4
+        % [C PercussionVoiceLI measure 59]                       %! SM4
         c'8
         [
         
@@ -10567,7 +10567,7 @@ C_VoiceLI = {
     }
     \times 4/5 {
         
-        % [C VoiceLI measure 60]                                 %! SM4
+        % [C PercussionVoiceLI measure 60]                       %! SM4
         c'8
         [
         
@@ -10582,7 +10582,7 @@ C_VoiceLI = {
     }
     \times 2/3 {
         
-        % [C VoiceLI measure 61]                                 %! SM4
+        % [C PercussionVoiceLI measure 61]                       %! SM4
         c'8
         [
         
@@ -10598,13 +10598,13 @@ C_VoiceLI = {
         ]
     }
     
-    % [C VoiceLI measure 62]                                     %! SM4
+    % [C PercussionVoiceLI measure 62]                           %! SM4
     c'4
     
     c'4
     \times 4/5 {
         
-        % [C VoiceLI measure 63]                                 %! SM4
+        % [C PercussionVoiceLI measure 63]                       %! SM4
         c'8
         [
         
@@ -10619,7 +10619,7 @@ C_VoiceLI = {
     }
     \times 4/7 {
         
-        % [C VoiceLI measure 64]                                 %! SM4
+        % [C PercussionVoiceLI measure 64]                       %! SM4
         c'8
         [
         
@@ -10641,14 +10641,14 @@ C_VoiceLI = {
 
 
 C_StaffLI = {
-    \context Voice = "VoiceLI"
-    \C_VoiceLI
+    \context Voice = "PercussionVoiceLI"
+    \C_PercussionVoiceLI
 }
 
 
-C_VoiceLII = {
+C_PercussionVoiceLII = {
     
-    % [C VoiceLII measure 49]                                    %! SM4
+    % [C PercussionVoiceLII measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -10699,14 +10699,14 @@ C_VoiceLII = {
             52                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLII measure 50]                                    %! SM4
+    % [C PercussionVoiceLII measure 50]                          %! SM4
     r2
     
-    % [C VoiceLII measure 51]                                    %! SM4
+    % [C PercussionVoiceLII measure 51]                          %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceLII measure 52]                                %! SM4
+        % [C PercussionVoiceLII measure 52]                      %! SM4
         c'8
         [
         
@@ -10724,7 +10724,7 @@ C_VoiceLII = {
         ]
     }
     
-    % [C VoiceLII measure 53]                                    %! SM4
+    % [C PercussionVoiceLII measure 53]                          %! SM4
     c'8
     [
     
@@ -10736,7 +10736,7 @@ C_VoiceLII = {
     ]
     \times 2/3 {
         
-        % [C VoiceLII measure 54]                                %! SM4
+        % [C PercussionVoiceLII measure 54]                      %! SM4
         c'8
         [
         
@@ -10752,7 +10752,7 @@ C_VoiceLII = {
         ]
     }
     
-    % [C VoiceLII measure 55]                                    %! SM4
+    % [C PercussionVoiceLII measure 55]                          %! SM4
     c'8
     [
     
@@ -10763,13 +10763,13 @@ C_VoiceLII = {
     c'8
     ]
     
-    % [C VoiceLII measure 56]                                    %! SM4
+    % [C PercussionVoiceLII measure 56]                          %! SM4
     c'2
     
-    % [C VoiceLII measure 57]                                    %! SM4
+    % [C PercussionVoiceLII measure 57]                          %! SM4
     r2
     
-    % [C VoiceLII measure 58]                                    %! SM4
+    % [C PercussionVoiceLII measure 58]                          %! SM4
     c'8
     [
     
@@ -10780,13 +10780,13 @@ C_VoiceLII = {
     c'8
     ]
     
-    % [C VoiceLII measure 59]                                    %! SM4
+    % [C PercussionVoiceLII measure 59]                          %! SM4
     r2
     
-    % [C VoiceLII measure 60]                                    %! SM4
+    % [C PercussionVoiceLII measure 60]                          %! SM4
     c'2
     
-    % [C VoiceLII measure 61]                                    %! SM4
+    % [C PercussionVoiceLII measure 61]                          %! SM4
     c'8
     [
     
@@ -10798,7 +10798,7 @@ C_VoiceLII = {
     ]
     \times 2/3 {
         
-        % [C VoiceLII measure 62]                                %! SM4
+        % [C PercussionVoiceLII measure 62]                      %! SM4
         c'8
         [
         
@@ -10814,7 +10814,7 @@ C_VoiceLII = {
         ]
     }
     
-    % [C VoiceLII measure 63]                                    %! SM4
+    % [C PercussionVoiceLII measure 63]                          %! SM4
     c'8
     [
     
@@ -10826,7 +10826,7 @@ C_VoiceLII = {
     ]
     \times 4/7 {
         
-        % [C VoiceLII measure 64]                                %! SM4
+        % [C PercussionVoiceLII measure 64]                      %! SM4
         c'8
         [
         
@@ -10848,14 +10848,14 @@ C_VoiceLII = {
 
 
 C_StaffLII = {
-    \context Voice = "VoiceLII"
-    \C_VoiceLII
+    \context Voice = "PercussionVoiceLII"
+    \C_PercussionVoiceLII
 }
 
 
-C_VoiceLIII = {
+C_PercussionVoiceLIII = {
     
-    % [C VoiceLIII measure 49]                                   %! SM4
+    % [C PercussionVoiceLIII measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -10906,20 +10906,20 @@ C_VoiceLIII = {
             53                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLIII measure 50]                                   %! SM4
+    % [C PercussionVoiceLIII measure 50]                         %! SM4
     r2
     
-    % [C VoiceLIII measure 51]                                   %! SM4
+    % [C PercussionVoiceLIII measure 51]                         %! SM4
     r2
     
-    % [C VoiceLIII measure 52]                                   %! SM4
+    % [C PercussionVoiceLIII measure 52]                         %! SM4
     r2
     
-    % [C VoiceLIII measure 53]                                   %! SM4
+    % [C PercussionVoiceLIII measure 53]                         %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceLIII measure 54]                               %! SM4
+        % [C PercussionVoiceLIII measure 54]                     %! SM4
         c'8
         [
         
@@ -10934,7 +10934,7 @@ C_VoiceLIII = {
     }
     \times 4/7 {
         
-        % [C VoiceLIII measure 55]                               %! SM4
+        % [C PercussionVoiceLIII measure 55]                     %! SM4
         c'8
         [
         
@@ -10953,7 +10953,7 @@ C_VoiceLIII = {
     }
     \times 2/3 {
         
-        % [C VoiceLIII measure 56]                               %! SM4
+        % [C PercussionVoiceLIII measure 56]                     %! SM4
         c'4
         
         c'4
@@ -10961,18 +10961,18 @@ C_VoiceLIII = {
         c'4
     }
     
-    % [C VoiceLIII measure 57]                                   %! SM4
+    % [C PercussionVoiceLIII measure 57]                         %! SM4
     c'4
     
     c'4
     
-    % [C VoiceLIII measure 58]                                   %! SM4
+    % [C PercussionVoiceLIII measure 58]                         %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceLIII measure 59]                               %! SM4
+        % [C PercussionVoiceLIII measure 59]                     %! SM4
         c'8
         [
         
@@ -10989,7 +10989,7 @@ C_VoiceLIII = {
     }
     \times 2/3 {
         
-        % [C VoiceLIII measure 60]                               %! SM4
+        % [C PercussionVoiceLIII measure 60]                     %! SM4
         c'8
         [
         
@@ -11006,7 +11006,7 @@ C_VoiceLIII = {
     }
     \times 4/5 {
         
-        % [C VoiceLIII measure 61]                               %! SM4
+        % [C PercussionVoiceLIII measure 61]                     %! SM4
         c'8
         [
         
@@ -11020,11 +11020,11 @@ C_VoiceLIII = {
         ]
     }
     
-    % [C VoiceLIII measure 62]                                   %! SM4
+    % [C PercussionVoiceLIII measure 62]                         %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceLIII measure 63]                               %! SM4
+        % [C PercussionVoiceLIII measure 63]                     %! SM4
         c'4
         
         c'4
@@ -11033,7 +11033,7 @@ C_VoiceLIII = {
     }
     \times 4/7 {
         
-        % [C VoiceLIII measure 64]                               %! SM4
+        % [C PercussionVoiceLIII measure 64]                     %! SM4
         c'8
         [
         
@@ -11055,14 +11055,14 @@ C_VoiceLIII = {
 
 
 C_StaffLIII = {
-    \context Voice = "VoiceLIII"
-    \C_VoiceLIII
+    \context Voice = "PercussionVoiceLIII"
+    \C_PercussionVoiceLIII
 }
 
 
-C_VoiceLIV = {
+C_PercussionVoiceLIV = {
     
-    % [C VoiceLIV measure 49]                                    %! SM4
+    % [C PercussionVoiceLIV measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -11113,20 +11113,20 @@ C_VoiceLIV = {
             54                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLIV measure 50]                                    %! SM4
+    % [C PercussionVoiceLIV measure 50]                          %! SM4
     r2
     
-    % [C VoiceLIV measure 51]                                    %! SM4
+    % [C PercussionVoiceLIV measure 51]                          %! SM4
     r2
     
-    % [C VoiceLIV measure 52]                                    %! SM4
+    % [C PercussionVoiceLIV measure 52]                          %! SM4
     r2
     
-    % [C VoiceLIV measure 53]                                    %! SM4
+    % [C PercussionVoiceLIV measure 53]                          %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceLIV measure 54]                                %! SM4
+        % [C PercussionVoiceLIV measure 54]                      %! SM4
         c'8
         [
         
@@ -11144,13 +11144,13 @@ C_VoiceLIV = {
         ]
     }
     
-    % [C VoiceLIV measure 55]                                    %! SM4
+    % [C PercussionVoiceLIV measure 55]                          %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceLIV measure 56]                                %! SM4
+        % [C PercussionVoiceLIV measure 56]                      %! SM4
         c'4
         
         c'4
@@ -11158,11 +11158,11 @@ C_VoiceLIV = {
         c'4
     }
     
-    % [C VoiceLIV measure 57]                                    %! SM4
+    % [C PercussionVoiceLIV measure 57]                          %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceLIV measure 58]                                %! SM4
+        % [C PercussionVoiceLIV measure 58]                      %! SM4
         c'8
         [
         
@@ -11178,7 +11178,7 @@ C_VoiceLIV = {
         ]
     }
     
-    % [C VoiceLIV measure 59]                                    %! SM4
+    % [C PercussionVoiceLIV measure 59]                          %! SM4
     c'8
     [
     
@@ -11190,7 +11190,7 @@ C_VoiceLIV = {
     ]
     \times 2/3 {
         
-        % [C VoiceLIV measure 60]                                %! SM4
+        % [C PercussionVoiceLIV measure 60]                      %! SM4
         c'8
         [
         
@@ -11206,11 +11206,11 @@ C_VoiceLIV = {
         ]
     }
     
-    % [C VoiceLIV measure 61]                                    %! SM4
+    % [C PercussionVoiceLIV measure 61]                          %! SM4
     r2
     \times 2/3 {
         
-        % [C VoiceLIV measure 62]                                %! SM4
+        % [C PercussionVoiceLIV measure 62]                      %! SM4
         c'4
         
         c'4
@@ -11218,13 +11218,13 @@ C_VoiceLIV = {
         c'4
     }
     
-    % [C VoiceLIV measure 63]                                    %! SM4
+    % [C PercussionVoiceLIV measure 63]                          %! SM4
     c'4
     
     c'4
     \times 4/7 {
         
-        % [C VoiceLIV measure 64]                                %! SM4
+        % [C PercussionVoiceLIV measure 64]                      %! SM4
         c'8
         [
         
@@ -11246,14 +11246,14 @@ C_VoiceLIV = {
 
 
 C_StaffLIV = {
-    \context Voice = "VoiceLIV"
-    \C_VoiceLIV
+    \context Voice = "PercussionVoiceLIV"
+    \C_PercussionVoiceLIV
 }
 
 
-C_VoiceLV = {
+C_PercussionVoiceLV = {
     
-    % [C VoiceLV measure 49]                                     %! SM4
+    % [C PercussionVoiceLV measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -11304,26 +11304,26 @@ C_VoiceLV = {
             55                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLV measure 50]                                     %! SM4
+    % [C PercussionVoiceLV measure 50]                           %! SM4
     r2
     
-    % [C VoiceLV measure 51]                                     %! SM4
+    % [C PercussionVoiceLV measure 51]                           %! SM4
     r2
     
-    % [C VoiceLV measure 52]                                     %! SM4
+    % [C PercussionVoiceLV measure 52]                           %! SM4
     r2
     
-    % [C VoiceLV measure 53]                                     %! SM4
+    % [C PercussionVoiceLV measure 53]                           %! SM4
     r2
     
-    % [C VoiceLV measure 54]                                     %! SM4
+    % [C PercussionVoiceLV measure 54]                           %! SM4
     r2
     
-    % [C VoiceLV measure 55]                                     %! SM4
+    % [C PercussionVoiceLV measure 55]                           %! SM4
     c'2
     \times 4/7 {
         
-        % [C VoiceLV measure 56]                                 %! SM4
+        % [C PercussionVoiceLV measure 56]                       %! SM4
         c'8
         [
         
@@ -11341,7 +11341,7 @@ C_VoiceLV = {
         ]
     }
     
-    % [C VoiceLV measure 57]                                     %! SM4
+    % [C PercussionVoiceLV measure 57]                           %! SM4
     c'8
     [
     
@@ -11352,7 +11352,7 @@ C_VoiceLV = {
     c'8
     ]
     
-    % [C VoiceLV measure 58]                                     %! SM4
+    % [C PercussionVoiceLV measure 58]                           %! SM4
     c'8
     [
     
@@ -11364,7 +11364,7 @@ C_VoiceLV = {
     ]
     \times 2/3 {
         
-        % [C VoiceLV measure 59]                                 %! SM4
+        % [C PercussionVoiceLV measure 59]                       %! SM4
         c'8
         [
         
@@ -11380,12 +11380,12 @@ C_VoiceLV = {
         ]
     }
     
-    % [C VoiceLV measure 60]                                     %! SM4
+    % [C PercussionVoiceLV measure 60]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceLV measure 61]                                     %! SM4
+    % [C PercussionVoiceLV measure 61]                           %! SM4
     c'8
     [
     
@@ -11396,7 +11396,7 @@ C_VoiceLV = {
     c'8
     ]
     
-    % [C VoiceLV measure 62]                                     %! SM4
+    % [C PercussionVoiceLV measure 62]                           %! SM4
     c'8
     [
     
@@ -11407,11 +11407,11 @@ C_VoiceLV = {
     c'8
     ]
     
-    % [C VoiceLV measure 63]                                     %! SM4
+    % [C PercussionVoiceLV measure 63]                           %! SM4
     c'2
     \times 4/7 {
         
-        % [C VoiceLV measure 64]                                 %! SM4
+        % [C PercussionVoiceLV measure 64]                       %! SM4
         c'8
         [
         
@@ -11433,14 +11433,14 @@ C_VoiceLV = {
 
 
 C_StaffLV = {
-    \context Voice = "VoiceLV"
-    \C_VoiceLV
+    \context Voice = "PercussionVoiceLV"
+    \C_PercussionVoiceLV
 }
 
 
-C_VoiceLVI = {
+C_PercussionVoiceLVI = {
     
-    % [C VoiceLVI measure 49]                                    %! SM4
+    % [C PercussionVoiceLVI measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -11491,26 +11491,26 @@ C_VoiceLVI = {
             56                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLVI measure 50]                                    %! SM4
+    % [C PercussionVoiceLVI measure 50]                          %! SM4
     r2
     
-    % [C VoiceLVI measure 51]                                    %! SM4
+    % [C PercussionVoiceLVI measure 51]                          %! SM4
     r2
     
-    % [C VoiceLVI measure 52]                                    %! SM4
+    % [C PercussionVoiceLVI measure 52]                          %! SM4
     r2
     
-    % [C VoiceLVI measure 53]                                    %! SM4
+    % [C PercussionVoiceLVI measure 53]                          %! SM4
     r2
     
-    % [C VoiceLVI measure 54]                                    %! SM4
+    % [C PercussionVoiceLVI measure 54]                          %! SM4
     r2
     
-    % [C VoiceLVI measure 55]                                    %! SM4
+    % [C PercussionVoiceLVI measure 55]                          %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceLVI measure 56]                                %! SM4
+        % [C PercussionVoiceLVI measure 56]                      %! SM4
         c'8
         [
         
@@ -11528,10 +11528,10 @@ C_VoiceLVI = {
         ]
     }
     
-    % [C VoiceLVI measure 57]                                    %! SM4
+    % [C PercussionVoiceLVI measure 57]                          %! SM4
     r2
     
-    % [C VoiceLVI measure 58]                                    %! SM4
+    % [C PercussionVoiceLVI measure 58]                          %! SM4
     c'8
     [
     
@@ -11542,18 +11542,18 @@ C_VoiceLVI = {
     c'8
     ]
     
-    % [C VoiceLVI measure 59]                                    %! SM4
+    % [C PercussionVoiceLVI measure 59]                          %! SM4
     r2
     
-    % [C VoiceLVI measure 60]                                    %! SM4
+    % [C PercussionVoiceLVI measure 60]                          %! SM4
     c'4
     
     c'4
     
-    % [C VoiceLVI measure 61]                                    %! SM4
+    % [C PercussionVoiceLVI measure 61]                          %! SM4
     r2
     
-    % [C VoiceLVI measure 62]                                    %! SM4
+    % [C PercussionVoiceLVI measure 62]                          %! SM4
     c'8
     [
     
@@ -11564,11 +11564,11 @@ C_VoiceLVI = {
     c'8
     ]
     
-    % [C VoiceLVI measure 63]                                    %! SM4
+    % [C PercussionVoiceLVI measure 63]                          %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceLVI measure 64]                                %! SM4
+        % [C PercussionVoiceLVI measure 64]                      %! SM4
         c'8
         [
         
@@ -11590,14 +11590,14 @@ C_VoiceLVI = {
 
 
 C_StaffLVI = {
-    \context Voice = "VoiceLVI"
-    \C_VoiceLVI
+    \context Voice = "PercussionVoiceLVI"
+    \C_PercussionVoiceLVI
 }
 
 
-C_VoiceLVII = {
+C_PercussionVoiceLVII = {
     
-    % [C VoiceLVII measure 49]                                   %! SM4
+    % [C PercussionVoiceLVII measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -11648,35 +11648,35 @@ C_VoiceLVII = {
             57                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLVII measure 50]                                   %! SM4
+    % [C PercussionVoiceLVII measure 50]                         %! SM4
     r2
     
-    % [C VoiceLVII measure 51]                                   %! SM4
+    % [C PercussionVoiceLVII measure 51]                         %! SM4
     r2
     
-    % [C VoiceLVII measure 52]                                   %! SM4
+    % [C PercussionVoiceLVII measure 52]                         %! SM4
     r2
     
-    % [C VoiceLVII measure 53]                                   %! SM4
+    % [C PercussionVoiceLVII measure 53]                         %! SM4
     r2
     
-    % [C VoiceLVII measure 54]                                   %! SM4
+    % [C PercussionVoiceLVII measure 54]                         %! SM4
     r2
     
-    % [C VoiceLVII measure 55]                                   %! SM4
+    % [C PercussionVoiceLVII measure 55]                         %! SM4
     r2
     
-    % [C VoiceLVII measure 56]                                   %! SM4
+    % [C PercussionVoiceLVII measure 56]                         %! SM4
     r2
     
-    % [C VoiceLVII measure 57]                                   %! SM4
+    % [C PercussionVoiceLVII measure 57]                         %! SM4
     c'2
     
-    % [C VoiceLVII measure 58]                                   %! SM4
+    % [C PercussionVoiceLVII measure 58]                         %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceLVII measure 59]                               %! SM4
+        % [C PercussionVoiceLVII measure 59]                     %! SM4
         c'8
         [
         
@@ -11691,7 +11691,7 @@ C_VoiceLVII = {
     }
     \times 4/5 {
         
-        % [C VoiceLVII measure 60]                               %! SM4
+        % [C PercussionVoiceLVII measure 60]                     %! SM4
         c'8
         [
         
@@ -11706,7 +11706,7 @@ C_VoiceLVII = {
     }
     \times 2/3 {
         
-        % [C VoiceLVII measure 61]                               %! SM4
+        % [C PercussionVoiceLVII measure 61]                     %! SM4
         c'4
         
         c'4
@@ -11715,7 +11715,7 @@ C_VoiceLVII = {
     }
     \times 2/3 {
         
-        % [C VoiceLVII measure 62]                               %! SM4
+        % [C PercussionVoiceLVII measure 62]                     %! SM4
         c'4
         
         c'4
@@ -11724,7 +11724,7 @@ C_VoiceLVII = {
     }
     \times 4/7 {
         
-        % [C VoiceLVII measure 63]                               %! SM4
+        % [C PercussionVoiceLVII measure 63]                     %! SM4
         c'8
         [
         
@@ -11743,7 +11743,7 @@ C_VoiceLVII = {
     }
     \times 4/7 {
         
-        % [C VoiceLVII measure 64]                               %! SM4
+        % [C PercussionVoiceLVII measure 64]                     %! SM4
         c'8
         [
         
@@ -11765,14 +11765,14 @@ C_VoiceLVII = {
 
 
 C_StaffLVII = {
-    \context Voice = "VoiceLVII"
-    \C_VoiceLVII
+    \context Voice = "PercussionVoiceLVII"
+    \C_PercussionVoiceLVII
 }
 
 
-C_VoiceLVIII = {
+C_PercussionVoiceLVIII = {
     
-    % [C VoiceLVIII measure 49]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -11823,32 +11823,32 @@ C_VoiceLVIII = {
             58                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLVIII measure 50]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 50]                        %! SM4
     r2
     
-    % [C VoiceLVIII measure 51]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 51]                        %! SM4
     r2
     
-    % [C VoiceLVIII measure 52]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 52]                        %! SM4
     r2
     
-    % [C VoiceLVIII measure 53]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 53]                        %! SM4
     r2
     
-    % [C VoiceLVIII measure 54]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 54]                        %! SM4
     r2
     
-    % [C VoiceLVIII measure 55]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 55]                        %! SM4
     r2
     
-    % [C VoiceLVIII measure 56]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 56]                        %! SM4
     r2
     
-    % [C VoiceLVIII measure 57]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 57]                        %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceLVIII measure 58]                              %! SM4
+        % [C PercussionVoiceLVIII measure 58]                    %! SM4
         c'8
         [
         
@@ -11867,7 +11867,7 @@ C_VoiceLVIII = {
     }
     \times 2/3 {
         
-        % [C VoiceLVIII measure 59]                              %! SM4
+        % [C PercussionVoiceLVIII measure 59]                    %! SM4
         c'8
         [
         
@@ -11883,10 +11883,10 @@ C_VoiceLVIII = {
         ]
     }
     
-    % [C VoiceLVIII measure 60]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 60]                        %! SM4
     c'2
     
-    % [C VoiceLVIII measure 61]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 61]                        %! SM4
     c'8
     [
     
@@ -11897,11 +11897,11 @@ C_VoiceLVIII = {
     c'8
     ]
     
-    % [C VoiceLVIII measure 62]                                  %! SM4
+    % [C PercussionVoiceLVIII measure 62]                        %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceLVIII measure 63]                              %! SM4
+        % [C PercussionVoiceLVIII measure 63]                    %! SM4
         c'8
         [
         
@@ -11918,7 +11918,7 @@ C_VoiceLVIII = {
     }
     \times 4/7 {
         
-        % [C VoiceLVIII measure 64]                              %! SM4
+        % [C PercussionVoiceLVIII measure 64]                    %! SM4
         c'8
         [
         
@@ -11940,14 +11940,14 @@ C_VoiceLVIII = {
 
 
 C_StaffLVIII = {
-    \context Voice = "VoiceLVIII"
-    \C_VoiceLVIII
+    \context Voice = "PercussionVoiceLVIII"
+    \C_PercussionVoiceLVIII
 }
 
 
-C_VoiceLIX = {
+C_PercussionVoiceLIX = {
     
-    % [C VoiceLIX measure 49]                                    %! SM4
+    % [C PercussionVoiceLIX measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -11998,38 +11998,38 @@ C_VoiceLIX = {
             59                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLIX measure 50]                                    %! SM4
+    % [C PercussionVoiceLIX measure 50]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 51]                                    %! SM4
+    % [C PercussionVoiceLIX measure 51]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 52]                                    %! SM4
+    % [C PercussionVoiceLIX measure 52]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 53]                                    %! SM4
+    % [C PercussionVoiceLIX measure 53]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 54]                                    %! SM4
+    % [C PercussionVoiceLIX measure 54]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 55]                                    %! SM4
+    % [C PercussionVoiceLIX measure 55]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 56]                                    %! SM4
+    % [C PercussionVoiceLIX measure 56]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 57]                                    %! SM4
+    % [C PercussionVoiceLIX measure 57]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 58]                                    %! SM4
+    % [C PercussionVoiceLIX measure 58]                          %! SM4
     r2
     
-    % [C VoiceLIX measure 59]                                    %! SM4
+    % [C PercussionVoiceLIX measure 59]                          %! SM4
     c'2
     \times 2/3 {
         
-        % [C VoiceLIX measure 60]                                %! SM4
+        % [C PercussionVoiceLIX measure 60]                      %! SM4
         c'4
         
         c'4
@@ -12037,13 +12037,13 @@ C_VoiceLIX = {
         c'4
     }
     
-    % [C VoiceLIX measure 61]                                    %! SM4
+    % [C PercussionVoiceLIX measure 61]                          %! SM4
     c'4
     
     c'4
     \times 2/3 {
         
-        % [C VoiceLIX measure 62]                                %! SM4
+        % [C PercussionVoiceLIX measure 62]                      %! SM4
         c'8
         [
         
@@ -12060,7 +12060,7 @@ C_VoiceLIX = {
     }
     \times 4/5 {
         
-        % [C VoiceLIX measure 63]                                %! SM4
+        % [C PercussionVoiceLIX measure 63]                      %! SM4
         c'8
         [
         
@@ -12075,7 +12075,7 @@ C_VoiceLIX = {
     }
     \times 4/7 {
         
-        % [C VoiceLIX measure 64]                                %! SM4
+        % [C PercussionVoiceLIX measure 64]                      %! SM4
         c'8
         [
         
@@ -12097,14 +12097,14 @@ C_VoiceLIX = {
 
 
 C_StaffLIX = {
-    \context Voice = "VoiceLIX"
-    \C_VoiceLIX
+    \context Voice = "PercussionVoiceLIX"
+    \C_PercussionVoiceLIX
 }
 
 
-C_VoiceLX = {
+C_PercussionVoiceLX = {
     
-    % [C VoiceLX measure 49]                                     %! SM4
+    % [C PercussionVoiceLX measure 49]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -12155,38 +12155,38 @@ C_VoiceLX = {
             60                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLX measure 50]                                     %! SM4
+    % [C PercussionVoiceLX measure 50]                           %! SM4
     r2
     
-    % [C VoiceLX measure 51]                                     %! SM4
+    % [C PercussionVoiceLX measure 51]                           %! SM4
     r2
     
-    % [C VoiceLX measure 52]                                     %! SM4
+    % [C PercussionVoiceLX measure 52]                           %! SM4
     r2
     
-    % [C VoiceLX measure 53]                                     %! SM4
+    % [C PercussionVoiceLX measure 53]                           %! SM4
     r2
     
-    % [C VoiceLX measure 54]                                     %! SM4
+    % [C PercussionVoiceLX measure 54]                           %! SM4
     r2
     
-    % [C VoiceLX measure 55]                                     %! SM4
+    % [C PercussionVoiceLX measure 55]                           %! SM4
     r2
     
-    % [C VoiceLX measure 56]                                     %! SM4
+    % [C PercussionVoiceLX measure 56]                           %! SM4
     r2
     
-    % [C VoiceLX measure 57]                                     %! SM4
+    % [C PercussionVoiceLX measure 57]                           %! SM4
     r2
     
-    % [C VoiceLX measure 58]                                     %! SM4
+    % [C PercussionVoiceLX measure 58]                           %! SM4
     r2
     
-    % [C VoiceLX measure 59]                                     %! SM4
+    % [C PercussionVoiceLX measure 59]                           %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceLX measure 60]                                 %! SM4
+        % [C PercussionVoiceLX measure 60]                       %! SM4
         c'8
         [
         
@@ -12204,7 +12204,7 @@ C_VoiceLX = {
         ]
     }
     
-    % [C VoiceLX measure 61]                                     %! SM4
+    % [C PercussionVoiceLX measure 61]                           %! SM4
     c'8
     [
     
@@ -12215,12 +12215,12 @@ C_VoiceLX = {
     c'8
     ]
     
-    % [C VoiceLX measure 62]                                     %! SM4
+    % [C PercussionVoiceLX measure 62]                           %! SM4
     c'4
     
     c'4
     
-    % [C VoiceLX measure 63]                                     %! SM4
+    % [C PercussionVoiceLX measure 63]                           %! SM4
     c'8
     [
     
@@ -12232,7 +12232,7 @@ C_VoiceLX = {
     ]
     \times 4/7 {
         
-        % [C VoiceLX measure 64]                                 %! SM4
+        % [C PercussionVoiceLX measure 64]                       %! SM4
         c'8
         [
         
@@ -12254,14 +12254,14 @@ C_VoiceLX = {
 
 
 C_StaffLX = {
-    \context Voice = "VoiceLX"
-    \C_VoiceLX
+    \context Voice = "PercussionVoiceLX"
+    \C_PercussionVoiceLX
 }
 
 
-C_VoiceLXI = {
+C_PercussionVoiceLXI = {
     
-    % [C VoiceLXI measure 49]                                    %! SM4
+    % [C PercussionVoiceLXI measure 49]                          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -12312,44 +12312,44 @@ C_VoiceLXI = {
             61                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLXI measure 50]                                    %! SM4
+    % [C PercussionVoiceLXI measure 50]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 51]                                    %! SM4
+    % [C PercussionVoiceLXI measure 51]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 52]                                    %! SM4
+    % [C PercussionVoiceLXI measure 52]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 53]                                    %! SM4
+    % [C PercussionVoiceLXI measure 53]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 54]                                    %! SM4
+    % [C PercussionVoiceLXI measure 54]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 55]                                    %! SM4
+    % [C PercussionVoiceLXI measure 55]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 56]                                    %! SM4
+    % [C PercussionVoiceLXI measure 56]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 57]                                    %! SM4
+    % [C PercussionVoiceLXI measure 57]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 58]                                    %! SM4
+    % [C PercussionVoiceLXI measure 58]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 59]                                    %! SM4
+    % [C PercussionVoiceLXI measure 59]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 60]                                    %! SM4
+    % [C PercussionVoiceLXI measure 60]                          %! SM4
     r2
     
-    % [C VoiceLXI measure 61]                                    %! SM4
+    % [C PercussionVoiceLXI measure 61]                          %! SM4
     c'2
     \times 4/5 {
         
-        % [C VoiceLXI measure 62]                                %! SM4
+        % [C PercussionVoiceLXI measure 62]                      %! SM4
         c'8
         [
         
@@ -12364,7 +12364,7 @@ C_VoiceLXI = {
     }
     \times 2/3 {
         
-        % [C VoiceLXI measure 63]                                %! SM4
+        % [C PercussionVoiceLXI measure 63]                      %! SM4
         c'4
         
         c'4
@@ -12373,7 +12373,7 @@ C_VoiceLXI = {
     }
     \times 4/7 {
         
-        % [C VoiceLXI measure 64]                                %! SM4
+        % [C PercussionVoiceLXI measure 64]                      %! SM4
         c'8
         [
         
@@ -12395,14 +12395,14 @@ C_VoiceLXI = {
 
 
 C_StaffLXI = {
-    \context Voice = "VoiceLXI"
-    \C_VoiceLXI
+    \context Voice = "PercussionVoiceLXI"
+    \C_PercussionVoiceLXI
 }
 
 
-C_VoiceLXII = {
+C_PercussionVoiceLXII = {
     
-    % [C VoiceLXII measure 49]                                   %! SM4
+    % [C PercussionVoiceLXII measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -12453,44 +12453,44 @@ C_VoiceLXII = {
             62                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLXII measure 50]                                   %! SM4
+    % [C PercussionVoiceLXII measure 50]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 51]                                   %! SM4
+    % [C PercussionVoiceLXII measure 51]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 52]                                   %! SM4
+    % [C PercussionVoiceLXII measure 52]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 53]                                   %! SM4
+    % [C PercussionVoiceLXII measure 53]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 54]                                   %! SM4
+    % [C PercussionVoiceLXII measure 54]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 55]                                   %! SM4
+    % [C PercussionVoiceLXII measure 55]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 56]                                   %! SM4
+    % [C PercussionVoiceLXII measure 56]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 57]                                   %! SM4
+    % [C PercussionVoiceLXII measure 57]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 58]                                   %! SM4
+    % [C PercussionVoiceLXII measure 58]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 59]                                   %! SM4
+    % [C PercussionVoiceLXII measure 59]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 60]                                   %! SM4
+    % [C PercussionVoiceLXII measure 60]                         %! SM4
     r2
     
-    % [C VoiceLXII measure 61]                                   %! SM4
+    % [C PercussionVoiceLXII measure 61]                         %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceLXII measure 62]                               %! SM4
+        % [C PercussionVoiceLXII measure 62]                     %! SM4
         c'8
         [
         
@@ -12508,13 +12508,13 @@ C_VoiceLXII = {
         ]
     }
     
-    % [C VoiceLXII measure 63]                                   %! SM4
+    % [C PercussionVoiceLXII measure 63]                         %! SM4
     c'4
     
     c'4
     \times 4/7 {
         
-        % [C VoiceLXII measure 64]                               %! SM4
+        % [C PercussionVoiceLXII measure 64]                     %! SM4
         c'8
         [
         
@@ -12536,14 +12536,14 @@ C_VoiceLXII = {
 
 
 C_StaffLXII = {
-    \context Voice = "VoiceLXII"
-    \C_VoiceLXII
+    \context Voice = "PercussionVoiceLXII"
+    \C_PercussionVoiceLXII
 }
 
 
-C_VoiceLXIII = {
+C_PercussionVoiceLXIII = {
     
-    % [C VoiceLXIII measure 49]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 49]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -12594,50 +12594,50 @@ C_VoiceLXIII = {
             63                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLXIII measure 50]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 50]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 51]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 51]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 52]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 52]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 53]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 53]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 54]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 54]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 55]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 55]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 56]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 56]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 57]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 57]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 58]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 58]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 59]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 59]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 60]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 60]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 61]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 61]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 62]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 62]                        %! SM4
     r2
     
-    % [C VoiceLXIII measure 63]                                  %! SM4
+    % [C PercussionVoiceLXIII measure 63]                        %! SM4
     c'2
     \times 4/7 {
         
-        % [C VoiceLXIII measure 64]                              %! SM4
+        % [C PercussionVoiceLXIII measure 64]                    %! SM4
         c'8
         [
         
@@ -12659,14 +12659,14 @@ C_VoiceLXIII = {
 
 
 C_StaffLXIII = {
-    \context Voice = "VoiceLXIII"
-    \C_VoiceLXIII
+    \context Voice = "PercussionVoiceLXIII"
+    \C_PercussionVoiceLXIII
 }
 
 
-C_VoiceLXIV = {
+C_PercussionVoiceLXIV = {
     
-    % [C VoiceLXIV measure 49]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 49]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -12717,50 +12717,50 @@ C_VoiceLXIV = {
             64                                                   %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [C VoiceLXIV measure 50]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 50]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 51]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 51]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 52]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 52]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 53]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 53]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 54]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 54]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 55]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 55]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 56]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 56]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 57]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 57]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 58]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 58]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 59]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 59]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 60]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 60]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 61]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 61]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 62]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 62]                         %! SM4
     r2
     
-    % [C VoiceLXIV measure 63]                                   %! SM4
+    % [C PercussionVoiceLXIV measure 63]                         %! SM4
     r2
     \times 4/7 {
         
-        % [C VoiceLXIV measure 64]                               %! SM4
+        % [C PercussionVoiceLXIV measure 64]                     %! SM4
         c'8
         [
         
@@ -12782,6 +12782,6 @@ C_VoiceLXIV = {
 
 
 C_StaffLXIV = {
-    \context Voice = "VoiceLXIV"
-    \C_VoiceLXIV
+    \context Voice = "PercussionVoiceLXIV"
+    \C_PercussionVoiceLXIV
 }

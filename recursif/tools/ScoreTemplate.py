@@ -37,448 +37,448 @@ class ScoreTemplate(baca.ScoreTemplate):
                 <<
                     \context Staff = "StaffI"
                     {
-                        \context Voice = "VoiceI"
+                        \context Voice = "PercussionVoiceI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffII"
                     {
-                        \context Voice = "VoiceII"
+                        \context Voice = "PercussionVoiceII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffIII"
                     {
-                        \context Voice = "VoiceIII"
+                        \context Voice = "PercussionVoiceIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffIV"
                     {
-                        \context Voice = "VoiceIV"
+                        \context Voice = "PercussionVoiceIV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffV"
                     {
-                        \context Voice = "VoiceV"
+                        \context Voice = "PercussionVoiceV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffVI"
                     {
-                        \context Voice = "VoiceVI"
+                        \context Voice = "PercussionVoiceVI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffVII"
                     {
-                        \context Voice = "VoiceVII"
+                        \context Voice = "PercussionVoiceVII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffVIII"
                     {
-                        \context Voice = "VoiceVIII"
+                        \context Voice = "PercussionVoiceVIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffIX"
                     {
-                        \context Voice = "VoiceIX"
+                        \context Voice = "PercussionVoiceIX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffX"
                     {
-                        \context Voice = "VoiceX"
+                        \context Voice = "PercussionVoiceX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXI"
                     {
-                        \context Voice = "VoiceXI"
+                        \context Voice = "PercussionVoiceXI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXII"
                     {
-                        \context Voice = "VoiceXII"
+                        \context Voice = "PercussionVoiceXII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXIII"
                     {
-                        \context Voice = "VoiceXIII"
+                        \context Voice = "PercussionVoiceXIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXIV"
                     {
-                        \context Voice = "VoiceXIV"
+                        \context Voice = "PercussionVoiceXIV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXV"
                     {
-                        \context Voice = "VoiceXV"
+                        \context Voice = "PercussionVoiceXV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXVI"
                     {
-                        \context Voice = "VoiceXVI"
+                        \context Voice = "PercussionVoiceXVI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXVII"
                     {
-                        \context Voice = "VoiceXVII"
+                        \context Voice = "PercussionVoiceXVII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXVIII"
                     {
-                        \context Voice = "VoiceXVIII"
+                        \context Voice = "PercussionVoiceXVIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXIX"
                     {
-                        \context Voice = "VoiceXIX"
+                        \context Voice = "PercussionVoiceXIX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXX"
                     {
-                        \context Voice = "VoiceXX"
+                        \context Voice = "PercussionVoiceXX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXI"
                     {
-                        \context Voice = "VoiceXXI"
+                        \context Voice = "PercussionVoiceXXI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXII"
                     {
-                        \context Voice = "VoiceXXII"
+                        \context Voice = "PercussionVoiceXXII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXIII"
                     {
-                        \context Voice = "VoiceXXIII"
+                        \context Voice = "PercussionVoiceXXIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXIV"
                     {
-                        \context Voice = "VoiceXXIV"
+                        \context Voice = "PercussionVoiceXXIV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXV"
                     {
-                        \context Voice = "VoiceXXV"
+                        \context Voice = "PercussionVoiceXXV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXVI"
                     {
-                        \context Voice = "VoiceXXVI"
+                        \context Voice = "PercussionVoiceXXVI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXVII"
                     {
-                        \context Voice = "VoiceXXVII"
+                        \context Voice = "PercussionVoiceXXVII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXVIII"
                     {
-                        \context Voice = "VoiceXXVIII"
+                        \context Voice = "PercussionVoiceXXVIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXIX"
                     {
-                        \context Voice = "VoiceXXIX"
+                        \context Voice = "PercussionVoiceXXIX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXX"
                     {
-                        \context Voice = "VoiceXXX"
+                        \context Voice = "PercussionVoiceXXX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXI"
                     {
-                        \context Voice = "VoiceXXXI"
+                        \context Voice = "PercussionVoiceXXXI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXII"
                     {
-                        \context Voice = "VoiceXXXII"
+                        \context Voice = "PercussionVoiceXXXII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXIII"
                     {
-                        \context Voice = "VoiceXXXIII"
+                        \context Voice = "PercussionVoiceXXXIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXIV"
                     {
-                        \context Voice = "VoiceXXXIV"
+                        \context Voice = "PercussionVoiceXXXIV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXV"
                     {
-                        \context Voice = "VoiceXXXV"
+                        \context Voice = "PercussionVoiceXXXV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXVI"
                     {
-                        \context Voice = "VoiceXXXVI"
+                        \context Voice = "PercussionVoiceXXXVI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXVII"
                     {
-                        \context Voice = "VoiceXXXVII"
+                        \context Voice = "PercussionVoiceXXXVII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXVIII"
                     {
-                        \context Voice = "VoiceXXXVIII"
+                        \context Voice = "PercussionVoiceXXXVIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXXXIX"
                     {
-                        \context Voice = "VoiceXXXIX"
+                        \context Voice = "PercussionVoiceXXXIX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXL"
                     {
-                        \context Voice = "VoiceXL"
+                        \context Voice = "PercussionVoiceXL"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLI"
                     {
-                        \context Voice = "VoiceXLI"
+                        \context Voice = "PercussionVoiceXLI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLII"
                     {
-                        \context Voice = "VoiceXLII"
+                        \context Voice = "PercussionVoiceXLII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLIII"
                     {
-                        \context Voice = "VoiceXLIII"
+                        \context Voice = "PercussionVoiceXLIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLIV"
                     {
-                        \context Voice = "VoiceXLIV"
+                        \context Voice = "PercussionVoiceXLIV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLV"
                     {
-                        \context Voice = "VoiceXLV"
+                        \context Voice = "PercussionVoiceXLV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLVI"
                     {
-                        \context Voice = "VoiceXLVI"
+                        \context Voice = "PercussionVoiceXLVI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLVII"
                     {
-                        \context Voice = "VoiceXLVII"
+                        \context Voice = "PercussionVoiceXLVII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLVIII"
                     {
-                        \context Voice = "VoiceXLVIII"
+                        \context Voice = "PercussionVoiceXLVIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffXLIX"
                     {
-                        \context Voice = "VoiceXLIX"
+                        \context Voice = "PercussionVoiceXLIX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffL"
                     {
-                        \context Voice = "VoiceL"
+                        \context Voice = "PercussionVoiceL"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLI"
                     {
-                        \context Voice = "VoiceLI"
+                        \context Voice = "PercussionVoiceLI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLII"
                     {
-                        \context Voice = "VoiceLII"
+                        \context Voice = "PercussionVoiceLII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLIII"
                     {
-                        \context Voice = "VoiceLIII"
+                        \context Voice = "PercussionVoiceLIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLIV"
                     {
-                        \context Voice = "VoiceLIV"
+                        \context Voice = "PercussionVoiceLIV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLV"
                     {
-                        \context Voice = "VoiceLV"
+                        \context Voice = "PercussionVoiceLV"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLVI"
                     {
-                        \context Voice = "VoiceLVI"
+                        \context Voice = "PercussionVoiceLVI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLVII"
                     {
-                        \context Voice = "VoiceLVII"
+                        \context Voice = "PercussionVoiceLVII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLVIII"
                     {
-                        \context Voice = "VoiceLVIII"
+                        \context Voice = "PercussionVoiceLVIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLIX"
                     {
-                        \context Voice = "VoiceLIX"
+                        \context Voice = "PercussionVoiceLIX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLX"
                     {
-                        \context Voice = "VoiceLX"
+                        \context Voice = "PercussionVoiceLX"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLXI"
                     {
-                        \context Voice = "VoiceLXI"
+                        \context Voice = "PercussionVoiceLXI"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLXII"
                     {
-                        \context Voice = "VoiceLXII"
+                        \context Voice = "PercussionVoiceLXII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLXIII"
                     {
-                        \context Voice = "VoiceLXIII"
+                        \context Voice = "PercussionVoiceLXIII"
                         {
                             s1
                         }
                     }
                     \context Staff = "StaffLXIV"
                     {
-                        \context Voice = "VoiceLXIV"
+                        \context Voice = "PercussionVoiceLXIV"
                         {
                             s1
                         }
@@ -501,6 +501,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             ),
         )
 
+    #all_music_in_part_containers = True
+
     ### SPECIAL METHODS ###
 
     def __call__(self) -> abjad.Score:
@@ -514,7 +516,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         for staff_index in range(64):
             staff_number = staff_index + 1
             staff_numeral = roman.toRoman(staff_number)
-            voice = abjad.Voice(name=f'Voice{staff_numeral}')
+            voice = abjad.Voice(name=f'PercussionVoice{staff_numeral}')
             staff = abjad.Staff(
                 [voice],
                 name=f'Staff{staff_numeral}',
