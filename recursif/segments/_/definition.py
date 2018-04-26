@@ -22,9 +22,11 @@ maker(
     baca.metronome_mark('38-42'),
     )
 
+#recursif.assign_parts(maker)
+
 for voice_number in range(1, 64 + 1):
     numeral = roman.toRoman(voice_number)
-    voice_name = f'Voice{numeral}'
+    voice_name = f'PercussionVoice{numeral}'
     maker(
         voice_name,
         baca.clef('percussion'),
@@ -36,7 +38,7 @@ for voice_number in range(1, 64 + 1):
 
 for voice_number in range(1, 64 + 1):
     numeral = roman.toRoman(voice_number)
-    voice_name = f'Voice{numeral}'
+    voice_name = f'PercussionVoice{numeral}'
     maker(
         voice_name, 
         baca.staff_position(0),
