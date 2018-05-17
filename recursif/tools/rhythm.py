@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def rhythm(voice_number, page_number):
-    r'''Makes rhythm for ``voice_number`` and ``page_number``.
-    '''
+    """
+    Makes rhythm for ``voice_number`` and ``page_number``.
+    """
     assert page_number in range(1, 16 + 1)
     start_measure_number = 16 * (page_number - 1) + 1
     stop = start_measure_number + 16
