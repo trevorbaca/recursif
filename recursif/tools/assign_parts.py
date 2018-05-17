@@ -5,8 +5,9 @@ import roman
 
 
 def assign_parts(maker):
-    r'''Assigns parts.
-    '''
+    """
+    Assigns parts.
+    """
     for n in range(1, 64 + 1):
         numeral = roman.toRoman(n)
         voice_name = f'PercussionVoice{numeral}'

@@ -5,7 +5,8 @@ import roman
 
 
 class ScoreTemplate(baca.ScoreTemplate):
-    r'''Score template.
+    r"""
+    Score template.
 
     >>> import recursif
 
@@ -487,7 +488,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             }
         >>
 
-    '''
+    """
 
     ### CLASS VARIABLES ###
 
@@ -506,8 +507,9 @@ class ScoreTemplate(baca.ScoreTemplate):
     ### SPECIAL METHODS ###
 
     def __call__(self) -> abjad.Score:
-        r'''Calls score template.
-        '''
+        """
+        Calls score template.
+        """
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 
@@ -555,7 +557,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     @property
     def part_manifest(self):
-        r'''Gets part manifest.
+        """
+        Gets part manifest.
 
         ..  container:: example
 
@@ -628,5 +631,5 @@ class ScoreTemplate(baca.ScoreTemplate):
             Part(instrument='Percussion', member=63, number=63, section='Percussion', section_abbreviation='PERC', zfill=2)
             Part(instrument='Percussion', member=64, number=64, section='Percussion', section_abbreviation='PERC', zfill=2)
 
-        '''
+        """
         return self._part_manifest
