@@ -20,7 +20,7 @@ def rhythm(voice_number, page_number):
             tuplet_ratios.append(count * [1])
         else:
             tuplet_ratios.append([-1])
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.TupletRhythmMaker(
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rhythmos.TupletSpecifier(
