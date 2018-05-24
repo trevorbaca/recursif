@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def rhythm(voice_number, page_number):
@@ -21,9 +21,9 @@ def rhythm(voice_number, page_number):
         else:
             tuplet_ratios.append([-1])
     return baca.rhythm(
-        rhythm_maker=rhythmos.TupletRhythmMaker(
+        rhythm_maker=rmakers.TupletRhythmMaker(
             tuplet_ratios=tuplet_ratios,
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 ),
             ),
