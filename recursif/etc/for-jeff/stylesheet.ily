@@ -1,7 +1,7 @@
 #(set-default-paper-size "11x17")
 #(set-global-staff-size 8)
 
-\include "/Users/trevorbaca/baca/baca/stylesheets/baca.ily"
+\include "/Users/trevorbaca/baca/baca/lilypond/baca.ily"
 \paper {
     bottom-margin = 7.5\mm
     evenFooterMarkup = \markup \fill-line {
