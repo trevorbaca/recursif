@@ -5,8 +5,9 @@ import recursif
 
 
 class ScoreTemplate(abjad.AbjadValueObject):
-    r'''Score template.
-    '''
+    """
+    Score template.
+    """
 
     def __call__(self):
         staves = []
@@ -33,8 +34,9 @@ class ScoreTemplate(abjad.AbjadValueObject):
 
 
 class SegmentMaker(baca.SegmentMaker):
-    r'''Segment-maker.
-    '''
+    """
+    Segment-maker.
+    """
 
     def __init__(
         self,
@@ -60,10 +62,11 @@ class SegmentMaker(baca.SegmentMaker):
     ### SPECIAL METHODS ###
 
     def __call__(self):
-        r'''Calls segment-maker.
+        """
+        Calls segment-maker.
 
         Returns LilyPond file.
-        '''
+        """
         self._make_score()
         self._make_music()
         self._add_final_bar_line()
@@ -145,10 +148,11 @@ class SegmentMaker(baca.SegmentMaker):
 
     @property
     def measure_numbers(self):
-        r'''Gets (one-indexed) measure numbers of segment.
+        """
+        Gets (one-indexed) measure numbers of segment.
 
         Returns list of positive integers.
-        '''
+        """
         start_measure_number = 16 * (self.page_number - 1) + 1
         stop = start_measure_number + 16
         measure_numbers = range(start_measure_number, stop)
