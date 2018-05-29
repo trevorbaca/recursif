@@ -1,11 +1,11 @@
 import abjad
-from integer_divisions import \
-    integer_divisions
+from integer_divisions import integer_divisions
 
 
 def make_poeme_2003_page_n(n):
-    '''Makes 1-indexed page of Poeme recursif 2003.
-    '''
+    """
+    Makes 1-indexed page of Poeme recursif 2003.
+    """
 
     first_measure_on_page = 16 * n - 15
     last_measure_on_page = 16 * n
