@@ -12614,23 +12614,21 @@ O_PercussionVoiceLXIV_a = {
     \once \override TextScript.extra-offset = #'(10 . 0)
     c'2
     _ \markup {                                              %! SCORE2
-        \whiteout                                            %! SCORE2
-            \upright                                         %! SCORE2
-                \override                                    %! SCORE2
-                    #'(font-name . "Palatino")               %! SCORE2
-                    \with-color                              %! SCORE2
-                        #black                               %! SCORE2
-                        \right-column                        %! SCORE2
+        \override                                            %! SCORE2
+            #'(font-name . "Palatino")                       %! SCORE2
+            \with-color                                      %! SCORE2
+                #black                                       %! SCORE2
+                \right-column                                %! SCORE2
+                    {                                        %! SCORE2
+                        \line                                %! SCORE2
                             {                                %! SCORE2
-                                \line                        %! SCORE2
-                                    {                        %! SCORE2
-                                        "Austin, TX."        %! SCORE2
-                                    }                        %! SCORE2
-                                \line                        %! SCORE2
-                                    {                        %! SCORE2
-                                        "August 2003."       %! SCORE2
-                                    }                        %! SCORE2
+                                "Austin, TX."                %! SCORE2
                             }                                %! SCORE2
+                        \line                                %! SCORE2
+                            {                                %! SCORE2
+                                "August 2003."               %! SCORE2
+                            }                                %! SCORE2
+                    }                                        %! SCORE2
         }                                                    %! SCORE2
     
 }
