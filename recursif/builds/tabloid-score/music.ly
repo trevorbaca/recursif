@@ -1,6 +1,6 @@
 % Poème récursif (2003) for 64 pieces of percussion
 
-\version "2.19.80"
+\version "2.19.82"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
