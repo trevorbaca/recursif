@@ -10,7 +10,6 @@ import roman
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    do_not_attach_metronome_mark_spanner=True,
     final_markup=(['Austin, TX.'], ['August 2003.']),
     final_markup_extra_offset=(10, 0),
     last_segment=True,
