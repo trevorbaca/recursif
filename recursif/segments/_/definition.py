@@ -10,7 +10,6 @@ import roman
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    do_not_attach_metronome_mark_spanner=True,
     first_segment=True,
     metronome_mark_stem_height=2.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -20,7 +19,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark_new('38-42'),
+    baca.metronome_mark('38-42'),
     )
 
 recursif.assign_parts(maker)
