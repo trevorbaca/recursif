@@ -11,7 +11,6 @@ import roman
 
 maker = baca.SegmentMaker(
     first_segment=True,
-    metronome_mark_stem_height=2.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=16*[(2, 4)],
     validate_measure_count=16,
