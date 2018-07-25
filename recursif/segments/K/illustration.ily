@@ -3,7 +3,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 177 / measure 1]                                      %! SM4
     \time 2/4                                                                      %! SM8:REAPPLIED_TIME_SIGNATURE:SM38:SM1
     \bar ""                                                                        %! SM2:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color #'green4                                            %! SM6:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:SM1
+    \baca_time_signature_color green4                                            %! SM6:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:SM1
     s1 * 1/2
 %@% ^ \markup \baca-dark-cyan-markup (177)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <0>                                           %! SM32:MEASURE_INDEX_MARKUP
