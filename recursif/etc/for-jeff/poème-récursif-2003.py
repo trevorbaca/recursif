@@ -75,7 +75,7 @@ class SegmentMaker(baca.SegmentMaker):
         self._configure_lilypond_file()
         score_block = self.lilypond_file['score']
         score = score_block['Score']
-        if not abjad.inspect(score).is_well_formed():
+        if not abjad.inspect(score).is_wellformed():
             string = abjad.inspect(score).tabulate_wellformedness()
             raise Exception(string)
         return self.lilypond_file
