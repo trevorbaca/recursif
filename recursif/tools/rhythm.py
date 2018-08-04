@@ -22,6 +22,7 @@ def rhythm(voice_number, page_number):
             tuplet_ratios.append([-1])
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
+            tag='recursif_rhythm',
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
