@@ -1,253 +1,233 @@
 D_GlobalSkips = {
     
-    % [D GlobalSkips measure 65 / measure 1]                                       %! COMMENT_MEASURE_NUMBERS
-    \time 2/4                                                                      %! SET_STATUS_TAG:REAPPLIED_TIME_SIGNATURE:SM38:MAKE_GLOBAL_SKIPS_2
-    \bar ""                                                                        %! MAKE_GLOBAL_SKIPS_3:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "green4"                                            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:MAKE_GLOBAL_SKIPS_2
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (65)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <0>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.1]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'36'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
-%@% - \abjad_invisible_line                                                        %! ATTACH_METRONOME_MARKS_2
-%@% - \tweak bound-details.left.text \markup {                                     %! ATTACH_METRONOME_MARKS_2
-%@%     \concat                                                                    %! ATTACH_METRONOME_MARKS_2
-%@%         {                                                                      %! ATTACH_METRONOME_MARKS_2
-%@%             \abjad-metronome-mark-markup #1 #0 #1 #"40"                        %! ATTACH_METRONOME_MARKS_2
-%@%             \hspace                                                            %! ATTACH_METRONOME_MARKS_2
-%@%                 #0.5                                                           %! ATTACH_METRONOME_MARKS_2
-%@%         }                                                                      %! ATTACH_METRONOME_MARKS_2
-%@%     }                                                                          %! ATTACH_METRONOME_MARKS_2
-%@% \startTextSpan                                                                 %! ATTACH_METRONOME_MARKS_2
-    - \abjad_invisible_line                                                        %! ATTACH_METRONOME_MARKS_3
-    - \tweak bound-details.left.text \markup {                                     %! ATTACH_METRONOME_MARKS_3
-        \concat                                                                    %! ATTACH_METRONOME_MARKS_3
-            {                                                                      %! ATTACH_METRONOME_MARKS_3
-                \with-color                                                        %! ATTACH_METRONOME_MARKS_3
-                    #(x11-color 'green4)                                           %! ATTACH_METRONOME_MARKS_3
-                    \abjad-metronome-mark-markup #1 #0 #1 #"40"                    %! ATTACH_METRONOME_MARKS_3
-                \hspace                                                            %! ATTACH_METRONOME_MARKS_3
-                    #0.5                                                           %! ATTACH_METRONOME_MARKS_3
-            }                                                                      %! ATTACH_METRONOME_MARKS_3
-        }                                                                          %! ATTACH_METRONOME_MARKS_3
-    \startTextSpan                                                                 %! ATTACH_METRONOME_MARKS_3
+    % [D GlobalSkips measure 65 / measure 1]                                       %! _comment_measure_numbers
+    \time 2/4                                                                      %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
+    \bar ""                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
+    \baca_time_signature_color "green4"                                            %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (65)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <0>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.1]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'36'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% - \abjad_invisible_line                                                        %! _attach_metronome_marks(2)
+%@% - \tweak bound-details.left.text \markup {                                     %! _attach_metronome_marks(2)
+%@%     \concat                                                                    %! _attach_metronome_marks(2)
+%@%         {                                                                      %! _attach_metronome_marks(2)
+%@%             \abjad-metronome-mark-markup #1 #0 #1 #"40"                        %! _attach_metronome_marks(2)
+%@%             \hspace                                                            %! _attach_metronome_marks(2)
+%@%                 #0.5                                                           %! _attach_metronome_marks(2)
+%@%         }                                                                      %! _attach_metronome_marks(2)
+%@%     }                                                                          %! _attach_metronome_marks(2)
+%@% \startTextSpan                                                                 %! _attach_metronome_marks(2)
+    - \abjad_invisible_line                                                        %! _attach_metronome_marks(3)
+    - \tweak bound-details.left.text \markup {                                     %! _attach_metronome_marks(3)
+        \concat                                                                    %! _attach_metronome_marks(3)
+            {                                                                      %! _attach_metronome_marks(3)
+                \with-color                                                        %! _attach_metronome_marks(3)
+                    #(x11-color 'green4)                                           %! _attach_metronome_marks(3)
+                    \abjad-metronome-mark-markup #1 #0 #1 #"40"                    %! _attach_metronome_marks(3)
+                \hspace                                                            %! _attach_metronome_marks(3)
+                    #0.5                                                           %! _attach_metronome_marks(3)
+            }                                                                      %! _attach_metronome_marks(3)
+        }                                                                          %! _attach_metronome_marks(3)
+    \startTextSpan                                                                 %! _attach_metronome_marks(3)
     
-    % [D GlobalSkips measure 66 / measure 2]                                       %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (66)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <1>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.2]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'37'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 66 / measure 2]                                       %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (66)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <1>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.2]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'37'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 67 / measure 3]                                       %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (67)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <2>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.3]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'39'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 67 / measure 3]                                       %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (67)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <2>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.3]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'39'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 68 / measure 4]                                       %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (68)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <3>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.4]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'40'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 68 / measure 4]                                       %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (68)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <3>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.4]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'40'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 69 / measure 5]                                       %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (69)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <4>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.5]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'42'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 69 / measure 5]                                       %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (69)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <4>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.5]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'42'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 70 / measure 6]                                       %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (70)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <5>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.6]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'43'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 70 / measure 6]                                       %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (70)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <5>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.6]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'43'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 71 / measure 7]                                       %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (71)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <6>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.7]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'45'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 71 / measure 7]                                       %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (71)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <6>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.7]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'45'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 72 / measure 8]                                       %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (72)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <7>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.8]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'46'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 72 / measure 8]                                       %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (72)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <7>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.8]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'46'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 73 / measure 9]                                       %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (73)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <8>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.9]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'48'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 73 / measure 9]                                       %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (73)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <8>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.9]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'48'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 74 / measure 10]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (74)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <9>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.10]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'49'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 74 / measure 10]                                      %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (74)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <9>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.10]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'49'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 75 / measure 11]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (75)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <10>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.11]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'51'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 75 / measure 11]                                      %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (75)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <10>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.11]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'51'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 76 / measure 12]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (76)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <11>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.12]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'52'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 76 / measure 12]                                      %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (76)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <11>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.12]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'52'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 77 / measure 13]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (77)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <12>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.13]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'54'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 77 / measure 13]                                      %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (77)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <12>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.13]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'54'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 78 / measure 14]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (78)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <13>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.14]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'55'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 78 / measure 14]                                      %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (78)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <13>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.14]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'55'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 79 / measure 15]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (79)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <14>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.15]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'57'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [D GlobalSkips measure 79 / measure 15]                                      %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (79)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <14>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.15]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'57'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [D GlobalSkips measure 80 / measure 16]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (80)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <15>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [D.16]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[1'58'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! ATTACH_METRONOME_MARKS_4
-    \baca_bar_line_visible                                                         %! ATTACH_FINAL_BAR_LINE
-    \bar "|"                                                                       %! ATTACH_FINAL_BAR_LINE
+    % [D GlobalSkips measure 80 / measure 16]                                      %! _comment_measure_numbers
+    s1 * 1/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (80)                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <15>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [D.16]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[1'58'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
+    \stopTextSpan                                                                  %! _attach_metronome_marks(4)
+    \baca_bar_line_visible                                                         %! _attach_final_bar_line
+    \bar "|"                                                                       %! _attach_final_bar_line
     
 }
 
 
 D_PercussionVoiceI_a = {
     
-    % [D PercussionVoiceI measure 65 / measure 1]                      %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            1                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            1                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceI measure 65 / measure 1]                      %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            1                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     c'2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“1”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            1                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            1                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“1”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            1                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceI measure 66 / measure 2]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 66 / measure 2]                      %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 67 / measure 3]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 67 / measure 3]                      %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 68 / measure 4]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 68 / measure 4]                      %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 69 / measure 5]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 69 / measure 5]                      %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 70 / measure 6]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 70 / measure 6]                      %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 71 / measure 7]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 71 / measure 7]                      %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 72 / measure 8]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 72 / measure 8]                      %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 73 / measure 9]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 73 / measure 9]                      %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 74 / measure 10]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 74 / measure 10]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 75 / measure 11]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 75 / measure 11]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 76 / measure 12]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 76 / measure 12]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 77 / measure 13]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 77 / measure 13]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 78 / measure 14]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 78 / measure 14]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 79 / measure 15]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 79 / measure 15]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceI measure 80 / measure 16]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceI measure 80 / measure 16]                     %! _comment_measure_numbers
     c'2
     
 }
@@ -266,52 +246,32 @@ D_StaffI = {
 
 D_PercussionVoiceII_a = {
     
-    % [D PercussionVoiceII measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            2                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            2                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceII measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            2                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“2”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            2                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            2                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“2”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            2                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \times 4/7 {
         
-        % [D PercussionVoiceII measure 66 / measure 2]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceII measure 66 / measure 2]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -330,7 +290,7 @@ D_PercussionVoiceII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceII measure 67 / measure 3]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceII measure 67 / measure 3]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -347,7 +307,7 @@ D_PercussionVoiceII_a = {
     }
     \times 4/5 {
         
-        % [D PercussionVoiceII measure 68 / measure 4]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceII measure 68 / measure 4]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -361,7 +321,7 @@ D_PercussionVoiceII_a = {
         ]
     }
     
-    % [D PercussionVoiceII measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceII measure 69 / measure 5]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -373,7 +333,7 @@ D_PercussionVoiceII_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceII measure 70 / measure 6]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceII measure 70 / measure 6]                 %! _comment_measure_numbers
         c'4
         
         c'4
@@ -381,19 +341,19 @@ D_PercussionVoiceII_a = {
         c'4
     }
     
-    % [D PercussionVoiceII measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceII measure 71 / measure 7]                     %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceII measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceII measure 72 / measure 8]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceII measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceII measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     \times 4/7 {
         
-        % [D PercussionVoiceII measure 74 / measure 10]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceII measure 74 / measure 10]                %! _comment_measure_numbers
         c'8
         [
         
@@ -412,7 +372,7 @@ D_PercussionVoiceII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceII measure 75 / measure 11]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceII measure 75 / measure 11]                %! _comment_measure_numbers
         c'8
         [
         
@@ -429,7 +389,7 @@ D_PercussionVoiceII_a = {
     }
     \times 4/5 {
         
-        % [D PercussionVoiceII measure 76 / measure 12]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceII measure 76 / measure 12]                %! _comment_measure_numbers
         c'8
         [
         
@@ -443,7 +403,7 @@ D_PercussionVoiceII_a = {
         ]
     }
     
-    % [D PercussionVoiceII measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceII measure 77 / measure 13]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -455,7 +415,7 @@ D_PercussionVoiceII_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceII measure 78 / measure 14]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceII measure 78 / measure 14]                %! _comment_measure_numbers
         c'4
         
         c'4
@@ -463,12 +423,12 @@ D_PercussionVoiceII_a = {
         c'4
     }
     
-    % [D PercussionVoiceII measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceII measure 79 / measure 15]                    %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceII measure 80 / measure 16]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceII measure 80 / measure 16]                    %! _comment_measure_numbers
     c'2
     
 }
@@ -487,58 +447,38 @@ D_StaffII = {
 
 D_PercussionVoiceIII_a = {
     
-    % [D PercussionVoiceIII measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            3                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            3                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceIII measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            3                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“3”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            3                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            3                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“3”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            3                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceIII measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIII measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIII measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIII measure 67 / measure 3]                    %! _comment_measure_numbers
     c'2
     \times 2/3 {
         
-        % [D PercussionVoiceIII measure 68 / measure 4]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIII measure 68 / measure 4]                %! _comment_measure_numbers
         c'4
         
         c'4
@@ -547,7 +487,7 @@ D_PercussionVoiceIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceIII measure 69 / measure 5]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIII measure 69 / measure 5]                %! _comment_measure_numbers
         c'8
         [
         
@@ -563,13 +503,13 @@ D_PercussionVoiceIII_a = {
         ]
     }
     
-    % [D PercussionVoiceIII measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIII measure 70 / measure 6]                    %! _comment_measure_numbers
     c'4
     
     c'4
     \times 4/7 {
         
-        % [D PercussionVoiceIII measure 71 / measure 7]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIII measure 71 / measure 7]                %! _comment_measure_numbers
         c'8
         [
         
@@ -588,7 +528,7 @@ D_PercussionVoiceIII_a = {
     }
     \times 4/5 {
         
-        % [D PercussionVoiceIII measure 72 / measure 8]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIII measure 72 / measure 8]                %! _comment_measure_numbers
         c'8
         [
         
@@ -602,7 +542,7 @@ D_PercussionVoiceIII_a = {
         ]
     }
     
-    % [D PercussionVoiceIII measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIII measure 73 / measure 9]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -613,7 +553,7 @@ D_PercussionVoiceIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceIII measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIII measure 74 / measure 10]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -625,7 +565,7 @@ D_PercussionVoiceIII_a = {
     ]
     \times 4/5 {
         
-        % [D PercussionVoiceIII measure 75 / measure 11]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIII measure 75 / measure 11]               %! _comment_measure_numbers
         c'8
         [
         
@@ -640,7 +580,7 @@ D_PercussionVoiceIII_a = {
     }
     \times 4/7 {
         
-        % [D PercussionVoiceIII measure 76 / measure 12]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIII measure 76 / measure 12]               %! _comment_measure_numbers
         c'8
         [
         
@@ -658,13 +598,13 @@ D_PercussionVoiceIII_a = {
         ]
     }
     
-    % [D PercussionVoiceIII measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIII measure 77 / measure 13]                   %! _comment_measure_numbers
     c'4
     
     c'4
     \times 2/3 {
         
-        % [D PercussionVoiceIII measure 78 / measure 14]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIII measure 78 / measure 14]               %! _comment_measure_numbers
         c'8
         [
         
@@ -681,7 +621,7 @@ D_PercussionVoiceIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceIII measure 79 / measure 15]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIII measure 79 / measure 15]               %! _comment_measure_numbers
         c'4
         
         c'4
@@ -689,7 +629,7 @@ D_PercussionVoiceIII_a = {
         c'4
     }
     
-    % [D PercussionVoiceIII measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIII measure 80 / measure 16]                   %! _comment_measure_numbers
     c'2
     
 }
@@ -708,58 +648,38 @@ D_StaffIII = {
 
 D_PercussionVoiceIV_a = {
     
-    % [D PercussionVoiceIV measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            4                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            4                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceIV measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            4                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“4”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            4                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            4                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“4”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            4                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceIV measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIV measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     \times 4/7 {
         
-        % [D PercussionVoiceIV measure 68 / measure 4]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIV measure 68 / measure 4]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -777,7 +697,7 @@ D_PercussionVoiceIV_a = {
         ]
     }
     
-    % [D PercussionVoiceIV measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 69 / measure 5]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -789,7 +709,7 @@ D_PercussionVoiceIV_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceIV measure 70 / measure 6]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIV measure 70 / measure 6]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -805,7 +725,7 @@ D_PercussionVoiceIV_a = {
         ]
     }
     
-    % [D PercussionVoiceIV measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 71 / measure 7]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -817,7 +737,7 @@ D_PercussionVoiceIV_a = {
     ]
     \times 4/5 {
         
-        % [D PercussionVoiceIV measure 72 / measure 8]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIV measure 72 / measure 8]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -831,10 +751,10 @@ D_PercussionVoiceIV_a = {
         ]
     }
     
-    % [D PercussionVoiceIV measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIV measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 74 / measure 10]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -845,11 +765,11 @@ D_PercussionVoiceIV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceIV measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 75 / measure 11]                    %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceIV measure 76 / measure 12]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIV measure 76 / measure 12]                %! _comment_measure_numbers
         c'4
         
         c'4
@@ -857,7 +777,7 @@ D_PercussionVoiceIV_a = {
         c'4
     }
     
-    % [D PercussionVoiceIV measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 77 / measure 13]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -868,12 +788,12 @@ D_PercussionVoiceIV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceIV measure 78 / measure 14]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 78 / measure 14]                    %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceIV measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 79 / measure 15]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -884,7 +804,7 @@ D_PercussionVoiceIV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceIV measure 80 / measure 16]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIV measure 80 / measure 16]                    %! _comment_measure_numbers
     c'2
     
 }
@@ -903,64 +823,44 @@ D_StaffIV = {
 
 D_PercussionVoiceV_a = {
     
-    % [D PercussionVoiceV measure 65 / measure 1]                      %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            5                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            5                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceV measure 65 / measure 1]                      %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            5                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“5”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            5                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            5                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“5”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            5                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceV measure 66 / measure 2]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceV measure 66 / measure 2]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceV measure 67 / measure 3]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceV measure 67 / measure 3]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceV measure 68 / measure 4]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceV measure 68 / measure 4]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceV measure 69 / measure 5]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceV measure 69 / measure 5]                      %! _comment_measure_numbers
     c'2
     \times 4/5 {
         
-        % [D PercussionVoiceV measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceV measure 70 / measure 6]                  %! _comment_measure_numbers
         c'8
         [
         
@@ -975,7 +875,7 @@ D_PercussionVoiceV_a = {
     }
     \times 4/7 {
         
-        % [D PercussionVoiceV measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceV measure 71 / measure 7]                  %! _comment_measure_numbers
         c'8
         [
         
@@ -994,7 +894,7 @@ D_PercussionVoiceV_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceV measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceV measure 72 / measure 8]                  %! _comment_measure_numbers
         c'4
         
         c'4
@@ -1003,7 +903,7 @@ D_PercussionVoiceV_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceV measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceV measure 73 / measure 9]                  %! _comment_measure_numbers
         c'8
         [
         
@@ -1020,7 +920,7 @@ D_PercussionVoiceV_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceV measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceV measure 74 / measure 10]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -1036,18 +936,18 @@ D_PercussionVoiceV_a = {
         ]
     }
     
-    % [D PercussionVoiceV measure 75 / measure 11]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceV measure 75 / measure 11]                     %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceV measure 76 / measure 12]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceV measure 76 / measure 12]                     %! _comment_measure_numbers
     c'4
     
     c'4
     \times 4/7 {
         
-        % [D PercussionVoiceV measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceV measure 77 / measure 13]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -1066,7 +966,7 @@ D_PercussionVoiceV_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceV measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceV measure 78 / measure 14]                 %! _comment_measure_numbers
         c'4
         
         c'4
@@ -1074,11 +974,11 @@ D_PercussionVoiceV_a = {
         c'4
     }
     
-    % [D PercussionVoiceV measure 79 / measure 15]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceV measure 79 / measure 15]                     %! _comment_measure_numbers
     c'2
     \times 4/5 {
         
-        % [D PercussionVoiceV measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceV measure 80 / measure 16]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -1108,64 +1008,44 @@ D_StaffV = {
 
 D_PercussionVoiceVI_a = {
     
-    % [D PercussionVoiceVI measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            6                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            6                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceVI measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            6                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“6”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            6                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            6                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“6”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            6                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceVI measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVI measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVI measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 68 / measure 4]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVI measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     \times 4/7 {
         
-        % [D PercussionVoiceVI measure 70 / measure 6]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVI measure 70 / measure 6]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -1183,13 +1063,13 @@ D_PercussionVoiceVI_a = {
         ]
     }
     
-    % [D PercussionVoiceVI measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 71 / measure 7]                     %! _comment_measure_numbers
     c'4
     
     c'4
     \times 2/3 {
         
-        % [D PercussionVoiceVI measure 72 / measure 8]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVI measure 72 / measure 8]                 %! _comment_measure_numbers
         c'4
         
         c'4
@@ -1197,15 +1077,15 @@ D_PercussionVoiceVI_a = {
         c'4
     }
     
-    % [D PercussionVoiceVI measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVI measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 74 / measure 10]                    %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceVI measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 75 / measure 11]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -1216,19 +1096,19 @@ D_PercussionVoiceVI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceVI measure 76 / measure 12]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 76 / measure 12]                    %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceVI measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 77 / measure 13]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVI measure 78 / measure 14]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVI measure 78 / measure 14]                    %! _comment_measure_numbers
     c'2
     \times 2/3 {
         
-        % [D PercussionVoiceVI measure 79 / measure 15]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVI measure 79 / measure 15]                %! _comment_measure_numbers
         c'8
         [
         
@@ -1245,7 +1125,7 @@ D_PercussionVoiceVI_a = {
     }
     \times 4/5 {
         
-        % [D PercussionVoiceVI measure 80 / measure 16]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVI measure 80 / measure 16]                %! _comment_measure_numbers
         c'8
         [
         
@@ -1275,70 +1155,50 @@ D_StaffVI = {
 
 D_PercussionVoiceVII_a = {
     
-    % [D PercussionVoiceVII measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            7                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            7                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceVII measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            7                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“7”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            7                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            7                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“7”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            7                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceVII measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVII measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVII measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVII measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVII measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVII measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 71 / measure 7]                    %! _comment_measure_numbers
     c'2
     \times 4/7 {
         
-        % [D PercussionVoiceVII measure 72 / measure 8]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVII measure 72 / measure 8]                %! _comment_measure_numbers
         c'8
         [
         
@@ -1356,7 +1216,7 @@ D_PercussionVoiceVII_a = {
         ]
     }
     
-    % [D PercussionVoiceVII measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 73 / measure 9]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -1367,7 +1227,7 @@ D_PercussionVoiceVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceVII measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 74 / measure 10]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -1378,13 +1238,13 @@ D_PercussionVoiceVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceVII measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 75 / measure 11]                   %! _comment_measure_numbers
     c'4
     
     c'4
     \times 2/3 {
         
-        % [D PercussionVoiceVII measure 76 / measure 12]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVII measure 76 / measure 12]               %! _comment_measure_numbers
         c'8
         [
         
@@ -1400,7 +1260,7 @@ D_PercussionVoiceVII_a = {
         ]
     }
     
-    % [D PercussionVoiceVII measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 77 / measure 13]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -1411,7 +1271,7 @@ D_PercussionVoiceVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceVII measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVII measure 78 / measure 14]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -1423,7 +1283,7 @@ D_PercussionVoiceVII_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceVII measure 79 / measure 15]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVII measure 79 / measure 15]               %! _comment_measure_numbers
         c'4
         
         c'4
@@ -1432,7 +1292,7 @@ D_PercussionVoiceVII_a = {
     }
     \times 4/5 {
         
-        % [D PercussionVoiceVII measure 80 / measure 16]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVII measure 80 / measure 16]               %! _comment_measure_numbers
         c'8
         [
         
@@ -1462,70 +1322,50 @@ D_StaffVII = {
 
 D_PercussionVoiceVIII_a = {
     
-    % [D PercussionVoiceVIII measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            8                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            8                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceVIII measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            8                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“8”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            8                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            8                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“8”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            8                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceVIII measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVIII measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVIII measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVIII measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVIII measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVIII measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     \times 4/7 {
         
-        % [D PercussionVoiceVIII measure 72 / measure 8]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVIII measure 72 / measure 8]               %! _comment_measure_numbers
         c'8
         [
         
@@ -1543,10 +1383,10 @@ D_PercussionVoiceVIII_a = {
         ]
     }
     
-    % [D PercussionVoiceVIII measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVIII measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 74 / measure 10]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -1557,11 +1397,11 @@ D_PercussionVoiceVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceVIII measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceVIII measure 76 / measure 12]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVIII measure 76 / measure 12]              %! _comment_measure_numbers
         c'8
         [
         
@@ -1577,10 +1417,10 @@ D_PercussionVoiceVIII_a = {
         ]
     }
     
-    % [D PercussionVoiceVIII measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceVIII measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -1591,11 +1431,11 @@ D_PercussionVoiceVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceVIII measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceVIII measure 79 / measure 15]                  %! _comment_measure_numbers
     r2
     \times 4/5 {
         
-        % [D PercussionVoiceVIII measure 80 / measure 16]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceVIII measure 80 / measure 16]              %! _comment_measure_numbers
         c'8
         [
         
@@ -1625,79 +1465,59 @@ D_StaffVIII = {
 
 D_PercussionVoiceIX_a = {
     
-    % [D PercussionVoiceIX measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            9                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            9                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceIX measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            9                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“9”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            9                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            9                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“9”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            9                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceIX measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIX measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIX measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 68 / measure 4]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIX measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIX measure 70 / measure 6]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 70 / measure 6]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIX measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 71 / measure 7]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIX measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 72 / measure 8]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceIX measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 73 / measure 9]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceIX measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceIX measure 74 / measure 10]                    %! _comment_measure_numbers
     c'2
     \times 4/5 {
         
-        % [D PercussionVoiceIX measure 75 / measure 11]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIX measure 75 / measure 11]                %! _comment_measure_numbers
         c'8
         [
         
@@ -1712,7 +1532,7 @@ D_PercussionVoiceIX_a = {
     }
     \times 4/5 {
         
-        % [D PercussionVoiceIX measure 76 / measure 12]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIX measure 76 / measure 12]                %! _comment_measure_numbers
         c'8
         [
         
@@ -1727,7 +1547,7 @@ D_PercussionVoiceIX_a = {
     }
     \times 4/7 {
         
-        % [D PercussionVoiceIX measure 77 / measure 13]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIX measure 77 / measure 13]                %! _comment_measure_numbers
         c'8
         [
         
@@ -1746,7 +1566,7 @@ D_PercussionVoiceIX_a = {
     }
     \times 4/7 {
         
-        % [D PercussionVoiceIX measure 78 / measure 14]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIX measure 78 / measure 14]                %! _comment_measure_numbers
         c'8
         [
         
@@ -1765,7 +1585,7 @@ D_PercussionVoiceIX_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceIX measure 79 / measure 15]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIX measure 79 / measure 15]                %! _comment_measure_numbers
         c'4
         
         c'4
@@ -1774,7 +1594,7 @@ D_PercussionVoiceIX_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceIX measure 80 / measure 16]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceIX measure 80 / measure 16]                %! _comment_measure_numbers
         c'4
         
         c'4
@@ -1798,76 +1618,56 @@ D_StaffIX = {
 
 D_PercussionVoiceX_a = {
     
-    % [D PercussionVoiceX measure 65 / measure 1]                      %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            10                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            10                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceX measure 65 / measure 1]                      %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            10                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“10”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            10                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            10                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“10”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            10                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceX measure 66 / measure 2]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 66 / measure 2]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceX measure 67 / measure 3]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 67 / measure 3]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceX measure 68 / measure 4]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 68 / measure 4]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceX measure 69 / measure 5]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 69 / measure 5]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceX measure 70 / measure 6]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 70 / measure 6]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceX measure 71 / measure 7]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 71 / measure 7]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceX measure 72 / measure 8]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 72 / measure 8]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceX measure 73 / measure 9]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 73 / measure 9]                      %! _comment_measure_numbers
     r2
     \times 4/7 {
         
-        % [D PercussionVoiceX measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceX measure 74 / measure 10]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -1886,7 +1686,7 @@ D_PercussionVoiceX_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceX measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceX measure 75 / measure 11]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -1902,10 +1702,10 @@ D_PercussionVoiceX_a = {
         ]
     }
     
-    % [D PercussionVoiceX measure 76 / measure 12]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 76 / measure 12]                     %! _comment_measure_numbers
     c'2
     
-    % [D PercussionVoiceX measure 77 / measure 13]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceX measure 77 / measure 13]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -1917,7 +1717,7 @@ D_PercussionVoiceX_a = {
     ]
     \times 4/5 {
         
-        % [D PercussionVoiceX measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceX measure 78 / measure 14]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -1932,7 +1732,7 @@ D_PercussionVoiceX_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceX measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceX measure 79 / measure 15]                 %! _comment_measure_numbers
         c'8
         [
         
@@ -1949,7 +1749,7 @@ D_PercussionVoiceX_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceX measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceX measure 80 / measure 16]                 %! _comment_measure_numbers
         c'4
         
         c'4
@@ -1973,82 +1773,62 @@ D_StaffX = {
 
 D_PercussionVoiceXI_a = {
     
-    % [D PercussionVoiceXI measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            11                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            11                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXI measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            11                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“11”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            11                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            11                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“11”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            11                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXI measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 68 / measure 4]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 70 / measure 6]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 70 / measure 6]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 71 / measure 7]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 72 / measure 8]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 74 / measure 10]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXI measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 75 / measure 11]                    %! _comment_measure_numbers
     c'2
     \times 2/3 {
         
-        % [D PercussionVoiceXI measure 76 / measure 12]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXI measure 76 / measure 12]                %! _comment_measure_numbers
         c'4
         
         c'4
@@ -2056,13 +1836,13 @@ D_PercussionVoiceXI_a = {
         c'4
     }
     
-    % [D PercussionVoiceXI measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 77 / measure 13]                    %! _comment_measure_numbers
     c'4
     
     c'4
     \times 2/3 {
         
-        % [D PercussionVoiceXI measure 78 / measure 14]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXI measure 78 / measure 14]                %! _comment_measure_numbers
         c'8
         [
         
@@ -2078,11 +1858,11 @@ D_PercussionVoiceXI_a = {
         ]
     }
     
-    % [D PercussionVoiceXI measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXI measure 79 / measure 15]                    %! _comment_measure_numbers
     c'2
     \times 2/3 {
         
-        % [D PercussionVoiceXI measure 80 / measure 16]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXI measure 80 / measure 16]                %! _comment_measure_numbers
         c'4
         
         c'4
@@ -2106,82 +1886,62 @@ D_StaffXI = {
 
 D_PercussionVoiceXII_a = {
     
-    % [D PercussionVoiceXII measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            12                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            12                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXII measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            12                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“12”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            12                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            12                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“12”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            12                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXII measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXII measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     \times 4/7 {
         
-        % [D PercussionVoiceXII measure 76 / measure 12]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXII measure 76 / measure 12]               %! _comment_measure_numbers
         c'8
         [
         
@@ -2199,7 +1959,7 @@ D_PercussionVoiceXII_a = {
         ]
     }
     
-    % [D PercussionVoiceXII measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 77 / measure 13]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2210,12 +1970,12 @@ D_PercussionVoiceXII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXII measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 78 / measure 14]                   %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXII measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXII measure 79 / measure 15]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2227,7 +1987,7 @@ D_PercussionVoiceXII_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceXII measure 80 / measure 16]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXII measure 80 / measure 16]               %! _comment_measure_numbers
         c'4
         
         c'4
@@ -2251,88 +2011,68 @@ D_StaffXII = {
 
 D_PercussionVoiceXIII_a = {
     
-    % [D PercussionVoiceXIII measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            13                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            13                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXIII measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            13                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“13”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            13                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            13                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“13”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            13                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXIII measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIII measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIII measure 77 / measure 13]                  %! _comment_measure_numbers
     c'2
     \times 4/5 {
         
-        % [D PercussionVoiceXIII measure 78 / measure 14]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXIII measure 78 / measure 14]              %! _comment_measure_numbers
         c'8
         [
         
@@ -2347,7 +2087,7 @@ D_PercussionVoiceXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXIII measure 79 / measure 15]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXIII measure 79 / measure 15]              %! _comment_measure_numbers
         c'4
         
         c'4
@@ -2356,7 +2096,7 @@ D_PercussionVoiceXIII_a = {
     }
     \times 4/7 {
         
-        % [D PercussionVoiceXIII measure 80 / measure 16]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXIII measure 80 / measure 16]              %! _comment_measure_numbers
         c'8
         [
         
@@ -2390,88 +2130,68 @@ D_StaffXIII = {
 
 D_PercussionVoiceXIV_a = {
     
-    % [D PercussionVoiceXIV measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            14                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            14                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXIV measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            14                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“14”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            14                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            14                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“14”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            14                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXIV measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 76 / measure 12]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIV measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 77 / measure 13]                   %! _comment_measure_numbers
     r2
     \times 4/7 {
         
-        % [D PercussionVoiceXIV measure 78 / measure 14]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXIV measure 78 / measure 14]               %! _comment_measure_numbers
         c'8
         [
         
@@ -2489,13 +2209,13 @@ D_PercussionVoiceXIV_a = {
         ]
     }
     
-    % [D PercussionVoiceXIV measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIV measure 79 / measure 15]                   %! _comment_measure_numbers
     c'4
     
     c'4
     \times 4/7 {
         
-        % [D PercussionVoiceXIV measure 80 / measure 16]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXIV measure 80 / measure 16]               %! _comment_measure_numbers
         c'8
         [
         
@@ -2529,94 +2249,74 @@ D_StaffXIV = {
 
 D_PercussionVoiceXV_a = {
     
-    % [D PercussionVoiceXV measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            15                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            15                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXV measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            15                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“15”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            15                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            15                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“15”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            15                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXV measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 68 / measure 4]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 70 / measure 6]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 70 / measure 6]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 71 / measure 7]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 72 / measure 8]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 74 / measure 10]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 75 / measure 11]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 76 / measure 12]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 76 / measure 12]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 77 / measure 13]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 78 / measure 14]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 78 / measure 14]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXV measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXV measure 79 / measure 15]                    %! _comment_measure_numbers
     c'2
     \times 4/7 {
         
-        % [D PercussionVoiceXV measure 80 / measure 16]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXV measure 80 / measure 16]                %! _comment_measure_numbers
         c'8
         [
         
@@ -2650,94 +2350,74 @@ D_StaffXV = {
 
 D_PercussionVoiceXVI_a = {
     
-    % [D PercussionVoiceXVI measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            16                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            16                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXVI measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            16                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“16”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            16                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            16                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“16”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            16                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXVI measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 76 / measure 12]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 77 / measure 13]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 78 / measure 14]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVI measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVI measure 79 / measure 15]                   %! _comment_measure_numbers
     r2
     \times 4/7 {
         
-        % [D PercussionVoiceXVI measure 80 / measure 16]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXVI measure 80 / measure 16]               %! _comment_measure_numbers
         c'8
         [
         
@@ -2771,50 +2451,30 @@ D_StaffXVI = {
 
 D_PercussionVoiceXVII_a = {
     
-    % [D PercussionVoiceXVII measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            17                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            17                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXVII measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            17                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     c'8
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“17”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“17”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     [
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            17                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            17                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            17                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     c'8
     
@@ -2823,7 +2483,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 66 / measure 2]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2834,7 +2494,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 67 / measure 3]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2845,7 +2505,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 68 / measure 4]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2856,7 +2516,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 69 / measure 5]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2867,7 +2527,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 70 / measure 6]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2878,7 +2538,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 71 / measure 7]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2889,7 +2549,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 72 / measure 8]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2900,7 +2560,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 73 / measure 9]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -2911,7 +2571,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 74 / measure 10]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -2922,7 +2582,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 75 / measure 11]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -2933,7 +2593,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 76 / measure 12]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -2944,7 +2604,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 77 / measure 13]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -2955,7 +2615,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -2966,7 +2626,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 79 / measure 15]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -2977,7 +2637,7 @@ D_PercussionVoiceXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVII measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVII measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3004,51 +2664,31 @@ D_StaffXVII = {
 
 D_PercussionVoiceXVIII_a = {
     
-    % [D PercussionVoiceXVIII measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            18                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            18                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXVIII measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            18                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“18”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            18                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            18                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“18”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            18                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXVIII measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 66 / measure 2]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3059,10 +2699,10 @@ D_PercussionVoiceXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVIII measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVIII measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 68 / measure 4]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3073,10 +2713,10 @@ D_PercussionVoiceXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVIII measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVIII measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 70 / measure 6]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3087,10 +2727,10 @@ D_PercussionVoiceXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVIII measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 71 / measure 7]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVIII measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 72 / measure 8]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3101,10 +2741,10 @@ D_PercussionVoiceXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVIII measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVIII measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 74 / measure 10]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -3115,10 +2755,10 @@ D_PercussionVoiceXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVIII measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 75 / measure 11]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVIII measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 76 / measure 12]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -3129,10 +2769,10 @@ D_PercussionVoiceXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVIII measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVIII measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 78 / measure 14]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -3143,10 +2783,10 @@ D_PercussionVoiceXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXVIII measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 79 / measure 15]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXVIII measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXVIII measure 80 / measure 16]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -3173,54 +2813,34 @@ D_StaffXVIII = {
 
 D_PercussionVoiceXIX_a = {
     
-    % [D PercussionVoiceXIX measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            19                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            19                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXIX measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            19                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“19”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            19                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            19                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“19”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            19                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXIX measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIX measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 67 / measure 3]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3231,7 +2851,7 @@ D_PercussionVoiceXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXIX measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 68 / measure 4]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3242,13 +2862,13 @@ D_PercussionVoiceXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXIX measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIX measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIX measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 71 / measure 7]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3259,7 +2879,7 @@ D_PercussionVoiceXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXIX measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 72 / measure 8]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3270,13 +2890,13 @@ D_PercussionVoiceXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXIX measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIX measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIX measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 75 / measure 11]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3287,7 +2907,7 @@ D_PercussionVoiceXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXIX measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 76 / measure 12]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3298,13 +2918,13 @@ D_PercussionVoiceXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXIX measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 77 / measure 13]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIX measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 78 / measure 14]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXIX measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 79 / measure 15]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3315,7 +2935,7 @@ D_PercussionVoiceXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXIX measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXIX measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3342,57 +2962,37 @@ D_StaffXIX = {
 
 D_PercussionVoiceXX_a = {
     
-    % [D PercussionVoiceXX measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            20                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            20                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXX measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            20                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“20”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            20                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            20                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“20”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            20                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXX measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 68 / measure 4]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -3403,16 +3003,16 @@ D_PercussionVoiceXX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXX measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 70 / measure 6]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 70 / measure 6]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 71 / measure 7]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 72 / measure 8]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -3423,16 +3023,16 @@ D_PercussionVoiceXX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXX measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 74 / measure 10]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 75 / measure 11]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 76 / measure 12]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 76 / measure 12]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3443,16 +3043,16 @@ D_PercussionVoiceXX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXX measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 77 / measure 13]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 78 / measure 14]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 78 / measure 14]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 79 / measure 15]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXX measure 80 / measure 16]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXX measure 80 / measure 16]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3479,60 +3079,40 @@ D_StaffXX = {
 
 D_PercussionVoiceXXI_a = {
     
-    % [D PercussionVoiceXXI measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            21                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            21                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXI measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            21                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“21”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            21                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            21                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“21”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            21                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXI measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXI measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXI measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXI measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 69 / measure 5]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3543,7 +3123,7 @@ D_PercussionVoiceXXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXI measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 70 / measure 6]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3554,7 +3134,7 @@ D_PercussionVoiceXXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXI measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 71 / measure 7]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3565,7 +3145,7 @@ D_PercussionVoiceXXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXI measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 72 / measure 8]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -3576,19 +3156,19 @@ D_PercussionVoiceXXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXI measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXI measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXI measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXI measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 76 / measure 12]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXI measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 77 / measure 13]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3599,7 +3179,7 @@ D_PercussionVoiceXXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXI measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 78 / measure 14]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3610,7 +3190,7 @@ D_PercussionVoiceXXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXI measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 79 / measure 15]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3621,7 +3201,7 @@ D_PercussionVoiceXXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXI measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXI measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3648,63 +3228,43 @@ D_StaffXXI = {
 
 D_PercussionVoiceXXII_a = {
     
-    % [D PercussionVoiceXXII measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            22                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            22                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXII measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            22                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“22”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            22                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            22                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“22”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            22                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXII measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 70 / measure 6]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3715,10 +3275,10 @@ D_PercussionVoiceXXII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXII measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 72 / measure 8]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3729,22 +3289,22 @@ D_PercussionVoiceXXII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXII measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3755,10 +3315,10 @@ D_PercussionVoiceXXII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXII measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 79 / measure 15]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXII measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXII measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3785,66 +3345,46 @@ D_StaffXXII = {
 
 D_PercussionVoiceXXIII_a = {
     
-    % [D PercussionVoiceXXIII measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            23                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            23                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXIII measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            23                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“23”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            23                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            23                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“23”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            23                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXIII measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 68 / measure 4]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 70 / measure 6]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 71 / measure 7]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3855,7 +3395,7 @@ D_PercussionVoiceXXIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXIII measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 72 / measure 8]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -3866,25 +3406,25 @@ D_PercussionVoiceXXIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXIII measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 74 / measure 10]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 75 / measure 11]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 76 / measure 12]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 78 / measure 14]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIII measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 79 / measure 15]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -3895,7 +3435,7 @@ D_PercussionVoiceXXIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXIII measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIII measure 80 / measure 16]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -3922,69 +3462,49 @@ D_StaffXXIII = {
 
 D_PercussionVoiceXXIV_a = {
     
-    % [D PercussionVoiceXXIV measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            24                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            24                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXIV measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            24                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“24”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            24                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            24                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“24”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            24                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXIV measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 72 / measure 8]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -3995,28 +3515,28 @@ D_PercussionVoiceXXIV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXIV measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 78 / measure 14]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 79 / measure 15]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIV measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIV measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4043,72 +3563,52 @@ D_StaffXXIV = {
 
 D_PercussionVoiceXXV_a = {
     
-    % [D PercussionVoiceXXV measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            25                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            25                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXV measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            25                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“25”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            25                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            25                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“25”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            25                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXV measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXV measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXV measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXV measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXV measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXV measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXV measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXV measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 73 / measure 9]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -4119,7 +3619,7 @@ D_PercussionVoiceXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXV measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 74 / measure 10]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4130,7 +3630,7 @@ D_PercussionVoiceXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXV measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 75 / measure 11]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4141,7 +3641,7 @@ D_PercussionVoiceXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXV measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 76 / measure 12]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4152,7 +3652,7 @@ D_PercussionVoiceXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXV measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 77 / measure 13]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4163,7 +3663,7 @@ D_PercussionVoiceXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXV measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 78 / measure 14]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4174,7 +3674,7 @@ D_PercussionVoiceXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXV measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 79 / measure 15]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4185,7 +3685,7 @@ D_PercussionVoiceXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXV measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXV measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4212,75 +3712,55 @@ D_StaffXXV = {
 
 D_PercussionVoiceXXVI_a = {
     
-    % [D PercussionVoiceXXVI measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            26                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            26                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXVI measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            26                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“26”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            26                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            26                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“26”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            26                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXVI measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 74 / measure 10]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4291,10 +3771,10 @@ D_PercussionVoiceXXVI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXVI measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 76 / measure 12]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4305,10 +3785,10 @@ D_PercussionVoiceXXVI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXVI measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4319,10 +3799,10 @@ D_PercussionVoiceXXVI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXVI measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 79 / measure 15]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVI measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVI measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4349,78 +3829,58 @@ D_StaffXXVI = {
 
 D_PercussionVoiceXXVII_a = {
     
-    % [D PercussionVoiceXXVII measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            27                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            27                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXVII measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            27                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“27”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            27                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            27                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“27”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            27                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXVII measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 68 / measure 4]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 70 / measure 6]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 71 / measure 7]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 72 / measure 8]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 74 / measure 10]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 75 / measure 11]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -4431,7 +3891,7 @@ D_PercussionVoiceXXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXVII measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 76 / measure 12]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -4442,13 +3902,13 @@ D_PercussionVoiceXXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXVII measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 78 / measure 14]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVII measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 79 / measure 15]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -4459,7 +3919,7 @@ D_PercussionVoiceXXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXVII measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVII measure 80 / measure 16]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -4486,81 +3946,61 @@ D_StaffXXVII = {
 
 D_PercussionVoiceXXVIII_a = {
     
-    % [D PercussionVoiceXXVIII measure 65 / measure 1]                 %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            28                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            28                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXVIII measure 65 / measure 1]                 %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            28                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“28”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            28                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            28                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“28”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            28                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXVIII measure 66 / measure 2]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 66 / measure 2]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 67 / measure 3]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 67 / measure 3]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 68 / measure 4]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 68 / measure 4]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 69 / measure 5]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 69 / measure 5]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 70 / measure 6]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 70 / measure 6]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 71 / measure 7]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 71 / measure 7]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 72 / measure 8]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 72 / measure 8]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 73 / measure 9]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 73 / measure 9]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 74 / measure 10]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 74 / measure 10]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 75 / measure 11]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 75 / measure 11]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 76 / measure 12]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 76 / measure 12]                %! _comment_measure_numbers
     c'8
     [
     
@@ -4571,16 +4011,16 @@ D_PercussionVoiceXXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXVIII measure 77 / measure 13]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 77 / measure 13]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 78 / measure 14]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 78 / measure 14]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 79 / measure 15]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 79 / measure 15]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXVIII measure 80 / measure 16]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXVIII measure 80 / measure 16]                %! _comment_measure_numbers
     c'8
     [
     
@@ -4607,84 +4047,64 @@ D_StaffXXVIII = {
 
 D_PercussionVoiceXXIX_a = {
     
-    % [D PercussionVoiceXXIX measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            29                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            29                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXIX measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            29                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“29”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            29                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            29                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“29”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            29                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXIX measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXIX measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 77 / measure 13]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4695,7 +4115,7 @@ D_PercussionVoiceXXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXIX measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4706,7 +4126,7 @@ D_PercussionVoiceXXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXIX measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 79 / measure 15]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4717,7 +4137,7 @@ D_PercussionVoiceXXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXIX measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXIX measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4744,87 +4164,67 @@ D_StaffXXIX = {
 
 D_PercussionVoiceXXX_a = {
     
-    % [D PercussionVoiceXXX measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            30                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            30                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXX measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            30                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“30”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            30                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            30                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“30”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            30                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXX measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 76 / measure 12]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 77 / measure 13]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 78 / measure 14]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4835,10 +4235,10 @@ D_PercussionVoiceXXX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXX measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 79 / measure 15]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXX measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXX measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -4865,90 +4265,70 @@ D_StaffXXX = {
 
 D_PercussionVoiceXXXI_a = {
     
-    % [D PercussionVoiceXXXI measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            31                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            31                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXXI measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            31                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“31”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            31                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            31                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“31”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            31                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXXI measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 78 / measure 14]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXI measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 79 / measure 15]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4959,7 +4339,7 @@ D_PercussionVoiceXXXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXI measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXI measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -4986,93 +4366,73 @@ D_StaffXXXI = {
 
 D_PercussionVoiceXXXII_a = {
     
-    % [D PercussionVoiceXXXII measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            32                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            32                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXXII measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            32                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“32”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            32                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            32                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“32”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            32                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXXII measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 68 / measure 4]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 70 / measure 6]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 71 / measure 7]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 72 / measure 8]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 74 / measure 10]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 75 / measure 11]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 76 / measure 12]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 78 / measure 14]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 79 / measure 15]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXII measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXII measure 80 / measure 16]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -5100,50 +4460,30 @@ D_StaffXXXII = {
 D_PercussionVoiceXXXIII_a = {
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 65 / measure 1]             %! COMMENT_MEASURE_NUMBERS
-        \set Staff.instrumentName =                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \markup {                                                      %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            \hcenter-in                                                %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-                #8                                                     %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-                33                                                     %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            }                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \set Staff.shortInstrumentName =                               %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \markup {                                                      %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            \hcenter-in                                                %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-                #8                                                     %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-                33                                                     %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            }                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \clef "percussion"                                             %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-        \once \override Staff.Clef.color = #(x11-color 'green4)        %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-    %@% \override Staff.Clef.color = ##f                               %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-        \set Staff.forceClef = ##t                                     %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+        % [D PercussionVoiceXXXIII measure 65 / measure 1]             %! _comment_measure_numbers
+        \set Staff.shortInstrumentName =                               %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \markup {                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \hcenter-in                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                #8                                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+                33                                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            }                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \clef "percussion"                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \once \override Staff.Clef.color = #(x11-color 'green4)        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                     %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
         c'8
-        ^ \markup {                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            \with-color                                                %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                #(x11-color 'green4)                                   %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                [“33”]                                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            }                                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        ^ \markup {                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            \with-color                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                #(x11-color 'green4)                                   %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                (“Percussion”)                                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            }                                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        ^ \markup \baca-reapplied-indicator-markup "[“33”]"            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+        ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [
-        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-        \set Staff.instrumentName =                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \markup {                                                      %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            \hcenter-in                                                %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-                #8                                                     %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-                33                                                     %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            }                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \set Staff.shortInstrumentName =                               %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \markup {                                                      %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            \hcenter-in                                                %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-                #8                                                     %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-                33                                                     %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            }                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \set Staff.shortInstrumentName =                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \markup {                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            \hcenter-in                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+                #8                                                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+                33                                                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            }                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         c'8
         
@@ -5158,7 +4498,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 66 / measure 2]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 66 / measure 2]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5175,7 +4515,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 67 / measure 3]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 67 / measure 3]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5192,7 +4532,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 68 / measure 4]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 68 / measure 4]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5209,7 +4549,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 69 / measure 5]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 69 / measure 5]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5226,7 +4566,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 70 / measure 6]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 70 / measure 6]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5243,7 +4583,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 71 / measure 7]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 71 / measure 7]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5260,7 +4600,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 72 / measure 8]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 72 / measure 8]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5277,7 +4617,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 73 / measure 9]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 73 / measure 9]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5294,7 +4634,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 74 / measure 10]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 74 / measure 10]            %! _comment_measure_numbers
         c'8
         [
         
@@ -5311,7 +4651,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 75 / measure 11]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 75 / measure 11]            %! _comment_measure_numbers
         c'8
         [
         
@@ -5328,7 +4668,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 76 / measure 12]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 76 / measure 12]            %! _comment_measure_numbers
         c'8
         [
         
@@ -5345,7 +4685,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 77 / measure 13]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 77 / measure 13]            %! _comment_measure_numbers
         c'8
         [
         
@@ -5362,7 +4702,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 78 / measure 14]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 78 / measure 14]            %! _comment_measure_numbers
         c'8
         [
         
@@ -5379,7 +4719,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 79 / measure 15]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 79 / measure 15]            %! _comment_measure_numbers
         c'8
         [
         
@@ -5396,7 +4736,7 @@ D_PercussionVoiceXXXIII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIII measure 80 / measure 16]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIII measure 80 / measure 16]            %! _comment_measure_numbers
         c'8
         [
         
@@ -5428,56 +4768,36 @@ D_StaffXXXIII = {
 
 D_PercussionVoiceXXXIV_a = {
     
-    % [D PercussionVoiceXXXIV measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            34                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            34                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXXIV measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            34                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“34”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            34                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            34                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“34”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            34                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXXIV measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 66 / measure 2]                  %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXIV measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 67 / measure 3]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -5489,7 +4809,7 @@ D_PercussionVoiceXXXIV_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIV measure 68 / measure 4]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIV measure 68 / measure 4]              %! _comment_measure_numbers
         c'8
         [
         
@@ -5505,15 +4825,15 @@ D_PercussionVoiceXXXIV_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXIV measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIV measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 70 / measure 6]                  %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXIV measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 71 / measure 7]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -5525,7 +4845,7 @@ D_PercussionVoiceXXXIV_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIV measure 72 / measure 8]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIV measure 72 / measure 8]              %! _comment_measure_numbers
         c'8
         [
         
@@ -5541,15 +4861,15 @@ D_PercussionVoiceXXXIV_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXIV measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIV measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 74 / measure 10]                 %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXIV measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 75 / measure 11]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -5561,7 +4881,7 @@ D_PercussionVoiceXXXIV_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIV measure 76 / measure 12]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIV measure 76 / measure 12]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5577,15 +4897,15 @@ D_PercussionVoiceXXXIV_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXIV measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIV measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 78 / measure 14]                 %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXIV measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIV measure 79 / measure 15]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -5597,7 +4917,7 @@ D_PercussionVoiceXXXIV_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIV measure 80 / measure 16]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIV measure 80 / measure 16]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5629,55 +4949,35 @@ D_StaffXXXIV = {
 
 D_PercussionVoiceXXXV_a = {
     
-    % [D PercussionVoiceXXXV measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            35                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            35                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXXV measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            35                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“35”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            35                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            35                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“35”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            35                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXXV measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXXXV measure 67 / measure 3]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXV measure 67 / measure 3]               %! _comment_measure_numbers
         c'8
         [
         
@@ -5693,12 +4993,12 @@ D_PercussionVoiceXXXV_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXV measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 68 / measure 4]                   %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXV measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 69 / measure 5]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -5709,7 +5009,7 @@ D_PercussionVoiceXXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXV measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 70 / measure 6]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -5720,13 +5020,13 @@ D_PercussionVoiceXXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXV measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 71 / measure 7]                   %! _comment_measure_numbers
     c'4
     
     c'4
     \times 2/3 {
         
-        % [D PercussionVoiceXXXV measure 72 / measure 8]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXV measure 72 / measure 8]               %! _comment_measure_numbers
         c'8
         [
         
@@ -5742,14 +5042,14 @@ D_PercussionVoiceXXXV_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXV measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXV measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXXXV measure 75 / measure 11]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXV measure 75 / measure 11]              %! _comment_measure_numbers
         c'8
         [
         
@@ -5765,12 +5065,12 @@ D_PercussionVoiceXXXV_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXV measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 76 / measure 12]                  %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXV measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 77 / measure 13]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -5781,7 +5081,7 @@ D_PercussionVoiceXXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXV measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -5792,13 +5092,13 @@ D_PercussionVoiceXXXV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXV measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXV measure 79 / measure 15]                  %! _comment_measure_numbers
     c'4
     
     c'4
     \times 2/3 {
         
-        % [D PercussionVoiceXXXV measure 80 / measure 16]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXV measure 80 / measure 16]              %! _comment_measure_numbers
         c'8
         [
         
@@ -5830,65 +5130,45 @@ D_StaffXXXV = {
 
 D_PercussionVoiceXXXVI_a = {
     
-    % [D PercussionVoiceXXXVI measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            36                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            36                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXXVI measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            36                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“36”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            36                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            36                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“36”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            36                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXXVI measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVI measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVI measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 68 / measure 4]                  %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXVI measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVI measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 70 / measure 6]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -5899,11 +5179,11 @@ D_PercussionVoiceXXXVI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVI measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 71 / measure 7]                  %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXXXVI measure 72 / measure 8]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXVI measure 72 / measure 8]              %! _comment_measure_numbers
         c'8
         [
         
@@ -5919,24 +5199,24 @@ D_PercussionVoiceXXXVI_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXVI measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVI measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 74 / measure 10]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVI measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 75 / measure 11]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVI measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 76 / measure 12]                 %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXVI measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVI measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 78 / measure 14]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -5947,11 +5227,11 @@ D_PercussionVoiceXXXVI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVI measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVI measure 79 / measure 15]                 %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXXXVI measure 80 / measure 16]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXVI measure 80 / measure 16]             %! _comment_measure_numbers
         c'8
         [
         
@@ -5983,61 +5263,41 @@ D_StaffXXXVI = {
 
 D_PercussionVoiceXXXVII_a = {
     
-    % [D PercussionVoiceXXXVII measure 65 / measure 1]                 %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            37                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            37                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXXVII measure 65 / measure 1]                 %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            37                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“37”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            37                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            37                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“37”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            37                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXXVII measure 66 / measure 2]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 66 / measure 2]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVII measure 67 / measure 3]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 67 / measure 3]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVII measure 68 / measure 4]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 68 / measure 4]                 %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXXXVII measure 69 / measure 5]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXVII measure 69 / measure 5]             %! _comment_measure_numbers
         c'8
         [
         
@@ -6054,7 +5314,7 @@ D_PercussionVoiceXXXVII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXVII measure 70 / measure 6]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXVII measure 70 / measure 6]             %! _comment_measure_numbers
         c'8
         [
         
@@ -6070,17 +5330,17 @@ D_PercussionVoiceXXXVII_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXVII measure 71 / measure 7]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 71 / measure 7]                 %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXVII measure 72 / measure 8]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 72 / measure 8]                 %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXVII measure 73 / measure 9]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 73 / measure 9]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -6091,7 +5351,7 @@ D_PercussionVoiceXXXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVII measure 74 / measure 10]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 74 / measure 10]                %! _comment_measure_numbers
     c'8
     [
     
@@ -6102,7 +5362,7 @@ D_PercussionVoiceXXXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVII measure 75 / measure 11]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 75 / measure 11]                %! _comment_measure_numbers
     c'8
     [
     
@@ -6113,7 +5373,7 @@ D_PercussionVoiceXXXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVII measure 76 / measure 12]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 76 / measure 12]                %! _comment_measure_numbers
     c'8
     [
     
@@ -6124,18 +5384,18 @@ D_PercussionVoiceXXXVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVII measure 77 / measure 13]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 77 / measure 13]                %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXVII measure 78 / measure 14]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVII measure 78 / measure 14]                %! _comment_measure_numbers
     c'4
     
     c'4
     \times 2/3 {
         
-        % [D PercussionVoiceXXXVII measure 79 / measure 15]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXVII measure 79 / measure 15]            %! _comment_measure_numbers
         c'8
         [
         
@@ -6152,7 +5412,7 @@ D_PercussionVoiceXXXVII_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXXXVII measure 80 / measure 16]            %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXVII measure 80 / measure 16]            %! _comment_measure_numbers
         c'8
         [
         
@@ -6184,68 +5444,48 @@ D_StaffXXXVII = {
 
 D_PercussionVoiceXXXVIII_a = {
     
-    % [D PercussionVoiceXXXVIII measure 65 / measure 1]                %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            38                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            38                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXXVIII measure 65 / measure 1]                %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            38                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“38”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            38                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            38                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“38”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            38                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXXVIII measure 66 / measure 2]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 66 / measure 2]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVIII measure 67 / measure 3]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 67 / measure 3]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVIII measure 68 / measure 4]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 68 / measure 4]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVIII measure 69 / measure 5]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 69 / measure 5]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVIII measure 70 / measure 6]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 70 / measure 6]                %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXVIII measure 71 / measure 7]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 71 / measure 7]                %! _comment_measure_numbers
     c'8
     [
     
@@ -6256,15 +5496,15 @@ D_PercussionVoiceXXXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVIII measure 72 / measure 8]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 72 / measure 8]                %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXVIII measure 73 / measure 9]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 73 / measure 9]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVIII measure 74 / measure 10]               %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 74 / measure 10]               %! _comment_measure_numbers
     c'8
     [
     
@@ -6275,10 +5515,10 @@ D_PercussionVoiceXXXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVIII measure 75 / measure 11]               %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 75 / measure 11]               %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXVIII measure 76 / measure 12]               %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 76 / measure 12]               %! _comment_measure_numbers
     c'8
     [
     
@@ -6289,11 +5529,11 @@ D_PercussionVoiceXXXVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXVIII measure 77 / measure 13]               %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 77 / measure 13]               %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXXXVIII measure 78 / measure 14]           %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXVIII measure 78 / measure 14]           %! _comment_measure_numbers
         c'8
         [
         
@@ -6309,7 +5549,7 @@ D_PercussionVoiceXXXVIII_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXVIII measure 79 / measure 15]               %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXVIII measure 79 / measure 15]               %! _comment_measure_numbers
     c'8
     [
     
@@ -6321,7 +5561,7 @@ D_PercussionVoiceXXXVIII_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceXXXVIII measure 80 / measure 16]           %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXVIII measure 80 / measure 16]           %! _comment_measure_numbers
         c'8
         [
         
@@ -6353,67 +5593,47 @@ D_StaffXXXVIII = {
 
 D_PercussionVoiceXXXIX_a = {
     
-    % [D PercussionVoiceXXXIX measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            39                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            39                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXXXIX measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            39                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“39”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            39                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            39                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“39”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            39                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXXXIX measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIX measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIX measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 68 / measure 4]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIX measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIX measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 70 / measure 6]                  %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIX measure 71 / measure 7]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIX measure 71 / measure 7]              %! _comment_measure_numbers
         c'8
         [
         
@@ -6429,18 +5649,18 @@ D_PercussionVoiceXXXIX_a = {
         ]
     }
     
-    % [D PercussionVoiceXXXIX measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 72 / measure 8]                  %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXXXIX measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIX measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 74 / measure 10]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIX measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 75 / measure 11]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -6451,7 +5671,7 @@ D_PercussionVoiceXXXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXIX measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 76 / measure 12]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -6462,19 +5682,19 @@ D_PercussionVoiceXXXIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXXXIX measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIX measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 78 / measure 14]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXXXIX measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXXXIX measure 79 / measure 15]                 %! _comment_measure_numbers
     c'4
     
     c'4
     \times 2/3 {
         
-        % [D PercussionVoiceXXXIX measure 80 / measure 16]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXXXIX measure 80 / measure 16]             %! _comment_measure_numbers
         c'8
         [
         
@@ -6506,83 +5726,63 @@ D_StaffXXXIX = {
 
 D_PercussionVoiceXL_a = {
     
-    % [D PercussionVoiceXL measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            40                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            40                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXL measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            40                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“40”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            40                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            40                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“40”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            40                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXL measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 68 / measure 4]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 70 / measure 6]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 70 / measure 6]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 71 / measure 7]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 72 / measure 8]                     %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXL measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 74 / measure 10]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 75 / measure 11]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 76 / measure 12]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 76 / measure 12]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -6593,17 +5793,17 @@ D_PercussionVoiceXL_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXL measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 77 / measure 13]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 78 / measure 14]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 78 / measure 14]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXL measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXL measure 79 / measure 15]                    %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXL measure 80 / measure 16]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXL measure 80 / measure 16]                %! _comment_measure_numbers
         c'8
         [
         
@@ -6635,73 +5835,53 @@ D_StaffXL = {
 
 D_PercussionVoiceXLI_a = {
     
-    % [D PercussionVoiceXLI measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            41                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            41                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLI measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            41                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“41”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            41                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            41                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“41”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            41                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXLI measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLI measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLI measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLI measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLI measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLI measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLI measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXLI measure 73 / measure 9]                %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLI measure 73 / measure 9]                %! _comment_measure_numbers
         c'8
         [
         
@@ -6718,7 +5898,7 @@ D_PercussionVoiceXLI_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXLI measure 74 / measure 10]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLI measure 74 / measure 10]               %! _comment_measure_numbers
         c'8
         [
         
@@ -6735,7 +5915,7 @@ D_PercussionVoiceXLI_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXLI measure 75 / measure 11]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLI measure 75 / measure 11]               %! _comment_measure_numbers
         c'8
         [
         
@@ -6752,7 +5932,7 @@ D_PercussionVoiceXLI_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXLI measure 76 / measure 12]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLI measure 76 / measure 12]               %! _comment_measure_numbers
         c'8
         [
         
@@ -6768,22 +5948,22 @@ D_PercussionVoiceXLI_a = {
         ]
     }
     
-    % [D PercussionVoiceXLI measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 77 / measure 13]                   %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXLI measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 78 / measure 14]                   %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXLI measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 79 / measure 15]                   %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXLI measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLI measure 80 / measure 16]                   %! _comment_measure_numbers
     c'4
     
     c'4
@@ -6804,80 +5984,60 @@ D_StaffXLI = {
 
 D_PercussionVoiceXLII_a = {
     
-    % [D PercussionVoiceXLII measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            42                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            42                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLII measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            42                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“42”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            42                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            42                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“42”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            42                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXLII measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLII measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLII measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLII measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLII measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLII measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLII measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLII measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLII measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 74 / measure 10]                  %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXLII measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 75 / measure 11]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -6889,7 +6049,7 @@ D_PercussionVoiceXLII_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceXLII measure 76 / measure 12]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLII measure 76 / measure 12]              %! _comment_measure_numbers
         c'8
         [
         
@@ -6905,11 +6065,11 @@ D_PercussionVoiceXLII_a = {
         ]
     }
     
-    % [D PercussionVoiceXLII measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXLII measure 78 / measure 14]              %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLII measure 78 / measure 14]              %! _comment_measure_numbers
         c'8
         [
         
@@ -6925,7 +6085,7 @@ D_PercussionVoiceXLII_a = {
         ]
     }
     
-    % [D PercussionVoiceXLII measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 79 / measure 15]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -6936,7 +6096,7 @@ D_PercussionVoiceXLII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLII measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLII measure 80 / measure 16]                  %! _comment_measure_numbers
     c'4
     
     c'4
@@ -6957,79 +6117,59 @@ D_StaffXLII = {
 
 D_PercussionVoiceXLIII_a = {
     
-    % [D PercussionVoiceXLIII measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            43                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            43                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLIII measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            43                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“43”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            43                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            43                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“43”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            43                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXLIII measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIII measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIII measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 68 / measure 4]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIII measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIII measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 70 / measure 6]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIII measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 71 / measure 7]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIII measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 72 / measure 8]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIII measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIII measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 74 / measure 10]                 %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXLIII measure 75 / measure 11]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLIII measure 75 / measure 11]             %! _comment_measure_numbers
         c'8
         [
         
@@ -7045,12 +6185,12 @@ D_PercussionVoiceXLIII_a = {
         ]
     }
     
-    % [D PercussionVoiceXLIII measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 76 / measure 12]                 %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXLIII measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 77 / measure 13]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -7061,7 +6201,7 @@ D_PercussionVoiceXLIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIII measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 78 / measure 14]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -7073,7 +6213,7 @@ D_PercussionVoiceXLIII_a = {
     ]
     \times 2/3 {
         
-        % [D PercussionVoiceXLIII measure 79 / measure 15]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLIII measure 79 / measure 15]             %! _comment_measure_numbers
         c'8
         [
         
@@ -7089,7 +6229,7 @@ D_PercussionVoiceXLIII_a = {
         ]
     }
     
-    % [D PercussionVoiceXLIII measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIII measure 80 / measure 16]                 %! _comment_measure_numbers
     c'4
     
     c'4
@@ -7110,89 +6250,69 @@ D_StaffXLIII = {
 
 D_PercussionVoiceXLIV_a = {
     
-    % [D PercussionVoiceXLIV measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            44                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            44                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLIV measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            44                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“44”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            44                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            44                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“44”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            44                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXLIV measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 76 / measure 12]                  %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXLIV measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7203,10 +6323,10 @@ D_PercussionVoiceXLIV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIV measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 79 / measure 15]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLIV measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIV measure 80 / measure 16]                  %! _comment_measure_numbers
     c'4
     
     c'4
@@ -7227,85 +6347,65 @@ D_StaffXLIV = {
 
 D_PercussionVoiceXLV_a = {
     
-    % [D PercussionVoiceXLV measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            45                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            45                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLV measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            45                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“45”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            45                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            45                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“45”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            45                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXLV measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLV measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 76 / measure 12]                   %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXLV measure 77 / measure 13]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLV measure 77 / measure 13]               %! _comment_measure_numbers
         c'8
         [
         
@@ -7322,7 +6422,7 @@ D_PercussionVoiceXLV_a = {
     }
     \times 2/3 {
         
-        % [D PercussionVoiceXLV measure 78 / measure 14]               %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLV measure 78 / measure 14]               %! _comment_measure_numbers
         c'8
         [
         
@@ -7338,12 +6438,12 @@ D_PercussionVoiceXLV_a = {
         ]
     }
     
-    % [D PercussionVoiceXLV measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 79 / measure 15]                   %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXLV measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLV measure 80 / measure 16]                   %! _comment_measure_numbers
     c'4
     
     c'4
@@ -7364,92 +6464,72 @@ D_StaffXLV = {
 
 D_PercussionVoiceXLVI_a = {
     
-    % [D PercussionVoiceXLVI measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            46                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            46                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLVI measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            46                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“46”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            46                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            46                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“46”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            46                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXLVI measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVI measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 78 / measure 14]                  %! _comment_measure_numbers
     c'4
     
     c'4
     
-    % [D PercussionVoiceXLVI measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 79 / measure 15]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7460,7 +6540,7 @@ D_PercussionVoiceXLVI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLVI measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVI measure 80 / measure 16]                  %! _comment_measure_numbers
     c'4
     
     c'4
@@ -7481,91 +6561,71 @@ D_StaffXLVI = {
 
 D_PercussionVoiceXLVII_a = {
     
-    % [D PercussionVoiceXLVII measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            47                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            47                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLVII measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            47                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“47”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            47                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            47                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“47”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            47                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXLVII measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 68 / measure 4]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 70 / measure 6]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 71 / measure 7]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 72 / measure 8]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 74 / measure 10]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 75 / measure 11]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 76 / measure 12]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVII measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 78 / measure 14]                 %! _comment_measure_numbers
     r2
     \times 2/3 {
         
-        % [D PercussionVoiceXLVII measure 79 / measure 15]             %! COMMENT_MEASURE_NUMBERS
+        % [D PercussionVoiceXLVII measure 79 / measure 15]             %! _comment_measure_numbers
         c'8
         [
         
@@ -7581,7 +6641,7 @@ D_PercussionVoiceXLVII_a = {
         ]
     }
     
-    % [D PercussionVoiceXLVII measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVII measure 80 / measure 16]                 %! _comment_measure_numbers
     c'4
     
     c'4
@@ -7602,93 +6662,73 @@ D_StaffXLVII = {
 
 D_PercussionVoiceXLVIII_a = {
     
-    % [D PercussionVoiceXLVIII measure 65 / measure 1]                 %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            48                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            48                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLVIII measure 65 / measure 1]                 %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            48                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“48”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            48                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            48                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“48”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            48                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceXLVIII measure 66 / measure 2]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 66 / measure 2]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 67 / measure 3]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 67 / measure 3]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 68 / measure 4]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 68 / measure 4]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 69 / measure 5]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 69 / measure 5]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 70 / measure 6]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 70 / measure 6]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 71 / measure 7]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 71 / measure 7]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 72 / measure 8]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 72 / measure 8]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 73 / measure 9]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 73 / measure 9]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 74 / measure 10]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 74 / measure 10]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 75 / measure 11]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 75 / measure 11]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 76 / measure 12]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 76 / measure 12]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 77 / measure 13]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 77 / measure 13]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 78 / measure 14]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 78 / measure 14]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 79 / measure 15]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 79 / measure 15]                %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceXLVIII measure 80 / measure 16]                %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLVIII measure 80 / measure 16]                %! _comment_measure_numbers
     c'4
     
     c'4
@@ -7709,50 +6749,30 @@ D_StaffXLVIII = {
 
 D_PercussionVoiceXLIX_a = {
     
-    % [D PercussionVoiceXLIX measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            49                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            49                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceXLIX measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            49                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     c'8
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“49”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“49”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     [
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            49                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            49                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            49                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     c'8
     
@@ -7761,7 +6781,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 66 / measure 2]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -7772,7 +6792,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 67 / measure 3]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -7783,7 +6803,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 68 / measure 4]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -7794,7 +6814,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 69 / measure 5]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -7805,7 +6825,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 70 / measure 6]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -7816,7 +6836,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 71 / measure 7]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -7827,7 +6847,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 72 / measure 8]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -7838,7 +6858,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 73 / measure 9]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -7849,7 +6869,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 74 / measure 10]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7860,7 +6880,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 75 / measure 11]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7871,7 +6891,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 76 / measure 12]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7882,7 +6902,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 77 / measure 13]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7893,7 +6913,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7904,7 +6924,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 79 / measure 15]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7915,7 +6935,7 @@ D_PercussionVoiceXLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceXLIX measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceXLIX measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -7942,51 +6962,31 @@ D_StaffXLIX = {
 
 D_PercussionVoiceL_a = {
     
-    % [D PercussionVoiceL measure 65 / measure 1]                      %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            50                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            50                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceL measure 65 / measure 1]                      %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            50                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“50”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            50                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            50                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“50”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            50                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceL measure 66 / measure 2]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 66 / measure 2]                      %! _comment_measure_numbers
     c'8
     [
     
@@ -7997,10 +6997,10 @@ D_PercussionVoiceL_a = {
     c'8
     ]
     
-    % [D PercussionVoiceL measure 67 / measure 3]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 67 / measure 3]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceL measure 68 / measure 4]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 68 / measure 4]                      %! _comment_measure_numbers
     c'8
     [
     
@@ -8011,10 +7011,10 @@ D_PercussionVoiceL_a = {
     c'8
     ]
     
-    % [D PercussionVoiceL measure 69 / measure 5]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 69 / measure 5]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceL measure 70 / measure 6]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 70 / measure 6]                      %! _comment_measure_numbers
     c'8
     [
     
@@ -8025,10 +7025,10 @@ D_PercussionVoiceL_a = {
     c'8
     ]
     
-    % [D PercussionVoiceL measure 71 / measure 7]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 71 / measure 7]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceL measure 72 / measure 8]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 72 / measure 8]                      %! _comment_measure_numbers
     c'8
     [
     
@@ -8039,10 +7039,10 @@ D_PercussionVoiceL_a = {
     c'8
     ]
     
-    % [D PercussionVoiceL measure 73 / measure 9]                      %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 73 / measure 9]                      %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceL measure 74 / measure 10]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 74 / measure 10]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8053,10 +7053,10 @@ D_PercussionVoiceL_a = {
     c'8
     ]
     
-    % [D PercussionVoiceL measure 75 / measure 11]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 75 / measure 11]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceL measure 76 / measure 12]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 76 / measure 12]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8067,10 +7067,10 @@ D_PercussionVoiceL_a = {
     c'8
     ]
     
-    % [D PercussionVoiceL measure 77 / measure 13]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 77 / measure 13]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceL measure 78 / measure 14]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 78 / measure 14]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8081,10 +7081,10 @@ D_PercussionVoiceL_a = {
     c'8
     ]
     
-    % [D PercussionVoiceL measure 79 / measure 15]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 79 / measure 15]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceL measure 80 / measure 16]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceL measure 80 / measure 16]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8111,54 +7111,34 @@ D_StaffL = {
 
 D_PercussionVoiceLI_a = {
     
-    % [D PercussionVoiceLI measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            51                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            51                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLI measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            51                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“51”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            51                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            51                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“51”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            51                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLI measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLI measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 67 / measure 3]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8169,7 +7149,7 @@ D_PercussionVoiceLI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLI measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 68 / measure 4]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8180,13 +7160,13 @@ D_PercussionVoiceLI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLI measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLI measure 70 / measure 6]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 70 / measure 6]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLI measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 71 / measure 7]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8197,7 +7177,7 @@ D_PercussionVoiceLI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLI measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 72 / measure 8]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8208,13 +7188,13 @@ D_PercussionVoiceLI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLI measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLI measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 74 / measure 10]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLI measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 75 / measure 11]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8225,7 +7205,7 @@ D_PercussionVoiceLI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLI measure 76 / measure 12]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 76 / measure 12]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8236,13 +7216,13 @@ D_PercussionVoiceLI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLI measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 77 / measure 13]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLI measure 78 / measure 14]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 78 / measure 14]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLI measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 79 / measure 15]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8253,7 +7233,7 @@ D_PercussionVoiceLI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLI measure 80 / measure 16]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLI measure 80 / measure 16]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8280,57 +7260,37 @@ D_StaffLI = {
 
 D_PercussionVoiceLII_a = {
     
-    % [D PercussionVoiceLII measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            52                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            52                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLII measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            52                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“52”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            52                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            52                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“52”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            52                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLII measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 68 / measure 4]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8341,16 +7301,16 @@ D_PercussionVoiceLII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLII measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 72 / measure 8]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8361,16 +7321,16 @@ D_PercussionVoiceLII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLII measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 76 / measure 12]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8381,16 +7341,16 @@ D_PercussionVoiceLII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLII measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 77 / measure 13]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 78 / measure 14]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 79 / measure 15]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLII measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLII measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8417,60 +7377,40 @@ D_StaffLII = {
 
 D_PercussionVoiceLIII_a = {
     
-    % [D PercussionVoiceLIII measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            53                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            53                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLIII measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            53                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“53”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            53                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            53                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“53”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            53                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLIII measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIII measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIII measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIII measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 69 / measure 5]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8481,7 +7421,7 @@ D_PercussionVoiceLIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIII measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 70 / measure 6]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8492,7 +7432,7 @@ D_PercussionVoiceLIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIII measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 71 / measure 7]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8503,7 +7443,7 @@ D_PercussionVoiceLIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIII measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 72 / measure 8]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8514,19 +7454,19 @@ D_PercussionVoiceLIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIII measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIII measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIII measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIII measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIII measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 77 / measure 13]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -8537,7 +7477,7 @@ D_PercussionVoiceLIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIII measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -8548,7 +7488,7 @@ D_PercussionVoiceLIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIII measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 79 / measure 15]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -8559,7 +7499,7 @@ D_PercussionVoiceLIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIII measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIII measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -8586,63 +7526,43 @@ D_StaffLIII = {
 
 D_PercussionVoiceLIV_a = {
     
-    % [D PercussionVoiceLIV measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            54                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            54                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLIV measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            54                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“54”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            54                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            54                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“54”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            54                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLIV measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 70 / measure 6]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8653,10 +7573,10 @@ D_PercussionVoiceLIV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIV measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 72 / measure 8]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8667,22 +7587,22 @@ D_PercussionVoiceLIV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIV measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 76 / measure 12]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 77 / measure 13]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 78 / measure 14]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8693,10 +7613,10 @@ D_PercussionVoiceLIV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIV measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 79 / measure 15]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIV measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIV measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8723,66 +7643,46 @@ D_StaffLIV = {
 
 D_PercussionVoiceLV_a = {
     
-    % [D PercussionVoiceLV measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            55                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            55                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLV measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            55                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“55”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            55                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            55                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“55”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            55                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLV measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 68 / measure 4]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 70 / measure 6]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 70 / measure 6]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 71 / measure 7]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8793,7 +7693,7 @@ D_PercussionVoiceLV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLV measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 72 / measure 8]                     %! _comment_measure_numbers
     c'8
     [
     
@@ -8804,25 +7704,25 @@ D_PercussionVoiceLV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLV measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 74 / measure 10]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 75 / measure 11]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 76 / measure 12]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 76 / measure 12]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 77 / measure 13]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 78 / measure 14]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 78 / measure 14]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLV measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 79 / measure 15]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8833,7 +7733,7 @@ D_PercussionVoiceLV_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLV measure 80 / measure 16]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLV measure 80 / measure 16]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8860,69 +7760,49 @@ D_StaffLV = {
 
 D_PercussionVoiceLVI_a = {
     
-    % [D PercussionVoiceLVI measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            56                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            56                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLVI measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            56                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“56”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            56                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            56                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“56”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            56                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLVI measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 72 / measure 8]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -8933,28 +7813,28 @@ D_PercussionVoiceLVI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVI measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 76 / measure 12]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 77 / measure 13]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 78 / measure 14]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 79 / measure 15]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVI measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVI measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -8981,72 +7861,52 @@ D_StaffLVI = {
 
 D_PercussionVoiceLVII_a = {
     
-    % [D PercussionVoiceLVII measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            57                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            57                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLVII measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            57                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“57”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            57                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            57                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“57”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            57                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLVII measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVII measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVII measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVII measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVII measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVII measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVII measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVII measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 73 / measure 9]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9057,7 +7917,7 @@ D_PercussionVoiceLVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVII measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 74 / measure 10]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9068,7 +7928,7 @@ D_PercussionVoiceLVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVII measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 75 / measure 11]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9079,7 +7939,7 @@ D_PercussionVoiceLVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVII measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 76 / measure 12]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9090,7 +7950,7 @@ D_PercussionVoiceLVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVII measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 77 / measure 13]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9101,7 +7961,7 @@ D_PercussionVoiceLVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVII measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9112,7 +7972,7 @@ D_PercussionVoiceLVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVII measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 79 / measure 15]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9123,7 +7983,7 @@ D_PercussionVoiceLVII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVII measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVII measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9150,75 +8010,55 @@ D_StaffLVII = {
 
 D_PercussionVoiceLVIII_a = {
     
-    % [D PercussionVoiceLVIII measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            58                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            58                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLVIII measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            58                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“58”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            58                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            58                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“58”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            58                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLVIII measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 68 / measure 4]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 70 / measure 6]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 71 / measure 7]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 72 / measure 8]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 74 / measure 10]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -9229,10 +8069,10 @@ D_PercussionVoiceLVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVIII measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 75 / measure 11]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 76 / measure 12]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -9243,10 +8083,10 @@ D_PercussionVoiceLVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVIII measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 78 / measure 14]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -9257,10 +8097,10 @@ D_PercussionVoiceLVIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLVIII measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 79 / measure 15]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLVIII measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLVIII measure 80 / measure 16]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -9287,78 +8127,58 @@ D_StaffLVIII = {
 
 D_PercussionVoiceLIX_a = {
     
-    % [D PercussionVoiceLIX measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            59                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            59                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLIX measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            59                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“59”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            59                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            59                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“59”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            59                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLIX measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 75 / measure 11]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9369,7 +8189,7 @@ D_PercussionVoiceLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIX measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 76 / measure 12]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9380,13 +8200,13 @@ D_PercussionVoiceLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIX measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 77 / measure 13]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 78 / measure 14]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLIX measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 79 / measure 15]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9397,7 +8217,7 @@ D_PercussionVoiceLIX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLIX measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLIX measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9424,81 +8244,61 @@ D_StaffLIX = {
 
 D_PercussionVoiceLX_a = {
     
-    % [D PercussionVoiceLX measure 65 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            60                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            60                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLX measure 65 / measure 1]                     %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            60                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“60”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            60                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            60                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“60”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            60                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLX measure 66 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 66 / measure 2]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 67 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 67 / measure 3]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 68 / measure 4]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 68 / measure 4]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 69 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 69 / measure 5]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 70 / measure 6]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 70 / measure 6]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 71 / measure 7]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 71 / measure 7]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 72 / measure 8]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 72 / measure 8]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 73 / measure 9]                     %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 73 / measure 9]                     %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 74 / measure 10]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 74 / measure 10]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 75 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 75 / measure 11]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 76 / measure 12]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 76 / measure 12]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -9509,16 +8309,16 @@ D_PercussionVoiceLX_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLX measure 77 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 77 / measure 13]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 78 / measure 14]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 78 / measure 14]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 79 / measure 15]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 79 / measure 15]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLX measure 80 / measure 16]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLX measure 80 / measure 16]                    %! _comment_measure_numbers
     c'8
     [
     
@@ -9545,84 +8345,64 @@ D_StaffLX = {
 
 D_PercussionVoiceLXI_a = {
     
-    % [D PercussionVoiceLXI measure 65 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            61                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            61                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLXI measure 65 / measure 1]                    %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            61                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“61”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            61                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            61                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“61”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            61                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLXI measure 66 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 66 / measure 2]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 67 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 67 / measure 3]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 68 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 68 / measure 4]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 69 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 69 / measure 5]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 70 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 70 / measure 6]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 71 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 71 / measure 7]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 72 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 72 / measure 8]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 73 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 73 / measure 9]                    %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 74 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 74 / measure 10]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 75 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 75 / measure 11]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 76 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 76 / measure 12]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXI measure 77 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 77 / measure 13]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9633,7 +8413,7 @@ D_PercussionVoiceLXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLXI measure 78 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 78 / measure 14]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9644,7 +8424,7 @@ D_PercussionVoiceLXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLXI measure 79 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 79 / measure 15]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9655,7 +8435,7 @@ D_PercussionVoiceLXI_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLXI measure 80 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXI measure 80 / measure 16]                   %! _comment_measure_numbers
     c'8
     [
     
@@ -9682,87 +8462,67 @@ D_StaffLXI = {
 
 D_PercussionVoiceLXII_a = {
     
-    % [D PercussionVoiceLXII measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            62                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            62                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLXII measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            62                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“62”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            62                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            62                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“62”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            62                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLXII measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 78 / measure 14]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9773,10 +8533,10 @@ D_PercussionVoiceLXII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLXII measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 79 / measure 15]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXII measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXII measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
@@ -9803,90 +8563,70 @@ D_StaffLXII = {
 
 D_PercussionVoiceLXIII_a = {
     
-    % [D PercussionVoiceLXIII measure 65 / measure 1]                  %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            63                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            63                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLXIII measure 65 / measure 1]                  %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            63                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“63”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            63                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            63                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“63”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            63                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLXIII measure 66 / measure 2]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 66 / measure 2]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 67 / measure 3]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 67 / measure 3]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 68 / measure 4]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 68 / measure 4]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 69 / measure 5]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 69 / measure 5]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 70 / measure 6]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 70 / measure 6]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 71 / measure 7]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 71 / measure 7]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 72 / measure 8]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 72 / measure 8]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 73 / measure 9]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 73 / measure 9]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 74 / measure 10]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 74 / measure 10]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 75 / measure 11]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 75 / measure 11]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 76 / measure 12]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 76 / measure 12]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 77 / measure 13]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 77 / measure 13]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 78 / measure 14]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 78 / measure 14]                 %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIII measure 79 / measure 15]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 79 / measure 15]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -9897,7 +8637,7 @@ D_PercussionVoiceLXIII_a = {
     c'8
     ]
     
-    % [D PercussionVoiceLXIII measure 80 / measure 16]                 %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIII measure 80 / measure 16]                 %! _comment_measure_numbers
     c'8
     [
     
@@ -9924,93 +8664,73 @@ D_StaffLXIII = {
 
 D_PercussionVoiceLXIV_a = {
     
-    % [D PercussionVoiceLXIV measure 65 / measure 1]                   %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            64                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            64                                                         %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "percussion"                                                 %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                   %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
+    % [D PercussionVoiceLXIV measure 65 / measure 1]                   %! _comment_measure_numbers
+    \set Staff.shortInstrumentName =                                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            64                                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
     r2
-    ^ \markup {                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“64”]                                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Percussion”)                                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            64                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                   %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                          %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                    %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #8                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            64                                                         %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    ^ \markup \baca-reapplied-indicator-markup "[“64”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName =                                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            #8                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+            64                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+        }                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [D PercussionVoiceLXIV measure 66 / measure 2]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 66 / measure 2]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 67 / measure 3]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 67 / measure 3]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 68 / measure 4]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 68 / measure 4]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 69 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 69 / measure 5]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 70 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 70 / measure 6]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 71 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 71 / measure 7]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 72 / measure 8]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 72 / measure 8]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 73 / measure 9]                   %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 73 / measure 9]                   %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 74 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 74 / measure 10]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 75 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 75 / measure 11]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 76 / measure 12]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 76 / measure 12]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 77 / measure 13]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 77 / measure 13]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 78 / measure 14]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 78 / measure 14]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 79 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 79 / measure 15]                  %! _comment_measure_numbers
     r2
     
-    % [D PercussionVoiceLXIV measure 80 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+    % [D PercussionVoiceLXIV measure 80 / measure 16]                  %! _comment_measure_numbers
     c'8
     [
     
