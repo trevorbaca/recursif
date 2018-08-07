@@ -23,15 +23,15 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.f(lilypond_file[abjad.Score])
         \context Score = "Score"
         <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalRests = "GlobalRests"
-                {
-                }
-                \context GlobalSkips = "GlobalSkips"
-                {
-                }
-            >>
+            \context GlobalContext = "GlobalContext" %! _make_global_context
+            <<                                       %! _make_global_context
+                \context GlobalRests = "GlobalRests" %! _make_global_context
+                {                                    %! _make_global_context
+                } %! _make_global_context
+                \context GlobalSkips = "GlobalSkips" %! _make_global_context
+                {                                    %! _make_global_context
+                } %! _make_global_context
+            >> %! _make_global_context
             \context MusicContext = "MusicContext"
             {
                 \context StaffGroup = "StaffGroup"
@@ -40,448 +40,448 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "PercussionVoiceI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffII"
                     {
                         \context Voice = "PercussionVoiceII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffIII"
                     {
                         \context Voice = "PercussionVoiceIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffIV"
                     {
                         \context Voice = "PercussionVoiceIV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffV"
                     {
                         \context Voice = "PercussionVoiceV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffVI"
                     {
                         \context Voice = "PercussionVoiceVI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffVII"
                     {
                         \context Voice = "PercussionVoiceVII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffVIII"
                     {
                         \context Voice = "PercussionVoiceVIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffIX"
                     {
                         \context Voice = "PercussionVoiceIX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffX"
                     {
                         \context Voice = "PercussionVoiceX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXI"
                     {
                         \context Voice = "PercussionVoiceXI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXII"
                     {
                         \context Voice = "PercussionVoiceXII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXIII"
                     {
                         \context Voice = "PercussionVoiceXIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXIV"
                     {
                         \context Voice = "PercussionVoiceXIV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXV"
                     {
                         \context Voice = "PercussionVoiceXV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXVI"
                     {
                         \context Voice = "PercussionVoiceXVI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXVII"
                     {
                         \context Voice = "PercussionVoiceXVII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXVIII"
                     {
                         \context Voice = "PercussionVoiceXVIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXIX"
                     {
                         \context Voice = "PercussionVoiceXIX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXX"
                     {
                         \context Voice = "PercussionVoiceXX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXI"
                     {
                         \context Voice = "PercussionVoiceXXI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXII"
                     {
                         \context Voice = "PercussionVoiceXXII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXIII"
                     {
                         \context Voice = "PercussionVoiceXXIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXIV"
                     {
                         \context Voice = "PercussionVoiceXXIV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXV"
                     {
                         \context Voice = "PercussionVoiceXXV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXVI"
                     {
                         \context Voice = "PercussionVoiceXXVI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXVII"
                     {
                         \context Voice = "PercussionVoiceXXVII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXVIII"
                     {
                         \context Voice = "PercussionVoiceXXVIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXIX"
                     {
                         \context Voice = "PercussionVoiceXXIX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXX"
                     {
                         \context Voice = "PercussionVoiceXXX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXI"
                     {
                         \context Voice = "PercussionVoiceXXXI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXII"
                     {
                         \context Voice = "PercussionVoiceXXXII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXIII"
                     {
                         \context Voice = "PercussionVoiceXXXIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXIV"
                     {
                         \context Voice = "PercussionVoiceXXXIV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXV"
                     {
                         \context Voice = "PercussionVoiceXXXV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXVI"
                     {
                         \context Voice = "PercussionVoiceXXXVI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXVII"
                     {
                         \context Voice = "PercussionVoiceXXXVII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXVIII"
                     {
                         \context Voice = "PercussionVoiceXXXVIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXXXIX"
                     {
                         \context Voice = "PercussionVoiceXXXIX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXL"
                     {
                         \context Voice = "PercussionVoiceXL"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLI"
                     {
                         \context Voice = "PercussionVoiceXLI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLII"
                     {
                         \context Voice = "PercussionVoiceXLII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLIII"
                     {
                         \context Voice = "PercussionVoiceXLIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLIV"
                     {
                         \context Voice = "PercussionVoiceXLIV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLV"
                     {
                         \context Voice = "PercussionVoiceXLV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLVI"
                     {
                         \context Voice = "PercussionVoiceXLVI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLVII"
                     {
                         \context Voice = "PercussionVoiceXLVII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLVIII"
                     {
                         \context Voice = "PercussionVoiceXLVIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffXLIX"
                     {
                         \context Voice = "PercussionVoiceXLIX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffL"
                     {
                         \context Voice = "PercussionVoiceL"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLI"
                     {
                         \context Voice = "PercussionVoiceLI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLII"
                     {
                         \context Voice = "PercussionVoiceLII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLIII"
                     {
                         \context Voice = "PercussionVoiceLIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLIV"
                     {
                         \context Voice = "PercussionVoiceLIV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLV"
                     {
                         \context Voice = "PercussionVoiceLV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLVI"
                     {
                         \context Voice = "PercussionVoiceLVI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLVII"
                     {
                         \context Voice = "PercussionVoiceLVII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLVIII"
                     {
                         \context Voice = "PercussionVoiceLVIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLIX"
                     {
                         \context Voice = "PercussionVoiceLIX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLX"
                     {
                         \context Voice = "PercussionVoiceLX"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLXI"
                     {
                         \context Voice = "PercussionVoiceLXI"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLXII"
                     {
                         \context Voice = "PercussionVoiceLXII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLXIII"
                     {
                         \context Voice = "PercussionVoiceLXIII"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                     \context Staff = "StaffLXIV"
                     {
                         \context Voice = "PercussionVoiceLXIV"
                         {
-                            s1
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                 >>
