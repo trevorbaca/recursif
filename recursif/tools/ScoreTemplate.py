@@ -20,473 +20,473 @@ class ScoreTemplate(baca.ScoreTemplate):
         ...     )
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
-        >>> abjad.f(lilypond_file[abjad.Score])
-        \context Score = "Score"
-        <<
-            \context GlobalContext = "GlobalContext" %! _make_global_context
-            <<                                       %! _make_global_context
-                \context GlobalRests = "GlobalRests" %! _make_global_context
-                {                                    %! _make_global_context
-                } %! _make_global_context
-                \context GlobalSkips = "GlobalSkips" %! _make_global_context
-                {                                    %! _make_global_context
-                } %! _make_global_context
-            >> %! _make_global_context
-            \context MusicContext = "MusicContext"
-            {
-                \context StaffGroup = "StaffGroup"
-                <<
-                    \context Staff = "StaffI"
-                    {
-                        \context Voice = "PercussionVoiceI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffII"
-                    {
-                        \context Voice = "PercussionVoiceII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffIII"
-                    {
-                        \context Voice = "PercussionVoiceIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffIV"
-                    {
-                        \context Voice = "PercussionVoiceIV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffV"
-                    {
-                        \context Voice = "PercussionVoiceV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffVI"
-                    {
-                        \context Voice = "PercussionVoiceVI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffVII"
-                    {
-                        \context Voice = "PercussionVoiceVII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffVIII"
-                    {
-                        \context Voice = "PercussionVoiceVIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffIX"
-                    {
-                        \context Voice = "PercussionVoiceIX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffX"
-                    {
-                        \context Voice = "PercussionVoiceX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXI"
-                    {
-                        \context Voice = "PercussionVoiceXI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXII"
-                    {
-                        \context Voice = "PercussionVoiceXII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXIII"
-                    {
-                        \context Voice = "PercussionVoiceXIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXIV"
-                    {
-                        \context Voice = "PercussionVoiceXIV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXV"
-                    {
-                        \context Voice = "PercussionVoiceXV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXVI"
-                    {
-                        \context Voice = "PercussionVoiceXVI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXVII"
-                    {
-                        \context Voice = "PercussionVoiceXVII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXVIII"
-                    {
-                        \context Voice = "PercussionVoiceXVIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXIX"
-                    {
-                        \context Voice = "PercussionVoiceXIX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXX"
-                    {
-                        \context Voice = "PercussionVoiceXX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXI"
-                    {
-                        \context Voice = "PercussionVoiceXXI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXII"
-                    {
-                        \context Voice = "PercussionVoiceXXII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXIII"
-                    {
-                        \context Voice = "PercussionVoiceXXIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXIV"
-                    {
-                        \context Voice = "PercussionVoiceXXIV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXV"
-                    {
-                        \context Voice = "PercussionVoiceXXV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXVI"
-                    {
-                        \context Voice = "PercussionVoiceXXVI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXVII"
-                    {
-                        \context Voice = "PercussionVoiceXXVII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXVIII"
-                    {
-                        \context Voice = "PercussionVoiceXXVIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXIX"
-                    {
-                        \context Voice = "PercussionVoiceXXIX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXX"
-                    {
-                        \context Voice = "PercussionVoiceXXX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXI"
-                    {
-                        \context Voice = "PercussionVoiceXXXI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXII"
-                    {
-                        \context Voice = "PercussionVoiceXXXII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXIII"
-                    {
-                        \context Voice = "PercussionVoiceXXXIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXIV"
-                    {
-                        \context Voice = "PercussionVoiceXXXIV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXV"
-                    {
-                        \context Voice = "PercussionVoiceXXXV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXVI"
-                    {
-                        \context Voice = "PercussionVoiceXXXVI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXVII"
-                    {
-                        \context Voice = "PercussionVoiceXXXVII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXVIII"
-                    {
-                        \context Voice = "PercussionVoiceXXXVIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXXXIX"
-                    {
-                        \context Voice = "PercussionVoiceXXXIX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXL"
-                    {
-                        \context Voice = "PercussionVoiceXL"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLI"
-                    {
-                        \context Voice = "PercussionVoiceXLI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLII"
-                    {
-                        \context Voice = "PercussionVoiceXLII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLIII"
-                    {
-                        \context Voice = "PercussionVoiceXLIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLIV"
-                    {
-                        \context Voice = "PercussionVoiceXLIV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLV"
-                    {
-                        \context Voice = "PercussionVoiceXLV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLVI"
-                    {
-                        \context Voice = "PercussionVoiceXLVI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLVII"
-                    {
-                        \context Voice = "PercussionVoiceXLVII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLVIII"
-                    {
-                        \context Voice = "PercussionVoiceXLVIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffXLIX"
-                    {
-                        \context Voice = "PercussionVoiceXLIX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffL"
-                    {
-                        \context Voice = "PercussionVoiceL"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLI"
-                    {
-                        \context Voice = "PercussionVoiceLI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLII"
-                    {
-                        \context Voice = "PercussionVoiceLII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLIII"
-                    {
-                        \context Voice = "PercussionVoiceLIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLIV"
-                    {
-                        \context Voice = "PercussionVoiceLIV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLV"
-                    {
-                        \context Voice = "PercussionVoiceLV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLVI"
-                    {
-                        \context Voice = "PercussionVoiceLVI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLVII"
-                    {
-                        \context Voice = "PercussionVoiceLVII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLVIII"
-                    {
-                        \context Voice = "PercussionVoiceLVIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLIX"
-                    {
-                        \context Voice = "PercussionVoiceLIX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLX"
-                    {
-                        \context Voice = "PercussionVoiceLX"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLXI"
-                    {
-                        \context Voice = "PercussionVoiceLXI"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLXII"
-                    {
-                        \context Voice = "PercussionVoiceLXII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLXIII"
-                    {
-                        \context Voice = "PercussionVoiceLXIII"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                    \context Staff = "StaffLXIV"
-                    {
-                        \context Voice = "PercussionVoiceLXIV"
-                        {
-                            s1 %! ScoreTemplate.__illustrate__
-                        }
-                    }
-                >>
-            }
-        >>
+        >>> abjad.f(lilypond_file[abjad.Score], strict=89)
+        \context Score = "Score"                                                                 %! ScoreTemplate
+        <<                                                                                       %! ScoreTemplate
+            \context GlobalContext = "GlobalContext"                                             %! _make_global_context
+            <<                                                                                   %! _make_global_context
+                \context GlobalRests = "GlobalRests"                                             %! _make_global_context
+                {                                                                                %! _make_global_context
+                }                                                                                %! _make_global_context
+                \context GlobalSkips = "GlobalSkips"                                             %! _make_global_context
+                {                                                                                %! _make_global_context
+                }                                                                                %! _make_global_context
+            >>                                                                                   %! _make_global_context
+            \context MusicContext = "MusicContext"                                               %! ScoreTemplate
+            {                                                                                    %! ScoreTemplate
+                \context StaffGroup = "StaffGroup"                                               %! ScoreTemplate
+                <<                                                                               %! ScoreTemplate
+                    \context Staff = "StaffI"                                                    %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceI"                                      %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffII"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceII"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffIII"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceIII"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffIV"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceIV"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffV"                                                    %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceV"                                      %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffVI"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceVI"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffVII"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceVII"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffVIII"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceVIII"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffIX"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceIX"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffX"                                                    %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceX"                                      %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXI"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXI"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXII"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXII"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXIII"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXIII"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXIV"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXIV"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXV"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXV"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXVI"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXVI"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXVII"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXVII"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXVIII"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXVIII"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXIX"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXIX"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXX"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXX"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXI"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXI"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXII"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXII"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXIII"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXIII"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXIV"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXIV"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXV"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXV"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXVI"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXVI"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXVII"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXVII"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXVIII"                                               %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXVIII"                                 %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXIX"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXIX"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXX"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXX"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXI"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXI"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXII"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXII"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXIII"                                               %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXIII"                                 %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXIV"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXIV"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXV"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXV"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXVI"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXVI"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXVII"                                               %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXVII"                                 %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXVIII"                                              %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXVIII"                                %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXXXIX"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXXXIX"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXL"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXL"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLI"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLI"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLII"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLII"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLIII"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLIII"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLIV"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLIV"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLV"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLV"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLVI"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLVI"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLVII"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLVII"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLVIII"                                               %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLVIII"                                 %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffXLIX"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceXLIX"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffL"                                                    %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceL"                                      %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLI"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLI"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLII"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLII"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLIII"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLIII"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLIV"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLIV"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLV"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLV"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLVI"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLVI"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLVII"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLVII"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLVIII"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLVIII"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLIX"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLIX"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLX"                                                   %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLX"                                     %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLXI"                                                  %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLXI"                                    %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLXII"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLXII"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLXIII"                                                %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLXIII"                                  %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                    \context Staff = "StaffLXIV"                                                 %! ScoreTemplate
+                    {                                                                            %! ScoreTemplate
+                        \context Voice = "PercussionVoiceLXIV"                                   %! ScoreTemplate
+                        {                                                                        %! ScoreTemplate
+                            s1                                                                   %! ScoreTemplate.__illustrate__
+                        }                                                                        %! ScoreTemplate
+                    }                                                                            %! ScoreTemplate
+                >>                                                                               %! ScoreTemplate
+            }                                                                                    %! ScoreTemplate
+        >>                                                                                       %! ScoreTemplate
 
     """
 
@@ -510,6 +510,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         """
         Calls score template.
         """
+        tag = 'ScoreTemplate'
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 
@@ -518,10 +519,14 @@ class ScoreTemplate(baca.ScoreTemplate):
         for staff_index in range(64):
             staff_number = staff_index + 1
             staff_numeral = roman.toRoman(staff_number)
-            voice = abjad.Voice(name=f'PercussionVoice{staff_numeral}')
+            voice = abjad.Voice(
+                name=f'PercussionVoice{staff_numeral}',
+                tag=tag,
+                )
             staff = abjad.Staff(
                 [voice],
                 name=f'Staff{staff_numeral}',
+                tag=tag,
                 )
             abjad.annotate(
                 staff,
@@ -534,6 +539,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         staff_group = abjad.StaffGroup(
             staves,
             name='StaffGroup',
+            tag=tag,
             )
 
         # MUSIC CONTEXT
@@ -541,12 +547,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             [staff_group],
             lilypond_type='MusicContext',
             name='MusicContext',
+            tag=tag,
             )
 
         # SCORE
         score = abjad.Score(
             [global_context, music_context],
             name='Score',
+            tag=tag,
             )
         self._assert_lilypond_identifiers(score)
         self._assert_unique_context_names(score)
