@@ -239,7 +239,7 @@ L_PercussionVoiceI = {
 
 
 L_StaffI = {
-    \context Voice = "PercussionVoiceI"
+    \context Voice = "PercussionVoiceI"                                                            %! ScoreTemplate
     \L_PercussionVoiceI                                                                            %! extern
 }
 
@@ -440,7 +440,7 @@ L_PercussionVoiceII = {
 
 
 L_StaffII = {
-    \context Voice = "PercussionVoiceII"
+    \context Voice = "PercussionVoiceII"                                                           %! ScoreTemplate
     \L_PercussionVoiceII                                                                           %! extern
 }
 
@@ -641,7 +641,7 @@ L_PercussionVoiceIII = {
 
 
 L_StaffIII = {
-    \context Voice = "PercussionVoiceIII"
+    \context Voice = "PercussionVoiceIII"                                                          %! ScoreTemplate
     \L_PercussionVoiceIII                                                                          %! extern
 }
 
@@ -816,7 +816,7 @@ L_PercussionVoiceIV = {
 
 
 L_StaffIV = {
-    \context Voice = "PercussionVoiceIV"
+    \context Voice = "PercussionVoiceIV"                                                           %! ScoreTemplate
     \L_PercussionVoiceIV                                                                           %! extern
 }
 
@@ -1001,7 +1001,7 @@ L_PercussionVoiceV = {
 
 
 L_StaffV = {
-    \context Voice = "PercussionVoiceV"
+    \context Voice = "PercussionVoiceV"                                                            %! ScoreTemplate
     \L_PercussionVoiceV                                                                            %! extern
 }
 
@@ -1148,7 +1148,7 @@ L_PercussionVoiceVI = {
 
 
 L_StaffVI = {
-    \context Voice = "PercussionVoiceVI"
+    \context Voice = "PercussionVoiceVI"                                                           %! ScoreTemplate
     \L_PercussionVoiceVI                                                                           %! extern
 }
 
@@ -1315,7 +1315,7 @@ L_PercussionVoiceVII = {
 
 
 L_StaffVII = {
-    \context Voice = "PercussionVoiceVII"
+    \context Voice = "PercussionVoiceVII"                                                          %! ScoreTemplate
     \L_PercussionVoiceVII                                                                          %! extern
 }
 
@@ -1458,7 +1458,7 @@ L_PercussionVoiceVIII = {
 
 
 L_StaffVIII = {
-    \context Voice = "PercussionVoiceVIII"
+    \context Voice = "PercussionVoiceVIII"                                                         %! ScoreTemplate
     \L_PercussionVoiceVIII                                                                         %! extern
 }
 
@@ -1611,7 +1611,7 @@ L_PercussionVoiceIX = {
 
 
 L_StaffIX = {
-    \context Voice = "PercussionVoiceIX"
+    \context Voice = "PercussionVoiceIX"                                                           %! ScoreTemplate
     \L_PercussionVoiceIX                                                                           %! extern
 }
 
@@ -1766,7 +1766,7 @@ L_PercussionVoiceX = {
 
 
 L_StaffX = {
-    \context Voice = "PercussionVoiceX"
+    \context Voice = "PercussionVoiceX"                                                            %! ScoreTemplate
     \L_PercussionVoiceX                                                                            %! extern
 }
 
@@ -1879,7 +1879,7 @@ L_PercussionVoiceXI = {
 
 
 L_StaffXI = {
-    \context Voice = "PercussionVoiceXI"
+    \context Voice = "PercussionVoiceXI"                                                           %! ScoreTemplate
     \L_PercussionVoiceXI                                                                           %! extern
 }
 
@@ -2004,7 +2004,7 @@ L_PercussionVoiceXII = {
 
 
 L_StaffXII = {
-    \context Voice = "PercussionVoiceXII"
+    \context Voice = "PercussionVoiceXII"                                                          %! ScoreTemplate
     \L_PercussionVoiceXII                                                                          %! extern
 }
 
@@ -2123,7 +2123,7 @@ L_PercussionVoiceXIII = {
 
 
 L_StaffXIII = {
-    \context Voice = "PercussionVoiceXIII"
+    \context Voice = "PercussionVoiceXIII"                                                         %! ScoreTemplate
     \L_PercussionVoiceXIII                                                                         %! extern
 }
 
@@ -2242,7 +2242,7 @@ L_PercussionVoiceXIV = {
 
 
 L_StaffXIV = {
-    \context Voice = "PercussionVoiceXIV"
+    \context Voice = "PercussionVoiceXIV"                                                          %! ScoreTemplate
     \L_PercussionVoiceXIV                                                                          %! extern
 }
 
@@ -2343,7 +2343,7 @@ L_PercussionVoiceXV = {
 
 
 L_StaffXV = {
-    \context Voice = "PercussionVoiceXV"
+    \context Voice = "PercussionVoiceXV"                                                           %! ScoreTemplate
     \L_PercussionVoiceXV                                                                           %! extern
 }
 
@@ -2444,7 +2444,7 @@ L_PercussionVoiceXVI = {
 
 
 L_StaffXVI = {
-    \context Voice = "PercussionVoiceXVI"
+    \context Voice = "PercussionVoiceXVI"                                                          %! ScoreTemplate
     \L_PercussionVoiceXVI                                                                          %! extern
 }
 
@@ -2657,7 +2657,7 @@ L_PercussionVoiceXVII = {
 
 
 L_StaffXVII = {
-    \context Voice = "PercussionVoiceXVII"
+    \context Voice = "PercussionVoiceXVII"                                                         %! ScoreTemplate
     \L_PercussionVoiceXVII                                                                         %! extern
 }
 
@@ -2806,7 +2806,7 @@ L_PercussionVoiceXVIII = {
 
 
 L_StaffXVIII = {
-    \context Voice = "PercussionVoiceXVIII"
+    \context Voice = "PercussionVoiceXVIII"                                                        %! ScoreTemplate
     \L_PercussionVoiceXVIII                                                                        %! extern
 }
 
@@ -2955,7 +2955,7 @@ L_PercussionVoiceXIX = {
 
 
 L_StaffXIX = {
-    \context Voice = "PercussionVoiceXIX"
+    \context Voice = "PercussionVoiceXIX"                                                          %! ScoreTemplate
     \L_PercussionVoiceXIX                                                                          %! extern
 }
 
@@ -3072,7 +3072,7 @@ L_PercussionVoiceXX = {
 
 
 L_StaffXX = {
-    \context Voice = "PercussionVoiceXX"
+    \context Voice = "PercussionVoiceXX"                                                           %! ScoreTemplate
     \L_PercussionVoiceXX                                                                           %! extern
 }
 
@@ -3221,7 +3221,7 @@ L_PercussionVoiceXXI = {
 
 
 L_StaffXXI = {
-    \context Voice = "PercussionVoiceXXI"
+    \context Voice = "PercussionVoiceXXI"                                                          %! ScoreTemplate
     \L_PercussionVoiceXXI                                                                          %! extern
 }
 
@@ -3338,7 +3338,7 @@ L_PercussionVoiceXXII = {
 
 
 L_StaffXXII = {
-    \context Voice = "PercussionVoiceXXII"
+    \context Voice = "PercussionVoiceXXII"                                                         %! ScoreTemplate
     \L_PercussionVoiceXXII                                                                         %! extern
 }
 
@@ -3455,7 +3455,7 @@ L_PercussionVoiceXXIII = {
 
 
 L_StaffXXIII = {
-    \context Voice = "PercussionVoiceXXIII"
+    \context Voice = "PercussionVoiceXXIII"                                                        %! ScoreTemplate
     \L_PercussionVoiceXXIII                                                                        %! extern
 }
 
@@ -3556,7 +3556,7 @@ L_PercussionVoiceXXIV = {
 
 
 L_StaffXXIV = {
-    \context Voice = "PercussionVoiceXXIV"
+    \context Voice = "PercussionVoiceXXIV"                                                         %! ScoreTemplate
     \L_PercussionVoiceXXIV                                                                         %! extern
 }
 
@@ -3705,7 +3705,7 @@ L_PercussionVoiceXXV = {
 
 
 L_StaffXXV = {
-    \context Voice = "PercussionVoiceXXV"
+    \context Voice = "PercussionVoiceXXV"                                                          %! ScoreTemplate
     \L_PercussionVoiceXXV                                                                          %! extern
 }
 
@@ -3822,7 +3822,7 @@ L_PercussionVoiceXXVI = {
 
 
 L_StaffXXVI = {
-    \context Voice = "PercussionVoiceXXVI"
+    \context Voice = "PercussionVoiceXXVI"                                                         %! ScoreTemplate
     \L_PercussionVoiceXXVI                                                                         %! extern
 }
 
@@ -3939,7 +3939,7 @@ L_PercussionVoiceXXVII = {
 
 
 L_StaffXXVII = {
-    \context Voice = "PercussionVoiceXXVII"
+    \context Voice = "PercussionVoiceXXVII"                                                        %! ScoreTemplate
     \L_PercussionVoiceXXVII                                                                        %! extern
 }
 
@@ -4040,7 +4040,7 @@ L_PercussionVoiceXXVIII = {
 
 
 L_StaffXXVIII = {
-    \context Voice = "PercussionVoiceXXVIII"
+    \context Voice = "PercussionVoiceXXVIII"                                                       %! ScoreTemplate
     \L_PercussionVoiceXXVIII                                                                       %! extern
 }
 
@@ -4157,7 +4157,7 @@ L_PercussionVoiceXXIX = {
 
 
 L_StaffXXIX = {
-    \context Voice = "PercussionVoiceXXIX"
+    \context Voice = "PercussionVoiceXXIX"                                                         %! ScoreTemplate
     \L_PercussionVoiceXXIX                                                                         %! extern
 }
 
@@ -4258,7 +4258,7 @@ L_PercussionVoiceXXX = {
 
 
 L_StaffXXX = {
-    \context Voice = "PercussionVoiceXXX"
+    \context Voice = "PercussionVoiceXXX"                                                          %! ScoreTemplate
     \L_PercussionVoiceXXX                                                                          %! extern
 }
 
@@ -4359,7 +4359,7 @@ L_PercussionVoiceXXXI = {
 
 
 L_StaffXXXI = {
-    \context Voice = "PercussionVoiceXXXI"
+    \context Voice = "PercussionVoiceXXXI"                                                         %! ScoreTemplate
     \L_PercussionVoiceXXXI                                                                         %! extern
 }
 
@@ -4452,7 +4452,7 @@ L_PercussionVoiceXXXII = {
 
 
 L_StaffXXXII = {
-    \context Voice = "PercussionVoiceXXXII"
+    \context Voice = "PercussionVoiceXXXII"                                                        %! ScoreTemplate
     \L_PercussionVoiceXXXII                                                                        %! extern
 }
 
@@ -4569,7 +4569,7 @@ L_PercussionVoiceXXXIII = {
 
 
 L_StaffXXXIII = {
-    \context Voice = "PercussionVoiceXXXIII"
+    \context Voice = "PercussionVoiceXXXIII"                                                       %! ScoreTemplate
     \L_PercussionVoiceXXXIII                                                                       %! extern
 }
 
@@ -4750,7 +4750,7 @@ L_PercussionVoiceXXXIV = {
 
 
 L_StaffXXXIV = {
-    \context Voice = "PercussionVoiceXXXIV"
+    \context Voice = "PercussionVoiceXXXIV"                                                        %! ScoreTemplate
     \L_PercussionVoiceXXXIV                                                                        %! extern
 }
 
@@ -4931,7 +4931,7 @@ L_PercussionVoiceXXXV = {
 
 
 L_StaffXXXV = {
-    \context Voice = "PercussionVoiceXXXV"
+    \context Voice = "PercussionVoiceXXXV"                                                         %! ScoreTemplate
     \L_PercussionVoiceXXXV                                                                         %! extern
 }
 
@@ -5064,7 +5064,7 @@ L_PercussionVoiceXXXVI = {
 
 
 L_StaffXXXVI = {
-    \context Voice = "PercussionVoiceXXXVI"
+    \context Voice = "PercussionVoiceXXXVI"                                                        %! ScoreTemplate
     \L_PercussionVoiceXXXVI                                                                        %! extern
 }
 
@@ -5245,7 +5245,7 @@ L_PercussionVoiceXXXVII = {
 
 
 L_StaffXXXVII = {
-    \context Voice = "PercussionVoiceXXXVII"
+    \context Voice = "PercussionVoiceXXXVII"                                                       %! ScoreTemplate
     \L_PercussionVoiceXXXVII                                                                       %! extern
 }
 
@@ -5394,7 +5394,7 @@ L_PercussionVoiceXXXVIII = {
 
 
 L_StaffXXXVIII = {
-    \context Voice = "PercussionVoiceXXXVIII"
+    \context Voice = "PercussionVoiceXXXVIII"                                                      %! ScoreTemplate
     \L_PercussionVoiceXXXVIII                                                                      %! extern
 }
 
@@ -5527,7 +5527,7 @@ L_PercussionVoiceXXXIX = {
 
 
 L_StaffXXXIX = {
-    \context Voice = "PercussionVoiceXXXIX"
+    \context Voice = "PercussionVoiceXXXIX"                                                        %! ScoreTemplate
     \L_PercussionVoiceXXXIX                                                                        %! extern
 }
 
@@ -5636,7 +5636,7 @@ L_PercussionVoiceXL = {
 
 
 L_StaffXL = {
-    \context Voice = "PercussionVoiceXL"
+    \context Voice = "PercussionVoiceXL"                                                           %! ScoreTemplate
     \L_PercussionVoiceXL                                                                           %! extern
 }
 
@@ -5785,7 +5785,7 @@ L_PercussionVoiceXLI = {
 
 
 L_StaffXLI = {
-    \context Voice = "PercussionVoiceXLI"
+    \context Voice = "PercussionVoiceXLI"                                                          %! ScoreTemplate
     \L_PercussionVoiceXLI                                                                          %! extern
 }
 
@@ -5918,7 +5918,7 @@ L_PercussionVoiceXLII = {
 
 
 L_StaffXLII = {
-    \context Voice = "PercussionVoiceXLII"
+    \context Voice = "PercussionVoiceXLII"                                                         %! ScoreTemplate
     \L_PercussionVoiceXLII                                                                         %! extern
 }
 
@@ -6051,7 +6051,7 @@ L_PercussionVoiceXLIII = {
 
 
 L_StaffXLIII = {
-    \context Voice = "PercussionVoiceXLIII"
+    \context Voice = "PercussionVoiceXLIII"                                                        %! ScoreTemplate
     \L_PercussionVoiceXLIII                                                                        %! extern
 }
 
@@ -6172,7 +6172,7 @@ L_PercussionVoiceXLIV = {
 
 
 L_StaffXLIV = {
-    \context Voice = "PercussionVoiceXLIV"
+    \context Voice = "PercussionVoiceXLIV"                                                         %! ScoreTemplate
     \L_PercussionVoiceXLIV                                                                         %! extern
 }
 
@@ -6289,7 +6289,7 @@ L_PercussionVoiceXLV = {
 
 
 L_StaffXLV = {
-    \context Voice = "PercussionVoiceXLV"
+    \context Voice = "PercussionVoiceXLV"                                                          %! ScoreTemplate
     \L_PercussionVoiceXLV                                                                          %! extern
 }
 
@@ -6410,7 +6410,7 @@ L_PercussionVoiceXLVI = {
 
 
 L_StaffXLVI = {
-    \context Voice = "PercussionVoiceXLVI"
+    \context Voice = "PercussionVoiceXLVI"                                                         %! ScoreTemplate
     \L_PercussionVoiceXLVI                                                                         %! extern
 }
 
@@ -6511,7 +6511,7 @@ L_PercussionVoiceXLVII = {
 
 
 L_StaffXLVII = {
-    \context Voice = "PercussionVoiceXLVII"
+    \context Voice = "PercussionVoiceXLVII"                                                        %! ScoreTemplate
     \L_PercussionVoiceXLVII                                                                        %! extern
 }
 
@@ -6610,7 +6610,7 @@ L_PercussionVoiceXLVIII = {
 
 
 L_StaffXLVIII = {
-    \context Voice = "PercussionVoiceXLVIII"
+    \context Voice = "PercussionVoiceXLVIII"                                                       %! ScoreTemplate
     \L_PercussionVoiceXLVIII                                                                       %! extern
 }
 
@@ -6823,7 +6823,7 @@ L_PercussionVoiceXLIX = {
 
 
 L_StaffXLIX = {
-    \context Voice = "PercussionVoiceXLIX"
+    \context Voice = "PercussionVoiceXLIX"                                                         %! ScoreTemplate
     \L_PercussionVoiceXLIX                                                                         %! extern
 }
 
@@ -6972,7 +6972,7 @@ L_PercussionVoiceL = {
 
 
 L_StaffL = {
-    \context Voice = "PercussionVoiceL"
+    \context Voice = "PercussionVoiceL"                                                            %! ScoreTemplate
     \L_PercussionVoiceL                                                                            %! extern
 }
 
@@ -7121,7 +7121,7 @@ L_PercussionVoiceLI = {
 
 
 L_StaffLI = {
-    \context Voice = "PercussionVoiceLI"
+    \context Voice = "PercussionVoiceLI"                                                           %! ScoreTemplate
     \L_PercussionVoiceLI                                                                           %! extern
 }
 
@@ -7238,7 +7238,7 @@ L_PercussionVoiceLII = {
 
 
 L_StaffLII = {
-    \context Voice = "PercussionVoiceLII"
+    \context Voice = "PercussionVoiceLII"                                                          %! ScoreTemplate
     \L_PercussionVoiceLII                                                                          %! extern
 }
 
@@ -7387,7 +7387,7 @@ L_PercussionVoiceLIII = {
 
 
 L_StaffLIII = {
-    \context Voice = "PercussionVoiceLIII"
+    \context Voice = "PercussionVoiceLIII"                                                         %! ScoreTemplate
     \L_PercussionVoiceLIII                                                                         %! extern
 }
 
@@ -7504,7 +7504,7 @@ L_PercussionVoiceLIV = {
 
 
 L_StaffLIV = {
-    \context Voice = "PercussionVoiceLIV"
+    \context Voice = "PercussionVoiceLIV"                                                          %! ScoreTemplate
     \L_PercussionVoiceLIV                                                                          %! extern
 }
 
@@ -7621,7 +7621,7 @@ L_PercussionVoiceLV = {
 
 
 L_StaffLV = {
-    \context Voice = "PercussionVoiceLV"
+    \context Voice = "PercussionVoiceLV"                                                           %! ScoreTemplate
     \L_PercussionVoiceLV                                                                           %! extern
 }
 
@@ -7722,7 +7722,7 @@ L_PercussionVoiceLVI = {
 
 
 L_StaffLVI = {
-    \context Voice = "PercussionVoiceLVI"
+    \context Voice = "PercussionVoiceLVI"                                                          %! ScoreTemplate
     \L_PercussionVoiceLVI                                                                          %! extern
 }
 
@@ -7871,7 +7871,7 @@ L_PercussionVoiceLVII = {
 
 
 L_StaffLVII = {
-    \context Voice = "PercussionVoiceLVII"
+    \context Voice = "PercussionVoiceLVII"                                                         %! ScoreTemplate
     \L_PercussionVoiceLVII                                                                         %! extern
 }
 
@@ -7988,7 +7988,7 @@ L_PercussionVoiceLVIII = {
 
 
 L_StaffLVIII = {
-    \context Voice = "PercussionVoiceLVIII"
+    \context Voice = "PercussionVoiceLVIII"                                                        %! ScoreTemplate
     \L_PercussionVoiceLVIII                                                                        %! extern
 }
 
@@ -8105,7 +8105,7 @@ L_PercussionVoiceLIX = {
 
 
 L_StaffLIX = {
-    \context Voice = "PercussionVoiceLIX"
+    \context Voice = "PercussionVoiceLIX"                                                          %! ScoreTemplate
     \L_PercussionVoiceLIX                                                                          %! extern
 }
 
@@ -8206,7 +8206,7 @@ L_PercussionVoiceLX = {
 
 
 L_StaffLX = {
-    \context Voice = "PercussionVoiceLX"
+    \context Voice = "PercussionVoiceLX"                                                           %! ScoreTemplate
     \L_PercussionVoiceLX                                                                           %! extern
 }
 
@@ -8323,7 +8323,7 @@ L_PercussionVoiceLXI = {
 
 
 L_StaffLXI = {
-    \context Voice = "PercussionVoiceLXI"
+    \context Voice = "PercussionVoiceLXI"                                                          %! ScoreTemplate
     \L_PercussionVoiceLXI                                                                          %! extern
 }
 
@@ -8424,7 +8424,7 @@ L_PercussionVoiceLXII = {
 
 
 L_StaffLXII = {
-    \context Voice = "PercussionVoiceLXII"
+    \context Voice = "PercussionVoiceLXII"                                                         %! ScoreTemplate
     \L_PercussionVoiceLXII                                                                         %! extern
 }
 
@@ -8525,7 +8525,7 @@ L_PercussionVoiceLXIII = {
 
 
 L_StaffLXIII = {
-    \context Voice = "PercussionVoiceLXIII"
+    \context Voice = "PercussionVoiceLXIII"                                                        %! ScoreTemplate
     \L_PercussionVoiceLXIII                                                                        %! extern
 }
 
@@ -8618,6 +8618,6 @@ L_PercussionVoiceLXIV = {
 
 
 L_StaffLXIV = {
-    \context Voice = "PercussionVoiceLXIV"
+    \context Voice = "PercussionVoiceLXIV"                                                         %! ScoreTemplate
     \L_PercussionVoiceLXIV                                                                         %! extern
 }

@@ -10,147 +10,147 @@
         {                                                                                          %! _make_lilypond_file
             \include "layout.ly"                                                                   %! _make_lilypond_file
         }                                                                                          %! _make_lilypond_file
-        \context Score = "Score"
-        <<
+        \context Score = "Score"                                                                   %! ScoreTemplate
+        <<                                                                                         %! ScoreTemplate
             \context GlobalContext = "GlobalContext"                                               %! _make_global_context
             <<                                                                                     %! _make_global_context
                 \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
                 \i_GlobalSkips                                                                     %! extern
             >>                                                                                     %! _make_global_context
-            \context MusicContext = "MusicContext"
-            {
-                \context StaffGroup = "StaffGroup"
-                <<
-                    \context Staff = "StaffI"
+            \context MusicContext = "MusicContext"                                                 %! ScoreTemplate
+            {                                                                                      %! ScoreTemplate
+                \context StaffGroup = "StaffGroup"                                                 %! ScoreTemplate
+                <<                                                                                 %! ScoreTemplate
+                    \context Staff = "StaffI"                                                      %! ScoreTemplate
                     \i_StaffI                                                                      %! extern
-                    \context Staff = "StaffII"
+                    \context Staff = "StaffII"                                                     %! ScoreTemplate
                     \i_StaffII                                                                     %! extern
-                    \context Staff = "StaffIII"
+                    \context Staff = "StaffIII"                                                    %! ScoreTemplate
                     \i_StaffIII                                                                    %! extern
-                    \context Staff = "StaffIV"
+                    \context Staff = "StaffIV"                                                     %! ScoreTemplate
                     \i_StaffIV                                                                     %! extern
-                    \context Staff = "StaffV"
+                    \context Staff = "StaffV"                                                      %! ScoreTemplate
                     \i_StaffV                                                                      %! extern
-                    \context Staff = "StaffVI"
+                    \context Staff = "StaffVI"                                                     %! ScoreTemplate
                     \i_StaffVI                                                                     %! extern
-                    \context Staff = "StaffVII"
+                    \context Staff = "StaffVII"                                                    %! ScoreTemplate
                     \i_StaffVII                                                                    %! extern
-                    \context Staff = "StaffVIII"
+                    \context Staff = "StaffVIII"                                                   %! ScoreTemplate
                     \i_StaffVIII                                                                   %! extern
-                    \context Staff = "StaffIX"
+                    \context Staff = "StaffIX"                                                     %! ScoreTemplate
                     \i_StaffIX                                                                     %! extern
-                    \context Staff = "StaffX"
+                    \context Staff = "StaffX"                                                      %! ScoreTemplate
                     \i_StaffX                                                                      %! extern
-                    \context Staff = "StaffXI"
+                    \context Staff = "StaffXI"                                                     %! ScoreTemplate
                     \i_StaffXI                                                                     %! extern
-                    \context Staff = "StaffXII"
+                    \context Staff = "StaffXII"                                                    %! ScoreTemplate
                     \i_StaffXII                                                                    %! extern
-                    \context Staff = "StaffXIII"
+                    \context Staff = "StaffXIII"                                                   %! ScoreTemplate
                     \i_StaffXIII                                                                   %! extern
-                    \context Staff = "StaffXIV"
+                    \context Staff = "StaffXIV"                                                    %! ScoreTemplate
                     \i_StaffXIV                                                                    %! extern
-                    \context Staff = "StaffXV"
+                    \context Staff = "StaffXV"                                                     %! ScoreTemplate
                     \i_StaffXV                                                                     %! extern
-                    \context Staff = "StaffXVI"
+                    \context Staff = "StaffXVI"                                                    %! ScoreTemplate
                     \i_StaffXVI                                                                    %! extern
-                    \context Staff = "StaffXVII"
+                    \context Staff = "StaffXVII"                                                   %! ScoreTemplate
                     \i_StaffXVII                                                                   %! extern
-                    \context Staff = "StaffXVIII"
+                    \context Staff = "StaffXVIII"                                                  %! ScoreTemplate
                     \i_StaffXVIII                                                                  %! extern
-                    \context Staff = "StaffXIX"
+                    \context Staff = "StaffXIX"                                                    %! ScoreTemplate
                     \i_StaffXIX                                                                    %! extern
-                    \context Staff = "StaffXX"
+                    \context Staff = "StaffXX"                                                     %! ScoreTemplate
                     \i_StaffXX                                                                     %! extern
-                    \context Staff = "StaffXXI"
+                    \context Staff = "StaffXXI"                                                    %! ScoreTemplate
                     \i_StaffXXI                                                                    %! extern
-                    \context Staff = "StaffXXII"
+                    \context Staff = "StaffXXII"                                                   %! ScoreTemplate
                     \i_StaffXXII                                                                   %! extern
-                    \context Staff = "StaffXXIII"
+                    \context Staff = "StaffXXIII"                                                  %! ScoreTemplate
                     \i_StaffXXIII                                                                  %! extern
-                    \context Staff = "StaffXXIV"
+                    \context Staff = "StaffXXIV"                                                   %! ScoreTemplate
                     \i_StaffXXIV                                                                   %! extern
-                    \context Staff = "StaffXXV"
+                    \context Staff = "StaffXXV"                                                    %! ScoreTemplate
                     \i_StaffXXV                                                                    %! extern
-                    \context Staff = "StaffXXVI"
+                    \context Staff = "StaffXXVI"                                                   %! ScoreTemplate
                     \i_StaffXXVI                                                                   %! extern
-                    \context Staff = "StaffXXVII"
+                    \context Staff = "StaffXXVII"                                                  %! ScoreTemplate
                     \i_StaffXXVII                                                                  %! extern
-                    \context Staff = "StaffXXVIII"
+                    \context Staff = "StaffXXVIII"                                                 %! ScoreTemplate
                     \i_StaffXXVIII                                                                 %! extern
-                    \context Staff = "StaffXXIX"
+                    \context Staff = "StaffXXIX"                                                   %! ScoreTemplate
                     \i_StaffXXIX                                                                   %! extern
-                    \context Staff = "StaffXXX"
+                    \context Staff = "StaffXXX"                                                    %! ScoreTemplate
                     \i_StaffXXX                                                                    %! extern
-                    \context Staff = "StaffXXXI"
+                    \context Staff = "StaffXXXI"                                                   %! ScoreTemplate
                     \i_StaffXXXI                                                                   %! extern
-                    \context Staff = "StaffXXXII"
+                    \context Staff = "StaffXXXII"                                                  %! ScoreTemplate
                     \i_StaffXXXII                                                                  %! extern
-                    \context Staff = "StaffXXXIII"
+                    \context Staff = "StaffXXXIII"                                                 %! ScoreTemplate
                     \i_StaffXXXIII                                                                 %! extern
-                    \context Staff = "StaffXXXIV"
+                    \context Staff = "StaffXXXIV"                                                  %! ScoreTemplate
                     \i_StaffXXXIV                                                                  %! extern
-                    \context Staff = "StaffXXXV"
+                    \context Staff = "StaffXXXV"                                                   %! ScoreTemplate
                     \i_StaffXXXV                                                                   %! extern
-                    \context Staff = "StaffXXXVI"
+                    \context Staff = "StaffXXXVI"                                                  %! ScoreTemplate
                     \i_StaffXXXVI                                                                  %! extern
-                    \context Staff = "StaffXXXVII"
+                    \context Staff = "StaffXXXVII"                                                 %! ScoreTemplate
                     \i_StaffXXXVII                                                                 %! extern
-                    \context Staff = "StaffXXXVIII"
+                    \context Staff = "StaffXXXVIII"                                                %! ScoreTemplate
                     \i_StaffXXXVIII                                                                %! extern
-                    \context Staff = "StaffXXXIX"
+                    \context Staff = "StaffXXXIX"                                                  %! ScoreTemplate
                     \i_StaffXXXIX                                                                  %! extern
-                    \context Staff = "StaffXL"
+                    \context Staff = "StaffXL"                                                     %! ScoreTemplate
                     \i_StaffXL                                                                     %! extern
-                    \context Staff = "StaffXLI"
+                    \context Staff = "StaffXLI"                                                    %! ScoreTemplate
                     \i_StaffXLI                                                                    %! extern
-                    \context Staff = "StaffXLII"
+                    \context Staff = "StaffXLII"                                                   %! ScoreTemplate
                     \i_StaffXLII                                                                   %! extern
-                    \context Staff = "StaffXLIII"
+                    \context Staff = "StaffXLIII"                                                  %! ScoreTemplate
                     \i_StaffXLIII                                                                  %! extern
-                    \context Staff = "StaffXLIV"
+                    \context Staff = "StaffXLIV"                                                   %! ScoreTemplate
                     \i_StaffXLIV                                                                   %! extern
-                    \context Staff = "StaffXLV"
+                    \context Staff = "StaffXLV"                                                    %! ScoreTemplate
                     \i_StaffXLV                                                                    %! extern
-                    \context Staff = "StaffXLVI"
+                    \context Staff = "StaffXLVI"                                                   %! ScoreTemplate
                     \i_StaffXLVI                                                                   %! extern
-                    \context Staff = "StaffXLVII"
+                    \context Staff = "StaffXLVII"                                                  %! ScoreTemplate
                     \i_StaffXLVII                                                                  %! extern
-                    \context Staff = "StaffXLVIII"
+                    \context Staff = "StaffXLVIII"                                                 %! ScoreTemplate
                     \i_StaffXLVIII                                                                 %! extern
-                    \context Staff = "StaffXLIX"
+                    \context Staff = "StaffXLIX"                                                   %! ScoreTemplate
                     \i_StaffXLIX                                                                   %! extern
-                    \context Staff = "StaffL"
+                    \context Staff = "StaffL"                                                      %! ScoreTemplate
                     \i_StaffL                                                                      %! extern
-                    \context Staff = "StaffLI"
+                    \context Staff = "StaffLI"                                                     %! ScoreTemplate
                     \i_StaffLI                                                                     %! extern
-                    \context Staff = "StaffLII"
+                    \context Staff = "StaffLII"                                                    %! ScoreTemplate
                     \i_StaffLII                                                                    %! extern
-                    \context Staff = "StaffLIII"
+                    \context Staff = "StaffLIII"                                                   %! ScoreTemplate
                     \i_StaffLIII                                                                   %! extern
-                    \context Staff = "StaffLIV"
+                    \context Staff = "StaffLIV"                                                    %! ScoreTemplate
                     \i_StaffLIV                                                                    %! extern
-                    \context Staff = "StaffLV"
+                    \context Staff = "StaffLV"                                                     %! ScoreTemplate
                     \i_StaffLV                                                                     %! extern
-                    \context Staff = "StaffLVI"
+                    \context Staff = "StaffLVI"                                                    %! ScoreTemplate
                     \i_StaffLVI                                                                    %! extern
-                    \context Staff = "StaffLVII"
+                    \context Staff = "StaffLVII"                                                   %! ScoreTemplate
                     \i_StaffLVII                                                                   %! extern
-                    \context Staff = "StaffLVIII"
+                    \context Staff = "StaffLVIII"                                                  %! ScoreTemplate
                     \i_StaffLVIII                                                                  %! extern
-                    \context Staff = "StaffLIX"
+                    \context Staff = "StaffLIX"                                                    %! ScoreTemplate
                     \i_StaffLIX                                                                    %! extern
-                    \context Staff = "StaffLX"
+                    \context Staff = "StaffLX"                                                     %! ScoreTemplate
                     \i_StaffLX                                                                     %! extern
-                    \context Staff = "StaffLXI"
+                    \context Staff = "StaffLXI"                                                    %! ScoreTemplate
                     \i_StaffLXI                                                                    %! extern
-                    \context Staff = "StaffLXII"
+                    \context Staff = "StaffLXII"                                                   %! ScoreTemplate
                     \i_StaffLXII                                                                   %! extern
-                    \context Staff = "StaffLXIII"
+                    \context Staff = "StaffLXIII"                                                  %! ScoreTemplate
                     \i_StaffLXIII                                                                  %! extern
-                    \context Staff = "StaffLXIV"
+                    \context Staff = "StaffLXIV"                                                   %! ScoreTemplate
                     \i_StaffLXIV                                                                   %! extern
-                >>
-            }
-        >>
+                >>                                                                                 %! ScoreTemplate
+            }                                                                                      %! ScoreTemplate
+        >>                                                                                         %! ScoreTemplate
     >>                                                                                             %! _make_lilypond_file
 }                                                                                                  %! _make_lilypond_file
