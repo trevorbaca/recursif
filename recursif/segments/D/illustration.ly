@@ -6,152 +6,152 @@
 \include "illustration.ily"
 
 
-\score {
-    <<
-        {
-            \include "layout.ly"
-        }
+\score {                                                                                           %! _make_lilypond_file
+    <<                                                                                             %! _make_lilypond_file
+        {                                                                                          %! _make_lilypond_file
+            \include "layout.ly"                                                                   %! _make_lilypond_file
+        }                                                                                          %! _make_lilypond_file
         \context Score = "Score"
         <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalSkips = "GlobalSkips"
-                \D_GlobalSkips
-            >>
+            \context GlobalContext = "GlobalContext"                                               %! _make_global_context
+            <<                                                                                     %! _make_global_context
+                \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
+                \D_GlobalSkips                                                                     %! extern
+            >>                                                                                     %! _make_global_context
             \context MusicContext = "MusicContext"
             {
                 \context StaffGroup = "StaffGroup"
                 <<
                     \context Staff = "StaffI"
-                    \D_StaffI
+                    \D_StaffI                                                                      %! extern
                     \context Staff = "StaffII"
-                    \D_StaffII
+                    \D_StaffII                                                                     %! extern
                     \context Staff = "StaffIII"
-                    \D_StaffIII
+                    \D_StaffIII                                                                    %! extern
                     \context Staff = "StaffIV"
-                    \D_StaffIV
+                    \D_StaffIV                                                                     %! extern
                     \context Staff = "StaffV"
-                    \D_StaffV
+                    \D_StaffV                                                                      %! extern
                     \context Staff = "StaffVI"
-                    \D_StaffVI
+                    \D_StaffVI                                                                     %! extern
                     \context Staff = "StaffVII"
-                    \D_StaffVII
+                    \D_StaffVII                                                                    %! extern
                     \context Staff = "StaffVIII"
-                    \D_StaffVIII
+                    \D_StaffVIII                                                                   %! extern
                     \context Staff = "StaffIX"
-                    \D_StaffIX
+                    \D_StaffIX                                                                     %! extern
                     \context Staff = "StaffX"
-                    \D_StaffX
+                    \D_StaffX                                                                      %! extern
                     \context Staff = "StaffXI"
-                    \D_StaffXI
+                    \D_StaffXI                                                                     %! extern
                     \context Staff = "StaffXII"
-                    \D_StaffXII
+                    \D_StaffXII                                                                    %! extern
                     \context Staff = "StaffXIII"
-                    \D_StaffXIII
+                    \D_StaffXIII                                                                   %! extern
                     \context Staff = "StaffXIV"
-                    \D_StaffXIV
+                    \D_StaffXIV                                                                    %! extern
                     \context Staff = "StaffXV"
-                    \D_StaffXV
+                    \D_StaffXV                                                                     %! extern
                     \context Staff = "StaffXVI"
-                    \D_StaffXVI
+                    \D_StaffXVI                                                                    %! extern
                     \context Staff = "StaffXVII"
-                    \D_StaffXVII
+                    \D_StaffXVII                                                                   %! extern
                     \context Staff = "StaffXVIII"
-                    \D_StaffXVIII
+                    \D_StaffXVIII                                                                  %! extern
                     \context Staff = "StaffXIX"
-                    \D_StaffXIX
+                    \D_StaffXIX                                                                    %! extern
                     \context Staff = "StaffXX"
-                    \D_StaffXX
+                    \D_StaffXX                                                                     %! extern
                     \context Staff = "StaffXXI"
-                    \D_StaffXXI
+                    \D_StaffXXI                                                                    %! extern
                     \context Staff = "StaffXXII"
-                    \D_StaffXXII
+                    \D_StaffXXII                                                                   %! extern
                     \context Staff = "StaffXXIII"
-                    \D_StaffXXIII
+                    \D_StaffXXIII                                                                  %! extern
                     \context Staff = "StaffXXIV"
-                    \D_StaffXXIV
+                    \D_StaffXXIV                                                                   %! extern
                     \context Staff = "StaffXXV"
-                    \D_StaffXXV
+                    \D_StaffXXV                                                                    %! extern
                     \context Staff = "StaffXXVI"
-                    \D_StaffXXVI
+                    \D_StaffXXVI                                                                   %! extern
                     \context Staff = "StaffXXVII"
-                    \D_StaffXXVII
+                    \D_StaffXXVII                                                                  %! extern
                     \context Staff = "StaffXXVIII"
-                    \D_StaffXXVIII
+                    \D_StaffXXVIII                                                                 %! extern
                     \context Staff = "StaffXXIX"
-                    \D_StaffXXIX
+                    \D_StaffXXIX                                                                   %! extern
                     \context Staff = "StaffXXX"
-                    \D_StaffXXX
+                    \D_StaffXXX                                                                    %! extern
                     \context Staff = "StaffXXXI"
-                    \D_StaffXXXI
+                    \D_StaffXXXI                                                                   %! extern
                     \context Staff = "StaffXXXII"
-                    \D_StaffXXXII
+                    \D_StaffXXXII                                                                  %! extern
                     \context Staff = "StaffXXXIII"
-                    \D_StaffXXXIII
+                    \D_StaffXXXIII                                                                 %! extern
                     \context Staff = "StaffXXXIV"
-                    \D_StaffXXXIV
+                    \D_StaffXXXIV                                                                  %! extern
                     \context Staff = "StaffXXXV"
-                    \D_StaffXXXV
+                    \D_StaffXXXV                                                                   %! extern
                     \context Staff = "StaffXXXVI"
-                    \D_StaffXXXVI
+                    \D_StaffXXXVI                                                                  %! extern
                     \context Staff = "StaffXXXVII"
-                    \D_StaffXXXVII
+                    \D_StaffXXXVII                                                                 %! extern
                     \context Staff = "StaffXXXVIII"
-                    \D_StaffXXXVIII
+                    \D_StaffXXXVIII                                                                %! extern
                     \context Staff = "StaffXXXIX"
-                    \D_StaffXXXIX
+                    \D_StaffXXXIX                                                                  %! extern
                     \context Staff = "StaffXL"
-                    \D_StaffXL
+                    \D_StaffXL                                                                     %! extern
                     \context Staff = "StaffXLI"
-                    \D_StaffXLI
+                    \D_StaffXLI                                                                    %! extern
                     \context Staff = "StaffXLII"
-                    \D_StaffXLII
+                    \D_StaffXLII                                                                   %! extern
                     \context Staff = "StaffXLIII"
-                    \D_StaffXLIII
+                    \D_StaffXLIII                                                                  %! extern
                     \context Staff = "StaffXLIV"
-                    \D_StaffXLIV
+                    \D_StaffXLIV                                                                   %! extern
                     \context Staff = "StaffXLV"
-                    \D_StaffXLV
+                    \D_StaffXLV                                                                    %! extern
                     \context Staff = "StaffXLVI"
-                    \D_StaffXLVI
+                    \D_StaffXLVI                                                                   %! extern
                     \context Staff = "StaffXLVII"
-                    \D_StaffXLVII
+                    \D_StaffXLVII                                                                  %! extern
                     \context Staff = "StaffXLVIII"
-                    \D_StaffXLVIII
+                    \D_StaffXLVIII                                                                 %! extern
                     \context Staff = "StaffXLIX"
-                    \D_StaffXLIX
+                    \D_StaffXLIX                                                                   %! extern
                     \context Staff = "StaffL"
-                    \D_StaffL
+                    \D_StaffL                                                                      %! extern
                     \context Staff = "StaffLI"
-                    \D_StaffLI
+                    \D_StaffLI                                                                     %! extern
                     \context Staff = "StaffLII"
-                    \D_StaffLII
+                    \D_StaffLII                                                                    %! extern
                     \context Staff = "StaffLIII"
-                    \D_StaffLIII
+                    \D_StaffLIII                                                                   %! extern
                     \context Staff = "StaffLIV"
-                    \D_StaffLIV
+                    \D_StaffLIV                                                                    %! extern
                     \context Staff = "StaffLV"
-                    \D_StaffLV
+                    \D_StaffLV                                                                     %! extern
                     \context Staff = "StaffLVI"
-                    \D_StaffLVI
+                    \D_StaffLVI                                                                    %! extern
                     \context Staff = "StaffLVII"
-                    \D_StaffLVII
+                    \D_StaffLVII                                                                   %! extern
                     \context Staff = "StaffLVIII"
-                    \D_StaffLVIII
+                    \D_StaffLVIII                                                                  %! extern
                     \context Staff = "StaffLIX"
-                    \D_StaffLIX
+                    \D_StaffLIX                                                                    %! extern
                     \context Staff = "StaffLX"
-                    \D_StaffLX
+                    \D_StaffLX                                                                     %! extern
                     \context Staff = "StaffLXI"
-                    \D_StaffLXI
+                    \D_StaffLXI                                                                    %! extern
                     \context Staff = "StaffLXII"
-                    \D_StaffLXII
+                    \D_StaffLXII                                                                   %! extern
                     \context Staff = "StaffLXIII"
-                    \D_StaffLXIII
+                    \D_StaffLXIII                                                                  %! extern
                     \context Staff = "StaffLXIV"
-                    \D_StaffLXIV
+                    \D_StaffLXIV                                                                   %! extern
                 >>
             }
         >>
-    >>
-}
+    >>                                                                                             %! _make_lilypond_file
+}                                                                                                  %! _make_lilypond_file
