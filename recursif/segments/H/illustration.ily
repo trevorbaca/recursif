@@ -1,5 +1,5 @@
-H_GlobalSkips = {
-    
+H_GlobalSkips = {                                                              %! extern
+
     % [H GlobalSkips measure 129 / measure 1]                                  %! _comment_measure_numbers
     \time 2/4                                                                  %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -32,7 +32,7 @@ H_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [H GlobalSkips measure 130 / measure 2]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (130)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -40,7 +40,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'13'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 131 / measure 3]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (131)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -48,7 +48,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'15'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 132 / measure 4]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (132)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -56,7 +56,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'16'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 133 / measure 5]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (133)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -64,7 +64,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'18'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 134 / measure 6]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (134)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -72,7 +72,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((6))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.6]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'19'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 135 / measure 7]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (135)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -80,7 +80,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((7))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.7]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'21'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 136 / measure 8]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (136)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -88,7 +88,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((8))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.8]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'22'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 137 / measure 9]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (137)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -96,7 +96,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((9))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.9]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'24'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 138 / measure 10]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (138)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -104,7 +104,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((10))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.10]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'25'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 139 / measure 11]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (139)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -112,7 +112,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((11))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.11]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'27'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 140 / measure 12]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (140)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -120,7 +120,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((12))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.12]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'28'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 141 / measure 13]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (141)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -128,7 +128,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((13))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.13]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'30'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 142 / measure 14]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (142)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -136,7 +136,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((14))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.14]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'31'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 143 / measure 15]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (143)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -144,7 +144,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((15))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.15]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'33'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 144 / measure 16]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (144)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -155,12 +155,12 @@ H_GlobalSkips = {
     \stopTextSpan                                                              %! _attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceI_a = {
-    
+H_PercussionVoiceI_a = {                                                       %! extern
+
     % [H PercussionVoiceI measure 129 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -184,68 +184,68 @@ H_PercussionVoiceI_a = {
             1                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceI measure 130 / measure 2]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 131 / measure 3]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 132 / measure 4]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 133 / measure 5]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 134 / measure 6]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 135 / measure 7]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 136 / measure 8]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 137 / measure 9]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 138 / measure 10]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 139 / measure 11]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 140 / measure 12]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 141 / measure 13]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 142 / measure 14]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 143 / measure 15]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceI measure 144 / measure 16]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceI = {
+H_PercussionVoiceI = {                                                         %! extern
     \H_PercussionVoiceI_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffI = {
+H_StaffI = {                                                                   %! extern
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \H_PercussionVoiceI                                                        %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceII_a = {
-    
+H_PercussionVoiceII_a = {                                                      %! extern
+
     % [H PercussionVoiceII measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -270,183 +270,183 @@ H_PercussionVoiceII_a = {
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceII measure 130 / measure 2]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceII measure 131 / measure 3]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceII measure 132 / measure 4]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceII measure 133 / measure 5]                            %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceII measure 134 / measure 6]                        %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceII measure 135 / measure 7]                            %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceII measure 136 / measure 8]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceII measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceII measure 138 / measure 10]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceII measure 139 / measure 11]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceII measure 140 / measure 12]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceII measure 141 / measure 13]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceII measure 142 / measure 14]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceII measure 143 / measure 15]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceII measure 144 / measure 16]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceII = {
+H_PercussionVoiceII = {                                                        %! extern
     \H_PercussionVoiceII_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffII = {
+H_StaffII = {                                                                  %! extern
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \H_PercussionVoiceII                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceIII_a = {
-    
+H_PercussionVoiceIII_a = {                                                     %! extern
+
     % [H PercussionVoiceIII measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -470,184 +470,184 @@ H_PercussionVoiceIII_a = {
             3                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceIII measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIII measure 131 / measure 3]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIII measure 132 / measure 4]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIII measure 133 / measure 5]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIII measure 134 / measure 6]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIII measure 135 / measure 7]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIII measure 136 / measure 8]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIII measure 137 / measure 9]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIII measure 138 / measure 10]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIII measure 139 / measure 11]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIII measure 140 / measure 12]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIII measure 141 / measure 13]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIII measure 142 / measure 14]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIII measure 143 / measure 15]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIII measure 144 / measure 16]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceIII = {
+H_PercussionVoiceIII = {                                                       %! extern
     \H_PercussionVoiceIII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffIII = {
+H_StaffIII = {                                                                 %! extern
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \H_PercussionVoiceIII                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceIV_a = {
-    
+H_PercussionVoiceIV_a = {                                                      %! extern
+
     % [H PercussionVoiceIV measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -671,158 +671,158 @@ H_PercussionVoiceIV_a = {
             4                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceIV measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIV measure 132 / measure 4]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 133 / measure 5]                            %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIV measure 134 / measure 6]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 135 / measure 7]                            %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIV measure 136 / measure 8]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 138 / measure 10]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 139 / measure 11]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIV measure 140 / measure 12]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 141 / measure 13]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 142 / measure 14]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 143 / measure 15]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceIV measure 144 / measure 16]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceIV = {
+H_PercussionVoiceIV = {                                                        %! extern
     \H_PercussionVoiceIV_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffIV = {
+H_StaffIV = {                                                                  %! extern
     \context Voice = "PercussionVoiceIV"                                       %! ScoreTemplate
     \H_PercussionVoiceIV                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceV_a = {
-    
+H_PercussionVoiceV_a = {                                                       %! extern
+
     % [H PercussionVoiceV measure 129 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -846,168 +846,168 @@ H_PercussionVoiceV_a = {
             5                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceV measure 130 / measure 2]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceV measure 131 / measure 3]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceV measure 132 / measure 4]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceV measure 133 / measure 5]                             %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceV measure 134 / measure 6]                         %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceV measure 135 / measure 7]                         %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceV measure 136 / measure 8]                         %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceV measure 137 / measure 9]                         %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceV measure 138 / measure 10]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceV measure 139 / measure 11]                            %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceV measure 140 / measure 12]                            %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceV measure 141 / measure 13]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceV measure 142 / measure 14]                        %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceV measure 143 / measure 15]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceV measure 144 / measure 16]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceV = {
+H_PercussionVoiceV = {                                                         %! extern
     \H_PercussionVoiceV_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffV = {
+H_StaffV = {                                                                   %! extern
     \context Voice = "PercussionVoiceV"                                        %! ScoreTemplate
     \H_PercussionVoiceV                                                        %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceVI_a = {
-    
+H_PercussionVoiceVI_a = {                                                      %! extern
+
     % [H PercussionVoiceVI measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1031,130 +1031,130 @@ H_PercussionVoiceVI_a = {
             6                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceVI measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVI measure 134 / measure 6]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 135 / measure 7]                            %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVI measure 136 / measure 8]                        %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 138 / measure 10]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 139 / measure 11]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 140 / measure 12]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 141 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVI measure 142 / measure 14]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVI measure 143 / measure 15]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVI measure 144 / measure 16]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceVI = {
+H_PercussionVoiceVI = {                                                        %! extern
     \H_PercussionVoiceVI_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffVI = {
+H_StaffVI = {                                                                  %! extern
     \context Voice = "PercussionVoiceVI"                                       %! ScoreTemplate
     \H_PercussionVoiceVI                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceVII_a = {
-    
+H_PercussionVoiceVII_a = {                                                     %! extern
+
     % [H PercussionVoiceVII measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1178,150 +1178,150 @@ H_PercussionVoiceVII_a = {
             7                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceVII measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 135 / measure 7]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVII measure 136 / measure 8]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 137 / measure 9]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 138 / measure 10]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 139 / measure 11]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVII measure 140 / measure 12]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 141 / measure 13]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVII measure 142 / measure 14]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVII measure 143 / measure 15]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVII measure 144 / measure 16]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceVII = {
+H_PercussionVoiceVII = {                                                       %! extern
     \H_PercussionVoiceVII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffVII = {
+H_StaffVII = {                                                                 %! extern
     \context Voice = "PercussionVoiceVII"                                      %! ScoreTemplate
     \H_PercussionVoiceVII                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceVIII_a = {
-    
+H_PercussionVoiceVIII_a = {                                                    %! extern
+
     % [H PercussionVoiceVIII measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1345,126 +1345,126 @@ H_PercussionVoiceVIII_a = {
             8                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceVIII measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVIII measure 136 / measure 8]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 138 / measure 10]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVIII measure 140 / measure 12]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 142 / measure 14]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceVIII measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceVIII measure 144 / measure 16]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceVIII = {
+H_PercussionVoiceVIII = {                                                      %! extern
     \H_PercussionVoiceVIII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffVIII = {
+H_StaffVIII = {                                                                %! extern
     \context Voice = "PercussionVoiceVIII"                                     %! ScoreTemplate
     \H_PercussionVoiceVIII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceIX_a = {
-    
+H_PercussionVoiceIX_a = {                                                      %! extern
+
     % [H PercussionVoiceIX measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1488,136 +1488,136 @@ H_PercussionVoiceIX_a = {
             9                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceIX measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIX measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIX measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIX measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIX measure 134 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIX measure 135 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIX measure 136 / measure 8]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceIX measure 137 / measure 9]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceIX measure 138 / measure 10]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIX measure 139 / measure 11]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIX measure 140 / measure 12]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIX measure 141 / measure 13]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIX measure 142 / measure 14]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIX measure 143 / measure 15]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceIX measure 144 / measure 16]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceIX = {
+H_PercussionVoiceIX = {                                                        %! extern
     \H_PercussionVoiceIX_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffIX = {
+H_StaffIX = {                                                                  %! extern
     \context Voice = "PercussionVoiceIX"                                       %! ScoreTemplate
     \H_PercussionVoiceIX                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceX_a = {
-    
+H_PercussionVoiceX_a = {                                                       %! extern
+
     % [H PercussionVoiceX measure 129 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1641,138 +1641,138 @@ H_PercussionVoiceX_a = {
             10                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceX measure 130 / measure 2]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 131 / measure 3]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 132 / measure 4]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 133 / measure 5]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 134 / measure 6]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 135 / measure 7]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 136 / measure 8]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 137 / measure 9]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceX measure 138 / measure 10]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceX measure 139 / measure 11]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 140 / measure 12]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceX measure 141 / measure 13]                            %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceX measure 142 / measure 14]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceX measure 143 / measure 15]                        %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceX measure 144 / measure 16]                        %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceX = {
+H_PercussionVoiceX = {                                                         %! extern
     \H_PercussionVoiceX_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffX = {
+H_StaffX = {                                                                   %! extern
     \context Voice = "PercussionVoiceX"                                        %! ScoreTemplate
     \H_PercussionVoiceX                                                        %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXI_a = {
-    
+H_PercussionVoiceXI_a = {                                                      %! extern
+
     % [H PercussionVoiceXI measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1796,96 +1796,96 @@ H_PercussionVoiceXI_a = {
             11                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXI measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 134 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 135 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 136 / measure 8]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 138 / measure 10]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 139 / measure 11]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXI measure 140 / measure 12]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 141 / measure 13]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXI measure 142 / measure 14]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXI measure 143 / measure 15]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXI measure 144 / measure 16]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXI = {
+H_PercussionVoiceXI = {                                                        %! extern
     \H_PercussionVoiceXI_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXI = {
+H_StaffXI = {                                                                  %! extern
     \context Voice = "PercussionVoiceXI"                                       %! ScoreTemplate
     \H_PercussionVoiceXI                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXII_a = {
-    
+H_PercussionVoiceXII_a = {                                                     %! extern
+
     % [H PercussionVoiceXII measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1909,108 +1909,108 @@ H_PercussionVoiceXII_a = {
             12                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXII measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXII measure 140 / measure 12]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 141 / measure 13]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 142 / measure 14]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
-    
+
     % [H PercussionVoiceXII measure 143 / measure 15]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXII measure 144 / measure 16]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXII = {
+H_PercussionVoiceXII = {                                                       %! extern
     \H_PercussionVoiceXII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXII = {
+H_StaffXII = {                                                                 %! extern
     \context Voice = "PercussionVoiceXII"                                      %! ScoreTemplate
     \H_PercussionVoiceXII                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXIII_a = {
-    
+H_PercussionVoiceXIII_a = {                                                    %! extern
+
     % [H PercussionVoiceXIII measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2034,102 +2034,102 @@ H_PercussionVoiceXIII_a = {
             13                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXIII measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIII measure 141 / measure 13]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 4/5 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXIII measure 142 / measure 14]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 2/3 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXIII measure 143 / measure 15]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
-        
+
         c'4                                                                    %! recursif_rhythm
     }                                                                          %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXIII measure 144 / measure 16]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXIII = {
+H_PercussionVoiceXIII = {                                                      %! extern
     \H_PercussionVoiceXIII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXIII = {
+H_StaffXIII = {                                                                %! extern
     \context Voice = "PercussionVoiceXIII"                                     %! ScoreTemplate
     \H_PercussionVoiceXIII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXIV_a = {
-    
+H_PercussionVoiceXIV_a = {                                                     %! extern
+
     % [H PercussionVoiceXIV measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2153,102 +2153,102 @@ H_PercussionVoiceXIV_a = {
             14                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXIV measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXIV measure 142 / measure 14]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
     }                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIV measure 143 / measure 15]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
-    
+
     c'4                                                                        %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXIV measure 144 / measure 16]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXIV = {
+H_PercussionVoiceXIV = {                                                       %! extern
     \H_PercussionVoiceXIV_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXIV = {
+H_StaffXIV = {                                                                 %! extern
     \context Voice = "PercussionVoiceXIV"                                      %! ScoreTemplate
     \H_PercussionVoiceXIV                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXV_a = {
-    
+H_PercussionVoiceXV_a = {                                                      %! extern
+
     % [H PercussionVoiceXV measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2272,84 +2272,84 @@ H_PercussionVoiceXV_a = {
             15                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXV measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 134 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 135 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 136 / measure 8]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 138 / measure 10]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 139 / measure 11]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 140 / measure 12]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 141 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 142 / measure 14]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXV measure 143 / measure 15]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXV measure 144 / measure 16]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXV = {
+H_PercussionVoiceXV = {                                                        %! extern
     \H_PercussionVoiceXV_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXV = {
+H_StaffXV = {                                                                  %! extern
     \context Voice = "PercussionVoiceXV"                                       %! ScoreTemplate
     \H_PercussionVoiceXV                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXVI_a = {
-    
+H_PercussionVoiceXVI_a = {                                                     %! extern
+
     % [H PercussionVoiceXVI measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2373,84 +2373,84 @@ H_PercussionVoiceXVI_a = {
             16                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXVI measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVI measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
     \times 4/7 {                                                               %! recursif_rhythm
-        
+
         % [H PercussionVoiceXVI measure 144 / measure 16]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
-        
+
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
-        
+
     }                                                                          %! recursif_rhythm
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXVI = {
+H_PercussionVoiceXVI = {                                                       %! extern
     \H_PercussionVoiceXVI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXVI = {
+H_StaffXVI = {                                                                 %! extern
     \context Voice = "PercussionVoiceXVI"                                      %! ScoreTemplate
     \H_PercussionVoiceXVI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXVII_a = {
-    
+H_PercussionVoiceXVII_a = {                                                    %! extern
+
     % [H PercussionVoiceXVII measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2474,68 +2474,68 @@ H_PercussionVoiceXVII_a = {
             17                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXVII measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVII measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXVII = {
+H_PercussionVoiceXVII = {                                                      %! extern
     \H_PercussionVoiceXVII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXVII = {
+H_StaffXVII = {                                                                %! extern
     \context Voice = "PercussionVoiceXVII"                                     %! ScoreTemplate
     \H_PercussionVoiceXVII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXVIII_a = {
-    
+H_PercussionVoiceXVIII_a = {                                                   %! extern
+
     % [H PercussionVoiceXVIII measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2559,68 +2559,68 @@ H_PercussionVoiceXVIII_a = {
             18                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXVIII measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 136 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 140 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 143 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXVIII measure 144 / measure 16]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXVIII = {
+H_PercussionVoiceXVIII = {                                                     %! extern
     \H_PercussionVoiceXVIII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXVIII = {
+H_StaffXVIII = {                                                               %! extern
     \context Voice = "PercussionVoiceXVIII"                                    %! ScoreTemplate
     \H_PercussionVoiceXVIII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXIX_a = {
-    
+H_PercussionVoiceXIX_a = {                                                     %! extern
+
     % [H PercussionVoiceXIX measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2644,68 +2644,68 @@ H_PercussionVoiceXIX_a = {
             19                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXIX measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXIX measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXIX = {
+H_PercussionVoiceXIX = {                                                       %! extern
     \H_PercussionVoiceXIX_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXIX = {
+H_StaffXIX = {                                                                 %! extern
     \context Voice = "PercussionVoiceXIX"                                      %! ScoreTemplate
     \H_PercussionVoiceXIX                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXX_a = {
-    
+H_PercussionVoiceXX_a = {                                                      %! extern
+
     % [H PercussionVoiceXX measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2729,68 +2729,68 @@ H_PercussionVoiceXX_a = {
             20                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXX measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 134 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 135 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 136 / measure 8]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 138 / measure 10]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 139 / measure 11]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 140 / measure 12]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 141 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 142 / measure 14]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 143 / measure 15]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXX measure 144 / measure 16]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXX = {
+H_PercussionVoiceXX = {                                                        %! extern
     \H_PercussionVoiceXX_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXX = {
+H_StaffXX = {                                                                  %! extern
     \context Voice = "PercussionVoiceXX"                                       %! ScoreTemplate
     \H_PercussionVoiceXX                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXI_a = {
-    
+H_PercussionVoiceXXI_a = {                                                     %! extern
+
     % [H PercussionVoiceXXI measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2814,68 +2814,68 @@ H_PercussionVoiceXXI_a = {
             21                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXI measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXI measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXI = {
+H_PercussionVoiceXXI = {                                                       %! extern
     \H_PercussionVoiceXXI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXI = {
+H_StaffXXI = {                                                                 %! extern
     \context Voice = "PercussionVoiceXXI"                                      %! ScoreTemplate
     \H_PercussionVoiceXXI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXII_a = {
-    
+H_PercussionVoiceXXII_a = {                                                    %! extern
+
     % [H PercussionVoiceXXII measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2899,68 +2899,68 @@ H_PercussionVoiceXXII_a = {
             22                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXII measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXII measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXII = {
+H_PercussionVoiceXXII = {                                                      %! extern
     \H_PercussionVoiceXXII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXII = {
+H_StaffXXII = {                                                                %! extern
     \context Voice = "PercussionVoiceXXII"                                     %! ScoreTemplate
     \H_PercussionVoiceXXII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXIII_a = {
-    
+H_PercussionVoiceXXIII_a = {                                                   %! extern
+
     % [H PercussionVoiceXXIII measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2984,68 +2984,68 @@ H_PercussionVoiceXXIII_a = {
             23                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXIII measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 136 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 140 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 143 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIII measure 144 / measure 16]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXIII = {
+H_PercussionVoiceXXIII = {                                                     %! extern
     \H_PercussionVoiceXXIII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXIII = {
+H_StaffXXIII = {                                                               %! extern
     \context Voice = "PercussionVoiceXXIII"                                    %! ScoreTemplate
     \H_PercussionVoiceXXIII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXIV_a = {
-    
+H_PercussionVoiceXXIV_a = {                                                    %! extern
+
     % [H PercussionVoiceXXIV measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3069,68 +3069,68 @@ H_PercussionVoiceXXIV_a = {
             24                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXIV measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIV measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXIV = {
+H_PercussionVoiceXXIV = {                                                      %! extern
     \H_PercussionVoiceXXIV_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXIV = {
+H_StaffXXIV = {                                                                %! extern
     \context Voice = "PercussionVoiceXXIV"                                     %! ScoreTemplate
     \H_PercussionVoiceXXIV                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXV_a = {
-    
+H_PercussionVoiceXXV_a = {                                                     %! extern
+
     % [H PercussionVoiceXXV measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3154,68 +3154,68 @@ H_PercussionVoiceXXV_a = {
             25                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXV measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXV measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXV = {
+H_PercussionVoiceXXV = {                                                       %! extern
     \H_PercussionVoiceXXV_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXV = {
+H_StaffXXV = {                                                                 %! extern
     \context Voice = "PercussionVoiceXXV"                                      %! ScoreTemplate
     \H_PercussionVoiceXXV                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXVI_a = {
-    
+H_PercussionVoiceXXVI_a = {                                                    %! extern
+
     % [H PercussionVoiceXXVI measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3239,68 +3239,68 @@ H_PercussionVoiceXXVI_a = {
             26                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXVI measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVI measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXVI = {
+H_PercussionVoiceXXVI = {                                                      %! extern
     \H_PercussionVoiceXXVI_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXVI = {
+H_StaffXXVI = {                                                                %! extern
     \context Voice = "PercussionVoiceXXVI"                                     %! ScoreTemplate
     \H_PercussionVoiceXXVI                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXVII_a = {
-    
+H_PercussionVoiceXXVII_a = {                                                   %! extern
+
     % [H PercussionVoiceXXVII measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3324,68 +3324,68 @@ H_PercussionVoiceXXVII_a = {
             27                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXVII measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 136 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 140 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 143 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVII measure 144 / measure 16]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXVII = {
+H_PercussionVoiceXXVII = {                                                     %! extern
     \H_PercussionVoiceXXVII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXVII = {
+H_StaffXXVII = {                                                               %! extern
     \context Voice = "PercussionVoiceXXVII"                                    %! ScoreTemplate
     \H_PercussionVoiceXXVII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXVIII_a = {
-    
+H_PercussionVoiceXXVIII_a = {                                                  %! extern
+
     % [H PercussionVoiceXXVIII measure 129 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3409,68 +3409,68 @@ H_PercussionVoiceXXVIII_a = {
             28                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXVIII measure 130 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 131 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 132 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 133 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 134 / measure 6]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 135 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 136 / measure 8]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 137 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 138 / measure 10]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 139 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 140 / measure 12]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 141 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 142 / measure 14]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 143 / measure 15]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXVIII measure 144 / measure 16]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXVIII = {
+H_PercussionVoiceXXVIII = {                                                    %! extern
     \H_PercussionVoiceXXVIII_a                                                 %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXVIII = {
+H_StaffXXVIII = {                                                              %! extern
     \context Voice = "PercussionVoiceXXVIII"                                   %! ScoreTemplate
     \H_PercussionVoiceXXVIII                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXIX_a = {
-    
+H_PercussionVoiceXXIX_a = {                                                    %! extern
+
     % [H PercussionVoiceXXIX measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3494,68 +3494,68 @@ H_PercussionVoiceXXIX_a = {
             29                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXIX measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXIX measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXIX = {
+H_PercussionVoiceXXIX = {                                                      %! extern
     \H_PercussionVoiceXXIX_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXIX = {
+H_StaffXXIX = {                                                                %! extern
     \context Voice = "PercussionVoiceXXIX"                                     %! ScoreTemplate
     \H_PercussionVoiceXXIX                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXX_a = {
-    
+H_PercussionVoiceXXX_a = {                                                     %! extern
+
     % [H PercussionVoiceXXX measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3579,68 +3579,68 @@ H_PercussionVoiceXXX_a = {
             30                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXX measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXX measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXX = {
+H_PercussionVoiceXXX = {                                                       %! extern
     \H_PercussionVoiceXXX_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXX = {
+H_StaffXXX = {                                                                 %! extern
     \context Voice = "PercussionVoiceXXX"                                      %! ScoreTemplate
     \H_PercussionVoiceXXX                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXI_a = {
-    
+H_PercussionVoiceXXXI_a = {                                                    %! extern
+
     % [H PercussionVoiceXXXI measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3664,68 +3664,68 @@ H_PercussionVoiceXXXI_a = {
             31                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXXI measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXI measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXI = {
+H_PercussionVoiceXXXI = {                                                      %! extern
     \H_PercussionVoiceXXXI_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXI = {
+H_StaffXXXI = {                                                                %! extern
     \context Voice = "PercussionVoiceXXXI"                                     %! ScoreTemplate
     \H_PercussionVoiceXXXI                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXII_a = {
-    
+H_PercussionVoiceXXXII_a = {                                                   %! extern
+
     % [H PercussionVoiceXXXII measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3749,68 +3749,68 @@ H_PercussionVoiceXXXII_a = {
             32                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXXII measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 136 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 140 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 143 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXII measure 144 / measure 16]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXII = {
+H_PercussionVoiceXXXII = {                                                     %! extern
     \H_PercussionVoiceXXXII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXII = {
+H_StaffXXXII = {                                                               %! extern
     \context Voice = "PercussionVoiceXXXII"                                    %! ScoreTemplate
     \H_PercussionVoiceXXXII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXIII_a = {
-    
+H_PercussionVoiceXXXIII_a = {                                                  %! extern
+
     % [H PercussionVoiceXXXIII measure 129 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3835,195 +3835,195 @@ H_PercussionVoiceXXXIII_a = {
             33                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 130 / measure 2]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 131 / measure 3]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 132 / measure 4]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 133 / measure 5]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 134 / measure 6]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 135 / measure 7]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 136 / measure 8]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 137 / measure 9]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 138 / measure 10]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 139 / measure 11]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 140 / measure 12]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 141 / measure 13]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 142 / measure 14]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 143 / measure 15]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIII measure 144 / measure 16]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXIII = {
+H_PercussionVoiceXXXIII = {                                                    %! extern
     \H_PercussionVoiceXXXIII_a                                                 %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXIII = {
+H_StaffXXXIII = {                                                              %! extern
     \context Voice = "PercussionVoiceXXXIII"                                   %! ScoreTemplate
     \H_PercussionVoiceXXXIII                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXIV_a = {
-    
+H_PercussionVoiceXXXIV_a = {                                                   %! extern
+
     % [H PercussionVoiceXXXIV measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4047,132 +4047,132 @@ H_PercussionVoiceXXXIV_a = {
             34                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXXIV measure 130 / measure 2]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 132 / measure 4]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 134 / measure 6]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 136 / measure 8]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 138 / measure 10]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 140 / measure 12]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 142 / measure 14]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 143 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIV measure 144 / measure 16]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXIV = {
+H_PercussionVoiceXXXIV = {                                                     %! extern
     \H_PercussionVoiceXXXIV_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXIV = {
+H_StaffXXXIV = {                                                               %! extern
     \context Voice = "PercussionVoiceXXXIV"                                    %! ScoreTemplate
     \H_PercussionVoiceXXXIV                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXV_a = {
-    
+H_PercussionVoiceXXXV_a = {                                                    %! extern
+
     % [H PercussionVoiceXXXV measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4196,132 +4196,132 @@ H_PercussionVoiceXXXV_a = {
             35                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXXV measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 131 / measure 3]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 132 / measure 4]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 135 / measure 7]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 136 / measure 8]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 139 / measure 11]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 140 / measure 12]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 143 / measure 15]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXV measure 144 / measure 16]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXV = {
+H_PercussionVoiceXXXV = {                                                      %! extern
     \H_PercussionVoiceXXXV_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXV = {
+H_StaffXXXV = {                                                                %! extern
     \context Voice = "PercussionVoiceXXXV"                                     %! ScoreTemplate
     \H_PercussionVoiceXXXV                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXVI_a = {
-    
+H_PercussionVoiceXXXVI_a = {                                                   %! extern
+
     % [H PercussionVoiceXXXVI measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4345,100 +4345,100 @@ H_PercussionVoiceXXXVI_a = {
             36                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXXVI measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 132 / measure 4]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 136 / measure 8]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 140 / measure 12]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 143 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVI measure 144 / measure 16]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXVI = {
+H_PercussionVoiceXXXVI = {                                                     %! extern
     \H_PercussionVoiceXXXVI_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXVI = {
+H_StaffXXXVI = {                                                               %! extern
     \context Voice = "PercussionVoiceXXXVI"                                    %! ScoreTemplate
     \H_PercussionVoiceXXXVI                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXVII_a = {
-    
+H_PercussionVoiceXXXVII_a = {                                                  %! extern
+
     % [H PercussionVoiceXXXVII measure 129 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4462,132 +4462,132 @@ H_PercussionVoiceXXXVII_a = {
             37                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXXVII measure 130 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 131 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 132 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 133 / measure 5]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 134 / measure 6]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 135 / measure 7]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 136 / measure 8]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 137 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 138 / measure 10]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 139 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 140 / measure 12]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 141 / measure 13]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 142 / measure 14]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 143 / measure 15]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVII measure 144 / measure 16]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXVII = {
+H_PercussionVoiceXXXVII = {                                                    %! extern
     \H_PercussionVoiceXXXVII_a                                                 %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXVII = {
+H_StaffXXXVII = {                                                              %! extern
     \context Voice = "PercussionVoiceXXXVII"                                   %! ScoreTemplate
     \H_PercussionVoiceXXXVII                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXVIII_a = {
-    
+H_PercussionVoiceXXXVIII_a = {                                                 %! extern
+
     % [H PercussionVoiceXXXVIII measure 129 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4611,100 +4611,100 @@ H_PercussionVoiceXXXVIII_a = {
             38                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXXVIII measure 130 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 131 / measure 3]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 132 / measure 4]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 133 / measure 5]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 134 / measure 6]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 135 / measure 7]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 136 / measure 8]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 137 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 138 / measure 10]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 139 / measure 11]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 140 / measure 12]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 141 / measure 13]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 142 / measure 14]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 143 / measure 15]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXVIII measure 144 / measure 16]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXVIII = {
+H_PercussionVoiceXXXVIII = {                                                   %! extern
     \H_PercussionVoiceXXXVIII_a                                                %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXVIII = {
+H_StaffXXXVIII = {                                                             %! extern
     \context Voice = "PercussionVoiceXXXVIII"                                  %! ScoreTemplate
     \H_PercussionVoiceXXXVIII                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXIX_a = {
-    
+H_PercussionVoiceXXXIX_a = {                                                   %! extern
+
     % [H PercussionVoiceXXXIX measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4728,100 +4728,100 @@ H_PercussionVoiceXXXIX_a = {
             39                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXXXIX measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 135 / measure 7]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 136 / measure 8]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 140 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 143 / measure 15]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXXXIX measure 144 / measure 16]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXXXIX = {
+H_PercussionVoiceXXXIX = {                                                     %! extern
     \H_PercussionVoiceXXXIX_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXXXIX = {
+H_StaffXXXIX = {                                                               %! extern
     \context Voice = "PercussionVoiceXXXIX"                                    %! ScoreTemplate
     \H_PercussionVoiceXXXIX                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXL_a = {
-    
+H_PercussionVoiceXL_a = {                                                      %! extern
+
     % [H PercussionVoiceXL measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4845,84 +4845,84 @@ H_PercussionVoiceXL_a = {
             40                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXL measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 134 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 135 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 136 / measure 8]                            %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 138 / measure 10]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 139 / measure 11]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 140 / measure 12]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 141 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 142 / measure 14]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 143 / measure 15]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXL measure 144 / measure 16]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXL = {
+H_PercussionVoiceXL = {                                                        %! extern
     \H_PercussionVoiceXL_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXL = {
+H_StaffXL = {                                                                  %! extern
     \context Voice = "PercussionVoiceXL"                                       %! ScoreTemplate
     \H_PercussionVoiceXL                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLI_a = {
-    
+H_PercussionVoiceXLI_a = {                                                     %! extern
+
     % [H PercussionVoiceXLI measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4946,132 +4946,132 @@ H_PercussionVoiceXLI_a = {
             41                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLI measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 137 / measure 9]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 138 / measure 10]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 139 / measure 11]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 140 / measure 12]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 141 / measure 13]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 142 / measure 14]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 143 / measure 15]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLI measure 144 / measure 16]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLI = {
+H_PercussionVoiceXLI = {                                                       %! extern
     \H_PercussionVoiceXLI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLI = {
+H_StaffXLI = {                                                                 %! extern
     \context Voice = "PercussionVoiceXLI"                                      %! ScoreTemplate
     \H_PercussionVoiceXLI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLII_a = {
-    
+H_PercussionVoiceXLII_a = {                                                    %! extern
+
     % [H PercussionVoiceXLII measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5095,100 +5095,100 @@ H_PercussionVoiceXLII_a = {
             42                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLII measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 138 / measure 10]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 140 / measure 12]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 142 / measure 14]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLII measure 144 / measure 16]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLII = {
+H_PercussionVoiceXLII = {                                                      %! extern
     \H_PercussionVoiceXLII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLII = {
+H_StaffXLII = {                                                                %! extern
     \context Voice = "PercussionVoiceXLII"                                     %! ScoreTemplate
     \H_PercussionVoiceXLII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLIII_a = {
-    
+H_PercussionVoiceXLIII_a = {                                                   %! extern
+
     % [H PercussionVoiceXLIII measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5212,100 +5212,100 @@ H_PercussionVoiceXLIII_a = {
             43                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLIII measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 136 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 139 / measure 11]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 140 / measure 12]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 143 / measure 15]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIII measure 144 / measure 16]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLIII = {
+H_PercussionVoiceXLIII = {                                                     %! extern
     \H_PercussionVoiceXLIII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLIII = {
+H_StaffXLIII = {                                                               %! extern
     \context Voice = "PercussionVoiceXLIII"                                    %! ScoreTemplate
     \H_PercussionVoiceXLIII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLIV_a = {
-    
+H_PercussionVoiceXLIV_a = {                                                    %! extern
+
     % [H PercussionVoiceXLIV measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5329,84 +5329,84 @@ H_PercussionVoiceXLIV_a = {
             44                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLIV measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 140 / measure 12]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIV measure 144 / measure 16]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLIV = {
+H_PercussionVoiceXLIV = {                                                      %! extern
     \H_PercussionVoiceXLIV_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLIV = {
+H_StaffXLIV = {                                                                %! extern
     \context Voice = "PercussionVoiceXLIV"                                     %! ScoreTemplate
     \H_PercussionVoiceXLIV                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLV_a = {
-    
+H_PercussionVoiceXLV_a = {                                                     %! extern
+
     % [H PercussionVoiceXLV measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5430,100 +5430,100 @@ H_PercussionVoiceXLV_a = {
             45                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLV measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 141 / measure 13]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 142 / measure 14]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 143 / measure 15]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLV measure 144 / measure 16]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLV = {
+H_PercussionVoiceXLV = {                                                       %! extern
     \H_PercussionVoiceXLV_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLV = {
+H_StaffXLV = {                                                                 %! extern
     \context Voice = "PercussionVoiceXLV"                                      %! ScoreTemplate
     \H_PercussionVoiceXLV                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLVI_a = {
-    
+H_PercussionVoiceXLVI_a = {                                                    %! extern
+
     % [H PercussionVoiceXLVI measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5547,84 +5547,84 @@ H_PercussionVoiceXLVI_a = {
             46                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLVI measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 142 / measure 14]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVI measure 144 / measure 16]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLVI = {
+H_PercussionVoiceXLVI = {                                                      %! extern
     \H_PercussionVoiceXLVI_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLVI = {
+H_StaffXLVI = {                                                                %! extern
     \context Voice = "PercussionVoiceXLVI"                                     %! ScoreTemplate
     \H_PercussionVoiceXLVI                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLVII_a = {
-    
+H_PercussionVoiceXLVII_a = {                                                   %! extern
+
     % [H PercussionVoiceXLVII measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5648,84 +5648,84 @@ H_PercussionVoiceXLVII_a = {
             47                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLVII measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 136 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 140 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 143 / measure 15]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVII measure 144 / measure 16]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLVII = {
+H_PercussionVoiceXLVII = {                                                     %! extern
     \H_PercussionVoiceXLVII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLVII = {
+H_StaffXLVII = {                                                               %! extern
     \context Voice = "PercussionVoiceXLVII"                                    %! ScoreTemplate
     \H_PercussionVoiceXLVII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLVIII_a = {
-    
+H_PercussionVoiceXLVIII_a = {                                                  %! extern
+
     % [H PercussionVoiceXLVIII measure 129 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5749,76 +5749,76 @@ H_PercussionVoiceXLVIII_a = {
             48                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLVIII measure 130 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 131 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 132 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 133 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 134 / measure 6]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 135 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 136 / measure 8]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 137 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 138 / measure 10]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 139 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 140 / measure 12]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 141 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 142 / measure 14]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 143 / measure 15]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLVIII measure 144 / measure 16]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
-    
+
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLVIII = {
+H_PercussionVoiceXLVIII = {                                                    %! extern
     \H_PercussionVoiceXLVIII_a                                                 %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLVIII = {
+H_StaffXLVIII = {                                                              %! extern
     \context Voice = "PercussionVoiceXLVIII"                                   %! ScoreTemplate
     \H_PercussionVoiceXLVIII                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLIX_a = {
-    
+H_PercussionVoiceXLIX_a = {                                                    %! extern
+
     % [H PercussionVoiceXLIX measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5842,68 +5842,68 @@ H_PercussionVoiceXLIX_a = {
             49                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceXLIX measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceXLIX measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceXLIX = {
+H_PercussionVoiceXLIX = {                                                      %! extern
     \H_PercussionVoiceXLIX_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffXLIX = {
+H_StaffXLIX = {                                                                %! extern
     \context Voice = "PercussionVoiceXLIX"                                     %! ScoreTemplate
     \H_PercussionVoiceXLIX                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceL_a = {
-    
+H_PercussionVoiceL_a = {                                                       %! extern
+
     % [H PercussionVoiceL measure 129 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5927,68 +5927,68 @@ H_PercussionVoiceL_a = {
             50                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceL measure 130 / measure 2]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 131 / measure 3]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 132 / measure 4]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 133 / measure 5]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 134 / measure 6]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 135 / measure 7]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 136 / measure 8]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 137 / measure 9]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 138 / measure 10]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 139 / measure 11]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 140 / measure 12]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 141 / measure 13]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 142 / measure 14]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 143 / measure 15]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceL measure 144 / measure 16]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceL = {
+H_PercussionVoiceL = {                                                         %! extern
     \H_PercussionVoiceL_a                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffL = {
+H_StaffL = {                                                                   %! extern
     \context Voice = "PercussionVoiceL"                                        %! ScoreTemplate
     \H_PercussionVoiceL                                                        %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLI_a = {
-    
+H_PercussionVoiceLI_a = {                                                      %! extern
+
     % [H PercussionVoiceLI measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6012,68 +6012,68 @@ H_PercussionVoiceLI_a = {
             51                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLI measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 134 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 135 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 136 / measure 8]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 138 / measure 10]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 139 / measure 11]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 140 / measure 12]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 141 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 142 / measure 14]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 143 / measure 15]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLI measure 144 / measure 16]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLI = {
+H_PercussionVoiceLI = {                                                        %! extern
     \H_PercussionVoiceLI_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLI = {
+H_StaffLI = {                                                                  %! extern
     \context Voice = "PercussionVoiceLI"                                       %! ScoreTemplate
     \H_PercussionVoiceLI                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLII_a = {
-    
+H_PercussionVoiceLII_a = {                                                     %! extern
+
     % [H PercussionVoiceLII measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6097,68 +6097,68 @@ H_PercussionVoiceLII_a = {
             52                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLII measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLII measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLII = {
+H_PercussionVoiceLII = {                                                       %! extern
     \H_PercussionVoiceLII_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLII = {
+H_StaffLII = {                                                                 %! extern
     \context Voice = "PercussionVoiceLII"                                      %! ScoreTemplate
     \H_PercussionVoiceLII                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLIII_a = {
-    
+H_PercussionVoiceLIII_a = {                                                    %! extern
+
     % [H PercussionVoiceLIII measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6182,68 +6182,68 @@ H_PercussionVoiceLIII_a = {
             53                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLIII measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIII measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLIII = {
+H_PercussionVoiceLIII = {                                                      %! extern
     \H_PercussionVoiceLIII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLIII = {
+H_StaffLIII = {                                                                %! extern
     \context Voice = "PercussionVoiceLIII"                                     %! ScoreTemplate
     \H_PercussionVoiceLIII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLIV_a = {
-    
+H_PercussionVoiceLIV_a = {                                                     %! extern
+
     % [H PercussionVoiceLIV measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6267,68 +6267,68 @@ H_PercussionVoiceLIV_a = {
             54                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLIV measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIV measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLIV = {
+H_PercussionVoiceLIV = {                                                       %! extern
     \H_PercussionVoiceLIV_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLIV = {
+H_StaffLIV = {                                                                 %! extern
     \context Voice = "PercussionVoiceLIV"                                      %! ScoreTemplate
     \H_PercussionVoiceLIV                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLV_a = {
-    
+H_PercussionVoiceLV_a = {                                                      %! extern
+
     % [H PercussionVoiceLV measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6352,68 +6352,68 @@ H_PercussionVoiceLV_a = {
             55                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLV measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 134 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 135 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 136 / measure 8]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 138 / measure 10]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 139 / measure 11]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 140 / measure 12]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 141 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 142 / measure 14]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 143 / measure 15]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLV measure 144 / measure 16]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLV = {
+H_PercussionVoiceLV = {                                                        %! extern
     \H_PercussionVoiceLV_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLV = {
+H_StaffLV = {                                                                  %! extern
     \context Voice = "PercussionVoiceLV"                                       %! ScoreTemplate
     \H_PercussionVoiceLV                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLVI_a = {
-    
+H_PercussionVoiceLVI_a = {                                                     %! extern
+
     % [H PercussionVoiceLVI measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6437,68 +6437,68 @@ H_PercussionVoiceLVI_a = {
             56                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLVI measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVI measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLVI = {
+H_PercussionVoiceLVI = {                                                       %! extern
     \H_PercussionVoiceLVI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLVI = {
+H_StaffLVI = {                                                                 %! extern
     \context Voice = "PercussionVoiceLVI"                                      %! ScoreTemplate
     \H_PercussionVoiceLVI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLVII_a = {
-    
+H_PercussionVoiceLVII_a = {                                                    %! extern
+
     % [H PercussionVoiceLVII measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6522,68 +6522,68 @@ H_PercussionVoiceLVII_a = {
             57                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLVII measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVII measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLVII = {
+H_PercussionVoiceLVII = {                                                      %! extern
     \H_PercussionVoiceLVII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLVII = {
+H_StaffLVII = {                                                                %! extern
     \context Voice = "PercussionVoiceLVII"                                     %! ScoreTemplate
     \H_PercussionVoiceLVII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLVIII_a = {
-    
+H_PercussionVoiceLVIII_a = {                                                   %! extern
+
     % [H PercussionVoiceLVIII measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6607,68 +6607,68 @@ H_PercussionVoiceLVIII_a = {
             58                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLVIII measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 136 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 140 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 143 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLVIII measure 144 / measure 16]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLVIII = {
+H_PercussionVoiceLVIII = {                                                     %! extern
     \H_PercussionVoiceLVIII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLVIII = {
+H_StaffLVIII = {                                                               %! extern
     \context Voice = "PercussionVoiceLVIII"                                    %! ScoreTemplate
     \H_PercussionVoiceLVIII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLIX_a = {
-    
+H_PercussionVoiceLIX_a = {                                                     %! extern
+
     % [H PercussionVoiceLIX measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6692,68 +6692,68 @@ H_PercussionVoiceLIX_a = {
             59                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLIX measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLIX measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLIX = {
+H_PercussionVoiceLIX = {                                                       %! extern
     \H_PercussionVoiceLIX_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLIX = {
+H_StaffLIX = {                                                                 %! extern
     \context Voice = "PercussionVoiceLIX"                                      %! ScoreTemplate
     \H_PercussionVoiceLIX                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLX_a = {
-    
+H_PercussionVoiceLX_a = {                                                      %! extern
+
     % [H PercussionVoiceLX measure 129 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6777,68 +6777,68 @@ H_PercussionVoiceLX_a = {
             60                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLX measure 130 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 131 / measure 3]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 132 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 133 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 134 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 135 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 136 / measure 8]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 137 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 138 / measure 10]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 139 / measure 11]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 140 / measure 12]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 141 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 142 / measure 14]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 143 / measure 15]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLX measure 144 / measure 16]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLX = {
+H_PercussionVoiceLX = {                                                        %! extern
     \H_PercussionVoiceLX_a                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLX = {
+H_StaffLX = {                                                                  %! extern
     \context Voice = "PercussionVoiceLX"                                       %! ScoreTemplate
     \H_PercussionVoiceLX                                                       %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLXI_a = {
-    
+H_PercussionVoiceLXI_a = {                                                     %! extern
+
     % [H PercussionVoiceLXI measure 129 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6862,68 +6862,68 @@ H_PercussionVoiceLXI_a = {
             61                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLXI measure 130 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 131 / measure 3]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 132 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 133 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 134 / measure 6]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 135 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 136 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 137 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 138 / measure 10]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 139 / measure 11]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 140 / measure 12]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 141 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 142 / measure 14]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 143 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXI measure 144 / measure 16]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLXI = {
+H_PercussionVoiceLXI = {                                                       %! extern
     \H_PercussionVoiceLXI_a                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLXI = {
+H_StaffLXI = {                                                                 %! extern
     \context Voice = "PercussionVoiceLXI"                                      %! ScoreTemplate
     \H_PercussionVoiceLXI                                                      %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLXII_a = {
-    
+H_PercussionVoiceLXII_a = {                                                    %! extern
+
     % [H PercussionVoiceLXII measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6947,68 +6947,68 @@ H_PercussionVoiceLXII_a = {
             62                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLXII measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXII measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLXII = {
+H_PercussionVoiceLXII = {                                                      %! extern
     \H_PercussionVoiceLXII_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLXII = {
+H_StaffLXII = {                                                                %! extern
     \context Voice = "PercussionVoiceLXII"                                     %! ScoreTemplate
     \H_PercussionVoiceLXII                                                     %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLXIII_a = {
-    
+H_PercussionVoiceLXIII_a = {                                                   %! extern
+
     % [H PercussionVoiceLXIII measure 129 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7032,68 +7032,68 @@ H_PercussionVoiceLXIII_a = {
             63                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLXIII measure 130 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 131 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 132 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 133 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 134 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 135 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 136 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 137 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 138 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 139 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 140 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 141 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 142 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 143 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIII measure 144 / measure 16]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLXIII = {
+H_PercussionVoiceLXIII = {                                                     %! extern
     \H_PercussionVoiceLXIII_a                                                  %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLXIII = {
+H_StaffLXIII = {                                                               %! extern
     \context Voice = "PercussionVoiceLXIII"                                    %! ScoreTemplate
     \H_PercussionVoiceLXIII                                                    %! extern
-}
+}                                                                              %! extern
 
 
-H_PercussionVoiceLXIV_a = {
-    
+H_PercussionVoiceLXIV_a = {                                                    %! extern
+
     % [H PercussionVoiceLXIV measure 129 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7117,61 +7117,61 @@ H_PercussionVoiceLXIV_a = {
             64                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [H PercussionVoiceLXIV measure 130 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 131 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 132 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 133 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 134 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 135 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 136 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 137 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 138 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 139 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 140 / measure 12]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 141 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 142 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 143 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
+
     % [H PercussionVoiceLXIV measure 144 / measure 16]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
-    
-}
+
+}                                                                              %! extern
 
 
-H_PercussionVoiceLXIV = {
+H_PercussionVoiceLXIV = {                                                      %! extern
     \H_PercussionVoiceLXIV_a                                                   %! extern
-}
+}                                                                              %! extern
 
 
-H_StaffLXIV = {
+H_StaffLXIV = {                                                                %! extern
     \context Voice = "PercussionVoiceLXIV"                                     %! ScoreTemplate
     \H_PercussionVoiceLXIV                                                     %! extern
-}
+}                                                                              %! extern
