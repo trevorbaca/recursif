@@ -218,13 +218,17 @@ A_PercussionVoiceI_a = {                                                       %
 
 
 A_PercussionVoiceI = {                                                         %! extern
+
     \A_PercussionVoiceI_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 A_StaffI = {                                                                   %! extern
+
     \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
     \A_PercussionVoiceI                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -253,6 +257,7 @@ A_PercussionVoiceII_a = {                                                      %
             2                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceII measure 18 / measure 2]                         %! _comment_measure_numbers
@@ -271,7 +276,9 @@ A_PercussionVoiceII_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceII measure 19 / measure 3]                         %! _comment_measure_numbers
@@ -288,7 +295,9 @@ A_PercussionVoiceII_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceII measure 20 / measure 4]                         %! _comment_measure_numbers
@@ -303,6 +312,7 @@ A_PercussionVoiceII_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceII measure 21 / measure 5]                             %! _comment_measure_numbers
@@ -315,6 +325,7 @@ A_PercussionVoiceII_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceII measure 22 / measure 6]                         %! _comment_measure_numbers
@@ -323,6 +334,7 @@ A_PercussionVoiceII_a = {                                                      %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceII measure 23 / measure 7]                             %! _comment_measure_numbers
@@ -335,6 +347,7 @@ A_PercussionVoiceII_a = {                                                      %
 
     % [A PercussionVoiceII measure 25 / measure 9]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceII measure 26 / measure 10]                        %! _comment_measure_numbers
@@ -353,7 +366,9 @@ A_PercussionVoiceII_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceII measure 27 / measure 11]                        %! _comment_measure_numbers
@@ -370,7 +385,9 @@ A_PercussionVoiceII_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceII measure 28 / measure 12]                        %! _comment_measure_numbers
@@ -385,6 +402,7 @@ A_PercussionVoiceII_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceII measure 29 / measure 13]                            %! _comment_measure_numbers
@@ -397,6 +415,7 @@ A_PercussionVoiceII_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceII measure 30 / measure 14]                        %! _comment_measure_numbers
@@ -405,6 +424,7 @@ A_PercussionVoiceII_a = {                                                      %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceII measure 31 / measure 15]                            %! _comment_measure_numbers
@@ -419,13 +439,17 @@ A_PercussionVoiceII_a = {                                                      %
 
 
 A_PercussionVoiceII = {                                                        %! extern
+
     \A_PercussionVoiceII_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffII = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
     \A_PercussionVoiceII                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -460,6 +484,7 @@ A_PercussionVoiceIII_a = {                                                     %
 
     % [A PercussionVoiceIII measure 19 / measure 3]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIII measure 20 / measure 4]                        %! _comment_measure_numbers
@@ -468,7 +493,9 @@ A_PercussionVoiceIII_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIII measure 21 / measure 5]                        %! _comment_measure_numbers
@@ -485,12 +512,14 @@ A_PercussionVoiceIII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIII measure 22 / measure 6]                            %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIII measure 23 / measure 7]                        %! _comment_measure_numbers
@@ -509,7 +538,9 @@ A_PercussionVoiceIII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIII measure 24 / measure 8]                        %! _comment_measure_numbers
@@ -524,6 +555,7 @@ A_PercussionVoiceIII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIII measure 25 / measure 9]                            %! _comment_measure_numbers
@@ -547,6 +579,7 @@ A_PercussionVoiceIII_a = {                                                     %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIII measure 27 / measure 11]                       %! _comment_measure_numbers
@@ -561,7 +594,9 @@ A_PercussionVoiceIII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIII measure 28 / measure 12]                       %! _comment_measure_numbers
@@ -580,12 +615,14 @@ A_PercussionVoiceIII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIII measure 29 / measure 13]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIII measure 30 / measure 14]                       %! _comment_measure_numbers
@@ -602,7 +639,9 @@ A_PercussionVoiceIII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIII measure 31 / measure 15]                       %! _comment_measure_numbers
@@ -611,6 +650,7 @@ A_PercussionVoiceIII_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIII measure 32 / measure 16]                           %! _comment_measure_numbers
@@ -620,13 +660,17 @@ A_PercussionVoiceIII_a = {                                                     %
 
 
 A_PercussionVoiceIII = {                                                       %! extern
+
     \A_PercussionVoiceIII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffIII = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
     \A_PercussionVoiceIII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -661,6 +705,7 @@ A_PercussionVoiceIV_a = {                                                      %
 
     % [A PercussionVoiceIV measure 19 / measure 3]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIV measure 20 / measure 4]                         %! _comment_measure_numbers
@@ -679,6 +724,7 @@ A_PercussionVoiceIV_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIV measure 21 / measure 5]                             %! _comment_measure_numbers
@@ -691,6 +737,7 @@ A_PercussionVoiceIV_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIV measure 22 / measure 6]                         %! _comment_measure_numbers
@@ -707,6 +754,7 @@ A_PercussionVoiceIV_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIV measure 23 / measure 7]                             %! _comment_measure_numbers
@@ -719,6 +767,7 @@ A_PercussionVoiceIV_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIV measure 24 / measure 8]                         %! _comment_measure_numbers
@@ -733,6 +782,7 @@ A_PercussionVoiceIV_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIV measure 25 / measure 9]                             %! _comment_measure_numbers
@@ -751,6 +801,7 @@ A_PercussionVoiceIV_a = {                                                      %
 
     % [A PercussionVoiceIV measure 27 / measure 11]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIV measure 28 / measure 12]                        %! _comment_measure_numbers
@@ -759,6 +810,7 @@ A_PercussionVoiceIV_a = {                                                      %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIV measure 29 / measure 13]                            %! _comment_measure_numbers
@@ -795,13 +847,17 @@ A_PercussionVoiceIV_a = {                                                      %
 
 
 A_PercussionVoiceIV = {                                                        %! extern
+
     \A_PercussionVoiceIV_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffIV = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceIV"                                       %! ScoreTemplate
     \A_PercussionVoiceIV                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -871,6 +927,7 @@ A_PercussionVoiceV_a = {                                                       %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceV measure 21 / measure 5]                          %! _comment_measure_numbers
@@ -885,10 +942,12 @@ A_PercussionVoiceV_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceV measure 22 / measure 6]                              %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceV measure 23 / measure 7]                          %! _comment_measure_numbers
@@ -897,7 +956,9 @@ A_PercussionVoiceV_a = {                                                       %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceV measure 24 / measure 8]                          %! _comment_measure_numbers
@@ -916,6 +977,7 @@ A_PercussionVoiceV_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceV measure 25 / measure 9]                              %! _comment_measure_numbers
@@ -927,6 +989,7 @@ A_PercussionVoiceV_a = {                                                       %
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceV measure 27 / measure 11]                         %! _comment_measure_numbers
@@ -943,7 +1006,9 @@ A_PercussionVoiceV_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceV measure 28 / measure 12]                         %! _comment_measure_numbers
@@ -960,7 +1025,9 @@ A_PercussionVoiceV_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceV measure 29 / measure 13]                         %! _comment_measure_numbers
@@ -969,7 +1036,9 @@ A_PercussionVoiceV_a = {                                                       %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceV measure 30 / measure 14]                         %! _comment_measure_numbers
@@ -988,7 +1057,9 @@ A_PercussionVoiceV_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceV measure 31 / measure 15]                         %! _comment_measure_numbers
@@ -1003,6 +1074,7 @@ A_PercussionVoiceV_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceV measure 32 / measure 16]                             %! _comment_measure_numbers
@@ -1012,13 +1084,17 @@ A_PercussionVoiceV_a = {                                                       %
 
 
 A_PercussionVoiceV = {                                                         %! extern
+
     \A_PercussionVoiceV_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 A_StaffV = {                                                                   %! extern
+
     \context Voice = "PercussionVoiceV"                                        %! ScoreTemplate
     \A_PercussionVoiceV                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1075,6 +1151,7 @@ A_PercussionVoiceVI_a = {                                                      %
 
     % [A PercussionVoiceVI measure 21 / measure 5]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVI measure 22 / measure 6]                         %! _comment_measure_numbers
@@ -1083,12 +1160,14 @@ A_PercussionVoiceVI_a = {                                                      %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVI measure 23 / measure 7]                             %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVI measure 24 / measure 8]                         %! _comment_measure_numbers
@@ -1107,10 +1186,12 @@ A_PercussionVoiceVI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVI measure 25 / measure 9]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVI measure 26 / measure 10]                        %! _comment_measure_numbers
@@ -1127,6 +1208,7 @@ A_PercussionVoiceVI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVI measure 27 / measure 11]                            %! _comment_measure_numbers
@@ -1139,6 +1221,7 @@ A_PercussionVoiceVI_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVI measure 28 / measure 12]                        %! _comment_measure_numbers
@@ -1155,10 +1238,12 @@ A_PercussionVoiceVI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVI measure 29 / measure 13]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVI measure 30 / measure 14]                        %! _comment_measure_numbers
@@ -1173,7 +1258,9 @@ A_PercussionVoiceVI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVI measure 31 / measure 15]                        %! _comment_measure_numbers
@@ -1190,6 +1277,7 @@ A_PercussionVoiceVI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVI measure 32 / measure 16]                            %! _comment_measure_numbers
@@ -1199,13 +1287,17 @@ A_PercussionVoiceVI_a = {                                                      %
 
 
 A_PercussionVoiceVI = {                                                        %! extern
+
     \A_PercussionVoiceVI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffVI = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceVI"                                       %! ScoreTemplate
     \A_PercussionVoiceVI                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1265,6 +1357,7 @@ A_PercussionVoiceVII_a = {                                                     %
 
     % [A PercussionVoiceVII measure 22 / measure 6]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVII measure 23 / measure 7]                        %! _comment_measure_numbers
@@ -1279,7 +1372,9 @@ A_PercussionVoiceVII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVII measure 24 / measure 8]                        %! _comment_measure_numbers
@@ -1288,6 +1383,7 @@ A_PercussionVoiceVII_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVII measure 25 / measure 9]                            %! _comment_measure_numbers
@@ -1311,6 +1407,7 @@ A_PercussionVoiceVII_a = {                                                     %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVII measure 27 / measure 11]                       %! _comment_measure_numbers
@@ -1327,6 +1424,7 @@ A_PercussionVoiceVII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVII measure 28 / measure 12]                           %! _comment_measure_numbers
@@ -1355,6 +1453,7 @@ A_PercussionVoiceVII_a = {                                                     %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVII measure 31 / measure 15]                       %! _comment_measure_numbers
@@ -1373,6 +1472,7 @@ A_PercussionVoiceVII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVII measure 32 / measure 16]                           %! _comment_measure_numbers
@@ -1382,13 +1482,17 @@ A_PercussionVoiceVII_a = {                                                     %
 
 
 A_PercussionVoiceVII = {                                                       %! extern
+
     \A_PercussionVoiceVII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffVII = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceVII"                                      %! ScoreTemplate
     \A_PercussionVoiceVII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1443,6 +1547,7 @@ A_PercussionVoiceVIII_a = {                                                    %
 
     % [A PercussionVoiceVIII measure 23 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceVIII measure 24 / measure 8]                       %! _comment_measure_numbers
@@ -1451,6 +1556,7 @@ A_PercussionVoiceVIII_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceVIII measure 25 / measure 9]                           %! _comment_measure_numbers
@@ -1499,17 +1605,22 @@ A_PercussionVoiceVIII_a = {                                                    %
 
 
 A_PercussionVoiceVIII = {                                                      %! extern
+
     \A_PercussionVoiceVIII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffVIII = {                                                                %! extern
+
     \context Voice = "PercussionVoiceVIII"                                     %! ScoreTemplate
     \A_PercussionVoiceVIII                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceIX_a = {                                                      %! extern
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 17 / measure 1]                         %! _comment_measure_numbers
@@ -1547,7 +1658,9 @@ A_PercussionVoiceIX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 18 / measure 2]                         %! _comment_measure_numbers
@@ -1564,7 +1677,9 @@ A_PercussionVoiceIX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 19 / measure 3]                         %! _comment_measure_numbers
@@ -1581,7 +1696,9 @@ A_PercussionVoiceIX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 20 / measure 4]                         %! _comment_measure_numbers
@@ -1598,6 +1715,7 @@ A_PercussionVoiceIX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIX measure 21 / measure 5]                             %! _comment_measure_numbers
@@ -1619,6 +1737,7 @@ A_PercussionVoiceIX_a = {                                                      %
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 25 / measure 9]                         %! _comment_measure_numbers
@@ -1637,7 +1756,9 @@ A_PercussionVoiceIX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 26 / measure 10]                        %! _comment_measure_numbers
@@ -1656,7 +1777,9 @@ A_PercussionVoiceIX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 27 / measure 11]                        %! _comment_measure_numbers
@@ -1665,7 +1788,9 @@ A_PercussionVoiceIX_a = {                                                      %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 28 / measure 12]                        %! _comment_measure_numbers
@@ -1674,6 +1799,7 @@ A_PercussionVoiceIX_a = {                                                      %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceIX measure 29 / measure 13]                            %! _comment_measure_numbers
@@ -1681,6 +1807,7 @@ A_PercussionVoiceIX_a = {                                                      %
 
     % [A PercussionVoiceIX measure 30 / measure 14]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 31 / measure 15]                        %! _comment_measure_numbers
@@ -1695,7 +1822,9 @@ A_PercussionVoiceIX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceIX measure 32 / measure 16]                        %! _comment_measure_numbers
@@ -1712,17 +1841,22 @@ A_PercussionVoiceIX_a = {                                                      %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceIX = {                                                        %! extern
+
     \A_PercussionVoiceIX_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffIX = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceIX"                                       %! ScoreTemplate
     \A_PercussionVoiceIX                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1767,6 +1901,7 @@ A_PercussionVoiceX_a = {                                                       %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceX measure 20 / measure 4]                          %! _comment_measure_numbers
@@ -1783,10 +1918,12 @@ A_PercussionVoiceX_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceX measure 21 / measure 5]                              %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceX measure 22 / measure 6]                          %! _comment_measure_numbers
@@ -1803,6 +1940,7 @@ A_PercussionVoiceX_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceX measure 23 / measure 7]                              %! _comment_measure_numbers
@@ -1831,6 +1969,7 @@ A_PercussionVoiceX_a = {                                                       %
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceX measure 28 / measure 12]                         %! _comment_measure_numbers
@@ -1849,6 +1988,7 @@ A_PercussionVoiceX_a = {                                                       %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceX measure 29 / measure 13]                             %! _comment_measure_numbers
@@ -1861,6 +2001,7 @@ A_PercussionVoiceX_a = {                                                       %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceX measure 30 / measure 14]                         %! _comment_measure_numbers
@@ -1869,12 +2010,14 @@ A_PercussionVoiceX_a = {                                                       %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceX measure 31 / measure 15]                             %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceX measure 32 / measure 16]                         %! _comment_measure_numbers
@@ -1891,17 +2034,22 @@ A_PercussionVoiceX_a = {                                                       %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceX = {                                                         %! extern
+
     \A_PercussionVoiceX_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 A_StaffX = {                                                                   %! extern
+
     \context Voice = "PercussionVoiceX"                                        %! ScoreTemplate
     \A_PercussionVoiceX                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1933,6 +2081,7 @@ A_PercussionVoiceXI_a = {                                                      %
 
     % [A PercussionVoiceXI measure 18 / measure 2]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXI measure 19 / measure 3]                         %! _comment_measure_numbers
@@ -1949,6 +2098,7 @@ A_PercussionVoiceXI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXI measure 20 / measure 4]                             %! _comment_measure_numbers
@@ -1977,6 +2127,7 @@ A_PercussionVoiceXI_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXI measure 23 / measure 7]                         %! _comment_measure_numbers
@@ -1993,6 +2144,7 @@ A_PercussionVoiceXI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXI measure 24 / measure 8]                             %! _comment_measure_numbers
@@ -2005,6 +2157,7 @@ A_PercussionVoiceXI_a = {                                                      %
 
     % [A PercussionVoiceXI measure 26 / measure 10]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXI measure 27 / measure 11]                        %! _comment_measure_numbers
@@ -2023,7 +2176,9 @@ A_PercussionVoiceXI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXI measure 28 / measure 12]                        %! _comment_measure_numbers
@@ -2038,7 +2193,9 @@ A_PercussionVoiceXI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXI measure 29 / measure 13]                        %! _comment_measure_numbers
@@ -2055,12 +2212,14 @@ A_PercussionVoiceXI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXI measure 30 / measure 14]                            %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXI measure 31 / measure 15]                        %! _comment_measure_numbers
@@ -2079,7 +2238,9 @@ A_PercussionVoiceXI_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXI measure 32 / measure 16]                        %! _comment_measure_numbers
@@ -2096,17 +2257,22 @@ A_PercussionVoiceXI_a = {                                                      %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXI = {                                                        %! extern
+
     \A_PercussionVoiceXI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXI = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceXI"                                       %! ScoreTemplate
     \A_PercussionVoiceXI                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -2191,6 +2357,7 @@ A_PercussionVoiceXII_a = {                                                     %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXII measure 30 / measure 14]                       %! _comment_measure_numbers
@@ -2207,6 +2374,7 @@ A_PercussionVoiceXII_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXII measure 31 / measure 15]                           %! _comment_measure_numbers
@@ -2219,6 +2387,7 @@ A_PercussionVoiceXII_a = {                                                     %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXII measure 32 / measure 16]                       %! _comment_measure_numbers
@@ -2235,17 +2404,22 @@ A_PercussionVoiceXII_a = {                                                     %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXII = {                                                       %! extern
+
     \A_PercussionVoiceXII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXII = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXII"                                      %! ScoreTemplate
     \A_PercussionVoiceXII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2325,6 +2499,7 @@ A_PercussionVoiceXIII_a = {                                                    %
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIII measure 23 / measure 7]                       %! _comment_measure_numbers
@@ -2341,7 +2516,9 @@ A_PercussionVoiceXIII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIII measure 24 / measure 8]                       %! _comment_measure_numbers
@@ -2358,6 +2535,7 @@ A_PercussionVoiceXIII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXIII measure 25 / measure 9]                           %! _comment_measure_numbers
@@ -2403,6 +2581,7 @@ A_PercussionVoiceXIII_a = {                                                    %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIII measure 29 / measure 13]                      %! _comment_measure_numbers
@@ -2411,7 +2590,9 @@ A_PercussionVoiceXIII_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIII measure 30 / measure 14]                      %! _comment_measure_numbers
@@ -2430,10 +2611,12 @@ A_PercussionVoiceXIII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXIII measure 31 / measure 15]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIII measure 32 / measure 16]                      %! _comment_measure_numbers
@@ -2450,17 +2633,22 @@ A_PercussionVoiceXIII_a = {                                                    %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXIII = {                                                      %! extern
+
     \A_PercussionVoiceXIII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXIII = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXIII"                                     %! ScoreTemplate
     \A_PercussionVoiceXIII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -2517,6 +2705,7 @@ A_PercussionVoiceXIV_a = {                                                     %
 
     % [A PercussionVoiceXIV measure 21 / measure 5]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIV measure 22 / measure 6]                        %! _comment_measure_numbers
@@ -2533,6 +2722,7 @@ A_PercussionVoiceXIV_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXIV measure 23 / measure 7]                            %! _comment_measure_numbers
@@ -2545,6 +2735,7 @@ A_PercussionVoiceXIV_a = {                                                     %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIV measure 24 / measure 8]                        %! _comment_measure_numbers
@@ -2561,6 +2752,7 @@ A_PercussionVoiceXIV_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXIV measure 25 / measure 9]                            %! _comment_measure_numbers
@@ -2593,6 +2785,7 @@ A_PercussionVoiceXIV_a = {                                                     %
 
     % [A PercussionVoiceXIV measure 29 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIV measure 30 / measure 14]                       %! _comment_measure_numbers
@@ -2607,7 +2800,9 @@ A_PercussionVoiceXIV_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIV measure 31 / measure 15]                       %! _comment_measure_numbers
@@ -2624,7 +2819,9 @@ A_PercussionVoiceXIV_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIV measure 32 / measure 16]                       %! _comment_measure_numbers
@@ -2641,17 +2838,22 @@ A_PercussionVoiceXIV_a = {                                                     %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXIV = {                                                       %! extern
+
     \A_PercussionVoiceXIV_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXIV = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXIV"                                      %! ScoreTemplate
     \A_PercussionVoiceXIV                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2716,6 +2918,7 @@ A_PercussionVoiceXV_a = {                                                      %
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXV measure 24 / measure 8]                         %! _comment_measure_numbers
@@ -2732,6 +2935,7 @@ A_PercussionVoiceXV_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXV measure 25 / measure 9]                             %! _comment_measure_numbers
@@ -2767,6 +2971,7 @@ A_PercussionVoiceXV_a = {                                                      %
 
     % [A PercussionVoiceXV measure 30 / measure 14]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXV measure 31 / measure 15]                        %! _comment_measure_numbers
@@ -2775,7 +2980,9 @@ A_PercussionVoiceXV_a = {                                                      %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXV measure 32 / measure 16]                        %! _comment_measure_numbers
@@ -2792,17 +2999,22 @@ A_PercussionVoiceXV_a = {                                                      %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXV = {                                                        %! extern
+
     \A_PercussionVoiceXV_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXV = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceXV"                                       %! ScoreTemplate
     \A_PercussionVoiceXV                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -2857,6 +3069,7 @@ A_PercussionVoiceXVI_a = {                                                     %
 
     % [A PercussionVoiceXVI measure 23 / measure 7]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVI measure 24 / measure 8]                        %! _comment_measure_numbers
@@ -2873,6 +3086,7 @@ A_PercussionVoiceXVI_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXVI measure 25 / measure 9]                            %! _comment_measure_numbers
@@ -2903,6 +3117,7 @@ A_PercussionVoiceXVI_a = {                                                     %
 
     % [A PercussionVoiceXVI measure 31 / measure 15]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVI measure 32 / measure 16]                       %! _comment_measure_numbers
@@ -2919,17 +3134,22 @@ A_PercussionVoiceXVI_a = {                                                     %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXVI = {                                                       %! extern
+
     \A_PercussionVoiceXVI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXVI = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXVI"                                      %! ScoreTemplate
     \A_PercussionVoiceXVI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2967,6 +3187,7 @@ A_PercussionVoiceXVII_a = {                                                    %
 
     % [A PercussionVoiceXVII measure 20 / measure 4]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 21 / measure 5]                       %! _comment_measure_numbers
@@ -2981,7 +3202,9 @@ A_PercussionVoiceXVII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 22 / measure 6]                       %! _comment_measure_numbers
@@ -2996,7 +3219,9 @@ A_PercussionVoiceXVII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 23 / measure 7]                       %! _comment_measure_numbers
@@ -3011,7 +3236,9 @@ A_PercussionVoiceXVII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 24 / measure 8]                       %! _comment_measure_numbers
@@ -3026,7 +3253,9 @@ A_PercussionVoiceXVII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 25 / measure 9]                       %! _comment_measure_numbers
@@ -3045,7 +3274,9 @@ A_PercussionVoiceXVII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 26 / measure 10]                      %! _comment_measure_numbers
@@ -3064,7 +3295,9 @@ A_PercussionVoiceXVII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 27 / measure 11]                      %! _comment_measure_numbers
@@ -3083,7 +3316,9 @@ A_PercussionVoiceXVII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 28 / measure 12]                      %! _comment_measure_numbers
@@ -3102,7 +3337,9 @@ A_PercussionVoiceXVII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 29 / measure 13]                      %! _comment_measure_numbers
@@ -3111,7 +3348,9 @@ A_PercussionVoiceXVII_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 30 / measure 14]                      %! _comment_measure_numbers
@@ -3120,7 +3359,9 @@ A_PercussionVoiceXVII_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 31 / measure 15]                      %! _comment_measure_numbers
@@ -3129,7 +3370,9 @@ A_PercussionVoiceXVII_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVII measure 32 / measure 16]                      %! _comment_measure_numbers
@@ -3140,17 +3383,22 @@ A_PercussionVoiceXVII_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXVII = {                                                      %! extern
+
     \A_PercussionVoiceXVII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXVII = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXVII"                                     %! ScoreTemplate
     \A_PercussionVoiceXVII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -3179,6 +3427,7 @@ A_PercussionVoiceXVIII_a = {                                                   %
             18                                                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVIII measure 18 / measure 2]                      %! _comment_measure_numbers
@@ -3197,7 +3446,9 @@ A_PercussionVoiceXVIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVIII measure 19 / measure 3]                      %! _comment_measure_numbers
@@ -3214,7 +3465,9 @@ A_PercussionVoiceXVIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVIII measure 20 / measure 4]                      %! _comment_measure_numbers
@@ -3229,6 +3482,7 @@ A_PercussionVoiceXVIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXVIII measure 21 / measure 5]                          %! _comment_measure_numbers
@@ -3241,6 +3495,7 @@ A_PercussionVoiceXVIII_a = {                                                   %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVIII measure 22 / measure 6]                      %! _comment_measure_numbers
@@ -3259,12 +3514,14 @@ A_PercussionVoiceXVIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXVIII measure 23 / measure 7]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVIII measure 24 / measure 8]                      %! _comment_measure_numbers
@@ -3279,6 +3536,7 @@ A_PercussionVoiceXVIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXVIII measure 25 / measure 9]                          %! _comment_measure_numbers
@@ -3291,6 +3549,7 @@ A_PercussionVoiceXVIII_a = {                                                   %
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVIII measure 28 / measure 12]                     %! _comment_measure_numbers
@@ -3299,6 +3558,7 @@ A_PercussionVoiceXVIII_a = {                                                   %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXVIII measure 29 / measure 13]                         %! _comment_measure_numbers
@@ -3314,6 +3574,7 @@ A_PercussionVoiceXVIII_a = {                                                   %
 
     % [A PercussionVoiceXVIII measure 30 / measure 14]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVIII measure 31 / measure 15]                     %! _comment_measure_numbers
@@ -3330,7 +3591,9 @@ A_PercussionVoiceXVIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXVIII measure 32 / measure 16]                     %! _comment_measure_numbers
@@ -3341,17 +3604,22 @@ A_PercussionVoiceXVIII_a = {                                                   %
         c'4                                                                    %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXVIII = {                                                     %! extern
+
     \A_PercussionVoiceXVIII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXVIII = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXVIII"                                    %! ScoreTemplate
     \A_PercussionVoiceXVIII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -3386,6 +3654,7 @@ A_PercussionVoiceXIX_a = {                                                     %
 
     % [A PercussionVoiceXIX measure 19 / measure 3]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIX measure 20 / measure 4]                        %! _comment_measure_numbers
@@ -3394,7 +3663,9 @@ A_PercussionVoiceXIX_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIX measure 21 / measure 5]                        %! _comment_measure_numbers
@@ -3411,12 +3682,14 @@ A_PercussionVoiceXIX_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXIX measure 22 / measure 6]                            %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIX measure 23 / measure 7]                        %! _comment_measure_numbers
@@ -3425,6 +3698,7 @@ A_PercussionVoiceXIX_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXIX measure 24 / measure 8]                            %! _comment_measure_numbers
@@ -3451,6 +3725,7 @@ A_PercussionVoiceXIX_a = {                                                     %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIX measure 27 / measure 11]                       %! _comment_measure_numbers
@@ -3459,10 +3734,12 @@ A_PercussionVoiceXIX_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXIX measure 28 / measure 12]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIX measure 29 / measure 13]                       %! _comment_measure_numbers
@@ -3479,6 +3756,7 @@ A_PercussionVoiceXIX_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXIX measure 30 / measure 14]                           %! _comment_measure_numbers
@@ -3488,6 +3766,7 @@ A_PercussionVoiceXIX_a = {                                                     %
 
     % [A PercussionVoiceXIX measure 31 / measure 15]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXIX measure 32 / measure 16]                       %! _comment_measure_numbers
@@ -3498,17 +3777,22 @@ A_PercussionVoiceXIX_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXIX = {                                                       %! extern
+
     \A_PercussionVoiceXIX_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXIX = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXIX"                                      %! ScoreTemplate
     \A_PercussionVoiceXIX                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -3543,6 +3827,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
     % [A PercussionVoiceXX measure 19 / measure 3]                             %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXX measure 20 / measure 4]                         %! _comment_measure_numbers
@@ -3561,6 +3846,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXX measure 21 / measure 5]                             %! _comment_measure_numbers
@@ -3573,6 +3859,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXX measure 22 / measure 6]                         %! _comment_measure_numbers
@@ -3589,6 +3876,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXX measure 23 / measure 7]                             %! _comment_measure_numbers
@@ -3621,6 +3909,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
     % [A PercussionVoiceXX measure 27 / measure 11]                            %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXX measure 28 / measure 12]                        %! _comment_measure_numbers
@@ -3635,6 +3924,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXX measure 29 / measure 13]                            %! _comment_measure_numbers
@@ -3647,6 +3937,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXX measure 30 / measure 14]                        %! _comment_measure_numbers
@@ -3663,6 +3954,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXX measure 31 / measure 15]                            %! _comment_measure_numbers
@@ -3675,6 +3967,7 @@ A_PercussionVoiceXX_a = {                                                      %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXX measure 32 / measure 16]                        %! _comment_measure_numbers
@@ -3685,17 +3978,22 @@ A_PercussionVoiceXX_a = {                                                      %
         c'4                                                                    %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXX = {                                                        %! extern
+
     \A_PercussionVoiceXX_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXX = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceXX"                                       %! ScoreTemplate
     \A_PercussionVoiceXX                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -3736,6 +4034,7 @@ A_PercussionVoiceXXI_a = {                                                     %
 
     % [A PercussionVoiceXXI measure 21 / measure 5]                            %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXI measure 22 / measure 6]                        %! _comment_measure_numbers
@@ -3750,7 +4049,9 @@ A_PercussionVoiceXXI_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXI measure 23 / measure 7]                        %! _comment_measure_numbers
@@ -3769,7 +4070,9 @@ A_PercussionVoiceXXI_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXI measure 24 / measure 8]                        %! _comment_measure_numbers
@@ -3778,6 +4081,7 @@ A_PercussionVoiceXXI_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXI measure 25 / measure 9]                            %! _comment_measure_numbers
@@ -3789,6 +4093,7 @@ A_PercussionVoiceXXI_a = {                                                     %
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXI measure 27 / measure 11]                       %! _comment_measure_numbers
@@ -3805,7 +4110,9 @@ A_PercussionVoiceXXI_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXI measure 28 / measure 12]                       %! _comment_measure_numbers
@@ -3822,10 +4129,12 @@ A_PercussionVoiceXXI_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXI measure 29 / measure 13]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXI measure 30 / measure 14]                       %! _comment_measure_numbers
@@ -3840,7 +4149,9 @@ A_PercussionVoiceXXI_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXI measure 31 / measure 15]                       %! _comment_measure_numbers
@@ -3859,7 +4170,9 @@ A_PercussionVoiceXXI_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXI measure 32 / measure 16]                       %! _comment_measure_numbers
@@ -3870,17 +4183,22 @@ A_PercussionVoiceXXI_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXI = {                                                       %! extern
+
     \A_PercussionVoiceXXI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXI = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXXI"                                      %! ScoreTemplate
     \A_PercussionVoiceXXI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -3921,6 +4239,7 @@ A_PercussionVoiceXXII_a = {                                                    %
 
     % [A PercussionVoiceXXII measure 21 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXII measure 22 / measure 6]                       %! _comment_measure_numbers
@@ -3939,12 +4258,14 @@ A_PercussionVoiceXXII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXII measure 23 / measure 7]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXII measure 24 / measure 8]                       %! _comment_measure_numbers
@@ -3953,10 +4274,12 @@ A_PercussionVoiceXXII_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXII measure 25 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXII measure 26 / measure 10]                      %! _comment_measure_numbers
@@ -3973,6 +4296,7 @@ A_PercussionVoiceXXII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXII measure 27 / measure 11]                          %! _comment_measure_numbers
@@ -3985,6 +4309,7 @@ A_PercussionVoiceXXII_a = {                                                    %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXII measure 28 / measure 12]                      %! _comment_measure_numbers
@@ -4001,10 +4326,12 @@ A_PercussionVoiceXXII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXII measure 29 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXII measure 30 / measure 14]                      %! _comment_measure_numbers
@@ -4023,12 +4350,14 @@ A_PercussionVoiceXXII_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXII measure 31 / measure 15]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXII measure 32 / measure 16]                      %! _comment_measure_numbers
@@ -4039,17 +4368,22 @@ A_PercussionVoiceXXII_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXII = {                                                      %! extern
+
     \A_PercussionVoiceXXII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXII = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXXII"                                     %! ScoreTemplate
     \A_PercussionVoiceXXII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -4096,6 +4430,7 @@ A_PercussionVoiceXXIII_a = {                                                   %
 
     % [A PercussionVoiceXXIII measure 23 / measure 7]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIII measure 24 / measure 8]                      %! _comment_measure_numbers
@@ -4114,6 +4449,7 @@ A_PercussionVoiceXXIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXIII measure 25 / measure 9]                          %! _comment_measure_numbers
@@ -4137,6 +4473,7 @@ A_PercussionVoiceXXIII_a = {                                                   %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIII measure 27 / measure 11]                     %! _comment_measure_numbers
@@ -4153,6 +4490,7 @@ A_PercussionVoiceXXIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXIII measure 28 / measure 12]                         %! _comment_measure_numbers
@@ -4181,6 +4519,7 @@ A_PercussionVoiceXXIII_a = {                                                   %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIII measure 31 / measure 15]                     %! _comment_measure_numbers
@@ -4195,7 +4534,9 @@ A_PercussionVoiceXXIII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIII measure 32 / measure 16]                     %! _comment_measure_numbers
@@ -4206,17 +4547,22 @@ A_PercussionVoiceXXIII_a = {                                                   %
         c'4                                                                    %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXIII = {                                                     %! extern
+
     \A_PercussionVoiceXXIII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXIII = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXXIII"                                    %! ScoreTemplate
     \A_PercussionVoiceXXIII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -4263,6 +4609,7 @@ A_PercussionVoiceXXIV_a = {                                                    %
 
     % [A PercussionVoiceXXIV measure 23 / measure 7]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIV measure 24 / measure 8]                       %! _comment_measure_numbers
@@ -4281,6 +4628,7 @@ A_PercussionVoiceXXIV_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXIV measure 25 / measure 9]                           %! _comment_measure_numbers
@@ -4321,6 +4669,7 @@ A_PercussionVoiceXXIV_a = {                                                    %
 
     % [A PercussionVoiceXXIV measure 31 / measure 15]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIV measure 32 / measure 16]                      %! _comment_measure_numbers
@@ -4331,17 +4680,22 @@ A_PercussionVoiceXXIV_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXIV = {                                                      %! extern
+
     \A_PercussionVoiceXXIV_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXIV = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXXIV"                                     %! ScoreTemplate
     \A_PercussionVoiceXXIV                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -4397,6 +4751,7 @@ A_PercussionVoiceXXV_a = {                                                     %
 
     % [A PercussionVoiceXXV measure 26 / measure 10]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXV measure 27 / measure 11]                       %! _comment_measure_numbers
@@ -4411,7 +4766,9 @@ A_PercussionVoiceXXV_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXV measure 28 / measure 12]                       %! _comment_measure_numbers
@@ -4426,7 +4783,9 @@ A_PercussionVoiceXXV_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXV measure 29 / measure 13]                       %! _comment_measure_numbers
@@ -4435,7 +4794,9 @@ A_PercussionVoiceXXV_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXV measure 30 / measure 14]                       %! _comment_measure_numbers
@@ -4444,7 +4805,9 @@ A_PercussionVoiceXXV_a = {                                                     %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXV measure 31 / measure 15]                       %! _comment_measure_numbers
@@ -4463,7 +4826,9 @@ A_PercussionVoiceXXV_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXV measure 32 / measure 16]                       %! _comment_measure_numbers
@@ -4484,17 +4849,22 @@ A_PercussionVoiceXXV_a = {                                                     %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXV = {                                                       %! extern
+
     \A_PercussionVoiceXXV_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXV = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXXV"                                      %! ScoreTemplate
     \A_PercussionVoiceXXV                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -4547,6 +4917,7 @@ A_PercussionVoiceXXVI_a = {                                                    %
 
     % [A PercussionVoiceXXVI measure 25 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVI measure 26 / measure 10]                      %! _comment_measure_numbers
@@ -4565,7 +4936,9 @@ A_PercussionVoiceXXVI_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVI measure 27 / measure 11]                      %! _comment_measure_numbers
@@ -4582,6 +4955,7 @@ A_PercussionVoiceXXVI_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXVI measure 28 / measure 12]                          %! _comment_measure_numbers
@@ -4600,6 +4974,7 @@ A_PercussionVoiceXXVI_a = {                                                    %
 
     % [A PercussionVoiceXXVI measure 30 / measure 14]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVI measure 31 / measure 15]                      %! _comment_measure_numbers
@@ -4616,7 +4991,9 @@ A_PercussionVoiceXXVI_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVI measure 32 / measure 16]                      %! _comment_measure_numbers
@@ -4637,17 +5014,22 @@ A_PercussionVoiceXXVI_a = {                                                    %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXVI = {                                                      %! extern
+
     \A_PercussionVoiceXXVI_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXVI = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXXVI"                                     %! ScoreTemplate
     \A_PercussionVoiceXXVI                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -4706,6 +5088,7 @@ A_PercussionVoiceXXVII_a = {                                                   %
 
     % [A PercussionVoiceXXVII measure 27 / measure 11]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVII measure 28 / measure 12]                     %! _comment_measure_numbers
@@ -4714,12 +5097,14 @@ A_PercussionVoiceXXVII_a = {                                                   %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXVII measure 29 / measure 13]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVII measure 30 / measure 14]                     %! _comment_measure_numbers
@@ -4736,7 +5121,9 @@ A_PercussionVoiceXXVII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVII measure 31 / measure 15]                     %! _comment_measure_numbers
@@ -4751,7 +5138,9 @@ A_PercussionVoiceXXVII_a = {                                                   %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVII measure 32 / measure 16]                     %! _comment_measure_numbers
@@ -4772,17 +5161,22 @@ A_PercussionVoiceXXVII_a = {                                                   %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXVII = {                                                     %! extern
+
     \A_PercussionVoiceXXVII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXVII = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXXVII"                                    %! ScoreTemplate
     \A_PercussionVoiceXXVII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -4841,6 +5235,7 @@ A_PercussionVoiceXXVIII_a = {                                                  %
 
     % [A PercussionVoiceXXVIII measure 27 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVIII measure 28 / measure 12]                    %! _comment_measure_numbers
@@ -4859,6 +5254,7 @@ A_PercussionVoiceXXVIII_a = {                                                  %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXVIII measure 29 / measure 13]                        %! _comment_measure_numbers
@@ -4887,6 +5283,7 @@ A_PercussionVoiceXXVIII_a = {                                                  %
 
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXVIII measure 32 / measure 16]                    %! _comment_measure_numbers
@@ -4907,17 +5304,22 @@ A_PercussionVoiceXXVIII_a = {                                                  %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXVIII = {                                                    %! extern
+
     \A_PercussionVoiceXXVIII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXVIII = {                                                              %! extern
+
     \context Voice = "PercussionVoiceXXVIII"                                   %! ScoreTemplate
     \A_PercussionVoiceXXVIII                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -4982,6 +5384,7 @@ A_PercussionVoiceXXIX_a = {                                                    %
 
     % [A PercussionVoiceXXIX measure 29 / measure 13]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/5 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIX measure 30 / measure 14]                      %! _comment_measure_numbers
@@ -4996,7 +5399,9 @@ A_PercussionVoiceXXIX_a = {                                                    %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 2/3 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIX measure 31 / measure 15]                      %! _comment_measure_numbers
@@ -5005,7 +5410,9 @@ A_PercussionVoiceXXIX_a = {                                                    %
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXIX measure 32 / measure 16]                      %! _comment_measure_numbers
@@ -5026,17 +5433,22 @@ A_PercussionVoiceXXIX_a = {                                                    %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXIX = {                                                      %! extern
+
     \A_PercussionVoiceXXIX_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXIX = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXXIX"                                     %! ScoreTemplate
     \A_PercussionVoiceXXIX                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -5101,6 +5513,7 @@ A_PercussionVoiceXXX_a = {                                                     %
 
     % [A PercussionVoiceXXX measure 29 / measure 13]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXX measure 30 / measure 14]                       %! _comment_measure_numbers
@@ -5119,12 +5532,14 @@ A_PercussionVoiceXXX_a = {                                                     %
 
         c'8                                                                    %! recursif_rhythm
         ]                                                                      %! recursif_rhythm
+
     }                                                                          %! recursif_rhythm
 
     % [A PercussionVoiceXXX measure 31 / measure 15]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXX measure 32 / measure 16]                       %! _comment_measure_numbers
@@ -5145,17 +5560,22 @@ A_PercussionVoiceXXX_a = {                                                     %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXX = {                                                       %! extern
+
     \A_PercussionVoiceXXX_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXX = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXXX"                                      %! ScoreTemplate
     \A_PercussionVoiceXXX                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -5226,6 +5646,7 @@ A_PercussionVoiceXXXI_a = {                                                    %
 
     % [A PercussionVoiceXXXI measure 31 / measure 15]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXXI measure 32 / measure 16]                      %! _comment_measure_numbers
@@ -5246,17 +5667,22 @@ A_PercussionVoiceXXXI_a = {                                                    %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXXI = {                                                      %! extern
+
     \A_PercussionVoiceXXXI_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXI = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXXXI"                                     %! ScoreTemplate
     \A_PercussionVoiceXXXI                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -5327,6 +5753,7 @@ A_PercussionVoiceXXXII_a = {                                                   %
 
     % [A PercussionVoiceXXXII measure 31 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
+
     \times 4/7 {                                                               %! recursif_rhythm
 
         % [A PercussionVoiceXXXII measure 32 / measure 16]                     %! _comment_measure_numbers
@@ -5347,17 +5774,22 @@ A_PercussionVoiceXXXII_a = {                                                   %
         ]                                                                      %! recursif_rhythm
 
     }                                                                          %! recursif_rhythm
+
 }                                                                              %! extern
 
 
 A_PercussionVoiceXXXII = {                                                     %! extern
+
     \A_PercussionVoiceXXXII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXII = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXXXII"                                    %! ScoreTemplate
     \A_PercussionVoiceXXXII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -5436,13 +5868,17 @@ A_PercussionVoiceXXXIII_a = {                                                  %
 
 
 A_PercussionVoiceXXXIII = {                                                    %! extern
+
     \A_PercussionVoiceXXXIII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXIII = {                                                              %! extern
+
     \context Voice = "PercussionVoiceXXXIII"                                   %! ScoreTemplate
     \A_PercussionVoiceXXXIII                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -5521,13 +5957,17 @@ A_PercussionVoiceXXXIV_a = {                                                   %
 
 
 A_PercussionVoiceXXXIV = {                                                     %! extern
+
     \A_PercussionVoiceXXXIV_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXIV = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXXXIV"                                    %! ScoreTemplate
     \A_PercussionVoiceXXXIV                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -5606,13 +6046,17 @@ A_PercussionVoiceXXXV_a = {                                                    %
 
 
 A_PercussionVoiceXXXV = {                                                      %! extern
+
     \A_PercussionVoiceXXXV_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXV = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXXXV"                                     %! ScoreTemplate
     \A_PercussionVoiceXXXV                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -5691,13 +6135,17 @@ A_PercussionVoiceXXXVI_a = {                                                   %
 
 
 A_PercussionVoiceXXXVI = {                                                     %! extern
+
     \A_PercussionVoiceXXXVI_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXVI = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXXXVI"                                    %! ScoreTemplate
     \A_PercussionVoiceXXXVI                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -5776,13 +6224,17 @@ A_PercussionVoiceXXXVII_a = {                                                  %
 
 
 A_PercussionVoiceXXXVII = {                                                    %! extern
+
     \A_PercussionVoiceXXXVII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXVII = {                                                              %! extern
+
     \context Voice = "PercussionVoiceXXXVII"                                   %! ScoreTemplate
     \A_PercussionVoiceXXXVII                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -5861,13 +6313,17 @@ A_PercussionVoiceXXXVIII_a = {                                                 %
 
 
 A_PercussionVoiceXXXVIII = {                                                   %! extern
+
     \A_PercussionVoiceXXXVIII_a                                                %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXVIII = {                                                             %! extern
+
     \context Voice = "PercussionVoiceXXXVIII"                                  %! ScoreTemplate
     \A_PercussionVoiceXXXVIII                                                  %! extern
+
 }                                                                              %! extern
 
 
@@ -5946,13 +6402,17 @@ A_PercussionVoiceXXXIX_a = {                                                   %
 
 
 A_PercussionVoiceXXXIX = {                                                     %! extern
+
     \A_PercussionVoiceXXXIX_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXXXIX = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXXXIX"                                    %! ScoreTemplate
     \A_PercussionVoiceXXXIX                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -6031,13 +6491,17 @@ A_PercussionVoiceXL_a = {                                                      %
 
 
 A_PercussionVoiceXL = {                                                        %! extern
+
     \A_PercussionVoiceXL_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXL = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceXL"                                       %! ScoreTemplate
     \A_PercussionVoiceXL                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -6116,13 +6580,17 @@ A_PercussionVoiceXLI_a = {                                                     %
 
 
 A_PercussionVoiceXLI = {                                                       %! extern
+
     \A_PercussionVoiceXLI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLI = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXLI"                                      %! ScoreTemplate
     \A_PercussionVoiceXLI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -6201,13 +6669,17 @@ A_PercussionVoiceXLII_a = {                                                    %
 
 
 A_PercussionVoiceXLII = {                                                      %! extern
+
     \A_PercussionVoiceXLII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLII = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXLII"                                     %! ScoreTemplate
     \A_PercussionVoiceXLII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -6286,13 +6758,17 @@ A_PercussionVoiceXLIII_a = {                                                   %
 
 
 A_PercussionVoiceXLIII = {                                                     %! extern
+
     \A_PercussionVoiceXLIII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLIII = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXLIII"                                    %! ScoreTemplate
     \A_PercussionVoiceXLIII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -6371,13 +6847,17 @@ A_PercussionVoiceXLIV_a = {                                                    %
 
 
 A_PercussionVoiceXLIV = {                                                      %! extern
+
     \A_PercussionVoiceXLIV_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLIV = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXLIV"                                     %! ScoreTemplate
     \A_PercussionVoiceXLIV                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -6456,13 +6936,17 @@ A_PercussionVoiceXLV_a = {                                                     %
 
 
 A_PercussionVoiceXLV = {                                                       %! extern
+
     \A_PercussionVoiceXLV_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLV = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceXLV"                                      %! ScoreTemplate
     \A_PercussionVoiceXLV                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -6541,13 +7025,17 @@ A_PercussionVoiceXLVI_a = {                                                    %
 
 
 A_PercussionVoiceXLVI = {                                                      %! extern
+
     \A_PercussionVoiceXLVI_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLVI = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXLVI"                                     %! ScoreTemplate
     \A_PercussionVoiceXLVI                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -6626,13 +7114,17 @@ A_PercussionVoiceXLVII_a = {                                                   %
 
 
 A_PercussionVoiceXLVII = {                                                     %! extern
+
     \A_PercussionVoiceXLVII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLVII = {                                                               %! extern
+
     \context Voice = "PercussionVoiceXLVII"                                    %! ScoreTemplate
     \A_PercussionVoiceXLVII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -6711,13 +7203,17 @@ A_PercussionVoiceXLVIII_a = {                                                  %
 
 
 A_PercussionVoiceXLVIII = {                                                    %! extern
+
     \A_PercussionVoiceXLVIII_a                                                 %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLVIII = {                                                              %! extern
+
     \context Voice = "PercussionVoiceXLVIII"                                   %! ScoreTemplate
     \A_PercussionVoiceXLVIII                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -6796,13 +7292,17 @@ A_PercussionVoiceXLIX_a = {                                                    %
 
 
 A_PercussionVoiceXLIX = {                                                      %! extern
+
     \A_PercussionVoiceXLIX_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffXLIX = {                                                                %! extern
+
     \context Voice = "PercussionVoiceXLIX"                                     %! ScoreTemplate
     \A_PercussionVoiceXLIX                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -6881,13 +7381,17 @@ A_PercussionVoiceL_a = {                                                       %
 
 
 A_PercussionVoiceL = {                                                         %! extern
+
     \A_PercussionVoiceL_a                                                      %! extern
+
 }                                                                              %! extern
 
 
 A_StaffL = {                                                                   %! extern
+
     \context Voice = "PercussionVoiceL"                                        %! ScoreTemplate
     \A_PercussionVoiceL                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -6966,13 +7470,17 @@ A_PercussionVoiceLI_a = {                                                      %
 
 
 A_PercussionVoiceLI = {                                                        %! extern
+
     \A_PercussionVoiceLI_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLI = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceLI"                                       %! ScoreTemplate
     \A_PercussionVoiceLI                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -7051,13 +7559,17 @@ A_PercussionVoiceLII_a = {                                                     %
 
 
 A_PercussionVoiceLII = {                                                       %! extern
+
     \A_PercussionVoiceLII_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLII = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceLII"                                      %! ScoreTemplate
     \A_PercussionVoiceLII                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -7136,13 +7648,17 @@ A_PercussionVoiceLIII_a = {                                                    %
 
 
 A_PercussionVoiceLIII = {                                                      %! extern
+
     \A_PercussionVoiceLIII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLIII = {                                                                %! extern
+
     \context Voice = "PercussionVoiceLIII"                                     %! ScoreTemplate
     \A_PercussionVoiceLIII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -7221,13 +7737,17 @@ A_PercussionVoiceLIV_a = {                                                     %
 
 
 A_PercussionVoiceLIV = {                                                       %! extern
+
     \A_PercussionVoiceLIV_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLIV = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceLIV"                                      %! ScoreTemplate
     \A_PercussionVoiceLIV                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -7306,13 +7826,17 @@ A_PercussionVoiceLV_a = {                                                      %
 
 
 A_PercussionVoiceLV = {                                                        %! extern
+
     \A_PercussionVoiceLV_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLV = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceLV"                                       %! ScoreTemplate
     \A_PercussionVoiceLV                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -7391,13 +7915,17 @@ A_PercussionVoiceLVI_a = {                                                     %
 
 
 A_PercussionVoiceLVI = {                                                       %! extern
+
     \A_PercussionVoiceLVI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLVI = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceLVI"                                      %! ScoreTemplate
     \A_PercussionVoiceLVI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -7476,13 +8004,17 @@ A_PercussionVoiceLVII_a = {                                                    %
 
 
 A_PercussionVoiceLVII = {                                                      %! extern
+
     \A_PercussionVoiceLVII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLVII = {                                                                %! extern
+
     \context Voice = "PercussionVoiceLVII"                                     %! ScoreTemplate
     \A_PercussionVoiceLVII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -7561,13 +8093,17 @@ A_PercussionVoiceLVIII_a = {                                                   %
 
 
 A_PercussionVoiceLVIII = {                                                     %! extern
+
     \A_PercussionVoiceLVIII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLVIII = {                                                               %! extern
+
     \context Voice = "PercussionVoiceLVIII"                                    %! ScoreTemplate
     \A_PercussionVoiceLVIII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -7646,13 +8182,17 @@ A_PercussionVoiceLIX_a = {                                                     %
 
 
 A_PercussionVoiceLIX = {                                                       %! extern
+
     \A_PercussionVoiceLIX_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLIX = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceLIX"                                      %! ScoreTemplate
     \A_PercussionVoiceLIX                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -7731,13 +8271,17 @@ A_PercussionVoiceLX_a = {                                                      %
 
 
 A_PercussionVoiceLX = {                                                        %! extern
+
     \A_PercussionVoiceLX_a                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLX = {                                                                  %! extern
+
     \context Voice = "PercussionVoiceLX"                                       %! ScoreTemplate
     \A_PercussionVoiceLX                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -7816,13 +8360,17 @@ A_PercussionVoiceLXI_a = {                                                     %
 
 
 A_PercussionVoiceLXI = {                                                       %! extern
+
     \A_PercussionVoiceLXI_a                                                    %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLXI = {                                                                 %! extern
+
     \context Voice = "PercussionVoiceLXI"                                      %! ScoreTemplate
     \A_PercussionVoiceLXI                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -7901,13 +8449,17 @@ A_PercussionVoiceLXII_a = {                                                    %
 
 
 A_PercussionVoiceLXII = {                                                      %! extern
+
     \A_PercussionVoiceLXII_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLXII = {                                                                %! extern
+
     \context Voice = "PercussionVoiceLXII"                                     %! ScoreTemplate
     \A_PercussionVoiceLXII                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -7986,13 +8538,17 @@ A_PercussionVoiceLXIII_a = {                                                   %
 
 
 A_PercussionVoiceLXIII = {                                                     %! extern
+
     \A_PercussionVoiceLXIII_a                                                  %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLXIII = {                                                               %! extern
+
     \context Voice = "PercussionVoiceLXIII"                                    %! ScoreTemplate
     \A_PercussionVoiceLXIII                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -8071,11 +8627,15 @@ A_PercussionVoiceLXIV_a = {                                                    %
 
 
 A_PercussionVoiceLXIV = {                                                      %! extern
+
     \A_PercussionVoiceLXIV_a                                                   %! extern
+
 }                                                                              %! extern
 
 
 A_StaffLXIV = {                                                                %! extern
+
     \context Voice = "PercussionVoiceLXIV"                                     %! ScoreTemplate
     \A_PercussionVoiceLXIV                                                     %! extern
+
 }                                                                              %! extern
