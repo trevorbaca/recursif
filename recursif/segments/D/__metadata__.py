@@ -10,135 +10,135 @@ metadata = abjad.OrderedDict(
                 'GlobalContext',
                 'GlobalSkips',
                 'MusicContext',
-                'StaffGroup',
-                'StaffI',
-                'PercussionVoiceI',
-                'StaffII',
-                'PercussionVoiceII',
-                'StaffIII',
-                'PercussionVoiceIII',
-                'StaffIV',
-                'PercussionVoiceIV',
-                'StaffV',
-                'PercussionVoiceV',
-                'StaffVI',
-                'PercussionVoiceVI',
-                'StaffVII',
-                'PercussionVoiceVII',
-                'StaffVIII',
-                'PercussionVoiceVIII',
-                'StaffIX',
-                'PercussionVoiceIX',
-                'StaffX',
-                'PercussionVoiceX',
-                'StaffXI',
-                'PercussionVoiceXI',
-                'StaffXII',
-                'PercussionVoiceXII',
-                'StaffXIII',
-                'PercussionVoiceXIII',
-                'StaffXIV',
-                'PercussionVoiceXIV',
-                'StaffXV',
-                'PercussionVoiceXV',
-                'StaffXVI',
-                'PercussionVoiceXVI',
-                'StaffXVII',
-                'PercussionVoiceXVII',
-                'StaffXVIII',
-                'PercussionVoiceXVIII',
-                'StaffXIX',
-                'PercussionVoiceXIX',
-                'StaffXX',
-                'PercussionVoiceXX',
-                'StaffXXI',
-                'PercussionVoiceXXI',
-                'StaffXXII',
-                'PercussionVoiceXXII',
-                'StaffXXIII',
-                'PercussionVoiceXXIII',
-                'StaffXXIV',
-                'PercussionVoiceXXIV',
-                'StaffXXV',
-                'PercussionVoiceXXV',
-                'StaffXXVI',
-                'PercussionVoiceXXVI',
-                'StaffXXVII',
-                'PercussionVoiceXXVII',
-                'StaffXXVIII',
-                'PercussionVoiceXXVIII',
-                'StaffXXIX',
-                'PercussionVoiceXXIX',
-                'StaffXXX',
-                'PercussionVoiceXXX',
-                'StaffXXXI',
-                'PercussionVoiceXXXI',
-                'StaffXXXII',
-                'PercussionVoiceXXXII',
-                'StaffXXXIII',
-                'PercussionVoiceXXXIII',
-                'StaffXXXIV',
-                'PercussionVoiceXXXIV',
-                'StaffXXXV',
-                'PercussionVoiceXXXV',
-                'StaffXXXVI',
-                'PercussionVoiceXXXVI',
-                'StaffXXXVII',
-                'PercussionVoiceXXXVII',
-                'StaffXXXVIII',
-                'PercussionVoiceXXXVIII',
-                'StaffXXXIX',
-                'PercussionVoiceXXXIX',
-                'StaffXL',
-                'PercussionVoiceXL',
-                'StaffXLI',
-                'PercussionVoiceXLI',
-                'StaffXLII',
-                'PercussionVoiceXLII',
-                'StaffXLIII',
-                'PercussionVoiceXLIII',
-                'StaffXLIV',
-                'PercussionVoiceXLIV',
-                'StaffXLV',
-                'PercussionVoiceXLV',
-                'StaffXLVI',
-                'PercussionVoiceXLVI',
-                'StaffXLVII',
-                'PercussionVoiceXLVII',
-                'StaffXLVIII',
-                'PercussionVoiceXLVIII',
-                'StaffXLIX',
-                'PercussionVoiceXLIX',
-                'StaffL',
-                'PercussionVoiceL',
-                'StaffLI',
-                'PercussionVoiceLI',
-                'StaffLII',
-                'PercussionVoiceLII',
-                'StaffLIII',
-                'PercussionVoiceLIII',
-                'StaffLIV',
-                'PercussionVoiceLIV',
-                'StaffLV',
-                'PercussionVoiceLV',
-                'StaffLVI',
-                'PercussionVoiceLVI',
-                'StaffLVII',
-                'PercussionVoiceLVII',
-                'StaffLVIII',
-                'PercussionVoiceLVIII',
-                'StaffLIX',
-                'PercussionVoiceLIX',
-                'StaffLX',
-                'PercussionVoiceLX',
-                'StaffLXI',
-                'PercussionVoiceLXI',
-                'StaffLXII',
-                'PercussionVoiceLXII',
-                'StaffLXIII',
-                'PercussionVoiceLXIII',
-                'StaffLXIV',
-                'PercussionVoiceLXIV',
+                'Staff_Group',
+                'Staff_I',
+                'Percussion_Voice_I',
+                'Staff_II',
+                'Percussion_Voice_II',
+                'Staff_III',
+                'Percussion_Voice_III',
+                'Staff_IV',
+                'Percussion_Voice_IV',
+                'Staff_V',
+                'Percussion_Voice_V',
+                'Staff_VI',
+                'Percussion_Voice_VI',
+                'Staff_VII',
+                'Percussion_Voice_VII',
+                'Staff_VIII',
+                'Percussion_Voice_VIII',
+                'Staff_IX',
+                'Percussion_Voice_IX',
+                'Staff_X',
+                'Percussion_Voice_X',
+                'Staff_XI',
+                'Percussion_Voice_XI',
+                'Staff_XII',
+                'Percussion_Voice_XII',
+                'Staff_XIII',
+                'Percussion_Voice_XIII',
+                'Staff_XIV',
+                'Percussion_Voice_XIV',
+                'Staff_XV',
+                'Percussion_Voice_XV',
+                'Staff_XVI',
+                'Percussion_Voice_XVI',
+                'Staff_XVII',
+                'Percussion_Voice_XVII',
+                'Staff_XVIII',
+                'Percussion_Voice_XVIII',
+                'Staff_XIX',
+                'Percussion_Voice_XIX',
+                'Staff_XX',
+                'Percussion_Voice_XX',
+                'Staff_XXI',
+                'Percussion_Voice_XXI',
+                'Staff_XXII',
+                'Percussion_Voice_XXII',
+                'Staff_XXIII',
+                'Percussion_Voice_XXIII',
+                'Staff_XXIV',
+                'Percussion_Voice_XXIV',
+                'Staff_XXV',
+                'Percussion_Voice_XXV',
+                'Staff_XXVI',
+                'Percussion_Voice_XXVI',
+                'Staff_XXVII',
+                'Percussion_Voice_XXVII',
+                'Staff_XXVIII',
+                'Percussion_Voice_XXVIII',
+                'Staff_XXIX',
+                'Percussion_Voice_XXIX',
+                'Staff_XXX',
+                'Percussion_Voice_XXX',
+                'Staff_XXXI',
+                'Percussion_Voice_XXXI',
+                'Staff_XXXII',
+                'Percussion_Voice_XXXII',
+                'Staff_XXXIII',
+                'Percussion_Voice_XXXIII',
+                'Staff_XXXIV',
+                'Percussion_Voice_XXXIV',
+                'Staff_XXXV',
+                'Percussion_Voice_XXXV',
+                'Staff_XXXVI',
+                'Percussion_Voice_XXXVI',
+                'Staff_XXXVII',
+                'Percussion_Voice_XXXVII',
+                'Staff_XXXVIII',
+                'Percussion_Voice_XXXVIII',
+                'Staff_XXXIX',
+                'Percussion_Voice_XXXIX',
+                'Staff_XL',
+                'Percussion_Voice_XL',
+                'Staff_XLI',
+                'Percussion_Voice_XLI',
+                'Staff_XLII',
+                'Percussion_Voice_XLII',
+                'Staff_XLIII',
+                'Percussion_Voice_XLIII',
+                'Staff_XLIV',
+                'Percussion_Voice_XLIV',
+                'Staff_XLV',
+                'Percussion_Voice_XLV',
+                'Staff_XLVI',
+                'Percussion_Voice_XLVI',
+                'Staff_XLVII',
+                'Percussion_Voice_XLVII',
+                'Staff_XLVIII',
+                'Percussion_Voice_XLVIII',
+                'Staff_XLIX',
+                'Percussion_Voice_XLIX',
+                'Staff_L',
+                'Percussion_Voice_L',
+                'Staff_LI',
+                'Percussion_Voice_LI',
+                'Staff_LII',
+                'Percussion_Voice_LII',
+                'Staff_LIII',
+                'Percussion_Voice_LIII',
+                'Staff_LIV',
+                'Percussion_Voice_LIV',
+                'Staff_LV',
+                'Percussion_Voice_LV',
+                'Staff_LVI',
+                'Percussion_Voice_LVI',
+                'Staff_LVII',
+                'Percussion_Voice_LVII',
+                'Staff_LVIII',
+                'Percussion_Voice_LVIII',
+                'Staff_LIX',
+                'Percussion_Voice_LIX',
+                'Staff_LX',
+                'Percussion_Voice_LX',
+                'Staff_LXI',
+                'Percussion_Voice_LXI',
+                'Staff_LXII',
+                'Percussion_Voice_LXII',
+                'Staff_LXIII',
+                'Percussion_Voice_LXIII',
+                'Staff_LXIV',
+                'Percussion_Voice_LXIV',
                 ],
             ),
         (
@@ -146,7 +146,7 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'D_PercussionVoiceIII_a',
+                        'D_Percussion_Voice_III_a',
                         (
                             abjad.PartAssignment('Percussion', 3),
                             abjad.Timespan(
@@ -156,7 +156,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceII_a',
+                        'D_Percussion_Voice_II_a',
                         (
                             abjad.PartAssignment('Percussion', 2),
                             abjad.Timespan(
@@ -166,7 +166,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceIV_a',
+                        'D_Percussion_Voice_IV_a',
                         (
                             abjad.PartAssignment('Percussion', 4),
                             abjad.Timespan(
@@ -176,7 +176,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceIX_a',
+                        'D_Percussion_Voice_IX_a',
                         (
                             abjad.PartAssignment('Percussion', 9),
                             abjad.Timespan(
@@ -186,7 +186,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceI_a',
+                        'D_Percussion_Voice_I_a',
                         (
                             abjad.PartAssignment('Percussion', 1),
                             abjad.Timespan(
@@ -196,7 +196,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLIII_a',
+                        'D_Percussion_Voice_LIII_a',
                         (
                             abjad.PartAssignment('Percussion', 53),
                             abjad.Timespan(
@@ -206,7 +206,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLII_a',
+                        'D_Percussion_Voice_LII_a',
                         (
                             abjad.PartAssignment('Percussion', 52),
                             abjad.Timespan(
@@ -216,7 +216,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLIV_a',
+                        'D_Percussion_Voice_LIV_a',
                         (
                             abjad.PartAssignment('Percussion', 54),
                             abjad.Timespan(
@@ -226,7 +226,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLIX_a',
+                        'D_Percussion_Voice_LIX_a',
                         (
                             abjad.PartAssignment('Percussion', 59),
                             abjad.Timespan(
@@ -236,7 +236,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLI_a',
+                        'D_Percussion_Voice_LI_a',
                         (
                             abjad.PartAssignment('Percussion', 51),
                             abjad.Timespan(
@@ -246,7 +246,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLVIII_a',
+                        'D_Percussion_Voice_LVIII_a',
                         (
                             abjad.PartAssignment('Percussion', 58),
                             abjad.Timespan(
@@ -256,7 +256,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLVII_a',
+                        'D_Percussion_Voice_LVII_a',
                         (
                             abjad.PartAssignment('Percussion', 57),
                             abjad.Timespan(
@@ -266,7 +266,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLVI_a',
+                        'D_Percussion_Voice_LVI_a',
                         (
                             abjad.PartAssignment('Percussion', 56),
                             abjad.Timespan(
@@ -276,7 +276,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLV_a',
+                        'D_Percussion_Voice_LV_a',
                         (
                             abjad.PartAssignment('Percussion', 55),
                             abjad.Timespan(
@@ -286,7 +286,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLXIII_a',
+                        'D_Percussion_Voice_LXIII_a',
                         (
                             abjad.PartAssignment('Percussion', 63),
                             abjad.Timespan(
@@ -296,7 +296,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLXII_a',
+                        'D_Percussion_Voice_LXII_a',
                         (
                             abjad.PartAssignment('Percussion', 62),
                             abjad.Timespan(
@@ -306,7 +306,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLXIV_a',
+                        'D_Percussion_Voice_LXIV_a',
                         (
                             abjad.PartAssignment('Percussion', 64),
                             abjad.Timespan(
@@ -316,7 +316,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLXI_a',
+                        'D_Percussion_Voice_LXI_a',
                         (
                             abjad.PartAssignment('Percussion', 61),
                             abjad.Timespan(
@@ -326,7 +326,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceLX_a',
+                        'D_Percussion_Voice_LX_a',
                         (
                             abjad.PartAssignment('Percussion', 60),
                             abjad.Timespan(
@@ -336,7 +336,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceL_a',
+                        'D_Percussion_Voice_L_a',
                         (
                             abjad.PartAssignment('Percussion', 50),
                             abjad.Timespan(
@@ -346,7 +346,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceVIII_a',
+                        'D_Percussion_Voice_VIII_a',
                         (
                             abjad.PartAssignment('Percussion', 8),
                             abjad.Timespan(
@@ -356,7 +356,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceVII_a',
+                        'D_Percussion_Voice_VII_a',
                         (
                             abjad.PartAssignment('Percussion', 7),
                             abjad.Timespan(
@@ -366,7 +366,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceVI_a',
+                        'D_Percussion_Voice_VI_a',
                         (
                             abjad.PartAssignment('Percussion', 6),
                             abjad.Timespan(
@@ -376,7 +376,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceV_a',
+                        'D_Percussion_Voice_V_a',
                         (
                             abjad.PartAssignment('Percussion', 5),
                             abjad.Timespan(
@@ -386,7 +386,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXIII_a',
+                        'D_Percussion_Voice_XIII_a',
                         (
                             abjad.PartAssignment('Percussion', 13),
                             abjad.Timespan(
@@ -396,7 +396,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXII_a',
+                        'D_Percussion_Voice_XII_a',
                         (
                             abjad.PartAssignment('Percussion', 12),
                             abjad.Timespan(
@@ -406,7 +406,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXIV_a',
+                        'D_Percussion_Voice_XIV_a',
                         (
                             abjad.PartAssignment('Percussion', 14),
                             abjad.Timespan(
@@ -416,7 +416,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXIX_a',
+                        'D_Percussion_Voice_XIX_a',
                         (
                             abjad.PartAssignment('Percussion', 19),
                             abjad.Timespan(
@@ -426,7 +426,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXI_a',
+                        'D_Percussion_Voice_XI_a',
                         (
                             abjad.PartAssignment('Percussion', 11),
                             abjad.Timespan(
@@ -436,7 +436,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLIII_a',
+                        'D_Percussion_Voice_XLIII_a',
                         (
                             abjad.PartAssignment('Percussion', 43),
                             abjad.Timespan(
@@ -446,7 +446,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLII_a',
+                        'D_Percussion_Voice_XLII_a',
                         (
                             abjad.PartAssignment('Percussion', 42),
                             abjad.Timespan(
@@ -456,7 +456,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLIV_a',
+                        'D_Percussion_Voice_XLIV_a',
                         (
                             abjad.PartAssignment('Percussion', 44),
                             abjad.Timespan(
@@ -466,7 +466,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLIX_a',
+                        'D_Percussion_Voice_XLIX_a',
                         (
                             abjad.PartAssignment('Percussion', 49),
                             abjad.Timespan(
@@ -476,7 +476,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLI_a',
+                        'D_Percussion_Voice_XLI_a',
                         (
                             abjad.PartAssignment('Percussion', 41),
                             abjad.Timespan(
@@ -486,7 +486,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLVIII_a',
+                        'D_Percussion_Voice_XLVIII_a',
                         (
                             abjad.PartAssignment('Percussion', 48),
                             abjad.Timespan(
@@ -496,7 +496,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLVII_a',
+                        'D_Percussion_Voice_XLVII_a',
                         (
                             abjad.PartAssignment('Percussion', 47),
                             abjad.Timespan(
@@ -506,7 +506,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLVI_a',
+                        'D_Percussion_Voice_XLVI_a',
                         (
                             abjad.PartAssignment('Percussion', 46),
                             abjad.Timespan(
@@ -516,7 +516,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXLV_a',
+                        'D_Percussion_Voice_XLV_a',
                         (
                             abjad.PartAssignment('Percussion', 45),
                             abjad.Timespan(
@@ -526,7 +526,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXL_a',
+                        'D_Percussion_Voice_XL_a',
                         (
                             abjad.PartAssignment('Percussion', 40),
                             abjad.Timespan(
@@ -536,7 +536,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXVIII_a',
+                        'D_Percussion_Voice_XVIII_a',
                         (
                             abjad.PartAssignment('Percussion', 18),
                             abjad.Timespan(
@@ -546,7 +546,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXVII_a',
+                        'D_Percussion_Voice_XVII_a',
                         (
                             abjad.PartAssignment('Percussion', 17),
                             abjad.Timespan(
@@ -556,7 +556,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXVI_a',
+                        'D_Percussion_Voice_XVI_a',
                         (
                             abjad.PartAssignment('Percussion', 16),
                             abjad.Timespan(
@@ -566,7 +566,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXV_a',
+                        'D_Percussion_Voice_XV_a',
                         (
                             abjad.PartAssignment('Percussion', 15),
                             abjad.Timespan(
@@ -576,7 +576,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXIII_a',
+                        'D_Percussion_Voice_XXIII_a',
                         (
                             abjad.PartAssignment('Percussion', 23),
                             abjad.Timespan(
@@ -586,7 +586,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXII_a',
+                        'D_Percussion_Voice_XXII_a',
                         (
                             abjad.PartAssignment('Percussion', 22),
                             abjad.Timespan(
@@ -596,7 +596,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXIV_a',
+                        'D_Percussion_Voice_XXIV_a',
                         (
                             abjad.PartAssignment('Percussion', 24),
                             abjad.Timespan(
@@ -606,7 +606,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXIX_a',
+                        'D_Percussion_Voice_XXIX_a',
                         (
                             abjad.PartAssignment('Percussion', 29),
                             abjad.Timespan(
@@ -616,7 +616,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXI_a',
+                        'D_Percussion_Voice_XXI_a',
                         (
                             abjad.PartAssignment('Percussion', 21),
                             abjad.Timespan(
@@ -626,7 +626,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXVIII_a',
+                        'D_Percussion_Voice_XXVIII_a',
                         (
                             abjad.PartAssignment('Percussion', 28),
                             abjad.Timespan(
@@ -636,7 +636,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXVII_a',
+                        'D_Percussion_Voice_XXVII_a',
                         (
                             abjad.PartAssignment('Percussion', 27),
                             abjad.Timespan(
@@ -646,7 +646,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXVI_a',
+                        'D_Percussion_Voice_XXVI_a',
                         (
                             abjad.PartAssignment('Percussion', 26),
                             abjad.Timespan(
@@ -656,7 +656,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXV_a',
+                        'D_Percussion_Voice_XXV_a',
                         (
                             abjad.PartAssignment('Percussion', 25),
                             abjad.Timespan(
@@ -666,7 +666,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXIII_a',
+                        'D_Percussion_Voice_XXXIII_a',
                         (
                             abjad.PartAssignment('Percussion', 33),
                             abjad.Timespan(
@@ -676,7 +676,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXII_a',
+                        'D_Percussion_Voice_XXXII_a',
                         (
                             abjad.PartAssignment('Percussion', 32),
                             abjad.Timespan(
@@ -686,7 +686,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXIV_a',
+                        'D_Percussion_Voice_XXXIV_a',
                         (
                             abjad.PartAssignment('Percussion', 34),
                             abjad.Timespan(
@@ -696,7 +696,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXIX_a',
+                        'D_Percussion_Voice_XXXIX_a',
                         (
                             abjad.PartAssignment('Percussion', 39),
                             abjad.Timespan(
@@ -706,7 +706,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXI_a',
+                        'D_Percussion_Voice_XXXI_a',
                         (
                             abjad.PartAssignment('Percussion', 31),
                             abjad.Timespan(
@@ -716,7 +716,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXVIII_a',
+                        'D_Percussion_Voice_XXXVIII_a',
                         (
                             abjad.PartAssignment('Percussion', 38),
                             abjad.Timespan(
@@ -726,7 +726,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXVII_a',
+                        'D_Percussion_Voice_XXXVII_a',
                         (
                             abjad.PartAssignment('Percussion', 37),
                             abjad.Timespan(
@@ -736,7 +736,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXVI_a',
+                        'D_Percussion_Voice_XXXVI_a',
                         (
                             abjad.PartAssignment('Percussion', 36),
                             abjad.Timespan(
@@ -746,7 +746,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXXV_a',
+                        'D_Percussion_Voice_XXXV_a',
                         (
                             abjad.PartAssignment('Percussion', 35),
                             abjad.Timespan(
@@ -756,7 +756,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXXX_a',
+                        'D_Percussion_Voice_XXX_a',
                         (
                             abjad.PartAssignment('Percussion', 30),
                             abjad.Timespan(
@@ -766,7 +766,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceXX_a',
+                        'D_Percussion_Voice_XX_a',
                         (
                             abjad.PartAssignment('Percussion', 20),
                             abjad.Timespan(
@@ -776,7 +776,7 @@ metadata = abjad.OrderedDict(
                             ),
                         ),
                     (
-                        'D_PercussionVoiceX_a',
+                        'D_Percussion_Voice_X_a',
                         (
                             abjad.PartAssignment('Percussion', 10),
                             abjad.Timespan(
@@ -811,1344 +811,1344 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
-                        'StaffI',
+                        'Staff_I',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='1',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceI',
+                                context='Percussion_Voice_I',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffII',
+                        'Staff_II',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='2',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceII',
+                                context='Percussion_Voice_II',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffIII',
+                        'Staff_III',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceIII',
+                                context='Percussion_Voice_III',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='3',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIII',
+                                context='Percussion_Voice_III',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIII',
+                                context='Percussion_Voice_III',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffIV',
+                        'Staff_IV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceIV',
+                                context='Percussion_Voice_IV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='4',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIV',
+                                context='Percussion_Voice_IV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIV',
+                                context='Percussion_Voice_IV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffIX',
+                        'Staff_IX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceIX',
+                                context='Percussion_Voice_IX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='9',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIX',
+                                context='Percussion_Voice_IX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceIX',
+                                context='Percussion_Voice_IX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffL',
+                        'Staff_L',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceL',
+                                context='Percussion_Voice_L',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='50',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceL',
+                                context='Percussion_Voice_L',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceL',
+                                context='Percussion_Voice_L',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLI',
+                        'Staff_LI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLI',
+                                context='Percussion_Voice_LI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='51',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLI',
+                                context='Percussion_Voice_LI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLI',
+                                context='Percussion_Voice_LI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLII',
+                        'Staff_LII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLII',
+                                context='Percussion_Voice_LII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='52',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLII',
+                                context='Percussion_Voice_LII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLII',
+                                context='Percussion_Voice_LII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLIII',
+                        'Staff_LIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLIII',
+                                context='Percussion_Voice_LIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='53',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLIII',
+                                context='Percussion_Voice_LIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLIII',
+                                context='Percussion_Voice_LIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLIV',
+                        'Staff_LIV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLIV',
+                                context='Percussion_Voice_LIV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='54',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLIV',
+                                context='Percussion_Voice_LIV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLIV',
+                                context='Percussion_Voice_LIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLIX',
+                        'Staff_LIX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLIX',
+                                context='Percussion_Voice_LIX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='59',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLIX',
+                                context='Percussion_Voice_LIX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLIX',
+                                context='Percussion_Voice_LIX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLV',
+                        'Staff_LV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLV',
+                                context='Percussion_Voice_LV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='55',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLV',
+                                context='Percussion_Voice_LV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLV',
+                                context='Percussion_Voice_LV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLVI',
+                        'Staff_LVI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLVI',
+                                context='Percussion_Voice_LVI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='56',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLVI',
+                                context='Percussion_Voice_LVI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLVI',
+                                context='Percussion_Voice_LVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLVII',
+                        'Staff_LVII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLVII',
+                                context='Percussion_Voice_LVII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='57',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLVII',
+                                context='Percussion_Voice_LVII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLVII',
+                                context='Percussion_Voice_LVII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLVIII',
+                        'Staff_LVIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLVIII',
+                                context='Percussion_Voice_LVIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='58',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLVIII',
+                                context='Percussion_Voice_LVIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLVIII',
+                                context='Percussion_Voice_LVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLX',
+                        'Staff_LX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLX',
+                                context='Percussion_Voice_LX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='60',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLX',
+                                context='Percussion_Voice_LX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLX',
+                                context='Percussion_Voice_LX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLXI',
+                        'Staff_LXI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLXI',
+                                context='Percussion_Voice_LXI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='61',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLXI',
+                                context='Percussion_Voice_LXI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLXI',
+                                context='Percussion_Voice_LXI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLXII',
+                        'Staff_LXII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLXII',
+                                context='Percussion_Voice_LXII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='62',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLXII',
+                                context='Percussion_Voice_LXII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLXII',
+                                context='Percussion_Voice_LXII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLXIII',
+                        'Staff_LXIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLXIII',
+                                context='Percussion_Voice_LXIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='63',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLXIII',
+                                context='Percussion_Voice_LXIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLXIII',
+                                context='Percussion_Voice_LXIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffLXIV',
+                        'Staff_LXIV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceLXIV',
+                                context='Percussion_Voice_LXIV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='64',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLXIV',
+                                context='Percussion_Voice_LXIV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceLXIV',
+                                context='Percussion_Voice_LXIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffV',
+                        'Staff_V',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceV',
+                                context='Percussion_Voice_V',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='5',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceV',
+                                context='Percussion_Voice_V',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceV',
+                                context='Percussion_Voice_V',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffVI',
+                        'Staff_VI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceVI',
+                                context='Percussion_Voice_VI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='6',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceVI',
+                                context='Percussion_Voice_VI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceVI',
+                                context='Percussion_Voice_VI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffVII',
+                        'Staff_VII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceVII',
+                                context='Percussion_Voice_VII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='7',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceVII',
+                                context='Percussion_Voice_VII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceVII',
+                                context='Percussion_Voice_VII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffVIII',
+                        'Staff_VIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceVIII',
+                                context='Percussion_Voice_VIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='8',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceVIII',
+                                context='Percussion_Voice_VIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceVIII',
+                                context='Percussion_Voice_VIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffX',
+                        'Staff_X',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceX',
+                                context='Percussion_Voice_X',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='10',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceX',
+                                context='Percussion_Voice_X',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceX',
+                                context='Percussion_Voice_X',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXI',
+                        'Staff_XI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXI',
+                                context='Percussion_Voice_XI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='11',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXI',
+                                context='Percussion_Voice_XI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXI',
+                                context='Percussion_Voice_XI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXII',
+                        'Staff_XII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXII',
+                                context='Percussion_Voice_XII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='12',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXII',
+                                context='Percussion_Voice_XII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXII',
+                                context='Percussion_Voice_XII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXIII',
+                        'Staff_XIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXIII',
+                                context='Percussion_Voice_XIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='13',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXIII',
+                                context='Percussion_Voice_XIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXIII',
+                                context='Percussion_Voice_XIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXIV',
+                        'Staff_XIV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXIV',
+                                context='Percussion_Voice_XIV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='14',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXIV',
+                                context='Percussion_Voice_XIV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXIV',
+                                context='Percussion_Voice_XIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXIX',
+                        'Staff_XIX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXIX',
+                                context='Percussion_Voice_XIX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='19',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXIX',
+                                context='Percussion_Voice_XIX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXIX',
+                                context='Percussion_Voice_XIX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXL',
+                        'Staff_XL',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXL',
+                                context='Percussion_Voice_XL',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='40',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXL',
+                                context='Percussion_Voice_XL',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXL',
+                                context='Percussion_Voice_XL',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLI',
+                        'Staff_XLI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLI',
+                                context='Percussion_Voice_XLI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='41',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLI',
+                                context='Percussion_Voice_XLI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLI',
+                                context='Percussion_Voice_XLI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLII',
+                        'Staff_XLII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLII',
+                                context='Percussion_Voice_XLII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='42',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLII',
+                                context='Percussion_Voice_XLII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLII',
+                                context='Percussion_Voice_XLII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLIII',
+                        'Staff_XLIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLIII',
+                                context='Percussion_Voice_XLIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='43',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLIII',
+                                context='Percussion_Voice_XLIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLIII',
+                                context='Percussion_Voice_XLIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLIV',
+                        'Staff_XLIV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLIV',
+                                context='Percussion_Voice_XLIV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='44',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLIV',
+                                context='Percussion_Voice_XLIV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLIV',
+                                context='Percussion_Voice_XLIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLIX',
+                        'Staff_XLIX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLIX',
+                                context='Percussion_Voice_XLIX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='49',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLIX',
+                                context='Percussion_Voice_XLIX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLIX',
+                                context='Percussion_Voice_XLIX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLV',
+                        'Staff_XLV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLV',
+                                context='Percussion_Voice_XLV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='45',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLV',
+                                context='Percussion_Voice_XLV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLV',
+                                context='Percussion_Voice_XLV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLVI',
+                        'Staff_XLVI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLVI',
+                                context='Percussion_Voice_XLVI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='46',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLVI',
+                                context='Percussion_Voice_XLVI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLVI',
+                                context='Percussion_Voice_XLVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLVII',
+                        'Staff_XLVII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLVII',
+                                context='Percussion_Voice_XLVII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='47',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLVII',
+                                context='Percussion_Voice_XLVII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLVII',
+                                context='Percussion_Voice_XLVII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXLVIII',
+                        'Staff_XLVIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXLVIII',
+                                context='Percussion_Voice_XLVIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='48',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLVIII',
+                                context='Percussion_Voice_XLVIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXLVIII',
+                                context='Percussion_Voice_XLVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXV',
+                        'Staff_XV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXV',
+                                context='Percussion_Voice_XV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='15',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXV',
+                                context='Percussion_Voice_XV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXV',
+                                context='Percussion_Voice_XV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXVI',
+                        'Staff_XVI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXVI',
+                                context='Percussion_Voice_XVI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='16',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXVI',
+                                context='Percussion_Voice_XVI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXVI',
+                                context='Percussion_Voice_XVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXVII',
+                        'Staff_XVII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXVII',
+                                context='Percussion_Voice_XVII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='17',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXVII',
+                                context='Percussion_Voice_XVII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXVII',
+                                context='Percussion_Voice_XVII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXVIII',
+                        'Staff_XVIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXVIII',
+                                context='Percussion_Voice_XVIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='18',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXVIII',
+                                context='Percussion_Voice_XVIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXVIII',
+                                context='Percussion_Voice_XVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXX',
+                        'Staff_XX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXX',
+                                context='Percussion_Voice_XX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='20',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXX',
+                                context='Percussion_Voice_XX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXX',
+                                context='Percussion_Voice_XX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXI',
+                        'Staff_XXI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXI',
+                                context='Percussion_Voice_XXI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='21',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXI',
+                                context='Percussion_Voice_XXI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXI',
+                                context='Percussion_Voice_XXI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXII',
+                        'Staff_XXII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXII',
+                                context='Percussion_Voice_XXII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='22',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXII',
+                                context='Percussion_Voice_XXII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXII',
+                                context='Percussion_Voice_XXII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXIII',
+                        'Staff_XXIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXIII',
+                                context='Percussion_Voice_XXIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='23',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXIII',
+                                context='Percussion_Voice_XXIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXIII',
+                                context='Percussion_Voice_XXIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXIV',
+                        'Staff_XXIV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXIV',
+                                context='Percussion_Voice_XXIV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='24',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXIV',
+                                context='Percussion_Voice_XXIV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXIV',
+                                context='Percussion_Voice_XXIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXIX',
+                        'Staff_XXIX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXIX',
+                                context='Percussion_Voice_XXIX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='29',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXIX',
+                                context='Percussion_Voice_XXIX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXIX',
+                                context='Percussion_Voice_XXIX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXV',
+                        'Staff_XXV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXV',
+                                context='Percussion_Voice_XXV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='25',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXV',
+                                context='Percussion_Voice_XXV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXV',
+                                context='Percussion_Voice_XXV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXVI',
+                        'Staff_XXVI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXVI',
+                                context='Percussion_Voice_XXVI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='26',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXVI',
+                                context='Percussion_Voice_XXVI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXVI',
+                                context='Percussion_Voice_XXVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXVII',
+                        'Staff_XXVII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXVII',
+                                context='Percussion_Voice_XXVII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='27',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXVII',
+                                context='Percussion_Voice_XXVII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXVII',
+                                context='Percussion_Voice_XXVII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXVIII',
+                        'Staff_XXVIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXVIII',
+                                context='Percussion_Voice_XXVIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='28',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXVIII',
+                                context='Percussion_Voice_XXVIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXVIII',
+                                context='Percussion_Voice_XXVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXX',
+                        'Staff_XXX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXX',
+                                context='Percussion_Voice_XXX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='30',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXX',
+                                context='Percussion_Voice_XXX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXX',
+                                context='Percussion_Voice_XXX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXI',
+                        'Staff_XXXI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXI',
+                                context='Percussion_Voice_XXXI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='31',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXI',
+                                context='Percussion_Voice_XXXI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXI',
+                                context='Percussion_Voice_XXXI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXII',
+                        'Staff_XXXII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXII',
+                                context='Percussion_Voice_XXXII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='32',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXII',
+                                context='Percussion_Voice_XXXII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXII',
+                                context='Percussion_Voice_XXXII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXIII',
+                        'Staff_XXXIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXIII',
+                                context='Percussion_Voice_XXXIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='33',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXIII',
+                                context='Percussion_Voice_XXXIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXIII',
+                                context='Percussion_Voice_XXXIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXIV',
+                        'Staff_XXXIV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXIV',
+                                context='Percussion_Voice_XXXIV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='34',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXIV',
+                                context='Percussion_Voice_XXXIV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXIV',
+                                context='Percussion_Voice_XXXIV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXIX',
+                        'Staff_XXXIX',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXIX',
+                                context='Percussion_Voice_XXXIX',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='39',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXIX',
+                                context='Percussion_Voice_XXXIX',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXIX',
+                                context='Percussion_Voice_XXXIX',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXV',
+                        'Staff_XXXV',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXV',
+                                context='Percussion_Voice_XXXV',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='35',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXV',
+                                context='Percussion_Voice_XXXV',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXV',
+                                context='Percussion_Voice_XXXV',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXVI',
+                        'Staff_XXXVI',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXVI',
+                                context='Percussion_Voice_XXXVI',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='36',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXVI',
+                                context='Percussion_Voice_XXXVI',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXVI',
+                                context='Percussion_Voice_XXXVI',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXVII',
+                        'Staff_XXXVII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXVII',
+                                context='Percussion_Voice_XXXVII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='37',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXVII',
+                                context='Percussion_Voice_XXXVII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXVII',
+                                context='Percussion_Voice_XXXVII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
                             ],
                         ),
                     (
-                        'StaffXXXVIII',
+                        'Staff_XXXVIII',
                         [
                             abjad.Momento(
-                                context='PercussionVoiceXXXVIII',
+                                context='Percussion_Voice_XXXVIII',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='38',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXVIII',
+                                context='Percussion_Voice_XXXVIII',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
                             abjad.Momento(
-                                context='PercussionVoiceXXXVIII',
+                                context='Percussion_Voice_XXXVIII',
                                 prototype='abjad.Clef',
                                 value='percussion',
                                 ),
@@ -2163,70 +2163,70 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('PercussionVoiceI', True),
-                    ('PercussionVoiceII', True),
-                    ('PercussionVoiceIII', True),
-                    ('PercussionVoiceIV', True),
-                    ('PercussionVoiceIX', True),
-                    ('PercussionVoiceL', True),
-                    ('PercussionVoiceLI', True),
-                    ('PercussionVoiceLII', True),
-                    ('PercussionVoiceLIII', True),
-                    ('PercussionVoiceLIV', True),
-                    ('PercussionVoiceLIX', True),
-                    ('PercussionVoiceLV', True),
-                    ('PercussionVoiceLVI', True),
-                    ('PercussionVoiceLVII', True),
-                    ('PercussionVoiceLVIII', True),
-                    ('PercussionVoiceLX', True),
-                    ('PercussionVoiceLXI', True),
-                    ('PercussionVoiceLXII', True),
-                    ('PercussionVoiceLXIII', True),
-                    ('PercussionVoiceLXIV', True),
-                    ('PercussionVoiceV', True),
-                    ('PercussionVoiceVI', True),
-                    ('PercussionVoiceVII', True),
-                    ('PercussionVoiceVIII', True),
-                    ('PercussionVoiceX', True),
-                    ('PercussionVoiceXI', True),
-                    ('PercussionVoiceXII', True),
-                    ('PercussionVoiceXIII', True),
-                    ('PercussionVoiceXIV', True),
-                    ('PercussionVoiceXIX', True),
-                    ('PercussionVoiceXL', True),
-                    ('PercussionVoiceXLI', True),
-                    ('PercussionVoiceXLII', True),
-                    ('PercussionVoiceXLIII', True),
-                    ('PercussionVoiceXLIV', True),
-                    ('PercussionVoiceXLIX', True),
-                    ('PercussionVoiceXLV', True),
-                    ('PercussionVoiceXLVI', True),
-                    ('PercussionVoiceXLVII', True),
-                    ('PercussionVoiceXLVIII', True),
-                    ('PercussionVoiceXV', True),
-                    ('PercussionVoiceXVI', True),
-                    ('PercussionVoiceXVII', True),
-                    ('PercussionVoiceXVIII', True),
-                    ('PercussionVoiceXX', True),
-                    ('PercussionVoiceXXI', True),
-                    ('PercussionVoiceXXII', True),
-                    ('PercussionVoiceXXIII', True),
-                    ('PercussionVoiceXXIV', True),
-                    ('PercussionVoiceXXIX', True),
-                    ('PercussionVoiceXXV', True),
-                    ('PercussionVoiceXXVI', True),
-                    ('PercussionVoiceXXVII', True),
-                    ('PercussionVoiceXXVIII', True),
-                    ('PercussionVoiceXXX', True),
-                    ('PercussionVoiceXXXI', True),
-                    ('PercussionVoiceXXXII', True),
-                    ('PercussionVoiceXXXIII', True),
-                    ('PercussionVoiceXXXIV', True),
-                    ('PercussionVoiceXXXIX', True),
-                    ('PercussionVoiceXXXV', True),
-                    ('PercussionVoiceXXXVI', True),
-                    ('PercussionVoiceXXXVII', True),
-                    ('PercussionVoiceXXXVIII', True),
+                    ('Percussion_Voice_I', True),
+                    ('Percussion_Voice_II', True),
+                    ('Percussion_Voice_III', True),
+                    ('Percussion_Voice_IV', True),
+                    ('Percussion_Voice_IX', True),
+                    ('Percussion_Voice_L', True),
+                    ('Percussion_Voice_LI', True),
+                    ('Percussion_Voice_LII', True),
+                    ('Percussion_Voice_LIII', True),
+                    ('Percussion_Voice_LIV', True),
+                    ('Percussion_Voice_LIX', True),
+                    ('Percussion_Voice_LV', True),
+                    ('Percussion_Voice_LVI', True),
+                    ('Percussion_Voice_LVII', True),
+                    ('Percussion_Voice_LVIII', True),
+                    ('Percussion_Voice_LX', True),
+                    ('Percussion_Voice_LXI', True),
+                    ('Percussion_Voice_LXII', True),
+                    ('Percussion_Voice_LXIII', True),
+                    ('Percussion_Voice_LXIV', True),
+                    ('Percussion_Voice_V', True),
+                    ('Percussion_Voice_VI', True),
+                    ('Percussion_Voice_VII', True),
+                    ('Percussion_Voice_VIII', True),
+                    ('Percussion_Voice_X', True),
+                    ('Percussion_Voice_XI', True),
+                    ('Percussion_Voice_XII', True),
+                    ('Percussion_Voice_XIII', True),
+                    ('Percussion_Voice_XIV', True),
+                    ('Percussion_Voice_XIX', True),
+                    ('Percussion_Voice_XL', True),
+                    ('Percussion_Voice_XLI', True),
+                    ('Percussion_Voice_XLII', True),
+                    ('Percussion_Voice_XLIII', True),
+                    ('Percussion_Voice_XLIV', True),
+                    ('Percussion_Voice_XLIX', True),
+                    ('Percussion_Voice_XLV', True),
+                    ('Percussion_Voice_XLVI', True),
+                    ('Percussion_Voice_XLVII', True),
+                    ('Percussion_Voice_XLVIII', True),
+                    ('Percussion_Voice_XV', True),
+                    ('Percussion_Voice_XVI', True),
+                    ('Percussion_Voice_XVII', True),
+                    ('Percussion_Voice_XVIII', True),
+                    ('Percussion_Voice_XX', True),
+                    ('Percussion_Voice_XXI', True),
+                    ('Percussion_Voice_XXII', True),
+                    ('Percussion_Voice_XXIII', True),
+                    ('Percussion_Voice_XXIV', True),
+                    ('Percussion_Voice_XXIX', True),
+                    ('Percussion_Voice_XXV', True),
+                    ('Percussion_Voice_XXVI', True),
+                    ('Percussion_Voice_XXVII', True),
+                    ('Percussion_Voice_XXVIII', True),
+                    ('Percussion_Voice_XXX', True),
+                    ('Percussion_Voice_XXXI', True),
+                    ('Percussion_Voice_XXXII', True),
+                    ('Percussion_Voice_XXXIII', True),
+                    ('Percussion_Voice_XXXIV', True),
+                    ('Percussion_Voice_XXXIX', True),
+                    ('Percussion_Voice_XXXV', True),
+                    ('Percussion_Voice_XXXVI', True),
+                    ('Percussion_Voice_XXXVII', True),
+                    ('Percussion_Voice_XXXVIII', True),
                     ]
                 ),
             ),

@@ -143,9 +143,9 @@ K_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-K_PercussionVoiceI_a = {                                                       %! extern
+K_Percussion_Voice_I_a = {                                                     %! extern
 
-    % [K PercussionVoiceI measure 177 / measure 1]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 177 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -169,72 +169,72 @@ K_PercussionVoiceI_a = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceI measure 178 / measure 2]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 178 / measure 2]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 179 / measure 3]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 179 / measure 3]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 180 / measure 4]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 180 / measure 4]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 181 / measure 5]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 181 / measure 5]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 182 / measure 6]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 182 / measure 6]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 183 / measure 7]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 183 / measure 7]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 184 / measure 8]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 184 / measure 8]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 185 / measure 9]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 185 / measure 9]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 186 / measure 10]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 186 / measure 10]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 187 / measure 11]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 187 / measure 11]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 188 / measure 12]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 188 / measure 12]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 189 / measure 13]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 189 / measure 13]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 190 / measure 14]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 190 / measure 14]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 191 / measure 15]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 191 / measure 15]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceI measure 192 / measure 16]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_I measure 192 / measure 16]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceI = {                                                         %! extern
+K_Percussion_Voice_I = {                                                       %! extern
 
-    \K_PercussionVoiceI_a                                                      %! extern
-
-}                                                                              %! extern
-
-
-K_StaffI = {                                                                   %! extern
-
-    \context Voice = "PercussionVoiceI"                                        %! ScoreTemplate
-    \K_PercussionVoiceI                                                        %! extern
+    \K_Percussion_Voice_I_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceII_a = {                                                      %! extern
+K_Staff_I = {                                                                  %! extern
 
-    % [K PercussionVoiceII measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_I"                                      %! ScoreTemplate
+    \K_Percussion_Voice_I                                                      %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_II_a = {                                                    %! extern
+
+    % [K Percussion_Voice_II measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -260,7 +260,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceII measure 178 / measure 2]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_II measure 178 / measure 2]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -281,7 +281,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceII measure 179 / measure 3]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_II measure 179 / measure 3]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -300,7 +300,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceII measure 180 / measure 4]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_II measure 180 / measure 4]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -315,7 +315,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceII measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 181 / measure 5]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -328,7 +328,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceII measure 182 / measure 6]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_II measure 182 / measure 6]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -337,20 +337,20 @@ K_PercussionVoiceII_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceII measure 183 / measure 7]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 183 / measure 7]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceII measure 184 / measure 8]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 184 / measure 8]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceII measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 185 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceII measure 186 / measure 10]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_II measure 186 / measure 10]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -371,7 +371,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceII measure 187 / measure 11]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_II measure 187 / measure 11]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -390,7 +390,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceII measure 188 / measure 12]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_II measure 188 / measure 12]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -405,7 +405,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceII measure 189 / measure 13]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 189 / measure 13]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -418,7 +418,7 @@ K_PercussionVoiceII_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceII measure 190 / measure 14]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_II measure 190 / measure 14]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -427,35 +427,35 @@ K_PercussionVoiceII_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceII measure 191 / measure 15]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 191 / measure 15]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceII measure 192 / measure 16]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_II measure 192 / measure 16]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceII = {                                                        %! extern
+K_Percussion_Voice_II = {                                                      %! extern
 
-    \K_PercussionVoiceII_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffII = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceII"                                       %! ScoreTemplate
-    \K_PercussionVoiceII                                                       %! extern
+    \K_Percussion_Voice_II_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceIII_a = {                                                     %! extern
+K_Staff_II = {                                                                 %! extern
 
-    % [K PercussionVoiceIII measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
+    \K_Percussion_Voice_II                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_III_a = {                                                   %! extern
+
+    % [K Percussion_Voice_III measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -479,15 +479,15 @@ K_PercussionVoiceIII_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceIII measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceIII measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 179 / measure 3]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIII measure 180 / measure 4]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_III measure 180 / measure 4]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -498,7 +498,7 @@ K_PercussionVoiceIII_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIII measure 181 / measure 5]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_III measure 181 / measure 5]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -515,14 +515,14 @@ K_PercussionVoiceIII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIII measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 182 / measure 6]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIII measure 183 / measure 7]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_III measure 183 / measure 7]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -543,7 +543,7 @@ K_PercussionVoiceIII_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIII measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_III measure 184 / measure 8]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -558,7 +558,7 @@ K_PercussionVoiceIII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIII measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 185 / measure 9]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -569,7 +569,7 @@ K_PercussionVoiceIII_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIII measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 186 / measure 10]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -582,7 +582,7 @@ K_PercussionVoiceIII_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIII measure 187 / measure 11]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_III measure 187 / measure 11]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -599,7 +599,7 @@ K_PercussionVoiceIII_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIII measure 188 / measure 12]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_III measure 188 / measure 12]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -618,14 +618,14 @@ K_PercussionVoiceIII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIII measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 189 / measure 13]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIII measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_III measure 190 / measure 14]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -644,7 +644,7 @@ K_PercussionVoiceIII_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIII measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_III measure 191 / measure 15]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -653,30 +653,30 @@ K_PercussionVoiceIII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIII measure 192 / measure 16]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_III measure 192 / measure 16]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceIII = {                                                       %! extern
+K_Percussion_Voice_III = {                                                     %! extern
 
-    \K_PercussionVoiceIII_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffIII = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceIII"                                      %! ScoreTemplate
-    \K_PercussionVoiceIII                                                      %! extern
+    \K_Percussion_Voice_III_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceIV_a = {                                                      %! extern
+K_Staff_III = {                                                                %! extern
 
-    % [K PercussionVoiceIV measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_III"                                    %! ScoreTemplate
+    \K_Percussion_Voice_III                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_IV_a = {                                                    %! extern
+
+    % [K Percussion_Voice_IV measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -700,15 +700,15 @@ K_PercussionVoiceIV_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceIV measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 178 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 179 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIV measure 180 / measure 4]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_IV measure 180 / measure 4]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -727,7 +727,7 @@ K_PercussionVoiceIV_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 181 / measure 5]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -740,7 +740,7 @@ K_PercussionVoiceIV_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIV measure 182 / measure 6]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_IV measure 182 / measure 6]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -757,7 +757,7 @@ K_PercussionVoiceIV_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 183 / measure 7]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 183 / measure 7]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -770,7 +770,7 @@ K_PercussionVoiceIV_a = {                                                      %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIV measure 184 / measure 8]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_IV measure 184 / measure 8]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -785,10 +785,10 @@ K_PercussionVoiceIV_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 185 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 186 / measure 10]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 186 / measure 10]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -799,12 +799,12 @@ K_PercussionVoiceIV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 187 / measure 11]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 187 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIV measure 188 / measure 12]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_IV measure 188 / measure 12]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -813,7 +813,7 @@ K_PercussionVoiceIV_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 189 / measure 13]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 189 / measure 13]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -824,12 +824,12 @@ K_PercussionVoiceIV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 190 / measure 14]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 190 / measure 14]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 191 / measure 15]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 191 / measure 15]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -840,30 +840,30 @@ K_PercussionVoiceIV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIV measure 192 / measure 16]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_IV measure 192 / measure 16]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceIV = {                                                        %! extern
+K_Percussion_Voice_IV = {                                                      %! extern
 
-    \K_PercussionVoiceIV_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffIV = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceIV"                                       %! ScoreTemplate
-    \K_PercussionVoiceIV                                                       %! extern
+    \K_Percussion_Voice_IV_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceV_a = {                                                       %! extern
+K_Staff_IV = {                                                                 %! extern
 
-    % [K PercussionVoiceV measure 177 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_IV"                                     %! ScoreTemplate
+    \K_Percussion_Voice_IV                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_V_a = {                                                     %! extern
+
+    % [K Percussion_Voice_V measure 177 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -895,7 +895,7 @@ K_PercussionVoiceV_a = {                                                       %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceV measure 178 / measure 2]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_V measure 178 / measure 2]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -906,7 +906,7 @@ K_PercussionVoiceV_a = {                                                       %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceV measure 179 / measure 3]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_V measure 179 / measure 3]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -917,7 +917,7 @@ K_PercussionVoiceV_a = {                                                       %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceV measure 180 / measure 4]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_V measure 180 / measure 4]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -930,7 +930,7 @@ K_PercussionVoiceV_a = {                                                       %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceV measure 181 / measure 5]                         %! _comment_measure_numbers
+        % [K Percussion_Voice_V measure 181 / measure 5]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -945,12 +945,12 @@ K_PercussionVoiceV_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceV measure 182 / measure 6]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_V measure 182 / measure 6]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceV measure 183 / measure 7]                         %! _comment_measure_numbers
+        % [K Percussion_Voice_V measure 183 / measure 7]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -961,7 +961,7 @@ K_PercussionVoiceV_a = {                                                       %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceV measure 184 / measure 8]                         %! _comment_measure_numbers
+        % [K Percussion_Voice_V measure 184 / measure 8]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -980,19 +980,19 @@ K_PercussionVoiceV_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceV measure 185 / measure 9]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_V measure 185 / measure 9]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceV measure 186 / measure 10]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_V measure 186 / measure 10]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceV measure 187 / measure 11]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_V measure 187 / measure 11]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1011,7 +1011,7 @@ K_PercussionVoiceV_a = {                                                       %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceV measure 188 / measure 12]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_V measure 188 / measure 12]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1030,7 +1030,7 @@ K_PercussionVoiceV_a = {                                                       %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceV measure 189 / measure 13]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_V measure 189 / measure 13]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -1041,7 +1041,7 @@ K_PercussionVoiceV_a = {                                                       %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceV measure 190 / measure 14]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_V measure 190 / measure 14]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1062,7 +1062,7 @@ K_PercussionVoiceV_a = {                                                       %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceV measure 191 / measure 15]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_V measure 191 / measure 15]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1077,30 +1077,30 @@ K_PercussionVoiceV_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceV measure 192 / measure 16]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_V measure 192 / measure 16]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceV = {                                                         %! extern
+K_Percussion_Voice_V = {                                                       %! extern
 
-    \K_PercussionVoiceV_a                                                      %! extern
-
-}                                                                              %! extern
-
-
-K_StaffV = {                                                                   %! extern
-
-    \context Voice = "PercussionVoiceV"                                        %! ScoreTemplate
-    \K_PercussionVoiceV                                                        %! extern
+    \K_Percussion_Voice_V_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceVI_a = {                                                      %! extern
+K_Staff_V = {                                                                  %! extern
 
-    % [K PercussionVoiceVI measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_V"                                      %! ScoreTemplate
+    \K_Percussion_Voice_V                                                      %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_VI_a = {                                                    %! extern
+
+    % [K Percussion_Voice_VI measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1124,7 +1124,7 @@ K_PercussionVoiceVI_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceVI measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 178 / measure 2]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1135,10 +1135,10 @@ K_PercussionVoiceVI_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVI measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 179 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVI measure 180 / measure 4]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 180 / measure 4]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1149,12 +1149,12 @@ K_PercussionVoiceVI_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVI measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 181 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVI measure 182 / measure 6]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_VI measure 182 / measure 6]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -1163,14 +1163,14 @@ K_PercussionVoiceVI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVI measure 183 / measure 7]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 183 / measure 7]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVI measure 184 / measure 8]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_VI measure 184 / measure 8]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1189,12 +1189,12 @@ K_PercussionVoiceVI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVI measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 185 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVI measure 186 / measure 10]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_VI measure 186 / measure 10]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1211,7 +1211,7 @@ K_PercussionVoiceVI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVI measure 187 / measure 11]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 187 / measure 11]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1224,7 +1224,7 @@ K_PercussionVoiceVI_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVI measure 188 / measure 12]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_VI measure 188 / measure 12]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1241,12 +1241,12 @@ K_PercussionVoiceVI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVI measure 189 / measure 13]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 189 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVI measure 190 / measure 14]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_VI measure 190 / measure 14]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1263,7 +1263,7 @@ K_PercussionVoiceVI_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVI measure 191 / measure 15]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_VI measure 191 / measure 15]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1280,30 +1280,30 @@ K_PercussionVoiceVI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVI measure 192 / measure 16]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VI measure 192 / measure 16]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceVI = {                                                        %! extern
+K_Percussion_Voice_VI = {                                                      %! extern
 
-    \K_PercussionVoiceVI_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffVI = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceVI"                                       %! ScoreTemplate
-    \K_PercussionVoiceVI                                                       %! extern
+    \K_Percussion_Voice_VI_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceVII_a = {                                                     %! extern
+K_Staff_VI = {                                                                 %! extern
 
-    % [K PercussionVoiceVII measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_VI"                                     %! ScoreTemplate
+    \K_Percussion_Voice_VI                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_VII_a = {                                                   %! extern
+
+    % [K Percussion_Voice_VII measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1327,10 +1327,10 @@ K_PercussionVoiceVII_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceVII measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 179 / measure 3]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1341,7 +1341,7 @@ K_PercussionVoiceVII_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 180 / measure 4]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1352,15 +1352,15 @@ K_PercussionVoiceVII_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 182 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVII measure 183 / measure 7]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_VII measure 183 / measure 7]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1377,7 +1377,7 @@ K_PercussionVoiceVII_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVII measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_VII measure 184 / measure 8]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -1386,7 +1386,7 @@ K_PercussionVoiceVII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 185 / measure 9]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1397,7 +1397,7 @@ K_PercussionVoiceVII_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 186 / measure 10]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1410,7 +1410,7 @@ K_PercussionVoiceVII_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVII measure 187 / measure 11]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_VII measure 187 / measure 11]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1427,12 +1427,12 @@ K_PercussionVoiceVII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 188 / measure 12]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 189 / measure 13]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1443,7 +1443,7 @@ K_PercussionVoiceVII_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 190 / measure 14]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 190 / measure 14]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1456,7 +1456,7 @@ K_PercussionVoiceVII_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVII measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_VII measure 191 / measure 15]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1475,30 +1475,30 @@ K_PercussionVoiceVII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVII measure 192 / measure 16]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VII measure 192 / measure 16]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceVII = {                                                       %! extern
+K_Percussion_Voice_VII = {                                                     %! extern
 
-    \K_PercussionVoiceVII_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffVII = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceVII"                                      %! ScoreTemplate
-    \K_PercussionVoiceVII                                                      %! extern
+    \K_Percussion_Voice_VII_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceVIII_a = {                                                    %! extern
+K_Staff_VII = {                                                                %! extern
 
-    % [K PercussionVoiceVIII measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_VII"                                    %! ScoreTemplate
+    \K_Percussion_Voice_VII                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_VIII_a = {                                                  %! extern
+
+    % [K Percussion_Voice_VIII measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1522,13 +1522,13 @@ K_PercussionVoiceVIII_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceVIII measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 180 / measure 4]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1539,18 +1539,18 @@ K_PercussionVoiceVIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 182 / measure 6]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 183 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceVIII measure 184 / measure 8]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_VIII measure 184 / measure 8]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -1559,10 +1559,10 @@ K_PercussionVoiceVIII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 186 / measure 10]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1573,18 +1573,18 @@ K_PercussionVoiceVIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 187 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 188 / measure 12]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 189 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 190 / measure 14]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 190 / measure 14]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1595,33 +1595,33 @@ K_PercussionVoiceVIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 191 / measure 15]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 191 / measure 15]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceVIII measure 192 / measure 16]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_VIII measure 192 / measure 16]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceVIII = {                                                      %! extern
+K_Percussion_Voice_VIII = {                                                    %! extern
 
-    \K_PercussionVoiceVIII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffVIII = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceVIII"                                     %! ScoreTemplate
-    \K_PercussionVoiceVIII                                                     %! extern
+    \K_Percussion_Voice_VIII_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceIX_a = {                                                      %! extern
+K_Staff_VIII = {                                                               %! extern
 
-    % [K PercussionVoiceIX measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_VIII"                                   %! ScoreTemplate
+    \K_Percussion_Voice_VIII                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_IX_a = {                                                    %! extern
+
+    % [K Percussion_Voice_IX measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1647,24 +1647,24 @@ K_PercussionVoiceIX_a = {                                                      %
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceIX measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_IX measure 178 / measure 2]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceIX measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_IX measure 179 / measure 3]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceIX measure 180 / measure 4]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_IX measure 180 / measure 4]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 181 / measure 5]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 181 / measure 5]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1683,7 +1683,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 182 / measure 6]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 182 / measure 6]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1702,7 +1702,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 183 / measure 7]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 183 / measure 7]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1721,7 +1721,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 184 / measure 8]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 184 / measure 8]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1740,7 +1740,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 185 / measure 9]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 185 / measure 9]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -1751,7 +1751,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 186 / measure 10]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 186 / measure 10]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -1762,7 +1762,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 187 / measure 11]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 187 / measure 11]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1783,7 +1783,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 188 / measure 12]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 188 / measure 12]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1804,7 +1804,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 189 / measure 13]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 189 / measure 13]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1821,7 +1821,7 @@ K_PercussionVoiceIX_a = {                                                      %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceIX measure 190 / measure 14]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_IX measure 190 / measure 14]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1836,33 +1836,33 @@ K_PercussionVoiceIX_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceIX measure 191 / measure 15]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_IX measure 191 / measure 15]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceIX measure 192 / measure 16]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_IX measure 192 / measure 16]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceIX = {                                                        %! extern
+K_Percussion_Voice_IX = {                                                      %! extern
 
-    \K_PercussionVoiceIX_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffIX = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceIX"                                       %! ScoreTemplate
-    \K_PercussionVoiceIX                                                       %! extern
+    \K_Percussion_Voice_IX_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceX_a = {                                                       %! extern
+K_Staff_IX = {                                                                 %! extern
 
-    % [K PercussionVoiceX measure 177 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_IX"                                     %! ScoreTemplate
+    \K_Percussion_Voice_IX                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_X_a = {                                                     %! extern
+
+    % [K Percussion_Voice_X measure 177 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1888,7 +1888,7 @@ K_PercussionVoiceX_a = {                                                       %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceX measure 178 / measure 2]                         %! _comment_measure_numbers
+        % [K Percussion_Voice_X measure 178 / measure 2]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1905,7 +1905,7 @@ K_PercussionVoiceX_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 179 / measure 3]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 179 / measure 3]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1916,20 +1916,20 @@ K_PercussionVoiceX_a = {                                                       %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 180 / measure 4]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 180 / measure 4]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 181 / measure 5]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 181 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 182 / measure 6]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 182 / measure 6]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 183 / measure 7]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 183 / measure 7]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -1942,7 +1942,7 @@ K_PercussionVoiceX_a = {                                                       %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceX measure 184 / measure 8]                         %! _comment_measure_numbers
+        % [K Percussion_Voice_X measure 184 / measure 8]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1959,12 +1959,12 @@ K_PercussionVoiceX_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 185 / measure 9]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 185 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceX measure 186 / measure 10]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_X measure 186 / measure 10]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -1979,14 +1979,14 @@ K_PercussionVoiceX_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 187 / measure 11]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 187 / measure 11]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceX measure 188 / measure 12]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_X measure 188 / measure 12]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -1995,7 +1995,7 @@ K_PercussionVoiceX_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 189 / measure 13]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 189 / measure 13]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2008,7 +2008,7 @@ K_PercussionVoiceX_a = {                                                       %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceX measure 190 / measure 14]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_X measure 190 / measure 14]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2027,35 +2027,35 @@ K_PercussionVoiceX_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 191 / measure 15]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 191 / measure 15]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceX measure 192 / measure 16]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_X measure 192 / measure 16]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceX = {                                                         %! extern
+K_Percussion_Voice_X = {                                                       %! extern
 
-    \K_PercussionVoiceX_a                                                      %! extern
-
-}                                                                              %! extern
-
-
-K_StaffX = {                                                                   %! extern
-
-    \context Voice = "PercussionVoiceX"                                        %! ScoreTemplate
-    \K_PercussionVoiceX                                                        %! extern
+    \K_Percussion_Voice_X_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXI_a = {                                                      %! extern
+K_Staff_X = {                                                                  %! extern
 
-    % [K PercussionVoiceXI measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_X"                                      %! ScoreTemplate
+    \K_Percussion_Voice_X                                                      %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XI_a = {                                                    %! extern
+
+    % [K Percussion_Voice_XI measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2079,17 +2079,17 @@ K_PercussionVoiceXI_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXI measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 178 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 179 / measure 3]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXI measure 180 / measure 4]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_XI measure 180 / measure 4]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2106,7 +2106,7 @@ K_PercussionVoiceXI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 181 / measure 5]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2117,7 +2117,7 @@ K_PercussionVoiceXI_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 182 / measure 6]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 182 / measure 6]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2128,14 +2128,14 @@ K_PercussionVoiceXI_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 183 / measure 7]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 183 / measure 7]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXI measure 184 / measure 8]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_XI measure 184 / measure 8]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2152,15 +2152,15 @@ K_PercussionVoiceXI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 185 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 186 / measure 10]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 186 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXI measure 187 / measure 11]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XI measure 187 / measure 11]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -2169,12 +2169,12 @@ K_PercussionVoiceXI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 188 / measure 12]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 188 / measure 12]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXI measure 189 / measure 13]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XI measure 189 / measure 13]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2191,14 +2191,14 @@ K_PercussionVoiceXI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 190 / measure 14]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 190 / measure 14]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXI measure 191 / measure 15]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XI measure 191 / measure 15]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -2207,30 +2207,30 @@ K_PercussionVoiceXI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXI measure 192 / measure 16]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XI measure 192 / measure 16]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXI = {                                                        %! extern
+K_Percussion_Voice_XI = {                                                      %! extern
 
-    \K_PercussionVoiceXI_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXI = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceXI"                                       %! ScoreTemplate
-    \K_PercussionVoiceXI                                                       %! extern
+    \K_Percussion_Voice_XI_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXII_a = {                                                     %! extern
+K_Staff_XI = {                                                                 %! extern
 
-    % [K PercussionVoiceXII measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XI"                                     %! ScoreTemplate
+    \K_Percussion_Voice_XI                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XII_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XII measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2254,15 +2254,15 @@ K_PercussionVoiceXII_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXII measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXII measure 180 / measure 4]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XII measure 180 / measure 4]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2279,10 +2279,10 @@ K_PercussionVoiceXII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 182 / measure 6]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2293,12 +2293,12 @@ K_PercussionVoiceXII_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 183 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXII measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XII measure 184 / measure 8]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2315,18 +2315,18 @@ K_PercussionVoiceXII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 186 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 187 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXII measure 188 / measure 12]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XII measure 188 / measure 12]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2341,7 +2341,7 @@ K_PercussionVoiceXII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 189 / measure 13]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2354,7 +2354,7 @@ K_PercussionVoiceXII_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXII measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XII measure 190 / measure 14]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2371,7 +2371,7 @@ K_PercussionVoiceXII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 191 / measure 15]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 191 / measure 15]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2382,30 +2382,30 @@ K_PercussionVoiceXII_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXII measure 192 / measure 16]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XII measure 192 / measure 16]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXII = {                                                       %! extern
+K_Percussion_Voice_XII = {                                                     %! extern
 
-    \K_PercussionVoiceXII_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXII = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXII"                                      %! ScoreTemplate
-    \K_PercussionVoiceXII                                                      %! extern
+    \K_Percussion_Voice_XII_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXIII_a = {                                                    %! extern
+K_Staff_XII = {                                                                %! extern
 
-    % [K PercussionVoiceXIII measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XII"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XII                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XIII_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XIII measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2437,7 +2437,7 @@ K_PercussionVoiceXIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 178 / measure 2]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2448,7 +2448,7 @@ K_PercussionVoiceXIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 179 / measure 3]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2459,7 +2459,7 @@ K_PercussionVoiceXIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 180 / measure 4]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2472,7 +2472,7 @@ K_PercussionVoiceXIII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIII measure 181 / measure 5]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XIII measure 181 / measure 5]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2491,7 +2491,7 @@ K_PercussionVoiceXIII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIII measure 182 / measure 6]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XIII measure 182 / measure 6]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2508,17 +2508,17 @@ K_PercussionVoiceXIII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 183 / measure 7]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 184 / measure 8]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 185 / measure 9]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2529,7 +2529,7 @@ K_PercussionVoiceXIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 186 / measure 10]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2540,7 +2540,7 @@ K_PercussionVoiceXIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 187 / measure 11]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2551,7 +2551,7 @@ K_PercussionVoiceXIII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 188 / measure 12]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2564,7 +2564,7 @@ K_PercussionVoiceXIII_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIII measure 189 / measure 13]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XIII measure 189 / measure 13]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2585,7 +2585,7 @@ K_PercussionVoiceXIII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIII measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XIII measure 190 / measure 14]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -2596,7 +2596,7 @@ K_PercussionVoiceXIII_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIII measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XIII measure 191 / measure 15]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2611,30 +2611,30 @@ K_PercussionVoiceXIII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIII measure 192 / measure 16]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XIII measure 192 / measure 16]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXIII = {                                                      %! extern
+K_Percussion_Voice_XIII = {                                                    %! extern
 
-    \K_PercussionVoiceXIII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXIII = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXIII"                                     %! ScoreTemplate
-    \K_PercussionVoiceXIII                                                     %! extern
+    \K_Percussion_Voice_XIII_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXIV_a = {                                                     %! extern
+K_Staff_XIII = {                                                               %! extern
 
-    % [K PercussionVoiceXIV measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XIII"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XIII                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XIV_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XIV measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2658,7 +2658,7 @@ K_PercussionVoiceXIV_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXIV measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 178 / measure 2]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2669,10 +2669,10 @@ K_PercussionVoiceXIV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 180 / measure 4]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2683,15 +2683,15 @@ K_PercussionVoiceXIV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 182 / measure 6]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 183 / measure 7]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2702,15 +2702,15 @@ K_PercussionVoiceXIV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 184 / measure 8]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 184 / measure 8]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 186 / measure 10]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2721,10 +2721,10 @@ K_PercussionVoiceXIV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 187 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 188 / measure 12]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2735,15 +2735,15 @@ K_PercussionVoiceXIV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 189 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 190 / measure 14]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 190 / measure 14]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIV measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XIV measure 191 / measure 15]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2760,30 +2760,30 @@ K_PercussionVoiceXIV_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIV measure 192 / measure 16]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIV measure 192 / measure 16]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXIV = {                                                       %! extern
+K_Percussion_Voice_XIV = {                                                     %! extern
 
-    \K_PercussionVoiceXIV_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXIV = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXIV"                                      %! ScoreTemplate
-    \K_PercussionVoiceXIV                                                      %! extern
+    \K_Percussion_Voice_XIV_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXV_a = {                                                      %! extern
+K_Staff_XIV = {                                                                %! extern
 
-    % [K PercussionVoiceXV measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XIV"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XIV                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XV_a = {                                                    %! extern
+
+    % [K Percussion_Voice_XV measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2807,10 +2807,10 @@ K_PercussionVoiceXV_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXV measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 178 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 179 / measure 3]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2821,7 +2821,7 @@ K_PercussionVoiceXV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 180 / measure 4]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 180 / measure 4]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2832,15 +2832,15 @@ K_PercussionVoiceXV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 181 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 182 / measure 6]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 182 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXV measure 183 / measure 7]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_XV measure 183 / measure 7]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2857,18 +2857,18 @@ K_PercussionVoiceXV_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 184 / measure 8]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 184 / measure 8]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 185 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 186 / measure 10]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 186 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 187 / measure 11]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 187 / measure 11]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2879,7 +2879,7 @@ K_PercussionVoiceXV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 188 / measure 12]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 188 / measure 12]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2890,15 +2890,15 @@ K_PercussionVoiceXV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 189 / measure 13]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 189 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 190 / measure 14]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 190 / measure 14]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXV measure 191 / measure 15]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XV measure 191 / measure 15]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -2917,30 +2917,30 @@ K_PercussionVoiceXV_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXV measure 192 / measure 16]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XV measure 192 / measure 16]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXV = {                                                        %! extern
+K_Percussion_Voice_XV = {                                                      %! extern
 
-    \K_PercussionVoiceXV_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXV = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceXV"                                       %! ScoreTemplate
-    \K_PercussionVoiceXV                                                       %! extern
+    \K_Percussion_Voice_XV_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXVI_a = {                                                     %! extern
+K_Staff_XV = {                                                                 %! extern
 
-    % [K PercussionVoiceXVI measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XV"                                     %! ScoreTemplate
+    \K_Percussion_Voice_XV                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XVI_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XVI measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2964,13 +2964,13 @@ K_PercussionVoiceXVI_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXVI measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 180 / measure 4]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -2981,30 +2981,30 @@ K_PercussionVoiceXVI_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 182 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 183 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 184 / measure 8]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 184 / measure 8]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 186 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 187 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 188 / measure 12]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3015,41 +3015,41 @@ K_PercussionVoiceXVI_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 189 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 190 / measure 14]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 190 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 191 / measure 15]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 191 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXVI measure 192 / measure 16]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XVI measure 192 / measure 16]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXVI = {                                                       %! extern
+K_Percussion_Voice_XVI = {                                                     %! extern
 
-    \K_PercussionVoiceXVI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXVI = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXVI"                                      %! ScoreTemplate
-    \K_PercussionVoiceXVI                                                      %! extern
+    \K_Percussion_Voice_XVI_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXVII_a = {                                                    %! extern
+K_Staff_XVI = {                                                                %! extern
+
+    \context Voice = "Percussion_Voice_XVI"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XVI                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XVII_a = {                                                  %! extern
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 177 / measure 1]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 177 / measure 1]                    %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \hcenter-in                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3091,7 +3091,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 178 / measure 2]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 178 / measure 2]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3112,7 +3112,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 179 / measure 3]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 179 / measure 3]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3133,7 +3133,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 180 / measure 4]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 180 / measure 4]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3154,7 +3154,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 181 / measure 5]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 181 / measure 5]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -3165,7 +3165,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 182 / measure 6]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 182 / measure 6]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -3176,7 +3176,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 183 / measure 7]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 183 / measure 7]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -3187,7 +3187,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 184 / measure 8]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 184 / measure 8]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -3196,21 +3196,21 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXVII measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XVII measure 185 / measure 9]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXVII measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XVII measure 186 / measure 10]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXVII measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XVII measure 187 / measure 11]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXVII measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XVII measure 188 / measure 12]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 189 / measure 13]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 189 / measure 13]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3227,7 +3227,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 190 / measure 14]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3244,7 +3244,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 191 / measure 15]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3261,7 +3261,7 @@ K_PercussionVoiceXVII_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVII measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XVII measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3279,24 +3279,24 @@ K_PercussionVoiceXVII_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXVII = {                                                      %! extern
+K_Percussion_Voice_XVII = {                                                    %! extern
 
-    \K_PercussionVoiceXVII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXVII = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXVII"                                     %! ScoreTemplate
-    \K_PercussionVoiceXVII                                                     %! extern
+    \K_Percussion_Voice_XVII_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXVIII_a = {                                                   %! extern
+K_Staff_XVII = {                                                               %! extern
 
-    % [K PercussionVoiceXVIII measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XVII"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XVII                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XVIII_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XVIII measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3320,17 +3320,17 @@ K_PercussionVoiceXVIII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXVIII measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XVIII measure 178 / measure 2]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXVIII measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XVIII measure 179 / measure 3]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVIII measure 180 / measure 4]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XVIII measure 180 / measure 4]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -3339,7 +3339,7 @@ K_PercussionVoiceXVIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXVIII measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XVIII measure 181 / measure 5]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3350,12 +3350,12 @@ K_PercussionVoiceXVIII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXVIII measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XVIII measure 182 / measure 6]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVIII measure 183 / measure 7]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XVIII measure 183 / measure 7]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3374,7 +3374,7 @@ K_PercussionVoiceXVIII_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVIII measure 184 / measure 8]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XVIII measure 184 / measure 8]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -3383,12 +3383,12 @@ K_PercussionVoiceXVIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXVIII measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XVIII measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVIII measure 186 / measure 10]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XVIII measure 186 / measure 10]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3409,7 +3409,7 @@ K_PercussionVoiceXVIII_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVIII measure 187 / measure 11]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XVIII measure 187 / measure 11]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3428,7 +3428,7 @@ K_PercussionVoiceXVIII_a = {                                                   %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVIII measure 188 / measure 12]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XVIII measure 188 / measure 12]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3443,7 +3443,7 @@ K_PercussionVoiceXVIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXVIII measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XVIII measure 189 / measure 13]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3456,7 +3456,7 @@ K_PercussionVoiceXVIII_a = {                                                   %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVIII measure 190 / measure 14]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XVIII measure 190 / measure 14]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3475,14 +3475,14 @@ K_PercussionVoiceXVIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXVIII measure 191 / measure 15]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XVIII measure 191 / measure 15]                      %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXVIII measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XVIII measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3500,24 +3500,24 @@ K_PercussionVoiceXVIII_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXVIII = {                                                     %! extern
+K_Percussion_Voice_XVIII = {                                                   %! extern
 
-    \K_PercussionVoiceXVIII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXVIII = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXVIII"                                    %! ScoreTemplate
-    \K_PercussionVoiceXVIII                                                    %! extern
+    \K_Percussion_Voice_XVIII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXIX_a = {                                                     %! extern
+K_Staff_XVIII = {                                                              %! extern
 
-    % [K PercussionVoiceXIX measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XVIII"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XVIII                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XIX_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XIX measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3541,12 +3541,12 @@ K_PercussionVoiceXIX_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXIX measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIX measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 179 / measure 3]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 179 / measure 3]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3567,7 +3567,7 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 180 / measure 4]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 180 / measure 4]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3582,14 +3582,14 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIX measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIX measure 181 / measure 5]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 182 / measure 6]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 182 / measure 6]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3608,7 +3608,7 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 183 / measure 7]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 183 / measure 7]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3625,7 +3625,7 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 184 / measure 8]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3644,7 +3644,7 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIX measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XIX measure 185 / measure 9]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3655,7 +3655,7 @@ K_PercussionVoiceXIX_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIX measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIX measure 186 / measure 10]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3668,7 +3668,7 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 187 / measure 11]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 187 / measure 11]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3685,7 +3685,7 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 188 / measure 12]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 188 / measure 12]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3704,14 +3704,14 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXIX measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XIX measure 189 / measure 13]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 190 / measure 14]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3730,7 +3730,7 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 191 / measure 15]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3751,7 +3751,7 @@ K_PercussionVoiceXIX_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXIX measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XIX measure 192 / measure 16]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3769,24 +3769,24 @@ K_PercussionVoiceXIX_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXIX = {                                                       %! extern
+K_Percussion_Voice_XIX = {                                                     %! extern
 
-    \K_PercussionVoiceXIX_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXIX = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXIX"                                      %! ScoreTemplate
-    \K_PercussionVoiceXIX                                                      %! extern
+    \K_Percussion_Voice_XIX_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXX_a = {                                                      %! extern
+K_Staff_XIX = {                                                                %! extern
 
-    % [K PercussionVoiceXX measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XIX"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XIX                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XX_a = {                                                    %! extern
+
+    % [K Percussion_Voice_XX measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3810,16 +3810,16 @@ K_PercussionVoiceXX_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXX measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 178 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 179 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 180 / measure 4]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 180 / measure 4]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 181 / measure 5]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3830,12 +3830,12 @@ K_PercussionVoiceXX_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 182 / measure 6]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 182 / measure 6]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 183 / measure 7]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 183 / measure 7]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3848,7 +3848,7 @@ K_PercussionVoiceXX_a = {                                                      %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXX measure 184 / measure 8]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_XX measure 184 / measure 8]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3867,10 +3867,10 @@ K_PercussionVoiceXX_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 185 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 186 / measure 10]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 186 / measure 10]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3881,12 +3881,12 @@ K_PercussionVoiceXX_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 187 / measure 11]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 187 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXX measure 188 / measure 12]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XX measure 188 / measure 12]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -3895,7 +3895,7 @@ K_PercussionVoiceXX_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 189 / measure 13]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 189 / measure 13]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3906,12 +3906,12 @@ K_PercussionVoiceXX_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 190 / measure 14]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 190 / measure 14]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXX measure 191 / measure 15]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XX measure 191 / measure 15]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -3924,7 +3924,7 @@ K_PercussionVoiceXX_a = {                                                      %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXX measure 192 / measure 16]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XX measure 192 / measure 16]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -3942,24 +3942,24 @@ K_PercussionVoiceXX_a = {                                                      %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXX = {                                                        %! extern
+K_Percussion_Voice_XX = {                                                      %! extern
 
-    \K_PercussionVoiceXX_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXX = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceXX"                                       %! ScoreTemplate
-    \K_PercussionVoiceXX                                                       %! extern
+    \K_Percussion_Voice_XX_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXI_a = {                                                     %! extern
+K_Staff_XX = {                                                                 %! extern
 
-    % [K PercussionVoiceXXI measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XX"                                     %! ScoreTemplate
+    \K_Percussion_Voice_XX                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXI_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XXI measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3983,18 +3983,18 @@ K_PercussionVoiceXXI_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXI measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXI measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXI measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXI measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXI measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXI measure 180 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXI measure 181 / measure 5]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XXI measure 181 / measure 5]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4015,7 +4015,7 @@ K_PercussionVoiceXXI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXI measure 182 / measure 6]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XXI measure 182 / measure 6]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -4024,12 +4024,12 @@ K_PercussionVoiceXXI_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXI measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXI measure 183 / measure 7]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXI measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XXI measure 184 / measure 8]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4046,7 +4046,7 @@ K_PercussionVoiceXXI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXI measure 185 / measure 9]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XXI measure 185 / measure 9]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4065,7 +4065,7 @@ K_PercussionVoiceXXI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXI measure 186 / measure 10]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXI measure 186 / measure 10]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4082,19 +4082,19 @@ K_PercussionVoiceXXI_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXI measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXI measure 187 / measure 11]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXI measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXI measure 188 / measure 12]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXI measure 189 / measure 13]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXI measure 189 / measure 13]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4115,7 +4115,7 @@ K_PercussionVoiceXXI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXI measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXI measure 190 / measure 14]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -4124,12 +4124,12 @@ K_PercussionVoiceXXI_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXI measure 191 / measure 15]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXI measure 191 / measure 15]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXI measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXI measure 192 / measure 16]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4147,24 +4147,24 @@ K_PercussionVoiceXXI_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXI = {                                                       %! extern
+K_Percussion_Voice_XXI = {                                                     %! extern
 
-    \K_PercussionVoiceXXI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXI = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXXI"                                      %! ScoreTemplate
-    \K_PercussionVoiceXXI                                                      %! extern
+    \K_Percussion_Voice_XXI_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXII_a = {                                                    %! extern
+K_Staff_XXI = {                                                                %! extern
 
-    % [K PercussionVoiceXXII measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXI"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XXI                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXII_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XXII measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4188,24 +4188,24 @@ K_PercussionVoiceXXII_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXII measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 180 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 182 / measure 6]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXII measure 183 / measure 7]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXII measure 183 / measure 7]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4224,7 +4224,7 @@ K_PercussionVoiceXXII_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXII measure 184 / measure 8]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXII measure 184 / measure 8]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4239,15 +4239,15 @@ K_PercussionVoiceXXII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 186 / measure 10]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 187 / measure 11]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4258,20 +4258,20 @@ K_PercussionVoiceXXII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 188 / measure 12]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 189 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXII measure 190 / measure 14]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXII measure 190 / measure 14]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXII measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXII measure 191 / measure 15]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4290,7 +4290,7 @@ K_PercussionVoiceXXII_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXII measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXII measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4308,24 +4308,24 @@ K_PercussionVoiceXXII_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXII = {                                                      %! extern
+K_Percussion_Voice_XXII = {                                                    %! extern
 
-    \K_PercussionVoiceXXII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXII = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXXII"                                     %! ScoreTemplate
-    \K_PercussionVoiceXXII                                                     %! extern
+    \K_Percussion_Voice_XXII_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXIII_a = {                                                   %! extern
+K_Staff_XXII = {                                                               %! extern
 
-    % [K PercussionVoiceXXIII measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXII"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XXII                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXIII_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XXIII measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4349,24 +4349,24 @@ K_PercussionVoiceXXIII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXIII measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 179 / measure 3]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 180 / measure 4]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 180 / measure 4]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 181 / measure 5]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 182 / measure 6]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIII measure 183 / measure 7]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIII measure 183 / measure 7]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4385,10 +4385,10 @@ K_PercussionVoiceXXIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 184 / measure 8]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 184 / measure 8]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 185 / measure 9]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4399,7 +4399,7 @@ K_PercussionVoiceXXIII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 186 / measure 10]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4410,14 +4410,14 @@ K_PercussionVoiceXXIII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 187 / measure 11]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 187 / measure 11]                      %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIII measure 188 / measure 12]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIII measure 188 / measure 12]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4434,7 +4434,7 @@ K_PercussionVoiceXXIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 189 / measure 13]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4445,7 +4445,7 @@ K_PercussionVoiceXXIII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIII measure 190 / measure 14]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIII measure 190 / measure 14]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4458,7 +4458,7 @@ K_PercussionVoiceXXIII_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIII measure 191 / measure 15]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIII measure 191 / measure 15]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -4469,7 +4469,7 @@ K_PercussionVoiceXXIII_a = {                                                   %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIII measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIII measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4487,24 +4487,24 @@ K_PercussionVoiceXXIII_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXIII = {                                                     %! extern
+K_Percussion_Voice_XXIII = {                                                   %! extern
 
-    \K_PercussionVoiceXXIII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXIII = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXXIII"                                    %! ScoreTemplate
-    \K_PercussionVoiceXXIII                                                    %! extern
+    \K_Percussion_Voice_XXIII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXIV_a = {                                                    %! extern
+K_Staff_XXIII = {                                                              %! extern
 
-    % [K PercussionVoiceXXIV measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXIII"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XXIII                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXIV_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XXIV measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4528,31 +4528,31 @@ K_PercussionVoiceXXIV_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXIV measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 180 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 182 / measure 6]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 183 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 184 / measure 8]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 186 / measure 10]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4563,12 +4563,12 @@ K_PercussionVoiceXXIV_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 187 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIV measure 188 / measure 12]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIV measure 188 / measure 12]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4585,10 +4585,10 @@ K_PercussionVoiceXXIV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 189 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 190 / measure 14]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 190 / measure 14]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4599,12 +4599,12 @@ K_PercussionVoiceXXIV_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIV measure 191 / measure 15]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIV measure 191 / measure 15]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIV measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIV measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4622,24 +4622,24 @@ K_PercussionVoiceXXIV_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXIV = {                                                      %! extern
+K_Percussion_Voice_XXIV = {                                                    %! extern
 
-    \K_PercussionVoiceXXIV_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXIV = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXXIV"                                     %! ScoreTemplate
-    \K_PercussionVoiceXXIV                                                     %! extern
+    \K_Percussion_Voice_XXIV_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXV_a = {                                                     %! extern
+K_Staff_XXIV = {                                                               %! extern
 
-    % [K PercussionVoiceXXV measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXIV"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XXIV                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXV_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XXV measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4671,7 +4671,7 @@ K_PercussionVoiceXXV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 178 / measure 2]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4682,7 +4682,7 @@ K_PercussionVoiceXXV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 179 / measure 3]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4693,7 +4693,7 @@ K_PercussionVoiceXXV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 180 / measure 4]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4704,7 +4704,7 @@ K_PercussionVoiceXXV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 181 / measure 5]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4715,7 +4715,7 @@ K_PercussionVoiceXXV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 182 / measure 6]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4726,7 +4726,7 @@ K_PercussionVoiceXXV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 183 / measure 7]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4737,7 +4737,7 @@ K_PercussionVoiceXXV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 184 / measure 8]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 184 / measure 8]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4750,7 +4750,7 @@ K_PercussionVoiceXXV_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXV measure 185 / measure 9]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XXV measure 185 / measure 9]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -4761,7 +4761,7 @@ K_PercussionVoiceXXV_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXV measure 186 / measure 10]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXV measure 186 / measure 10]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -4772,7 +4772,7 @@ K_PercussionVoiceXXV_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXV measure 187 / measure 11]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXV measure 187 / measure 11]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4793,7 +4793,7 @@ K_PercussionVoiceXXV_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXV measure 188 / measure 12]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXV measure 188 / measure 12]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4812,15 +4812,15 @@ K_PercussionVoiceXXV_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 189 / measure 13]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXV measure 190 / measure 14]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXV measure 190 / measure 14]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXV measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXV measure 191 / measure 15]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4837,7 +4837,7 @@ K_PercussionVoiceXXV_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXV measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXV measure 192 / measure 16]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4855,24 +4855,24 @@ K_PercussionVoiceXXV_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXV = {                                                       %! extern
+K_Percussion_Voice_XXV = {                                                     %! extern
 
-    \K_PercussionVoiceXXV_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXV = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXXV"                                      %! ScoreTemplate
-    \K_PercussionVoiceXXV                                                      %! extern
+    \K_Percussion_Voice_XXV_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXVI_a = {                                                    %! extern
+K_Staff_XXV = {                                                                %! extern
 
-    % [K PercussionVoiceXXVI measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXV"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XXV                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXVI_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XXVI measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4896,7 +4896,7 @@ K_PercussionVoiceXXVI_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXVI measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 178 / measure 2]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4907,10 +4907,10 @@ K_PercussionVoiceXXVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 180 / measure 4]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4921,10 +4921,10 @@ K_PercussionVoiceXXVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 182 / measure 6]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4935,10 +4935,10 @@ K_PercussionVoiceXXVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 183 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 184 / measure 8]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4949,12 +4949,12 @@ K_PercussionVoiceXXVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVI measure 186 / measure 10]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVI measure 186 / measure 10]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -4969,14 +4969,14 @@ K_PercussionVoiceXXVI_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 187 / measure 11]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVI measure 188 / measure 12]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVI measure 188 / measure 12]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -4985,7 +4985,7 @@ K_PercussionVoiceXXVI_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 189 / measure 13]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -4998,7 +4998,7 @@ K_PercussionVoiceXXVI_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVI measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVI measure 190 / measure 14]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -5007,14 +5007,14 @@ K_PercussionVoiceXXVI_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVI measure 191 / measure 15]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVI measure 191 / measure 15]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVI measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVI measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5032,24 +5032,24 @@ K_PercussionVoiceXXVI_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXVI = {                                                      %! extern
+K_Percussion_Voice_XXVI = {                                                    %! extern
 
-    \K_PercussionVoiceXXVI_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXVI = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXXVI"                                     %! ScoreTemplate
-    \K_PercussionVoiceXXVI                                                     %! extern
+    \K_Percussion_Voice_XXVI_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXVII_a = {                                                   %! extern
+K_Staff_XXVI = {                                                               %! extern
 
-    % [K PercussionVoiceXXVII measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXVI"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XXVI                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXVII_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XXVII measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5073,10 +5073,10 @@ K_PercussionVoiceXXVII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXVII measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 179 / measure 3]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5087,7 +5087,7 @@ K_PercussionVoiceXXVII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 180 / measure 4]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 180 / measure 4]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5098,13 +5098,13 @@ K_PercussionVoiceXXVII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 181 / measure 5]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 182 / measure 6]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 183 / measure 7]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 183 / measure 7]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5115,7 +5115,7 @@ K_PercussionVoiceXXVII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 184 / measure 8]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 184 / measure 8]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5126,15 +5126,15 @@ K_PercussionVoiceXXVII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 186 / measure 10]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVII measure 187 / measure 11]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVII measure 187 / measure 11]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -5143,12 +5143,12 @@ K_PercussionVoiceXXVII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 188 / measure 12]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 188 / measure 12]                      %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVII measure 189 / measure 13]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVII measure 189 / measure 13]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5165,14 +5165,14 @@ K_PercussionVoiceXXVII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVII measure 190 / measure 14]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVII measure 190 / measure 14]                      %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVII measure 191 / measure 15]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVII measure 191 / measure 15]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5193,7 +5193,7 @@ K_PercussionVoiceXXVII_a = {                                                   %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVII measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVII measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5211,24 +5211,24 @@ K_PercussionVoiceXXVII_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXVII = {                                                     %! extern
+K_Percussion_Voice_XXVII = {                                                   %! extern
 
-    \K_PercussionVoiceXXVII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXVII = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXXVII"                                    %! ScoreTemplate
-    \K_PercussionVoiceXXVII                                                    %! extern
+    \K_Percussion_Voice_XXVII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXVIII_a = {                                                  %! extern
+K_Staff_XXVII = {                                                              %! extern
 
-    % [K PercussionVoiceXXVIII measure 177 / measure 1]                        %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXVII"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XXVII                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXVIII_a = {                                                %! extern
+
+    % [K Percussion_Voice_XXVIII measure 177 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5252,13 +5252,13 @@ K_PercussionVoiceXXVIII_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXVIII measure 178 / measure 2]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 178 / measure 2]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 179 / measure 3]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 179 / measure 3]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 180 / measure 4]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 180 / measure 4]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5269,16 +5269,16 @@ K_PercussionVoiceXXVIII_a = {                                                  %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 181 / measure 5]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 181 / measure 5]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 182 / measure 6]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 182 / measure 6]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 183 / measure 7]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 183 / measure 7]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 184 / measure 8]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 184 / measure 8]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5289,18 +5289,18 @@ K_PercussionVoiceXXVIII_a = {                                                  %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 185 / measure 9]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 185 / measure 9]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 186 / measure 10]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 186 / measure 10]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 187 / measure 11]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 187 / measure 11]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVIII measure 188 / measure 12]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVIII measure 188 / measure 12]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5315,7 +5315,7 @@ K_PercussionVoiceXXVIII_a = {                                                  %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 189 / measure 13]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 189 / measure 13]                     %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5328,7 +5328,7 @@ K_PercussionVoiceXXVIII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVIII measure 190 / measure 14]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVIII measure 190 / measure 14]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5345,7 +5345,7 @@ K_PercussionVoiceXXVIII_a = {                                                  %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXVIII measure 191 / measure 15]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXVIII measure 191 / measure 15]                     %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5358,7 +5358,7 @@ K_PercussionVoiceXXVIII_a = {                                                  %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXVIII measure 192 / measure 16]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXVIII measure 192 / measure 16]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5376,24 +5376,24 @@ K_PercussionVoiceXXVIII_a = {                                                  %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXVIII = {                                                    %! extern
+K_Percussion_Voice_XXVIII = {                                                  %! extern
 
-    \K_PercussionVoiceXXVIII_a                                                 %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXVIII = {                                                              %! extern
-
-    \context Voice = "PercussionVoiceXXVIII"                                   %! ScoreTemplate
-    \K_PercussionVoiceXXVIII                                                   %! extern
+    \K_Percussion_Voice_XXVIII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXIX_a = {                                                    %! extern
+K_Staff_XXVIII = {                                                             %! extern
 
-    % [K PercussionVoiceXXIX measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXVIII"                                 %! ScoreTemplate
+    \K_Percussion_Voice_XXVIII                                                 %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXIX_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XXIX measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5417,16 +5417,16 @@ K_PercussionVoiceXXIX_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXIX measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 180 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 181 / measure 5]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5437,7 +5437,7 @@ K_PercussionVoiceXXIX_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 182 / measure 6]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5448,7 +5448,7 @@ K_PercussionVoiceXXIX_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 183 / measure 7]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5459,7 +5459,7 @@ K_PercussionVoiceXXIX_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 184 / measure 8]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5470,21 +5470,21 @@ K_PercussionVoiceXXIX_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 186 / measure 10]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 187 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 188 / measure 12]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIX measure 189 / measure 13]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIX measure 189 / measure 13]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -5495,7 +5495,7 @@ K_PercussionVoiceXXIX_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIX measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIX measure 190 / measure 14]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5514,12 +5514,12 @@ K_PercussionVoiceXXIX_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXIX measure 191 / measure 15]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXIX measure 191 / measure 15]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXIX measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXIX measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5537,24 +5537,24 @@ K_PercussionVoiceXXIX_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXIX = {                                                      %! extern
+K_Percussion_Voice_XXIX = {                                                    %! extern
 
-    \K_PercussionVoiceXXIX_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXIX = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXXIX"                                     %! ScoreTemplate
-    \K_PercussionVoiceXXIX                                                     %! extern
+    \K_Percussion_Voice_XXIX_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXX_a = {                                                     %! extern
+K_Staff_XXIX = {                                                               %! extern
 
-    % [K PercussionVoiceXXX measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXIX"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XXIX                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXX_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XXX measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5578,19 +5578,19 @@ K_PercussionVoiceXXX_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXX measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 180 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 182 / measure 6]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5601,10 +5601,10 @@ K_PercussionVoiceXXX_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 183 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 184 / measure 8]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 184 / measure 8]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5615,24 +5615,24 @@ K_PercussionVoiceXXX_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 186 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 187 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 188 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXX measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXX measure 189 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXX measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXX measure 190 / measure 14]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5649,7 +5649,7 @@ K_PercussionVoiceXXX_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXX measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXX measure 191 / measure 15]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5668,7 +5668,7 @@ K_PercussionVoiceXXX_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXX measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXX measure 192 / measure 16]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5686,24 +5686,24 @@ K_PercussionVoiceXXX_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXX = {                                                       %! extern
+K_Percussion_Voice_XXX = {                                                     %! extern
 
-    \K_PercussionVoiceXXX_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXX = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXXX"                                      %! ScoreTemplate
-    \K_PercussionVoiceXXX                                                      %! extern
+    \K_Percussion_Voice_XXX_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXI_a = {                                                    %! extern
+K_Staff_XXX = {                                                                %! extern
 
-    % [K PercussionVoiceXXXI measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXX"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XXX                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXI_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XXXI measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5727,22 +5727,22 @@ K_PercussionVoiceXXXI_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXXI measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 180 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 182 / measure 6]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 183 / measure 7]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5753,7 +5753,7 @@ K_PercussionVoiceXXXI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 184 / measure 8]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5764,27 +5764,27 @@ K_PercussionVoiceXXXI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 186 / measure 10]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 187 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 188 / measure 12]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 189 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXI measure 190 / measure 14]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXI measure 190 / measure 14]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXI measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXI measure 191 / measure 15]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -5795,7 +5795,7 @@ K_PercussionVoiceXXXI_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXI measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXI measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5813,24 +5813,24 @@ K_PercussionVoiceXXXI_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXI = {                                                      %! extern
+K_Percussion_Voice_XXXI = {                                                    %! extern
 
-    \K_PercussionVoiceXXXI_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXI = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXXXI"                                     %! ScoreTemplate
-    \K_PercussionVoiceXXXI                                                     %! extern
+    \K_Percussion_Voice_XXXI_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXII_a = {                                                   %! extern
+K_Staff_XXXI = {                                                               %! extern
 
-    % [K PercussionVoiceXXXII measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXXI"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XXXI                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXII_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XXXII measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5854,25 +5854,25 @@ K_PercussionVoiceXXXII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXXII measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 179 / measure 3]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 180 / measure 4]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 180 / measure 4]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 181 / measure 5]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 182 / measure 6]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 183 / measure 7]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 183 / measure 7]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 184 / measure 8]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 184 / measure 8]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -5883,30 +5883,30 @@ K_PercussionVoiceXXXII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 186 / measure 10]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 187 / measure 11]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 187 / measure 11]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 188 / measure 12]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 188 / measure 12]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 189 / measure 13]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 190 / measure 14]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 190 / measure 14]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXII measure 191 / measure 15]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXII measure 191 / measure 15]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXII measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXII measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -5924,26 +5924,26 @@ K_PercussionVoiceXXXII_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXII = {                                                     %! extern
+K_Percussion_Voice_XXXII = {                                                   %! extern
 
-    \K_PercussionVoiceXXXII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXII = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXXXII"                                    %! ScoreTemplate
-    \K_PercussionVoiceXXXII                                                    %! extern
+    \K_Percussion_Voice_XXXII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXIII_a = {                                                  %! extern
+K_Staff_XXXII = {                                                              %! extern
+
+    \context Voice = "Percussion_Voice_XXXII"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XXXII                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXIII_a = {                                                %! extern
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 177 / measure 1]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 177 / measure 1]                  %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \hcenter-in                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5975,7 +5975,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 178 / measure 2]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 178 / measure 2]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -5986,7 +5986,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 179 / measure 3]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 179 / measure 3]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -5997,7 +5997,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 180 / measure 4]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 180 / measure 4]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6008,7 +6008,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 181 / measure 5]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 181 / measure 5]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6019,7 +6019,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 182 / measure 6]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 182 / measure 6]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6030,7 +6030,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 183 / measure 7]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 183 / measure 7]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6041,7 +6041,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 184 / measure 8]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 184 / measure 8]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6052,7 +6052,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 185 / measure 9]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 185 / measure 9]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6073,7 +6073,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 186 / measure 10]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 186 / measure 10]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6094,7 +6094,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 187 / measure 11]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 187 / measure 11]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6115,7 +6115,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 188 / measure 12]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 188 / measure 12]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6136,7 +6136,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 189 / measure 13]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 189 / measure 13]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6157,7 +6157,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 190 / measure 14]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 190 / measure 14]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6178,7 +6178,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 191 / measure 15]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 191 / measure 15]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6199,7 +6199,7 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIII measure 192 / measure 16]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIII measure 192 / measure 16]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6221,24 +6221,24 @@ K_PercussionVoiceXXXIII_a = {                                                  %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXIII = {                                                    %! extern
+K_Percussion_Voice_XXXIII = {                                                  %! extern
 
-    \K_PercussionVoiceXXXIII_a                                                 %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXIII = {                                                              %! extern
-
-    \context Voice = "PercussionVoiceXXXIII"                                   %! ScoreTemplate
-    \K_PercussionVoiceXXXIII                                                   %! extern
+    \K_Percussion_Voice_XXXIII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXIV_a = {                                                   %! extern
+K_Staff_XXXIII = {                                                             %! extern
 
-    % [K PercussionVoiceXXXIV measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXXIII"                                 %! ScoreTemplate
+    \K_Percussion_Voice_XXXIII                                                 %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXIV_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XXXIV measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6264,7 +6264,7 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIV measure 178 / measure 2]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIV measure 178 / measure 2]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6279,14 +6279,14 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIV measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIV measure 179 / measure 3]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIV measure 180 / measure 4]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIV measure 180 / measure 4]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6305,7 +6305,7 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIV measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIV measure 181 / measure 5]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6316,12 +6316,12 @@ K_PercussionVoiceXXXIV_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIV measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIV measure 182 / measure 6]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIV measure 183 / measure 7]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIV measure 183 / measure 7]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6340,7 +6340,7 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIV measure 184 / measure 8]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIV measure 184 / measure 8]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6349,20 +6349,20 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIV measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIV measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIV measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIV measure 186 / measure 10]                      %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIV measure 187 / measure 11]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIV measure 187 / measure 11]                      %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIV measure 188 / measure 12]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIV measure 188 / measure 12]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6371,7 +6371,7 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIV measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIV measure 189 / measure 13]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6384,7 +6384,7 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIV measure 190 / measure 14]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIV measure 190 / measure 14]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6401,7 +6401,7 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIV measure 191 / measure 15]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIV measure 191 / measure 15]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6420,7 +6420,7 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIV measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIV measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6442,24 +6442,24 @@ K_PercussionVoiceXXXIV_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXIV = {                                                     %! extern
+K_Percussion_Voice_XXXIV = {                                                   %! extern
 
-    \K_PercussionVoiceXXXIV_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXIV = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXXXIV"                                    %! ScoreTemplate
-    \K_PercussionVoiceXXXIV                                                    %! extern
+    \K_Percussion_Voice_XXXIV_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXV_a = {                                                    %! extern
+K_Staff_XXXIV = {                                                              %! extern
 
-    % [K PercussionVoiceXXXV measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXXIV"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XXXIV                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXV_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XXXV measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6483,12 +6483,12 @@ K_PercussionVoiceXXXV_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXXV measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXV measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXV measure 179 / measure 3]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXV measure 179 / measure 3]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6497,17 +6497,17 @@ K_PercussionVoiceXXXV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXV measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXV measure 180 / measure 4]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXXV measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXV measure 181 / measure 5]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXV measure 182 / measure 6]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXV measure 182 / measure 6]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6526,7 +6526,7 @@ K_PercussionVoiceXXXV_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXV measure 183 / measure 7]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXV measure 183 / measure 7]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6543,7 +6543,7 @@ K_PercussionVoiceXXXV_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXV measure 184 / measure 8]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXV measure 184 / measure 8]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6562,7 +6562,7 @@ K_PercussionVoiceXXXV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXV measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXV measure 185 / measure 9]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6573,7 +6573,7 @@ K_PercussionVoiceXXXV_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXV measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXV measure 186 / measure 10]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6586,7 +6586,7 @@ K_PercussionVoiceXXXV_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXV measure 187 / measure 11]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXV measure 187 / measure 11]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6595,12 +6595,12 @@ K_PercussionVoiceXXXV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXV measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXV measure 188 / measure 12]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXV measure 189 / measure 13]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXV measure 189 / measure 13]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6617,14 +6617,14 @@ K_PercussionVoiceXXXV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXV measure 190 / measure 14]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXV measure 190 / measure 14]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXV measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXV measure 191 / measure 15]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6641,7 +6641,7 @@ K_PercussionVoiceXXXV_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXV measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXV measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6663,24 +6663,24 @@ K_PercussionVoiceXXXV_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXV = {                                                      %! extern
+K_Percussion_Voice_XXXV = {                                                    %! extern
 
-    \K_PercussionVoiceXXXV_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXV = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXXXV"                                     %! ScoreTemplate
-    \K_PercussionVoiceXXXV                                                     %! extern
+    \K_Percussion_Voice_XXXV_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXVI_a = {                                                   %! extern
+K_Staff_XXXV = {                                                               %! extern
 
-    % [K PercussionVoiceXXXVI measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXXV"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XXXV                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXVI_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XXXVI measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6704,15 +6704,15 @@ K_PercussionVoiceXXXVI_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXXVI measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 179 / measure 3]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVI measure 180 / measure 4]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVI measure 180 / measure 4]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6727,7 +6727,7 @@ K_PercussionVoiceXXXVI_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 181 / measure 5]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6738,12 +6738,12 @@ K_PercussionVoiceXXXVI_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 182 / measure 6]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 183 / measure 7]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 183 / measure 7]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6756,7 +6756,7 @@ K_PercussionVoiceXXXVI_a = {                                                   %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVI measure 184 / measure 8]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVI measure 184 / measure 8]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6775,10 +6775,10 @@ K_PercussionVoiceXXXVI_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 186 / measure 10]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6789,12 +6789,12 @@ K_PercussionVoiceXXXVI_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 187 / measure 11]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 187 / measure 11]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVI measure 188 / measure 12]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVI measure 188 / measure 12]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6809,7 +6809,7 @@ K_PercussionVoiceXXXVI_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 189 / measure 13]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6822,7 +6822,7 @@ K_PercussionVoiceXXXVI_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVI measure 190 / measure 14]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVI measure 190 / measure 14]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6839,7 +6839,7 @@ K_PercussionVoiceXXXVI_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVI measure 191 / measure 15]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVI measure 191 / measure 15]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6852,7 +6852,7 @@ K_PercussionVoiceXXXVI_a = {                                                   %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVI measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVI measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6874,24 +6874,24 @@ K_PercussionVoiceXXXVI_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXVI = {                                                     %! extern
+K_Percussion_Voice_XXXVI = {                                                   %! extern
 
-    \K_PercussionVoiceXXXVI_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXVI = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXXXVI"                                    %! ScoreTemplate
-    \K_PercussionVoiceXXXVI                                                    %! extern
+    \K_Percussion_Voice_XXXVI_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXVII_a = {                                                  %! extern
+K_Staff_XXXVI = {                                                              %! extern
 
-    % [K PercussionVoiceXXXVII measure 177 / measure 1]                        %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXXVI"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XXXVI                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXVII_a = {                                                %! extern
+
+    % [K Percussion_Voice_XXXVII measure 177 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6923,7 +6923,7 @@ K_PercussionVoiceXXXVII_a = {                                                  %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVII measure 178 / measure 2]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVII measure 178 / measure 2]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6934,7 +6934,7 @@ K_PercussionVoiceXXXVII_a = {                                                  %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVII measure 179 / measure 3]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVII measure 179 / measure 3]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6945,7 +6945,7 @@ K_PercussionVoiceXXXVII_a = {                                                  %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVII measure 180 / measure 4]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVII measure 180 / measure 4]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -6958,7 +6958,7 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVII measure 181 / measure 5]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVII measure 181 / measure 5]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -6979,7 +6979,7 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVII measure 182 / measure 6]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVII measure 182 / measure 6]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -6988,12 +6988,12 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVII measure 183 / measure 7]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVII measure 183 / measure 7]                      %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVII measure 184 / measure 8]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVII measure 184 / measure 8]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7010,7 +7010,7 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVII measure 185 / measure 9]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVII measure 185 / measure 9]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7029,7 +7029,7 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVII measure 186 / measure 10]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVII measure 186 / measure 10]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7046,19 +7046,19 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVII measure 187 / measure 11]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVII measure 187 / measure 11]                     %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVII measure 188 / measure 12]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVII measure 188 / measure 12]                     %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVII measure 189 / measure 13]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVII measure 189 / measure 13]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7073,12 +7073,12 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVII measure 190 / measure 14]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVII measure 190 / measure 14]                     %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVII measure 191 / measure 15]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVII measure 191 / measure 15]                 %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -7089,7 +7089,7 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVII measure 192 / measure 16]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVII measure 192 / measure 16]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7111,24 +7111,24 @@ K_PercussionVoiceXXXVII_a = {                                                  %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXVII = {                                                    %! extern
+K_Percussion_Voice_XXXVII = {                                                  %! extern
 
-    \K_PercussionVoiceXXXVII_a                                                 %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXVII = {                                                              %! extern
-
-    \context Voice = "PercussionVoiceXXXVII"                                   %! ScoreTemplate
-    \K_PercussionVoiceXXXVII                                                   %! extern
+    \K_Percussion_Voice_XXXVII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXVIII_a = {                                                 %! extern
+K_Staff_XXXVII = {                                                             %! extern
 
-    % [K PercussionVoiceXXXVIII measure 177 / measure 1]                       %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXXVII"                                 %! ScoreTemplate
+    \K_Percussion_Voice_XXXVII                                                 %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXVIII_a = {                                               %! extern
+
+    % [K Percussion_Voice_XXXVIII measure 177 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7152,7 +7152,7 @@ K_PercussionVoiceXXXVIII_a = {                                                 %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXXVIII measure 178 / measure 2]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 178 / measure 2]                     %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7163,10 +7163,10 @@ K_PercussionVoiceXXXVIII_a = {                                                 %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 179 / measure 3]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 179 / measure 3]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 180 / measure 4]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 180 / measure 4]                     %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7177,15 +7177,15 @@ K_PercussionVoiceXXXVIII_a = {                                                 %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 181 / measure 5]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 181 / measure 5]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 182 / measure 6]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 182 / measure 6]                     %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVIII measure 183 / measure 7]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVIII measure 183 / measure 7]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7204,7 +7204,7 @@ K_PercussionVoiceXXXVIII_a = {                                                 %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVIII measure 184 / measure 8]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVIII measure 184 / measure 8]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7219,15 +7219,15 @@ K_PercussionVoiceXXXVIII_a = {                                                 %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 185 / measure 9]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 185 / measure 9]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 186 / measure 10]                      %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 186 / measure 10]                    %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 187 / measure 11]                      %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 187 / measure 11]                    %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7238,17 +7238,17 @@ K_PercussionVoiceXXXVIII_a = {                                                 %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 188 / measure 12]                      %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 188 / measure 12]                    %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 189 / measure 13]                      %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 189 / measure 13]                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVIII measure 190 / measure 14]                  %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVIII measure 190 / measure 14]                %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -7257,14 +7257,14 @@ K_PercussionVoiceXXXVIII_a = {                                                 %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXVIII measure 191 / measure 15]                      %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXVIII measure 191 / measure 15]                    %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXVIII measure 192 / measure 16]                  %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXVIII measure 192 / measure 16]                %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7286,24 +7286,24 @@ K_PercussionVoiceXXXVIII_a = {                                                 %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXVIII = {                                                   %! extern
+K_Percussion_Voice_XXXVIII = {                                                 %! extern
 
-    \K_PercussionVoiceXXXVIII_a                                                %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXVIII = {                                                             %! extern
-
-    \context Voice = "PercussionVoiceXXXVIII"                                  %! ScoreTemplate
-    \K_PercussionVoiceXXXVIII                                                  %! extern
+    \K_Percussion_Voice_XXXVIII_a                                              %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXIX_a = {                                                   %! extern
+K_Staff_XXXVIII = {                                                            %! extern
 
-    % [K PercussionVoiceXXXIX measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXXVIII"                                %! ScoreTemplate
+    \K_Percussion_Voice_XXXVIII                                                %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XXXIX_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XXXIX measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7327,10 +7327,10 @@ K_PercussionVoiceXXXIX_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXXXIX measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 179 / measure 3]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7341,7 +7341,7 @@ K_PercussionVoiceXXXIX_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 180 / measure 4]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 180 / measure 4]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7352,15 +7352,15 @@ K_PercussionVoiceXXXIX_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 181 / measure 5]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 182 / measure 6]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIX measure 183 / measure 7]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIX measure 183 / measure 7]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7379,10 +7379,10 @@ K_PercussionVoiceXXXIX_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 184 / measure 8]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 184 / measure 8]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 185 / measure 9]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7393,7 +7393,7 @@ K_PercussionVoiceXXXIX_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 186 / measure 10]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7404,14 +7404,14 @@ K_PercussionVoiceXXXIX_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 187 / measure 11]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 187 / measure 11]                      %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIX measure 188 / measure 12]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIX measure 188 / measure 12]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7428,7 +7428,7 @@ K_PercussionVoiceXXXIX_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 189 / measure 13]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7439,7 +7439,7 @@ K_PercussionVoiceXXXIX_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 190 / measure 14]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 190 / measure 14]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7450,12 +7450,12 @@ K_PercussionVoiceXXXIX_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXXXIX measure 191 / measure 15]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XXXIX measure 191 / measure 15]                      %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXXXIX measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XXXIX measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7477,24 +7477,24 @@ K_PercussionVoiceXXXIX_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXXXIX = {                                                     %! extern
+K_Percussion_Voice_XXXIX = {                                                   %! extern
 
-    \K_PercussionVoiceXXXIX_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXXXIX = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXXXIX"                                    %! ScoreTemplate
-    \K_PercussionVoiceXXXIX                                                    %! extern
+    \K_Percussion_Voice_XXXIX_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXL_a = {                                                      %! extern
+K_Staff_XXXIX = {                                                              %! extern
 
-    % [K PercussionVoiceXL measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XXXIX"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XXXIX                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XL_a = {                                                    %! extern
+
+    % [K Percussion_Voice_XL measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7518,13 +7518,13 @@ K_PercussionVoiceXL_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXL measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 178 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 179 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 180 / measure 4]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 180 / measure 4]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7535,22 +7535,22 @@ K_PercussionVoiceXL_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 181 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 182 / measure 6]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 182 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 183 / measure 7]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 183 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 184 / measure 8]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 184 / measure 8]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 185 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 186 / measure 10]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 186 / measure 10]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7561,12 +7561,12 @@ K_PercussionVoiceXL_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 187 / measure 11]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 187 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXL measure 188 / measure 12]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XL measure 188 / measure 12]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7583,10 +7583,10 @@ K_PercussionVoiceXL_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 189 / measure 13]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 189 / measure 13]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 190 / measure 14]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 190 / measure 14]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7597,12 +7597,12 @@ K_PercussionVoiceXL_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXL measure 191 / measure 15]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XL measure 191 / measure 15]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXL measure 192 / measure 16]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XL measure 192 / measure 16]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7624,24 +7624,24 @@ K_PercussionVoiceXL_a = {                                                      %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXL = {                                                        %! extern
+K_Percussion_Voice_XL = {                                                      %! extern
 
-    \K_PercussionVoiceXL_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXL = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceXL"                                       %! ScoreTemplate
-    \K_PercussionVoiceXL                                                       %! extern
+    \K_Percussion_Voice_XL_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLI_a = {                                                     %! extern
+K_Staff_XL = {                                                                 %! extern
 
-    % [K PercussionVoiceXLI measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XL"                                     %! ScoreTemplate
+    \K_Percussion_Voice_XL                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLI_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XLI measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7667,24 +7667,24 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLI measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLI measure 178 / measure 2]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLI measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLI measure 179 / measure 3]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLI measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLI measure 180 / measure 4]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 181 / measure 5]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 181 / measure 5]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7703,7 +7703,7 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 182 / measure 6]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 182 / measure 6]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7722,7 +7722,7 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 183 / measure 7]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 183 / measure 7]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7741,7 +7741,7 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 184 / measure 8]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7760,7 +7760,7 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 185 / measure 9]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 185 / measure 9]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7777,7 +7777,7 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 186 / measure 10]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 186 / measure 10]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7792,15 +7792,15 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLI measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLI measure 187 / measure 11]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLI measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLI measure 188 / measure 12]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 189 / measure 13]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 189 / measure 13]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -7811,7 +7811,7 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 190 / measure 14]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -7822,7 +7822,7 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 191 / measure 15]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7843,7 +7843,7 @@ K_PercussionVoiceXLI_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLI measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLI measure 192 / measure 16]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7865,24 +7865,24 @@ K_PercussionVoiceXLI_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLI = {                                                       %! extern
+K_Percussion_Voice_XLI = {                                                     %! extern
 
-    \K_PercussionVoiceXLI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLI = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXLI"                                      %! ScoreTemplate
-    \K_PercussionVoiceXLI                                                      %! extern
+    \K_Percussion_Voice_XLI_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLII_a = {                                                    %! extern
+K_Staff_XLI = {                                                                %! extern
 
-    % [K PercussionVoiceXLII measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XLI"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XLI                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLII_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XLII measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7908,7 +7908,7 @@ K_PercussionVoiceXLII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLII measure 178 / measure 2]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLII measure 178 / measure 2]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7925,7 +7925,7 @@ K_PercussionVoiceXLII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLII measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLII measure 179 / measure 3]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7936,20 +7936,20 @@ K_PercussionVoiceXLII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLII measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLII measure 180 / measure 4]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLII measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLII measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLII measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLII measure 182 / measure 6]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLII measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLII measure 183 / measure 7]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -7962,7 +7962,7 @@ K_PercussionVoiceXLII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLII measure 184 / measure 8]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLII measure 184 / measure 8]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -7979,12 +7979,12 @@ K_PercussionVoiceXLII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLII measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLII measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLII measure 186 / measure 10]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLII measure 186 / measure 10]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -7995,7 +7995,7 @@ K_PercussionVoiceXLII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLII measure 187 / measure 11]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLII measure 187 / measure 11]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8014,7 +8014,7 @@ K_PercussionVoiceXLII_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLII measure 188 / measure 12]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLII measure 188 / measure 12]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8029,7 +8029,7 @@ K_PercussionVoiceXLII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLII measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLII measure 189 / measure 13]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8040,12 +8040,12 @@ K_PercussionVoiceXLII_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLII measure 190 / measure 14]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLII measure 190 / measure 14]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLII measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLII measure 191 / measure 15]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8064,7 +8064,7 @@ K_PercussionVoiceXLII_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLII measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLII measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8086,24 +8086,24 @@ K_PercussionVoiceXLII_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLII = {                                                      %! extern
+K_Percussion_Voice_XLII = {                                                    %! extern
 
-    \K_PercussionVoiceXLII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLII = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXLII"                                     %! ScoreTemplate
-    \K_PercussionVoiceXLII                                                     %! extern
+    \K_Percussion_Voice_XLII_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLIII_a = {                                                   %! extern
+K_Staff_XLII = {                                                               %! extern
 
-    % [K PercussionVoiceXLIII measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XLII"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XLII                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLIII_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XLIII measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -8127,17 +8127,17 @@ K_PercussionVoiceXLIII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXLIII measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIII measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLIII measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIII measure 179 / measure 3]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIII measure 180 / measure 4]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIII measure 180 / measure 4]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8154,7 +8154,7 @@ K_PercussionVoiceXLIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIII measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIII measure 181 / measure 5]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8165,7 +8165,7 @@ K_PercussionVoiceXLIII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIII measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIII measure 182 / measure 6]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8176,14 +8176,14 @@ K_PercussionVoiceXLIII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIII measure 183 / measure 7]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIII measure 183 / measure 7]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIII measure 184 / measure 8]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIII measure 184 / measure 8]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8200,15 +8200,15 @@ K_PercussionVoiceXLIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIII measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIII measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLIII measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIII measure 186 / measure 10]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIII measure 187 / measure 11]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIII measure 187 / measure 11]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8225,7 +8225,7 @@ K_PercussionVoiceXLIII_a = {                                                   %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIII measure 188 / measure 12]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIII measure 188 / measure 12]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8244,14 +8244,14 @@ K_PercussionVoiceXLIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIII measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIII measure 189 / measure 13]                      %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIII measure 190 / measure 14]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIII measure 190 / measure 14]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8270,7 +8270,7 @@ K_PercussionVoiceXLIII_a = {                                                   %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIII measure 191 / measure 15]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIII measure 191 / measure 15]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8287,7 +8287,7 @@ K_PercussionVoiceXLIII_a = {                                                   %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIII measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIII measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8309,24 +8309,24 @@ K_PercussionVoiceXLIII_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLIII = {                                                     %! extern
+K_Percussion_Voice_XLIII = {                                                   %! extern
 
-    \K_PercussionVoiceXLIII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLIII = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXLIII"                                    %! ScoreTemplate
-    \K_PercussionVoiceXLIII                                                    %! extern
+    \K_Percussion_Voice_XLIII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLIV_a = {                                                    %! extern
+K_Staff_XLIII = {                                                              %! extern
 
-    % [K PercussionVoiceXLIV measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XLIII"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XLIII                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLIV_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XLIV measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -8350,15 +8350,15 @@ K_PercussionVoiceXLIV_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXLIV measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIV measure 180 / measure 4]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIV measure 180 / measure 4]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8375,10 +8375,10 @@ K_PercussionVoiceXLIV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 182 / measure 6]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8389,12 +8389,12 @@ K_PercussionVoiceXLIV_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 183 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIV measure 184 / measure 8]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIV measure 184 / measure 8]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8411,18 +8411,18 @@ K_PercussionVoiceXLIV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 186 / measure 10]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 187 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIV measure 188 / measure 12]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIV measure 188 / measure 12]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -8431,7 +8431,7 @@ K_PercussionVoiceXLIV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 189 / measure 13]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8442,12 +8442,12 @@ K_PercussionVoiceXLIV_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 190 / measure 14]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 190 / measure 14]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLIV measure 191 / measure 15]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIV measure 191 / measure 15]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8460,7 +8460,7 @@ K_PercussionVoiceXLIV_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIV measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIV measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8482,24 +8482,24 @@ K_PercussionVoiceXLIV_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLIV = {                                                      %! extern
+K_Percussion_Voice_XLIV = {                                                    %! extern
 
-    \K_PercussionVoiceXLIV_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLIV = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXLIV"                                     %! ScoreTemplate
-    \K_PercussionVoiceXLIV                                                     %! extern
+    \K_Percussion_Voice_XLIV_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLV_a = {                                                     %! extern
+K_Staff_XLIV = {                                                               %! extern
 
-    % [K PercussionVoiceXLV measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XLIV"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XLIV                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLV_a = {                                                   %! extern
+
+    % [K Percussion_Voice_XLV measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -8531,7 +8531,7 @@ K_PercussionVoiceXLV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 178 / measure 2]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8542,7 +8542,7 @@ K_PercussionVoiceXLV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 179 / measure 3]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8553,7 +8553,7 @@ K_PercussionVoiceXLV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 180 / measure 4]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8566,7 +8566,7 @@ K_PercussionVoiceXLV_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLV measure 181 / measure 5]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XLV measure 181 / measure 5]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8585,7 +8585,7 @@ K_PercussionVoiceXLV_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLV measure 182 / measure 6]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_XLV measure 182 / measure 6]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8602,17 +8602,17 @@ K_PercussionVoiceXLV_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 183 / measure 7]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 184 / measure 8]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 184 / measure 8]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 185 / measure 9]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8623,7 +8623,7 @@ K_PercussionVoiceXLV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 186 / measure 10]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8634,7 +8634,7 @@ K_PercussionVoiceXLV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 187 / measure 11]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8645,7 +8645,7 @@ K_PercussionVoiceXLV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 188 / measure 12]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8656,12 +8656,12 @@ K_PercussionVoiceXLV_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLV measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLV measure 189 / measure 13]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLV measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLV measure 190 / measure 14]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8678,7 +8678,7 @@ K_PercussionVoiceXLV_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLV measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLV measure 191 / measure 15]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -8689,7 +8689,7 @@ K_PercussionVoiceXLV_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLV measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLV measure 192 / measure 16]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8711,24 +8711,24 @@ K_PercussionVoiceXLV_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLV = {                                                       %! extern
+K_Percussion_Voice_XLV = {                                                     %! extern
 
-    \K_PercussionVoiceXLV_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLV = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceXLV"                                      %! ScoreTemplate
-    \K_PercussionVoiceXLV                                                      %! extern
+    \K_Percussion_Voice_XLV_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLVI_a = {                                                    %! extern
+K_Staff_XLV = {                                                                %! extern
 
-    % [K PercussionVoiceXLVI measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XLV"                                    %! ScoreTemplate
+    \K_Percussion_Voice_XLV                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLVI_a = {                                                  %! extern
+
+    % [K Percussion_Voice_XLVI measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -8752,7 +8752,7 @@ K_PercussionVoiceXLVI_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXLVI measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 178 / measure 2]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8763,10 +8763,10 @@ K_PercussionVoiceXLVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 180 / measure 4]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8777,15 +8777,15 @@ K_PercussionVoiceXLVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 182 / measure 6]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 183 / measure 7]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8796,15 +8796,15 @@ K_PercussionVoiceXLVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 184 / measure 8]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 186 / measure 10]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8815,10 +8815,10 @@ K_PercussionVoiceXLVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 187 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 188 / measure 12]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8829,12 +8829,12 @@ K_PercussionVoiceXLVI_a = {                                                    %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 189 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLVI measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLVI measure 190 / measure 14]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8853,14 +8853,14 @@ K_PercussionVoiceXLVI_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVI measure 191 / measure 15]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVI measure 191 / measure 15]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLVI measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLVI measure 192 / measure 16]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8882,24 +8882,24 @@ K_PercussionVoiceXLVI_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLVI = {                                                      %! extern
+K_Percussion_Voice_XLVI = {                                                    %! extern
 
-    \K_PercussionVoiceXLVI_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLVI = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXLVI"                                     %! ScoreTemplate
-    \K_PercussionVoiceXLVI                                                     %! extern
+    \K_Percussion_Voice_XLVI_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLVII_a = {                                                   %! extern
+K_Staff_XLVI = {                                                               %! extern
 
-    % [K PercussionVoiceXLVII measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XLVI"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XLVI                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLVII_a = {                                                 %! extern
+
+    % [K Percussion_Voice_XLVII measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -8923,10 +8923,10 @@ K_PercussionVoiceXLVII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXLVII measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 179 / measure 3]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8937,7 +8937,7 @@ K_PercussionVoiceXLVII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 180 / measure 4]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 180 / measure 4]                       %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8948,15 +8948,15 @@ K_PercussionVoiceXLVII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 181 / measure 5]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 182 / measure 6]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLVII measure 183 / measure 7]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLVII measure 183 / measure 7]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -8973,18 +8973,18 @@ K_PercussionVoiceXLVII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 184 / measure 8]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 184 / measure 8]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 186 / measure 10]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 187 / measure 11]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 187 / measure 11]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -8995,7 +8995,7 @@ K_PercussionVoiceXLVII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 188 / measure 12]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 188 / measure 12]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9006,18 +9006,18 @@ K_PercussionVoiceXLVII_a = {                                                   %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 189 / measure 13]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 190 / measure 14]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 190 / measure 14]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVII measure 191 / measure 15]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVII measure 191 / measure 15]                      %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLVII measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_XLVII measure 192 / measure 16]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9039,24 +9039,24 @@ K_PercussionVoiceXLVII_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLVII = {                                                     %! extern
+K_Percussion_Voice_XLVII = {                                                   %! extern
 
-    \K_PercussionVoiceXLVII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLVII = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceXLVII"                                    %! ScoreTemplate
-    \K_PercussionVoiceXLVII                                                    %! extern
+    \K_Percussion_Voice_XLVII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLVIII_a = {                                                  %! extern
+K_Staff_XLVII = {                                                              %! extern
 
-    % [K PercussionVoiceXLVIII measure 177 / measure 1]                        %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XLVII"                                  %! ScoreTemplate
+    \K_Percussion_Voice_XLVII                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLVIII_a = {                                                %! extern
+
+    % [K Percussion_Voice_XLVIII measure 177 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -9080,13 +9080,13 @@ K_PercussionVoiceXLVIII_a = {                                                  %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceXLVIII measure 178 / measure 2]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 178 / measure 2]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 179 / measure 3]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 179 / measure 3]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 180 / measure 4]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 180 / measure 4]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9097,30 +9097,30 @@ K_PercussionVoiceXLVIII_a = {                                                  %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 181 / measure 5]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 181 / measure 5]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 182 / measure 6]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 182 / measure 6]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 183 / measure 7]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 183 / measure 7]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 184 / measure 8]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 184 / measure 8]                      %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 185 / measure 9]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 185 / measure 9]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 186 / measure 10]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 186 / measure 10]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 187 / measure 11]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 187 / measure 11]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 188 / measure 12]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 188 / measure 12]                     %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9131,18 +9131,18 @@ K_PercussionVoiceXLVIII_a = {                                                  %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 189 / measure 13]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 189 / measure 13]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 190 / measure 14]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 190 / measure 14]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceXLVIII measure 191 / measure 15]                       %! _comment_measure_numbers
+    % [K Percussion_Voice_XLVIII measure 191 / measure 15]                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLVIII measure 192 / measure 16]                   %! _comment_measure_numbers
+        % [K Percussion_Voice_XLVIII measure 192 / measure 16]                 %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9164,26 +9164,26 @@ K_PercussionVoiceXLVIII_a = {                                                  %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLVIII = {                                                    %! extern
+K_Percussion_Voice_XLVIII = {                                                  %! extern
 
-    \K_PercussionVoiceXLVIII_a                                                 %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLVIII = {                                                              %! extern
-
-    \context Voice = "PercussionVoiceXLVIII"                                   %! ScoreTemplate
-    \K_PercussionVoiceXLVIII                                                   %! extern
+    \K_Percussion_Voice_XLVIII_a                                               %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLIX_a = {                                                    %! extern
+K_Staff_XLVIII = {                                                             %! extern
+
+    \context Voice = "Percussion_Voice_XLVIII"                                 %! ScoreTemplate
+    \K_Percussion_Voice_XLVIII                                                 %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_XLIX_a = {                                                  %! extern
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 177 / measure 1]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 177 / measure 1]                    %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \hcenter-in                                                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -9221,7 +9221,7 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 178 / measure 2]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 178 / measure 2]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9238,7 +9238,7 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 179 / measure 3]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 179 / measure 3]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9255,7 +9255,7 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 180 / measure 4]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 180 / measure 4]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9270,42 +9270,21 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceXLIX measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIX measure 181 / measure 5]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLIX measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIX measure 182 / measure 6]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLIX measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIX measure 183 / measure 7]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceXLIX measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_XLIX measure 184 / measure 8]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 185 / measure 9]                      %! _comment_measure_numbers
-        c'8                                                                    %! recursif_rhythm
-        [                                                                      %! recursif_rhythm
-
-        c'8                                                                    %! recursif_rhythm
-
-        c'8                                                                    %! recursif_rhythm
-
-        c'8                                                                    %! recursif_rhythm
-
-        c'8                                                                    %! recursif_rhythm
-
-        c'8                                                                    %! recursif_rhythm
-
-        c'8                                                                    %! recursif_rhythm
-        ]                                                                      %! recursif_rhythm
-
-    }                                                                          %! recursif_rhythm
-
-    \times 4/7 {                                                               %! recursif_rhythm
-
-        % [K PercussionVoiceXLIX measure 186 / measure 10]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 185 / measure 9]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9326,7 +9305,7 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 187 / measure 11]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 186 / measure 10]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9347,7 +9326,28 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 188 / measure 12]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 187 / measure 11]                   %! _comment_measure_numbers
+        c'8                                                                    %! recursif_rhythm
+        [                                                                      %! recursif_rhythm
+
+        c'8                                                                    %! recursif_rhythm
+
+        c'8                                                                    %! recursif_rhythm
+
+        c'8                                                                    %! recursif_rhythm
+
+        c'8                                                                    %! recursif_rhythm
+
+        c'8                                                                    %! recursif_rhythm
+
+        c'8                                                                    %! recursif_rhythm
+        ]                                                                      %! recursif_rhythm
+
+    }                                                                          %! recursif_rhythm
+
+    \times 4/7 {                                                               %! recursif_rhythm
+
+        % [K Percussion_Voice_XLIX measure 188 / measure 12]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9368,7 +9368,7 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 189 / measure 13]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 189 / measure 13]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9379,7 +9379,7 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 190 / measure 14]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9390,7 +9390,7 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 191 / measure 15]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9401,7 +9401,7 @@ K_PercussionVoiceXLIX_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceXLIX measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_XLIX measure 192 / measure 16]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9413,24 +9413,24 @@ K_PercussionVoiceXLIX_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceXLIX = {                                                      %! extern
+K_Percussion_Voice_XLIX = {                                                    %! extern
 
-    \K_PercussionVoiceXLIX_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffXLIX = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceXLIX"                                     %! ScoreTemplate
-    \K_PercussionVoiceXLIX                                                     %! extern
+    \K_Percussion_Voice_XLIX_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceL_a = {                                                       %! extern
+K_Staff_XLIX = {                                                               %! extern
 
-    % [K PercussionVoiceL measure 177 / measure 1]                             %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_XLIX"                                   %! ScoreTemplate
+    \K_Percussion_Voice_XLIX                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_L_a = {                                                     %! extern
+
+    % [K Percussion_Voice_L measure 177 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -9456,7 +9456,7 @@ K_PercussionVoiceL_a = {                                                       %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceL measure 178 / measure 2]                         %! _comment_measure_numbers
+        % [K Percussion_Voice_L measure 178 / measure 2]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9467,7 +9467,7 @@ K_PercussionVoiceL_a = {                                                       %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceL measure 179 / measure 3]                         %! _comment_measure_numbers
+        % [K Percussion_Voice_L measure 179 / measure 3]                       %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9484,10 +9484,10 @@ K_PercussionVoiceL_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 180 / measure 4]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 180 / measure 4]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 181 / measure 5]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 181 / measure 5]                           %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9500,7 +9500,7 @@ K_PercussionVoiceL_a = {                                                       %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceL measure 182 / measure 6]                         %! _comment_measure_numbers
+        % [K Percussion_Voice_L measure 182 / measure 6]                       %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9509,28 +9509,28 @@ K_PercussionVoiceL_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 183 / measure 7]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 183 / measure 7]                           %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 184 / measure 8]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 184 / measure 8]                           %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 185 / measure 9]                             %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 185 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 186 / measure 10]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 186 / measure 10]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 187 / measure 11]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 187 / measure 11]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceL measure 188 / measure 12]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_L measure 188 / measure 12]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9539,7 +9539,7 @@ K_PercussionVoiceL_a = {                                                       %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 189 / measure 13]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 189 / measure 13]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9550,12 +9550,12 @@ K_PercussionVoiceL_a = {                                                       %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceL measure 190 / measure 14]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_L measure 190 / measure 14]                          %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceL measure 191 / measure 15]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_L measure 191 / measure 15]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9574,7 +9574,7 @@ K_PercussionVoiceL_a = {                                                       %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceL measure 192 / measure 16]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_L measure 192 / measure 16]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9586,24 +9586,24 @@ K_PercussionVoiceL_a = {                                                       %
 }                                                                              %! extern
 
 
-K_PercussionVoiceL = {                                                         %! extern
+K_Percussion_Voice_L = {                                                       %! extern
 
-    \K_PercussionVoiceL_a                                                      %! extern
-
-}                                                                              %! extern
-
-
-K_StaffL = {                                                                   %! extern
-
-    \context Voice = "PercussionVoiceL"                                        %! ScoreTemplate
-    \K_PercussionVoiceL                                                        %! extern
+    \K_Percussion_Voice_L_a                                                    %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLI_a = {                                                      %! extern
+K_Staff_L = {                                                                  %! extern
 
-    % [K PercussionVoiceLI measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_L"                                      %! ScoreTemplate
+    \K_Percussion_Voice_L                                                      %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LI_a = {                                                    %! extern
+
+    % [K Percussion_Voice_LI measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -9627,12 +9627,12 @@ K_PercussionVoiceLI_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLI measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LI measure 178 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLI measure 179 / measure 3]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_LI measure 179 / measure 3]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9649,7 +9649,7 @@ K_PercussionVoiceLI_a = {                                                      %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLI measure 180 / measure 4]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_LI measure 180 / measure 4]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9670,7 +9670,7 @@ K_PercussionVoiceLI_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLI measure 181 / measure 5]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_LI measure 181 / measure 5]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9687,14 +9687,14 @@ K_PercussionVoiceLI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLI measure 182 / measure 6]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LI measure 182 / measure 6]                          %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLI measure 183 / measure 7]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_LI measure 183 / measure 7]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9715,7 +9715,7 @@ K_PercussionVoiceLI_a = {                                                      %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLI measure 184 / measure 8]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_LI measure 184 / measure 8]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9730,7 +9730,7 @@ K_PercussionVoiceLI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLI measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LI measure 185 / measure 9]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9741,7 +9741,7 @@ K_PercussionVoiceLI_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLI measure 186 / measure 10]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LI measure 186 / measure 10]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9754,7 +9754,7 @@ K_PercussionVoiceLI_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLI measure 187 / measure 11]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LI measure 187 / measure 11]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9763,12 +9763,12 @@ K_PercussionVoiceLI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLI measure 188 / measure 12]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LI measure 188 / measure 12]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLI measure 189 / measure 13]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LI measure 189 / measure 13]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9785,17 +9785,17 @@ K_PercussionVoiceLI_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLI measure 190 / measure 14]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LI measure 190 / measure 14]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceLI measure 191 / measure 15]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LI measure 191 / measure 15]                         %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLI measure 192 / measure 16]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LI measure 192 / measure 16]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9807,24 +9807,24 @@ K_PercussionVoiceLI_a = {                                                      %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLI = {                                                        %! extern
+K_Percussion_Voice_LI = {                                                      %! extern
 
-    \K_PercussionVoiceLI_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLI = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceLI"                                       %! ScoreTemplate
-    \K_PercussionVoiceLI                                                       %! extern
+    \K_Percussion_Voice_LI_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLII_a = {                                                     %! extern
+K_Staff_LI = {                                                                 %! extern
 
-    % [K PercussionVoiceLII measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LI"                                     %! ScoreTemplate
+    \K_Percussion_Voice_LI                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LII_a = {                                                   %! extern
+
+    % [K Percussion_Voice_LII measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -9848,15 +9848,15 @@ K_PercussionVoiceLII_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLII measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLII measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLII measure 180 / measure 4]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LII measure 180 / measure 4]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -9865,7 +9865,7 @@ K_PercussionVoiceLII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLII measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 181 / measure 5]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9878,7 +9878,7 @@ K_PercussionVoiceLII_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLII measure 182 / measure 6]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LII measure 182 / measure 6]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9895,7 +9895,7 @@ K_PercussionVoiceLII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLII measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 183 / measure 7]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9908,7 +9908,7 @@ K_PercussionVoiceLII_a = {                                                     %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLII measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LII measure 184 / measure 8]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9923,10 +9923,10 @@ K_PercussionVoiceLII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLII measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLII measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 186 / measure 10]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9937,12 +9937,12 @@ K_PercussionVoiceLII_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLII measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 187 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLII measure 188 / measure 12]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LII measure 188 / measure 12]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9957,7 +9957,7 @@ K_PercussionVoiceLII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLII measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 189 / measure 13]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -9970,7 +9970,7 @@ K_PercussionVoiceLII_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLII measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LII measure 190 / measure 14]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -9987,7 +9987,7 @@ K_PercussionVoiceLII_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLII measure 191 / measure 15]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LII measure 191 / measure 15]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -10000,7 +10000,7 @@ K_PercussionVoiceLII_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLII measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LII measure 192 / measure 16]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10012,24 +10012,24 @@ K_PercussionVoiceLII_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLII = {                                                       %! extern
+K_Percussion_Voice_LII = {                                                     %! extern
 
-    \K_PercussionVoiceLII_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLII = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceLII"                                      %! ScoreTemplate
-    \K_PercussionVoiceLII                                                      %! extern
+    \K_Percussion_Voice_LII_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLIII_a = {                                                    %! extern
+K_Staff_LII = {                                                                %! extern
 
-    % [K PercussionVoiceLIII measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LII"                                    %! ScoreTemplate
+    \K_Percussion_Voice_LII                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LIII_a = {                                                  %! extern
+
+    % [K Percussion_Voice_LIII measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -10053,18 +10053,18 @@ K_PercussionVoiceLIII_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLIII measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIII measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIII measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIII measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIII measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIII measure 180 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIII measure 181 / measure 5]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIII measure 181 / measure 5]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10079,12 +10079,12 @@ K_PercussionVoiceLIII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIII measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIII measure 182 / measure 6]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIII measure 183 / measure 7]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIII measure 183 / measure 7]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10095,7 +10095,7 @@ K_PercussionVoiceLIII_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIII measure 184 / measure 8]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIII measure 184 / measure 8]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10114,19 +10114,19 @@ K_PercussionVoiceLIII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIII measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIII measure 185 / measure 9]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceLIII measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LIII measure 186 / measure 10]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIII measure 187 / measure 11]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LIII measure 187 / measure 11]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10145,7 +10145,7 @@ K_PercussionVoiceLIII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIII measure 188 / measure 12]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LIII measure 188 / measure 12]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10162,12 +10162,12 @@ K_PercussionVoiceLIII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIII measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LIII measure 189 / measure 13]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIII measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LIII measure 190 / measure 14]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10184,7 +10184,7 @@ K_PercussionVoiceLIII_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIII measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LIII measure 191 / measure 15]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10205,7 +10205,7 @@ K_PercussionVoiceLIII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIII measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LIII measure 192 / measure 16]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10217,24 +10217,24 @@ K_PercussionVoiceLIII_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLIII = {                                                      %! extern
+K_Percussion_Voice_LIII = {                                                    %! extern
 
-    \K_PercussionVoiceLIII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLIII = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceLIII"                                     %! ScoreTemplate
-    \K_PercussionVoiceLIII                                                     %! extern
+    \K_Percussion_Voice_LIII_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLIV_a = {                                                     %! extern
+K_Staff_LIII = {                                                               %! extern
 
-    % [K PercussionVoiceLIV measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LIII"                                   %! ScoreTemplate
+    \K_Percussion_Voice_LIII                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LIV_a = {                                                   %! extern
+
+    % [K Percussion_Voice_LIV measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -10258,21 +10258,21 @@ K_PercussionVoiceLIV_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLIV measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIV measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIV measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 180 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIV measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIV measure 182 / measure 6]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LIV measure 182 / measure 6]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10281,14 +10281,14 @@ K_PercussionVoiceLIV_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIV measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 183 / measure 7]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIV measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LIV measure 184 / measure 8]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10307,12 +10307,12 @@ K_PercussionVoiceLIV_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIV measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIV measure 186 / measure 10]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIV measure 186 / measure 10]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10329,7 +10329,7 @@ K_PercussionVoiceLIV_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIV measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 187 / measure 11]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -10342,7 +10342,7 @@ K_PercussionVoiceLIV_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIV measure 188 / measure 12]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIV measure 188 / measure 12]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10359,12 +10359,12 @@ K_PercussionVoiceLIV_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIV measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 189 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIV measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIV measure 190 / measure 14]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10383,14 +10383,14 @@ K_PercussionVoiceLIV_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIV measure 191 / measure 15]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIV measure 191 / measure 15]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIV measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIV measure 192 / measure 16]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10402,24 +10402,24 @@ K_PercussionVoiceLIV_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLIV = {                                                       %! extern
+K_Percussion_Voice_LIV = {                                                     %! extern
 
-    \K_PercussionVoiceLIV_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLIV = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceLIV"                                      %! ScoreTemplate
-    \K_PercussionVoiceLIV                                                      %! extern
+    \K_Percussion_Voice_LIV_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLV_a = {                                                      %! extern
+K_Staff_LIV = {                                                                %! extern
 
-    % [K PercussionVoiceLV measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LIV"                                    %! ScoreTemplate
+    \K_Percussion_Voice_LIV                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LV_a = {                                                    %! extern
+
+    % [K Percussion_Voice_LV measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -10443,24 +10443,24 @@ K_PercussionVoiceLV_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLV measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 178 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 179 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 180 / measure 4]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 180 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 181 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 182 / measure 6]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 182 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLV measure 183 / measure 7]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_LV measure 183 / measure 7]                      %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10477,7 +10477,7 @@ K_PercussionVoiceLV_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLV measure 184 / measure 8]                        %! _comment_measure_numbers
+        % [K Percussion_Voice_LV measure 184 / measure 8]                      %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10486,7 +10486,7 @@ K_PercussionVoiceLV_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 185 / measure 9]                          %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -10497,7 +10497,7 @@ K_PercussionVoiceLV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 186 / measure 10]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 186 / measure 10]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -10510,7 +10510,7 @@ K_PercussionVoiceLV_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLV measure 187 / measure 11]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LV measure 187 / measure 11]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10527,12 +10527,12 @@ K_PercussionVoiceLV_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 188 / measure 12]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 188 / measure 12]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 189 / measure 13]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 189 / measure 13]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -10543,7 +10543,7 @@ K_PercussionVoiceLV_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLV measure 190 / measure 14]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LV measure 190 / measure 14]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -10556,7 +10556,7 @@ K_PercussionVoiceLV_a = {                                                      %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLV measure 191 / measure 15]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LV measure 191 / measure 15]                     %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10573,7 +10573,7 @@ K_PercussionVoiceLV_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLV measure 192 / measure 16]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LV measure 192 / measure 16]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10585,24 +10585,24 @@ K_PercussionVoiceLV_a = {                                                      %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLV = {                                                        %! extern
+K_Percussion_Voice_LV = {                                                      %! extern
 
-    \K_PercussionVoiceLV_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLV = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceLV"                                       %! ScoreTemplate
-    \K_PercussionVoiceLV                                                       %! extern
+    \K_Percussion_Voice_LV_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLVI_a = {                                                     %! extern
+K_Staff_LV = {                                                                 %! extern
 
-    % [K PercussionVoiceLVI measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LV"                                     %! ScoreTemplate
+    \K_Percussion_Voice_LV                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LVI_a = {                                                   %! extern
+
+    % [K Percussion_Voice_LVI measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -10626,27 +10626,27 @@ K_PercussionVoiceLVI_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLVI measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 180 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 182 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 183 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVI measure 184 / measure 8]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LVI measure 184 / measure 8]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10655,10 +10655,10 @@ K_PercussionVoiceLVI_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 186 / measure 10]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -10669,18 +10669,18 @@ K_PercussionVoiceLVI_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 187 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 188 / measure 12]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 189 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 190 / measure 14]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 190 / measure 14]                        %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -10691,12 +10691,12 @@ K_PercussionVoiceLVI_a = {                                                     %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLVI measure 191 / measure 15]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVI measure 191 / measure 15]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVI measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LVI measure 192 / measure 16]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10708,24 +10708,24 @@ K_PercussionVoiceLVI_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLVI = {                                                       %! extern
+K_Percussion_Voice_LVI = {                                                     %! extern
 
-    \K_PercussionVoiceLVI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLVI = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceLVI"                                      %! ScoreTemplate
-    \K_PercussionVoiceLVI                                                      %! extern
+    \K_Percussion_Voice_LVI_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLVII_a = {                                                    %! extern
+K_Staff_LVI = {                                                                %! extern
 
-    % [K PercussionVoiceLVII measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LVI"                                    %! ScoreTemplate
+    \K_Percussion_Voice_LVI                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LVII_a = {                                                  %! extern
+
+    % [K Percussion_Voice_LVII measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -10749,30 +10749,30 @@ K_PercussionVoiceLVII_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLVII measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVII measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVII measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 180 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVII measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVII measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 182 / measure 6]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVII measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 183 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVII measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 184 / measure 8]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVII measure 185 / measure 9]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LVII measure 185 / measure 9]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10789,7 +10789,7 @@ K_PercussionVoiceLVII_a = {                                                    %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVII measure 186 / measure 10]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LVII measure 186 / measure 10]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10804,15 +10804,15 @@ K_PercussionVoiceLVII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLVII measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 187 / measure 11]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceLVII measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVII measure 188 / measure 12]                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVII measure 189 / measure 13]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LVII measure 189 / measure 13]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10833,7 +10833,7 @@ K_PercussionVoiceLVII_a = {                                                    %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVII measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LVII measure 190 / measure 14]                   %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10854,7 +10854,7 @@ K_PercussionVoiceLVII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVII measure 191 / measure 15]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LVII measure 191 / measure 15]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10865,7 +10865,7 @@ K_PercussionVoiceLVII_a = {                                                    %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVII measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LVII measure 192 / measure 16]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10877,24 +10877,24 @@ K_PercussionVoiceLVII_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLVII = {                                                      %! extern
+K_Percussion_Voice_LVII = {                                                    %! extern
 
-    \K_PercussionVoiceLVII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLVII = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceLVII"                                     %! ScoreTemplate
-    \K_PercussionVoiceLVII                                                     %! extern
+    \K_Percussion_Voice_LVII_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLVIII_a = {                                                   %! extern
+K_Staff_LVII = {                                                               %! extern
 
-    % [K PercussionVoiceLVIII measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LVII"                                   %! ScoreTemplate
+    \K_Percussion_Voice_LVII                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LVIII_a = {                                                 %! extern
+
+    % [K Percussion_Voice_LVIII measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -10918,33 +10918,33 @@ K_PercussionVoiceLVIII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLVIII measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVIII measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 179 / measure 3]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVIII measure 180 / measure 4]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 180 / measure 4]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVIII measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 181 / measure 5]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVIII measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 182 / measure 6]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVIII measure 183 / measure 7]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 183 / measure 7]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVIII measure 184 / measure 8]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 184 / measure 8]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLVIII measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVIII measure 186 / measure 10]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_LVIII measure 186 / measure 10]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -10955,7 +10955,7 @@ K_PercussionVoiceLVIII_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVIII measure 187 / measure 11]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_LVIII measure 187 / measure 11]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10974,7 +10974,7 @@ K_PercussionVoiceLVIII_a = {                                                   %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVIII measure 188 / measure 12]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_LVIII measure 188 / measure 12]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -10989,7 +10989,7 @@ K_PercussionVoiceLVIII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLVIII measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_LVIII measure 189 / measure 13]                      %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -11002,7 +11002,7 @@ K_PercussionVoiceLVIII_a = {                                                   %
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVIII measure 190 / measure 14]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_LVIII measure 190 / measure 14]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -11019,7 +11019,7 @@ K_PercussionVoiceLVIII_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVIII measure 191 / measure 15]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_LVIII measure 191 / measure 15]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -11038,7 +11038,7 @@ K_PercussionVoiceLVIII_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLVIII measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_LVIII measure 192 / measure 16]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11050,24 +11050,24 @@ K_PercussionVoiceLVIII_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLVIII = {                                                     %! extern
+K_Percussion_Voice_LVIII = {                                                   %! extern
 
-    \K_PercussionVoiceLVIII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLVIII = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceLVIII"                                    %! ScoreTemplate
-    \K_PercussionVoiceLVIII                                                    %! extern
+    \K_Percussion_Voice_LVIII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLIX_a = {                                                     %! extern
+K_Staff_LVIII = {                                                              %! extern
 
-    % [K PercussionVoiceLIX measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LVIII"                                  %! ScoreTemplate
+    \K_Percussion_Voice_LVIII                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LIX_a = {                                                   %! extern
+
+    % [K Percussion_Voice_LIX measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -11091,36 +11091,36 @@ K_PercussionVoiceLIX_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLIX measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 180 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 182 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 183 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 184 / measure 8]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 184 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 186 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIX measure 187 / measure 11]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIX measure 187 / measure 11]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -11137,7 +11137,7 @@ K_PercussionVoiceLIX_a = {                                                     %
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIX measure 188 / measure 12]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIX measure 188 / measure 12]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -11156,14 +11156,14 @@ K_PercussionVoiceLIX_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 189 / measure 13]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 189 / measure 13]                        %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIX measure 190 / measure 14]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIX measure 190 / measure 14]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -11180,12 +11180,12 @@ K_PercussionVoiceLIX_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLIX measure 191 / measure 15]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LIX measure 191 / measure 15]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLIX measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LIX measure 192 / measure 16]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11197,24 +11197,24 @@ K_PercussionVoiceLIX_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLIX = {                                                       %! extern
+K_Percussion_Voice_LIX = {                                                     %! extern
 
-    \K_PercussionVoiceLIX_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLIX = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceLIX"                                      %! ScoreTemplate
-    \K_PercussionVoiceLIX                                                      %! extern
+    \K_Percussion_Voice_LIX_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLX_a = {                                                      %! extern
+K_Staff_LIX = {                                                                %! extern
 
-    % [K PercussionVoiceLX measure 177 / measure 1]                            %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LIX"                                    %! ScoreTemplate
+    \K_Percussion_Voice_LIX                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LX_a = {                                                    %! extern
+
+    % [K Percussion_Voice_LX measure 177 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -11238,39 +11238,39 @@ K_PercussionVoiceLX_a = {                                                      %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLX measure 178 / measure 2]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 178 / measure 2]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 179 / measure 3]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 179 / measure 3]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 180 / measure 4]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 180 / measure 4]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 181 / measure 5]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 181 / measure 5]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 182 / measure 6]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 182 / measure 6]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 183 / measure 7]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 183 / measure 7]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 184 / measure 8]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 184 / measure 8]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 185 / measure 9]                            %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 185 / measure 9]                          %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 186 / measure 10]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 186 / measure 10]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 187 / measure 11]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 187 / measure 11]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLX measure 188 / measure 12]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LX measure 188 / measure 12]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11279,7 +11279,7 @@ K_PercussionVoiceLX_a = {                                                      %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 189 / measure 13]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 189 / measure 13]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -11290,12 +11290,12 @@ K_PercussionVoiceLX_a = {                                                      %
     c'8                                                                        %! recursif_rhythm
     ]                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 190 / measure 14]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 190 / measure 14]                         %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
-    % [K PercussionVoiceLX measure 191 / measure 15]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LX measure 191 / measure 15]                         %! _comment_measure_numbers
     c'8                                                                        %! recursif_rhythm
     [                                                                          %! recursif_rhythm
 
@@ -11308,7 +11308,7 @@ K_PercussionVoiceLX_a = {                                                      %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLX measure 192 / measure 16]                       %! _comment_measure_numbers
+        % [K Percussion_Voice_LX measure 192 / measure 16]                     %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11320,24 +11320,24 @@ K_PercussionVoiceLX_a = {                                                      %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLX = {                                                        %! extern
+K_Percussion_Voice_LX = {                                                      %! extern
 
-    \K_PercussionVoiceLX_a                                                     %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLX = {                                                                  %! extern
-
-    \context Voice = "PercussionVoiceLX"                                       %! ScoreTemplate
-    \K_PercussionVoiceLX                                                       %! extern
+    \K_Percussion_Voice_LX_a                                                   %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLXI_a = {                                                     %! extern
+K_Staff_LX = {                                                                 %! extern
 
-    % [K PercussionVoiceLXI measure 177 / measure 1]                           %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LX"                                     %! ScoreTemplate
+    \K_Percussion_Voice_LX                                                     %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LXI_a = {                                                   %! extern
+
+    % [K Percussion_Voice_LXI measure 177 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -11361,42 +11361,42 @@ K_PercussionVoiceLXI_a = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLXI measure 178 / measure 2]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 178 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 179 / measure 3]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 179 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 180 / measure 4]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 180 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 181 / measure 5]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 181 / measure 5]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 182 / measure 6]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 182 / measure 6]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 183 / measure 7]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 183 / measure 7]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 184 / measure 8]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 184 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 185 / measure 9]                           %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 185 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 186 / measure 10]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 186 / measure 10]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 187 / measure 11]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 187 / measure 11]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 188 / measure 12]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 188 / measure 12]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLXI measure 189 / measure 13]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LXI measure 189 / measure 13]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -11411,12 +11411,12 @@ K_PercussionVoiceLXI_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLXI measure 190 / measure 14]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXI measure 190 / measure 14]                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
     \times 4/7 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLXI measure 191 / measure 15]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LXI measure 191 / measure 15]                    %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -11437,7 +11437,7 @@ K_PercussionVoiceLXI_a = {                                                     %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLXI measure 192 / measure 16]                      %! _comment_measure_numbers
+        % [K Percussion_Voice_LXI measure 192 / measure 16]                    %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11449,24 +11449,24 @@ K_PercussionVoiceLXI_a = {                                                     %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLXI = {                                                       %! extern
+K_Percussion_Voice_LXI = {                                                     %! extern
 
-    \K_PercussionVoiceLXI_a                                                    %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLXI = {                                                                 %! extern
-
-    \context Voice = "PercussionVoiceLXI"                                      %! ScoreTemplate
-    \K_PercussionVoiceLXI                                                      %! extern
+    \K_Percussion_Voice_LXI_a                                                  %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLXII_a = {                                                    %! extern
+K_Staff_LXI = {                                                                %! extern
 
-    % [K PercussionVoiceLXII measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LXI"                                    %! ScoreTemplate
+    \K_Percussion_Voice_LXI                                                    %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LXII_a = {                                                  %! extern
+
+    % [K Percussion_Voice_LXII measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -11490,45 +11490,45 @@ K_PercussionVoiceLXII_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLXII measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 180 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 182 / measure 6]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 183 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 184 / measure 8]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 186 / measure 10]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 187 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 188 / measure 12]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 189 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLXII measure 190 / measure 14]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LXII measure 190 / measure 14]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11537,14 +11537,14 @@ K_PercussionVoiceLXII_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-    % [K PercussionVoiceLXII measure 191 / measure 15]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXII measure 191 / measure 15]                       %! _comment_measure_numbers
     c'4                                                                        %! recursif_rhythm
 
     c'4                                                                        %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLXII measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LXII measure 192 / measure 16]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11556,24 +11556,24 @@ K_PercussionVoiceLXII_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLXII = {                                                      %! extern
+K_Percussion_Voice_LXII = {                                                    %! extern
 
-    \K_PercussionVoiceLXII_a                                                   %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLXII = {                                                                %! extern
-
-    \context Voice = "PercussionVoiceLXII"                                     %! ScoreTemplate
-    \K_PercussionVoiceLXII                                                     %! extern
+    \K_Percussion_Voice_LXII_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLXIII_a = {                                                   %! extern
+K_Staff_LXII = {                                                               %! extern
 
-    % [K PercussionVoiceLXIII measure 177 / measure 1]                         %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LXII"                                   %! ScoreTemplate
+    \K_Percussion_Voice_LXII                                                   %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LXIII_a = {                                                 %! extern
+
+    % [K Percussion_Voice_LXIII measure 177 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -11597,48 +11597,48 @@ K_PercussionVoiceLXIII_a = {                                                   %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLXIII measure 178 / measure 2]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 178 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 179 / measure 3]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 179 / measure 3]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 180 / measure 4]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 180 / measure 4]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 181 / measure 5]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 181 / measure 5]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 182 / measure 6]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 182 / measure 6]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 183 / measure 7]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 183 / measure 7]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 184 / measure 8]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 184 / measure 8]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 185 / measure 9]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 185 / measure 9]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 186 / measure 10]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 186 / measure 10]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 187 / measure 11]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 187 / measure 11]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 188 / measure 12]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 188 / measure 12]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 189 / measure 13]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 189 / measure 13]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIII measure 190 / measure 14]                        %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIII measure 190 / measure 14]                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 4/5 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLXIII measure 191 / measure 15]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_LXIII measure 191 / measure 15]                  %! _comment_measure_numbers
         c'8                                                                    %! recursif_rhythm
         [                                                                      %! recursif_rhythm
 
@@ -11655,7 +11655,7 @@ K_PercussionVoiceLXIII_a = {                                                   %
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLXIII measure 192 / measure 16]                    %! _comment_measure_numbers
+        % [K Percussion_Voice_LXIII measure 192 / measure 16]                  %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11667,24 +11667,24 @@ K_PercussionVoiceLXIII_a = {                                                   %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLXIII = {                                                     %! extern
+K_Percussion_Voice_LXIII = {                                                   %! extern
 
-    \K_PercussionVoiceLXIII_a                                                  %! extern
-
-}                                                                              %! extern
-
-
-K_StaffLXIII = {                                                               %! extern
-
-    \context Voice = "PercussionVoiceLXIII"                                    %! ScoreTemplate
-    \K_PercussionVoiceLXIII                                                    %! extern
+    \K_Percussion_Voice_LXIII_a                                                %! extern
 
 }                                                                              %! extern
 
 
-K_PercussionVoiceLXIV_a = {                                                    %! extern
+K_Staff_LXIII = {                                                              %! extern
 
-    % [K PercussionVoiceLXIV measure 177 / measure 1]                          %! _comment_measure_numbers
+    \context Voice = "Percussion_Voice_LXIII"                                  %! ScoreTemplate
+    \K_Percussion_Voice_LXIII                                                  %! extern
+
+}                                                                              %! extern
+
+
+K_Percussion_Voice_LXIV_a = {                                                  %! extern
+
+    % [K Percussion_Voice_LXIV measure 177 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -11708,51 +11708,51 @@ K_PercussionVoiceLXIV_a = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [K PercussionVoiceLXIV measure 178 / measure 2]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 178 / measure 2]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 179 / measure 3]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 179 / measure 3]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 180 / measure 4]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 180 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 181 / measure 5]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 181 / measure 5]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 182 / measure 6]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 182 / measure 6]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 183 / measure 7]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 183 / measure 7]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 184 / measure 8]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 184 / measure 8]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 185 / measure 9]                          %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 185 / measure 9]                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 186 / measure 10]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 186 / measure 10]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 187 / measure 11]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 187 / measure 11]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 188 / measure 12]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 188 / measure 12]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 189 / measure 13]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 189 / measure 13]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 190 / measure 14]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 190 / measure 14]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-    % [K PercussionVoiceLXIV measure 191 / measure 15]                         %! _comment_measure_numbers
+    % [K Percussion_Voice_LXIV measure 191 / measure 15]                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
     \times 2/3 {                                                               %! recursif_rhythm
 
-        % [K PercussionVoiceLXIV measure 192 / measure 16]                     %! _comment_measure_numbers
+        % [K Percussion_Voice_LXIV measure 192 / measure 16]                   %! _comment_measure_numbers
         c'4                                                                    %! recursif_rhythm
 
         c'4                                                                    %! recursif_rhythm
@@ -11764,16 +11764,16 @@ K_PercussionVoiceLXIV_a = {                                                    %
 }                                                                              %! extern
 
 
-K_PercussionVoiceLXIV = {                                                      %! extern
+K_Percussion_Voice_LXIV = {                                                    %! extern
 
-    \K_PercussionVoiceLXIV_a                                                   %! extern
+    \K_Percussion_Voice_LXIV_a                                                 %! extern
 
 }                                                                              %! extern
 
 
-K_StaffLXIV = {                                                                %! extern
+K_Staff_LXIV = {                                                               %! extern
 
-    \context Voice = "PercussionVoiceLXIV"                                     %! ScoreTemplate
-    \K_PercussionVoiceLXIV                                                     %! extern
+    \context Voice = "Percussion_Voice_LXIV"                                   %! ScoreTemplate
+    \K_Percussion_Voice_LXIV                                                   %! extern
 
 }                                                                              %! extern

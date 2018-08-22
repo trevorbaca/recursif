@@ -10,7 +10,7 @@ def assign_parts(maker):
     """
     for n in range(1, 64 + 1):
         numeral = roman.toRoman(n)
-        voice_name = f'PercussionVoice{numeral}'
+        voice_name = f'Percussion_Voice_{numeral}'
         part_assignment = abjad.PartAssignment(section='Percussion', token=n)
         assert part_assignment.token is not None
         score_template = recursif.ScoreTemplate()
