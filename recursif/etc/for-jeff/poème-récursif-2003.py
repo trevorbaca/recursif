@@ -4,7 +4,7 @@ import pathlib
 import recursif
 
 
-class ScoreTemplate(abjad.AbjadValueObject):
+class ScoreTemplate(object):
     """
     Score template.
     """
