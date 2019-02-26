@@ -21,8 +21,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         >>> abjad.f(lilypond_file[abjad.Score], strict=89)
-        \context Score = "Score"                                                                 %! ScoreTemplate
-        <<                                                                                       %! ScoreTemplate
+        \context Score = "Score"                                                                 %! recursif.ScoreTemplate.__call__
+        <<                                                                                       %! recursif.ScoreTemplate.__call__
             \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context
             <<                                                                                   %! abjad.ScoreTemplate._make_global_context
                 \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context
@@ -32,461 +32,461 @@ class ScoreTemplate(baca.ScoreTemplate):
                 {                                                                                %! abjad.ScoreTemplate._make_global_context
                 }                                                                                %! abjad.ScoreTemplate._make_global_context
             >>                                                                                   %! abjad.ScoreTemplate._make_global_context
-            \context MusicContext = "Music_Context"                                              %! ScoreTemplate
-            {                                                                                    %! ScoreTemplate
-                \context StaffGroup = "Staff_Group"                                              %! ScoreTemplate
-                <<                                                                               %! ScoreTemplate
-                    \context Staff = "Staff_I"                                                   %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_I"                                    %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_II"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_II"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_III"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_III"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_IV"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_IV"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_V"                                                   %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_V"                                    %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_VI"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_VI"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_VII"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_VII"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_VIII"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_VIII"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_IX"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_IX"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_X"                                                   %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_X"                                    %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XI"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XI"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XII"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XII"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XIII"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XIII"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XIV"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XIV"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XV"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XV"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XVI"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XVI"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XVII"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XVII"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XVIII"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XVIII"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XIX"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XIX"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XX"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XX"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXI"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXI"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXII"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXII"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXIII"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXIII"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXIV"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXIV"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXV"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXV"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXVI"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXVI"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXVII"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXVII"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXVIII"                                              %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXVIII"                               %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXIX"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXIX"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXX"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXX"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXI"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXI"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXII"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXII"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXIII"                                              %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXIII"                               %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXIV"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXIV"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXV"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXV"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXVI"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXVI"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXVII"                                              %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXVII"                               %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXVIII"                                             %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXVIII"                              %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XXXIX"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XXXIX"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XL"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XL"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLI"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLI"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLII"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLII"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLIII"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLIII"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLIV"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLIV"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLV"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLV"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLVI"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLVI"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLVII"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLVII"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLVIII"                                              %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLVIII"                               %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_XLIX"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_XLIX"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_L"                                                   %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_L"                                    %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LI"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LI"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LII"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LII"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LIII"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LIII"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LIV"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LIV"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LV"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LV"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LVI"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LVI"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LVII"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LVII"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LVIII"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LVIII"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LIX"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LIX"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LX"                                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LX"                                   %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LXI"                                                 %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LXI"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LXII"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LXII"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LXIII"                                               %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LXIII"                                %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                    \context Staff = "Staff_LXIV"                                                %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
-                        \context Voice = "Percussion_Voice_LXIV"                                 %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
-                        }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
-                >>                                                                               %! ScoreTemplate
-            }                                                                                    %! ScoreTemplate
-        >>                                                                                       %! ScoreTemplate
+            \context MusicContext = "Music_Context"                                              %! recursif.ScoreTemplate.__call__
+            {                                                                                    %! recursif.ScoreTemplate.__call__
+                \context StaffGroup = "Staff_Group"                                              %! recursif.ScoreTemplate.__call__
+                <<                                                                               %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_I"                                                   %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_I"                                    %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_II"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_II"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_III"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_III"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_IV"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_IV"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_V"                                                   %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_V"                                    %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_VI"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_VI"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_VII"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_VII"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_VIII"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_VIII"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_IX"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_IX"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_X"                                                   %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_X"                                    %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XI"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XI"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XII"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XII"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XIII"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XIII"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XIV"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XIV"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XV"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XV"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XVI"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XVI"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XVII"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XVII"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XVIII"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XVIII"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XIX"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XIX"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XX"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XX"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXI"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXI"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXII"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXII"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXIII"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXIII"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXIV"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXIV"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXV"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXV"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXVI"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXVI"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXVII"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXVII"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXVIII"                                              %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXVIII"                               %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXIX"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXIX"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXX"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXX"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXI"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXI"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXII"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXII"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXIII"                                              %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXIII"                               %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXIV"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXIV"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXV"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXV"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXVI"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXVI"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXVII"                                              %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXVII"                               %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXVIII"                                             %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXVIII"                              %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XXXIX"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XXXIX"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XL"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XL"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLI"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLI"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLII"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLII"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLIII"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLIII"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLIV"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLIV"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLV"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLV"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLVI"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLVI"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLVII"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLVII"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLVIII"                                              %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLVIII"                               %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_XLIX"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_XLIX"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_L"                                                   %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_L"                                    %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LI"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LI"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LII"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LII"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LIII"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LIII"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LIV"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LIV"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LV"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LV"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LVI"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LVI"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LVII"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LVII"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LVIII"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LVIII"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LIX"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LIX"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LX"                                                  %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LX"                                   %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LXI"                                                 %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LXI"                                  %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LXII"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LXII"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LXIII"                                               %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LXIII"                                %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                    \context Staff = "Staff_LXIV"                                                %! recursif.ScoreTemplate.__call__
+                    {                                                                            %! recursif.ScoreTemplate.__call__
+                        \context Voice = "Percussion_Voice_LXIV"                                 %! recursif.ScoreTemplate.__call__
+                        {                                                                        %! recursif.ScoreTemplate.__call__
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                        }                                                                        %! recursif.ScoreTemplate.__call__
+                    }                                                                            %! recursif.ScoreTemplate.__call__
+                >>                                                                               %! recursif.ScoreTemplate.__call__
+            }                                                                                    %! recursif.ScoreTemplate.__call__
+        >>                                                                                       %! recursif.ScoreTemplate.__call__
 
     """
 
@@ -510,7 +510,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         """
         Calls score template.
         """
-        tag = 'ScoreTemplate'
+        tag = 'recursif.ScoreTemplate.__call__'
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 
