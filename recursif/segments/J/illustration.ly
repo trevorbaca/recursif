@@ -1,18 +1,18 @@
-\version "2.19.82"                                                             %! _make_lilypond_file:LilyPondFile
-\language "english"                                                            %! _make_lilypond_file:LilyPondFile
+\version "2.19.82"                                                             %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\language "english"                                                            %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
 
-\include "../../stylesheets/stylesheet.ily"                                    %! _make_lilypond_file:LilyPondFile
-\include "../../stylesheets/nonfirst-segment.ily"                              %! _make_lilypond_file:LilyPondFile
-\include "illustration.ily"                                                    %! extern
+\include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\include "../../stylesheets/nonfirst-segment.ily"                              %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\include "illustration.ily"                                                    %! abjad.Path.extern
 
 
-\score {                                                                       %! _make_lilypond_file:LilyPondFile
+\score {                                                                       %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
     
-    <<                                                                         %! _make_lilypond_file
+    <<                                                                         %! baca.SegmentMaker._make_lilypond_file
 
-        {                                                                      %! _make_lilypond_file
-            \include "layout.ly"                                               %! _make_lilypond_file
-        }                                                                      %! _make_lilypond_file
+        {                                                                      %! baca.SegmentMaker._make_lilypond_file
+            \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file
+        }                                                                      %! baca.SegmentMaker._make_lilypond_file
 
         \context Score = "Score"                                               %! ScoreTemplate
         <<                                                                     %! ScoreTemplate
@@ -21,7 +21,7 @@
             <<                                                                 %! abjad.ScoreTemplate._make_global_context
 
                 \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context
-                \J_Global_Skips                                                %! extern
+                \J_Global_Skips                                                %! abjad.Path.extern
 
             >>                                                                 %! abjad.ScoreTemplate._make_global_context
 
@@ -32,196 +32,196 @@
                 <<                                                             %! ScoreTemplate
 
                     \context Staff = "Staff_I"                                 %! ScoreTemplate
-                    \J_Staff_I                                                 %! extern
+                    \J_Staff_I                                                 %! abjad.Path.extern
 
                     \context Staff = "Staff_II"                                %! ScoreTemplate
-                    \J_Staff_II                                                %! extern
+                    \J_Staff_II                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_III"                               %! ScoreTemplate
-                    \J_Staff_III                                               %! extern
+                    \J_Staff_III                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_IV"                                %! ScoreTemplate
-                    \J_Staff_IV                                                %! extern
+                    \J_Staff_IV                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_V"                                 %! ScoreTemplate
-                    \J_Staff_V                                                 %! extern
+                    \J_Staff_V                                                 %! abjad.Path.extern
 
                     \context Staff = "Staff_VI"                                %! ScoreTemplate
-                    \J_Staff_VI                                                %! extern
+                    \J_Staff_VI                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_VII"                               %! ScoreTemplate
-                    \J_Staff_VII                                               %! extern
+                    \J_Staff_VII                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_VIII"                              %! ScoreTemplate
-                    \J_Staff_VIII                                              %! extern
+                    \J_Staff_VIII                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_IX"                                %! ScoreTemplate
-                    \J_Staff_IX                                                %! extern
+                    \J_Staff_IX                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_X"                                 %! ScoreTemplate
-                    \J_Staff_X                                                 %! extern
+                    \J_Staff_X                                                 %! abjad.Path.extern
 
                     \context Staff = "Staff_XI"                                %! ScoreTemplate
-                    \J_Staff_XI                                                %! extern
+                    \J_Staff_XI                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_XII"                               %! ScoreTemplate
-                    \J_Staff_XII                                               %! extern
+                    \J_Staff_XII                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XIII"                              %! ScoreTemplate
-                    \J_Staff_XIII                                              %! extern
+                    \J_Staff_XIII                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XIV"                               %! ScoreTemplate
-                    \J_Staff_XIV                                               %! extern
+                    \J_Staff_XIV                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XV"                                %! ScoreTemplate
-                    \J_Staff_XV                                                %! extern
+                    \J_Staff_XV                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_XVI"                               %! ScoreTemplate
-                    \J_Staff_XVI                                               %! extern
+                    \J_Staff_XVI                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XVII"                              %! ScoreTemplate
-                    \J_Staff_XVII                                              %! extern
+                    \J_Staff_XVII                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XVIII"                             %! ScoreTemplate
-                    \J_Staff_XVIII                                             %! extern
+                    \J_Staff_XVIII                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XIX"                               %! ScoreTemplate
-                    \J_Staff_XIX                                               %! extern
+                    \J_Staff_XIX                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XX"                                %! ScoreTemplate
-                    \J_Staff_XX                                                %! extern
+                    \J_Staff_XX                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_XXI"                               %! ScoreTemplate
-                    \J_Staff_XXI                                               %! extern
+                    \J_Staff_XXI                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XXII"                              %! ScoreTemplate
-                    \J_Staff_XXII                                              %! extern
+                    \J_Staff_XXII                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XXIII"                             %! ScoreTemplate
-                    \J_Staff_XXIII                                             %! extern
+                    \J_Staff_XXIII                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XXIV"                              %! ScoreTemplate
-                    \J_Staff_XXIV                                              %! extern
+                    \J_Staff_XXIV                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XXV"                               %! ScoreTemplate
-                    \J_Staff_XXV                                               %! extern
+                    \J_Staff_XXV                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XXVI"                              %! ScoreTemplate
-                    \J_Staff_XXVI                                              %! extern
+                    \J_Staff_XXVI                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XXVII"                             %! ScoreTemplate
-                    \J_Staff_XXVII                                             %! extern
+                    \J_Staff_XXVII                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XXVIII"                            %! ScoreTemplate
-                    \J_Staff_XXVIII                                            %! extern
+                    \J_Staff_XXVIII                                            %! abjad.Path.extern
 
                     \context Staff = "Staff_XXIX"                              %! ScoreTemplate
-                    \J_Staff_XXIX                                              %! extern
+                    \J_Staff_XXIX                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XXX"                               %! ScoreTemplate
-                    \J_Staff_XXX                                               %! extern
+                    \J_Staff_XXX                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXI"                              %! ScoreTemplate
-                    \J_Staff_XXXI                                              %! extern
+                    \J_Staff_XXXI                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXII"                             %! ScoreTemplate
-                    \J_Staff_XXXII                                             %! extern
+                    \J_Staff_XXXII                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXIII"                            %! ScoreTemplate
-                    \J_Staff_XXXIII                                            %! extern
+                    \J_Staff_XXXIII                                            %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXIV"                             %! ScoreTemplate
-                    \J_Staff_XXXIV                                             %! extern
+                    \J_Staff_XXXIV                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXV"                              %! ScoreTemplate
-                    \J_Staff_XXXV                                              %! extern
+                    \J_Staff_XXXV                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXVI"                             %! ScoreTemplate
-                    \J_Staff_XXXVI                                             %! extern
+                    \J_Staff_XXXVI                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXVII"                            %! ScoreTemplate
-                    \J_Staff_XXXVII                                            %! extern
+                    \J_Staff_XXXVII                                            %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXVIII"                           %! ScoreTemplate
-                    \J_Staff_XXXVIII                                           %! extern
+                    \J_Staff_XXXVIII                                           %! abjad.Path.extern
 
                     \context Staff = "Staff_XXXIX"                             %! ScoreTemplate
-                    \J_Staff_XXXIX                                             %! extern
+                    \J_Staff_XXXIX                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XL"                                %! ScoreTemplate
-                    \J_Staff_XL                                                %! extern
+                    \J_Staff_XL                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_XLI"                               %! ScoreTemplate
-                    \J_Staff_XLI                                               %! extern
+                    \J_Staff_XLI                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XLII"                              %! ScoreTemplate
-                    \J_Staff_XLII                                              %! extern
+                    \J_Staff_XLII                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XLIII"                             %! ScoreTemplate
-                    \J_Staff_XLIII                                             %! extern
+                    \J_Staff_XLIII                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XLIV"                              %! ScoreTemplate
-                    \J_Staff_XLIV                                              %! extern
+                    \J_Staff_XLIV                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XLV"                               %! ScoreTemplate
-                    \J_Staff_XLV                                               %! extern
+                    \J_Staff_XLV                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_XLVI"                              %! ScoreTemplate
-                    \J_Staff_XLVI                                              %! extern
+                    \J_Staff_XLVI                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_XLVII"                             %! ScoreTemplate
-                    \J_Staff_XLVII                                             %! extern
+                    \J_Staff_XLVII                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_XLVIII"                            %! ScoreTemplate
-                    \J_Staff_XLVIII                                            %! extern
+                    \J_Staff_XLVIII                                            %! abjad.Path.extern
 
                     \context Staff = "Staff_XLIX"                              %! ScoreTemplate
-                    \J_Staff_XLIX                                              %! extern
+                    \J_Staff_XLIX                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_L"                                 %! ScoreTemplate
-                    \J_Staff_L                                                 %! extern
+                    \J_Staff_L                                                 %! abjad.Path.extern
 
                     \context Staff = "Staff_LI"                                %! ScoreTemplate
-                    \J_Staff_LI                                                %! extern
+                    \J_Staff_LI                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_LII"                               %! ScoreTemplate
-                    \J_Staff_LII                                               %! extern
+                    \J_Staff_LII                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_LIII"                              %! ScoreTemplate
-                    \J_Staff_LIII                                              %! extern
+                    \J_Staff_LIII                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_LIV"                               %! ScoreTemplate
-                    \J_Staff_LIV                                               %! extern
+                    \J_Staff_LIV                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_LV"                                %! ScoreTemplate
-                    \J_Staff_LV                                                %! extern
+                    \J_Staff_LV                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_LVI"                               %! ScoreTemplate
-                    \J_Staff_LVI                                               %! extern
+                    \J_Staff_LVI                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_LVII"                              %! ScoreTemplate
-                    \J_Staff_LVII                                              %! extern
+                    \J_Staff_LVII                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_LVIII"                             %! ScoreTemplate
-                    \J_Staff_LVIII                                             %! extern
+                    \J_Staff_LVIII                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_LIX"                               %! ScoreTemplate
-                    \J_Staff_LIX                                               %! extern
+                    \J_Staff_LIX                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_LX"                                %! ScoreTemplate
-                    \J_Staff_LX                                                %! extern
+                    \J_Staff_LX                                                %! abjad.Path.extern
 
                     \context Staff = "Staff_LXI"                               %! ScoreTemplate
-                    \J_Staff_LXI                                               %! extern
+                    \J_Staff_LXI                                               %! abjad.Path.extern
 
                     \context Staff = "Staff_LXII"                              %! ScoreTemplate
-                    \J_Staff_LXII                                              %! extern
+                    \J_Staff_LXII                                              %! abjad.Path.extern
 
                     \context Staff = "Staff_LXIII"                             %! ScoreTemplate
-                    \J_Staff_LXIII                                             %! extern
+                    \J_Staff_LXIII                                             %! abjad.Path.extern
 
                     \context Staff = "Staff_LXIV"                              %! ScoreTemplate
-                    \J_Staff_LXIV                                              %! extern
+                    \J_Staff_LXIV                                              %! abjad.Path.extern
 
                 >>                                                             %! ScoreTemplate
 
@@ -229,6 +229,6 @@
 
         >>                                                                     %! ScoreTemplate
 
-    >>                                                                         %! _make_lilypond_file
+    >>                                                                         %! baca.SegmentMaker._make_lilypond_file
     
-}                                                                              %! _make_lilypond_file:LilyPondFile
+}                                                                              %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
