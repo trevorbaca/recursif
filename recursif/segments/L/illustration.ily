@@ -332,7 +332,7 @@ L_Percussion_Voice_I = {                                                       %
 
 L_Staff_I = {                                                                  %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_I"                                      %! ScoreTemplate
+    \context Voice = "Percussion_Voice_I"                                      %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_I                                                      %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -559,7 +559,7 @@ L_Percussion_Voice_II = {                                                      %
 
 L_Staff_II = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_II"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_II                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -786,7 +786,7 @@ L_Percussion_Voice_III = {                                                     %
 
 L_Staff_III = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_III"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_III"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_III                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -979,7 +979,7 @@ L_Percussion_Voice_IV = {                                                      %
 
 L_Staff_IV = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_IV"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_IV"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_IV                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1190,7 +1190,7 @@ L_Percussion_Voice_V = {                                                       %
 
 L_Staff_V = {                                                                  %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_V"                                      %! ScoreTemplate
+    \context Voice = "Percussion_Voice_V"                                      %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_V                                                      %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1355,7 +1355,7 @@ L_Percussion_Voice_VI = {                                                      %
 
 L_Staff_VI = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_VI"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_VI"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_VI                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1540,7 +1540,7 @@ L_Percussion_Voice_VII = {                                                     %
 
 L_Staff_VII = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_VII"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_VII"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_VII                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1699,7 +1699,7 @@ L_Percussion_Voice_VIII = {                                                    %
 
 L_Staff_VIII = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_VIII"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_VIII"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_VIII                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -1874,7 +1874,7 @@ L_Percussion_Voice_IX = {                                                      %
 
 L_Staff_IX = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_IX"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_IX"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_IX                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -2049,7 +2049,7 @@ L_Percussion_Voice_X = {                                                       %
 
 L_Staff_X = {                                                                  %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_X"                                      %! ScoreTemplate
+    \context Voice = "Percussion_Voice_X"                                      %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_X                                                      %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -2178,7 +2178,7 @@ L_Percussion_Voice_XI = {                                                      %
 
 L_Staff_XI = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XI"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XI"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XI                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -2317,7 +2317,7 @@ L_Percussion_Voice_XII = {                                                     %
 
 L_Staff_XII = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XII"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XII"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XII                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -2452,7 +2452,7 @@ L_Percussion_Voice_XIII = {                                                    %
 
 L_Staff_XIII = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XIII"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XIII"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XIII                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -2585,7 +2585,7 @@ L_Percussion_Voice_XIV = {                                                     %
 
 L_Staff_XIV = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XIV"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XIV"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XIV                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -2698,7 +2698,7 @@ L_Percussion_Voice_XV = {                                                      %
 
 L_Staff_XV = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XV"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XV"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XV                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -2811,7 +2811,7 @@ L_Percussion_Voice_XVI = {                                                     %
 
 L_Staff_XVI = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XVI"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XVI"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XVI                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -3034,7 +3034,7 @@ L_Percussion_Voice_XVII = {                                                    %
 
 L_Staff_XVII = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XVII"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XVII"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XVII                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -3193,7 +3193,7 @@ L_Percussion_Voice_XVIII = {                                                   %
 
 L_Staff_XVIII = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XVIII"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XVIII"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XVIII                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -3352,7 +3352,7 @@ L_Percussion_Voice_XIX = {                                                     %
 
 L_Staff_XIX = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XIX"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XIX"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XIX                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -3479,7 +3479,7 @@ L_Percussion_Voice_XX = {                                                      %
 
 L_Staff_XX = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XX"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XX"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XX                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -3638,7 +3638,7 @@ L_Percussion_Voice_XXI = {                                                     %
 
 L_Staff_XXI = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXI"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXI"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXI                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -3765,7 +3765,7 @@ L_Percussion_Voice_XXII = {                                                    %
 
 L_Staff_XXII = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXII"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXII"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXII                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -3892,7 +3892,7 @@ L_Percussion_Voice_XXIII = {                                                   %
 
 L_Staff_XXIII = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXIII"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXIII"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXIII                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4003,7 +4003,7 @@ L_Percussion_Voice_XXIV = {                                                    %
 
 L_Staff_XXIV = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXIV"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXIV"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXIV                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4162,7 +4162,7 @@ L_Percussion_Voice_XXV = {                                                     %
 
 L_Staff_XXV = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXV"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXV"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXV                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4289,7 +4289,7 @@ L_Percussion_Voice_XXVI = {                                                    %
 
 L_Staff_XXVI = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXVI"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXVI"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXVI                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4416,7 +4416,7 @@ L_Percussion_Voice_XXVII = {                                                   %
 
 L_Staff_XXVII = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXVII"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXVII"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXVII                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4527,7 +4527,7 @@ L_Percussion_Voice_XXVIII = {                                                  %
 
 L_Staff_XXVIII = {                                                             %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXVIII"                                 %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXVIII"                                 %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXVIII                                                 %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4654,7 +4654,7 @@ L_Percussion_Voice_XXIX = {                                                    %
 
 L_Staff_XXIX = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXIX"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXIX"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXIX                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4765,7 +4765,7 @@ L_Percussion_Voice_XXX = {                                                     %
 
 L_Staff_XXX = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXX"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXX"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXX                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4876,7 +4876,7 @@ L_Percussion_Voice_XXXI = {                                                    %
 
 L_Staff_XXXI = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXI"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXI"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXI                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -4979,7 +4979,7 @@ L_Percussion_Voice_XXXII = {                                                   %
 
 L_Staff_XXXII = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXII"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXII"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXII                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -5106,7 +5106,7 @@ L_Percussion_Voice_XXXIII = {                                                  %
 
 L_Staff_XXXIII = {                                                             %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXIII"                                 %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXIII"                                 %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXIII                                                 %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -5305,7 +5305,7 @@ L_Percussion_Voice_XXXIV = {                                                   %
 
 L_Staff_XXXIV = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXIV"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXIV"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXIV                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -5504,7 +5504,7 @@ L_Percussion_Voice_XXXV = {                                                    %
 
 L_Staff_XXXV = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXV"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXV"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXV                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -5651,7 +5651,7 @@ L_Percussion_Voice_XXXVI = {                                                   %
 
 L_Staff_XXXVI = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXVI"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXVI"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXVI                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -5850,7 +5850,7 @@ L_Percussion_Voice_XXXVII = {                                                  %
 
 L_Staff_XXXVII = {                                                             %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXVII"                                 %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXVII"                                 %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXVII                                                 %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -6013,7 +6013,7 @@ L_Percussion_Voice_XXXVIII = {                                                 %
 
 L_Staff_XXXVIII = {                                                            %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXVIII"                                %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXVIII"                                %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXVIII                                                %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -6160,7 +6160,7 @@ L_Percussion_Voice_XXXIX = {                                                   %
 
 L_Staff_XXXIX = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XXXIX"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XXXIX"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XXXIX                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -6281,7 +6281,7 @@ L_Percussion_Voice_XL = {                                                      %
 
 L_Staff_XL = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XL"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XL"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XL                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -6448,7 +6448,7 @@ L_Percussion_Voice_XLI = {                                                     %
 
 L_Staff_XLI = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLI"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLI"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLI                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -6595,7 +6595,7 @@ L_Percussion_Voice_XLII = {                                                    %
 
 L_Staff_XLII = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLII"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLII"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLII                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -6742,7 +6742,7 @@ L_Percussion_Voice_XLIII = {                                                   %
 
 L_Staff_XLIII = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLIII"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLIII"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLIII                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -6877,7 +6877,7 @@ L_Percussion_Voice_XLIV = {                                                    %
 
 L_Staff_XLIV = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLIV"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLIV"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLIV                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -7008,7 +7008,7 @@ L_Percussion_Voice_XLV = {                                                     %
 
 L_Staff_XLV = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLV"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLV"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLV                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -7143,7 +7143,7 @@ L_Percussion_Voice_XLVI = {                                                    %
 
 L_Staff_XLVI = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLVI"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLVI"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLVI                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -7256,7 +7256,7 @@ L_Percussion_Voice_XLVII = {                                                   %
 
 L_Staff_XLVII = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLVII"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLVII"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLVII                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -7367,7 +7367,7 @@ L_Percussion_Voice_XLVIII = {                                                  %
 
 L_Staff_XLVIII = {                                                             %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLVIII"                                 %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLVIII"                                 %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLVIII                                                 %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -7590,7 +7590,7 @@ L_Percussion_Voice_XLIX = {                                                    %
 
 L_Staff_XLIX = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_XLIX"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_XLIX"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_XLIX                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -7749,7 +7749,7 @@ L_Percussion_Voice_L = {                                                       %
 
 L_Staff_L = {                                                                  %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_L"                                      %! ScoreTemplate
+    \context Voice = "Percussion_Voice_L"                                      %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_L                                                      %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -7908,7 +7908,7 @@ L_Percussion_Voice_LI = {                                                      %
 
 L_Staff_LI = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LI"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LI"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LI                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8035,7 +8035,7 @@ L_Percussion_Voice_LII = {                                                     %
 
 L_Staff_LII = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LII"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LII"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LII                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8194,7 +8194,7 @@ L_Percussion_Voice_LIII = {                                                    %
 
 L_Staff_LIII = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LIII"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LIII"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LIII                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8321,7 +8321,7 @@ L_Percussion_Voice_LIV = {                                                     %
 
 L_Staff_LIV = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LIV"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LIV"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LIV                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8448,7 +8448,7 @@ L_Percussion_Voice_LV = {                                                      %
 
 L_Staff_LV = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LV"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LV"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LV                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8559,7 +8559,7 @@ L_Percussion_Voice_LVI = {                                                     %
 
 L_Staff_LVI = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LVI"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LVI"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LVI                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8718,7 +8718,7 @@ L_Percussion_Voice_LVII = {                                                    %
 
 L_Staff_LVII = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LVII"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LVII"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LVII                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8845,7 +8845,7 @@ L_Percussion_Voice_LVIII = {                                                   %
 
 L_Staff_LVIII = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LVIII"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LVIII"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LVIII                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8972,7 +8972,7 @@ L_Percussion_Voice_LIX = {                                                     %
 
 L_Staff_LIX = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LIX"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LIX"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LIX                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -9083,7 +9083,7 @@ L_Percussion_Voice_LX = {                                                      %
 
 L_Staff_LX = {                                                                 %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LX"                                     %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LX"                                     %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LX                                                     %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -9210,7 +9210,7 @@ L_Percussion_Voice_LXI = {                                                     %
 
 L_Staff_LXI = {                                                                %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LXI"                                    %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LXI"                                    %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LXI                                                    %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -9321,7 +9321,7 @@ L_Percussion_Voice_LXII = {                                                    %
 
 L_Staff_LXII = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LXII"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LXII"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LXII                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -9432,7 +9432,7 @@ L_Percussion_Voice_LXIII = {                                                   %
 
 L_Staff_LXIII = {                                                              %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LXIII"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LXIII"                                  %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LXIII                                                  %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -9535,7 +9535,7 @@ L_Percussion_Voice_LXIV = {                                                    %
 
 L_Staff_LXIV = {                                                               %! abjad.Path.extern
 
-    \context Voice = "Percussion_Voice_LXIV"                                   %! ScoreTemplate
+    \context Voice = "Percussion_Voice_LXIV"                                   %! recursif.ScoreTemplate.__call__
     \L_Percussion_Voice_LXIV                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
