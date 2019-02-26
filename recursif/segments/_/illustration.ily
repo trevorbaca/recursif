@@ -1,4 +1,4 @@
-i_Global_Skips = {                                                             %! extern
+i_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [_ Global_Skips measure 1]                                               %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -239,10 +239,10 @@ i_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_I_a = {                                                     %! extern
+i_Percussion_Voice_I_a = {                                                     %! abjad.Path.extern
 
     % [_ Percussion_Voice_I measure 1]                                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -319,25 +319,25 @@ i_Percussion_Voice_I_a = {                                                     %
     % [_ Percussion_Voice_I measure 16]                                        %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_I = {                                                       %! extern
+i_Percussion_Voice_I = {                                                       %! abjad.Path.extern
 
-    \i_Percussion_Voice_I_a                                                    %! extern
+    \i_Percussion_Voice_I_a                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_I = {                                                                  %! extern
+i_Staff_I = {                                                                  %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_I"                                      %! ScoreTemplate
-    \i_Percussion_Voice_I                                                      %! extern
+    \i_Percussion_Voice_I                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_II_a = {                                                    %! extern
+i_Percussion_Voice_II_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_II measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -546,25 +546,25 @@ i_Percussion_Voice_II_a = {                                                    %
     % [_ Percussion_Voice_II measure 16]                                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_II = {                                                      %! extern
+i_Percussion_Voice_II = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_II_a                                                   %! extern
+    \i_Percussion_Voice_II_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_II = {                                                                 %! extern
+i_Staff_II = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_II"                                     %! ScoreTemplate
-    \i_Percussion_Voice_II                                                     %! extern
+    \i_Percussion_Voice_II                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_III_a = {                                                   %! extern
+i_Percussion_Voice_III_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_III measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -773,25 +773,25 @@ i_Percussion_Voice_III_a = {                                                   %
     % [_ Percussion_Voice_III measure 16]                                      %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_III = {                                                     %! extern
+i_Percussion_Voice_III = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_III_a                                                  %! extern
+    \i_Percussion_Voice_III_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_III = {                                                                %! extern
+i_Staff_III = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_III"                                    %! ScoreTemplate
-    \i_Percussion_Voice_III                                                    %! extern
+    \i_Percussion_Voice_III                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_IV_a = {                                                    %! extern
+i_Percussion_Voice_IV_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_IV measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -966,25 +966,25 @@ i_Percussion_Voice_IV_a = {                                                    %
     % [_ Percussion_Voice_IV measure 16]                                       %! _comment_measure_numbers
     c'2                                                                        %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_IV = {                                                      %! extern
+i_Percussion_Voice_IV = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_IV_a                                                   %! extern
+    \i_Percussion_Voice_IV_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_IV = {                                                                 %! extern
+i_Staff_IV = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_IV"                                     %! ScoreTemplate
-    \i_Percussion_Voice_IV                                                     %! extern
+    \i_Percussion_Voice_IV                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_V_a = {                                                     %! extern
+i_Percussion_Voice_V_a = {                                                     %! abjad.Path.extern
 
     % [_ Percussion_Voice_V measure 1]                                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1177,25 +1177,25 @@ i_Percussion_Voice_V_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_V = {                                                       %! extern
+i_Percussion_Voice_V = {                                                       %! abjad.Path.extern
 
-    \i_Percussion_Voice_V_a                                                    %! extern
+    \i_Percussion_Voice_V_a                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_V = {                                                                  %! extern
+i_Staff_V = {                                                                  %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_V"                                      %! ScoreTemplate
-    \i_Percussion_Voice_V                                                      %! extern
+    \i_Percussion_Voice_V                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_VI_a = {                                                    %! extern
+i_Percussion_Voice_VI_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_VI measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1342,25 +1342,25 @@ i_Percussion_Voice_VI_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_VI = {                                                      %! extern
+i_Percussion_Voice_VI = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_VI_a                                                   %! extern
+    \i_Percussion_Voice_VI_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_VI = {                                                                 %! extern
+i_Staff_VI = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_VI"                                     %! ScoreTemplate
-    \i_Percussion_Voice_VI                                                     %! extern
+    \i_Percussion_Voice_VI                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_VII_a = {                                                   %! extern
+i_Percussion_Voice_VII_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_VII measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1527,25 +1527,25 @@ i_Percussion_Voice_VII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_VII = {                                                     %! extern
+i_Percussion_Voice_VII = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_VII_a                                                  %! extern
+    \i_Percussion_Voice_VII_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_VII = {                                                                %! extern
+i_Staff_VII = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_VII"                                    %! ScoreTemplate
-    \i_Percussion_Voice_VII                                                    %! extern
+    \i_Percussion_Voice_VII                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_VIII_a = {                                                  %! extern
+i_Percussion_Voice_VIII_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_VIII measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1686,25 +1686,25 @@ i_Percussion_Voice_VIII_a = {                                                  %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_VIII = {                                                    %! extern
+i_Percussion_Voice_VIII = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_VIII_a                                                 %! extern
+    \i_Percussion_Voice_VIII_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_VIII = {                                                               %! extern
+i_Staff_VIII = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_VIII"                                   %! ScoreTemplate
-    \i_Percussion_Voice_VIII                                                   %! extern
+    \i_Percussion_Voice_VIII                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_IX_a = {                                                    %! extern
+i_Percussion_Voice_IX_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_IX measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1861,25 +1861,25 @@ i_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_IX = {                                                      %! extern
+i_Percussion_Voice_IX = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_IX_a                                                   %! extern
+    \i_Percussion_Voice_IX_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_IX = {                                                                 %! extern
+i_Staff_IX = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_IX"                                     %! ScoreTemplate
-    \i_Percussion_Voice_IX                                                     %! extern
+    \i_Percussion_Voice_IX                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_X_a = {                                                     %! extern
+i_Percussion_Voice_X_a = {                                                     %! abjad.Path.extern
 
     % [_ Percussion_Voice_X measure 1]                                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2036,25 +2036,25 @@ i_Percussion_Voice_X_a = {                                                     %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_X = {                                                       %! extern
+i_Percussion_Voice_X = {                                                       %! abjad.Path.extern
 
-    \i_Percussion_Voice_X_a                                                    %! extern
+    \i_Percussion_Voice_X_a                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_X = {                                                                  %! extern
+i_Staff_X = {                                                                  %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_X"                                      %! ScoreTemplate
-    \i_Percussion_Voice_X                                                      %! extern
+    \i_Percussion_Voice_X                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XI_a = {                                                    %! extern
+i_Percussion_Voice_XI_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_XI measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2165,25 +2165,25 @@ i_Percussion_Voice_XI_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XI = {                                                      %! extern
+i_Percussion_Voice_XI = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_XI_a                                                   %! extern
+    \i_Percussion_Voice_XI_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XI = {                                                                 %! extern
+i_Staff_XI = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XI"                                     %! ScoreTemplate
-    \i_Percussion_Voice_XI                                                     %! extern
+    \i_Percussion_Voice_XI                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XII_a = {                                                   %! extern
+i_Percussion_Voice_XII_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XII measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2304,25 +2304,25 @@ i_Percussion_Voice_XII_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XII = {                                                     %! extern
+i_Percussion_Voice_XII = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XII_a                                                  %! extern
+    \i_Percussion_Voice_XII_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XII = {                                                                %! extern
+i_Staff_XII = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XII"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XII                                                    %! extern
+    \i_Percussion_Voice_XII                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XIII_a = {                                                  %! extern
+i_Percussion_Voice_XIII_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XIII measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2439,25 +2439,25 @@ i_Percussion_Voice_XIII_a = {                                                  %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XIII = {                                                    %! extern
+i_Percussion_Voice_XIII = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XIII_a                                                 %! extern
+    \i_Percussion_Voice_XIII_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XIII = {                                                               %! extern
+i_Staff_XIII = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XIII"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XIII                                                   %! extern
+    \i_Percussion_Voice_XIII                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XIV_a = {                                                   %! extern
+i_Percussion_Voice_XIV_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XIV measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2572,25 +2572,25 @@ i_Percussion_Voice_XIV_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XIV = {                                                     %! extern
+i_Percussion_Voice_XIV = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XIV_a                                                  %! extern
+    \i_Percussion_Voice_XIV_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XIV = {                                                                %! extern
+i_Staff_XIV = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XIV"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XIV                                                    %! extern
+    \i_Percussion_Voice_XIV                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XV_a = {                                                    %! extern
+i_Percussion_Voice_XV_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_XV measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2685,25 +2685,25 @@ i_Percussion_Voice_XV_a = {                                                    %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XV = {                                                      %! extern
+i_Percussion_Voice_XV = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_XV_a                                                   %! extern
+    \i_Percussion_Voice_XV_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XV = {                                                                 %! extern
+i_Staff_XV = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XV"                                     %! ScoreTemplate
-    \i_Percussion_Voice_XV                                                     %! extern
+    \i_Percussion_Voice_XV                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XVI_a = {                                                   %! extern
+i_Percussion_Voice_XVI_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XVI measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2798,25 +2798,25 @@ i_Percussion_Voice_XVI_a = {                                                   %
 
     }                                                                          %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XVI = {                                                     %! extern
+i_Percussion_Voice_XVI = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XVI_a                                                  %! extern
+    \i_Percussion_Voice_XVI_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XVI = {                                                                %! extern
+i_Staff_XVI = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XVI"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XVI                                                    %! extern
+    \i_Percussion_Voice_XVI                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XVII_a = {                                                  %! extern
+i_Percussion_Voice_XVII_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XVII measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2893,25 +2893,25 @@ i_Percussion_Voice_XVII_a = {                                                  %
     % [_ Percussion_Voice_XVII measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XVII = {                                                    %! extern
+i_Percussion_Voice_XVII = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XVII_a                                                 %! extern
+    \i_Percussion_Voice_XVII_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XVII = {                                                               %! extern
+i_Staff_XVII = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XVII"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XVII                                                   %! extern
+    \i_Percussion_Voice_XVII                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XVIII_a = {                                                 %! extern
+i_Percussion_Voice_XVIII_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XVIII measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2988,25 +2988,25 @@ i_Percussion_Voice_XVIII_a = {                                                 %
     % [_ Percussion_Voice_XVIII measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XVIII = {                                                   %! extern
+i_Percussion_Voice_XVIII = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XVIII_a                                                %! extern
+    \i_Percussion_Voice_XVIII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XVIII = {                                                              %! extern
+i_Staff_XVIII = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XVIII"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XVIII                                                  %! extern
+    \i_Percussion_Voice_XVIII                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XIX_a = {                                                   %! extern
+i_Percussion_Voice_XIX_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XIX measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3083,25 +3083,25 @@ i_Percussion_Voice_XIX_a = {                                                   %
     % [_ Percussion_Voice_XIX measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XIX = {                                                     %! extern
+i_Percussion_Voice_XIX = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XIX_a                                                  %! extern
+    \i_Percussion_Voice_XIX_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XIX = {                                                                %! extern
+i_Staff_XIX = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XIX"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XIX                                                    %! extern
+    \i_Percussion_Voice_XIX                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XX_a = {                                                    %! extern
+i_Percussion_Voice_XX_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_XX measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3178,25 +3178,25 @@ i_Percussion_Voice_XX_a = {                                                    %
     % [_ Percussion_Voice_XX measure 16]                                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XX = {                                                      %! extern
+i_Percussion_Voice_XX = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_XX_a                                                   %! extern
+    \i_Percussion_Voice_XX_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XX = {                                                                 %! extern
+i_Staff_XX = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XX"                                     %! ScoreTemplate
-    \i_Percussion_Voice_XX                                                     %! extern
+    \i_Percussion_Voice_XX                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXI_a = {                                                   %! extern
+i_Percussion_Voice_XXI_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXI measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3273,25 +3273,25 @@ i_Percussion_Voice_XXI_a = {                                                   %
     % [_ Percussion_Voice_XXI measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXI = {                                                     %! extern
+i_Percussion_Voice_XXI = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXI_a                                                  %! extern
+    \i_Percussion_Voice_XXI_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXI = {                                                                %! extern
+i_Staff_XXI = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXI"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XXI                                                    %! extern
+    \i_Percussion_Voice_XXI                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXII_a = {                                                  %! extern
+i_Percussion_Voice_XXII_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXII measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3368,25 +3368,25 @@ i_Percussion_Voice_XXII_a = {                                                  %
     % [_ Percussion_Voice_XXII measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXII = {                                                    %! extern
+i_Percussion_Voice_XXII = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXII_a                                                 %! extern
+    \i_Percussion_Voice_XXII_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXII = {                                                               %! extern
+i_Staff_XXII = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXII"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XXII                                                   %! extern
+    \i_Percussion_Voice_XXII                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXIII_a = {                                                 %! extern
+i_Percussion_Voice_XXIII_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXIII measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3463,25 +3463,25 @@ i_Percussion_Voice_XXIII_a = {                                                 %
     % [_ Percussion_Voice_XXIII measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXIII = {                                                   %! extern
+i_Percussion_Voice_XXIII = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXIII_a                                                %! extern
+    \i_Percussion_Voice_XXIII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXIII = {                                                              %! extern
+i_Staff_XXIII = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXIII"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XXIII                                                  %! extern
+    \i_Percussion_Voice_XXIII                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXIV_a = {                                                  %! extern
+i_Percussion_Voice_XXIV_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXIV measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3558,25 +3558,25 @@ i_Percussion_Voice_XXIV_a = {                                                  %
     % [_ Percussion_Voice_XXIV measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXIV = {                                                    %! extern
+i_Percussion_Voice_XXIV = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXIV_a                                                 %! extern
+    \i_Percussion_Voice_XXIV_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXIV = {                                                               %! extern
+i_Staff_XXIV = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXIV"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XXIV                                                   %! extern
+    \i_Percussion_Voice_XXIV                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXV_a = {                                                   %! extern
+i_Percussion_Voice_XXV_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXV measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3653,25 +3653,25 @@ i_Percussion_Voice_XXV_a = {                                                   %
     % [_ Percussion_Voice_XXV measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXV = {                                                     %! extern
+i_Percussion_Voice_XXV = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXV_a                                                  %! extern
+    \i_Percussion_Voice_XXV_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXV = {                                                                %! extern
+i_Staff_XXV = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXV"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XXV                                                    %! extern
+    \i_Percussion_Voice_XXV                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXVI_a = {                                                  %! extern
+i_Percussion_Voice_XXVI_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXVI measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3748,25 +3748,25 @@ i_Percussion_Voice_XXVI_a = {                                                  %
     % [_ Percussion_Voice_XXVI measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXVI = {                                                    %! extern
+i_Percussion_Voice_XXVI = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXVI_a                                                 %! extern
+    \i_Percussion_Voice_XXVI_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXVI = {                                                               %! extern
+i_Staff_XXVI = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXVI"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XXVI                                                   %! extern
+    \i_Percussion_Voice_XXVI                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXVII_a = {                                                 %! extern
+i_Percussion_Voice_XXVII_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXVII measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3843,25 +3843,25 @@ i_Percussion_Voice_XXVII_a = {                                                 %
     % [_ Percussion_Voice_XXVII measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXVII = {                                                   %! extern
+i_Percussion_Voice_XXVII = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXVII_a                                                %! extern
+    \i_Percussion_Voice_XXVII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXVII = {                                                              %! extern
+i_Staff_XXVII = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXVII"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XXVII                                                  %! extern
+    \i_Percussion_Voice_XXVII                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXVIII_a = {                                                %! extern
+i_Percussion_Voice_XXVIII_a = {                                                %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXVIII measure 1]                                    %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3938,25 +3938,25 @@ i_Percussion_Voice_XXVIII_a = {                                                %
     % [_ Percussion_Voice_XXVIII measure 16]                                   %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXVIII = {                                                  %! extern
+i_Percussion_Voice_XXVIII = {                                                  %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXVIII_a                                               %! extern
+    \i_Percussion_Voice_XXVIII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXVIII = {                                                             %! extern
+i_Staff_XXVIII = {                                                             %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXVIII"                                 %! ScoreTemplate
-    \i_Percussion_Voice_XXVIII                                                 %! extern
+    \i_Percussion_Voice_XXVIII                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXIX_a = {                                                  %! extern
+i_Percussion_Voice_XXIX_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXIX measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4033,25 +4033,25 @@ i_Percussion_Voice_XXIX_a = {                                                  %
     % [_ Percussion_Voice_XXIX measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXIX = {                                                    %! extern
+i_Percussion_Voice_XXIX = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXIX_a                                                 %! extern
+    \i_Percussion_Voice_XXIX_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXIX = {                                                               %! extern
+i_Staff_XXIX = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXIX"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XXIX                                                   %! extern
+    \i_Percussion_Voice_XXIX                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXX_a = {                                                   %! extern
+i_Percussion_Voice_XXX_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXX measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4128,25 +4128,25 @@ i_Percussion_Voice_XXX_a = {                                                   %
     % [_ Percussion_Voice_XXX measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXX = {                                                     %! extern
+i_Percussion_Voice_XXX = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXX_a                                                  %! extern
+    \i_Percussion_Voice_XXX_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXX = {                                                                %! extern
+i_Staff_XXX = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXX"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XXX                                                    %! extern
+    \i_Percussion_Voice_XXX                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXI_a = {                                                  %! extern
+i_Percussion_Voice_XXXI_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXI measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4223,25 +4223,25 @@ i_Percussion_Voice_XXXI_a = {                                                  %
     % [_ Percussion_Voice_XXXI measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXI = {                                                    %! extern
+i_Percussion_Voice_XXXI = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXI_a                                                 %! extern
+    \i_Percussion_Voice_XXXI_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXI = {                                                               %! extern
+i_Staff_XXXI = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXI"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XXXI                                                   %! extern
+    \i_Percussion_Voice_XXXI                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXII_a = {                                                 %! extern
+i_Percussion_Voice_XXXII_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXII measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4318,25 +4318,25 @@ i_Percussion_Voice_XXXII_a = {                                                 %
     % [_ Percussion_Voice_XXXII measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXII = {                                                   %! extern
+i_Percussion_Voice_XXXII = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXII_a                                                %! extern
+    \i_Percussion_Voice_XXXII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXII = {                                                              %! extern
+i_Staff_XXXII = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXII"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XXXII                                                  %! extern
+    \i_Percussion_Voice_XXXII                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXIII_a = {                                                %! extern
+i_Percussion_Voice_XXXIII_a = {                                                %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXIII measure 1]                                    %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4413,25 +4413,25 @@ i_Percussion_Voice_XXXIII_a = {                                                %
     % [_ Percussion_Voice_XXXIII measure 16]                                   %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXIII = {                                                  %! extern
+i_Percussion_Voice_XXXIII = {                                                  %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXIII_a                                               %! extern
+    \i_Percussion_Voice_XXXIII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXIII = {                                                             %! extern
+i_Staff_XXXIII = {                                                             %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXIII"                                 %! ScoreTemplate
-    \i_Percussion_Voice_XXXIII                                                 %! extern
+    \i_Percussion_Voice_XXXIII                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXIV_a = {                                                 %! extern
+i_Percussion_Voice_XXXIV_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXIV measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4508,25 +4508,25 @@ i_Percussion_Voice_XXXIV_a = {                                                 %
     % [_ Percussion_Voice_XXXIV measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXIV = {                                                   %! extern
+i_Percussion_Voice_XXXIV = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXIV_a                                                %! extern
+    \i_Percussion_Voice_XXXIV_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXIV = {                                                              %! extern
+i_Staff_XXXIV = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXIV"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XXXIV                                                  %! extern
+    \i_Percussion_Voice_XXXIV                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXV_a = {                                                  %! extern
+i_Percussion_Voice_XXXV_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXV measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4603,25 +4603,25 @@ i_Percussion_Voice_XXXV_a = {                                                  %
     % [_ Percussion_Voice_XXXV measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXV = {                                                    %! extern
+i_Percussion_Voice_XXXV = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXV_a                                                 %! extern
+    \i_Percussion_Voice_XXXV_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXV = {                                                               %! extern
+i_Staff_XXXV = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXV"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XXXV                                                   %! extern
+    \i_Percussion_Voice_XXXV                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXVI_a = {                                                 %! extern
+i_Percussion_Voice_XXXVI_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXVI measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4698,25 +4698,25 @@ i_Percussion_Voice_XXXVI_a = {                                                 %
     % [_ Percussion_Voice_XXXVI measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXVI = {                                                   %! extern
+i_Percussion_Voice_XXXVI = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXVI_a                                                %! extern
+    \i_Percussion_Voice_XXXVI_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXVI = {                                                              %! extern
+i_Staff_XXXVI = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXVI"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XXXVI                                                  %! extern
+    \i_Percussion_Voice_XXXVI                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXVII_a = {                                                %! extern
+i_Percussion_Voice_XXXVII_a = {                                                %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXVII measure 1]                                    %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4793,25 +4793,25 @@ i_Percussion_Voice_XXXVII_a = {                                                %
     % [_ Percussion_Voice_XXXVII measure 16]                                   %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXVII = {                                                  %! extern
+i_Percussion_Voice_XXXVII = {                                                  %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXVII_a                                               %! extern
+    \i_Percussion_Voice_XXXVII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXVII = {                                                             %! extern
+i_Staff_XXXVII = {                                                             %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXVII"                                 %! ScoreTemplate
-    \i_Percussion_Voice_XXXVII                                                 %! extern
+    \i_Percussion_Voice_XXXVII                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXVIII_a = {                                               %! extern
+i_Percussion_Voice_XXXVIII_a = {                                               %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXVIII measure 1]                                   %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4888,25 +4888,25 @@ i_Percussion_Voice_XXXVIII_a = {                                               %
     % [_ Percussion_Voice_XXXVIII measure 16]                                  %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXVIII = {                                                 %! extern
+i_Percussion_Voice_XXXVIII = {                                                 %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXVIII_a                                              %! extern
+    \i_Percussion_Voice_XXXVIII_a                                              %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXVIII = {                                                            %! extern
+i_Staff_XXXVIII = {                                                            %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXVIII"                                %! ScoreTemplate
-    \i_Percussion_Voice_XXXVIII                                                %! extern
+    \i_Percussion_Voice_XXXVIII                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXIX_a = {                                                 %! extern
+i_Percussion_Voice_XXXIX_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XXXIX measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4983,25 +4983,25 @@ i_Percussion_Voice_XXXIX_a = {                                                 %
     % [_ Percussion_Voice_XXXIX measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XXXIX = {                                                   %! extern
+i_Percussion_Voice_XXXIX = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XXXIX_a                                                %! extern
+    \i_Percussion_Voice_XXXIX_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XXXIX = {                                                              %! extern
+i_Staff_XXXIX = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XXXIX"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XXXIX                                                  %! extern
+    \i_Percussion_Voice_XXXIX                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XL_a = {                                                    %! extern
+i_Percussion_Voice_XL_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_XL measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5078,25 +5078,25 @@ i_Percussion_Voice_XL_a = {                                                    %
     % [_ Percussion_Voice_XL measure 16]                                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XL = {                                                      %! extern
+i_Percussion_Voice_XL = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_XL_a                                                   %! extern
+    \i_Percussion_Voice_XL_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XL = {                                                                 %! extern
+i_Staff_XL = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XL"                                     %! ScoreTemplate
-    \i_Percussion_Voice_XL                                                     %! extern
+    \i_Percussion_Voice_XL                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLI_a = {                                                   %! extern
+i_Percussion_Voice_XLI_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLI measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5173,25 +5173,25 @@ i_Percussion_Voice_XLI_a = {                                                   %
     % [_ Percussion_Voice_XLI measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLI = {                                                     %! extern
+i_Percussion_Voice_XLI = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLI_a                                                  %! extern
+    \i_Percussion_Voice_XLI_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLI = {                                                                %! extern
+i_Staff_XLI = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLI"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XLI                                                    %! extern
+    \i_Percussion_Voice_XLI                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLII_a = {                                                  %! extern
+i_Percussion_Voice_XLII_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLII measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5268,25 +5268,25 @@ i_Percussion_Voice_XLII_a = {                                                  %
     % [_ Percussion_Voice_XLII measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLII = {                                                    %! extern
+i_Percussion_Voice_XLII = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLII_a                                                 %! extern
+    \i_Percussion_Voice_XLII_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLII = {                                                               %! extern
+i_Staff_XLII = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLII"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XLII                                                   %! extern
+    \i_Percussion_Voice_XLII                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLIII_a = {                                                 %! extern
+i_Percussion_Voice_XLIII_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLIII measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5363,25 +5363,25 @@ i_Percussion_Voice_XLIII_a = {                                                 %
     % [_ Percussion_Voice_XLIII measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLIII = {                                                   %! extern
+i_Percussion_Voice_XLIII = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLIII_a                                                %! extern
+    \i_Percussion_Voice_XLIII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLIII = {                                                              %! extern
+i_Staff_XLIII = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLIII"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XLIII                                                  %! extern
+    \i_Percussion_Voice_XLIII                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLIV_a = {                                                  %! extern
+i_Percussion_Voice_XLIV_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLIV measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5458,25 +5458,25 @@ i_Percussion_Voice_XLIV_a = {                                                  %
     % [_ Percussion_Voice_XLIV measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLIV = {                                                    %! extern
+i_Percussion_Voice_XLIV = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLIV_a                                                 %! extern
+    \i_Percussion_Voice_XLIV_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLIV = {                                                               %! extern
+i_Staff_XLIV = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLIV"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XLIV                                                   %! extern
+    \i_Percussion_Voice_XLIV                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLV_a = {                                                   %! extern
+i_Percussion_Voice_XLV_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLV measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5553,25 +5553,25 @@ i_Percussion_Voice_XLV_a = {                                                   %
     % [_ Percussion_Voice_XLV measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLV = {                                                     %! extern
+i_Percussion_Voice_XLV = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLV_a                                                  %! extern
+    \i_Percussion_Voice_XLV_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLV = {                                                                %! extern
+i_Staff_XLV = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLV"                                    %! ScoreTemplate
-    \i_Percussion_Voice_XLV                                                    %! extern
+    \i_Percussion_Voice_XLV                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLVI_a = {                                                  %! extern
+i_Percussion_Voice_XLVI_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLVI measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5648,25 +5648,25 @@ i_Percussion_Voice_XLVI_a = {                                                  %
     % [_ Percussion_Voice_XLVI measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLVI = {                                                    %! extern
+i_Percussion_Voice_XLVI = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLVI_a                                                 %! extern
+    \i_Percussion_Voice_XLVI_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLVI = {                                                               %! extern
+i_Staff_XLVI = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLVI"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XLVI                                                   %! extern
+    \i_Percussion_Voice_XLVI                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLVII_a = {                                                 %! extern
+i_Percussion_Voice_XLVII_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLVII measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5743,25 +5743,25 @@ i_Percussion_Voice_XLVII_a = {                                                 %
     % [_ Percussion_Voice_XLVII measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLVII = {                                                   %! extern
+i_Percussion_Voice_XLVII = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLVII_a                                                %! extern
+    \i_Percussion_Voice_XLVII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLVII = {                                                              %! extern
+i_Staff_XLVII = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLVII"                                  %! ScoreTemplate
-    \i_Percussion_Voice_XLVII                                                  %! extern
+    \i_Percussion_Voice_XLVII                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLVIII_a = {                                                %! extern
+i_Percussion_Voice_XLVIII_a = {                                                %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLVIII measure 1]                                    %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5838,25 +5838,25 @@ i_Percussion_Voice_XLVIII_a = {                                                %
     % [_ Percussion_Voice_XLVIII measure 16]                                   %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLVIII = {                                                  %! extern
+i_Percussion_Voice_XLVIII = {                                                  %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLVIII_a                                               %! extern
+    \i_Percussion_Voice_XLVIII_a                                               %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLVIII = {                                                             %! extern
+i_Staff_XLVIII = {                                                             %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLVIII"                                 %! ScoreTemplate
-    \i_Percussion_Voice_XLVIII                                                 %! extern
+    \i_Percussion_Voice_XLVIII                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLIX_a = {                                                  %! extern
+i_Percussion_Voice_XLIX_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_XLIX measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5933,25 +5933,25 @@ i_Percussion_Voice_XLIX_a = {                                                  %
     % [_ Percussion_Voice_XLIX measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_XLIX = {                                                    %! extern
+i_Percussion_Voice_XLIX = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_XLIX_a                                                 %! extern
+    \i_Percussion_Voice_XLIX_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_XLIX = {                                                               %! extern
+i_Staff_XLIX = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_XLIX"                                   %! ScoreTemplate
-    \i_Percussion_Voice_XLIX                                                   %! extern
+    \i_Percussion_Voice_XLIX                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_L_a = {                                                     %! extern
+i_Percussion_Voice_L_a = {                                                     %! abjad.Path.extern
 
     % [_ Percussion_Voice_L measure 1]                                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6028,25 +6028,25 @@ i_Percussion_Voice_L_a = {                                                     %
     % [_ Percussion_Voice_L measure 16]                                        %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_L = {                                                       %! extern
+i_Percussion_Voice_L = {                                                       %! abjad.Path.extern
 
-    \i_Percussion_Voice_L_a                                                    %! extern
+    \i_Percussion_Voice_L_a                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_L = {                                                                  %! extern
+i_Staff_L = {                                                                  %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_L"                                      %! ScoreTemplate
-    \i_Percussion_Voice_L                                                      %! extern
+    \i_Percussion_Voice_L                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LI_a = {                                                    %! extern
+i_Percussion_Voice_LI_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_LI measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6123,25 +6123,25 @@ i_Percussion_Voice_LI_a = {                                                    %
     % [_ Percussion_Voice_LI measure 16]                                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LI = {                                                      %! extern
+i_Percussion_Voice_LI = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_LI_a                                                   %! extern
+    \i_Percussion_Voice_LI_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LI = {                                                                 %! extern
+i_Staff_LI = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LI"                                     %! ScoreTemplate
-    \i_Percussion_Voice_LI                                                     %! extern
+    \i_Percussion_Voice_LI                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LII_a = {                                                   %! extern
+i_Percussion_Voice_LII_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_LII measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6218,25 +6218,25 @@ i_Percussion_Voice_LII_a = {                                                   %
     % [_ Percussion_Voice_LII measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LII = {                                                     %! extern
+i_Percussion_Voice_LII = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_LII_a                                                  %! extern
+    \i_Percussion_Voice_LII_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LII = {                                                                %! extern
+i_Staff_LII = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LII"                                    %! ScoreTemplate
-    \i_Percussion_Voice_LII                                                    %! extern
+    \i_Percussion_Voice_LII                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LIII_a = {                                                  %! extern
+i_Percussion_Voice_LIII_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_LIII measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6313,25 +6313,25 @@ i_Percussion_Voice_LIII_a = {                                                  %
     % [_ Percussion_Voice_LIII measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LIII = {                                                    %! extern
+i_Percussion_Voice_LIII = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_LIII_a                                                 %! extern
+    \i_Percussion_Voice_LIII_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LIII = {                                                               %! extern
+i_Staff_LIII = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LIII"                                   %! ScoreTemplate
-    \i_Percussion_Voice_LIII                                                   %! extern
+    \i_Percussion_Voice_LIII                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LIV_a = {                                                   %! extern
+i_Percussion_Voice_LIV_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_LIV measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6408,25 +6408,25 @@ i_Percussion_Voice_LIV_a = {                                                   %
     % [_ Percussion_Voice_LIV measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LIV = {                                                     %! extern
+i_Percussion_Voice_LIV = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_LIV_a                                                  %! extern
+    \i_Percussion_Voice_LIV_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LIV = {                                                                %! extern
+i_Staff_LIV = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LIV"                                    %! ScoreTemplate
-    \i_Percussion_Voice_LIV                                                    %! extern
+    \i_Percussion_Voice_LIV                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LV_a = {                                                    %! extern
+i_Percussion_Voice_LV_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_LV measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6503,25 +6503,25 @@ i_Percussion_Voice_LV_a = {                                                    %
     % [_ Percussion_Voice_LV measure 16]                                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LV = {                                                      %! extern
+i_Percussion_Voice_LV = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_LV_a                                                   %! extern
+    \i_Percussion_Voice_LV_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LV = {                                                                 %! extern
+i_Staff_LV = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LV"                                     %! ScoreTemplate
-    \i_Percussion_Voice_LV                                                     %! extern
+    \i_Percussion_Voice_LV                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LVI_a = {                                                   %! extern
+i_Percussion_Voice_LVI_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_LVI measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6598,25 +6598,25 @@ i_Percussion_Voice_LVI_a = {                                                   %
     % [_ Percussion_Voice_LVI measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LVI = {                                                     %! extern
+i_Percussion_Voice_LVI = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_LVI_a                                                  %! extern
+    \i_Percussion_Voice_LVI_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LVI = {                                                                %! extern
+i_Staff_LVI = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LVI"                                    %! ScoreTemplate
-    \i_Percussion_Voice_LVI                                                    %! extern
+    \i_Percussion_Voice_LVI                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LVII_a = {                                                  %! extern
+i_Percussion_Voice_LVII_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_LVII measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6693,25 +6693,25 @@ i_Percussion_Voice_LVII_a = {                                                  %
     % [_ Percussion_Voice_LVII measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LVII = {                                                    %! extern
+i_Percussion_Voice_LVII = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_LVII_a                                                 %! extern
+    \i_Percussion_Voice_LVII_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LVII = {                                                               %! extern
+i_Staff_LVII = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LVII"                                   %! ScoreTemplate
-    \i_Percussion_Voice_LVII                                                   %! extern
+    \i_Percussion_Voice_LVII                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LVIII_a = {                                                 %! extern
+i_Percussion_Voice_LVIII_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_LVIII measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6788,25 +6788,25 @@ i_Percussion_Voice_LVIII_a = {                                                 %
     % [_ Percussion_Voice_LVIII measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LVIII = {                                                   %! extern
+i_Percussion_Voice_LVIII = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_LVIII_a                                                %! extern
+    \i_Percussion_Voice_LVIII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LVIII = {                                                              %! extern
+i_Staff_LVIII = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LVIII"                                  %! ScoreTemplate
-    \i_Percussion_Voice_LVIII                                                  %! extern
+    \i_Percussion_Voice_LVIII                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LIX_a = {                                                   %! extern
+i_Percussion_Voice_LIX_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_LIX measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6883,25 +6883,25 @@ i_Percussion_Voice_LIX_a = {                                                   %
     % [_ Percussion_Voice_LIX measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LIX = {                                                     %! extern
+i_Percussion_Voice_LIX = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_LIX_a                                                  %! extern
+    \i_Percussion_Voice_LIX_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LIX = {                                                                %! extern
+i_Staff_LIX = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LIX"                                    %! ScoreTemplate
-    \i_Percussion_Voice_LIX                                                    %! extern
+    \i_Percussion_Voice_LIX                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LX_a = {                                                    %! extern
+i_Percussion_Voice_LX_a = {                                                    %! abjad.Path.extern
 
     % [_ Percussion_Voice_LX measure 1]                                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -6978,25 +6978,25 @@ i_Percussion_Voice_LX_a = {                                                    %
     % [_ Percussion_Voice_LX measure 16]                                       %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LX = {                                                      %! extern
+i_Percussion_Voice_LX = {                                                      %! abjad.Path.extern
 
-    \i_Percussion_Voice_LX_a                                                   %! extern
+    \i_Percussion_Voice_LX_a                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LX = {                                                                 %! extern
+i_Staff_LX = {                                                                 %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LX"                                     %! ScoreTemplate
-    \i_Percussion_Voice_LX                                                     %! extern
+    \i_Percussion_Voice_LX                                                     %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LXI_a = {                                                   %! extern
+i_Percussion_Voice_LXI_a = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Voice_LXI measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -7073,25 +7073,25 @@ i_Percussion_Voice_LXI_a = {                                                   %
     % [_ Percussion_Voice_LXI measure 16]                                      %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LXI = {                                                     %! extern
+i_Percussion_Voice_LXI = {                                                     %! abjad.Path.extern
 
-    \i_Percussion_Voice_LXI_a                                                  %! extern
+    \i_Percussion_Voice_LXI_a                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LXI = {                                                                %! extern
+i_Staff_LXI = {                                                                %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LXI"                                    %! ScoreTemplate
-    \i_Percussion_Voice_LXI                                                    %! extern
+    \i_Percussion_Voice_LXI                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LXII_a = {                                                  %! extern
+i_Percussion_Voice_LXII_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_LXII measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -7168,25 +7168,25 @@ i_Percussion_Voice_LXII_a = {                                                  %
     % [_ Percussion_Voice_LXII measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LXII = {                                                    %! extern
+i_Percussion_Voice_LXII = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_LXII_a                                                 %! extern
+    \i_Percussion_Voice_LXII_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LXII = {                                                               %! extern
+i_Staff_LXII = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LXII"                                   %! ScoreTemplate
-    \i_Percussion_Voice_LXII                                                   %! extern
+    \i_Percussion_Voice_LXII                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LXIII_a = {                                                 %! extern
+i_Percussion_Voice_LXIII_a = {                                                 %! abjad.Path.extern
 
     % [_ Percussion_Voice_LXIII measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -7263,25 +7263,25 @@ i_Percussion_Voice_LXIII_a = {                                                 %
     % [_ Percussion_Voice_LXIII measure 16]                                    %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LXIII = {                                                   %! extern
+i_Percussion_Voice_LXIII = {                                                   %! abjad.Path.extern
 
-    \i_Percussion_Voice_LXIII_a                                                %! extern
+    \i_Percussion_Voice_LXIII_a                                                %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LXIII = {                                                              %! extern
+i_Staff_LXIII = {                                                              %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LXIII"                                  %! ScoreTemplate
-    \i_Percussion_Voice_LXIII                                                  %! extern
+    \i_Percussion_Voice_LXIII                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LXIV_a = {                                                  %! extern
+i_Percussion_Voice_LXIV_a = {                                                  %! abjad.Path.extern
 
     % [_ Percussion_Voice_LXIV measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -7358,19 +7358,19 @@ i_Percussion_Voice_LXIV_a = {                                                  %
     % [_ Percussion_Voice_LXIV measure 16]                                     %! _comment_measure_numbers
     r2                                                                         %! recursif_rhythm
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Voice_LXIV = {                                                    %! extern
+i_Percussion_Voice_LXIV = {                                                    %! abjad.Path.extern
 
-    \i_Percussion_Voice_LXIV_a                                                 %! extern
+    \i_Percussion_Voice_LXIV_a                                                 %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Staff_LXIV = {                                                               %! extern
+i_Staff_LXIV = {                                                               %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_LXIV"                                   %! ScoreTemplate
-    \i_Percussion_Voice_LXIV                                                   %! extern
+    \i_Percussion_Voice_LXIV                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
