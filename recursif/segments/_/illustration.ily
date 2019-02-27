@@ -242,6 +242,59 @@ i_Global_Skips = {                                                             %
 }                                                                              %! abjad.Path.extern
 
 
+i_Global_Rests = {                                                             %! abjad.Path.extern
+
+    % [_ Global_Rests measure 1]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 2]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 3]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 4]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 5]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 6]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 7]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 8]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 9]                                               %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 10]                                              %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 11]                                              %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 12]                                              %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 13]                                              %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 14]                                              %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 15]                                              %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 16]                                              %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+}                                                                              %! abjad.Path.extern
+
+
 i_Percussion_Voice_I_a = {                                                     %! abjad.Path.extern
 
     % [_ Percussion_Voice_I measure 1]                                         %! _comment_measure_numbers
@@ -329,12 +382,15 @@ i_Percussion_Voice_I = {                                                       %
 }                                                                              %! abjad.Path.extern
 
 
-i_Staff_I = {                                                                  %! abjad.Path.extern
+i_Staff_I = <<                                                                 %! abjad.Path.extern
+
+    \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
+    \i_Global_Rests                                                            %! abjad.Path.extern
 
     \context Voice = "Percussion_Voice_I"                                      %! recursif.ScoreTemplate.__call__
     \i_Percussion_Voice_I                                                      %! abjad.Path.extern
 
-}                                                                              %! abjad.Path.extern
+>>                                                                             %! abjad.Path.extern
 
 
 i_Percussion_Voice_II_a = {                                                    %! abjad.Path.extern
