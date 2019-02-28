@@ -4,12 +4,12 @@ import abjad
 metadata = abjad.OrderedDict(
     [
         ('duration', "0'24''"),
-        ('final_measure_number', 112),
-        ('first_measure_number', 97),
+        ('final_measure_number', 96),
+        ('first_measure_number', 81),
         ('segment_name', 'F'),
-        ('segment_number', 7),
-        ('start_clock_time', "2'24''"),
-        ('stop_clock_time', "2'48''"),
+        ('segment_number', 6),
+        ('start_clock_time', "2'00''"),
+        ('stop_clock_time', "2'24''"),
         (
             'time_signatures',
             [

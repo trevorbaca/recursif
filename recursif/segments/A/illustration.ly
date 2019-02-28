@@ -2,7 +2,6 @@
 \language "english"                                                            %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
 
 \include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
-\include "../../stylesheets/nonfirst-segment.ily"                              %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
 \include "illustration.ily"                                                    %! abjad.Path.extern
 
 
