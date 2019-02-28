@@ -10,9 +10,6 @@ import roman
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    final_markup=(['Austin, TX.'], ['August 2003.']),
-    final_markup_extra_offset=(10, 0),
-    final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=16*[(2, 4)],
     validate_measure_count=16,
@@ -26,5 +23,5 @@ for voice_number in range(1, 64 + 1):
     maker(
         voice_name, 
         baca.staff_position(0),
-        recursif.rhythm(voice_number, 16),
+        recursif.rhythm(voice_number, 15),
         )

@@ -23,5 +23,5 @@ for voice_number in range(1, 64 + 1):
     maker(
         voice_name, 
         baca.staff_position(0),
-        recursif.rhythm(voice_number, 11),
+        recursif.rhythm(voice_number, 10),
         )
