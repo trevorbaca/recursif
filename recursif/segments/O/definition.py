@@ -2,7 +2,7 @@ import abjad
 import baca
 import os
 import recursif
-import roman
+import roman # type: ignore
 
 
 ###############################################################################

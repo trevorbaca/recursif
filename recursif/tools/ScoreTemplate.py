@@ -1,7 +1,7 @@
 import abjad
 import baca
 import recursif
-import roman
+import roman # type: ignore
 
 
 class ScoreTemplate(baca.ScoreTemplate):
