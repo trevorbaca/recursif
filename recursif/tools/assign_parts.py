@@ -1,7 +1,7 @@
 import abjad
 import baca
 import recursif
-import roman
+import roman # type: ignore
 
 
 def assign_parts(maker):
