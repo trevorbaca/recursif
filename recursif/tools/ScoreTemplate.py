@@ -1,7 +1,7 @@
 import abjad
 import baca
 import recursif
-import roman # type: ignore
+import roman  # type: ignore
 
 
 class ScoreTemplate(baca.ScoreTemplate):
@@ -499,14 +499,10 @@ class ScoreTemplate(baca.ScoreTemplate):
     _global_rests_in_topmost_staff = True
 
     _part_manifest = abjad.PartManifest(
-        abjad.Section(
-            abbreviation='PERC',
-            count=64,
-            name='Percussion',
-            ),
-        )
+        abjad.Section(abbreviation="PERC", count=64, name="Percussion")
+    )
 
-    #all_music_in_part_containers = True
+    # all_music_in_part_containers = True
 
     ### SPECIAL METHODS ###
 
@@ -514,7 +510,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         """
         Calls score template.
         """
-        tag = 'recursif.ScoreTemplate.__call__'
+        tag = "recursif.ScoreTemplate.__call__"
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 
@@ -524,42 +520,31 @@ class ScoreTemplate(baca.ScoreTemplate):
             staff_number = staff_index + 1
             staff_numeral = roman.toRoman(staff_number)
             voice = abjad.Voice(
-                name=f'Percussion_Voice_{staff_numeral}',
-                tag=tag,
-                )
+                name=f"Percussion_Voice_{staff_numeral}", tag=tag
+            )
             staff = abjad.Staff(
-                [voice],
-                name=f'Staff_{staff_numeral}',
-                tag=tag,
-                )
+                [voice], name=f"Staff_{staff_numeral}", tag=tag
+            )
             abjad.annotate(
-                staff,
-                'default_instrument',
-                recursif.instruments['Percussion'],
-                )
+                staff, "default_instrument", recursif.instruments["Percussion"]
+            )
             staves.append(staff)
 
         # STAFF GROUP
-        staff_group = abjad.StaffGroup(
-            staves,
-            name='Staff_Group',
-            tag=tag,
-            )
+        staff_group = abjad.StaffGroup(staves, name="Staff_Group", tag=tag)
 
         # MUSIC CONTEXT
         music_context = abjad.Context(
             [staff_group],
-            lilypond_type='MusicContext',
-            name='Music_Context',
+            lilypond_type="MusicContext",
+            name="Music_Context",
             tag=tag,
-            )
+        )
 
         # SCORE
         score = abjad.Score(
-            [global_context, music_context],
-            name='Score',
-            tag=tag,
-            )
+            [global_context, music_context], name="Score", tag=tag
+        )
         self._assert_lilypond_identifiers(score)
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)

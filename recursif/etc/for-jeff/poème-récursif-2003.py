@@ -21,15 +21,8 @@ class ScoreTemplate(object):
             abjad.setting(staff).instrument_name = markup
             abjad.setting(staff).short_name = markup
             staves.append(staff)
-        staff_group = abjad.StaffGroup(
-            staves,
-            name='Staff Group',
-            )
-        score = abjad.Score([
-            staff_group,
-            ],
-            name='Score',
-            )
+        staff_group = abjad.StaffGroup(staves, name="Staff Group")
+        score = abjad.Score([staff_group], name="Score")
         return score
 
 
@@ -45,9 +38,9 @@ class SegmentMaker(baca.SegmentMaker):
         final_markup_extra_offset=None,
         measure_duration=abjad.Duration(1, 2),
         page_number=None,
-        ):
+    ):
         assert isinstance(page_number, int), repr(page_number)
-        name = f'page {page_number}'
+        name = f"page {page_number}"
         superclass = super(SegmentMaker, self)
         superclass.__init__(name=name)
         final_bar_line = bool(final_bar_line)
@@ -73,8 +66,8 @@ class SegmentMaker(baca.SegmentMaker):
         self._add_final_markup()
         self._make_lilypond_file()
         self._configure_lilypond_file()
-        score_block = self.lilypond_file['score']
-        score = score_block['Score']
+        score_block = self.lilypond_file["score"]
+        score = score_block["Score"]
         if not abjad.inspect(score).wellformed():
             string = abjad.inspect(score).tabulate_wellformedness()
             raise Exception(string)
@@ -91,24 +84,23 @@ class SegmentMaker(baca.SegmentMaker):
         if self.final_markup is None:
             return
         self._score.add_final_markup(
-            self.final_markup,
-            extra_offset=self.final_markup_extra_offset,
-            )
+            self.final_markup, extra_offset=self.final_markup_extra_offset
+        )
 
     def _configure_lilypond_file(self):
         lilypond_file = self._lilypond_file
         lilypond_file.use_relative_includes = True
-        lilypond_file.file_initial_user_includes.append(['stylesheet.ily'])
-        if not self.name == 'page 1':
+        lilypond_file.file_initial_user_includes.append(["stylesheet.ily"])
+        if not self.name == "page 1":
             lilypond_file.header_block.title = None
             lilypond_file.header_block.composer = None
 
     def _make_lilypond_file(self):
         lilypond_file = abjad.LilyPondFile.new(self._score)
         for item in lilypond_file.items[:]:
-            if getattr(item, 'name', None) == 'layout':
+            if getattr(item, "name", None) == "layout":
                 lilypond_file.items.remove(item)
-            elif getattr(item, 'name', None) == 'paper':
+            elif getattr(item, "name", None) == "paper":
                 item.first_page_number = self.page_number
         self._lilypond_file = lilypond_file
 
@@ -120,16 +112,16 @@ class SegmentMaker(baca.SegmentMaker):
                 total = 255 + staff_number - measure_number
                 count = staff_number - 1
                 note_count = int(
-                    abjad.mathtools.binomial_coefficient(total, count) % 8)
+                    abjad.mathtools.binomial_coefficient(total, count) % 8
+                )
                 if 0 < note_count:
                     ratio = abjad.Ratio(note_count * [1])
                     tuplet = abjad.Tuplet.from_duration_and_ratio(
-                        self.measure_duration,
-                        ratio,
-                        )
+                        self.measure_duration, ratio
+                    )
                     staff.append(tuplet)
                     for note in tuplet:
-                        note.written_pitch = abjad.NamedPitch('B4')
+                        note.written_pitch = abjad.NamedPitch("B4")
                 else:
                     rest = abjad.Rest(self.measure_duration)
                     staff.append(rest)
@@ -159,15 +151,15 @@ class SegmentMaker(baca.SegmentMaker):
         return measure_numbers
 
 
-if __name__ == '__main__':
-    output_directory = pathlib.Path.home() / 'Desktop'
+if __name__ == "__main__":
+    output_directory = pathlib.Path.home() / "Desktop"
     for page_number in range(1, 16 + 1):
         maker = SegmentMaker(page_number=page_number)
         lilypond_file = maker()
-        file_name = 'page-%02d.py' % page_number
+        file_name = "page-%02d.py" % page_number
         output_file = output_directory / file_name
-        message = f'Rendering page {page_number} ...'
+        message = f"Rendering page {page_number} ..."
         print(message)
         abjad.persist(lilypond_file).as_pdf(output_file)
-    message = 'Done.'
+    message = "Done."
     print(message)
