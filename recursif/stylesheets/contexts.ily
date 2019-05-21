@@ -1,3 +1,4 @@
+% Poème récursif (2003)
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
 
 
@@ -136,7 +137,10 @@
         \override SpacingSpanner.uniform-stretching = ##t
 
         \override TextScript.font-name = #"Palatino"
-        \override TextScript.X-extent = #'(0 . 0)
+        % DISCOVERY: overriding TextScript.X-extent = ##f
+        %            makes LilyPond ignore self-alignment-X tweaks;
+        %            probably should never be done at stylesheet level.
+        % NOTE:      may be best to override NO text script properties.
 
         autoBeaming = ##f
         barNumberVisibility = #(every-nth-bar-number-visible 16)
