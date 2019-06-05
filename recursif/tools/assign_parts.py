@@ -1,10 +1,11 @@
 import abjad
 import baca
 import recursif
-import roman  # type: ignore
+import roman
+from .ScoreTemplate import ScoreTemplate
 
 
-def assign_parts(maker):
+def assign_parts(maker: baca.SegmentMaker):
     """
     Assigns parts.
     """
@@ -13,7 +14,7 @@ def assign_parts(maker):
         voice_name = f"Percussion_Voice_{numeral}"
         part_assignment = abjad.PartAssignment(section="Percussion", token=n)
         assert part_assignment.token is not None
-        score_template = recursif.ScoreTemplate()
+        score_template = ScoreTemplate()
         for part in part_assignment:
             if part not in score_template.part_manifest.parts:
                 raise Exception(f"no {part!r} in part manifest.")
