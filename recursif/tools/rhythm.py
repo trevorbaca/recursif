@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def rhythm(voice_number, page_number):
+def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
     """
     Makes rhythm for ``voice_number`` and ``page_number``.
     """
@@ -17,13 +17,13 @@ def rhythm(voice_number, page_number):
         count = voice_number - 1
         count = int(abjad.mathtools.binomial_coefficient(total, count) % 8)
         if 0 < count:
-            tuplet_ratios.append(count * [1])
+            tuplet_ratios.append(count * (1,))
         else:
-            tuplet_ratios.append([-1])
+            tuplet_ratios.append((-1,))
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
-            tag="recursif_rhythm",
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
-        )
+        ),
+        tag="recursif.rhythm",
     )
