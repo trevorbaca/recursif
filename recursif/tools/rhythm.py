@@ -26,5 +26,5 @@ def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
             rmakers.TupletSpecifier(extract_trivial=True),
             tag="recursif.rhythm",
             tuplet_ratios=tuplet_ratios,
-        ),
+        )
     )
