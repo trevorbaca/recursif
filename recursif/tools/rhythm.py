@@ -24,7 +24,7 @@ def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.extract_trivial(),
         ),
         tag="recursif.rhythm",
