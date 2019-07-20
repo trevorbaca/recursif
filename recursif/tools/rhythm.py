@@ -22,8 +22,8 @@ def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
             tuplet_ratios.append((-1,))
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
+        rmakers.rhythm(
+            rmakers.tuplet(tuplet_ratios=tuplet_ratios),
             rmakers.beam(),
             rmakers.extract_trivial(),
         ),
