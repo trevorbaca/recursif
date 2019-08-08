@@ -215,8 +215,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 3),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -225,8 +225,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 2),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -235,8 +235,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 4),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -245,8 +245,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 9),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -255,8 +255,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 1),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -265,8 +265,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 53),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -275,8 +275,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 52),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -285,8 +285,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 54),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -295,8 +295,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 59),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -305,8 +305,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 51),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -315,8 +315,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 58),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -325,8 +325,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 57),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -335,8 +335,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 56),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -345,8 +345,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 55),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -355,8 +355,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 63),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -365,8 +365,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 62),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -375,8 +375,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 64),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -385,8 +385,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 61),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -395,8 +395,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 60),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -405,8 +405,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 50),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -415,8 +415,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 8),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -425,8 +425,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 7),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -435,8 +435,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 6),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -445,8 +445,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 5),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -455,8 +455,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 13),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -465,8 +465,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 12),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -475,8 +475,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 14),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -485,8 +485,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 19),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -495,8 +495,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 11),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -505,8 +505,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 43),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -515,8 +515,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 42),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -525,8 +525,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 44),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -535,8 +535,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 49),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -545,8 +545,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 41),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -555,8 +555,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 48),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -565,8 +565,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 47),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -575,8 +575,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 46),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -585,8 +585,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 45),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -595,8 +595,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 40),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -605,8 +605,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 18),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -615,8 +615,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 17),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -625,8 +625,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 16),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -635,8 +635,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 15),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -645,8 +645,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 23),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -655,8 +655,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 22),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -665,8 +665,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 24),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -675,8 +675,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 29),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -685,8 +685,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 21),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -695,8 +695,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 28),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -705,8 +705,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 27),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -715,8 +715,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 26),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -725,8 +725,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 25),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -735,8 +735,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 33),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -745,8 +745,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 32),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -755,8 +755,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 34),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -765,8 +765,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 39),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -775,8 +775,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 31),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -785,8 +785,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 38),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -795,8 +795,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 37),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -805,8 +805,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 36),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -815,8 +815,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 35),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -825,8 +825,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 30),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -835,8 +835,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 20),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
@@ -845,8 +845,8 @@ persist = abjad.OrderedDict(
                         (
                             abjad.PartAssignment('Percussion', 10),
                             abjad.Timespan(
-                                start_offset=abjad.Offset(0, 1),
-                                stop_offset=abjad.Offset(8, 1),
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
                                 ),
                             ),
                         ),
