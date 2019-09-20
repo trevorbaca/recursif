@@ -10,6 +10,7 @@ import roman # type: ignore
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     first_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=16*[(2, 4)],
