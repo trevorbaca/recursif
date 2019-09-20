@@ -10,6 +10,7 @@ import roman # type: ignore
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     final_markup=(['Austin, TX.'], ['August 2003.']),
     final_markup_extra_offset=(10, 0),
     final_segment=True,
