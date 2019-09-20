@@ -18,18 +18,18 @@ maker = baca.SegmentMaker(
 )
 
 maker(
-    'Global_Skips',
-    baca.metronome_mark('38-42'),
+    "Global_Skips",
+    baca.metronome_mark("38-42"),
 )
 
 recursif.assign_parts(maker)
 
 for voice_number in range(1, 64 + 1):
     numeral = roman.toRoman(voice_number)
-    voice_name = f'Percussion_Voice_{numeral}'
+    voice_name = f"Percussion_Voice_{numeral}"
     maker(
         voice_name,
-        baca.clef('percussion'),
+        baca.clef("percussion"),
         baca.suite(
             recursif.margin_markup(str(voice_number)),
             baca.start_markup(str(voice_number), hcenter_in=8),
@@ -38,7 +38,7 @@ for voice_number in range(1, 64 + 1):
 
 for voice_number in range(1, 64 + 1):
     numeral = roman.toRoman(voice_number)
-    voice_name = f'Percussion_Voice_{numeral}'
+    voice_name = f"Percussion_Voice_{numeral}"
     maker(
         voice_name, 
         baca.staff_position(0),

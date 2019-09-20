@@ -11,7 +11,7 @@ import roman # type: ignore
 
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
-    final_markup=(['Austin, TX.'], ['August 2003.']),
+    final_markup=(["Austin, TX."], ["August 2003."]),
     final_markup_extra_offset=(10, 0),
     final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -23,7 +23,7 @@ recursif.assign_parts(maker)
 
 for voice_number in range(1, 64 + 1):
     numeral = roman.toRoman(voice_number)
-    voice_name = f'Percussion_Voice_{numeral}'
+    voice_name = f"Percussion_Voice_{numeral}"
     maker(
         voice_name, 
         baca.staff_position(0),
