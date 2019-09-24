@@ -390,7 +390,7 @@ B_Staff_I = <<                                                                 %
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
     \B_Global_Rests                                                            %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_I"                                      %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_I"                                      %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_I                                                      %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -645,7 +645,7 @@ B_Percussion_Voice_II = {                                                      %
 
 B_Staff_II = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_II"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_II"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_II                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -900,7 +900,7 @@ B_Percussion_Voice_III = {                                                     %
 
 B_Staff_III = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_III"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_III"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_III                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1121,7 +1121,7 @@ B_Percussion_Voice_IV = {                                                      %
 
 B_Staff_IV = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_IV"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_IV"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_IV                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1392,7 +1392,7 @@ B_Percussion_Voice_V = {                                                       %
 
 B_Staff_V = {                                                                  %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_V"                                      %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_V"                                      %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_V                                                      %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1629,7 +1629,7 @@ B_Percussion_Voice_VI = {                                                      %
 
 B_Staff_VI = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_VI"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_VI"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_VI                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -1858,7 +1858,7 @@ B_Percussion_Voice_VII = {                                                     %
 
 B_Staff_VII = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_VII"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_VII"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_VII                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2015,7 +2015,7 @@ B_Percussion_Voice_VIII = {                                                    %
 
 B_Staff_VIII = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_VIII"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_VIII"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_VIII                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2290,7 +2290,7 @@ B_Percussion_Voice_IX = {                                                      %
 
 B_Staff_IX = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_IX"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_IX"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_IX                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2517,7 +2517,7 @@ B_Percussion_Voice_X = {                                                       %
 
 B_Staff_X = {                                                                  %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_X"                                      %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_X"                                      %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_X                                                      %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2774,7 +2774,7 @@ B_Percussion_Voice_XI = {                                                      %
 
 B_Staff_XI = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XI"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XI"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XI                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -2955,7 +2955,7 @@ B_Percussion_Voice_XII = {                                                     %
 
 B_Staff_XII = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XII"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XII"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XII                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3218,7 +3218,7 @@ B_Percussion_Voice_XIII = {                                                    %
 
 B_Staff_XIII = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XIII"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XIII"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XIII                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3457,7 +3457,7 @@ B_Percussion_Voice_XIV = {                                                     %
 
 B_Staff_XIV = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XIV"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XIV"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XIV                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3652,7 +3652,7 @@ B_Percussion_Voice_XV = {                                                      %
 
 B_Staff_XV = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XV"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XV"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XV                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -3821,7 +3821,7 @@ B_Percussion_Voice_XVI = {                                                     %
 
 B_Staff_XVI = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XVI"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XVI"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XVI                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -4104,7 +4104,7 @@ B_Percussion_Voice_XVII = {                                                    %
 
 B_Staff_XVII = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XVII"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XVII"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XVII                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -4359,7 +4359,7 @@ B_Percussion_Voice_XVIII = {                                                   %
 
 B_Staff_XVIII = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XVIII"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XVIII"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XVIII                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -4566,7 +4566,7 @@ B_Percussion_Voice_XIX = {                                                     %
 
 B_Staff_XIX = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XIX"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XIX"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XIX                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -4801,7 +4801,7 @@ B_Percussion_Voice_XX = {                                                      %
 
 B_Staff_XX = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XX"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XX"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XX                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -5040,7 +5040,7 @@ B_Percussion_Voice_XXI = {                                                     %
 
 B_Staff_XXI = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXI"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXI"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXI                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -5259,7 +5259,7 @@ B_Percussion_Voice_XXII = {                                                    %
 
 B_Staff_XXII = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXII"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXII"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXII                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -5472,7 +5472,7 @@ B_Percussion_Voice_XXIII = {                                                   %
 
 B_Staff_XXIII = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXIII"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXIII"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXIII                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -5639,7 +5639,7 @@ B_Percussion_Voice_XXIV = {                                                    %
 
 B_Staff_XXIV = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXIV"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXIV"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXIV                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -5842,7 +5842,7 @@ B_Percussion_Voice_XXV = {                                                     %
 
 B_Staff_XXV = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXV"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXV"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXV                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -6041,7 +6041,7 @@ B_Percussion_Voice_XXVI = {                                                    %
 
 B_Staff_XXVI = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXVI"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXVI"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXVI                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -6222,7 +6222,7 @@ B_Percussion_Voice_XXVII = {                                                   %
 
 B_Staff_XXVII = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXVII"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXVII"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXVII                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -6399,7 +6399,7 @@ B_Percussion_Voice_XXVIII = {                                                  %
 
 B_Staff_XXVIII = {                                                             %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXVIII"                                 %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXVIII"                                 %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXVIII                                                 %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -6562,7 +6562,7 @@ B_Percussion_Voice_XXIX = {                                                    %
 
 B_Staff_XXIX = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXIX"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXIX"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXIX                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -6723,7 +6723,7 @@ B_Percussion_Voice_XXX = {                                                     %
 
 B_Staff_XXX = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXX"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXX"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXX                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -6864,7 +6864,7 @@ B_Percussion_Voice_XXXI = {                                                    %
 
 B_Staff_XXXI = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXI"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXI"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXI                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7005,7 +7005,7 @@ B_Percussion_Voice_XXXII = {                                                   %
 
 B_Staff_XXXII = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXII"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXII"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXII                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7128,7 +7128,7 @@ B_Percussion_Voice_XXXIII = {                                                  %
 
 B_Staff_XXXIII = {                                                             %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXIII"                                 %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXIII"                                 %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXIII                                                 %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7251,7 +7251,7 @@ B_Percussion_Voice_XXXIV = {                                                   %
 
 B_Staff_XXXIV = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXIV"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXIV"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXIV                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7374,7 +7374,7 @@ B_Percussion_Voice_XXXV = {                                                    %
 
 B_Staff_XXXV = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXV"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXV"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXV                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7497,7 +7497,7 @@ B_Percussion_Voice_XXXVI = {                                                   %
 
 B_Staff_XXXVI = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXVI"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXVI"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXVI                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7620,7 +7620,7 @@ B_Percussion_Voice_XXXVII = {                                                  %
 
 B_Staff_XXXVII = {                                                             %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXVII"                                 %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXVII"                                 %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXVII                                                 %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7743,7 +7743,7 @@ B_Percussion_Voice_XXXVIII = {                                                 %
 
 B_Staff_XXXVIII = {                                                            %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXVIII"                                %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXVIII"                                %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXVIII                                                %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7866,7 +7866,7 @@ B_Percussion_Voice_XXXIX = {                                                   %
 
 B_Staff_XXXIX = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XXXIX"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XXXIX"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XXXIX                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7989,7 +7989,7 @@ B_Percussion_Voice_XL = {                                                      %
 
 B_Staff_XL = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XL"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XL"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XL                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -8112,7 +8112,7 @@ B_Percussion_Voice_XLI = {                                                     %
 
 B_Staff_XLI = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLI"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLI"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLI                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -8235,7 +8235,7 @@ B_Percussion_Voice_XLII = {                                                    %
 
 B_Staff_XLII = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLII"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLII"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLII                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -8358,7 +8358,7 @@ B_Percussion_Voice_XLIII = {                                                   %
 
 B_Staff_XLIII = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLIII"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLIII"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLIII                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -8481,7 +8481,7 @@ B_Percussion_Voice_XLIV = {                                                    %
 
 B_Staff_XLIV = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLIV"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLIV"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLIV                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -8604,7 +8604,7 @@ B_Percussion_Voice_XLV = {                                                     %
 
 B_Staff_XLV = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLV"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLV"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLV                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -8727,7 +8727,7 @@ B_Percussion_Voice_XLVI = {                                                    %
 
 B_Staff_XLVI = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLVI"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLVI"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLVI                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -8850,7 +8850,7 @@ B_Percussion_Voice_XLVII = {                                                   %
 
 B_Staff_XLVII = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLVII"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLVII"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLVII                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -8973,7 +8973,7 @@ B_Percussion_Voice_XLVIII = {                                                  %
 
 B_Staff_XLVIII = {                                                             %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLVIII"                                 %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLVIII"                                 %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLVIII                                                 %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -9096,7 +9096,7 @@ B_Percussion_Voice_XLIX = {                                                    %
 
 B_Staff_XLIX = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_XLIX"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_XLIX"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_XLIX                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -9219,7 +9219,7 @@ B_Percussion_Voice_L = {                                                       %
 
 B_Staff_L = {                                                                  %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_L"                                      %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_L"                                      %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_L                                                      %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -9342,7 +9342,7 @@ B_Percussion_Voice_LI = {                                                      %
 
 B_Staff_LI = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LI"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LI"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LI                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -9465,7 +9465,7 @@ B_Percussion_Voice_LII = {                                                     %
 
 B_Staff_LII = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LII"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LII"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LII                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -9588,7 +9588,7 @@ B_Percussion_Voice_LIII = {                                                    %
 
 B_Staff_LIII = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LIII"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LIII"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LIII                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -9711,7 +9711,7 @@ B_Percussion_Voice_LIV = {                                                     %
 
 B_Staff_LIV = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LIV"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LIV"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LIV                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -9834,7 +9834,7 @@ B_Percussion_Voice_LV = {                                                      %
 
 B_Staff_LV = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LV"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LV"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LV                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -9957,7 +9957,7 @@ B_Percussion_Voice_LVI = {                                                     %
 
 B_Staff_LVI = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LVI"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LVI"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LVI                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -10080,7 +10080,7 @@ B_Percussion_Voice_LVII = {                                                    %
 
 B_Staff_LVII = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LVII"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LVII"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LVII                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -10203,7 +10203,7 @@ B_Percussion_Voice_LVIII = {                                                   %
 
 B_Staff_LVIII = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LVIII"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LVIII"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LVIII                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -10326,7 +10326,7 @@ B_Percussion_Voice_LIX = {                                                     %
 
 B_Staff_LIX = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LIX"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LIX"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LIX                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -10449,7 +10449,7 @@ B_Percussion_Voice_LX = {                                                      %
 
 B_Staff_LX = {                                                                 %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LX"                                     %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LX"                                     %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LX                                                     %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -10572,7 +10572,7 @@ B_Percussion_Voice_LXI = {                                                     %
 
 B_Staff_LXI = {                                                                %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LXI"                                    %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LXI"                                    %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LXI                                                    %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -10695,7 +10695,7 @@ B_Percussion_Voice_LXII = {                                                    %
 
 B_Staff_LXII = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LXII"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LXII"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LXII                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -10818,7 +10818,7 @@ B_Percussion_Voice_LXIII = {                                                   %
 
 B_Staff_LXIII = {                                                              %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LXIII"                                  %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LXIII"                                  %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LXIII                                                  %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -10941,7 +10941,7 @@ B_Percussion_Voice_LXIV = {                                                    %
 
 B_Staff_LXIV = {                                                               %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Voice_LXIV"                                   %! recursif.ScoreTemplate.__call__
+    \context Voice = "Percussion_Voice_LXIV"                                   %! recursif.ScoreTemplate.__call__()
     \B_Percussion_Voice_LXIV                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
