@@ -32,9 +32,7 @@ class SegmentMaker(baca.SegmentMaker):
     """
 
     def __init__(
-        self,
-        measure_duration=abjad.Duration(1, 2),
-        page_number=None,
+        self, measure_duration=abjad.Duration(1, 2), page_number=None
     ):
         assert isinstance(page_number, int), repr(page_number)
         name = f"page {page_number}"
