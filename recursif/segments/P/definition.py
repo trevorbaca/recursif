@@ -17,6 +17,11 @@ maker = baca.SegmentMaker(
     validate_measure_count=16,
 )
 
+maker(
+    ("Global_Skips", -1),
+    baca.bar_line("|.", baca.skip(-1)),
+)
+
 recursif.assign_parts(maker)
 
 for voice_number in range(1, 64 + 1):
