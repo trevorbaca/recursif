@@ -11,8 +11,6 @@ import roman # type: ignore
 
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
-    final_markup=(["Austin, TX."], ["August 2003."]),
-    final_markup_extra_offset=(10, 0),
     final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=16*[(2, 4)],
@@ -29,3 +27,14 @@ for voice_number in range(1, 64 + 1):
         baca.staff_position(0),
         recursif.rhythm(voice_number, 16),
     )
+
+maker(
+    ("Percussion_Voice_LXIV", -1),
+    baca.chunk(
+        baca.mark(r"\recursif-colophon-markup"),
+        baca.rehearsal_mark_down(),
+        baca.rehearsal_mark_padding(6),
+        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        selector=baca.leaves().rleak()[-1],
+    ),
+)
