@@ -33,9 +33,6 @@ class SegmentMaker(baca.SegmentMaker):
 
     def __init__(
         self,
-        final_bar_line=False,
-        final_markup=None,
-        final_markup_extra_offset=None,
         measure_duration=abjad.Duration(1, 2),
         page_number=None,
     ):
@@ -43,11 +40,6 @@ class SegmentMaker(baca.SegmentMaker):
         name = f"page {page_number}"
         superclass = super(SegmentMaker, self)
         superclass.__init__(name=name)
-        final_bar_line = bool(final_bar_line)
-        self.final_bar_line = final_bar_line
-        assert isinstance(final_markup, (abjad.Markup, type(None)))
-        self.final_markup = final_markup
-        self.final_markup_extra_offset = final_markup_extra_offset
         measure_duration = abjad.Duration(measure_duration)
         self.measure_duration = measure_duration
         self.page_number = page_number
@@ -62,8 +54,6 @@ class SegmentMaker(baca.SegmentMaker):
         """
         self._make_score()
         self._make_music()
-        self._add_final_bar_line()
-        self._add_final_markup()
         self._make_lilypond_file()
         self._configure_lilypond_file()
         score_block = self.lilypond_file["score"]
@@ -74,18 +64,6 @@ class SegmentMaker(baca.SegmentMaker):
         return self.lilypond_file
 
     ### PRIVATE METHODS ###
-
-    def _add_final_bar_line(self):
-        if not self.final_bar_line:
-            return
-        self._score.add_final_bar_line()
-
-    def _add_final_markup(self):
-        if self.final_markup is None:
-            return
-        self._score.add_final_markup(
-            self.final_markup, extra_offset=self.final_markup_extra_offset
-        )
 
     def _configure_lilypond_file(self):
         lilypond_file = self._lilypond_file
