@@ -8,6 +8,7 @@ if not (
     raise ImportError("Requires Python 3.7.")
 del distutils
 del platform
+from .ScoreTemplate import ScoreTemplate
 from recursif.tools import *
 from recursif.materials.instruments.definition import instruments
 from recursif.materials.margin_markups.definition import margin_markups
