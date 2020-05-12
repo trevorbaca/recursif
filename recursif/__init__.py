@@ -12,4 +12,3 @@ from recursif.tools import *
 from recursif.materials.instruments.definition import instruments
 from recursif.materials.margin_markups.definition import margin_markups
 from recursif.materials.metronome_marks.definition import metronome_marks
-from recursif import segments
