@@ -23,7 +23,7 @@ def assign_parts(maker: baca.SegmentMaker):
         command = baca.parts(part_assignment)
         maker(voice_name, command)
 
-        
+
 def margin_markup(
     key: str,
     alert: baca.IndicatorCommand = None,
