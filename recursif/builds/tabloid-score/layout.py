@@ -1,6 +1,5 @@
 import baca
 
-
 after_global = 4
 between_staves = 7
 
