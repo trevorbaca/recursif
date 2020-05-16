@@ -1,6 +1,7 @@
+import pathlib
+
 import abjad
 import baca
-import pathlib
 import recursif
 
 
@@ -31,9 +32,7 @@ class SegmentMaker(baca.SegmentMaker):
     Segment-maker.
     """
 
-    def __init__(
-        self, measure_duration=abjad.Duration(1, 2), page_number=None
-    ):
+    def __init__(self, measure_duration=abjad.Duration(1, 2), page_number=None):
         assert isinstance(page_number, int), repr(page_number)
         name = f"page {page_number}"
         superclass = super(SegmentMaker, self)
@@ -87,9 +86,7 @@ class SegmentMaker(baca.SegmentMaker):
             for measure_number in self.measure_numbers:
                 total = 255 + staff_number - measure_number
                 count = staff_number - 1
-                note_count = int(
-                    abjad.mathtools.binomial_coefficient(total, count) % 8
-                )
+                note_count = int(abjad.mathtools.binomial_coefficient(total, count) % 8)
                 if 0 < note_count:
                     ratio = abjad.Ratio(note_count * [1])
                     tuplet = abjad.Tuplet.from_duration_and_ratio(

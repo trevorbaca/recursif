@@ -1,7 +1,6 @@
 import os
 import pathlib
 
-
 if __name__ == "__main__":
     os.system("clear")
     score_directory = "/Users/trevorbaca/scores/recursif/2003/score/"
