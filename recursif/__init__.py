@@ -1,12 +1,20 @@
 import distutils.version
 import platform
 
-from recursif.materials.instruments.definition import instruments
-from recursif.materials.margin_markups.definition import margin_markups
-from recursif.materials.metronome_marks.definition import metronome_marks
-from recursif.tools import *
+from recursif.materials import instruments, margin_markups, metronome_marks
+from recursif.tools import assign_parts, margin_markup, rhythm
 
 from .ScoreTemplate import ScoreTemplate
+
+__all__ = [
+    "ScoreTemplate",
+    "instruments",
+    "margin_markups",
+    "metronome_marks",
+    "assign_parts",
+    "margin_markup",
+    "rhythm",
+]
 
 if not (
     distutils.version.LooseVersion("3.7")

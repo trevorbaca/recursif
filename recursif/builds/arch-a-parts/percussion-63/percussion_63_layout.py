@@ -21,7 +21,7 @@ breaks = baca.breaks(
         [101, first + 10 * system, (padding,)],
         [111, first + 11 * system, (padding,)],
         number=1,
-        ),
+    ),
     baca.page(
         [121, second + 0 * system, (padding,)],
         [131, second + 1 * system, (padding,)],
@@ -38,5 +38,5 @@ breaks = baca.breaks(
         [241, second + 12 * system, (padding,)],
         [251, second + 13 * system, (padding,)],
         number=2,
-        ),
-    )
+    ),
+)
