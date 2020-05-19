@@ -9,7 +9,6 @@ def make_poeme_2003_page_n(n):
 
     first_measure_on_page = 16 * n - 15
     last_measure_on_page = 16 * n
-    measures_in_page = range(first_measure_on_page, last_measure_on_page + 1)
     duration = abjad.Fraction(1, 2)
 
     score = abjad.Score([abjad.StaffGroup()])
@@ -21,16 +20,14 @@ def make_poeme_2003_page_n(n):
         string %= part_number
         staff.set.instrument_name = abjad.Markup(string)
         arguments = (part_number, first_measure_on_page, last_measure_on_page)
-        integer_divisions = integer_divisions(*arguments)
-        for integer_division in integer_divisions:
+        integer_divisions_ = integer_divisions(*arguments)
+        for integer_division in integer_divisions_:
             if integer_division == 0:
                 tuplet = abjad.Tuplet((1, 1), [abjad.Rest((1, 2))])
             else:
                 proportions = [1] * integer_division
                 arguments = (duration, proportions)
-                tuplet = abjad.Tuplet.make_diminished_tuplet_from_duration_and_proportions_and_rewrite_dots(
-                    *arguments
-                )
+                tuplet = abjad.Tuplet.from_duration_and_ratio(*arguments)
             staff.append(tuplet)
         staff_group.append(staff)
     lilypond_file = abjad.LilyPondFile.new(score)

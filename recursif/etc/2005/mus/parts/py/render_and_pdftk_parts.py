@@ -4,8 +4,8 @@ import os
 def make_score_ly_files():
     print("making score ly files ...")
     for part_number in range(1, 65):
-        part_template = file("ly/part-template.ly", "r")
-        score_ly_file = file("ly/parts/%s.ly" % str(part_number).zfill(2), "w")
+        part_template = open("ly/part-template.ly", "r")
+        score_ly_file = open("ly/parts/%s.ly" % str(part_number).zfill(2), "w")
         for line in part_template.readlines():
             if "part-99" in line:
                 line = line.replace("99", str(part_number).zfill(2))

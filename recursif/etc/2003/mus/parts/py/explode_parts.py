@@ -35,7 +35,7 @@ def explode_parts():
             part_file.write("\t>>\n")
             part_file.write("}\n\n")
             part_file.write("\\paper {\n")
-            part_file.write("\toddFooterMarkup = \\markup \\fill-line { \italic {")
+            part_file.write("\toddFooterMarkup = \\markup \\fill-line { \\italic {")
             part_file.write("\n")
             footer = '\t\t"Bača / Poème récursif, verse I /'
             footer += ' %s of 64" } }\n' % cur_part

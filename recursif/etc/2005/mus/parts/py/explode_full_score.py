@@ -1,6 +1,3 @@
-import os
-
-
 """
 Created 2009-12-15 while getting parts ready for B. Archinal.
 
@@ -15,7 +12,7 @@ The part files 01.ly, ..., 64.ly will be created.
 def explode_full_score():
     cur_part = 0
     part_file = None
-    input = file("ly/converted-full-score.ly", "r")
+    input = open("ly/converted-full-score.ly", "r")
     for line in input.readlines():
         if "new RhythmicStaff" in line:
             line = '\\new RhythmicStaff <<\n\\include "line-breaking.ly"\n{\n'
@@ -23,7 +20,7 @@ def explode_full_score():
                 part_file.write(">>")
                 part_file.close()
             cur_part += 1
-            part_file = file("ly/data/%s.ly" % str(cur_part).zfill(2), "w")
+            part_file = open("ly/data/%s.ly" % str(cur_part).zfill(2), "w")
             part_file.write('\\version "2.12.0"\n\n')
         if cur_part == 64 and ">>" in line:
             part_file.write(">>")
