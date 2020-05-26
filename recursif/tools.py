@@ -3,9 +3,48 @@ import roman
 import abjad
 import baca
 from abjadext import rmakers
-from recursif.materials import margin_markups
 
 from .ScoreTemplate import ScoreTemplate
+
+# instruments & margin markup
+
+instruments = abjad.OrderedDict([("Percussion", abjad.Percussion())])
+
+
+def _make_margin_markup(markup):
+    return abjad.MarginMarkup(
+        markup=baca.markups.instrument(markup, hcenter_in=8)
+    )
+
+
+margin_markups = abjad.OrderedDict()
+for staff_number in range(1, 64 + 1):
+    margin_markups[str(staff_number)] = _make_margin_markup(str(staff_number))
+
+
+def margin_markup(
+    key: str,
+    alert: baca.IndicatorCommand = None,
+    context: str = "Staff",
+    selector: abjad.SelectorTyping = baca.leaf(0),
+) -> baca.CommandTyping:
+    """
+    Makes tagged margin markup indicator command.
+    """
+    margin_markup = margin_markups[key]
+    command = baca.margin_markup(
+        margin_markup, alert=alert, context=context, selector=selector
+    )
+    return baca.not_parts(command)
+
+
+# metronome marks
+
+metronome_marks = abjad.OrderedDict(
+    [("38-42", abjad.MetronomeMark((1, 2), 40, textual_indication="38-42"))]
+)
+
+# functions
 
 
 def assign_parts(maker: baca.SegmentMaker):
@@ -23,22 +62,6 @@ def assign_parts(maker: baca.SegmentMaker):
                 raise Exception(f"no {part!r} in part manifest.")
         command = baca.parts(part_assignment)
         maker(voice_name, command)
-
-
-def margin_markup(
-    key: str,
-    alert: baca.IndicatorCommand = None,
-    context: str = "Staff",
-    selector: abjad.SelectorTyping = baca.leaf(0),
-) -> baca.CommandTyping:
-    """
-    Makes tagged margin markup indicator command.
-    """
-    margin_markup = margin_markups[key]
-    command = baca.margin_markup(
-        margin_markup, alert=alert, context=context, selector=selector
-    )
-    return baca.not_parts(command)
 
 
 def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
