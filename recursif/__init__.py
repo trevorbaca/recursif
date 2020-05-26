@@ -1,10 +1,15 @@
 import distutils.version
 import platform
 
-from recursif.materials import instruments, margin_markups, metronome_marks
-from recursif.tools import assign_parts, margin_markup, rhythm
-
 from .ScoreTemplate import ScoreTemplate
+from .tools import (
+    assign_parts,
+    instruments,
+    margin_markup,
+    margin_markups,
+    metronome_marks,
+    rhythm,
+)
 
 __all__ = [
     "ScoreTemplate",
