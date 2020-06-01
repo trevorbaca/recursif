@@ -1,6 +1,6 @@
 import os
 
-import roman  # type: ignore
+import roman
 
 import abjad
 import baca
