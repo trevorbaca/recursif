@@ -2,8 +2,8 @@ Poème récursif
 ===============
 
 [![Build Status](
-    https://travis-ci.org/trevorbaca/recursif.svg)](
-    https://travis-ci.org/trevorbaca/recursif)
+    https://api.travis-ci.org/trevorbaca/recursif.svg)](
+    https://api.travis-ci.org/trevorbaca/recursif)
 <!---
 [![Code style: black](
     https://img.shields.io/badge/code%20style-black-000000.svg)](
