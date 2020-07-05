@@ -28,7 +28,7 @@ def make_poeme_2003_page_n(n):
             else:
                 proportions = [1] * integer_division
                 arguments = (duration, proportions)
-                tuplet = abjad.Tuplet.from_duration_and_ratio(*arguments)
+                tuplet = abjad.makers.tuplet_from_duration_and_ratio(*arguments)
             staff.append(tuplet)
         staff_group.append(staff)
     lilypond_file = abjad.LilyPondFile.new(score)
