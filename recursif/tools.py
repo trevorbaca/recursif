@@ -76,7 +76,7 @@ def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
     for measure_number in measure_numbers:
         total = 255 + voice_number - measure_number
         count = voice_number - 1
-        count = int(abjad.mathtools.binomial_coefficient(total, count) % 8)
+        count = int(abjad.mathx.binomial_coefficient(total, count) % 8)
         if 0 < count:
             tuplet_ratios.append(count * (1,))
         else:

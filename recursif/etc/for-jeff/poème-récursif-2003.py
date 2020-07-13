@@ -86,7 +86,7 @@ class SegmentMaker(baca.SegmentMaker):
             for measure_number in self.measure_numbers:
                 total = 255 + staff_number - measure_number
                 count = staff_number - 1
-                note_count = int(abjad.mathtools.binomial_coefficient(total, count) % 8)
+                note_count = int(abjad.mathx.binomial_coefficient(total, count) % 8)
                 if 0 < note_count:
                     ratio = abjad.Ratio(note_count * [1])
                     tuplet = abjad.makers.tuplet_from_duration_and_ratio(
