@@ -1,3 +1,4 @@
+import quicktions
 from integer_divisions import integer_divisions
 
 import abjad
@@ -10,7 +11,7 @@ def make_poeme_2003_page_n(n):
 
     first_measure_on_page = 16 * n - 15
     last_measure_on_page = 16 * n
-    duration = abjad.Fraction(1, 2)
+    duration = quicktions.Fraction(1, 2)
 
     score = abjad.Score([abjad.StaffGroup()])
     staff_group = score[0]
