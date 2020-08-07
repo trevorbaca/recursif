@@ -2,6 +2,7 @@ import roman
 
 import abjad
 import baca
+import ide
 import recursif
 
 
@@ -26,8 +27,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     _global_rests_in_topmost_staff = True
 
-    _part_manifest = abjad.PartManifest(
-        abjad.Section(abbreviation="PERC", count=64, name="Percussion")
+    _part_manifest = ide.PartManifest(
+        ide.Section(abbreviation="PERC", count=64, name="Percussion")
     )
 
     # all_music_in_part_containers = True
@@ -91,7 +92,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> score_template = recursif.ScoreTemplate()
             >>> part = score_template.part_manifest.parts[0]
             >>> abjad.f(part)
-            abjad.Part(
+            ide.Part(
                 instrument='Percussion',
                 member=1,
                 number=1,
