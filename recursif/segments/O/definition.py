@@ -10,7 +10,7 @@ import recursif
 
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
-    segment_directory=abjad.Path(__file__).resolve().parent,
+    segment_directory=baca.Path(__file__).resolve().parent,
     time_signatures=16 * [(2, 4)],
     validate_measure_count=16,
 )
