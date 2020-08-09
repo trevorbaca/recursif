@@ -1,4 +1,4 @@
-L_Global_Skips = {                                                             %! abjad.Path.extern()
+L_Global_Skips = {                                                             %! ide.Path.extern()
 
     % [L Global_Skips measure 177 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._reapply_persistent_indicators(1):baca.SegmentMaker._set_status_tag():REAPPLIED_TIME_SIGNATURE
@@ -209,10 +209,10 @@ L_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
     \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Global_Rests = {                                                             %! abjad.Path.extern()
+L_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [L Global_Rests measure 177 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
@@ -265,10 +265,10 @@ L_Global_Rests = {                                                             %
     % [L Global_Rests measure 193 / measure 17]                                %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_I_a = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_I_a = {                                                     %! ide.Path.extern()
 
     % [L Percussion_Voice_I measure 177 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -345,12 +345,12 @@ L_Percussion_Voice_I_a = {                                                     %
     % [L Percussion_Voice_I measure 192 / measure 16]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_I = {                                                       %! abjad.Path.extern()
+L_Percussion_Voice_I = {                                                       %! ide.Path.extern()
 
-    \L_Percussion_Voice_I_a                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_I_a                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -382,21 +382,21 @@ L_Percussion_Voice_I = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_I = <<                                                                 %! abjad.Path.extern()
+L_Staff_I = <<                                                                 %! ide.Path.extern()
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
-    \L_Global_Rests                                                            %! abjad.Path.extern()
+    \L_Global_Rests                                                            %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_I"                                      %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_I                                                      %! abjad.Path.extern()
+    \L_Percussion_Voice_I                                                      %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-L_Percussion_Voice_II_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_II_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_II measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -605,12 +605,12 @@ L_Percussion_Voice_II_a = {                                                    %
     % [L Percussion_Voice_II measure 192 / measure 16]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_II = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_II = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_II_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_II_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -642,18 +642,18 @@ L_Percussion_Voice_II = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_II = {                                                                 %! abjad.Path.extern()
+L_Staff_II = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_II"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_II                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_II                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_III_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_III_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_III measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -862,12 +862,12 @@ L_Percussion_Voice_III_a = {                                                   %
     % [L Percussion_Voice_III measure 192 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_III = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_III = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_III_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_III_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -899,18 +899,18 @@ L_Percussion_Voice_III = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_III = {                                                                %! abjad.Path.extern()
+L_Staff_III = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_III"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_III                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_III                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_IV_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_IV_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_IV measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1085,12 +1085,12 @@ L_Percussion_Voice_IV_a = {                                                    %
     % [L Percussion_Voice_IV measure 192 / measure 16]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_IV = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_IV = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_IV_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_IV_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1122,18 +1122,18 @@ L_Percussion_Voice_IV = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_IV = {                                                                 %! abjad.Path.extern()
+L_Staff_IV = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_IV"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_IV                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_IV                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_V_a = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_V_a = {                                                     %! ide.Path.extern()
 
     % [L Percussion_Voice_V measure 177 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1358,12 +1358,12 @@ L_Percussion_Voice_V_a = {                                                     %
     % [L Percussion_Voice_V measure 192 / measure 16]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_V = {                                                       %! abjad.Path.extern()
+L_Percussion_Voice_V = {                                                       %! ide.Path.extern()
 
-    \L_Percussion_Voice_V_a                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_V_a                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1395,18 +1395,18 @@ L_Percussion_Voice_V = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_V = {                                                                  %! abjad.Path.extern()
+L_Staff_V = {                                                                  %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_V"                                      %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_V                                                      %! abjad.Path.extern()
+    \L_Percussion_Voice_V                                                      %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_VI_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_VI_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_VI measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1597,12 +1597,12 @@ L_Percussion_Voice_VI_a = {                                                    %
     % [L Percussion_Voice_VI measure 192 / measure 16]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_VI = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_VI = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_VI_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_VI_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1634,18 +1634,18 @@ L_Percussion_Voice_VI = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_VI = {                                                                 %! abjad.Path.extern()
+L_Staff_VI = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_VI"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_VI                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_VI                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_VII_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_VII_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_VII measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1828,12 +1828,12 @@ L_Percussion_Voice_VII_a = {                                                   %
     % [L Percussion_Voice_VII measure 192 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_VII = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_VII = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_VII_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_VII_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -1865,18 +1865,18 @@ L_Percussion_Voice_VII = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_VII = {                                                                %! abjad.Path.extern()
+L_Staff_VII = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_VII"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_VII                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_VII                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_VIII_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_VIII_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_VIII measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1987,12 +1987,12 @@ L_Percussion_Voice_VIII_a = {                                                  %
     % [L Percussion_Voice_VIII measure 192 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_VIII = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_VIII = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_VIII_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_VIII_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2024,18 +2024,18 @@ L_Percussion_Voice_VIII = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_VIII = {                                                               %! abjad.Path.extern()
+L_Staff_VIII = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_VIII"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_VIII                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_VIII                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_IX_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_IX_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_IX measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2264,12 +2264,12 @@ L_Percussion_Voice_IX_a = {                                                    %
     % [L Percussion_Voice_IX measure 192 / measure 16]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_IX = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_IX = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_IX_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_IX_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2301,18 +2301,18 @@ L_Percussion_Voice_IX = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_IX = {                                                                 %! abjad.Path.extern()
+L_Staff_IX = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_IX"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_IX                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_IX                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_X_a = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_X_a = {                                                     %! ide.Path.extern()
 
     % [L Percussion_Voice_X measure 177 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2493,12 +2493,12 @@ L_Percussion_Voice_X_a = {                                                     %
     % [L Percussion_Voice_X measure 192 / measure 16]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_X = {                                                       %! abjad.Path.extern()
+L_Percussion_Voice_X = {                                                       %! ide.Path.extern()
 
-    \L_Percussion_Voice_X_a                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_X_a                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2530,18 +2530,18 @@ L_Percussion_Voice_X = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_X = {                                                                  %! abjad.Path.extern()
+L_Staff_X = {                                                                  %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_X"                                      %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_X                                                      %! abjad.Path.extern()
+    \L_Percussion_Voice_X                                                      %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XI_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XI_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_XI measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2704,12 +2704,12 @@ L_Percussion_Voice_XI_a = {                                                    %
     % [L Percussion_Voice_XI measure 192 / measure 16]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XI = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_XI = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_XI_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XI_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2741,18 +2741,18 @@ L_Percussion_Voice_XI = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XI = {                                                                 %! abjad.Path.extern()
+L_Staff_XI = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XI"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XI                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_XI                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XII_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XII_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XII measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2915,12 +2915,12 @@ L_Percussion_Voice_XII_a = {                                                   %
     % [L Percussion_Voice_XII measure 192 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XII = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XII = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XII_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XII_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -2952,18 +2952,18 @@ L_Percussion_Voice_XII = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XII = {                                                                %! abjad.Path.extern()
+L_Staff_XII = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XII"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XII                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XII                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XIII_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XIII_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XIII measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3180,12 +3180,12 @@ L_Percussion_Voice_XIII_a = {                                                  %
     % [L Percussion_Voice_XIII measure 192 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XIII = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XIII = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XIII_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XIII_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3217,18 +3217,18 @@ L_Percussion_Voice_XIII = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XIII = {                                                               %! abjad.Path.extern()
+L_Staff_XIII = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XIII"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XIII                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XIII                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XIV_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XIV_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XIV measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3365,12 +3365,12 @@ L_Percussion_Voice_XIV_a = {                                                   %
     % [L Percussion_Voice_XIV measure 192 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XIV = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XIV = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XIV_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XIV_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3402,18 +3402,18 @@ L_Percussion_Voice_XIV = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XIV = {                                                                %! abjad.Path.extern()
+L_Staff_XIV = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XIV"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XIV                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XIV                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XV_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XV_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_XV measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3558,12 +3558,12 @@ L_Percussion_Voice_XV_a = {                                                    %
     % [L Percussion_Voice_XV measure 192 / measure 16]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XV = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_XV = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_XV_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XV_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3595,18 +3595,18 @@ L_Percussion_Voice_XV = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XV = {                                                                 %! abjad.Path.extern()
+L_Staff_XV = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XV"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XV                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_XV                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XVI_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XVI_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XVI measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3701,12 +3701,12 @@ L_Percussion_Voice_XVI_a = {                                                   %
     % [L Percussion_Voice_XVI measure 192 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XVI = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XVI = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XVI_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XVI_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -3738,18 +3738,18 @@ L_Percussion_Voice_XVI = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XVI = {                                                                %! abjad.Path.extern()
+L_Staff_XVI = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XVI"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XVI                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XVI                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XVII_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XVII_a = {                                                  %! ide.Path.extern()
 
     \times 4/7 {                                                               %! recursif.rhythm()
 
@@ -3986,12 +3986,12 @@ L_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XVII = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XVII = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XVII_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XVII_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4023,18 +4023,18 @@ L_Percussion_Voice_XVII = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XVII = {                                                               %! abjad.Path.extern()
+L_Staff_XVII = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XVII"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XVII                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XVII                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XVIII_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XVIII_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XVIII measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4243,12 +4243,12 @@ L_Percussion_Voice_XVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XVIII = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XVIII = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XVIII_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XVIII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4280,18 +4280,18 @@ L_Percussion_Voice_XVIII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XVIII = {                                                              %! abjad.Path.extern()
+L_Staff_XVIII = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XVIII"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XVIII                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XVIII                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XIX_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XIX_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XIX measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4548,12 +4548,12 @@ L_Percussion_Voice_XIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XIX = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XIX = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XIX_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XIX_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4585,18 +4585,18 @@ L_Percussion_Voice_XIX = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XIX = {                                                                %! abjad.Path.extern()
+L_Staff_XIX = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XIX"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XIX                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XIX                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XX_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XX_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_XX measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4757,12 +4757,12 @@ L_Percussion_Voice_XX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XX = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_XX = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_XX_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XX_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -4794,18 +4794,18 @@ L_Percussion_Voice_XX = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XX = {                                                                 %! abjad.Path.extern()
+L_Staff_XX = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XX"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XX                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_XX                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXI_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXI_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XXI measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -4998,12 +4998,12 @@ L_Percussion_Voice_XXI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXI = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XXI = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXI_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXI_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5035,18 +5035,18 @@ L_Percussion_Voice_XXI = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXI = {                                                                %! abjad.Path.extern()
+L_Staff_XXI = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXI"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXI                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XXI                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXII_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXII_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XXII measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5195,12 +5195,12 @@ L_Percussion_Voice_XXII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXII = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XXII = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXII_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXII_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5232,18 +5232,18 @@ L_Percussion_Voice_XXII = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXII = {                                                               %! abjad.Path.extern()
+L_Staff_XXII = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXII"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXII                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XXII                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXIII_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XXIII_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XXIII measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5410,12 +5410,12 @@ L_Percussion_Voice_XXIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXIII = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXIII = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXIII_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XXIII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5447,18 +5447,18 @@ L_Percussion_Voice_XXIII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXIII = {                                                              %! abjad.Path.extern()
+L_Staff_XXIII = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXIII"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXIII                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXIII                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXIV_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXIV_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XXIV measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5581,12 +5581,12 @@ L_Percussion_Voice_XXIV_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXIV = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XXIV = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXIV_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXIV_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5618,18 +5618,18 @@ L_Percussion_Voice_XXIV = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXIV = {                                                               %! abjad.Path.extern()
+L_Staff_XXIV = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXIV"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXIV                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XXIV                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXV_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXV_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XXV measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -5850,12 +5850,12 @@ L_Percussion_Voice_XXV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXV = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XXV = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXV_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXV_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -5887,18 +5887,18 @@ L_Percussion_Voice_XXV = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXV = {                                                                %! abjad.Path.extern()
+L_Staff_XXV = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXV"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXV                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XXV                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXVI_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXVI_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XXVI measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6063,12 +6063,12 @@ L_Percussion_Voice_XXVI_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXVI = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XXVI = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXVI_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXVI_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6100,18 +6100,18 @@ L_Percussion_Voice_XXVI = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXVI = {                                                               %! abjad.Path.extern()
+L_Staff_XXVI = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXVI"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXVI                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XXVI                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXVII_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XXVII_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XXVII measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6278,12 +6278,12 @@ L_Percussion_Voice_XXVII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXVII = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXVII = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXVII_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XXVII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6315,18 +6315,18 @@ L_Percussion_Voice_XXVII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXVII = {                                                              %! abjad.Path.extern()
+L_Staff_XXVII = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXVII"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXVII                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXVII                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXVIII_a = {                                                %! abjad.Path.extern()
+L_Percussion_Voice_XXVIII_a = {                                                %! ide.Path.extern()
 
     % [L Percussion_Voice_XXVIII measure 177 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6479,12 +6479,12 @@ L_Percussion_Voice_XXVIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXVIII = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXVIII = {                                                  %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXVIII_a                                               %! abjad.Path.extern()
+    \L_Percussion_Voice_XXVIII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6516,18 +6516,18 @@ L_Percussion_Voice_XXVIII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXVIII = {                                                             %! abjad.Path.extern()
+L_Staff_XXVIII = {                                                             %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXVIII"                                 %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXVIII                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXVIII                                                 %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXIX_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXIX_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XXIX measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6676,12 +6676,12 @@ L_Percussion_Voice_XXIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXIX = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XXIX = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXIX_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXIX_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6713,18 +6713,18 @@ L_Percussion_Voice_XXIX = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXIX = {                                                               %! abjad.Path.extern()
+L_Staff_XXIX = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXIX"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXIX                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XXIX                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXX_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXX_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XXX measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6861,12 +6861,12 @@ L_Percussion_Voice_XXX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXX = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XXX = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXX_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXX_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -6898,18 +6898,18 @@ L_Percussion_Voice_XXX = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXX = {                                                                %! abjad.Path.extern()
+L_Staff_XXX = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXX"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXX                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XXX                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXI_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXXI_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XXXI measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7024,12 +7024,12 @@ L_Percussion_Voice_XXXI_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXI = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XXXI = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXI_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXI_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7061,18 +7061,18 @@ L_Percussion_Voice_XXXI = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXI = {                                                               %! abjad.Path.extern()
+L_Staff_XXXI = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXI"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXI                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXI                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXII_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XXXII_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XXXII measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7171,12 +7171,12 @@ L_Percussion_Voice_XXXII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXII = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXXII = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXII_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7208,18 +7208,18 @@ L_Percussion_Voice_XXXII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXII = {                                                              %! abjad.Path.extern()
+L_Staff_XXXII = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXII"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXII                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXII                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXIII_a = {                                                %! abjad.Path.extern()
+L_Percussion_Voice_XXXIII_a = {                                                %! ide.Path.extern()
 
     \times 2/3 {                                                               %! recursif.rhythm()
 
@@ -7504,12 +7504,12 @@ L_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXIII = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXXIII = {                                                  %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXIII_a                                               %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXIII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7541,18 +7541,18 @@ L_Percussion_Voice_XXXIII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXIII = {                                                             %! abjad.Path.extern()
+L_Staff_XXXIII = {                                                             %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXIII"                                 %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXIII                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXIII                                                 %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXIV_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XXXIV_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XXXIV measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -7761,12 +7761,12 @@ L_Percussion_Voice_XXXIV_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXIV = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXXIV = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXIV_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXIV_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -7798,18 +7798,18 @@ L_Percussion_Voice_XXXIV = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXIV = {                                                              %! abjad.Path.extern()
+L_Staff_XXXIV = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXIV"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXIV                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXIV                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXV_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXXV_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XXXV measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -8018,12 +8018,12 @@ L_Percussion_Voice_XXXV_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXV = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XXXV = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXV_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXV_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -8055,18 +8055,18 @@ L_Percussion_Voice_XXXV = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXV = {                                                               %! abjad.Path.extern()
+L_Staff_XXXV = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXV"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXV                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXV                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXVI_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XXXVI_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XXXVI measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -8265,12 +8265,12 @@ L_Percussion_Voice_XXXVI_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXVI = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXXVI = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXVI_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXVI_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -8302,18 +8302,18 @@ L_Percussion_Voice_XXXVI = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXVI = {                                                              %! abjad.Path.extern()
+L_Staff_XXXVI = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXVI"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXVI                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXVI                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXVII_a = {                                                %! abjad.Path.extern()
+L_Percussion_Voice_XXXVII_a = {                                                %! ide.Path.extern()
 
     % [L Percussion_Voice_XXXVII measure 177 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -8538,12 +8538,12 @@ L_Percussion_Voice_XXXVII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXVII = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XXXVII = {                                                  %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXVII_a                                               %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXVII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -8575,18 +8575,18 @@ L_Percussion_Voice_XXXVII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXVII = {                                                             %! abjad.Path.extern()
+L_Staff_XXXVII = {                                                             %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXVII"                                 %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXVII                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXVII                                                 %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXVIII_a = {                                               %! abjad.Path.extern()
+L_Percussion_Voice_XXXVIII_a = {                                               %! ide.Path.extern()
 
     % [L Percussion_Voice_XXXVIII measure 177 / measure 1]                     %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -8749,12 +8749,12 @@ L_Percussion_Voice_XXXVIII_a = {                                               %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXVIII = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XXXVIII = {                                                 %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXVIII_a                                              %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXVIII_a                                              %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -8786,18 +8786,18 @@ L_Percussion_Voice_XXXVIII = {                                                 %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXVIII = {                                                            %! abjad.Path.extern()
+L_Staff_XXXVIII = {                                                            %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXVIII"                                %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXVIII                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXVIII                                                %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXIX_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XXXIX_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XXXIX measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -8976,12 +8976,12 @@ L_Percussion_Voice_XXXIX_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XXXIX = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XXXIX = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XXXIX_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXIX_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -9013,18 +9013,18 @@ L_Percussion_Voice_XXXIX = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XXXIX = {                                                              %! abjad.Path.extern()
+L_Staff_XXXIX = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XXXIX"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XXXIX                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XXXIX                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XL_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XL_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_XL measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -9159,12 +9159,12 @@ L_Percussion_Voice_XL_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XL = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_XL = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_XL_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XL_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -9196,18 +9196,18 @@ L_Percussion_Voice_XL = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XL = {                                                                 %! abjad.Path.extern()
+L_Staff_XL = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XL"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XL                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_XL                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLI_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XLI_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XLI measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -9436,12 +9436,12 @@ L_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLI = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XLI = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLI_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XLI_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -9473,18 +9473,18 @@ L_Percussion_Voice_XLI = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLI = {                                                                %! abjad.Path.extern()
+L_Staff_XLI = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLI"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLI                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XLI                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLII_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XLII_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XLII measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -9693,12 +9693,12 @@ L_Percussion_Voice_XLII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLII = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XLII = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLII_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XLII_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -9730,18 +9730,18 @@ L_Percussion_Voice_XLII = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLII = {                                                               %! abjad.Path.extern()
+L_Staff_XLII = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLII"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLII                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XLII                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLIII_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XLIII_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XLIII measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -9952,12 +9952,12 @@ L_Percussion_Voice_XLIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLIII = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XLIII = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLIII_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XLIII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -9989,18 +9989,18 @@ L_Percussion_Voice_XLIII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLIII = {                                                              %! abjad.Path.extern()
+L_Staff_XLIII = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLIII"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLIII                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XLIII                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLIV_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XLIV_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XLIV measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -10161,12 +10161,12 @@ L_Percussion_Voice_XLIV_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLIV = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XLIV = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLIV_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XLIV_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -10198,18 +10198,18 @@ L_Percussion_Voice_XLIV = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLIV = {                                                               %! abjad.Path.extern()
+L_Staff_XLIV = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLIV"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLIV                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XLIV                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLV_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XLV_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_XLV measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -10426,12 +10426,12 @@ L_Percussion_Voice_XLV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLV = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_XLV = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLV_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XLV_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -10463,18 +10463,18 @@ L_Percussion_Voice_XLV = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLV = {                                                                %! abjad.Path.extern()
+L_Staff_XLV = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLV"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLV                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_XLV                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLVI_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XLVI_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_XLVI measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -10633,12 +10633,12 @@ L_Percussion_Voice_XLVI_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLVI = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XLVI = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLVI_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XLVI_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -10670,18 +10670,18 @@ L_Percussion_Voice_XLVI = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLVI = {                                                               %! abjad.Path.extern()
+L_Staff_XLVI = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLVI"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLVI                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XLVI                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLVII_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_XLVII_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_XLVII measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -10826,12 +10826,12 @@ L_Percussion_Voice_XLVII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLVII = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_XLVII = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLVII_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_XLVII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -10863,18 +10863,18 @@ L_Percussion_Voice_XLVII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLVII = {                                                              %! abjad.Path.extern()
+L_Staff_XLVII = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLVII"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLVII                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_XLVII                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLVIII_a = {                                                %! abjad.Path.extern()
+L_Percussion_Voice_XLVIII_a = {                                                %! ide.Path.extern()
 
     % [L Percussion_Voice_XLVIII measure 177 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -10987,12 +10987,12 @@ L_Percussion_Voice_XLVIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLVIII = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XLVIII = {                                                  %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLVIII_a                                               %! abjad.Path.extern()
+    \L_Percussion_Voice_XLVIII_a                                               %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -11024,18 +11024,18 @@ L_Percussion_Voice_XLVIII = {                                                  %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLVIII = {                                                             %! abjad.Path.extern()
+L_Staff_XLVIII = {                                                             %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLVIII"                                 %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLVIII                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XLVIII                                                 %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLIX_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_XLIX_a = {                                                  %! ide.Path.extern()
 
     \times 4/5 {                                                               %! recursif.rhythm()
 
@@ -11272,12 +11272,12 @@ L_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_XLIX = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_XLIX = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_XLIX_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_XLIX_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -11309,18 +11309,18 @@ L_Percussion_Voice_XLIX = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_XLIX = {                                                               %! abjad.Path.extern()
+L_Staff_XLIX = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_XLIX"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_XLIX                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_XLIX                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_L_a = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_L_a = {                                                     %! ide.Path.extern()
 
     % [L Percussion_Voice_L measure 177 / measure 1]                           %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -11481,12 +11481,12 @@ L_Percussion_Voice_L_a = {                                                     %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_L = {                                                       %! abjad.Path.extern()
+L_Percussion_Voice_L = {                                                       %! ide.Path.extern()
 
-    \L_Percussion_Voice_L_a                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_L_a                                                    %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -11518,18 +11518,18 @@ L_Percussion_Voice_L = {                                                       %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_L = {                                                                  %! abjad.Path.extern()
+L_Staff_L = {                                                                  %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_L"                                      %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_L                                                      %! abjad.Path.extern()
+    \L_Percussion_Voice_L                                                      %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LI_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_LI_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_LI measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -11738,12 +11738,12 @@ L_Percussion_Voice_LI_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LI = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_LI = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_LI_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_LI_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -11775,18 +11775,18 @@ L_Percussion_Voice_LI = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LI = {                                                                 %! abjad.Path.extern()
+L_Staff_LI = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LI"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LI                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_LI                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LII_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_LII_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_LII measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -11979,12 +11979,12 @@ L_Percussion_Voice_LII_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LII = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_LII = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_LII_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_LII_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -12016,18 +12016,18 @@ L_Percussion_Voice_LII = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LII = {                                                                %! abjad.Path.extern()
+L_Staff_LII = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LII"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LII                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_LII                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LIII_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_LIII_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_LIII measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -12220,12 +12220,12 @@ L_Percussion_Voice_LIII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LIII = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_LIII = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_LIII_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_LIII_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -12257,18 +12257,18 @@ L_Percussion_Voice_LIII = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LIII = {                                                               %! abjad.Path.extern()
+L_Staff_LIII = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LIII"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LIII                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_LIII                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LIV_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_LIV_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_LIV measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -12441,12 +12441,12 @@ L_Percussion_Voice_LIV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LIV = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_LIV = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_LIV_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_LIV_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -12478,18 +12478,18 @@ L_Percussion_Voice_LIV = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LIV = {                                                                %! abjad.Path.extern()
+L_Staff_LIV = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LIV"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LIV                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_LIV                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LV_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_LV_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_LV measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -12660,12 +12660,12 @@ L_Percussion_Voice_LV_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LV = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_LV = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_LV_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_LV_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -12697,18 +12697,18 @@ L_Percussion_Voice_LV = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LV = {                                                                 %! abjad.Path.extern()
+L_Staff_LV = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LV"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LV                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_LV                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LVI_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_LVI_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_LVI measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -12819,12 +12819,12 @@ L_Percussion_Voice_LVI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LVI = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_LVI = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_LVI_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_LVI_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -12856,18 +12856,18 @@ L_Percussion_Voice_LVI = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LVI = {                                                                %! abjad.Path.extern()
+L_Staff_LVI = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LVI"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LVI                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_LVI                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LVII_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_LVII_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_LVII measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -13024,12 +13024,12 @@ L_Percussion_Voice_LVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LVII = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_LVII = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_LVII_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_LVII_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -13061,18 +13061,18 @@ L_Percussion_Voice_LVII = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LVII = {                                                               %! abjad.Path.extern()
+L_Staff_LVII = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LVII"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LVII                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_LVII                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LVIII_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_LVIII_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_LVIII measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -13233,12 +13233,12 @@ L_Percussion_Voice_LVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LVIII = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_LVIII = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_LVIII_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_LVIII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -13270,18 +13270,18 @@ L_Percussion_Voice_LVIII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LVIII = {                                                              %! abjad.Path.extern()
+L_Staff_LVIII = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LVIII"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LVIII                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_LVIII                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LIX_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_LIX_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_LIX measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -13416,12 +13416,12 @@ L_Percussion_Voice_LIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LIX = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_LIX = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_LIX_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_LIX_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -13453,18 +13453,18 @@ L_Percussion_Voice_LIX = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LIX = {                                                                %! abjad.Path.extern()
+L_Staff_LIX = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LIX"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LIX                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_LIX                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LX_a = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_LX_a = {                                                    %! ide.Path.extern()
 
     % [L Percussion_Voice_LX measure 177 / measure 1]                          %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -13575,12 +13575,12 @@ L_Percussion_Voice_LX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LX = {                                                      %! abjad.Path.extern()
+L_Percussion_Voice_LX = {                                                      %! ide.Path.extern()
 
-    \L_Percussion_Voice_LX_a                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_LX_a                                                   %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -13612,18 +13612,18 @@ L_Percussion_Voice_LX = {                                                      %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LX = {                                                                 %! abjad.Path.extern()
+L_Staff_LX = {                                                                 %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LX"                                     %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LX                                                     %! abjad.Path.extern()
+    \L_Percussion_Voice_LX                                                     %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LXI_a = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_LXI_a = {                                                   %! ide.Path.extern()
 
     % [L Percussion_Voice_LXI measure 177 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -13740,12 +13740,12 @@ L_Percussion_Voice_LXI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LXI = {                                                     %! abjad.Path.extern()
+L_Percussion_Voice_LXI = {                                                     %! ide.Path.extern()
 
-    \L_Percussion_Voice_LXI_a                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_LXI_a                                                  %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -13777,18 +13777,18 @@ L_Percussion_Voice_LXI = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LXI = {                                                                %! abjad.Path.extern()
+L_Staff_LXI = {                                                                %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LXI"                                    %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LXI                                                    %! abjad.Path.extern()
+    \L_Percussion_Voice_LXI                                                    %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LXII_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_LXII_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_LXII measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -13883,12 +13883,12 @@ L_Percussion_Voice_LXII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LXII = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_LXII = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_LXII_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_LXII_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -13920,18 +13920,18 @@ L_Percussion_Voice_LXII = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LXII = {                                                               %! abjad.Path.extern()
+L_Staff_LXII = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LXII"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LXII                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_LXII                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LXIII_a = {                                                 %! abjad.Path.extern()
+L_Percussion_Voice_LXIII_a = {                                                 %! ide.Path.extern()
 
     % [L Percussion_Voice_LXIII measure 177 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -14030,12 +14030,12 @@ L_Percussion_Voice_LXIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LXIII = {                                                   %! abjad.Path.extern()
+L_Percussion_Voice_LXIII = {                                                   %! ide.Path.extern()
 
-    \L_Percussion_Voice_LXIII_a                                                %! abjad.Path.extern()
+    \L_Percussion_Voice_LXIII_a                                                %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -14067,18 +14067,18 @@ L_Percussion_Voice_LXIII = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LXIII = {                                                              %! abjad.Path.extern()
+L_Staff_LXIII = {                                                              %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LXIII"                                  %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LXIII                                                  %! abjad.Path.extern()
+    \L_Percussion_Voice_LXIII                                                  %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LXIV_a = {                                                  %! abjad.Path.extern()
+L_Percussion_Voice_LXIV_a = {                                                  %! ide.Path.extern()
 
     % [L Percussion_Voice_LXIV measure 177 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName =                                           %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -14163,12 +14163,12 @@ L_Percussion_Voice_LXIV_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Percussion_Voice_LXIV = {                                                    %! abjad.Path.extern()
+L_Percussion_Voice_LXIV = {                                                    %! ide.Path.extern()
 
-    \L_Percussion_Voice_LXIV_a                                                 %! abjad.Path.extern()
+    \L_Percussion_Voice_LXIV_a                                                 %! ide.Path.extern()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
@@ -14200,12 +14200,12 @@ L_Percussion_Voice_LXIV = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-L_Staff_LXIV = {                                                               %! abjad.Path.extern()
+L_Staff_LXIV = {                                                               %! ide.Path.extern()
 
     \context Voice = "Percussion_Voice_LXIV"                                   %! recursif.ScoreTemplate.__call__()
-    \L_Percussion_Voice_LXIV                                                   %! abjad.Path.extern()
+    \L_Percussion_Voice_LXIV                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()

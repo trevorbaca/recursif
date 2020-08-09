@@ -3,7 +3,7 @@
 
 \include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheets/nonfirst-segment.ily"                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
-\include "illustration.ily"                                                    %! abjad.Path.extern()
+\include "illustration.ily"                                                    %! ide.Path.extern()
 \paper { first-page-number = #14 }                                             %! __make_segment_pdf__
 
 
@@ -22,7 +22,7 @@
             <<                                                                 %! abjad.ScoreTemplate._make_global_context()
 
                 \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context()
-                \N_Global_Skips                                                %! abjad.Path.extern()
+                \N_Global_Skips                                                %! ide.Path.extern()
 
             >>                                                                 %! abjad.ScoreTemplate._make_global_context()
 
@@ -33,196 +33,196 @@
                 <<                                                             %! recursif.ScoreTemplate.__call__()
 
                     \context Staff = "Staff_I"                                 %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_I                                                 %! abjad.Path.extern()
+                    \N_Staff_I                                                 %! ide.Path.extern()
 
                     \context Staff = "Staff_II"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_II                                                %! abjad.Path.extern()
+                    \N_Staff_II                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_III"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_III                                               %! abjad.Path.extern()
+                    \N_Staff_III                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_IV"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_IV                                                %! abjad.Path.extern()
+                    \N_Staff_IV                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_V"                                 %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_V                                                 %! abjad.Path.extern()
+                    \N_Staff_V                                                 %! ide.Path.extern()
 
                     \context Staff = "Staff_VI"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_VI                                                %! abjad.Path.extern()
+                    \N_Staff_VI                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_VII"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_VII                                               %! abjad.Path.extern()
+                    \N_Staff_VII                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_VIII"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_VIII                                              %! abjad.Path.extern()
+                    \N_Staff_VIII                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_IX"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_IX                                                %! abjad.Path.extern()
+                    \N_Staff_IX                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_X"                                 %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_X                                                 %! abjad.Path.extern()
+                    \N_Staff_X                                                 %! ide.Path.extern()
 
                     \context Staff = "Staff_XI"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XI                                                %! abjad.Path.extern()
+                    \N_Staff_XI                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_XII"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XII                                               %! abjad.Path.extern()
+                    \N_Staff_XII                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XIII"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XIII                                              %! abjad.Path.extern()
+                    \N_Staff_XIII                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XIV"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XIV                                               %! abjad.Path.extern()
+                    \N_Staff_XIV                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XV"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XV                                                %! abjad.Path.extern()
+                    \N_Staff_XV                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_XVI"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XVI                                               %! abjad.Path.extern()
+                    \N_Staff_XVI                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XVII"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XVII                                              %! abjad.Path.extern()
+                    \N_Staff_XVII                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XVIII"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XVIII                                             %! abjad.Path.extern()
+                    \N_Staff_XVIII                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XIX"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XIX                                               %! abjad.Path.extern()
+                    \N_Staff_XIX                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XX"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XX                                                %! abjad.Path.extern()
+                    \N_Staff_XX                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_XXI"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXI                                               %! abjad.Path.extern()
+                    \N_Staff_XXI                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XXII"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXII                                              %! abjad.Path.extern()
+                    \N_Staff_XXII                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XXIII"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXIII                                             %! abjad.Path.extern()
+                    \N_Staff_XXIII                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XXIV"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXIV                                              %! abjad.Path.extern()
+                    \N_Staff_XXIV                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XXV"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXV                                               %! abjad.Path.extern()
+                    \N_Staff_XXV                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XXVI"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXVI                                              %! abjad.Path.extern()
+                    \N_Staff_XXVI                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XXVII"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXVII                                             %! abjad.Path.extern()
+                    \N_Staff_XXVII                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XXVIII"                            %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXVIII                                            %! abjad.Path.extern()
+                    \N_Staff_XXVIII                                            %! ide.Path.extern()
 
                     \context Staff = "Staff_XXIX"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXIX                                              %! abjad.Path.extern()
+                    \N_Staff_XXIX                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XXX"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXX                                               %! abjad.Path.extern()
+                    \N_Staff_XXX                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXI"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXI                                              %! abjad.Path.extern()
+                    \N_Staff_XXXI                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXII"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXII                                             %! abjad.Path.extern()
+                    \N_Staff_XXXII                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXIII"                            %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXIII                                            %! abjad.Path.extern()
+                    \N_Staff_XXXIII                                            %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXIV"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXIV                                             %! abjad.Path.extern()
+                    \N_Staff_XXXIV                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXV"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXV                                              %! abjad.Path.extern()
+                    \N_Staff_XXXV                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXVI"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXVI                                             %! abjad.Path.extern()
+                    \N_Staff_XXXVI                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXVII"                            %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXVII                                            %! abjad.Path.extern()
+                    \N_Staff_XXXVII                                            %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXVIII"                           %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXVIII                                           %! abjad.Path.extern()
+                    \N_Staff_XXXVIII                                           %! ide.Path.extern()
 
                     \context Staff = "Staff_XXXIX"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XXXIX                                             %! abjad.Path.extern()
+                    \N_Staff_XXXIX                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XL"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XL                                                %! abjad.Path.extern()
+                    \N_Staff_XL                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_XLI"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLI                                               %! abjad.Path.extern()
+                    \N_Staff_XLI                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XLII"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLII                                              %! abjad.Path.extern()
+                    \N_Staff_XLII                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XLIII"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLIII                                             %! abjad.Path.extern()
+                    \N_Staff_XLIII                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XLIV"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLIV                                              %! abjad.Path.extern()
+                    \N_Staff_XLIV                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XLV"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLV                                               %! abjad.Path.extern()
+                    \N_Staff_XLV                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_XLVI"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLVI                                              %! abjad.Path.extern()
+                    \N_Staff_XLVI                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_XLVII"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLVII                                             %! abjad.Path.extern()
+                    \N_Staff_XLVII                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_XLVIII"                            %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLVIII                                            %! abjad.Path.extern()
+                    \N_Staff_XLVIII                                            %! ide.Path.extern()
 
                     \context Staff = "Staff_XLIX"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_XLIX                                              %! abjad.Path.extern()
+                    \N_Staff_XLIX                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_L"                                 %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_L                                                 %! abjad.Path.extern()
+                    \N_Staff_L                                                 %! ide.Path.extern()
 
                     \context Staff = "Staff_LI"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LI                                                %! abjad.Path.extern()
+                    \N_Staff_LI                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_LII"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LII                                               %! abjad.Path.extern()
+                    \N_Staff_LII                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_LIII"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LIII                                              %! abjad.Path.extern()
+                    \N_Staff_LIII                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_LIV"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LIV                                               %! abjad.Path.extern()
+                    \N_Staff_LIV                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_LV"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LV                                                %! abjad.Path.extern()
+                    \N_Staff_LV                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_LVI"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LVI                                               %! abjad.Path.extern()
+                    \N_Staff_LVI                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_LVII"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LVII                                              %! abjad.Path.extern()
+                    \N_Staff_LVII                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_LVIII"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LVIII                                             %! abjad.Path.extern()
+                    \N_Staff_LVIII                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_LIX"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LIX                                               %! abjad.Path.extern()
+                    \N_Staff_LIX                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_LX"                                %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LX                                                %! abjad.Path.extern()
+                    \N_Staff_LX                                                %! ide.Path.extern()
 
                     \context Staff = "Staff_LXI"                               %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LXI                                               %! abjad.Path.extern()
+                    \N_Staff_LXI                                               %! ide.Path.extern()
 
                     \context Staff = "Staff_LXII"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LXII                                              %! abjad.Path.extern()
+                    \N_Staff_LXII                                              %! ide.Path.extern()
 
                     \context Staff = "Staff_LXIII"                             %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LXIII                                             %! abjad.Path.extern()
+                    \N_Staff_LXIII                                             %! ide.Path.extern()
 
                     \context Staff = "Staff_LXIV"                              %! recursif.ScoreTemplate.__call__()
-                    \N_Staff_LXIV                                              %! abjad.Path.extern()
+                    \N_Staff_LXIV                                              %! ide.Path.extern()
 
                 >>                                                             %! recursif.ScoreTemplate.__call__()
 
