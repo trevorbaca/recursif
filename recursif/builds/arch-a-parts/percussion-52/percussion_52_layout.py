@@ -1,6 +1,6 @@
 import baca
 
-part_identifier = 'PERC-52'
+part_identifier = "PERC-52"
 
 first, second = 65, 15
 system = 23

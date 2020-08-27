@@ -49,12 +49,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         for staff_index in range(64):
             staff_number = staff_index + 1
             staff_numeral = roman.toRoman(staff_number)
-            voice = abjad.Voice(
-                name=f"Percussion_Voice_{staff_numeral}", tag=tag
-            )
-            staff = abjad.Staff(
-                [voice], name=f"Staff_{staff_numeral}", tag=tag
-            )
+            voice = abjad.Voice(name=f"Percussion_Voice_{staff_numeral}", tag=tag)
+            staff = abjad.Staff([voice], name=f"Staff_{staff_numeral}", tag=tag)
             abjad.annotate(
                 staff, "default_instrument", recursif.instruments["Percussion"]
             )
@@ -72,9 +68,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         )
 
         # SCORE
-        score = abjad.Score(
-            [global_context, music_context], name="Score", tag=tag
-        )
+        score = abjad.Score([global_context, music_context], name="Score", tag=tag)
         self._assert_lilypond_identifiers(score)
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)
