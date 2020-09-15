@@ -1,6 +1,6 @@
+import baca
 import roman
 
-import baca
 import recursif
 
 ###############################################################################
