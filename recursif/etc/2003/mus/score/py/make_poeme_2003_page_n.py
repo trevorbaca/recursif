@@ -1,7 +1,6 @@
+import abjad
 import quicktions
 from integer_divisions import integer_divisions
-
-import abjad
 
 
 def make_poeme_2003_page_n(n):
