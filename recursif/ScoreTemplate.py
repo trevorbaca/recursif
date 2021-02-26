@@ -85,7 +85,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> score_template = recursif.ScoreTemplate()
             >>> part = score_template.part_manifest.parts[0]
-            >>> abjad.f(part)
+            >>> string = abjad.storage(part)
+            >>> print(string)
             ide.Part(
                 instrument='Percussion',
                 member=1,
