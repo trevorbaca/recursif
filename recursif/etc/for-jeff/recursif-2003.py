@@ -6,7 +6,7 @@ import baca
 import recursif
 
 
-class ScoreTemplate(object):
+class ScoreTemplate:
     """
     Score template.
     """
