@@ -1,8 +1,8 @@
 import distutils.version
 import platform
 
-from .ScoreTemplate import ScoreTemplate
 from .tools import (
+    ScoreTemplate,
     assign_parts,
     instruments,
     margin_markup,
