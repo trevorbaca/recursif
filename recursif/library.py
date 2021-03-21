@@ -67,6 +67,9 @@ def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
 class ScoreTemplate(baca.ScoreTemplate):
     """
     Score template.
+
+    >>> import recursif
+
     """
 
     ### CLASS VARIABLES ###
