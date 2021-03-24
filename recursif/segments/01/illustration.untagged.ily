@@ -249,7 +249,8 @@ a_Percussion_Voice_II_a = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_II measure 2]
         c'8
@@ -270,7 +271,8 @@ a_Percussion_Voice_II_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_II measure 3]
         c'8
@@ -289,7 +291,8 @@ a_Percussion_Voice_II_a = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_II measure 4]
         c'8
@@ -317,7 +320,8 @@ a_Percussion_Voice_II_a = {
     c'8
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_II measure 6]
         c'4
@@ -339,7 +343,8 @@ a_Percussion_Voice_II_a = {
     % [01 Percussion_Voice_II measure 9]
     r2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_II measure 10]
         c'8
@@ -360,7 +365,8 @@ a_Percussion_Voice_II_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_II measure 11]
         c'8
@@ -379,7 +385,8 @@ a_Percussion_Voice_II_a = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_II measure 12]
         c'8
@@ -407,7 +414,8 @@ a_Percussion_Voice_II_a = {
     c'8
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_II measure 14]
         c'4
@@ -495,7 +503,8 @@ a_Percussion_Voice_III_a = {
     % [01 Percussion_Voice_III measure 3]
     c'2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_III measure 4]
         c'4
@@ -506,7 +515,8 @@ a_Percussion_Voice_III_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_III measure 5]
         c'8
@@ -530,7 +540,8 @@ a_Percussion_Voice_III_a = {
 
     c'4
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_III measure 7]
         c'8
@@ -551,7 +562,8 @@ a_Percussion_Voice_III_a = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_III measure 8]
         c'8
@@ -590,7 +602,8 @@ a_Percussion_Voice_III_a = {
     c'8
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_III measure 11]
         c'8
@@ -607,7 +620,8 @@ a_Percussion_Voice_III_a = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_III measure 12]
         c'8
@@ -633,7 +647,8 @@ a_Percussion_Voice_III_a = {
 
     c'4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_III measure 14]
         c'8
@@ -652,7 +667,8 @@ a_Percussion_Voice_III_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_III measure 15]
         c'4
@@ -735,7 +751,8 @@ a_Percussion_Voice_IV_a = {
     % [01 Percussion_Voice_IV measure 3]
     r2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_IV measure 4]
         c'8
@@ -767,7 +784,8 @@ a_Percussion_Voice_IV_a = {
     c'8
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_IV measure 6]
         c'8
@@ -797,7 +815,8 @@ a_Percussion_Voice_IV_a = {
     c'8
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_IV measure 8]
         c'8
@@ -831,7 +850,8 @@ a_Percussion_Voice_IV_a = {
     % [01 Percussion_Voice_IV measure 11]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_IV measure 12]
         c'4
@@ -947,7 +967,8 @@ a_Percussion_Voice_V_a = {
     % [01 Percussion_Voice_V measure 5]
     c'2
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_V measure 6]
         c'8
@@ -964,7 +985,8 @@ a_Percussion_Voice_V_a = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_V measure 7]
         c'8
@@ -985,7 +1007,8 @@ a_Percussion_Voice_V_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_V measure 8]
         c'4
@@ -996,7 +1019,8 @@ a_Percussion_Voice_V_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_V measure 9]
         c'8
@@ -1015,7 +1039,8 @@ a_Percussion_Voice_V_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_V measure 10]
         c'8
@@ -1044,7 +1069,8 @@ a_Percussion_Voice_V_a = {
 
     c'4
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_V measure 13]
         c'8
@@ -1065,7 +1091,8 @@ a_Percussion_Voice_V_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_V measure 14]
         c'4
@@ -1079,7 +1106,8 @@ a_Percussion_Voice_V_a = {
     % [01 Percussion_Voice_V measure 15]
     c'2
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_V measure 16]
         c'8
@@ -1171,7 +1199,8 @@ a_Percussion_Voice_VI_a = {
     % [01 Percussion_Voice_VI measure 5]
     r2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_VI measure 6]
         c'8
@@ -1197,7 +1226,8 @@ a_Percussion_Voice_VI_a = {
 
     c'4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_VI measure 8]
         c'4
@@ -1238,7 +1268,8 @@ a_Percussion_Voice_VI_a = {
     % [01 Percussion_Voice_VI measure 14]
     c'2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_VI measure 15]
         c'8
@@ -1257,7 +1288,8 @@ a_Percussion_Voice_VI_a = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_VI measure 16]
         c'8
@@ -1355,7 +1387,8 @@ a_Percussion_Voice_VII_a = {
     % [01 Percussion_Voice_VII measure 7]
     c'2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_VII measure 8]
         c'8
@@ -1403,7 +1436,8 @@ a_Percussion_Voice_VII_a = {
 
     c'4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_VII measure 12]
         c'8
@@ -1444,7 +1478,8 @@ a_Percussion_Voice_VII_a = {
     c'8
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_VII measure 15]
         c'4
@@ -1455,7 +1490,8 @@ a_Percussion_Voice_VII_a = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_VII measure 16]
         c'8
@@ -1553,7 +1589,8 @@ a_Percussion_Voice_VIII_a = {
     % [01 Percussion_Voice_VIII measure 7]
     r2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_VIII measure 8]
         c'8
@@ -1591,7 +1628,8 @@ a_Percussion_Voice_VIII_a = {
     % [01 Percussion_Voice_VIII measure 11]
     r2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_VIII measure 12]
         c'8
@@ -1627,7 +1665,8 @@ a_Percussion_Voice_VIII_a = {
     % [01 Percussion_Voice_VIII measure 15]
     r2
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_VIII measure 16]
         c'8
@@ -1734,7 +1773,8 @@ a_Percussion_Voice_IX_a = {
     % [01 Percussion_Voice_IX measure 10]
     c'2
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_IX measure 11]
         c'8
@@ -1751,7 +1791,8 @@ a_Percussion_Voice_IX_a = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_IX measure 12]
         c'8
@@ -1768,7 +1809,8 @@ a_Percussion_Voice_IX_a = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_IX measure 13]
         c'8
@@ -1789,7 +1831,8 @@ a_Percussion_Voice_IX_a = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_IX measure 14]
         c'8
@@ -1810,7 +1853,8 @@ a_Percussion_Voice_IX_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_IX measure 15]
         c'4
@@ -1821,7 +1865,8 @@ a_Percussion_Voice_IX_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_IX measure 16]
         c'4
@@ -1919,7 +1964,8 @@ a_Percussion_Voice_X_a = {
     % [01 Percussion_Voice_X measure 9]
     r2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_X measure 10]
         c'8
@@ -1940,7 +1986,8 @@ a_Percussion_Voice_X_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_X measure 11]
         c'8
@@ -1973,7 +2020,8 @@ a_Percussion_Voice_X_a = {
     c'8
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_X measure 14]
         c'8
@@ -1990,7 +2038,8 @@ a_Percussion_Voice_X_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_X measure 15]
         c'8
@@ -2009,7 +2058,8 @@ a_Percussion_Voice_X_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_X measure 16]
         c'4
@@ -2113,7 +2163,8 @@ a_Percussion_Voice_XI_a = {
     % [01 Percussion_Voice_XI measure 11]
     c'2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_XI measure 12]
         c'4
@@ -2129,7 +2180,8 @@ a_Percussion_Voice_XI_a = {
 
     c'4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_XI measure 14]
         c'8
@@ -2151,7 +2203,8 @@ a_Percussion_Voice_XI_a = {
     % [01 Percussion_Voice_XI measure 15]
     c'2
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_XI measure 16]
         c'4
@@ -2255,7 +2308,8 @@ a_Percussion_Voice_XII_a = {
     % [01 Percussion_Voice_XII measure 11]
     r2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_XII measure 12]
         c'8
@@ -2303,7 +2357,8 @@ a_Percussion_Voice_XII_a = {
     c'8
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_XII measure 16]
         c'4
@@ -2413,7 +2468,8 @@ a_Percussion_Voice_XIII_a = {
     % [01 Percussion_Voice_XIII measure 13]
     c'2
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [01 Percussion_Voice_XIII measure 14]
         c'8
@@ -2430,7 +2486,8 @@ a_Percussion_Voice_XIII_a = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Percussion_Voice_XIII measure 15]
         c'4
@@ -2441,7 +2498,8 @@ a_Percussion_Voice_XIII_a = {
 
     }
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_XIII measure 16]
         c'8
@@ -2561,7 +2619,8 @@ a_Percussion_Voice_XIV_a = {
     % [01 Percussion_Voice_XIV measure 13]
     r2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_XIV measure 14]
         c'8
@@ -2587,7 +2646,8 @@ a_Percussion_Voice_XIV_a = {
 
     c'4
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_XIV measure 16]
         c'8
@@ -2713,7 +2773,8 @@ a_Percussion_Voice_XV_a = {
     % [01 Percussion_Voice_XV measure 15]
     c'2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_XV measure 16]
         c'8
@@ -2839,7 +2900,8 @@ a_Percussion_Voice_XVI_a = {
     % [01 Percussion_Voice_XVI measure 15]
     r2
 
-    \times 4/7 {
+    \times 4/7
+    {
 
         % [01 Percussion_Voice_XVI measure 16]
         c'8
