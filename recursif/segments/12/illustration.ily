@@ -398,7 +398,8 @@ l_Percussion_Voice_II_a = {                                                    %
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 2                  %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_II measure 178 / measure 2]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -419,7 +420,8 @@ l_Percussion_Voice_II_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_II measure 179 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -438,7 +440,8 @@ l_Percussion_Voice_II_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_II measure 180 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -466,7 +469,8 @@ l_Percussion_Voice_II_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_II measure 182 / measure 6]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -488,7 +492,8 @@ l_Percussion_Voice_II_a = {                                                    %
     % [12 Percussion_Voice_II measure 185 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_II measure 186 / measure 10]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -509,7 +514,8 @@ l_Percussion_Voice_II_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_II measure 187 / measure 11]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -528,7 +534,8 @@ l_Percussion_Voice_II_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_II measure 188 / measure 12]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -556,7 +563,8 @@ l_Percussion_Voice_II_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_II measure 190 / measure 14]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -646,7 +654,8 @@ l_Percussion_Voice_III_a = {                                                   %
     % [12 Percussion_Voice_III measure 179 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_III measure 180 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -657,7 +666,8 @@ l_Percussion_Voice_III_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_III measure 181 / measure 5]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -681,7 +691,8 @@ l_Percussion_Voice_III_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_III measure 183 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -702,7 +713,8 @@ l_Percussion_Voice_III_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_III measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -741,7 +753,8 @@ l_Percussion_Voice_III_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_III measure 187 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -758,7 +771,8 @@ l_Percussion_Voice_III_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_III measure 188 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -784,7 +798,8 @@ l_Percussion_Voice_III_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_III measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -803,7 +818,8 @@ l_Percussion_Voice_III_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_III measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -888,7 +904,8 @@ l_Percussion_Voice_IV_a = {                                                    %
     % [12 Percussion_Voice_IV measure 179 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IV measure 180 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -920,7 +937,8 @@ l_Percussion_Voice_IV_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IV measure 182 / measure 6]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -950,7 +968,8 @@ l_Percussion_Voice_IV_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IV measure 184 / measure 8]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -984,7 +1003,8 @@ l_Percussion_Voice_IV_a = {                                                    %
     % [12 Percussion_Voice_IV measure 187 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IV measure 188 / measure 12]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -1131,7 +1151,8 @@ l_Percussion_Voice_V_a = {                                                     %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_V measure 181 / measure 5]                      %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1151,7 +1172,8 @@ l_Percussion_Voice_V_a = {                                                     %
     % [12 Percussion_Voice_V measure 182 / measure 6]                          %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_V measure 183 / measure 7]                      %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -1162,7 +1184,8 @@ l_Percussion_Voice_V_a = {                                                     %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_V measure 184 / measure 8]                      %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1193,7 +1216,8 @@ l_Percussion_Voice_V_a = {                                                     %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_V measure 187 / measure 11]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1212,7 +1236,8 @@ l_Percussion_Voice_V_a = {                                                     %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_V measure 188 / measure 12]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1231,7 +1256,8 @@ l_Percussion_Voice_V_a = {                                                     %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_V measure 189 / measure 13]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -1242,7 +1268,8 @@ l_Percussion_Voice_V_a = {                                                     %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_V measure 190 / measure 14]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1263,7 +1290,8 @@ l_Percussion_Voice_V_a = {                                                     %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_V measure 191 / measure 15]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1376,7 +1404,8 @@ l_Percussion_Voice_VI_a = {                                                    %
     % [12 Percussion_Voice_VI measure 181 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VI measure 182 / measure 6]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -1392,7 +1421,8 @@ l_Percussion_Voice_VI_a = {                                                    %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VI measure 184 / measure 8]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1416,7 +1446,8 @@ l_Percussion_Voice_VI_a = {                                                    %
     % [12 Percussion_Voice_VI measure 185 / measure 9]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VI measure 186 / measure 10]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1446,7 +1477,8 @@ l_Percussion_Voice_VI_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VI measure 188 / measure 12]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1468,7 +1500,8 @@ l_Percussion_Voice_VI_a = {                                                    %
     % [12 Percussion_Voice_VI measure 189 / measure 13]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VI measure 190 / measure 14]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1485,7 +1518,8 @@ l_Percussion_Voice_VI_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VI measure 191 / measure 15]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1603,7 +1637,8 @@ l_Percussion_Voice_VII_a = {                                                   %
     % [12 Percussion_Voice_VII measure 182 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VII measure 183 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1620,7 +1655,8 @@ l_Percussion_Voice_VII_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VII measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -1653,7 +1689,8 @@ l_Percussion_Voice_VII_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VII measure 187 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1699,7 +1736,8 @@ l_Percussion_Voice_VII_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VII measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1814,7 +1852,8 @@ l_Percussion_Voice_VIII_a = {                                                  %
     % [12 Percussion_Voice_VIII measure 183 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_VIII measure 184 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -1949,7 +1988,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 181 / measure 5]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1968,7 +2008,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 182 / measure 6]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -1987,7 +2028,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 183 / measure 7]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2006,7 +2048,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 184 / measure 8]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2025,7 +2068,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 185 / measure 9]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -2036,7 +2080,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 186 / measure 10]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -2047,7 +2092,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 187 / measure 11]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2068,7 +2114,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 188 / measure 12]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2089,7 +2136,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 189 / measure 13]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2106,7 +2154,8 @@ l_Percussion_Voice_IX_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_IX measure 190 / measure 14]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2194,7 +2243,8 @@ l_Percussion_Voice_X_a = {                                                     %
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 10                 %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_X measure 178 / measure 2]                      %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2248,7 +2298,8 @@ l_Percussion_Voice_X_a = {                                                     %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_X measure 184 / measure 8]                      %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2270,7 +2321,8 @@ l_Percussion_Voice_X_a = {                                                     %
     % [12 Percussion_Voice_X measure 185 / measure 9]                          %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_X measure 186 / measure 10]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2292,7 +2344,8 @@ l_Percussion_Voice_X_a = {                                                     %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_X measure 188 / measure 12]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -2314,7 +2367,8 @@ l_Percussion_Voice_X_a = {                                                     %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_X measure 190 / measure 14]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2416,7 +2470,8 @@ l_Percussion_Voice_XI_a = {                                                    %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XI measure 180 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2462,7 +2517,8 @@ l_Percussion_Voice_XI_a = {                                                    %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XI measure 184 / measure 8]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2487,7 +2543,8 @@ l_Percussion_Voice_XI_a = {                                                    %
     % [12 Percussion_Voice_XI measure 186 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XI measure 187 / measure 11]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -2501,7 +2558,8 @@ l_Percussion_Voice_XI_a = {                                                    %
     % [12 Percussion_Voice_XI measure 188 / measure 12]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XI measure 189 / measure 13]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2525,7 +2583,8 @@ l_Percussion_Voice_XI_a = {                                                    %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XI measure 191 / measure 15]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -2610,7 +2669,8 @@ l_Percussion_Voice_XII_a = {                                                   %
     % [12 Percussion_Voice_XII measure 179 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XII measure 180 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2646,7 +2706,8 @@ l_Percussion_Voice_XII_a = {                                                   %
     % [12 Percussion_Voice_XII measure 183 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XII measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2674,7 +2735,8 @@ l_Percussion_Voice_XII_a = {                                                   %
     % [12 Percussion_Voice_XII measure 187 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XII measure 188 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2702,7 +2764,8 @@ l_Percussion_Voice_XII_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XII measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2841,7 +2904,8 @@ l_Percussion_Voice_XIII_a = {                                                  %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIII measure 181 / measure 5]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2860,7 +2924,8 @@ l_Percussion_Voice_XIII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIII measure 182 / measure 6]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2933,7 +2998,8 @@ l_Percussion_Voice_XIII_a = {                                                  %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIII measure 189 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -2954,7 +3020,8 @@ l_Percussion_Voice_XIII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIII measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -2965,7 +3032,8 @@ l_Percussion_Voice_XIII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIII measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3133,7 +3201,8 @@ l_Percussion_Voice_XIV_a = {                                                   %
     % [12 Percussion_Voice_XIV measure 190 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIV measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3251,7 +3320,8 @@ l_Percussion_Voice_XV_a = {                                                    %
     % [12 Percussion_Voice_XV measure 182 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XV measure 183 / measure 7]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3309,7 +3379,8 @@ l_Percussion_Voice_XV_a = {                                                    %
     % [12 Percussion_Voice_XV measure 190 / measure 14]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XV measure 191 / measure 15]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3511,7 +3582,8 @@ l_Staff_XVI = {                                                                %
 
 l_Percussion_Voice_XVII_a = {                                                  %! ide.Path.extern()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 177 / measure 1]                   %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \hcenter-in #8 17             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -3544,7 +3616,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 178 / measure 2]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3565,7 +3638,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 179 / measure 3]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3586,7 +3660,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 180 / measure 4]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3607,7 +3682,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 181 / measure 5]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -3618,7 +3694,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 182 / measure 6]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -3629,7 +3706,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 183 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -3640,7 +3718,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 184 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -3663,7 +3742,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
     % [12 Percussion_Voice_XVII measure 188 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 189 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3680,7 +3760,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3697,7 +3778,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3714,7 +3796,8 @@ l_Percussion_Voice_XVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVII measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3804,7 +3887,8 @@ l_Percussion_Voice_XVIII_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVIII measure 180 / measure 4]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -3829,7 +3913,8 @@ l_Percussion_Voice_XVIII_a = {                                                 %
     % [12 Percussion_Voice_XVIII measure 182 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVIII measure 183 / measure 7]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3848,7 +3933,8 @@ l_Percussion_Voice_XVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVIII measure 184 / measure 8]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -3862,7 +3948,8 @@ l_Percussion_Voice_XVIII_a = {                                                 %
     % [12 Percussion_Voice_XVIII measure 185 / measure 9]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVIII measure 186 / measure 10]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3883,7 +3970,8 @@ l_Percussion_Voice_XVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVIII measure 187 / measure 11]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3902,7 +3990,8 @@ l_Percussion_Voice_XVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVIII measure 188 / measure 12]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3930,7 +4019,8 @@ l_Percussion_Voice_XVIII_a = {                                                 %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVIII measure 190 / measure 14]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -3956,7 +4046,8 @@ l_Percussion_Voice_XVIII_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XVIII measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4041,7 +4132,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
     % [12 Percussion_Voice_XIX measure 178 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 179 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4062,7 +4154,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 180 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4084,7 +4177,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 182 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4103,7 +4197,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 183 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4120,7 +4215,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4163,7 +4259,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 187 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4180,7 +4277,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 188 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4206,7 +4304,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4225,7 +4324,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4246,7 +4346,8 @@ l_Percussion_Voice_XIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XIX measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4364,7 +4465,8 @@ l_Percussion_Voice_XX_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XX measure 184 / measure 8]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4402,7 +4504,8 @@ l_Percussion_Voice_XX_a = {                                                    %
     % [12 Percussion_Voice_XX measure 187 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XX measure 188 / measure 12]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -4440,7 +4543,8 @@ l_Percussion_Voice_XX_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XX measure 192 / measure 16]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4531,7 +4635,8 @@ l_Percussion_Voice_XXI_a = {                                                   %
     % [12 Percussion_Voice_XXI measure 180 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXI measure 181 / measure 5]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4552,7 +4657,8 @@ l_Percussion_Voice_XXI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXI measure 182 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -4566,7 +4672,8 @@ l_Percussion_Voice_XXI_a = {                                                   %
     % [12 Percussion_Voice_XXI measure 183 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXI measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4583,7 +4690,8 @@ l_Percussion_Voice_XXI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXI measure 185 / measure 9]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4602,7 +4710,8 @@ l_Percussion_Voice_XXI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXI measure 186 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4631,7 +4740,8 @@ l_Percussion_Voice_XXI_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXI measure 189 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4652,7 +4762,8 @@ l_Percussion_Voice_XXI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXI measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -4666,7 +4777,8 @@ l_Percussion_Voice_XXI_a = {                                                   %
     % [12 Percussion_Voice_XXI measure 191 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXI measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4763,7 +4875,8 @@ l_Percussion_Voice_XXII_a = {                                                  %
     % [12 Percussion_Voice_XXII measure 182 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXII measure 183 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4782,7 +4895,8 @@ l_Percussion_Voice_XXII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXII measure 184 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4829,7 +4943,8 @@ l_Percussion_Voice_XXII_a = {                                                  %
     % [12 Percussion_Voice_XXII measure 190 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXII measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4848,7 +4963,8 @@ l_Percussion_Voice_XXII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXII measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4945,7 +5061,8 @@ l_Percussion_Voice_XXIII_a = {                                                 %
     % [12 Percussion_Voice_XXIII measure 182 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIII measure 183 / measure 7]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -4996,7 +5113,8 @@ l_Percussion_Voice_XXIII_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIII measure 188 / measure 12]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5037,7 +5155,8 @@ l_Percussion_Voice_XXIII_a = {                                                 %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIII measure 191 / measure 15]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -5048,7 +5167,8 @@ l_Percussion_Voice_XXIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIII measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5168,7 +5288,8 @@ l_Percussion_Voice_XXIV_a = {                                                  %
     % [12 Percussion_Voice_XXIV measure 187 / measure 11]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIV measure 188 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5204,7 +5325,8 @@ l_Percussion_Voice_XXIV_a = {                                                  %
     % [12 Percussion_Voice_XXIV measure 191 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIV measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5371,7 +5493,8 @@ l_Percussion_Voice_XXV_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXV measure 185 / measure 9]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -5382,7 +5505,8 @@ l_Percussion_Voice_XXV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXV measure 186 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -5393,7 +5517,8 @@ l_Percussion_Voice_XXV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXV measure 187 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5414,7 +5539,8 @@ l_Percussion_Voice_XXV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXV measure 188 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5441,7 +5567,8 @@ l_Percussion_Voice_XXV_a = {                                                   %
     % [12 Percussion_Voice_XXV measure 190 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXV measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5458,7 +5585,8 @@ l_Percussion_Voice_XXV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXV measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5596,7 +5724,8 @@ l_Percussion_Voice_XXVI_a = {                                                  %
     % [12 Percussion_Voice_XXVI measure 185 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVI measure 186 / measure 10]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5618,7 +5747,8 @@ l_Percussion_Voice_XXVI_a = {                                                  %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVI measure 188 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -5640,7 +5770,8 @@ l_Percussion_Voice_XXVI_a = {                                                  %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVI measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -5656,7 +5787,8 @@ l_Percussion_Voice_XXVI_a = {                                                  %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVI measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5797,7 +5929,8 @@ l_Percussion_Voice_XXVII_a = {                                                 %
     % [12 Percussion_Voice_XXVII measure 186 / measure 10]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVII measure 187 / measure 11]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -5811,7 +5944,8 @@ l_Percussion_Voice_XXVII_a = {                                                 %
     % [12 Percussion_Voice_XXVII measure 188 / measure 12]                     %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVII measure 189 / measure 13]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5835,7 +5969,8 @@ l_Percussion_Voice_XXVII_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVII measure 191 / measure 15]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5856,7 +5991,8 @@ l_Percussion_Voice_XXVII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVII measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -5984,7 +6120,8 @@ l_Percussion_Voice_XXVIII_a = {                                                %
     % [12 Percussion_Voice_XXVIII measure 187 / measure 11]                    %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVIII measure 188 / measure 12]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6012,7 +6149,8 @@ l_Percussion_Voice_XXVIII_a = {                                                %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVIII measure 190 / measure 14]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6042,7 +6180,8 @@ l_Percussion_Voice_XXVIII_a = {                                                %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXVIII measure 192 / measure 16]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6189,7 +6328,8 @@ l_Percussion_Voice_XXIX_a = {                                                  %
     % [12 Percussion_Voice_XXIX measure 188 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIX measure 189 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6200,7 +6340,8 @@ l_Percussion_Voice_XXIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIX measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6224,7 +6365,8 @@ l_Percussion_Voice_XXIX_a = {                                                  %
     % [12 Percussion_Voice_XXIX measure 191 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXIX measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6358,7 +6500,8 @@ l_Percussion_Voice_XXX_a = {                                                   %
     % [12 Percussion_Voice_XXX measure 189 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXX measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6375,7 +6518,8 @@ l_Percussion_Voice_XXX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXX measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6394,7 +6538,8 @@ l_Percussion_Voice_XXX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXX measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6531,7 +6676,8 @@ l_Percussion_Voice_XXXI_a = {                                                  %
     % [12 Percussion_Voice_XXXI measure 190 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXI measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6542,7 +6688,8 @@ l_Percussion_Voice_XXXI_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXI measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6674,7 +6821,8 @@ l_Percussion_Voice_XXXII_a = {                                                 %
     % [12 Percussion_Voice_XXXII measure 191 / measure 15]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXII measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6741,7 +6889,8 @@ l_Staff_XXXII = {                                                              %
 
 l_Percussion_Voice_XXXIII_a = {                                                %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 177 / measure 1]                 %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \hcenter-in #8 33             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -6764,7 +6913,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 178 / measure 2]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6775,7 +6925,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 179 / measure 3]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6786,7 +6937,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 180 / measure 4]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6797,7 +6949,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 181 / measure 5]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6808,7 +6961,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 182 / measure 6]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6819,7 +6973,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 183 / measure 7]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6830,7 +6985,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 184 / measure 8]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -6841,7 +6997,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 185 / measure 9]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6862,7 +7019,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 186 / measure 10]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6883,7 +7041,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 187 / measure 11]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6904,7 +7063,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 188 / measure 12]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6925,7 +7085,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 189 / measure 13]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6946,7 +7107,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 190 / measure 14]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6967,7 +7129,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 191 / measure 15]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -6988,7 +7151,8 @@ l_Percussion_Voice_XXXIII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIII measure 192 / measure 16]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7074,7 +7238,8 @@ l_Percussion_Voice_XXXIV_a = {                                                 %
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 34                 %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIV measure 178 / measure 2]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7096,7 +7261,8 @@ l_Percussion_Voice_XXXIV_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIV measure 180 / measure 4]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7131,7 +7297,8 @@ l_Percussion_Voice_XXXIV_a = {                                                 %
     % [12 Percussion_Voice_XXXIV measure 182 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIV measure 183 / measure 7]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7150,7 +7317,8 @@ l_Percussion_Voice_XXXIV_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIV measure 184 / measure 8]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -7172,7 +7340,8 @@ l_Percussion_Voice_XXXIV_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIV measure 188 / measure 12]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -7194,7 +7363,8 @@ l_Percussion_Voice_XXXIV_a = {                                                 %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIV measure 190 / measure 14]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7211,7 +7381,8 @@ l_Percussion_Voice_XXXIV_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIV measure 191 / measure 15]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7230,7 +7401,8 @@ l_Percussion_Voice_XXXIV_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIV measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7319,7 +7491,8 @@ l_Percussion_Voice_XXXV_a = {                                                  %
     % [12 Percussion_Voice_XXXV measure 178 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXV measure 179 / measure 3]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -7338,7 +7511,8 @@ l_Percussion_Voice_XXXV_a = {                                                  %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXV measure 182 / measure 6]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7357,7 +7531,8 @@ l_Percussion_Voice_XXXV_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXV measure 183 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7374,7 +7549,8 @@ l_Percussion_Voice_XXXV_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXV measure 184 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7417,7 +7593,8 @@ l_Percussion_Voice_XXXV_a = {                                                  %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXV measure 187 / measure 11]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -7431,7 +7608,8 @@ l_Percussion_Voice_XXXV_a = {                                                  %
     % [12 Percussion_Voice_XXXV measure 188 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXV measure 189 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7455,7 +7633,8 @@ l_Percussion_Voice_XXXV_a = {                                                  %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXV measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7472,7 +7651,8 @@ l_Percussion_Voice_XXXV_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXV measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7564,7 +7744,8 @@ l_Percussion_Voice_XXXVI_a = {                                                 %
     % [12 Percussion_Voice_XXXVI measure 179 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVI measure 180 / measure 4]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7608,7 +7789,8 @@ l_Percussion_Voice_XXXVI_a = {                                                 %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVI measure 184 / measure 8]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7646,7 +7828,8 @@ l_Percussion_Voice_XXXVI_a = {                                                 %
     % [12 Percussion_Voice_XXXVI measure 187 / measure 11]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVI measure 188 / measure 12]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7674,7 +7857,8 @@ l_Percussion_Voice_XXXVI_a = {                                                 %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVI measure 190 / measure 14]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7704,7 +7888,8 @@ l_Percussion_Voice_XXXVI_a = {                                                 %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVI measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7831,7 +8016,8 @@ l_Percussion_Voice_XXXVII_a = {                                                %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVII measure 181 / measure 5]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7852,7 +8038,8 @@ l_Percussion_Voice_XXXVII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVII measure 182 / measure 6]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -7866,7 +8053,8 @@ l_Percussion_Voice_XXXVII_a = {                                                %
     % [12 Percussion_Voice_XXXVII measure 183 / measure 7]                     %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVII measure 184 / measure 8]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7883,7 +8071,8 @@ l_Percussion_Voice_XXXVII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVII measure 185 / measure 9]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7902,7 +8091,8 @@ l_Percussion_Voice_XXXVII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVII measure 186 / measure 10]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7931,7 +8121,8 @@ l_Percussion_Voice_XXXVII_a = {                                                %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVII measure 189 / measure 13]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -7951,7 +8142,8 @@ l_Percussion_Voice_XXXVII_a = {                                                %
     % [12 Percussion_Voice_XXXVII measure 190 / measure 14]                    %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVII measure 191 / measure 15]                %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -7962,7 +8154,8 @@ l_Percussion_Voice_XXXVII_a = {                                                %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVII measure 192 / measure 16]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8079,7 +8272,8 @@ l_Percussion_Voice_XXXVIII_a = {                                               %
     % [12 Percussion_Voice_XXXVIII measure 182 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVIII measure 183 / measure 7]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8098,7 +8292,8 @@ l_Percussion_Voice_XXXVIII_a = {                                               %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVIII measure 184 / measure 8]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8142,7 +8337,8 @@ l_Percussion_Voice_XXXVIII_a = {                                               %
     % [12 Percussion_Voice_XXXVIII measure 189 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVIII measure 190 / measure 14]               %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -8158,7 +8354,8 @@ l_Percussion_Voice_XXXVIII_a = {                                               %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXVIII measure 192 / measure 16]               %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8275,7 +8472,8 @@ l_Percussion_Voice_XXXIX_a = {                                                 %
     % [12 Percussion_Voice_XXXIX measure 182 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIX measure 183 / measure 7]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8326,7 +8524,8 @@ l_Percussion_Voice_XXXIX_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIX measure 188 / measure 12]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8370,7 +8569,8 @@ l_Percussion_Voice_XXXIX_a = {                                                 %
     % [12 Percussion_Voice_XXXIX measure 191 / measure 15]                     %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XXXIX measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8502,7 +8702,8 @@ l_Percussion_Voice_XL_a = {                                                    %
     % [12 Percussion_Voice_XL measure 187 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XL measure 188 / measure 12]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8538,7 +8739,8 @@ l_Percussion_Voice_XL_a = {                                                    %
     % [12 Percussion_Voice_XL measure 191 / measure 15]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XL measure 192 / measure 16]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8641,7 +8843,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 181 / measure 5]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8660,7 +8863,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 182 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8679,7 +8883,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 183 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8698,7 +8903,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8717,7 +8923,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 185 / measure 9]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8734,7 +8941,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 186 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8757,7 +8965,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
     % [12 Percussion_Voice_XLI measure 188 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 189 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -8768,7 +8977,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -8779,7 +8989,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8800,7 +9011,8 @@ l_Percussion_Voice_XLI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLI measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8886,7 +9098,8 @@ l_Percussion_Voice_XLII_a = {                                                  %
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 42                 %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLII measure 178 / measure 2]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8940,7 +9153,8 @@ l_Percussion_Voice_XLII_a = {                                                  %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLII measure 184 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8962,7 +9176,8 @@ l_Percussion_Voice_XLII_a = {                                                  %
     % [12 Percussion_Voice_XLII measure 185 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLII measure 186 / measure 10]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -8973,7 +9188,8 @@ l_Percussion_Voice_XLII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLII measure 187 / measure 11]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -8992,7 +9208,8 @@ l_Percussion_Voice_XLII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLII measure 188 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9023,7 +9240,8 @@ l_Percussion_Voice_XLII_a = {                                                  %
     % [12 Percussion_Voice_XLII measure 190 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLII measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9042,7 +9260,8 @@ l_Percussion_Voice_XLII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLII measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9136,7 +9355,8 @@ l_Percussion_Voice_XLIII_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIII measure 180 / measure 4]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9182,7 +9402,8 @@ l_Percussion_Voice_XLIII_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIII measure 184 / measure 8]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9207,7 +9428,8 @@ l_Percussion_Voice_XLIII_a = {                                                 %
     % [12 Percussion_Voice_XLIII measure 186 / measure 10]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIII measure 187 / measure 11]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9224,7 +9446,8 @@ l_Percussion_Voice_XLIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIII measure 188 / measure 12]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9250,7 +9473,8 @@ l_Percussion_Voice_XLIII_a = {                                                 %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIII measure 190 / measure 14]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9269,7 +9493,8 @@ l_Percussion_Voice_XLIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIII measure 191 / measure 15]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9286,7 +9511,8 @@ l_Percussion_Voice_XLIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIII measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9378,7 +9604,8 @@ l_Percussion_Voice_XLIV_a = {                                                  %
     % [12 Percussion_Voice_XLIV measure 179 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIV measure 180 / measure 4]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9414,7 +9641,8 @@ l_Percussion_Voice_XLIV_a = {                                                  %
     % [12 Percussion_Voice_XLIV measure 183 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIV measure 184 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9442,7 +9670,8 @@ l_Percussion_Voice_XLIV_a = {                                                  %
     % [12 Percussion_Voice_XLIV measure 187 / measure 11]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIV measure 188 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -9480,7 +9709,8 @@ l_Percussion_Voice_XLIV_a = {                                                  %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIV measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9607,7 +9837,8 @@ l_Percussion_Voice_XLV_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLV measure 181 / measure 5]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9626,7 +9857,8 @@ l_Percussion_Voice_XLV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLV measure 182 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9702,7 +9934,8 @@ l_Percussion_Voice_XLV_a = {                                                   %
     % [12 Percussion_Voice_XLV measure 189 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLV measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9719,7 +9952,8 @@ l_Percussion_Voice_XLV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLV measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -9730,7 +9964,8 @@ l_Percussion_Voice_XLV_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLV measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9896,7 +10131,8 @@ l_Percussion_Voice_XLVI_a = {                                                  %
     % [12 Percussion_Voice_XLVI measure 189 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLVI measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -9922,7 +10158,8 @@ l_Percussion_Voice_XLVI_a = {                                                  %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLVI measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10039,7 +10276,8 @@ l_Percussion_Voice_XLVII_a = {                                                 %
     % [12 Percussion_Voice_XLVII measure 182 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLVII measure 183 / measure 7]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10100,7 +10338,8 @@ l_Percussion_Voice_XLVII_a = {                                                 %
     % [12 Percussion_Voice_XLVII measure 191 / measure 15]                     %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLVII measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10246,7 +10485,8 @@ l_Percussion_Voice_XLVIII_a = {                                                %
     % [12 Percussion_Voice_XLVIII measure 191 / measure 15]                    %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLVIII measure 192 / measure 16]                %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10317,7 +10557,8 @@ l_Staff_XLVIII = {                                                             %
 
 l_Percussion_Voice_XLIX_a = {                                                  %! ide.Path.extern()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 177 / measure 1]                   %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \markup \hcenter-in #8 49             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -10346,7 +10587,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 178 / measure 2]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10363,7 +10605,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 179 / measure 3]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10380,7 +10623,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 180 / measure 4]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10409,7 +10653,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
     % [12 Percussion_Voice_XLIX measure 184 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 185 / measure 9]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10430,7 +10675,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 186 / measure 10]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10451,7 +10697,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 187 / measure 11]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10472,7 +10719,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 188 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10493,7 +10741,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 189 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10504,7 +10753,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10515,7 +10765,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10526,7 +10777,8 @@ l_Percussion_Voice_XLIX_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_XLIX measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10602,7 +10854,8 @@ l_Percussion_Voice_L_a = {                                                     %
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 50                 %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_L measure 178 / measure 2]                      %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10613,7 +10866,8 @@ l_Percussion_Voice_L_a = {                                                     %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_L measure 179 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10646,7 +10900,8 @@ l_Percussion_Voice_L_a = {                                                     %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_L measure 182 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10676,7 +10931,8 @@ l_Percussion_Voice_L_a = {                                                     %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_L measure 188 / measure 12]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10701,7 +10957,8 @@ l_Percussion_Voice_L_a = {                                                     %
     % [12 Percussion_Voice_L measure 190 / measure 14]                         %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_L measure 191 / measure 15]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10720,7 +10977,8 @@ l_Percussion_Voice_L_a = {                                                     %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_L measure 192 / measure 16]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10799,7 +11057,8 @@ l_Percussion_Voice_LI_a = {                                                    %
     % [12 Percussion_Voice_LI measure 178 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LI measure 179 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10816,7 +11075,8 @@ l_Percussion_Voice_LI_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LI measure 180 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10837,7 +11097,8 @@ l_Percussion_Voice_LI_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LI measure 181 / measure 5]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10861,7 +11122,8 @@ l_Percussion_Voice_LI_a = {                                                    %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LI measure 183 / measure 7]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10882,7 +11144,8 @@ l_Percussion_Voice_LI_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LI measure 184 / measure 8]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10921,7 +11184,8 @@ l_Percussion_Voice_LI_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LI measure 187 / measure 11]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -10935,7 +11199,8 @@ l_Percussion_Voice_LI_a = {                                                    %
     % [12 Percussion_Voice_LI measure 188 / measure 12]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LI measure 189 / measure 13]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -10962,7 +11227,8 @@ l_Percussion_Voice_LI_a = {                                                    %
     % [12 Percussion_Voice_LI measure 191 / measure 15]                        %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LI measure 192 / measure 16]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11044,7 +11310,8 @@ l_Percussion_Voice_LII_a = {                                                   %
     % [12 Percussion_Voice_LII measure 179 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LII measure 180 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11066,7 +11333,8 @@ l_Percussion_Voice_LII_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LII measure 182 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11096,7 +11364,8 @@ l_Percussion_Voice_LII_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LII measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11130,7 +11399,8 @@ l_Percussion_Voice_LII_a = {                                                   %
     % [12 Percussion_Voice_LII measure 187 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LII measure 188 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11158,7 +11428,8 @@ l_Percussion_Voice_LII_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LII measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11188,7 +11459,8 @@ l_Percussion_Voice_LII_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LII measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11273,7 +11545,8 @@ l_Percussion_Voice_LIII_a = {                                                  %
     % [12 Percussion_Voice_LIII measure 180 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIII measure 181 / measure 5]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11293,7 +11566,8 @@ l_Percussion_Voice_LIII_a = {                                                  %
     % [12 Percussion_Voice_LIII measure 182 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIII measure 183 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11304,7 +11578,8 @@ l_Percussion_Voice_LIII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIII measure 184 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11335,7 +11610,8 @@ l_Percussion_Voice_LIII_a = {                                                  %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIII measure 187 / measure 11]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11354,7 +11630,8 @@ l_Percussion_Voice_LIII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIII measure 188 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11376,7 +11653,8 @@ l_Percussion_Voice_LIII_a = {                                                  %
     % [12 Percussion_Voice_LIII measure 189 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIII measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11393,7 +11671,8 @@ l_Percussion_Voice_LIII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIII measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11414,7 +11693,8 @@ l_Percussion_Voice_LIII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIII measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11502,7 +11782,8 @@ l_Percussion_Voice_LIV_a = {                                                   %
     % [12 Percussion_Voice_LIV measure 181 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIV measure 182 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11518,7 +11799,8 @@ l_Percussion_Voice_LIV_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIV measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11542,7 +11824,8 @@ l_Percussion_Voice_LIV_a = {                                                   %
     % [12 Percussion_Voice_LIV measure 185 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIV measure 186 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11572,7 +11855,8 @@ l_Percussion_Voice_LIV_a = {                                                   %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIV measure 188 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11594,7 +11878,8 @@ l_Percussion_Voice_LIV_a = {                                                   %
     % [12 Percussion_Voice_LIV measure 189 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIV measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11620,7 +11905,8 @@ l_Percussion_Voice_LIV_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIV measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11711,7 +11997,8 @@ l_Percussion_Voice_LV_a = {                                                    %
     % [12 Percussion_Voice_LV measure 182 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LV measure 183 / measure 7]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11728,7 +12015,8 @@ l_Percussion_Voice_LV_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LV measure 184 / measure 8]                     %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11761,7 +12049,8 @@ l_Percussion_Voice_LV_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LV measure 187 / measure 11]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11807,7 +12096,8 @@ l_Percussion_Voice_LV_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LV measure 191 / measure 15]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -11824,7 +12114,8 @@ l_Percussion_Voice_LV_a = {                                                    %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LV measure 192 / measure 16]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11918,7 +12209,8 @@ l_Percussion_Voice_LVI_a = {                                                   %
     % [12 Percussion_Voice_LVI measure 183 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVI measure 184 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -11968,7 +12260,8 @@ l_Percussion_Voice_LVI_a = {                                                   %
     % [12 Percussion_Voice_LVI measure 191 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVI measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12065,7 +12358,8 @@ l_Percussion_Voice_LVII_a = {                                                  %
     % [12 Percussion_Voice_LVII measure 184 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVII measure 185 / measure 9]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12082,7 +12376,8 @@ l_Percussion_Voice_LVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVII measure 186 / measure 10]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12105,7 +12400,8 @@ l_Percussion_Voice_LVII_a = {                                                  %
     % [12 Percussion_Voice_LVII measure 188 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVII measure 189 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12126,7 +12422,8 @@ l_Percussion_Voice_LVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVII measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12147,7 +12444,8 @@ l_Percussion_Voice_LVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVII measure 191 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12158,7 +12456,8 @@ l_Percussion_Voice_LVII_a = {                                                  %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVII measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12258,7 +12557,8 @@ l_Percussion_Voice_LVIII_a = {                                                 %
     % [12 Percussion_Voice_LVIII measure 185 / measure 9]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVIII measure 186 / measure 10]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12269,7 +12569,8 @@ l_Percussion_Voice_LVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVIII measure 187 / measure 11]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12288,7 +12589,8 @@ l_Percussion_Voice_LVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVIII measure 188 / measure 12]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12316,7 +12618,8 @@ l_Percussion_Voice_LVIII_a = {                                                 %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVIII measure 190 / measure 14]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12333,7 +12636,8 @@ l_Percussion_Voice_LVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVIII measure 191 / measure 15]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12352,7 +12656,8 @@ l_Percussion_Voice_LVIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LVIII measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12455,7 +12760,8 @@ l_Percussion_Voice_LIX_a = {                                                   %
     % [12 Percussion_Voice_LIX measure 186 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIX measure 187 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12472,7 +12778,8 @@ l_Percussion_Voice_LIX_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIX measure 188 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12498,7 +12805,8 @@ l_Percussion_Voice_LIX_a = {                                                   %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIX measure 190 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12520,7 +12828,8 @@ l_Percussion_Voice_LIX_a = {                                                   %
     % [12 Percussion_Voice_LIX measure 191 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LIX measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12626,7 +12935,8 @@ l_Percussion_Voice_LX_a = {                                                    %
     % [12 Percussion_Voice_LX measure 187 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LX measure 188 / measure 12]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12664,7 +12974,8 @@ l_Percussion_Voice_LX_a = {                                                    %
     c'8                                                                        %! recursif.rhythm()
     ]                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LX measure 192 / measure 16]                    %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12773,7 +13084,8 @@ l_Percussion_Voice_LXI_a = {                                                   %
     % [12 Percussion_Voice_LXI measure 188 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LXI measure 189 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12793,7 +13105,8 @@ l_Percussion_Voice_LXI_a = {                                                   %
     % [12 Percussion_Voice_LXI measure 190 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
     c'2                                                                        %! recursif.rhythm()
 
-    \times 4/7 {                                                               %! recursif.rhythm()
+    \times 4/7                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LXI measure 191 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -12814,7 +13127,8 @@ l_Percussion_Voice_LXI_a = {                                                   %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LXI measure 192 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12926,7 +13240,8 @@ l_Percussion_Voice_LXII_a = {                                                  %
     % [12 Percussion_Voice_LXII measure 189 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LXII measure 190 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -12942,7 +13257,8 @@ l_Percussion_Voice_LXII_a = {                                                  %
 
     c'4                                                                        %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LXII measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -13057,7 +13373,8 @@ l_Percussion_Voice_LXIII_a = {                                                 %
     % [12 Percussion_Voice_LXIII measure 190 / measure 14]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 4/5 {                                                               %! recursif.rhythm()
+    \times 4/5                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LXIII measure 191 / measure 15]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! recursif.rhythm()
@@ -13074,7 +13391,8 @@ l_Percussion_Voice_LXIII_a = {                                                 %
 
     }                                                                          %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LXIII measure 192 / measure 16]                 %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
@@ -13192,7 +13510,8 @@ l_Percussion_Voice_LXIV_a = {                                                  %
     % [12 Percussion_Voice_LXIV measure 191 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! recursif.rhythm()
 
-    \times 2/3 {                                                               %! recursif.rhythm()
+    \times 2/3                                                                 %! recursif.rhythm()
+    {                                                                          %! recursif.rhythm()
 
         % [12 Percussion_Voice_LXIV measure 192 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c'4                                                                    %! recursif.rhythm()
