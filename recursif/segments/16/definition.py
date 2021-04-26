@@ -18,7 +18,7 @@ maker = baca.SegmentMaker(
 
 maker(
     ("Global_Skips", -1),
-    baca.bar_line("|.", baca.skip(-1)),
+    baca.bar_line("|.", baca.selectors.skip(-1)),
 )
 
 recursif.assign_parts(maker)
