@@ -1,6 +1,5 @@
 import abjad
 import baca
-import ide
 import roman
 from abjadext import rmakers
 
@@ -81,8 +80,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     _global_rests_in_topmost_staff = True
 
-    _part_manifest = ide.PartManifest(
-        ide.Section(abbreviation="PERC", count=64, name="Percussion")
+    _part_manifest = baca.PartManifest(
+        baca.Section(abbreviation="PERC", count=64, name="Percussion")
     )
 
     # all_music_in_part_containers = True
@@ -139,7 +138,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> part = score_template.part_manifest.parts[0]
             >>> string = abjad.storage(part)
             >>> print(string)
-            ide.Part(
+            baca.Part(
                 instrument='Percussion',
                 member=1,
                 number=1,
@@ -162,7 +161,7 @@ def assign_parts(maker: baca.SegmentMaker):
     for n in range(1, 64 + 1):
         numeral = roman.toRoman(n)
         voice_name = f"Percussion_Voice_{numeral}"
-        part_assignment = ide.PartAssignment(section="Percussion", token=n)
+        part_assignment = baca.PartAssignment(section="Percussion", token=n)
         assert part_assignment.token is not None
         score_template = ScoreTemplate()
         for part in part_assignment:
