@@ -1,7 +1,7 @@
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
 
-\include "/Users/trevorbaca/baca/lilypond/baca.ily"
+\include "baca.ily"
 
 \paper {
     bottom-margin = 7.5\mm
