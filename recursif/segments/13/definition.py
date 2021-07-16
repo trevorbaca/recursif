@@ -11,7 +11,6 @@ maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     segment_directory=baca.Path(__file__).resolve().parent,
     time_signatures=16 * [(2, 4)],
-    validate_measure_count=16,
 )
 
 recursif.assign_parts(maker)
