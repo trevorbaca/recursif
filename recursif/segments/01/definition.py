@@ -43,3 +43,6 @@ for voice_number in range(1, 64 + 1):
         baca.staff_position(0),
         recursif.rhythm(voice_number, 1),
     )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)
