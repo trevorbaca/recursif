@@ -31,4 +31,4 @@ for page_number in range(2, 16 + 1):
 breaks = baca.breaks(*pages)
 
 if __name__ == "__main__":
-    baca.build.make_layout_ly(__file__)
+    baca.build.make_layout_ly(__file__, breaks)
