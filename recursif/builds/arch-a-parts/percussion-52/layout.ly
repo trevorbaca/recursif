@@ -1,1117 +1,2282 @@
-% time_signatures = ['2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4']
-% measure_count = 256
+% page_count = 2
+% measure_count = 256 + 1
+% time_signatures = [
+% '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4', '2/4',
+%  '2/4', '2/4', '2/4'
+%  ]
 
 
+%! baca.SingleStaffScoreTemplate.__call__()
 \context Score = "Score"
+%! baca.SingleStaffScoreTemplate.__call__()
 <<
-    \context GlobalContext = "GlobalContext"
+
+    %! abjad.ScoreTemplate._make_global_context()
+    \context GlobalContext = "Global_Context"
+    %! abjad.ScoreTemplate._make_global_context()
     <<
-        \context PageLayout = "PageLayout"
-        {   %*% PageLayout
-            
-            % [PageLayout measure 1]                                                     %! SM4
-            \autoPageBreaksOff                                                           %! BMM1:BREAK
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 65) (alignment-distances . (0)))                              %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 2]                                                     %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 3]                                                     %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 4]                                                     %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 5]                                                     %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 6]                                                     %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 7]                                                     %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 8]                                                     %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 9]                                                     %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 10]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 11]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 88) (alignment-distances . (0)))                              %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 12]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 13]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 14]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 15]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 16]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 17]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 18]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 19]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 20]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 21]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 111) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 22]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 23]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 24]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 25]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 26]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 27]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 28]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 29]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 30]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 31]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 134) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 32]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 33]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 34]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 35]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 36]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 37]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 38]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 39]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 40]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 41]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 157) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 42]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 43]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 44]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 45]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 46]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 47]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 48]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 49]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 50]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 51]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 180) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 52]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 53]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 54]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 55]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 56]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 57]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 58]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 59]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 60]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 61]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 203) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 62]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 63]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 64]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 65]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 66]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 67]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 68]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 69]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 70]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 71]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 226) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 72]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 73]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 74]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 75]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 76]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 77]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 78]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 79]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 80]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 81]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 249) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 82]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 83]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 84]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 85]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 86]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 87]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 88]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 89]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 90]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 91]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 272) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 92]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 93]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 94]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 95]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 96]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 97]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 98]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 99]                                                    %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 100]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 101]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 295) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 102]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 103]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 104]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 105]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 106]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 107]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 108]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 109]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 110]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 111]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 318) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 112]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 113]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 114]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 115]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 116]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 117]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 118]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 119]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 120]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 121]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (0)))                              %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 122]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 123]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 124]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 125]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 126]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 127]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 128]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 129]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 130]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 131]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 38) (alignment-distances . (0)))                              %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 132]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 133]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 134]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 135]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 136]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 137]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 138]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 139]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 140]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 141]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 61) (alignment-distances . (0)))                              %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 142]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 143]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 144]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 145]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 146]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 147]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 148]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 149]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 150]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 151]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 84) (alignment-distances . (0)))                              %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 152]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 153]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 154]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 155]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 156]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 157]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 158]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 159]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 160]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 161]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 107) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 162]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 163]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 164]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 165]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 166]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 167]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 168]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 169]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 170]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 171]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 130) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 172]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 173]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 174]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 175]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 176]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 177]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 178]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 179]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 180]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 181]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 153) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 182]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 183]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 184]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 185]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 186]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 187]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 188]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 189]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 190]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 191]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 176) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 192]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 193]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 194]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 195]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 196]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 197]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 198]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 199]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 200]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 201]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 199) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 202]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 203]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 204]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 205]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 206]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 207]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 208]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 209]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 210]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 211]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 222) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 212]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 213]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 214]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 215]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 216]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 217]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 218]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 219]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 220]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 221]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 245) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 222]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 223]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 224]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 225]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 226]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 227]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 228]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 229]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 230]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 231]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 268) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 232]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 233]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 234]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 235]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 236]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 237]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 238]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 239]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 240]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 241]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 291) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 242]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 243]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 244]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 245]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 246]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 247]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 248]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 249]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 250]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 251]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 314) (alignment-distances . (0)))                             %! IC:BREAK
-            \break                                                                       %! IC:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 252]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 253]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 254]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 255]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-            % [PageLayout measure 256]                                                   %! SM4
-            \noBreak                                                                     %! BMM2:BREAK
-            s1 * 1/2
-            
-        }   %*% PageLayout
+
+        %! abjad.ScoreTemplate._make_global_context()
+        \context PageLayout = "Page_Layout"
+        %! abjad.ScoreTemplate._make_global_context()
+        {   %*% Page_Layout
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 1]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(1)
+            \autoPageBreaksOff
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #65 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 2]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 3]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 4]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 5]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 6]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 7]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 8]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 9]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 10]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 11]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #88 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 12]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 13]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 14]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 15]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 16]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 17]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 18]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 19]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 20]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 21]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #111 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 22]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 23]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 24]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 25]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 26]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 27]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 28]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 29]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 30]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 31]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #134 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 32]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 33]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 34]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 35]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 36]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 37]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 38]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 39]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 40]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 41]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #157 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 42]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 43]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 44]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 45]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 46]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 47]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 48]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 49]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 50]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 51]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #180 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 52]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 53]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 54]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 55]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 56]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 57]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 58]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 59]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 60]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 61]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #203 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 62]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 63]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 64]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 65]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 66]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 67]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 68]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 69]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 70]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 71]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #226 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 72]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 73]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 74]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 75]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 76]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 77]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 78]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 79]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 80]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 81]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #249 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 82]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 83]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 84]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 85]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 86]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 87]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 88]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 89]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 90]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 91]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #272 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 92]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 93]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 94]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 95]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 96]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 97]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 98]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 99]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 100]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 101]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #295 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 102]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 103]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 104]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 105]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 106]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 107]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 108]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 109]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 110]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 111]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #318 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 112]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 113]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 114]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 115]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 116]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 117]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 118]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 119]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 120]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 121]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #15 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \pageBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 122]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 123]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 124]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 125]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 126]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 127]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 128]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 129]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 130]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 131]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #38 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 132]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 133]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 134]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 135]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 136]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 137]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 138]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 139]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 140]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 141]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #61 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 142]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 143]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 144]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 145]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 146]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 147]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 148]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 149]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 150]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 151]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #84 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 152]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 153]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 154]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 155]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 156]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 157]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 158]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 159]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 160]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 161]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #107 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 162]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 163]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 164]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 165]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 166]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 167]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 168]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 169]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 170]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 171]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #130 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 172]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 173]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 174]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 175]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 176]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 177]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 178]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 179]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 180]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 181]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #153 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 182]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 183]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 184]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 185]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 186]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 187]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 188]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 189]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 190]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 191]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #176 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 192]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 193]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 194]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 195]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 196]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 197]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 198]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 199]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 200]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 201]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #199 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 202]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 203]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 204]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 205]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 206]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 207]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 208]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 209]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 210]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 211]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #222 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 212]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 213]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 214]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 215]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 216]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 217]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 218]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 219]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 220]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 221]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #245 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 222]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 223]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 224]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 225]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 226]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 227]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 228]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 229]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 230]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 231]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #268 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 232]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 233]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 234]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 235]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 236]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 237]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 238]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 239]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 240]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 241]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #291 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 242]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 243]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 244]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 245]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 246]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 247]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 248]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 249]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 250]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 251]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \baca-lbsd #314 #'(0)
+            %! BREAK
+            %! baca.IndicatorCommand._call()
+            \break
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 252]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 253]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 254]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 255]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            % [Page_Layout measure 256]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            \noBreak
+            %! baca.SegmentMaker._make_global_skips(1)
+            s1 * 1/2
+
+            %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._style_phantom_measures(1)
+            %! PHANTOM
+            % [Page_Layout measure 257]
+            %! BREAK
+            %! baca.BreakMeasureMap.__call__(2)
+            %! baca.SegmentMaker._style_phantom_measures(1)
+            %! PHANTOM
+            \noBreak
+            %! baca.SegmentMaker._style_phantom_measures(2)
+            %! PHANTOM
+            \baca-time-signature-transparent
+            %! baca.SegmentMaker._make_global_skips(3)
+            %! PHANTOM
+            s1 * 1/4
+            %! baca.SegmentMaker._style_phantom_measures(3)
+            %! PHANTOM
+            \once \override Score.BarLine.transparent = ##t
+            %! baca.SegmentMaker._style_phantom_measures(3)
+            %! PHANTOM
+            \once \override Score.SpanBar.transparent = ##t
+
+        %! abjad.ScoreTemplate._make_global_context()
+        }   %*% Page_Layout
+
+    %! abjad.ScoreTemplate._make_global_context()
     >>
+
+%! baca.SingleStaffScoreTemplate.__call__()
 >>
