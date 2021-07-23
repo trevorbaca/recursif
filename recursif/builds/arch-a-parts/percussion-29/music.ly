@@ -68,7 +68,7 @@
 \score {
     <<
         {
-        \include "percussion-29-layout.ly"
+        \include "layout.ly"
         }
         {
             \context Score = "Score"
