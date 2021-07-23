@@ -1,27 +1,27 @@
 % Poème récursif (2003) percussion 23 part
 % part_identifier = 'PERC-23'
 
-\version "2.19.82"
+\version "2.23.1"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
 \include "../stylesheet.ily"
-\include "../_segments/segment--.ily"
-\include "../_segments/segment-A.ily"
-\include "../_segments/segment-B.ily"
-\include "../_segments/segment-C.ily"
-\include "../_segments/segment-D.ily"
-\include "../_segments/segment-E.ily"
-\include "../_segments/segment-F.ily"
-\include "../_segments/segment-G.ily"
-\include "../_segments/segment-H.ily"
-\include "../_segments/segment-I.ily"
-\include "../_segments/segment-J.ily"
-\include "../_segments/segment-K.ily"
-\include "../_segments/segment-L.ily"
-\include "../_segments/segment-M.ily"
-\include "../_segments/segment-N.ily"
-\include "../_segments/segment-O.ily"
+\include "../_segments/segment-01.ily"
+\include "../_segments/segment-02.ily"
+\include "../_segments/segment-03.ily"
+\include "../_segments/segment-04.ily"
+\include "../_segments/segment-05.ily"
+\include "../_segments/segment-06.ily"
+\include "../_segments/segment-07.ily"
+\include "../_segments/segment-08.ily"
+\include "../_segments/segment-09.ily"
+\include "../_segments/segment-10.ily"
+\include "../_segments/segment-11.ily"
+\include "../_segments/segment-12.ily"
+\include "../_segments/segment-13.ily"
+\include "../_segments/segment-14.ily"
+\include "../_segments/segment-15.ily"
+\include "../_segments/segment-16.ily"
 
 \paper {
     evenFooterMarkup =
@@ -77,22 +77,22 @@
                 <<
                     \context GlobalSkips = "GlobalSkips"
                     {
+                        \a_GlobalSkips
+                        \b_GlobalSkips
+                        \c_GlobalSkips
+                        \d_GlobalSkips
+                        \e_GlobalSkips
+                        \f_GlobalSkips
+                        \g_GlobalSkips
+                        \h_GlobalSkips
                         \i_GlobalSkips
-                        \A_GlobalSkips
-                        \B_GlobalSkips
-                        \C_GlobalSkips
-                        \D_GlobalSkips
-                        \E_GlobalSkips
-                        \F_GlobalSkips
-                        \G_GlobalSkips
-                        \H_GlobalSkips
-                        \I_GlobalSkips
-                        \J_GlobalSkips
-                        \K_GlobalSkips
-                        \L_GlobalSkips
-                        \M_GlobalSkips
-                        \N_GlobalSkips
-                        \O_GlobalSkips
+                        \j_GlobalSkips
+                        \k_GlobalSkips
+                        \l_GlobalSkips
+                        \m_GlobalSkips
+                        \n_GlobalSkips
+                        \o_GlobalSkips
+                        \p_GlobalSkips
                     }
                 >>
                 \context MusicContext = "MusicContext"
@@ -100,25 +100,26 @@
                     \context Staff = "Staff"
                     {
                         \clef "percussion"
-                        \i_PercussionVoiceXXIII_a
-                        \A_PercussionVoiceXXIII_a
-                        \B_PercussionVoiceXXIII_a
-                        \C_PercussionVoiceXXIII_a
-                        \D_PercussionVoiceXXIII_a
-                        \E_PercussionVoiceXXIII_a
-                        \F_PercussionVoiceXXIII_a
-                        \G_PercussionVoiceXXIII_a
-                        \H_PercussionVoiceXXIII_a
-                        \I_PercussionVoiceXXIII_a
-                        \J_PercussionVoiceXXIII_a
-                        \K_PercussionVoiceXXIII_a
-                        \L_PercussionVoiceXXIII_a
-                        \M_PercussionVoiceXXIII_a
-                        \N_PercussionVoiceXXIII_a
-                        \O_PercussionVoiceXXIII_a
+                        \a_Percussion_Voice_XXIII_a
+                        \b_Percussion_Voice_XXIII_a
+                        \c_Percussion_Voice_XXIII_a
+                        \d_Percussion_Voice_XXIII_a
+                        \e_Percussion_Voice_XXIII_a
+                        \f_Percussion_Voice_XXIII_a
+                        \g_Percussion_Voice_XXIII_a
+                        \h_Percussion_Voice_XXIII_a
+                        \i_Percussion_Voice_XXIII_a
+                        \j_Percussion_Voice_XXIII_a
+                        \k_Percussion_Voice_XXIII_a
+                        \l_Percussion_Voice_XXIII_a
+                        \m_Percussion_Voice_XXIII_a
+                        \n_Percussion_Voice_XXIII_a
+                        \o_Percussion_Voice_XXIII_a
+                        \p_Percussion_Voice_XXIII_a
                     }
                 }
             >>
         }
     >>
 }
+
