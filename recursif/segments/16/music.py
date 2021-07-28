@@ -4,7 +4,7 @@ import abjad
 import baca
 import roman
 
-import recursif
+from recursif import library as recursif
 
 ###############################################################################
 ##################################### [P] #####################################

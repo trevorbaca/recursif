@@ -3,7 +3,7 @@ import pathlib
 import baca
 import roman
 
-import recursif
+from recursif import library as recursif
 
 ###############################################################################
 ##################################### [H] #####################################
