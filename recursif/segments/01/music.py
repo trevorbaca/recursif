@@ -12,7 +12,6 @@ from recursif import library as recursif
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     first_segment=True,
-    segment_directory=pathlib.Path(__file__).resolve().parent,
     time_signatures=16 * [(2, 4)],
 )
 
