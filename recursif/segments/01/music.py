@@ -10,6 +10,7 @@ from recursif import library as recursif
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     first_segment=True,
+    score_template=recursif.ScoreTemplate(),
     time_signatures=16 * [(2, 4)],
 )
 
