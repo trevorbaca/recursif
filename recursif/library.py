@@ -15,11 +15,11 @@ for staff_number in range(1, 64 + 1):
 
 
 def margin_markup(
-    key: str,
-    alert: baca.IndicatorCommand = None,
-    context: str = "Staff",
-    selector: abjad.Expression = baca.selectors.leaf(0),
-) -> baca.CommandTyping:
+    key,
+    alert=None,
+    context="Staff",
+    selector=baca.selectors.leaf(0),
+):
     """
     Makes tagged margin markup indicator command.
     """
