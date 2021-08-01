@@ -18,7 +18,7 @@
     <<
 
         \context PageLayout = "Page_Layout"
-        {   %*% Page_Layout
+        {   %*% o_Page_Layout
 
             % [Page_Layout measure 225]
             \baca-new-spacing-section #1 #29
@@ -111,7 +111,7 @@
             \once \override Score.BarLine.transparent = ##t
             \once \override Score.SpanBar.transparent = ##t
 
-        }   %*% Page_Layout
+        }   %*% o_Page_Layout
 
     >>
 
