@@ -165,5 +165,5 @@ def assign_parts(maker: baca.SegmentMaker):
         for part in part_assignment:
             if part not in score_template.part_manifest.parts:
                 raise Exception(f"no {part!r} in part manifest.")
-        command = baca.parts(part_assignment)
+        command = baca.assign_parts(part_assignment)
         maker(voice_name, command)
