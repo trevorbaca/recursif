@@ -208,7 +208,7 @@ abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        "segment.02.Percussion.Voice.I.1",
+                        "segment.02.Percussion.Voice.I.part.1",
                         (
                             baca.PartAssignment("Percussion", 1),
                             abjad.Timespan(
@@ -218,7 +218,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.II.1",
+                        "segment.02.Percussion.Voice.II.part.1",
                         (
                             baca.PartAssignment("Percussion", 2),
                             abjad.Timespan(
@@ -228,7 +228,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.III.1",
+                        "segment.02.Percussion.Voice.III.part.1",
                         (
                             baca.PartAssignment("Percussion", 3),
                             abjad.Timespan(
@@ -238,7 +238,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.IV.1",
+                        "segment.02.Percussion.Voice.IV.part.1",
                         (
                             baca.PartAssignment("Percussion", 4),
                             abjad.Timespan(
@@ -248,7 +248,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.IX.1",
+                        "segment.02.Percussion.Voice.IX.part.1",
                         (
                             baca.PartAssignment("Percussion", 9),
                             abjad.Timespan(
@@ -258,7 +258,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.L.1",
+                        "segment.02.Percussion.Voice.L.part.1",
                         (
                             baca.PartAssignment("Percussion", 50),
                             abjad.Timespan(
@@ -268,7 +268,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LI.1",
+                        "segment.02.Percussion.Voice.LI.part.1",
                         (
                             baca.PartAssignment("Percussion", 51),
                             abjad.Timespan(
@@ -278,7 +278,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LII.1",
+                        "segment.02.Percussion.Voice.LII.part.1",
                         (
                             baca.PartAssignment("Percussion", 52),
                             abjad.Timespan(
@@ -288,7 +288,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LIII.1",
+                        "segment.02.Percussion.Voice.LIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 53),
                             abjad.Timespan(
@@ -298,7 +298,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LIV.1",
+                        "segment.02.Percussion.Voice.LIV.part.1",
                         (
                             baca.PartAssignment("Percussion", 54),
                             abjad.Timespan(
@@ -308,7 +308,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LIX.1",
+                        "segment.02.Percussion.Voice.LIX.part.1",
                         (
                             baca.PartAssignment("Percussion", 59),
                             abjad.Timespan(
@@ -318,7 +318,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LV.1",
+                        "segment.02.Percussion.Voice.LV.part.1",
                         (
                             baca.PartAssignment("Percussion", 55),
                             abjad.Timespan(
@@ -328,7 +328,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LVI.1",
+                        "segment.02.Percussion.Voice.LVI.part.1",
                         (
                             baca.PartAssignment("Percussion", 56),
                             abjad.Timespan(
@@ -338,7 +338,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LVII.1",
+                        "segment.02.Percussion.Voice.LVII.part.1",
                         (
                             baca.PartAssignment("Percussion", 57),
                             abjad.Timespan(
@@ -348,7 +348,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LVIII.1",
+                        "segment.02.Percussion.Voice.LVIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 58),
                             abjad.Timespan(
@@ -358,7 +358,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LX.1",
+                        "segment.02.Percussion.Voice.LX.part.1",
                         (
                             baca.PartAssignment("Percussion", 60),
                             abjad.Timespan(
@@ -368,7 +368,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LXI.1",
+                        "segment.02.Percussion.Voice.LXI.part.1",
                         (
                             baca.PartAssignment("Percussion", 61),
                             abjad.Timespan(
@@ -378,7 +378,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LXII.1",
+                        "segment.02.Percussion.Voice.LXII.part.1",
                         (
                             baca.PartAssignment("Percussion", 62),
                             abjad.Timespan(
@@ -388,7 +388,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LXIII.1",
+                        "segment.02.Percussion.Voice.LXIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 63),
                             abjad.Timespan(
@@ -398,7 +398,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.LXIV.1",
+                        "segment.02.Percussion.Voice.LXIV.part.1",
                         (
                             baca.PartAssignment("Percussion", 64),
                             abjad.Timespan(
@@ -408,7 +408,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.V.1",
+                        "segment.02.Percussion.Voice.V.part.1",
                         (
                             baca.PartAssignment("Percussion", 5),
                             abjad.Timespan(
@@ -418,7 +418,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.VI.1",
+                        "segment.02.Percussion.Voice.VI.part.1",
                         (
                             baca.PartAssignment("Percussion", 6),
                             abjad.Timespan(
@@ -428,7 +428,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.VII.1",
+                        "segment.02.Percussion.Voice.VII.part.1",
                         (
                             baca.PartAssignment("Percussion", 7),
                             abjad.Timespan(
@@ -438,7 +438,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.VIII.1",
+                        "segment.02.Percussion.Voice.VIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 8),
                             abjad.Timespan(
@@ -448,7 +448,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.X.1",
+                        "segment.02.Percussion.Voice.X.part.1",
                         (
                             baca.PartAssignment("Percussion", 10),
                             abjad.Timespan(
@@ -458,7 +458,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XI.1",
+                        "segment.02.Percussion.Voice.XI.part.1",
                         (
                             baca.PartAssignment("Percussion", 11),
                             abjad.Timespan(
@@ -468,7 +468,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XII.1",
+                        "segment.02.Percussion.Voice.XII.part.1",
                         (
                             baca.PartAssignment("Percussion", 12),
                             abjad.Timespan(
@@ -478,7 +478,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XIII.1",
+                        "segment.02.Percussion.Voice.XIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 13),
                             abjad.Timespan(
@@ -488,7 +488,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XIV.1",
+                        "segment.02.Percussion.Voice.XIV.part.1",
                         (
                             baca.PartAssignment("Percussion", 14),
                             abjad.Timespan(
@@ -498,7 +498,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XIX.1",
+                        "segment.02.Percussion.Voice.XIX.part.1",
                         (
                             baca.PartAssignment("Percussion", 19),
                             abjad.Timespan(
@@ -508,7 +508,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XL.1",
+                        "segment.02.Percussion.Voice.XL.part.1",
                         (
                             baca.PartAssignment("Percussion", 40),
                             abjad.Timespan(
@@ -518,7 +518,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLI.1",
+                        "segment.02.Percussion.Voice.XLI.part.1",
                         (
                             baca.PartAssignment("Percussion", 41),
                             abjad.Timespan(
@@ -528,7 +528,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLII.1",
+                        "segment.02.Percussion.Voice.XLII.part.1",
                         (
                             baca.PartAssignment("Percussion", 42),
                             abjad.Timespan(
@@ -538,7 +538,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLIII.1",
+                        "segment.02.Percussion.Voice.XLIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 43),
                             abjad.Timespan(
@@ -548,7 +548,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLIV.1",
+                        "segment.02.Percussion.Voice.XLIV.part.1",
                         (
                             baca.PartAssignment("Percussion", 44),
                             abjad.Timespan(
@@ -558,7 +558,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLIX.1",
+                        "segment.02.Percussion.Voice.XLIX.part.1",
                         (
                             baca.PartAssignment("Percussion", 49),
                             abjad.Timespan(
@@ -568,7 +568,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLV.1",
+                        "segment.02.Percussion.Voice.XLV.part.1",
                         (
                             baca.PartAssignment("Percussion", 45),
                             abjad.Timespan(
@@ -578,7 +578,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLVI.1",
+                        "segment.02.Percussion.Voice.XLVI.part.1",
                         (
                             baca.PartAssignment("Percussion", 46),
                             abjad.Timespan(
@@ -588,7 +588,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLVII.1",
+                        "segment.02.Percussion.Voice.XLVII.part.1",
                         (
                             baca.PartAssignment("Percussion", 47),
                             abjad.Timespan(
@@ -598,7 +598,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XLVIII.1",
+                        "segment.02.Percussion.Voice.XLVIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 48),
                             abjad.Timespan(
@@ -608,7 +608,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XV.1",
+                        "segment.02.Percussion.Voice.XV.part.1",
                         (
                             baca.PartAssignment("Percussion", 15),
                             abjad.Timespan(
@@ -618,7 +618,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XVI.1",
+                        "segment.02.Percussion.Voice.XVI.part.1",
                         (
                             baca.PartAssignment("Percussion", 16),
                             abjad.Timespan(
@@ -628,7 +628,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XVII.1",
+                        "segment.02.Percussion.Voice.XVII.part.1",
                         (
                             baca.PartAssignment("Percussion", 17),
                             abjad.Timespan(
@@ -638,7 +638,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XVIII.1",
+                        "segment.02.Percussion.Voice.XVIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 18),
                             abjad.Timespan(
@@ -648,7 +648,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XX.1",
+                        "segment.02.Percussion.Voice.XX.part.1",
                         (
                             baca.PartAssignment("Percussion", 20),
                             abjad.Timespan(
@@ -658,7 +658,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXI.1",
+                        "segment.02.Percussion.Voice.XXI.part.1",
                         (
                             baca.PartAssignment("Percussion", 21),
                             abjad.Timespan(
@@ -668,7 +668,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXII.1",
+                        "segment.02.Percussion.Voice.XXII.part.1",
                         (
                             baca.PartAssignment("Percussion", 22),
                             abjad.Timespan(
@@ -678,7 +678,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXIII.1",
+                        "segment.02.Percussion.Voice.XXIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 23),
                             abjad.Timespan(
@@ -688,7 +688,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXIV.1",
+                        "segment.02.Percussion.Voice.XXIV.part.1",
                         (
                             baca.PartAssignment("Percussion", 24),
                             abjad.Timespan(
@@ -698,7 +698,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXIX.1",
+                        "segment.02.Percussion.Voice.XXIX.part.1",
                         (
                             baca.PartAssignment("Percussion", 29),
                             abjad.Timespan(
@@ -708,7 +708,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXV.1",
+                        "segment.02.Percussion.Voice.XXV.part.1",
                         (
                             baca.PartAssignment("Percussion", 25),
                             abjad.Timespan(
@@ -718,7 +718,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXVI.1",
+                        "segment.02.Percussion.Voice.XXVI.part.1",
                         (
                             baca.PartAssignment("Percussion", 26),
                             abjad.Timespan(
@@ -728,7 +728,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXVII.1",
+                        "segment.02.Percussion.Voice.XXVII.part.1",
                         (
                             baca.PartAssignment("Percussion", 27),
                             abjad.Timespan(
@@ -738,7 +738,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXVIII.1",
+                        "segment.02.Percussion.Voice.XXVIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 28),
                             abjad.Timespan(
@@ -748,7 +748,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXX.1",
+                        "segment.02.Percussion.Voice.XXX.part.1",
                         (
                             baca.PartAssignment("Percussion", 30),
                             abjad.Timespan(
@@ -758,7 +758,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXI.1",
+                        "segment.02.Percussion.Voice.XXXI.part.1",
                         (
                             baca.PartAssignment("Percussion", 31),
                             abjad.Timespan(
@@ -768,7 +768,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXII.1",
+                        "segment.02.Percussion.Voice.XXXII.part.1",
                         (
                             baca.PartAssignment("Percussion", 32),
                             abjad.Timespan(
@@ -778,7 +778,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXIII.1",
+                        "segment.02.Percussion.Voice.XXXIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 33),
                             abjad.Timespan(
@@ -788,7 +788,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXIV.1",
+                        "segment.02.Percussion.Voice.XXXIV.part.1",
                         (
                             baca.PartAssignment("Percussion", 34),
                             abjad.Timespan(
@@ -798,7 +798,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXIX.1",
+                        "segment.02.Percussion.Voice.XXXIX.part.1",
                         (
                             baca.PartAssignment("Percussion", 39),
                             abjad.Timespan(
@@ -808,7 +808,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXV.1",
+                        "segment.02.Percussion.Voice.XXXV.part.1",
                         (
                             baca.PartAssignment("Percussion", 35),
                             abjad.Timespan(
@@ -818,7 +818,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXVI.1",
+                        "segment.02.Percussion.Voice.XXXVI.part.1",
                         (
                             baca.PartAssignment("Percussion", 36),
                             abjad.Timespan(
@@ -828,7 +828,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXVII.1",
+                        "segment.02.Percussion.Voice.XXXVII.part.1",
                         (
                             baca.PartAssignment("Percussion", 37),
                             abjad.Timespan(
@@ -838,7 +838,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "segment.02.Percussion.Voice.XXXVIII.1",
+                        "segment.02.Percussion.Voice.XXXVIII.part.1",
                         (
                             baca.PartAssignment("Percussion", 38),
                             abjad.Timespan(

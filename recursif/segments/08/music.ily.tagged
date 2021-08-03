@@ -685,7 +685,7 @@ segment.08.Global.Rests = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.I.1 = {
+segment.08.Percussion.Voice.I.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_I measure 113 / measure 1]
@@ -818,7 +818,7 @@ segment.08.Percussion.Voice.I.1 = {
 segment.08.Percussion.Voice.I = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.I.1 }
+    { \segment.08.Percussion.Voice.I.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -944,7 +944,7 @@ segment.08.Staff.I = <<
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.II.1 = {
+segment.08.Percussion.Voice.II.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_II measure 113 / measure 1]
@@ -1299,7 +1299,7 @@ segment.08.Percussion.Voice.II.1 = {
 segment.08.Percussion.Voice.II = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.II.1 }
+    { \segment.08.Percussion.Voice.II.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1419,7 +1419,7 @@ segment.08.Staff.II = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.III.1 = {
+segment.08.Percussion.Voice.III.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_III measure 113 / measure 1]
@@ -1774,7 +1774,7 @@ segment.08.Percussion.Voice.III.1 = {
 segment.08.Percussion.Voice.III = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.III.1 }
+    { \segment.08.Percussion.Voice.III.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1894,7 +1894,7 @@ segment.08.Staff.III = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.IV.1 = {
+segment.08.Percussion.Voice.IV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_IV measure 113 / measure 1]
@@ -2190,7 +2190,7 @@ segment.08.Percussion.Voice.IV.1 = {
 segment.08.Percussion.Voice.IV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.IV.1 }
+    { \segment.08.Percussion.Voice.IV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2310,7 +2310,7 @@ segment.08.Staff.IV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.V.1 = {
+segment.08.Percussion.Voice.V.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_V measure 113 / measure 1]
@@ -2691,7 +2691,7 @@ segment.08.Percussion.Voice.V.1 = {
 segment.08.Percussion.Voice.V = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.V.1 }
+    { \segment.08.Percussion.Voice.V.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2811,7 +2811,7 @@ segment.08.Staff.V = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.VI.1 = {
+segment.08.Percussion.Voice.VI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_VI measure 113 / measure 1]
@@ -3135,7 +3135,7 @@ segment.08.Percussion.Voice.VI.1 = {
 segment.08.Percussion.Voice.VI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.VI.1 }
+    { \segment.08.Percussion.Voice.VI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3255,7 +3255,7 @@ segment.08.Staff.VI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.VII.1 = {
+segment.08.Percussion.Voice.VII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_VII measure 113 / measure 1]
@@ -3564,7 +3564,7 @@ segment.08.Percussion.Voice.VII.1 = {
 segment.08.Percussion.Voice.VII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.VII.1 }
+    { \segment.08.Percussion.Voice.VII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3684,7 +3684,7 @@ segment.08.Staff.VII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.VIII.1 = {
+segment.08.Percussion.Voice.VIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_VIII measure 113 / measure 1]
@@ -3873,7 +3873,7 @@ segment.08.Percussion.Voice.VIII.1 = {
 segment.08.Percussion.Voice.VIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.VIII.1 }
+    { \segment.08.Percussion.Voice.VIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3993,7 +3993,7 @@ segment.08.Staff.VIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.IX.1 = {
+segment.08.Percussion.Voice.IX.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_IX measure 113 / measure 1]
@@ -4382,7 +4382,7 @@ segment.08.Percussion.Voice.IX.1 = {
 segment.08.Percussion.Voice.IX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.IX.1 }
+    { \segment.08.Percussion.Voice.IX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -4502,7 +4502,7 @@ segment.08.Staff.IX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.X.1 = {
+segment.08.Percussion.Voice.X.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_X measure 113 / measure 1]
@@ -4808,7 +4808,7 @@ segment.08.Percussion.Voice.X.1 = {
 segment.08.Percussion.Voice.X = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.X.1 }
+    { \segment.08.Percussion.Voice.X.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -4928,7 +4928,7 @@ segment.08.Staff.X = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XI.1 = {
+segment.08.Percussion.Voice.XI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XI measure 113 / measure 1]
@@ -5205,7 +5205,7 @@ segment.08.Percussion.Voice.XI.1 = {
 segment.08.Percussion.Voice.XI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XI.1 }
+    { \segment.08.Percussion.Voice.XI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -5325,7 +5325,7 @@ segment.08.Staff.XI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XII.1 = {
+segment.08.Percussion.Voice.XII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XII measure 113 / measure 1]
@@ -5602,7 +5602,7 @@ segment.08.Percussion.Voice.XII.1 = {
 segment.08.Percussion.Voice.XII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XII.1 }
+    { \segment.08.Percussion.Voice.XII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -5722,7 +5722,7 @@ segment.08.Staff.XII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XIII.1 = {
+segment.08.Percussion.Voice.XIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XIII measure 113 / measure 1]
@@ -6087,7 +6087,7 @@ segment.08.Percussion.Voice.XIII.1 = {
 segment.08.Percussion.Voice.XIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XIII.1 }
+    { \segment.08.Percussion.Voice.XIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -6207,7 +6207,7 @@ segment.08.Staff.XIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XIV.1 = {
+segment.08.Percussion.Voice.XIV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XIV measure 113 / measure 1]
@@ -6438,7 +6438,7 @@ segment.08.Percussion.Voice.XIV.1 = {
 segment.08.Percussion.Voice.XIV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XIV.1 }
+    { \segment.08.Percussion.Voice.XIV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -6558,7 +6558,7 @@ segment.08.Staff.XIV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XV.1 = {
+segment.08.Percussion.Voice.XV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XV measure 113 / measure 1]
@@ -6803,7 +6803,7 @@ segment.08.Percussion.Voice.XV.1 = {
 segment.08.Percussion.Voice.XV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XV.1 }
+    { \segment.08.Percussion.Voice.XV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -6923,7 +6923,7 @@ segment.08.Staff.XV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XVI.1 = {
+segment.08.Percussion.Voice.XVI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XVI measure 113 / measure 1]
@@ -7085,7 +7085,7 @@ segment.08.Percussion.Voice.XVI.1 = {
 segment.08.Percussion.Voice.XVI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XVI.1 }
+    { \segment.08.Percussion.Voice.XVI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -7205,7 +7205,7 @@ segment.08.Staff.XVI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XVII.1 = {
+segment.08.Percussion.Voice.XVII.part.1 = {
 
     %! recursif.rhythm()
     \times 2/3
@@ -7610,7 +7610,7 @@ segment.08.Percussion.Voice.XVII.1 = {
 segment.08.Percussion.Voice.XVII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XVII.1 }
+    { \segment.08.Percussion.Voice.XVII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -7730,7 +7730,7 @@ segment.08.Staff.XVII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XVIII.1 = {
+segment.08.Percussion.Voice.XVIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XVIII measure 113 / measure 1]
@@ -8085,7 +8085,7 @@ segment.08.Percussion.Voice.XVIII.1 = {
 segment.08.Percussion.Voice.XVIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XVIII.1 }
+    { \segment.08.Percussion.Voice.XVIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -8205,7 +8205,7 @@ segment.08.Staff.XVIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XIX.1 = {
+segment.08.Percussion.Voice.XIX.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XIX measure 113 / measure 1]
@@ -8480,7 +8480,7 @@ segment.08.Percussion.Voice.XIX.1 = {
 segment.08.Percussion.Voice.XIX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XIX.1 }
+    { \segment.08.Percussion.Voice.XIX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -8600,7 +8600,7 @@ segment.08.Staff.XIX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XX.1 = {
+segment.08.Percussion.Voice.XX.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XX measure 113 / measure 1]
@@ -8872,7 +8872,7 @@ segment.08.Percussion.Voice.XX.1 = {
 segment.08.Percussion.Voice.XX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XX.1 }
+    { \segment.08.Percussion.Voice.XX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -8992,7 +8992,7 @@ segment.08.Staff.XX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXI.1 = {
+segment.08.Percussion.Voice.XXI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXI measure 113 / measure 1]
@@ -9321,7 +9321,7 @@ segment.08.Percussion.Voice.XXI.1 = {
 segment.08.Percussion.Voice.XXI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXI.1 }
+    { \segment.08.Percussion.Voice.XXI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -9441,7 +9441,7 @@ segment.08.Staff.XXI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXII.1 = {
+segment.08.Percussion.Voice.XXII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXII measure 113 / measure 1]
@@ -9695,7 +9695,7 @@ segment.08.Percussion.Voice.XXII.1 = {
 segment.08.Percussion.Voice.XXII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXII.1 }
+    { \segment.08.Percussion.Voice.XXII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -9815,7 +9815,7 @@ segment.08.Staff.XXII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXIII.1 = {
+segment.08.Percussion.Voice.XXIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXIII measure 113 / measure 1]
@@ -10098,7 +10098,7 @@ segment.08.Percussion.Voice.XXIII.1 = {
 segment.08.Percussion.Voice.XXIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXIII.1 }
+    { \segment.08.Percussion.Voice.XXIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -10218,7 +10218,7 @@ segment.08.Staff.XXIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXIV.1 = {
+segment.08.Percussion.Voice.XXIV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXIV measure 113 / measure 1]
@@ -10428,7 +10428,7 @@ segment.08.Percussion.Voice.XXIV.1 = {
 segment.08.Percussion.Voice.XXIV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXIV.1 }
+    { \segment.08.Percussion.Voice.XXIV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -10548,7 +10548,7 @@ segment.08.Staff.XXIV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXV.1 = {
+segment.08.Percussion.Voice.XXV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXV measure 113 / measure 1]
@@ -10921,7 +10921,7 @@ segment.08.Percussion.Voice.XXV.1 = {
 segment.08.Percussion.Voice.XXV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXV.1 }
+    { \segment.08.Percussion.Voice.XXV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -11041,7 +11041,7 @@ segment.08.Staff.XXV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXVI.1 = {
+segment.08.Percussion.Voice.XXVI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXVI measure 113 / measure 1]
@@ -11305,7 +11305,7 @@ segment.08.Percussion.Voice.XXVI.1 = {
 segment.08.Percussion.Voice.XXVI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXVI.1 }
+    { \segment.08.Percussion.Voice.XXVI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -11425,7 +11425,7 @@ segment.08.Staff.XXVI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXVII.1 = {
+segment.08.Percussion.Voice.XXVII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXVII measure 113 / measure 1]
@@ -11708,7 +11708,7 @@ segment.08.Percussion.Voice.XXVII.1 = {
 segment.08.Percussion.Voice.XXVII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXVII.1 }
+    { \segment.08.Percussion.Voice.XXVII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -11828,7 +11828,7 @@ segment.08.Staff.XXVII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXVIII.1 = {
+segment.08.Percussion.Voice.XXVIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXVIII measure 113 / measure 1]
@@ -12040,7 +12040,7 @@ segment.08.Percussion.Voice.XXVIII.1 = {
 segment.08.Percussion.Voice.XXVIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXVIII.1 }
+    { \segment.08.Percussion.Voice.XXVIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12160,7 +12160,7 @@ segment.08.Staff.XXVIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXIX.1 = {
+segment.08.Percussion.Voice.XXIX.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXIX measure 113 / measure 1]
@@ -12413,7 +12413,7 @@ segment.08.Percussion.Voice.XXIX.1 = {
 segment.08.Percussion.Voice.XXIX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXIX.1 }
+    { \segment.08.Percussion.Voice.XXIX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12533,7 +12533,7 @@ segment.08.Staff.XXIX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXX.1 = {
+segment.08.Percussion.Voice.XXX.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXX measure 113 / measure 1]
@@ -12719,7 +12719,7 @@ segment.08.Percussion.Voice.XXX.1 = {
 segment.08.Percussion.Voice.XXX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXX.1 }
+    { \segment.08.Percussion.Voice.XXX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12839,7 +12839,7 @@ segment.08.Staff.XXX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXI.1 = {
+segment.08.Percussion.Voice.XXXI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXI measure 113 / measure 1]
@@ -13028,7 +13028,7 @@ segment.08.Percussion.Voice.XXXI.1 = {
 segment.08.Percussion.Voice.XXXI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXI.1 }
+    { \segment.08.Percussion.Voice.XXXI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -13148,7 +13148,7 @@ segment.08.Staff.XXXI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXII.1 = {
+segment.08.Percussion.Voice.XXXII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXII measure 113 / measure 1]
@@ -13294,7 +13294,7 @@ segment.08.Percussion.Voice.XXXII.1 = {
 segment.08.Percussion.Voice.XXXII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXII.1 }
+    { \segment.08.Percussion.Voice.XXXII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -13414,7 +13414,7 @@ segment.08.Staff.XXXII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXIII.1 = {
+segment.08.Percussion.Voice.XXXIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXIII measure 113 / measure 1]
@@ -13739,7 +13739,7 @@ segment.08.Percussion.Voice.XXXIII.1 = {
 segment.08.Percussion.Voice.XXXIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXIII.1 }
+    { \segment.08.Percussion.Voice.XXXIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -13859,7 +13859,7 @@ segment.08.Staff.XXXIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXIV.1 = {
+segment.08.Percussion.Voice.XXXIV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXIV measure 113 / measure 1]
@@ -14214,7 +14214,7 @@ segment.08.Percussion.Voice.XXXIV.1 = {
 segment.08.Percussion.Voice.XXXIV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXIV.1 }
+    { \segment.08.Percussion.Voice.XXXIV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -14334,7 +14334,7 @@ segment.08.Staff.XXXIV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXV.1 = {
+segment.08.Percussion.Voice.XXXV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXV measure 113 / measure 1]
@@ -14689,7 +14689,7 @@ segment.08.Percussion.Voice.XXXV.1 = {
 segment.08.Percussion.Voice.XXXV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXV.1 }
+    { \segment.08.Percussion.Voice.XXXV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -14809,7 +14809,7 @@ segment.08.Staff.XXXV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXVI.1 = {
+segment.08.Percussion.Voice.XXXVI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXVI measure 113 / measure 1]
@@ -15145,7 +15145,7 @@ segment.08.Percussion.Voice.XXXVI.1 = {
 segment.08.Percussion.Voice.XXXVI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXVI.1 }
+    { \segment.08.Percussion.Voice.XXXVI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -15265,7 +15265,7 @@ segment.08.Staff.XXXVI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXVII.1 = {
+segment.08.Percussion.Voice.XXXVII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXVII measure 113 / measure 1]
@@ -15646,7 +15646,7 @@ segment.08.Percussion.Voice.XXXVII.1 = {
 segment.08.Percussion.Voice.XXXVII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXVII.1 }
+    { \segment.08.Percussion.Voice.XXXVII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -15766,7 +15766,7 @@ segment.08.Staff.XXXVII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXVIII.1 = {
+segment.08.Percussion.Voice.XXXVIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXVIII measure 113 / measure 1]
@@ -16090,7 +16090,7 @@ segment.08.Percussion.Voice.XXXVIII.1 = {
 segment.08.Percussion.Voice.XXXVIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXVIII.1 }
+    { \segment.08.Percussion.Voice.XXXVIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -16210,7 +16210,7 @@ segment.08.Staff.XXXVIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XXXIX.1 = {
+segment.08.Percussion.Voice.XXXIX.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXIX measure 113 / measure 1]
@@ -16527,7 +16527,7 @@ segment.08.Percussion.Voice.XXXIX.1 = {
 segment.08.Percussion.Voice.XXXIX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XXXIX.1 }
+    { \segment.08.Percussion.Voice.XXXIX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -16647,7 +16647,7 @@ segment.08.Staff.XXXIX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XL.1 = {
+segment.08.Percussion.Voice.XL.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XL measure 113 / measure 1]
@@ -16860,7 +16860,7 @@ segment.08.Percussion.Voice.XL.1 = {
 segment.08.Percussion.Voice.XL = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XL.1 }
+    { \segment.08.Percussion.Voice.XL.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -16980,7 +16980,7 @@ segment.08.Staff.XL = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLI.1 = {
+segment.08.Percussion.Voice.XLI.part.1 = {
 
     %! recursif.rhythm()
     \times 2/3
@@ -17369,7 +17369,7 @@ segment.08.Percussion.Voice.XLI.1 = {
 segment.08.Percussion.Voice.XLI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLI.1 }
+    { \segment.08.Percussion.Voice.XLI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -17489,7 +17489,7 @@ segment.08.Staff.XLI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLII.1 = {
+segment.08.Percussion.Voice.XLII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLII measure 113 / measure 1]
@@ -17795,7 +17795,7 @@ segment.08.Percussion.Voice.XLII.1 = {
 segment.08.Percussion.Voice.XLII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLII.1 }
+    { \segment.08.Percussion.Voice.XLII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -17915,7 +17915,7 @@ segment.08.Staff.XLII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLIII.1 = {
+segment.08.Percussion.Voice.XLIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLIII measure 113 / measure 1]
@@ -18272,7 +18272,7 @@ segment.08.Percussion.Voice.XLIII.1 = {
 segment.08.Percussion.Voice.XLIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLIII.1 }
+    { \segment.08.Percussion.Voice.XLIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -18392,7 +18392,7 @@ segment.08.Staff.XLIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLIV.1 = {
+segment.08.Percussion.Voice.XLIV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLIV measure 113 / measure 1]
@@ -18621,7 +18621,7 @@ segment.08.Percussion.Voice.XLIV.1 = {
 segment.08.Percussion.Voice.XLIV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLIV.1 }
+    { \segment.08.Percussion.Voice.XLIV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -18741,7 +18741,7 @@ segment.08.Staff.XLIV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLV.1 = {
+segment.08.Percussion.Voice.XLV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLV measure 113 / measure 1]
@@ -19106,7 +19106,7 @@ segment.08.Percussion.Voice.XLV.1 = {
 segment.08.Percussion.Voice.XLV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLV.1 }
+    { \segment.08.Percussion.Voice.XLV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -19226,7 +19226,7 @@ segment.08.Staff.XLV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLVI.1 = {
+segment.08.Percussion.Voice.XLVI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLVI measure 113 / measure 1]
@@ -19553,7 +19553,7 @@ segment.08.Percussion.Voice.XLVI.1 = {
 segment.08.Percussion.Voice.XLVI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLVI.1 }
+    { \segment.08.Percussion.Voice.XLVI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -19673,7 +19673,7 @@ segment.08.Staff.XLVI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLVII.1 = {
+segment.08.Percussion.Voice.XLVII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLVII measure 113 / measure 1]
@@ -19926,7 +19926,7 @@ segment.08.Percussion.Voice.XLVII.1 = {
 segment.08.Percussion.Voice.XLVII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLVII.1 }
+    { \segment.08.Percussion.Voice.XLVII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -20046,7 +20046,7 @@ segment.08.Staff.XLVII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLVIII.1 = {
+segment.08.Percussion.Voice.XLVIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLVIII measure 113 / measure 1]
@@ -20256,7 +20256,7 @@ segment.08.Percussion.Voice.XLVIII.1 = {
 segment.08.Percussion.Voice.XLVIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLVIII.1 }
+    { \segment.08.Percussion.Voice.XLVIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -20376,7 +20376,7 @@ segment.08.Staff.XLVIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.XLIX.1 = {
+segment.08.Percussion.Voice.XLIX.part.1 = {
 
     %! recursif.rhythm()
     \times 2/3
@@ -20781,7 +20781,7 @@ segment.08.Percussion.Voice.XLIX.1 = {
 segment.08.Percussion.Voice.XLIX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.XLIX.1 }
+    { \segment.08.Percussion.Voice.XLIX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -20901,7 +20901,7 @@ segment.08.Staff.XLIX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.L.1 = {
+segment.08.Percussion.Voice.L.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_L measure 113 / measure 1]
@@ -21336,7 +21336,7 @@ segment.08.Percussion.Voice.L.1 = {
 segment.08.Percussion.Voice.L = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.L.1 }
+    { \segment.08.Percussion.Voice.L.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -21456,7 +21456,7 @@ segment.08.Staff.L = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LI.1 = {
+segment.08.Percussion.Voice.LI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LI measure 113 / measure 1]
@@ -21811,7 +21811,7 @@ segment.08.Percussion.Voice.LI.1 = {
 segment.08.Percussion.Voice.LI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LI.1 }
+    { \segment.08.Percussion.Voice.LI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -21931,7 +21931,7 @@ segment.08.Staff.LI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LII.1 = {
+segment.08.Percussion.Voice.LII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LII measure 113 / measure 1]
@@ -22211,7 +22211,7 @@ segment.08.Percussion.Voice.LII.1 = {
 segment.08.Percussion.Voice.LII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LII.1 }
+    { \segment.08.Percussion.Voice.LII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -22331,7 +22331,7 @@ segment.08.Staff.LII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LIII.1 = {
+segment.08.Percussion.Voice.LIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LIII measure 113 / measure 1]
@@ -22660,7 +22660,7 @@ segment.08.Percussion.Voice.LIII.1 = {
 segment.08.Percussion.Voice.LIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LIII.1 }
+    { \segment.08.Percussion.Voice.LIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -22780,7 +22780,7 @@ segment.08.Staff.LIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LIV.1 = {
+segment.08.Percussion.Voice.LIV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LIV measure 113 / measure 1]
@@ -23034,7 +23034,7 @@ segment.08.Percussion.Voice.LIV.1 = {
 segment.08.Percussion.Voice.LIV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LIV.1 }
+    { \segment.08.Percussion.Voice.LIV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -23154,7 +23154,7 @@ segment.08.Staff.LIV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LV.1 = {
+segment.08.Percussion.Voice.LV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LV measure 113 / measure 1]
@@ -23445,7 +23445,7 @@ segment.08.Percussion.Voice.LV.1 = {
 segment.08.Percussion.Voice.LV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LV.1 }
+    { \segment.08.Percussion.Voice.LV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -23565,7 +23565,7 @@ segment.08.Staff.LV = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LVI.1 = {
+segment.08.Percussion.Voice.LVI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LVI measure 113 / measure 1]
@@ -23799,7 +23799,7 @@ segment.08.Percussion.Voice.LVI.1 = {
 segment.08.Percussion.Voice.LVI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LVI.1 }
+    { \segment.08.Percussion.Voice.LVI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -23919,7 +23919,7 @@ segment.08.Staff.LVI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LVII.1 = {
+segment.08.Percussion.Voice.LVII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LVII measure 113 / measure 1]
@@ -24188,7 +24188,7 @@ segment.08.Percussion.Voice.LVII.1 = {
 segment.08.Percussion.Voice.LVII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LVII.1 }
+    { \segment.08.Percussion.Voice.LVII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -24308,7 +24308,7 @@ segment.08.Staff.LVII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LVIII.1 = {
+segment.08.Percussion.Voice.LVIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LVIII measure 113 / measure 1]
@@ -24536,7 +24536,7 @@ segment.08.Percussion.Voice.LVIII.1 = {
 segment.08.Percussion.Voice.LVIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LVIII.1 }
+    { \segment.08.Percussion.Voice.LVIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -24656,7 +24656,7 @@ segment.08.Staff.LVIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LIX.1 = {
+segment.08.Percussion.Voice.LIX.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LIX measure 113 / measure 1]
@@ -24887,7 +24887,7 @@ segment.08.Percussion.Voice.LIX.1 = {
 segment.08.Percussion.Voice.LIX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LIX.1 }
+    { \segment.08.Percussion.Voice.LIX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -25007,7 +25007,7 @@ segment.08.Staff.LIX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LX.1 = {
+segment.08.Percussion.Voice.LX.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LX measure 113 / measure 1]
@@ -25241,7 +25241,7 @@ segment.08.Percussion.Voice.LX.1 = {
 segment.08.Percussion.Voice.LX = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LX.1 }
+    { \segment.08.Percussion.Voice.LX.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -25361,7 +25361,7 @@ segment.08.Staff.LX = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LXI.1 = {
+segment.08.Percussion.Voice.LXI.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LXI measure 113 / measure 1]
@@ -25562,7 +25562,7 @@ segment.08.Percussion.Voice.LXI.1 = {
 segment.08.Percussion.Voice.LXI = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LXI.1 }
+    { \segment.08.Percussion.Voice.LXI.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -25682,7 +25682,7 @@ segment.08.Staff.LXI = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LXII.1 = {
+segment.08.Percussion.Voice.LXII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LXII measure 113 / measure 1]
@@ -25890,7 +25890,7 @@ segment.08.Percussion.Voice.LXII.1 = {
 segment.08.Percussion.Voice.LXII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LXII.1 }
+    { \segment.08.Percussion.Voice.LXII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -26010,7 +26010,7 @@ segment.08.Staff.LXII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LXIII.1 = {
+segment.08.Percussion.Voice.LXIII.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LXIII measure 113 / measure 1]
@@ -26181,7 +26181,7 @@ segment.08.Percussion.Voice.LXIII.1 = {
 segment.08.Percussion.Voice.LXIII = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LXIII.1 }
+    { \segment.08.Percussion.Voice.LXIII.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -26301,7 +26301,7 @@ segment.08.Staff.LXIII = {
 
 
 %! baca.path.extern()
-segment.08.Percussion.Voice.LXIV.1 = {
+segment.08.Percussion.Voice.LXIV.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LXIV measure 113 / measure 1]
@@ -26458,7 +26458,7 @@ segment.08.Percussion.Voice.LXIV.1 = {
 segment.08.Percussion.Voice.LXIV = {
 
     %! baca.path.extern()
-    { \segment.08.Percussion.Voice.LXIV.1 }
+    { \segment.08.Percussion.Voice.LXIV.part.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
