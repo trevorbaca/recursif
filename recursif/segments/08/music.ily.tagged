@@ -1,5 +1,5 @@
-%! baca.Path.extern()
-h_Global_Skips = {
+%! baca.path.extern()
+segment.08.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 113 / measure 1]
@@ -584,12 +584,12 @@ h_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Global_Rests = {
+%! baca.path.extern()
+segment.08.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 113 / measure 1]
@@ -680,12 +680,12 @@ h_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_I_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.I.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_I measure 113 / measure 1]
@@ -810,15 +810,15 @@ h_Percussion_Voice_I_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_I = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.I = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_I_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.I.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -919,32 +919,32 @@ h_Percussion_Voice_I = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_I = <<
+%! baca.path.extern()
+segment.08.Staff.I = <<
 
     %! abjad.ScoreTemplate._make_global_context()
     \context GlobalRests = "Global_Rests"
     %! abjad.ScoreTemplate._make_global_context()
-    %! baca.Path.extern()
-    \h_Global_Rests
+    %! baca.path.extern()
+    { \segment.08.Global.Rests }
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_I"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_I
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.I }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_II_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.II.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_II measure 113 / measure 1]
@@ -1291,15 +1291,15 @@ h_Percussion_Voice_II_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_II = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.II = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_II_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.II.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1400,26 +1400,26 @@ h_Percussion_Voice_II = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_II = {
+%! baca.path.extern()
+segment.08.Staff.II = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_II"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_II
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.II }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_III_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.III.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_III measure 113 / measure 1]
@@ -1766,15 +1766,15 @@ h_Percussion_Voice_III_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_III = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.III = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_III_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.III.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1875,26 +1875,26 @@ h_Percussion_Voice_III = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_III = {
+%! baca.path.extern()
+segment.08.Staff.III = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_III"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_III
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.III }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_IV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.IV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_IV measure 113 / measure 1]
@@ -2182,15 +2182,15 @@ h_Percussion_Voice_IV_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_IV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.IV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_IV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.IV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2291,26 +2291,26 @@ h_Percussion_Voice_IV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_IV = {
+%! baca.path.extern()
+segment.08.Staff.IV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_IV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_IV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.IV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_V_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.V.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_V measure 113 / measure 1]
@@ -2683,15 +2683,15 @@ h_Percussion_Voice_V_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_V = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.V = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_V_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.V.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2792,26 +2792,26 @@ h_Percussion_Voice_V = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_V = {
+%! baca.path.extern()
+segment.08.Staff.V = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_V"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_V
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.V }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_VI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.VI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_VI measure 113 / measure 1]
@@ -3127,15 +3127,15 @@ h_Percussion_Voice_VI_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_VI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.VI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_VI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.VI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3236,26 +3236,26 @@ h_Percussion_Voice_VI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_VI = {
+%! baca.path.extern()
+segment.08.Staff.VI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_VI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_VI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.VI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_VII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.VII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_VII measure 113 / measure 1]
@@ -3556,15 +3556,15 @@ h_Percussion_Voice_VII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_VII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.VII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_VII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.VII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3665,26 +3665,26 @@ h_Percussion_Voice_VII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_VII = {
+%! baca.path.extern()
+segment.08.Staff.VII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_VII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_VII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.VII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_VIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.VIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_VIII measure 113 / measure 1]
@@ -3865,15 +3865,15 @@ h_Percussion_Voice_VIII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_VIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.VIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_VIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.VIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3974,26 +3974,26 @@ h_Percussion_Voice_VIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_VIII = {
+%! baca.path.extern()
+segment.08.Staff.VIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_VIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_VIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.VIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_IX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.IX.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_IX measure 113 / measure 1]
@@ -4374,15 +4374,15 @@ h_Percussion_Voice_IX_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_IX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.IX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_IX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.IX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -4483,26 +4483,26 @@ h_Percussion_Voice_IX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_IX = {
+%! baca.path.extern()
+segment.08.Staff.IX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_IX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_IX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.IX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_X_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.X.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_X measure 113 / measure 1]
@@ -4800,15 +4800,15 @@ h_Percussion_Voice_X_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_X = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.X = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_X_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.X.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -4909,26 +4909,26 @@ h_Percussion_Voice_X = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_X = {
+%! baca.path.extern()
+segment.08.Staff.X = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_X"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_X
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.X }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XI measure 113 / measure 1]
@@ -5197,15 +5197,15 @@ h_Percussion_Voice_XI_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -5306,26 +5306,26 @@ h_Percussion_Voice_XI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XI = {
+%! baca.path.extern()
+segment.08.Staff.XI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XII measure 113 / measure 1]
@@ -5594,15 +5594,15 @@ h_Percussion_Voice_XII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -5703,26 +5703,26 @@ h_Percussion_Voice_XII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XII = {
+%! baca.path.extern()
+segment.08.Staff.XII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XIII measure 113 / measure 1]
@@ -6079,15 +6079,15 @@ h_Percussion_Voice_XIII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -6188,26 +6188,26 @@ h_Percussion_Voice_XIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XIII = {
+%! baca.path.extern()
+segment.08.Staff.XIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XIV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XIV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XIV measure 113 / measure 1]
@@ -6430,15 +6430,15 @@ h_Percussion_Voice_XIV_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XIV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XIV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XIV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XIV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -6539,26 +6539,26 @@ h_Percussion_Voice_XIV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XIV = {
+%! baca.path.extern()
+segment.08.Staff.XIV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XIV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XIV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XIV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XV measure 113 / measure 1]
@@ -6795,15 +6795,15 @@ h_Percussion_Voice_XV_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -6904,26 +6904,26 @@ h_Percussion_Voice_XV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XV = {
+%! baca.path.extern()
+segment.08.Staff.XV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XVI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XVI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XVI measure 113 / measure 1]
@@ -7077,15 +7077,15 @@ h_Percussion_Voice_XVI_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XVI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XVI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XVI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XVI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -7186,26 +7186,26 @@ h_Percussion_Voice_XVI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XVI = {
+%! baca.path.extern()
+segment.08.Staff.XVI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XVI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XVI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XVI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XVII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XVII.1 = {
 
     %! recursif.rhythm()
     \times 2/3
@@ -7602,15 +7602,15 @@ h_Percussion_Voice_XVII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XVII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XVII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XVII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XVII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -7711,26 +7711,26 @@ h_Percussion_Voice_XVII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XVII = {
+%! baca.path.extern()
+segment.08.Staff.XVII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XVII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XVII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XVII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XVIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XVIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XVIII measure 113 / measure 1]
@@ -8077,15 +8077,15 @@ h_Percussion_Voice_XVIII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XVIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XVIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XVIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XVIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -8186,26 +8186,26 @@ h_Percussion_Voice_XVIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XVIII = {
+%! baca.path.extern()
+segment.08.Staff.XVIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XVIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XVIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XVIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XIX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XIX.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XIX measure 113 / measure 1]
@@ -8472,15 +8472,15 @@ h_Percussion_Voice_XIX_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XIX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XIX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XIX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XIX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -8581,26 +8581,26 @@ h_Percussion_Voice_XIX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XIX = {
+%! baca.path.extern()
+segment.08.Staff.XIX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XIX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XIX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XIX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XX.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XX measure 113 / measure 1]
@@ -8864,15 +8864,15 @@ h_Percussion_Voice_XX_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -8973,26 +8973,26 @@ h_Percussion_Voice_XX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XX = {
+%! baca.path.extern()
+segment.08.Staff.XX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXI measure 113 / measure 1]
@@ -9313,15 +9313,15 @@ h_Percussion_Voice_XXI_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -9422,26 +9422,26 @@ h_Percussion_Voice_XXI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXI = {
+%! baca.path.extern()
+segment.08.Staff.XXI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXII measure 113 / measure 1]
@@ -9687,15 +9687,15 @@ h_Percussion_Voice_XXII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -9796,26 +9796,26 @@ h_Percussion_Voice_XXII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXII = {
+%! baca.path.extern()
+segment.08.Staff.XXII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXIII measure 113 / measure 1]
@@ -10090,15 +10090,15 @@ h_Percussion_Voice_XXIII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -10199,26 +10199,26 @@ h_Percussion_Voice_XXIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXIII = {
+%! baca.path.extern()
+segment.08.Staff.XXIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXIV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXIV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXIV measure 113 / measure 1]
@@ -10420,15 +10420,15 @@ h_Percussion_Voice_XXIV_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXIV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXIV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXIV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXIV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -10529,26 +10529,26 @@ h_Percussion_Voice_XXIV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXIV = {
+%! baca.path.extern()
+segment.08.Staff.XXIV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXIV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXIV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXIV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXV measure 113 / measure 1]
@@ -10913,15 +10913,15 @@ h_Percussion_Voice_XXV_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -11022,26 +11022,26 @@ h_Percussion_Voice_XXV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXV = {
+%! baca.path.extern()
+segment.08.Staff.XXV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXVI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXVI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXVI measure 113 / measure 1]
@@ -11297,15 +11297,15 @@ h_Percussion_Voice_XXVI_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXVI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXVI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXVI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXVI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -11406,26 +11406,26 @@ h_Percussion_Voice_XXVI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXVI = {
+%! baca.path.extern()
+segment.08.Staff.XXVI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXVI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXVI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXVI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXVII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXVII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXVII measure 113 / measure 1]
@@ -11700,15 +11700,15 @@ h_Percussion_Voice_XXVII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXVII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXVII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXVII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXVII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -11809,26 +11809,26 @@ h_Percussion_Voice_XXVII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXVII = {
+%! baca.path.extern()
+segment.08.Staff.XXVII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXVII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXVII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXVII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXVIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXVIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXVIII measure 113 / measure 1]
@@ -12032,15 +12032,15 @@ h_Percussion_Voice_XXVIII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXVIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXVIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXVIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXVIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12141,26 +12141,26 @@ h_Percussion_Voice_XXVIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXVIII = {
+%! baca.path.extern()
+segment.08.Staff.XXVIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXVIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXVIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXVIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXIX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXIX.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXIX measure 113 / measure 1]
@@ -12405,15 +12405,15 @@ h_Percussion_Voice_XXIX_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXIX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXIX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXIX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXIX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12514,26 +12514,26 @@ h_Percussion_Voice_XXIX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXIX = {
+%! baca.path.extern()
+segment.08.Staff.XXIX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXIX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXIX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXIX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXX.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXX measure 113 / measure 1]
@@ -12711,15 +12711,15 @@ h_Percussion_Voice_XXX_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -12820,26 +12820,26 @@ h_Percussion_Voice_XXX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXX = {
+%! baca.path.extern()
+segment.08.Staff.XXX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXI measure 113 / measure 1]
@@ -13020,15 +13020,15 @@ h_Percussion_Voice_XXXI_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -13129,26 +13129,26 @@ h_Percussion_Voice_XXXI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXI = {
+%! baca.path.extern()
+segment.08.Staff.XXXI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXII measure 113 / measure 1]
@@ -13286,15 +13286,15 @@ h_Percussion_Voice_XXXII_a = {
     %! recursif.rhythm()
     c'2
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -13395,26 +13395,26 @@ h_Percussion_Voice_XXXII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXII = {
+%! baca.path.extern()
+segment.08.Staff.XXXII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXIII measure 113 / measure 1]
@@ -13731,15 +13731,15 @@ h_Percussion_Voice_XXXIII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -13840,26 +13840,26 @@ h_Percussion_Voice_XXXIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXIII = {
+%! baca.path.extern()
+segment.08.Staff.XXXIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXIV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXIV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXIV measure 113 / measure 1]
@@ -14206,15 +14206,15 @@ h_Percussion_Voice_XXXIV_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXIV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXIV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXIV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXIV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -14315,26 +14315,26 @@ h_Percussion_Voice_XXXIV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXIV = {
+%! baca.path.extern()
+segment.08.Staff.XXXIV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXIV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXIV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXIV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXV measure 113 / measure 1]
@@ -14681,15 +14681,15 @@ h_Percussion_Voice_XXXV_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -14790,26 +14790,26 @@ h_Percussion_Voice_XXXV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXV = {
+%! baca.path.extern()
+segment.08.Staff.XXXV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXVI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXVI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXVI measure 113 / measure 1]
@@ -15137,15 +15137,15 @@ h_Percussion_Voice_XXXVI_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXVI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXVI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXVI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXVI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -15246,26 +15246,26 @@ h_Percussion_Voice_XXXVI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXVI = {
+%! baca.path.extern()
+segment.08.Staff.XXXVI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXVI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXVI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXVI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXVII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXVII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXVII measure 113 / measure 1]
@@ -15638,15 +15638,15 @@ h_Percussion_Voice_XXXVII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXVII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXVII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXVII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXVII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -15747,26 +15747,26 @@ h_Percussion_Voice_XXXVII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXVII = {
+%! baca.path.extern()
+segment.08.Staff.XXXVII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXVII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXVII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXVII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXVIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXVIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXVIII measure 113 / measure 1]
@@ -16082,15 +16082,15 @@ h_Percussion_Voice_XXXVIII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXVIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXVIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXVIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXVIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -16191,26 +16191,26 @@ h_Percussion_Voice_XXXVIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXVIII = {
+%! baca.path.extern()
+segment.08.Staff.XXXVIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXVIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXVIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXVIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXIX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXIX.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XXXIX measure 113 / measure 1]
@@ -16519,15 +16519,15 @@ h_Percussion_Voice_XXXIX_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XXXIX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XXXIX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXIX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXIX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -16628,26 +16628,26 @@ h_Percussion_Voice_XXXIX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XXXIX = {
+%! baca.path.extern()
+segment.08.Staff.XXXIX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XXXIX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XXXIX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XXXIX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XL_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XL.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XL measure 113 / measure 1]
@@ -16852,15 +16852,15 @@ h_Percussion_Voice_XL_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XL = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XL = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XL_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XL.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -16961,26 +16961,26 @@ h_Percussion_Voice_XL = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XL = {
+%! baca.path.extern()
+segment.08.Staff.XL = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XL"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XL
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XL }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLI.1 = {
 
     %! recursif.rhythm()
     \times 2/3
@@ -17361,15 +17361,15 @@ h_Percussion_Voice_XLI_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -17470,26 +17470,26 @@ h_Percussion_Voice_XLI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLI = {
+%! baca.path.extern()
+segment.08.Staff.XLI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLII measure 113 / measure 1]
@@ -17787,15 +17787,15 @@ h_Percussion_Voice_XLII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -17896,26 +17896,26 @@ h_Percussion_Voice_XLII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLII = {
+%! baca.path.extern()
+segment.08.Staff.XLII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLIII measure 113 / measure 1]
@@ -18264,15 +18264,15 @@ h_Percussion_Voice_XLIII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -18373,26 +18373,26 @@ h_Percussion_Voice_XLIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLIII = {
+%! baca.path.extern()
+segment.08.Staff.XLIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLIV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLIV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLIV measure 113 / measure 1]
@@ -18613,15 +18613,15 @@ h_Percussion_Voice_XLIV_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLIV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLIV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLIV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLIV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -18722,26 +18722,26 @@ h_Percussion_Voice_XLIV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLIV = {
+%! baca.path.extern()
+segment.08.Staff.XLIV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLIV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLIV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLIV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLV measure 113 / measure 1]
@@ -19098,15 +19098,15 @@ h_Percussion_Voice_XLV_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -19207,26 +19207,26 @@ h_Percussion_Voice_XLV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLV = {
+%! baca.path.extern()
+segment.08.Staff.XLV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLVI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLVI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLVI measure 113 / measure 1]
@@ -19545,15 +19545,15 @@ h_Percussion_Voice_XLVI_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLVI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLVI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLVI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLVI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -19654,26 +19654,26 @@ h_Percussion_Voice_XLVI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLVI = {
+%! baca.path.extern()
+segment.08.Staff.XLVI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLVI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLVI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLVI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLVII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLVII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLVII measure 113 / measure 1]
@@ -19918,15 +19918,15 @@ h_Percussion_Voice_XLVII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLVII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLVII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLVII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLVII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -20027,26 +20027,26 @@ h_Percussion_Voice_XLVII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLVII = {
+%! baca.path.extern()
+segment.08.Staff.XLVII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLVII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLVII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLVII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLVIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLVIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_XLVIII measure 113 / measure 1]
@@ -20248,15 +20248,15 @@ h_Percussion_Voice_XLVIII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLVIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLVIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLVIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLVIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -20357,26 +20357,26 @@ h_Percussion_Voice_XLVIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLVIII = {
+%! baca.path.extern()
+segment.08.Staff.XLVIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLVIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLVIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLVIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLIX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLIX.1 = {
 
     %! recursif.rhythm()
     \times 2/3
@@ -20773,15 +20773,15 @@ h_Percussion_Voice_XLIX_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_XLIX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.XLIX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLIX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLIX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -20882,26 +20882,26 @@ h_Percussion_Voice_XLIX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_XLIX = {
+%! baca.path.extern()
+segment.08.Staff.XLIX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_XLIX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_XLIX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.XLIX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_L_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.L.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_L measure 113 / measure 1]
@@ -21328,15 +21328,15 @@ h_Percussion_Voice_L_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_L = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.L = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_L_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.L.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -21437,26 +21437,26 @@ h_Percussion_Voice_L = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_L = {
+%! baca.path.extern()
+segment.08.Staff.L = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_L"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_L
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.L }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LI measure 113 / measure 1]
@@ -21803,15 +21803,15 @@ h_Percussion_Voice_LI_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -21912,26 +21912,26 @@ h_Percussion_Voice_LI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LI = {
+%! baca.path.extern()
+segment.08.Staff.LI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LII measure 113 / measure 1]
@@ -22203,15 +22203,15 @@ h_Percussion_Voice_LII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -22312,26 +22312,26 @@ h_Percussion_Voice_LII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LII = {
+%! baca.path.extern()
+segment.08.Staff.LII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LIII measure 113 / measure 1]
@@ -22652,15 +22652,15 @@ h_Percussion_Voice_LIII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -22761,26 +22761,26 @@ h_Percussion_Voice_LIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LIII = {
+%! baca.path.extern()
+segment.08.Staff.LIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LIV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LIV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LIV measure 113 / measure 1]
@@ -23026,15 +23026,15 @@ h_Percussion_Voice_LIV_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LIV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LIV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LIV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LIV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -23135,26 +23135,26 @@ h_Percussion_Voice_LIV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LIV = {
+%! baca.path.extern()
+segment.08.Staff.LIV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LIV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LIV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LIV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LV measure 113 / measure 1]
@@ -23437,15 +23437,15 @@ h_Percussion_Voice_LV_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -23546,26 +23546,26 @@ h_Percussion_Voice_LV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LV = {
+%! baca.path.extern()
+segment.08.Staff.LV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LVI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LVI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LVI measure 113 / measure 1]
@@ -23791,15 +23791,15 @@ h_Percussion_Voice_LVI_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LVI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LVI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LVI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LVI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -23900,26 +23900,26 @@ h_Percussion_Voice_LVI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LVI = {
+%! baca.path.extern()
+segment.08.Staff.LVI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LVI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LVI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LVI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LVII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LVII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LVII measure 113 / measure 1]
@@ -24180,15 +24180,15 @@ h_Percussion_Voice_LVII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LVII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LVII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LVII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LVII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -24289,26 +24289,26 @@ h_Percussion_Voice_LVII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LVII = {
+%! baca.path.extern()
+segment.08.Staff.LVII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LVII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LVII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LVII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LVIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LVIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LVIII measure 113 / measure 1]
@@ -24528,15 +24528,15 @@ h_Percussion_Voice_LVIII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LVIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LVIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LVIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LVIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -24637,26 +24637,26 @@ h_Percussion_Voice_LVIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LVIII = {
+%! baca.path.extern()
+segment.08.Staff.LVIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LVIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LVIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LVIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LIX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LIX.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LIX measure 113 / measure 1]
@@ -24879,15 +24879,15 @@ h_Percussion_Voice_LIX_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LIX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LIX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LIX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LIX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -24988,26 +24988,26 @@ h_Percussion_Voice_LIX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LIX = {
+%! baca.path.extern()
+segment.08.Staff.LIX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LIX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LIX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LIX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LX_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LX.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LX measure 113 / measure 1]
@@ -25233,15 +25233,15 @@ h_Percussion_Voice_LX_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LX = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LX = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LX_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LX.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -25342,26 +25342,26 @@ h_Percussion_Voice_LX = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LX = {
+%! baca.path.extern()
+segment.08.Staff.LX = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LX"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LX
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LX }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LXI_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LXI.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LXI measure 113 / measure 1]
@@ -25554,15 +25554,15 @@ h_Percussion_Voice_LXI_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LXI = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LXI = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LXI_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LXI.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -25663,26 +25663,26 @@ h_Percussion_Voice_LXI = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LXI = {
+%! baca.path.extern()
+segment.08.Staff.LXI = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LXI"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LXI
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LXI }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LXII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LXII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LXII measure 113 / measure 1]
@@ -25882,15 +25882,15 @@ h_Percussion_Voice_LXII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LXII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LXII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LXII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LXII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -25991,26 +25991,26 @@ h_Percussion_Voice_LXII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LXII = {
+%! baca.path.extern()
+segment.08.Staff.LXII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LXII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LXII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LXII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LXIII_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LXIII.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LXIII measure 113 / measure 1]
@@ -26173,15 +26173,15 @@ h_Percussion_Voice_LXIII_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LXIII = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LXIII = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LXIII_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LXIII.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -26282,26 +26282,26 @@ h_Percussion_Voice_LXIII = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LXIII = {
+%! baca.path.extern()
+segment.08.Staff.LXIII = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LXIII"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LXIII
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LXIII }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LXIV_a = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LXIV.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Voice_LXIV measure 113 / measure 1]
@@ -26450,15 +26450,15 @@ h_Percussion_Voice_LXIV_a = {
     %! recursif.rhythm()
     }
 
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Percussion_Voice_LXIV = {
+%! baca.path.extern()
+segment.08.Percussion.Voice.LXIV = {
 
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LXIV_a
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LXIV.1 }
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -26559,19 +26559,19 @@ h_Percussion_Voice_LXIV = {
     >>
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-h_Staff_LXIV = {
+%! baca.path.extern()
+segment.08.Staff.LXIV = {
 
     %! recursif.ScoreTemplate.__call__()
     \context Voice = "Percussion_Voice_LXIV"
     %! recursif.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \h_Percussion_Voice_LXIV
+    %! baca.path.extern()
+    { \segment.08.Percussion.Voice.LXIV }
 
 %! recursif.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }

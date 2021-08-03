@@ -1,4 +1,4 @@
-a_Global_Skips = {
+segment.01.Global.Skips = {
 
     % [Global_Skips measure 1]
     \time 2/4
@@ -64,7 +64,7 @@ a_Global_Skips = {
 }
 
 
-a_Global_Rests = {
+segment.01.Global.Rests = {
 
     % [Global_Rests measure 1]
     R1 * 1/2
@@ -120,7 +120,7 @@ a_Global_Rests = {
 }
 
 
-a_Percussion_Voice_I_a = {
+segment.01.Percussion.Voice.I.1 = {
 
     % [Percussion_Voice_I measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 1
@@ -186,9 +186,9 @@ a_Percussion_Voice_I_a = {
 }
 
 
-a_Percussion_Voice_I = {
+segment.01.Percussion.Voice.I = {
 
-    \a_Percussion_Voice_I_a
+    { \segment.01.Percussion.Voice.I.1 }
 
     <<
 
@@ -220,18 +220,18 @@ a_Percussion_Voice_I = {
 }
 
 
-a_Staff_I = <<
+segment.01.Staff.I = <<
 
     \context GlobalRests = "Global_Rests"
-    \a_Global_Rests
+    { \segment.01.Global.Rests }
 
     \context Voice = "Percussion_Voice_I"
-    \a_Percussion_Voice_I
+    { \segment.01.Percussion.Voice.I }
 
 >>
 
 
-a_Percussion_Voice_II_a = {
+segment.01.Percussion.Voice.II.1 = {
 
     % [Percussion_Voice_II measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 2
@@ -437,9 +437,9 @@ a_Percussion_Voice_II_a = {
 }
 
 
-a_Percussion_Voice_II = {
+segment.01.Percussion.Voice.II = {
 
-    \a_Percussion_Voice_II_a
+    { \segment.01.Percussion.Voice.II.1 }
 
     <<
 
@@ -471,15 +471,15 @@ a_Percussion_Voice_II = {
 }
 
 
-a_Staff_II = {
+segment.01.Staff.II = {
 
     \context Voice = "Percussion_Voice_II"
-    \a_Percussion_Voice_II
+    { \segment.01.Percussion.Voice.II }
 
 }
 
 
-a_Percussion_Voice_III_a = {
+segment.01.Percussion.Voice.III.1 = {
 
     % [Percussion_Voice_III measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 3
@@ -685,9 +685,9 @@ a_Percussion_Voice_III_a = {
 }
 
 
-a_Percussion_Voice_III = {
+segment.01.Percussion.Voice.III = {
 
-    \a_Percussion_Voice_III_a
+    { \segment.01.Percussion.Voice.III.1 }
 
     <<
 
@@ -719,15 +719,15 @@ a_Percussion_Voice_III = {
 }
 
 
-a_Staff_III = {
+segment.01.Staff.III = {
 
     \context Voice = "Percussion_Voice_III"
-    \a_Percussion_Voice_III
+    { \segment.01.Percussion.Voice.III }
 
 }
 
 
-a_Percussion_Voice_IV_a = {
+segment.01.Percussion.Voice.IV.1 = {
 
     % [Percussion_Voice_IV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 4
@@ -895,9 +895,9 @@ a_Percussion_Voice_IV_a = {
 }
 
 
-a_Percussion_Voice_IV = {
+segment.01.Percussion.Voice.IV = {
 
-    \a_Percussion_Voice_IV_a
+    { \segment.01.Percussion.Voice.IV.1 }
 
     <<
 
@@ -929,15 +929,15 @@ a_Percussion_Voice_IV = {
 }
 
 
-a_Staff_IV = {
+segment.01.Staff.IV = {
 
     \context Voice = "Percussion_Voice_IV"
-    \a_Percussion_Voice_IV
+    { \segment.01.Percussion.Voice.IV }
 
 }
 
 
-a_Percussion_Voice_V_a = {
+segment.01.Percussion.Voice.V.1 = {
 
     % [Percussion_Voice_V measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 5
@@ -1127,9 +1127,9 @@ a_Percussion_Voice_V_a = {
 }
 
 
-a_Percussion_Voice_V = {
+segment.01.Percussion.Voice.V = {
 
-    \a_Percussion_Voice_V_a
+    { \segment.01.Percussion.Voice.V.1 }
 
     <<
 
@@ -1161,15 +1161,15 @@ a_Percussion_Voice_V = {
 }
 
 
-a_Staff_V = {
+segment.01.Staff.V = {
 
     \context Voice = "Percussion_Voice_V"
-    \a_Percussion_Voice_V
+    { \segment.01.Percussion.Voice.V }
 
 }
 
 
-a_Percussion_Voice_VI_a = {
+segment.01.Percussion.Voice.VI.1 = {
 
     % [Percussion_Voice_VI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 6
@@ -1309,9 +1309,9 @@ a_Percussion_Voice_VI_a = {
 }
 
 
-a_Percussion_Voice_VI = {
+segment.01.Percussion.Voice.VI = {
 
-    \a_Percussion_Voice_VI_a
+    { \segment.01.Percussion.Voice.VI.1 }
 
     <<
 
@@ -1343,15 +1343,15 @@ a_Percussion_Voice_VI = {
 }
 
 
-a_Staff_VI = {
+segment.01.Staff.VI = {
 
     \context Voice = "Percussion_Voice_VI"
-    \a_Percussion_Voice_VI
+    { \segment.01.Percussion.Voice.VI }
 
 }
 
 
-a_Percussion_Voice_VII_a = {
+segment.01.Percussion.Voice.VII.1 = {
 
     % [Percussion_Voice_VII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 7
@@ -1511,9 +1511,9 @@ a_Percussion_Voice_VII_a = {
 }
 
 
-a_Percussion_Voice_VII = {
+segment.01.Percussion.Voice.VII = {
 
-    \a_Percussion_Voice_VII_a
+    { \segment.01.Percussion.Voice.VII.1 }
 
     <<
 
@@ -1545,15 +1545,15 @@ a_Percussion_Voice_VII = {
 }
 
 
-a_Staff_VII = {
+segment.01.Staff.VII = {
 
     \context Voice = "Percussion_Voice_VII"
-    \a_Percussion_Voice_VII
+    { \segment.01.Percussion.Voice.VII }
 
 }
 
 
-a_Percussion_Voice_VIII_a = {
+segment.01.Percussion.Voice.VIII.1 = {
 
     % [Percussion_Voice_VIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 8
@@ -1686,9 +1686,9 @@ a_Percussion_Voice_VIII_a = {
 }
 
 
-a_Percussion_Voice_VIII = {
+segment.01.Percussion.Voice.VIII = {
 
-    \a_Percussion_Voice_VIII_a
+    { \segment.01.Percussion.Voice.VIII.1 }
 
     <<
 
@@ -1720,15 +1720,15 @@ a_Percussion_Voice_VIII = {
 }
 
 
-a_Staff_VIII = {
+segment.01.Staff.VIII = {
 
     \context Voice = "Percussion_Voice_VIII"
-    \a_Percussion_Voice_VIII
+    { \segment.01.Percussion.Voice.VIII }
 
 }
 
 
-a_Percussion_Voice_IX_a = {
+segment.01.Percussion.Voice.IX.1 = {
 
     % [Percussion_Voice_IX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 9
@@ -1880,9 +1880,9 @@ a_Percussion_Voice_IX_a = {
 }
 
 
-a_Percussion_Voice_IX = {
+segment.01.Percussion.Voice.IX = {
 
-    \a_Percussion_Voice_IX_a
+    { \segment.01.Percussion.Voice.IX.1 }
 
     <<
 
@@ -1914,15 +1914,15 @@ a_Percussion_Voice_IX = {
 }
 
 
-a_Staff_IX = {
+segment.01.Staff.IX = {
 
     \context Voice = "Percussion_Voice_IX"
-    \a_Percussion_Voice_IX
+    { \segment.01.Percussion.Voice.IX }
 
 }
 
 
-a_Percussion_Voice_X_a = {
+segment.01.Percussion.Voice.X.1 = {
 
     % [Percussion_Voice_X measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 10
@@ -2073,9 +2073,9 @@ a_Percussion_Voice_X_a = {
 }
 
 
-a_Percussion_Voice_X = {
+segment.01.Percussion.Voice.X = {
 
-    \a_Percussion_Voice_X_a
+    { \segment.01.Percussion.Voice.X.1 }
 
     <<
 
@@ -2107,15 +2107,15 @@ a_Percussion_Voice_X = {
 }
 
 
-a_Staff_X = {
+segment.01.Staff.X = {
 
     \context Voice = "Percussion_Voice_X"
-    \a_Percussion_Voice_X
+    { \segment.01.Percussion.Voice.X }
 
 }
 
 
-a_Percussion_Voice_XI_a = {
+segment.01.Percussion.Voice.XI.1 = {
 
     % [Percussion_Voice_XI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 11
@@ -2218,9 +2218,9 @@ a_Percussion_Voice_XI_a = {
 }
 
 
-a_Percussion_Voice_XI = {
+segment.01.Percussion.Voice.XI = {
 
-    \a_Percussion_Voice_XI_a
+    { \segment.01.Percussion.Voice.XI.1 }
 
     <<
 
@@ -2252,15 +2252,15 @@ a_Percussion_Voice_XI = {
 }
 
 
-a_Staff_XI = {
+segment.01.Staff.XI = {
 
     \context Voice = "Percussion_Voice_XI"
-    \a_Percussion_Voice_XI
+    { \segment.01.Percussion.Voice.XI }
 
 }
 
 
-a_Percussion_Voice_XII_a = {
+segment.01.Percussion.Voice.XII.1 = {
 
     % [Percussion_Voice_XII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 12
@@ -2372,9 +2372,9 @@ a_Percussion_Voice_XII_a = {
 }
 
 
-a_Percussion_Voice_XII = {
+segment.01.Percussion.Voice.XII = {
 
-    \a_Percussion_Voice_XII_a
+    { \segment.01.Percussion.Voice.XII.1 }
 
     <<
 
@@ -2406,15 +2406,15 @@ a_Percussion_Voice_XII = {
 }
 
 
-a_Staff_XII = {
+segment.01.Staff.XII = {
 
     \context Voice = "Percussion_Voice_XII"
-    \a_Percussion_Voice_XII
+    { \segment.01.Percussion.Voice.XII }
 
 }
 
 
-a_Percussion_Voice_XIII_a = {
+segment.01.Percussion.Voice.XIII.1 = {
 
     % [Percussion_Voice_XIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 13
@@ -2523,9 +2523,9 @@ a_Percussion_Voice_XIII_a = {
 }
 
 
-a_Percussion_Voice_XIII = {
+segment.01.Percussion.Voice.XIII = {
 
-    \a_Percussion_Voice_XIII_a
+    { \segment.01.Percussion.Voice.XIII.1 }
 
     <<
 
@@ -2557,15 +2557,15 @@ a_Percussion_Voice_XIII = {
 }
 
 
-a_Staff_XIII = {
+segment.01.Staff.XIII = {
 
     \context Voice = "Percussion_Voice_XIII"
-    \a_Percussion_Voice_XIII
+    { \segment.01.Percussion.Voice.XIII }
 
 }
 
 
-a_Percussion_Voice_XIV_a = {
+segment.01.Percussion.Voice.XIV.1 = {
 
     % [Percussion_Voice_XIV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 14
@@ -2671,9 +2671,9 @@ a_Percussion_Voice_XIV_a = {
 }
 
 
-a_Percussion_Voice_XIV = {
+segment.01.Percussion.Voice.XIV = {
 
-    \a_Percussion_Voice_XIV_a
+    { \segment.01.Percussion.Voice.XIV.1 }
 
     <<
 
@@ -2705,15 +2705,15 @@ a_Percussion_Voice_XIV = {
 }
 
 
-a_Staff_XIV = {
+segment.01.Staff.XIV = {
 
     \context Voice = "Percussion_Voice_XIV"
-    \a_Percussion_Voice_XIV
+    { \segment.01.Percussion.Voice.XIV }
 
 }
 
 
-a_Percussion_Voice_XV_a = {
+segment.01.Percussion.Voice.XV.1 = {
 
     % [Percussion_Voice_XV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 15
@@ -2798,9 +2798,9 @@ a_Percussion_Voice_XV_a = {
 }
 
 
-a_Percussion_Voice_XV = {
+segment.01.Percussion.Voice.XV = {
 
-    \a_Percussion_Voice_XV_a
+    { \segment.01.Percussion.Voice.XV.1 }
 
     <<
 
@@ -2832,15 +2832,15 @@ a_Percussion_Voice_XV = {
 }
 
 
-a_Staff_XV = {
+segment.01.Staff.XV = {
 
     \context Voice = "Percussion_Voice_XV"
-    \a_Percussion_Voice_XV
+    { \segment.01.Percussion.Voice.XV }
 
 }
 
 
-a_Percussion_Voice_XVI_a = {
+segment.01.Percussion.Voice.XVI.1 = {
 
     % [Percussion_Voice_XVI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 16
@@ -2925,9 +2925,9 @@ a_Percussion_Voice_XVI_a = {
 }
 
 
-a_Percussion_Voice_XVI = {
+segment.01.Percussion.Voice.XVI = {
 
-    \a_Percussion_Voice_XVI_a
+    { \segment.01.Percussion.Voice.XVI.1 }
 
     <<
 
@@ -2959,15 +2959,15 @@ a_Percussion_Voice_XVI = {
 }
 
 
-a_Staff_XVI = {
+segment.01.Staff.XVI = {
 
     \context Voice = "Percussion_Voice_XVI"
-    \a_Percussion_Voice_XVI
+    { \segment.01.Percussion.Voice.XVI }
 
 }
 
 
-a_Percussion_Voice_XVII_a = {
+segment.01.Percussion.Voice.XVII.1 = {
 
     % [Percussion_Voice_XVII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 17
@@ -3033,9 +3033,9 @@ a_Percussion_Voice_XVII_a = {
 }
 
 
-a_Percussion_Voice_XVII = {
+segment.01.Percussion.Voice.XVII = {
 
-    \a_Percussion_Voice_XVII_a
+    { \segment.01.Percussion.Voice.XVII.1 }
 
     <<
 
@@ -3067,15 +3067,15 @@ a_Percussion_Voice_XVII = {
 }
 
 
-a_Staff_XVII = {
+segment.01.Staff.XVII = {
 
     \context Voice = "Percussion_Voice_XVII"
-    \a_Percussion_Voice_XVII
+    { \segment.01.Percussion.Voice.XVII }
 
 }
 
 
-a_Percussion_Voice_XVIII_a = {
+segment.01.Percussion.Voice.XVIII.1 = {
 
     % [Percussion_Voice_XVIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 18
@@ -3141,9 +3141,9 @@ a_Percussion_Voice_XVIII_a = {
 }
 
 
-a_Percussion_Voice_XVIII = {
+segment.01.Percussion.Voice.XVIII = {
 
-    \a_Percussion_Voice_XVIII_a
+    { \segment.01.Percussion.Voice.XVIII.1 }
 
     <<
 
@@ -3175,15 +3175,15 @@ a_Percussion_Voice_XVIII = {
 }
 
 
-a_Staff_XVIII = {
+segment.01.Staff.XVIII = {
 
     \context Voice = "Percussion_Voice_XVIII"
-    \a_Percussion_Voice_XVIII
+    { \segment.01.Percussion.Voice.XVIII }
 
 }
 
 
-a_Percussion_Voice_XIX_a = {
+segment.01.Percussion.Voice.XIX.1 = {
 
     % [Percussion_Voice_XIX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 19
@@ -3249,9 +3249,9 @@ a_Percussion_Voice_XIX_a = {
 }
 
 
-a_Percussion_Voice_XIX = {
+segment.01.Percussion.Voice.XIX = {
 
-    \a_Percussion_Voice_XIX_a
+    { \segment.01.Percussion.Voice.XIX.1 }
 
     <<
 
@@ -3283,15 +3283,15 @@ a_Percussion_Voice_XIX = {
 }
 
 
-a_Staff_XIX = {
+segment.01.Staff.XIX = {
 
     \context Voice = "Percussion_Voice_XIX"
-    \a_Percussion_Voice_XIX
+    { \segment.01.Percussion.Voice.XIX }
 
 }
 
 
-a_Percussion_Voice_XX_a = {
+segment.01.Percussion.Voice.XX.1 = {
 
     % [Percussion_Voice_XX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 20
@@ -3357,9 +3357,9 @@ a_Percussion_Voice_XX_a = {
 }
 
 
-a_Percussion_Voice_XX = {
+segment.01.Percussion.Voice.XX = {
 
-    \a_Percussion_Voice_XX_a
+    { \segment.01.Percussion.Voice.XX.1 }
 
     <<
 
@@ -3391,15 +3391,15 @@ a_Percussion_Voice_XX = {
 }
 
 
-a_Staff_XX = {
+segment.01.Staff.XX = {
 
     \context Voice = "Percussion_Voice_XX"
-    \a_Percussion_Voice_XX
+    { \segment.01.Percussion.Voice.XX }
 
 }
 
 
-a_Percussion_Voice_XXI_a = {
+segment.01.Percussion.Voice.XXI.1 = {
 
     % [Percussion_Voice_XXI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 21
@@ -3465,9 +3465,9 @@ a_Percussion_Voice_XXI_a = {
 }
 
 
-a_Percussion_Voice_XXI = {
+segment.01.Percussion.Voice.XXI = {
 
-    \a_Percussion_Voice_XXI_a
+    { \segment.01.Percussion.Voice.XXI.1 }
 
     <<
 
@@ -3499,15 +3499,15 @@ a_Percussion_Voice_XXI = {
 }
 
 
-a_Staff_XXI = {
+segment.01.Staff.XXI = {
 
     \context Voice = "Percussion_Voice_XXI"
-    \a_Percussion_Voice_XXI
+    { \segment.01.Percussion.Voice.XXI }
 
 }
 
 
-a_Percussion_Voice_XXII_a = {
+segment.01.Percussion.Voice.XXII.1 = {
 
     % [Percussion_Voice_XXII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 22
@@ -3573,9 +3573,9 @@ a_Percussion_Voice_XXII_a = {
 }
 
 
-a_Percussion_Voice_XXII = {
+segment.01.Percussion.Voice.XXII = {
 
-    \a_Percussion_Voice_XXII_a
+    { \segment.01.Percussion.Voice.XXII.1 }
 
     <<
 
@@ -3607,15 +3607,15 @@ a_Percussion_Voice_XXII = {
 }
 
 
-a_Staff_XXII = {
+segment.01.Staff.XXII = {
 
     \context Voice = "Percussion_Voice_XXII"
-    \a_Percussion_Voice_XXII
+    { \segment.01.Percussion.Voice.XXII }
 
 }
 
 
-a_Percussion_Voice_XXIII_a = {
+segment.01.Percussion.Voice.XXIII.1 = {
 
     % [Percussion_Voice_XXIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 23
@@ -3681,9 +3681,9 @@ a_Percussion_Voice_XXIII_a = {
 }
 
 
-a_Percussion_Voice_XXIII = {
+segment.01.Percussion.Voice.XXIII = {
 
-    \a_Percussion_Voice_XXIII_a
+    { \segment.01.Percussion.Voice.XXIII.1 }
 
     <<
 
@@ -3715,15 +3715,15 @@ a_Percussion_Voice_XXIII = {
 }
 
 
-a_Staff_XXIII = {
+segment.01.Staff.XXIII = {
 
     \context Voice = "Percussion_Voice_XXIII"
-    \a_Percussion_Voice_XXIII
+    { \segment.01.Percussion.Voice.XXIII }
 
 }
 
 
-a_Percussion_Voice_XXIV_a = {
+segment.01.Percussion.Voice.XXIV.1 = {
 
     % [Percussion_Voice_XXIV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 24
@@ -3789,9 +3789,9 @@ a_Percussion_Voice_XXIV_a = {
 }
 
 
-a_Percussion_Voice_XXIV = {
+segment.01.Percussion.Voice.XXIV = {
 
-    \a_Percussion_Voice_XXIV_a
+    { \segment.01.Percussion.Voice.XXIV.1 }
 
     <<
 
@@ -3823,15 +3823,15 @@ a_Percussion_Voice_XXIV = {
 }
 
 
-a_Staff_XXIV = {
+segment.01.Staff.XXIV = {
 
     \context Voice = "Percussion_Voice_XXIV"
-    \a_Percussion_Voice_XXIV
+    { \segment.01.Percussion.Voice.XXIV }
 
 }
 
 
-a_Percussion_Voice_XXV_a = {
+segment.01.Percussion.Voice.XXV.1 = {
 
     % [Percussion_Voice_XXV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 25
@@ -3897,9 +3897,9 @@ a_Percussion_Voice_XXV_a = {
 }
 
 
-a_Percussion_Voice_XXV = {
+segment.01.Percussion.Voice.XXV = {
 
-    \a_Percussion_Voice_XXV_a
+    { \segment.01.Percussion.Voice.XXV.1 }
 
     <<
 
@@ -3931,15 +3931,15 @@ a_Percussion_Voice_XXV = {
 }
 
 
-a_Staff_XXV = {
+segment.01.Staff.XXV = {
 
     \context Voice = "Percussion_Voice_XXV"
-    \a_Percussion_Voice_XXV
+    { \segment.01.Percussion.Voice.XXV }
 
 }
 
 
-a_Percussion_Voice_XXVI_a = {
+segment.01.Percussion.Voice.XXVI.1 = {
 
     % [Percussion_Voice_XXVI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 26
@@ -4005,9 +4005,9 @@ a_Percussion_Voice_XXVI_a = {
 }
 
 
-a_Percussion_Voice_XXVI = {
+segment.01.Percussion.Voice.XXVI = {
 
-    \a_Percussion_Voice_XXVI_a
+    { \segment.01.Percussion.Voice.XXVI.1 }
 
     <<
 
@@ -4039,15 +4039,15 @@ a_Percussion_Voice_XXVI = {
 }
 
 
-a_Staff_XXVI = {
+segment.01.Staff.XXVI = {
 
     \context Voice = "Percussion_Voice_XXVI"
-    \a_Percussion_Voice_XXVI
+    { \segment.01.Percussion.Voice.XXVI }
 
 }
 
 
-a_Percussion_Voice_XXVII_a = {
+segment.01.Percussion.Voice.XXVII.1 = {
 
     % [Percussion_Voice_XXVII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 27
@@ -4113,9 +4113,9 @@ a_Percussion_Voice_XXVII_a = {
 }
 
 
-a_Percussion_Voice_XXVII = {
+segment.01.Percussion.Voice.XXVII = {
 
-    \a_Percussion_Voice_XXVII_a
+    { \segment.01.Percussion.Voice.XXVII.1 }
 
     <<
 
@@ -4147,15 +4147,15 @@ a_Percussion_Voice_XXVII = {
 }
 
 
-a_Staff_XXVII = {
+segment.01.Staff.XXVII = {
 
     \context Voice = "Percussion_Voice_XXVII"
-    \a_Percussion_Voice_XXVII
+    { \segment.01.Percussion.Voice.XXVII }
 
 }
 
 
-a_Percussion_Voice_XXVIII_a = {
+segment.01.Percussion.Voice.XXVIII.1 = {
 
     % [Percussion_Voice_XXVIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 28
@@ -4221,9 +4221,9 @@ a_Percussion_Voice_XXVIII_a = {
 }
 
 
-a_Percussion_Voice_XXVIII = {
+segment.01.Percussion.Voice.XXVIII = {
 
-    \a_Percussion_Voice_XXVIII_a
+    { \segment.01.Percussion.Voice.XXVIII.1 }
 
     <<
 
@@ -4255,15 +4255,15 @@ a_Percussion_Voice_XXVIII = {
 }
 
 
-a_Staff_XXVIII = {
+segment.01.Staff.XXVIII = {
 
     \context Voice = "Percussion_Voice_XXVIII"
-    \a_Percussion_Voice_XXVIII
+    { \segment.01.Percussion.Voice.XXVIII }
 
 }
 
 
-a_Percussion_Voice_XXIX_a = {
+segment.01.Percussion.Voice.XXIX.1 = {
 
     % [Percussion_Voice_XXIX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 29
@@ -4329,9 +4329,9 @@ a_Percussion_Voice_XXIX_a = {
 }
 
 
-a_Percussion_Voice_XXIX = {
+segment.01.Percussion.Voice.XXIX = {
 
-    \a_Percussion_Voice_XXIX_a
+    { \segment.01.Percussion.Voice.XXIX.1 }
 
     <<
 
@@ -4363,15 +4363,15 @@ a_Percussion_Voice_XXIX = {
 }
 
 
-a_Staff_XXIX = {
+segment.01.Staff.XXIX = {
 
     \context Voice = "Percussion_Voice_XXIX"
-    \a_Percussion_Voice_XXIX
+    { \segment.01.Percussion.Voice.XXIX }
 
 }
 
 
-a_Percussion_Voice_XXX_a = {
+segment.01.Percussion.Voice.XXX.1 = {
 
     % [Percussion_Voice_XXX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 30
@@ -4437,9 +4437,9 @@ a_Percussion_Voice_XXX_a = {
 }
 
 
-a_Percussion_Voice_XXX = {
+segment.01.Percussion.Voice.XXX = {
 
-    \a_Percussion_Voice_XXX_a
+    { \segment.01.Percussion.Voice.XXX.1 }
 
     <<
 
@@ -4471,15 +4471,15 @@ a_Percussion_Voice_XXX = {
 }
 
 
-a_Staff_XXX = {
+segment.01.Staff.XXX = {
 
     \context Voice = "Percussion_Voice_XXX"
-    \a_Percussion_Voice_XXX
+    { \segment.01.Percussion.Voice.XXX }
 
 }
 
 
-a_Percussion_Voice_XXXI_a = {
+segment.01.Percussion.Voice.XXXI.1 = {
 
     % [Percussion_Voice_XXXI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 31
@@ -4545,9 +4545,9 @@ a_Percussion_Voice_XXXI_a = {
 }
 
 
-a_Percussion_Voice_XXXI = {
+segment.01.Percussion.Voice.XXXI = {
 
-    \a_Percussion_Voice_XXXI_a
+    { \segment.01.Percussion.Voice.XXXI.1 }
 
     <<
 
@@ -4579,15 +4579,15 @@ a_Percussion_Voice_XXXI = {
 }
 
 
-a_Staff_XXXI = {
+segment.01.Staff.XXXI = {
 
     \context Voice = "Percussion_Voice_XXXI"
-    \a_Percussion_Voice_XXXI
+    { \segment.01.Percussion.Voice.XXXI }
 
 }
 
 
-a_Percussion_Voice_XXXII_a = {
+segment.01.Percussion.Voice.XXXII.1 = {
 
     % [Percussion_Voice_XXXII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 32
@@ -4653,9 +4653,9 @@ a_Percussion_Voice_XXXII_a = {
 }
 
 
-a_Percussion_Voice_XXXII = {
+segment.01.Percussion.Voice.XXXII = {
 
-    \a_Percussion_Voice_XXXII_a
+    { \segment.01.Percussion.Voice.XXXII.1 }
 
     <<
 
@@ -4687,15 +4687,15 @@ a_Percussion_Voice_XXXII = {
 }
 
 
-a_Staff_XXXII = {
+segment.01.Staff.XXXII = {
 
     \context Voice = "Percussion_Voice_XXXII"
-    \a_Percussion_Voice_XXXII
+    { \segment.01.Percussion.Voice.XXXII }
 
 }
 
 
-a_Percussion_Voice_XXXIII_a = {
+segment.01.Percussion.Voice.XXXIII.1 = {
 
     % [Percussion_Voice_XXXIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 33
@@ -4761,9 +4761,9 @@ a_Percussion_Voice_XXXIII_a = {
 }
 
 
-a_Percussion_Voice_XXXIII = {
+segment.01.Percussion.Voice.XXXIII = {
 
-    \a_Percussion_Voice_XXXIII_a
+    { \segment.01.Percussion.Voice.XXXIII.1 }
 
     <<
 
@@ -4795,15 +4795,15 @@ a_Percussion_Voice_XXXIII = {
 }
 
 
-a_Staff_XXXIII = {
+segment.01.Staff.XXXIII = {
 
     \context Voice = "Percussion_Voice_XXXIII"
-    \a_Percussion_Voice_XXXIII
+    { \segment.01.Percussion.Voice.XXXIII }
 
 }
 
 
-a_Percussion_Voice_XXXIV_a = {
+segment.01.Percussion.Voice.XXXIV.1 = {
 
     % [Percussion_Voice_XXXIV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 34
@@ -4869,9 +4869,9 @@ a_Percussion_Voice_XXXIV_a = {
 }
 
 
-a_Percussion_Voice_XXXIV = {
+segment.01.Percussion.Voice.XXXIV = {
 
-    \a_Percussion_Voice_XXXIV_a
+    { \segment.01.Percussion.Voice.XXXIV.1 }
 
     <<
 
@@ -4903,15 +4903,15 @@ a_Percussion_Voice_XXXIV = {
 }
 
 
-a_Staff_XXXIV = {
+segment.01.Staff.XXXIV = {
 
     \context Voice = "Percussion_Voice_XXXIV"
-    \a_Percussion_Voice_XXXIV
+    { \segment.01.Percussion.Voice.XXXIV }
 
 }
 
 
-a_Percussion_Voice_XXXV_a = {
+segment.01.Percussion.Voice.XXXV.1 = {
 
     % [Percussion_Voice_XXXV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 35
@@ -4977,9 +4977,9 @@ a_Percussion_Voice_XXXV_a = {
 }
 
 
-a_Percussion_Voice_XXXV = {
+segment.01.Percussion.Voice.XXXV = {
 
-    \a_Percussion_Voice_XXXV_a
+    { \segment.01.Percussion.Voice.XXXV.1 }
 
     <<
 
@@ -5011,15 +5011,15 @@ a_Percussion_Voice_XXXV = {
 }
 
 
-a_Staff_XXXV = {
+segment.01.Staff.XXXV = {
 
     \context Voice = "Percussion_Voice_XXXV"
-    \a_Percussion_Voice_XXXV
+    { \segment.01.Percussion.Voice.XXXV }
 
 }
 
 
-a_Percussion_Voice_XXXVI_a = {
+segment.01.Percussion.Voice.XXXVI.1 = {
 
     % [Percussion_Voice_XXXVI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 36
@@ -5085,9 +5085,9 @@ a_Percussion_Voice_XXXVI_a = {
 }
 
 
-a_Percussion_Voice_XXXVI = {
+segment.01.Percussion.Voice.XXXVI = {
 
-    \a_Percussion_Voice_XXXVI_a
+    { \segment.01.Percussion.Voice.XXXVI.1 }
 
     <<
 
@@ -5119,15 +5119,15 @@ a_Percussion_Voice_XXXVI = {
 }
 
 
-a_Staff_XXXVI = {
+segment.01.Staff.XXXVI = {
 
     \context Voice = "Percussion_Voice_XXXVI"
-    \a_Percussion_Voice_XXXVI
+    { \segment.01.Percussion.Voice.XXXVI }
 
 }
 
 
-a_Percussion_Voice_XXXVII_a = {
+segment.01.Percussion.Voice.XXXVII.1 = {
 
     % [Percussion_Voice_XXXVII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 37
@@ -5193,9 +5193,9 @@ a_Percussion_Voice_XXXVII_a = {
 }
 
 
-a_Percussion_Voice_XXXVII = {
+segment.01.Percussion.Voice.XXXVII = {
 
-    \a_Percussion_Voice_XXXVII_a
+    { \segment.01.Percussion.Voice.XXXVII.1 }
 
     <<
 
@@ -5227,15 +5227,15 @@ a_Percussion_Voice_XXXVII = {
 }
 
 
-a_Staff_XXXVII = {
+segment.01.Staff.XXXVII = {
 
     \context Voice = "Percussion_Voice_XXXVII"
-    \a_Percussion_Voice_XXXVII
+    { \segment.01.Percussion.Voice.XXXVII }
 
 }
 
 
-a_Percussion_Voice_XXXVIII_a = {
+segment.01.Percussion.Voice.XXXVIII.1 = {
 
     % [Percussion_Voice_XXXVIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 38
@@ -5301,9 +5301,9 @@ a_Percussion_Voice_XXXVIII_a = {
 }
 
 
-a_Percussion_Voice_XXXVIII = {
+segment.01.Percussion.Voice.XXXVIII = {
 
-    \a_Percussion_Voice_XXXVIII_a
+    { \segment.01.Percussion.Voice.XXXVIII.1 }
 
     <<
 
@@ -5335,15 +5335,15 @@ a_Percussion_Voice_XXXVIII = {
 }
 
 
-a_Staff_XXXVIII = {
+segment.01.Staff.XXXVIII = {
 
     \context Voice = "Percussion_Voice_XXXVIII"
-    \a_Percussion_Voice_XXXVIII
+    { \segment.01.Percussion.Voice.XXXVIII }
 
 }
 
 
-a_Percussion_Voice_XXXIX_a = {
+segment.01.Percussion.Voice.XXXIX.1 = {
 
     % [Percussion_Voice_XXXIX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 39
@@ -5409,9 +5409,9 @@ a_Percussion_Voice_XXXIX_a = {
 }
 
 
-a_Percussion_Voice_XXXIX = {
+segment.01.Percussion.Voice.XXXIX = {
 
-    \a_Percussion_Voice_XXXIX_a
+    { \segment.01.Percussion.Voice.XXXIX.1 }
 
     <<
 
@@ -5443,15 +5443,15 @@ a_Percussion_Voice_XXXIX = {
 }
 
 
-a_Staff_XXXIX = {
+segment.01.Staff.XXXIX = {
 
     \context Voice = "Percussion_Voice_XXXIX"
-    \a_Percussion_Voice_XXXIX
+    { \segment.01.Percussion.Voice.XXXIX }
 
 }
 
 
-a_Percussion_Voice_XL_a = {
+segment.01.Percussion.Voice.XL.1 = {
 
     % [Percussion_Voice_XL measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 40
@@ -5517,9 +5517,9 @@ a_Percussion_Voice_XL_a = {
 }
 
 
-a_Percussion_Voice_XL = {
+segment.01.Percussion.Voice.XL = {
 
-    \a_Percussion_Voice_XL_a
+    { \segment.01.Percussion.Voice.XL.1 }
 
     <<
 
@@ -5551,15 +5551,15 @@ a_Percussion_Voice_XL = {
 }
 
 
-a_Staff_XL = {
+segment.01.Staff.XL = {
 
     \context Voice = "Percussion_Voice_XL"
-    \a_Percussion_Voice_XL
+    { \segment.01.Percussion.Voice.XL }
 
 }
 
 
-a_Percussion_Voice_XLI_a = {
+segment.01.Percussion.Voice.XLI.1 = {
 
     % [Percussion_Voice_XLI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 41
@@ -5625,9 +5625,9 @@ a_Percussion_Voice_XLI_a = {
 }
 
 
-a_Percussion_Voice_XLI = {
+segment.01.Percussion.Voice.XLI = {
 
-    \a_Percussion_Voice_XLI_a
+    { \segment.01.Percussion.Voice.XLI.1 }
 
     <<
 
@@ -5659,15 +5659,15 @@ a_Percussion_Voice_XLI = {
 }
 
 
-a_Staff_XLI = {
+segment.01.Staff.XLI = {
 
     \context Voice = "Percussion_Voice_XLI"
-    \a_Percussion_Voice_XLI
+    { \segment.01.Percussion.Voice.XLI }
 
 }
 
 
-a_Percussion_Voice_XLII_a = {
+segment.01.Percussion.Voice.XLII.1 = {
 
     % [Percussion_Voice_XLII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 42
@@ -5733,9 +5733,9 @@ a_Percussion_Voice_XLII_a = {
 }
 
 
-a_Percussion_Voice_XLII = {
+segment.01.Percussion.Voice.XLII = {
 
-    \a_Percussion_Voice_XLII_a
+    { \segment.01.Percussion.Voice.XLII.1 }
 
     <<
 
@@ -5767,15 +5767,15 @@ a_Percussion_Voice_XLII = {
 }
 
 
-a_Staff_XLII = {
+segment.01.Staff.XLII = {
 
     \context Voice = "Percussion_Voice_XLII"
-    \a_Percussion_Voice_XLII
+    { \segment.01.Percussion.Voice.XLII }
 
 }
 
 
-a_Percussion_Voice_XLIII_a = {
+segment.01.Percussion.Voice.XLIII.1 = {
 
     % [Percussion_Voice_XLIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 43
@@ -5841,9 +5841,9 @@ a_Percussion_Voice_XLIII_a = {
 }
 
 
-a_Percussion_Voice_XLIII = {
+segment.01.Percussion.Voice.XLIII = {
 
-    \a_Percussion_Voice_XLIII_a
+    { \segment.01.Percussion.Voice.XLIII.1 }
 
     <<
 
@@ -5875,15 +5875,15 @@ a_Percussion_Voice_XLIII = {
 }
 
 
-a_Staff_XLIII = {
+segment.01.Staff.XLIII = {
 
     \context Voice = "Percussion_Voice_XLIII"
-    \a_Percussion_Voice_XLIII
+    { \segment.01.Percussion.Voice.XLIII }
 
 }
 
 
-a_Percussion_Voice_XLIV_a = {
+segment.01.Percussion.Voice.XLIV.1 = {
 
     % [Percussion_Voice_XLIV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 44
@@ -5949,9 +5949,9 @@ a_Percussion_Voice_XLIV_a = {
 }
 
 
-a_Percussion_Voice_XLIV = {
+segment.01.Percussion.Voice.XLIV = {
 
-    \a_Percussion_Voice_XLIV_a
+    { \segment.01.Percussion.Voice.XLIV.1 }
 
     <<
 
@@ -5983,15 +5983,15 @@ a_Percussion_Voice_XLIV = {
 }
 
 
-a_Staff_XLIV = {
+segment.01.Staff.XLIV = {
 
     \context Voice = "Percussion_Voice_XLIV"
-    \a_Percussion_Voice_XLIV
+    { \segment.01.Percussion.Voice.XLIV }
 
 }
 
 
-a_Percussion_Voice_XLV_a = {
+segment.01.Percussion.Voice.XLV.1 = {
 
     % [Percussion_Voice_XLV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 45
@@ -6057,9 +6057,9 @@ a_Percussion_Voice_XLV_a = {
 }
 
 
-a_Percussion_Voice_XLV = {
+segment.01.Percussion.Voice.XLV = {
 
-    \a_Percussion_Voice_XLV_a
+    { \segment.01.Percussion.Voice.XLV.1 }
 
     <<
 
@@ -6091,15 +6091,15 @@ a_Percussion_Voice_XLV = {
 }
 
 
-a_Staff_XLV = {
+segment.01.Staff.XLV = {
 
     \context Voice = "Percussion_Voice_XLV"
-    \a_Percussion_Voice_XLV
+    { \segment.01.Percussion.Voice.XLV }
 
 }
 
 
-a_Percussion_Voice_XLVI_a = {
+segment.01.Percussion.Voice.XLVI.1 = {
 
     % [Percussion_Voice_XLVI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 46
@@ -6165,9 +6165,9 @@ a_Percussion_Voice_XLVI_a = {
 }
 
 
-a_Percussion_Voice_XLVI = {
+segment.01.Percussion.Voice.XLVI = {
 
-    \a_Percussion_Voice_XLVI_a
+    { \segment.01.Percussion.Voice.XLVI.1 }
 
     <<
 
@@ -6199,15 +6199,15 @@ a_Percussion_Voice_XLVI = {
 }
 
 
-a_Staff_XLVI = {
+segment.01.Staff.XLVI = {
 
     \context Voice = "Percussion_Voice_XLVI"
-    \a_Percussion_Voice_XLVI
+    { \segment.01.Percussion.Voice.XLVI }
 
 }
 
 
-a_Percussion_Voice_XLVII_a = {
+segment.01.Percussion.Voice.XLVII.1 = {
 
     % [Percussion_Voice_XLVII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 47
@@ -6273,9 +6273,9 @@ a_Percussion_Voice_XLVII_a = {
 }
 
 
-a_Percussion_Voice_XLVII = {
+segment.01.Percussion.Voice.XLVII = {
 
-    \a_Percussion_Voice_XLVII_a
+    { \segment.01.Percussion.Voice.XLVII.1 }
 
     <<
 
@@ -6307,15 +6307,15 @@ a_Percussion_Voice_XLVII = {
 }
 
 
-a_Staff_XLVII = {
+segment.01.Staff.XLVII = {
 
     \context Voice = "Percussion_Voice_XLVII"
-    \a_Percussion_Voice_XLVII
+    { \segment.01.Percussion.Voice.XLVII }
 
 }
 
 
-a_Percussion_Voice_XLVIII_a = {
+segment.01.Percussion.Voice.XLVIII.1 = {
 
     % [Percussion_Voice_XLVIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 48
@@ -6381,9 +6381,9 @@ a_Percussion_Voice_XLVIII_a = {
 }
 
 
-a_Percussion_Voice_XLVIII = {
+segment.01.Percussion.Voice.XLVIII = {
 
-    \a_Percussion_Voice_XLVIII_a
+    { \segment.01.Percussion.Voice.XLVIII.1 }
 
     <<
 
@@ -6415,15 +6415,15 @@ a_Percussion_Voice_XLVIII = {
 }
 
 
-a_Staff_XLVIII = {
+segment.01.Staff.XLVIII = {
 
     \context Voice = "Percussion_Voice_XLVIII"
-    \a_Percussion_Voice_XLVIII
+    { \segment.01.Percussion.Voice.XLVIII }
 
 }
 
 
-a_Percussion_Voice_XLIX_a = {
+segment.01.Percussion.Voice.XLIX.1 = {
 
     % [Percussion_Voice_XLIX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 49
@@ -6489,9 +6489,9 @@ a_Percussion_Voice_XLIX_a = {
 }
 
 
-a_Percussion_Voice_XLIX = {
+segment.01.Percussion.Voice.XLIX = {
 
-    \a_Percussion_Voice_XLIX_a
+    { \segment.01.Percussion.Voice.XLIX.1 }
 
     <<
 
@@ -6523,15 +6523,15 @@ a_Percussion_Voice_XLIX = {
 }
 
 
-a_Staff_XLIX = {
+segment.01.Staff.XLIX = {
 
     \context Voice = "Percussion_Voice_XLIX"
-    \a_Percussion_Voice_XLIX
+    { \segment.01.Percussion.Voice.XLIX }
 
 }
 
 
-a_Percussion_Voice_L_a = {
+segment.01.Percussion.Voice.L.1 = {
 
     % [Percussion_Voice_L measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 50
@@ -6597,9 +6597,9 @@ a_Percussion_Voice_L_a = {
 }
 
 
-a_Percussion_Voice_L = {
+segment.01.Percussion.Voice.L = {
 
-    \a_Percussion_Voice_L_a
+    { \segment.01.Percussion.Voice.L.1 }
 
     <<
 
@@ -6631,15 +6631,15 @@ a_Percussion_Voice_L = {
 }
 
 
-a_Staff_L = {
+segment.01.Staff.L = {
 
     \context Voice = "Percussion_Voice_L"
-    \a_Percussion_Voice_L
+    { \segment.01.Percussion.Voice.L }
 
 }
 
 
-a_Percussion_Voice_LI_a = {
+segment.01.Percussion.Voice.LI.1 = {
 
     % [Percussion_Voice_LI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 51
@@ -6705,9 +6705,9 @@ a_Percussion_Voice_LI_a = {
 }
 
 
-a_Percussion_Voice_LI = {
+segment.01.Percussion.Voice.LI = {
 
-    \a_Percussion_Voice_LI_a
+    { \segment.01.Percussion.Voice.LI.1 }
 
     <<
 
@@ -6739,15 +6739,15 @@ a_Percussion_Voice_LI = {
 }
 
 
-a_Staff_LI = {
+segment.01.Staff.LI = {
 
     \context Voice = "Percussion_Voice_LI"
-    \a_Percussion_Voice_LI
+    { \segment.01.Percussion.Voice.LI }
 
 }
 
 
-a_Percussion_Voice_LII_a = {
+segment.01.Percussion.Voice.LII.1 = {
 
     % [Percussion_Voice_LII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 52
@@ -6813,9 +6813,9 @@ a_Percussion_Voice_LII_a = {
 }
 
 
-a_Percussion_Voice_LII = {
+segment.01.Percussion.Voice.LII = {
 
-    \a_Percussion_Voice_LII_a
+    { \segment.01.Percussion.Voice.LII.1 }
 
     <<
 
@@ -6847,15 +6847,15 @@ a_Percussion_Voice_LII = {
 }
 
 
-a_Staff_LII = {
+segment.01.Staff.LII = {
 
     \context Voice = "Percussion_Voice_LII"
-    \a_Percussion_Voice_LII
+    { \segment.01.Percussion.Voice.LII }
 
 }
 
 
-a_Percussion_Voice_LIII_a = {
+segment.01.Percussion.Voice.LIII.1 = {
 
     % [Percussion_Voice_LIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 53
@@ -6921,9 +6921,9 @@ a_Percussion_Voice_LIII_a = {
 }
 
 
-a_Percussion_Voice_LIII = {
+segment.01.Percussion.Voice.LIII = {
 
-    \a_Percussion_Voice_LIII_a
+    { \segment.01.Percussion.Voice.LIII.1 }
 
     <<
 
@@ -6955,15 +6955,15 @@ a_Percussion_Voice_LIII = {
 }
 
 
-a_Staff_LIII = {
+segment.01.Staff.LIII = {
 
     \context Voice = "Percussion_Voice_LIII"
-    \a_Percussion_Voice_LIII
+    { \segment.01.Percussion.Voice.LIII }
 
 }
 
 
-a_Percussion_Voice_LIV_a = {
+segment.01.Percussion.Voice.LIV.1 = {
 
     % [Percussion_Voice_LIV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 54
@@ -7029,9 +7029,9 @@ a_Percussion_Voice_LIV_a = {
 }
 
 
-a_Percussion_Voice_LIV = {
+segment.01.Percussion.Voice.LIV = {
 
-    \a_Percussion_Voice_LIV_a
+    { \segment.01.Percussion.Voice.LIV.1 }
 
     <<
 
@@ -7063,15 +7063,15 @@ a_Percussion_Voice_LIV = {
 }
 
 
-a_Staff_LIV = {
+segment.01.Staff.LIV = {
 
     \context Voice = "Percussion_Voice_LIV"
-    \a_Percussion_Voice_LIV
+    { \segment.01.Percussion.Voice.LIV }
 
 }
 
 
-a_Percussion_Voice_LV_a = {
+segment.01.Percussion.Voice.LV.1 = {
 
     % [Percussion_Voice_LV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 55
@@ -7137,9 +7137,9 @@ a_Percussion_Voice_LV_a = {
 }
 
 
-a_Percussion_Voice_LV = {
+segment.01.Percussion.Voice.LV = {
 
-    \a_Percussion_Voice_LV_a
+    { \segment.01.Percussion.Voice.LV.1 }
 
     <<
 
@@ -7171,15 +7171,15 @@ a_Percussion_Voice_LV = {
 }
 
 
-a_Staff_LV = {
+segment.01.Staff.LV = {
 
     \context Voice = "Percussion_Voice_LV"
-    \a_Percussion_Voice_LV
+    { \segment.01.Percussion.Voice.LV }
 
 }
 
 
-a_Percussion_Voice_LVI_a = {
+segment.01.Percussion.Voice.LVI.1 = {
 
     % [Percussion_Voice_LVI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 56
@@ -7245,9 +7245,9 @@ a_Percussion_Voice_LVI_a = {
 }
 
 
-a_Percussion_Voice_LVI = {
+segment.01.Percussion.Voice.LVI = {
 
-    \a_Percussion_Voice_LVI_a
+    { \segment.01.Percussion.Voice.LVI.1 }
 
     <<
 
@@ -7279,15 +7279,15 @@ a_Percussion_Voice_LVI = {
 }
 
 
-a_Staff_LVI = {
+segment.01.Staff.LVI = {
 
     \context Voice = "Percussion_Voice_LVI"
-    \a_Percussion_Voice_LVI
+    { \segment.01.Percussion.Voice.LVI }
 
 }
 
 
-a_Percussion_Voice_LVII_a = {
+segment.01.Percussion.Voice.LVII.1 = {
 
     % [Percussion_Voice_LVII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 57
@@ -7353,9 +7353,9 @@ a_Percussion_Voice_LVII_a = {
 }
 
 
-a_Percussion_Voice_LVII = {
+segment.01.Percussion.Voice.LVII = {
 
-    \a_Percussion_Voice_LVII_a
+    { \segment.01.Percussion.Voice.LVII.1 }
 
     <<
 
@@ -7387,15 +7387,15 @@ a_Percussion_Voice_LVII = {
 }
 
 
-a_Staff_LVII = {
+segment.01.Staff.LVII = {
 
     \context Voice = "Percussion_Voice_LVII"
-    \a_Percussion_Voice_LVII
+    { \segment.01.Percussion.Voice.LVII }
 
 }
 
 
-a_Percussion_Voice_LVIII_a = {
+segment.01.Percussion.Voice.LVIII.1 = {
 
     % [Percussion_Voice_LVIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 58
@@ -7461,9 +7461,9 @@ a_Percussion_Voice_LVIII_a = {
 }
 
 
-a_Percussion_Voice_LVIII = {
+segment.01.Percussion.Voice.LVIII = {
 
-    \a_Percussion_Voice_LVIII_a
+    { \segment.01.Percussion.Voice.LVIII.1 }
 
     <<
 
@@ -7495,15 +7495,15 @@ a_Percussion_Voice_LVIII = {
 }
 
 
-a_Staff_LVIII = {
+segment.01.Staff.LVIII = {
 
     \context Voice = "Percussion_Voice_LVIII"
-    \a_Percussion_Voice_LVIII
+    { \segment.01.Percussion.Voice.LVIII }
 
 }
 
 
-a_Percussion_Voice_LIX_a = {
+segment.01.Percussion.Voice.LIX.1 = {
 
     % [Percussion_Voice_LIX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 59
@@ -7569,9 +7569,9 @@ a_Percussion_Voice_LIX_a = {
 }
 
 
-a_Percussion_Voice_LIX = {
+segment.01.Percussion.Voice.LIX = {
 
-    \a_Percussion_Voice_LIX_a
+    { \segment.01.Percussion.Voice.LIX.1 }
 
     <<
 
@@ -7603,15 +7603,15 @@ a_Percussion_Voice_LIX = {
 }
 
 
-a_Staff_LIX = {
+segment.01.Staff.LIX = {
 
     \context Voice = "Percussion_Voice_LIX"
-    \a_Percussion_Voice_LIX
+    { \segment.01.Percussion.Voice.LIX }
 
 }
 
 
-a_Percussion_Voice_LX_a = {
+segment.01.Percussion.Voice.LX.1 = {
 
     % [Percussion_Voice_LX measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 60
@@ -7677,9 +7677,9 @@ a_Percussion_Voice_LX_a = {
 }
 
 
-a_Percussion_Voice_LX = {
+segment.01.Percussion.Voice.LX = {
 
-    \a_Percussion_Voice_LX_a
+    { \segment.01.Percussion.Voice.LX.1 }
 
     <<
 
@@ -7711,15 +7711,15 @@ a_Percussion_Voice_LX = {
 }
 
 
-a_Staff_LX = {
+segment.01.Staff.LX = {
 
     \context Voice = "Percussion_Voice_LX"
-    \a_Percussion_Voice_LX
+    { \segment.01.Percussion.Voice.LX }
 
 }
 
 
-a_Percussion_Voice_LXI_a = {
+segment.01.Percussion.Voice.LXI.1 = {
 
     % [Percussion_Voice_LXI measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 61
@@ -7785,9 +7785,9 @@ a_Percussion_Voice_LXI_a = {
 }
 
 
-a_Percussion_Voice_LXI = {
+segment.01.Percussion.Voice.LXI = {
 
-    \a_Percussion_Voice_LXI_a
+    { \segment.01.Percussion.Voice.LXI.1 }
 
     <<
 
@@ -7819,15 +7819,15 @@ a_Percussion_Voice_LXI = {
 }
 
 
-a_Staff_LXI = {
+segment.01.Staff.LXI = {
 
     \context Voice = "Percussion_Voice_LXI"
-    \a_Percussion_Voice_LXI
+    { \segment.01.Percussion.Voice.LXI }
 
 }
 
 
-a_Percussion_Voice_LXII_a = {
+segment.01.Percussion.Voice.LXII.1 = {
 
     % [Percussion_Voice_LXII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 62
@@ -7893,9 +7893,9 @@ a_Percussion_Voice_LXII_a = {
 }
 
 
-a_Percussion_Voice_LXII = {
+segment.01.Percussion.Voice.LXII = {
 
-    \a_Percussion_Voice_LXII_a
+    { \segment.01.Percussion.Voice.LXII.1 }
 
     <<
 
@@ -7927,15 +7927,15 @@ a_Percussion_Voice_LXII = {
 }
 
 
-a_Staff_LXII = {
+segment.01.Staff.LXII = {
 
     \context Voice = "Percussion_Voice_LXII"
-    \a_Percussion_Voice_LXII
+    { \segment.01.Percussion.Voice.LXII }
 
 }
 
 
-a_Percussion_Voice_LXIII_a = {
+segment.01.Percussion.Voice.LXIII.1 = {
 
     % [Percussion_Voice_LXIII measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 63
@@ -8001,9 +8001,9 @@ a_Percussion_Voice_LXIII_a = {
 }
 
 
-a_Percussion_Voice_LXIII = {
+segment.01.Percussion.Voice.LXIII = {
 
-    \a_Percussion_Voice_LXIII_a
+    { \segment.01.Percussion.Voice.LXIII.1 }
 
     <<
 
@@ -8035,15 +8035,15 @@ a_Percussion_Voice_LXIII = {
 }
 
 
-a_Staff_LXIII = {
+segment.01.Staff.LXIII = {
 
     \context Voice = "Percussion_Voice_LXIII"
-    \a_Percussion_Voice_LXIII
+    { \segment.01.Percussion.Voice.LXIII }
 
 }
 
 
-a_Percussion_Voice_LXIV_a = {
+segment.01.Percussion.Voice.LXIV.1 = {
 
     % [Percussion_Voice_LXIV measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 64
@@ -8109,9 +8109,9 @@ a_Percussion_Voice_LXIV_a = {
 }
 
 
-a_Percussion_Voice_LXIV = {
+segment.01.Percussion.Voice.LXIV = {
 
-    \a_Percussion_Voice_LXIV_a
+    { \segment.01.Percussion.Voice.LXIV.1 }
 
     <<
 
@@ -8143,9 +8143,9 @@ a_Percussion_Voice_LXIV = {
 }
 
 
-a_Staff_LXIV = {
+segment.01.Staff.LXIV = {
 
     \context Voice = "Percussion_Voice_LXIV"
-    \a_Percussion_Voice_LXIV
+    { \segment.01.Percussion.Voice.LXIV }
 
 }
