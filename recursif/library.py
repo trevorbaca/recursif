@@ -1,6 +1,5 @@
 import abjad
 import baca
-import roman
 from abjadext import rmakers
 
 # instruments & margin markup
@@ -98,9 +97,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         staves = []
         for staff_index in range(64):
             staff_number = staff_index + 1
-            staff_numeral = roman.toRoman(staff_number)
-            voice = abjad.Voice(name=f"Percussion_Voice_{staff_numeral}", tag=tag)
-            staff = abjad.Staff([voice], name=f"Staff_{staff_numeral}", tag=tag)
+            voice = abjad.Voice(name=f"Percussion.Voice.{staff_number}", tag=tag)
+            staff = abjad.Staff([voice], name=f"Staff.{staff_number}", tag=tag)
             abjad.annotate(staff, "default_instrument", instruments["Percussion"])
             staves.append(staff)
 
@@ -157,8 +155,7 @@ def assign_parts(maker: baca.SegmentMaker):
     Assigns parts.
     """
     for n in range(1, 64 + 1):
-        numeral = roman.toRoman(n)
-        voice_name = f"Percussion_Voice_{numeral}"
+        voice_name = f"Percussion.Voice.{n}"
         part_assignment = baca.PartAssignment(section="Percussion", token=n)
         assert part_assignment.token is not None
         score_template = ScoreTemplate()

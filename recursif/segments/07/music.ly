@@ -34,197 +34,197 @@
                 \context StaffGroup = "Staff_Group"
                 <<
 
-                    \context Staff = "Staff_I"
-                    { \segment.07.Staff.I }
+                    \context Staff = "Staff.1"
+                    { \segment.07.Staff.1 }
 
-                    \context Staff = "Staff_II"
-                    { \segment.07.Staff.II }
+                    \context Staff = "Staff.2"
+                    { \segment.07.Staff.2 }
 
-                    \context Staff = "Staff_III"
-                    { \segment.07.Staff.III }
+                    \context Staff = "Staff.3"
+                    { \segment.07.Staff.3 }
 
-                    \context Staff = "Staff_IV"
-                    { \segment.07.Staff.IV }
+                    \context Staff = "Staff.4"
+                    { \segment.07.Staff.4 }
 
-                    \context Staff = "Staff_V"
-                    { \segment.07.Staff.V }
+                    \context Staff = "Staff.5"
+                    { \segment.07.Staff.5 }
 
-                    \context Staff = "Staff_VI"
-                    { \segment.07.Staff.VI }
+                    \context Staff = "Staff.6"
+                    { \segment.07.Staff.6 }
 
-                    \context Staff = "Staff_VII"
-                    { \segment.07.Staff.VII }
+                    \context Staff = "Staff.7"
+                    { \segment.07.Staff.7 }
 
-                    \context Staff = "Staff_VIII"
-                    { \segment.07.Staff.VIII }
+                    \context Staff = "Staff.8"
+                    { \segment.07.Staff.8 }
 
-                    \context Staff = "Staff_IX"
-                    { \segment.07.Staff.IX }
+                    \context Staff = "Staff.9"
+                    { \segment.07.Staff.9 }
 
-                    \context Staff = "Staff_X"
-                    { \segment.07.Staff.X }
+                    \context Staff = "Staff.10"
+                    { \segment.07.Staff.10 }
 
-                    \context Staff = "Staff_XI"
-                    { \segment.07.Staff.XI }
+                    \context Staff = "Staff.11"
+                    { \segment.07.Staff.11 }
 
-                    \context Staff = "Staff_XII"
-                    { \segment.07.Staff.XII }
+                    \context Staff = "Staff.12"
+                    { \segment.07.Staff.12 }
 
-                    \context Staff = "Staff_XIII"
-                    { \segment.07.Staff.XIII }
+                    \context Staff = "Staff.13"
+                    { \segment.07.Staff.13 }
 
-                    \context Staff = "Staff_XIV"
-                    { \segment.07.Staff.XIV }
+                    \context Staff = "Staff.14"
+                    { \segment.07.Staff.14 }
 
-                    \context Staff = "Staff_XV"
-                    { \segment.07.Staff.XV }
+                    \context Staff = "Staff.15"
+                    { \segment.07.Staff.15 }
 
-                    \context Staff = "Staff_XVI"
-                    { \segment.07.Staff.XVI }
+                    \context Staff = "Staff.16"
+                    { \segment.07.Staff.16 }
 
-                    \context Staff = "Staff_XVII"
-                    { \segment.07.Staff.XVII }
+                    \context Staff = "Staff.17"
+                    { \segment.07.Staff.17 }
 
-                    \context Staff = "Staff_XVIII"
-                    { \segment.07.Staff.XVIII }
+                    \context Staff = "Staff.18"
+                    { \segment.07.Staff.18 }
 
-                    \context Staff = "Staff_XIX"
-                    { \segment.07.Staff.XIX }
+                    \context Staff = "Staff.19"
+                    { \segment.07.Staff.19 }
 
-                    \context Staff = "Staff_XX"
-                    { \segment.07.Staff.XX }
+                    \context Staff = "Staff.20"
+                    { \segment.07.Staff.20 }
 
-                    \context Staff = "Staff_XXI"
-                    { \segment.07.Staff.XXI }
+                    \context Staff = "Staff.21"
+                    { \segment.07.Staff.21 }
 
-                    \context Staff = "Staff_XXII"
-                    { \segment.07.Staff.XXII }
+                    \context Staff = "Staff.22"
+                    { \segment.07.Staff.22 }
 
-                    \context Staff = "Staff_XXIII"
-                    { \segment.07.Staff.XXIII }
+                    \context Staff = "Staff.23"
+                    { \segment.07.Staff.23 }
 
-                    \context Staff = "Staff_XXIV"
-                    { \segment.07.Staff.XXIV }
+                    \context Staff = "Staff.24"
+                    { \segment.07.Staff.24 }
 
-                    \context Staff = "Staff_XXV"
-                    { \segment.07.Staff.XXV }
+                    \context Staff = "Staff.25"
+                    { \segment.07.Staff.25 }
 
-                    \context Staff = "Staff_XXVI"
-                    { \segment.07.Staff.XXVI }
+                    \context Staff = "Staff.26"
+                    { \segment.07.Staff.26 }
 
-                    \context Staff = "Staff_XXVII"
-                    { \segment.07.Staff.XXVII }
+                    \context Staff = "Staff.27"
+                    { \segment.07.Staff.27 }
 
-                    \context Staff = "Staff_XXVIII"
-                    { \segment.07.Staff.XXVIII }
+                    \context Staff = "Staff.28"
+                    { \segment.07.Staff.28 }
 
-                    \context Staff = "Staff_XXIX"
-                    { \segment.07.Staff.XXIX }
+                    \context Staff = "Staff.29"
+                    { \segment.07.Staff.29 }
 
-                    \context Staff = "Staff_XXX"
-                    { \segment.07.Staff.XXX }
+                    \context Staff = "Staff.30"
+                    { \segment.07.Staff.30 }
 
-                    \context Staff = "Staff_XXXI"
-                    { \segment.07.Staff.XXXI }
+                    \context Staff = "Staff.31"
+                    { \segment.07.Staff.31 }
 
-                    \context Staff = "Staff_XXXII"
-                    { \segment.07.Staff.XXXII }
+                    \context Staff = "Staff.32"
+                    { \segment.07.Staff.32 }
 
-                    \context Staff = "Staff_XXXIII"
-                    { \segment.07.Staff.XXXIII }
+                    \context Staff = "Staff.33"
+                    { \segment.07.Staff.33 }
 
-                    \context Staff = "Staff_XXXIV"
-                    { \segment.07.Staff.XXXIV }
+                    \context Staff = "Staff.34"
+                    { \segment.07.Staff.34 }
 
-                    \context Staff = "Staff_XXXV"
-                    { \segment.07.Staff.XXXV }
+                    \context Staff = "Staff.35"
+                    { \segment.07.Staff.35 }
 
-                    \context Staff = "Staff_XXXVI"
-                    { \segment.07.Staff.XXXVI }
+                    \context Staff = "Staff.36"
+                    { \segment.07.Staff.36 }
 
-                    \context Staff = "Staff_XXXVII"
-                    { \segment.07.Staff.XXXVII }
+                    \context Staff = "Staff.37"
+                    { \segment.07.Staff.37 }
 
-                    \context Staff = "Staff_XXXVIII"
-                    { \segment.07.Staff.XXXVIII }
+                    \context Staff = "Staff.38"
+                    { \segment.07.Staff.38 }
 
-                    \context Staff = "Staff_XXXIX"
-                    { \segment.07.Staff.XXXIX }
+                    \context Staff = "Staff.39"
+                    { \segment.07.Staff.39 }
 
-                    \context Staff = "Staff_XL"
-                    { \segment.07.Staff.XL }
+                    \context Staff = "Staff.40"
+                    { \segment.07.Staff.40 }
 
-                    \context Staff = "Staff_XLI"
-                    { \segment.07.Staff.XLI }
+                    \context Staff = "Staff.41"
+                    { \segment.07.Staff.41 }
 
-                    \context Staff = "Staff_XLII"
-                    { \segment.07.Staff.XLII }
+                    \context Staff = "Staff.42"
+                    { \segment.07.Staff.42 }
 
-                    \context Staff = "Staff_XLIII"
-                    { \segment.07.Staff.XLIII }
+                    \context Staff = "Staff.43"
+                    { \segment.07.Staff.43 }
 
-                    \context Staff = "Staff_XLIV"
-                    { \segment.07.Staff.XLIV }
+                    \context Staff = "Staff.44"
+                    { \segment.07.Staff.44 }
 
-                    \context Staff = "Staff_XLV"
-                    { \segment.07.Staff.XLV }
+                    \context Staff = "Staff.45"
+                    { \segment.07.Staff.45 }
 
-                    \context Staff = "Staff_XLVI"
-                    { \segment.07.Staff.XLVI }
+                    \context Staff = "Staff.46"
+                    { \segment.07.Staff.46 }
 
-                    \context Staff = "Staff_XLVII"
-                    { \segment.07.Staff.XLVII }
+                    \context Staff = "Staff.47"
+                    { \segment.07.Staff.47 }
 
-                    \context Staff = "Staff_XLVIII"
-                    { \segment.07.Staff.XLVIII }
+                    \context Staff = "Staff.48"
+                    { \segment.07.Staff.48 }
 
-                    \context Staff = "Staff_XLIX"
-                    { \segment.07.Staff.XLIX }
+                    \context Staff = "Staff.49"
+                    { \segment.07.Staff.49 }
 
-                    \context Staff = "Staff_L"
-                    { \segment.07.Staff.L }
+                    \context Staff = "Staff.50"
+                    { \segment.07.Staff.50 }
 
-                    \context Staff = "Staff_LI"
-                    { \segment.07.Staff.LI }
+                    \context Staff = "Staff.51"
+                    { \segment.07.Staff.51 }
 
-                    \context Staff = "Staff_LII"
-                    { \segment.07.Staff.LII }
+                    \context Staff = "Staff.52"
+                    { \segment.07.Staff.52 }
 
-                    \context Staff = "Staff_LIII"
-                    { \segment.07.Staff.LIII }
+                    \context Staff = "Staff.53"
+                    { \segment.07.Staff.53 }
 
-                    \context Staff = "Staff_LIV"
-                    { \segment.07.Staff.LIV }
+                    \context Staff = "Staff.54"
+                    { \segment.07.Staff.54 }
 
-                    \context Staff = "Staff_LV"
-                    { \segment.07.Staff.LV }
+                    \context Staff = "Staff.55"
+                    { \segment.07.Staff.55 }
 
-                    \context Staff = "Staff_LVI"
-                    { \segment.07.Staff.LVI }
+                    \context Staff = "Staff.56"
+                    { \segment.07.Staff.56 }
 
-                    \context Staff = "Staff_LVII"
-                    { \segment.07.Staff.LVII }
+                    \context Staff = "Staff.57"
+                    { \segment.07.Staff.57 }
 
-                    \context Staff = "Staff_LVIII"
-                    { \segment.07.Staff.LVIII }
+                    \context Staff = "Staff.58"
+                    { \segment.07.Staff.58 }
 
-                    \context Staff = "Staff_LIX"
-                    { \segment.07.Staff.LIX }
+                    \context Staff = "Staff.59"
+                    { \segment.07.Staff.59 }
 
-                    \context Staff = "Staff_LX"
-                    { \segment.07.Staff.LX }
+                    \context Staff = "Staff.60"
+                    { \segment.07.Staff.60 }
 
-                    \context Staff = "Staff_LXI"
-                    { \segment.07.Staff.LXI }
+                    \context Staff = "Staff.61"
+                    { \segment.07.Staff.61 }
 
-                    \context Staff = "Staff_LXII"
-                    { \segment.07.Staff.LXII }
+                    \context Staff = "Staff.62"
+                    { \segment.07.Staff.62 }
 
-                    \context Staff = "Staff_LXIII"
-                    { \segment.07.Staff.LXIII }
+                    \context Staff = "Staff.63"
+                    { \segment.07.Staff.63 }
 
-                    \context Staff = "Staff_LXIV"
-                    { \segment.07.Staff.LXIV }
+                    \context Staff = "Staff.64"
+                    { \segment.07.Staff.64 }
 
                 >>
 
