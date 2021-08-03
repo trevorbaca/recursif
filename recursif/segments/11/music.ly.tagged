@@ -7,7 +7,7 @@
 %! baca.SegmentMaker._make_lilypond_file()
 %! abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheet.ily"
-%! baca.Path.extern()
+%! baca.path.extern()
 \include "music.ily.tagged"
 
 %! baca.SegmentMaker._make_lilypond_file()
@@ -49,8 +49,8 @@
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalSkips = "Global_Skips"
                 %! abjad.ScoreTemplate._make_global_context()
-                %! baca.Path.extern()
-                \k_Global_Skips
+                %! baca.path.extern()
+                { \segment.11.Global.Skips }
 
             %! abjad.ScoreTemplate._make_global_context()
             >>
@@ -68,386 +68,386 @@
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_I"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_I
+                    %! baca.path.extern()
+                    { \segment.11.Staff.I }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_II"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_II
+                    %! baca.path.extern()
+                    { \segment.11.Staff.II }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_III"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_III
+                    %! baca.path.extern()
+                    { \segment.11.Staff.III }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_IV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_IV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.IV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_V"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_V
+                    %! baca.path.extern()
+                    { \segment.11.Staff.V }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_VI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_VI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.VI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_VII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_VII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.VII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_VIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_VIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.VIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_IX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_IX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.IX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_X"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_X
+                    %! baca.path.extern()
+                    { \segment.11.Staff.X }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XIV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XIV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XIV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XVI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XVI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XVI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XVII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XVII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XVII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XVIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XVIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XVIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XIX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XIX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XIX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXIV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXIV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXIV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXVI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXVI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXVI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXVII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXVII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXVII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXVIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXVIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXVIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXIX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXIX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXIX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXIV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXIV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXIV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXVI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXVI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXVI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXVII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXVII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXVII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXVIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXVIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXVIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XXXIX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XXXIX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XXXIX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XL"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XL
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XL }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLIV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLIV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLIV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLVI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLVI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLVI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLVII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLVII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLVII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLVIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLVIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLVIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_XLIX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_XLIX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.XLIX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_L"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_L
+                    %! baca.path.extern()
+                    { \segment.11.Staff.L }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LIV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LIV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LIV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LV }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LVI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LVI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LVI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LVII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LVII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LVII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LVIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LVIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LVIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LIX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LIX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LIX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LX"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LX
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LX }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LXI"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LXI
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LXI }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LXII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LXII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LXII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LXIII"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LXIII
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LXIII }
 
                     %! recursif.ScoreTemplate.__call__()
                     \context Staff = "Staff_LXIV"
                     %! recursif.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \k_Staff_LXIV
+                    %! baca.path.extern()
+                    { \segment.11.Staff.LXIV }
 
                 %! recursif.ScoreTemplate.__call__()
                 >>

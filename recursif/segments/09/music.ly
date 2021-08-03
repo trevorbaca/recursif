@@ -24,7 +24,7 @@
             <<
 
                 \context GlobalSkips = "Global_Skips"
-                \i_Global_Skips
+                { \segment.09.Global.Skips }
 
             >>
 
@@ -35,196 +35,196 @@
                 <<
 
                     \context Staff = "Staff_I"
-                    \i_Staff_I
+                    { \segment.09.Staff.I }
 
                     \context Staff = "Staff_II"
-                    \i_Staff_II
+                    { \segment.09.Staff.II }
 
                     \context Staff = "Staff_III"
-                    \i_Staff_III
+                    { \segment.09.Staff.III }
 
                     \context Staff = "Staff_IV"
-                    \i_Staff_IV
+                    { \segment.09.Staff.IV }
 
                     \context Staff = "Staff_V"
-                    \i_Staff_V
+                    { \segment.09.Staff.V }
 
                     \context Staff = "Staff_VI"
-                    \i_Staff_VI
+                    { \segment.09.Staff.VI }
 
                     \context Staff = "Staff_VII"
-                    \i_Staff_VII
+                    { \segment.09.Staff.VII }
 
                     \context Staff = "Staff_VIII"
-                    \i_Staff_VIII
+                    { \segment.09.Staff.VIII }
 
                     \context Staff = "Staff_IX"
-                    \i_Staff_IX
+                    { \segment.09.Staff.IX }
 
                     \context Staff = "Staff_X"
-                    \i_Staff_X
+                    { \segment.09.Staff.X }
 
                     \context Staff = "Staff_XI"
-                    \i_Staff_XI
+                    { \segment.09.Staff.XI }
 
                     \context Staff = "Staff_XII"
-                    \i_Staff_XII
+                    { \segment.09.Staff.XII }
 
                     \context Staff = "Staff_XIII"
-                    \i_Staff_XIII
+                    { \segment.09.Staff.XIII }
 
                     \context Staff = "Staff_XIV"
-                    \i_Staff_XIV
+                    { \segment.09.Staff.XIV }
 
                     \context Staff = "Staff_XV"
-                    \i_Staff_XV
+                    { \segment.09.Staff.XV }
 
                     \context Staff = "Staff_XVI"
-                    \i_Staff_XVI
+                    { \segment.09.Staff.XVI }
 
                     \context Staff = "Staff_XVII"
-                    \i_Staff_XVII
+                    { \segment.09.Staff.XVII }
 
                     \context Staff = "Staff_XVIII"
-                    \i_Staff_XVIII
+                    { \segment.09.Staff.XVIII }
 
                     \context Staff = "Staff_XIX"
-                    \i_Staff_XIX
+                    { \segment.09.Staff.XIX }
 
                     \context Staff = "Staff_XX"
-                    \i_Staff_XX
+                    { \segment.09.Staff.XX }
 
                     \context Staff = "Staff_XXI"
-                    \i_Staff_XXI
+                    { \segment.09.Staff.XXI }
 
                     \context Staff = "Staff_XXII"
-                    \i_Staff_XXII
+                    { \segment.09.Staff.XXII }
 
                     \context Staff = "Staff_XXIII"
-                    \i_Staff_XXIII
+                    { \segment.09.Staff.XXIII }
 
                     \context Staff = "Staff_XXIV"
-                    \i_Staff_XXIV
+                    { \segment.09.Staff.XXIV }
 
                     \context Staff = "Staff_XXV"
-                    \i_Staff_XXV
+                    { \segment.09.Staff.XXV }
 
                     \context Staff = "Staff_XXVI"
-                    \i_Staff_XXVI
+                    { \segment.09.Staff.XXVI }
 
                     \context Staff = "Staff_XXVII"
-                    \i_Staff_XXVII
+                    { \segment.09.Staff.XXVII }
 
                     \context Staff = "Staff_XXVIII"
-                    \i_Staff_XXVIII
+                    { \segment.09.Staff.XXVIII }
 
                     \context Staff = "Staff_XXIX"
-                    \i_Staff_XXIX
+                    { \segment.09.Staff.XXIX }
 
                     \context Staff = "Staff_XXX"
-                    \i_Staff_XXX
+                    { \segment.09.Staff.XXX }
 
                     \context Staff = "Staff_XXXI"
-                    \i_Staff_XXXI
+                    { \segment.09.Staff.XXXI }
 
                     \context Staff = "Staff_XXXII"
-                    \i_Staff_XXXII
+                    { \segment.09.Staff.XXXII }
 
                     \context Staff = "Staff_XXXIII"
-                    \i_Staff_XXXIII
+                    { \segment.09.Staff.XXXIII }
 
                     \context Staff = "Staff_XXXIV"
-                    \i_Staff_XXXIV
+                    { \segment.09.Staff.XXXIV }
 
                     \context Staff = "Staff_XXXV"
-                    \i_Staff_XXXV
+                    { \segment.09.Staff.XXXV }
 
                     \context Staff = "Staff_XXXVI"
-                    \i_Staff_XXXVI
+                    { \segment.09.Staff.XXXVI }
 
                     \context Staff = "Staff_XXXVII"
-                    \i_Staff_XXXVII
+                    { \segment.09.Staff.XXXVII }
 
                     \context Staff = "Staff_XXXVIII"
-                    \i_Staff_XXXVIII
+                    { \segment.09.Staff.XXXVIII }
 
                     \context Staff = "Staff_XXXIX"
-                    \i_Staff_XXXIX
+                    { \segment.09.Staff.XXXIX }
 
                     \context Staff = "Staff_XL"
-                    \i_Staff_XL
+                    { \segment.09.Staff.XL }
 
                     \context Staff = "Staff_XLI"
-                    \i_Staff_XLI
+                    { \segment.09.Staff.XLI }
 
                     \context Staff = "Staff_XLII"
-                    \i_Staff_XLII
+                    { \segment.09.Staff.XLII }
 
                     \context Staff = "Staff_XLIII"
-                    \i_Staff_XLIII
+                    { \segment.09.Staff.XLIII }
 
                     \context Staff = "Staff_XLIV"
-                    \i_Staff_XLIV
+                    { \segment.09.Staff.XLIV }
 
                     \context Staff = "Staff_XLV"
-                    \i_Staff_XLV
+                    { \segment.09.Staff.XLV }
 
                     \context Staff = "Staff_XLVI"
-                    \i_Staff_XLVI
+                    { \segment.09.Staff.XLVI }
 
                     \context Staff = "Staff_XLVII"
-                    \i_Staff_XLVII
+                    { \segment.09.Staff.XLVII }
 
                     \context Staff = "Staff_XLVIII"
-                    \i_Staff_XLVIII
+                    { \segment.09.Staff.XLVIII }
 
                     \context Staff = "Staff_XLIX"
-                    \i_Staff_XLIX
+                    { \segment.09.Staff.XLIX }
 
                     \context Staff = "Staff_L"
-                    \i_Staff_L
+                    { \segment.09.Staff.L }
 
                     \context Staff = "Staff_LI"
-                    \i_Staff_LI
+                    { \segment.09.Staff.LI }
 
                     \context Staff = "Staff_LII"
-                    \i_Staff_LII
+                    { \segment.09.Staff.LII }
 
                     \context Staff = "Staff_LIII"
-                    \i_Staff_LIII
+                    { \segment.09.Staff.LIII }
 
                     \context Staff = "Staff_LIV"
-                    \i_Staff_LIV
+                    { \segment.09.Staff.LIV }
 
                     \context Staff = "Staff_LV"
-                    \i_Staff_LV
+                    { \segment.09.Staff.LV }
 
                     \context Staff = "Staff_LVI"
-                    \i_Staff_LVI
+                    { \segment.09.Staff.LVI }
 
                     \context Staff = "Staff_LVII"
-                    \i_Staff_LVII
+                    { \segment.09.Staff.LVII }
 
                     \context Staff = "Staff_LVIII"
-                    \i_Staff_LVIII
+                    { \segment.09.Staff.LVIII }
 
                     \context Staff = "Staff_LIX"
-                    \i_Staff_LIX
+                    { \segment.09.Staff.LIX }
 
                     \context Staff = "Staff_LX"
-                    \i_Staff_LX
+                    { \segment.09.Staff.LX }
 
                     \context Staff = "Staff_LXI"
-                    \i_Staff_LXI
+                    { \segment.09.Staff.LXI }
 
                     \context Staff = "Staff_LXII"
-                    \i_Staff_LXII
+                    { \segment.09.Staff.LXII }
 
                     \context Staff = "Staff_LXIII"
-                    \i_Staff_LXIII
+                    { \segment.09.Staff.LXIII }
 
                     \context Staff = "Staff_LXIV"
-                    \i_Staff_LXIV
+                    { \segment.09.Staff.LXIV }
 
                 >>
 

@@ -208,47 +208,7 @@ abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        "o_Percussion_Voice_III_a",
-                        (
-                            baca.PartAssignment("Percussion", 3),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_II_a",
-                        (
-                            baca.PartAssignment("Percussion", 2),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_IV_a",
-                        (
-                            baca.PartAssignment("Percussion", 4),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_IX_a",
-                        (
-                            baca.PartAssignment("Percussion", 9),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_I_a",
+                        "segment.15.Percussion.Voice.I.1",
                         (
                             baca.PartAssignment("Percussion", 1),
                             abjad.Timespan(
@@ -258,9 +218,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_LIII_a",
+                        "segment.15.Percussion.Voice.II.1",
                         (
-                            baca.PartAssignment("Percussion", 53),
+                            baca.PartAssignment("Percussion", 2),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -268,9 +228,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_LII_a",
+                        "segment.15.Percussion.Voice.III.1",
                         (
-                            baca.PartAssignment("Percussion", 52),
+                            baca.PartAssignment("Percussion", 3),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -278,9 +238,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_LIV_a",
+                        "segment.15.Percussion.Voice.IV.1",
                         (
-                            baca.PartAssignment("Percussion", 54),
+                            baca.PartAssignment("Percussion", 4),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -288,9 +248,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_LIX_a",
+                        "segment.15.Percussion.Voice.IX.1",
                         (
-                            baca.PartAssignment("Percussion", 59),
+                            baca.PartAssignment("Percussion", 9),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -298,107 +258,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_LI_a",
-                        (
-                            baca.PartAssignment("Percussion", 51),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LVIII_a",
-                        (
-                            baca.PartAssignment("Percussion", 58),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LVII_a",
-                        (
-                            baca.PartAssignment("Percussion", 57),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LVI_a",
-                        (
-                            baca.PartAssignment("Percussion", 56),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LV_a",
-                        (
-                            baca.PartAssignment("Percussion", 55),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LXIII_a",
-                        (
-                            baca.PartAssignment("Percussion", 63),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LXII_a",
-                        (
-                            baca.PartAssignment("Percussion", 62),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LXIV_a",
-                        (
-                            baca.PartAssignment("Percussion", 64),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LXI_a",
-                        (
-                            baca.PartAssignment("Percussion", 61),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_LX_a",
-                        (
-                            baca.PartAssignment("Percussion", 60),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_L_a",
+                        "segment.15.Percussion.Voice.L.1",
                         (
                             baca.PartAssignment("Percussion", 50),
                             abjad.Timespan(
@@ -408,9 +268,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_VIII_a",
+                        "segment.15.Percussion.Voice.LI.1",
                         (
-                            baca.PartAssignment("Percussion", 8),
+                            baca.PartAssignment("Percussion", 51),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -418,9 +278,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_VII_a",
+                        "segment.15.Percussion.Voice.LII.1",
                         (
-                            baca.PartAssignment("Percussion", 7),
+                            baca.PartAssignment("Percussion", 52),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -428,9 +288,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_VI_a",
+                        "segment.15.Percussion.Voice.LIII.1",
                         (
-                            baca.PartAssignment("Percussion", 6),
+                            baca.PartAssignment("Percussion", 53),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -438,7 +298,117 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_V_a",
+                        "segment.15.Percussion.Voice.LIV.1",
+                        (
+                            baca.PartAssignment("Percussion", 54),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LIX.1",
+                        (
+                            baca.PartAssignment("Percussion", 59),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LV.1",
+                        (
+                            baca.PartAssignment("Percussion", 55),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LVI.1",
+                        (
+                            baca.PartAssignment("Percussion", 56),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LVII.1",
+                        (
+                            baca.PartAssignment("Percussion", 57),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LVIII.1",
+                        (
+                            baca.PartAssignment("Percussion", 58),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LX.1",
+                        (
+                            baca.PartAssignment("Percussion", 60),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LXI.1",
+                        (
+                            baca.PartAssignment("Percussion", 61),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LXII.1",
+                        (
+                            baca.PartAssignment("Percussion", 62),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LXIII.1",
+                        (
+                            baca.PartAssignment("Percussion", 63),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.LXIV.1",
+                        (
+                            baca.PartAssignment("Percussion", 64),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.V.1",
                         (
                             baca.PartAssignment("Percussion", 5),
                             abjad.Timespan(
@@ -448,9 +418,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XIII_a",
+                        "segment.15.Percussion.Voice.VI.1",
                         (
-                            baca.PartAssignment("Percussion", 13),
+                            baca.PartAssignment("Percussion", 6),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -458,9 +428,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XII_a",
+                        "segment.15.Percussion.Voice.VII.1",
                         (
-                            baca.PartAssignment("Percussion", 12),
+                            baca.PartAssignment("Percussion", 7),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -468,9 +438,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XIV_a",
+                        "segment.15.Percussion.Voice.VIII.1",
                         (
-                            baca.PartAssignment("Percussion", 14),
+                            baca.PartAssignment("Percussion", 8),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -478,9 +448,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XIX_a",
+                        "segment.15.Percussion.Voice.X.1",
                         (
-                            baca.PartAssignment("Percussion", 19),
+                            baca.PartAssignment("Percussion", 10),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -488,7 +458,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XI_a",
+                        "segment.15.Percussion.Voice.XI.1",
                         (
                             baca.PartAssignment("Percussion", 11),
                             abjad.Timespan(
@@ -498,9 +468,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XLIII_a",
+                        "segment.15.Percussion.Voice.XII.1",
                         (
-                            baca.PartAssignment("Percussion", 43),
+                            baca.PartAssignment("Percussion", 12),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -508,9 +478,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XLII_a",
+                        "segment.15.Percussion.Voice.XIII.1",
                         (
-                            baca.PartAssignment("Percussion", 42),
+                            baca.PartAssignment("Percussion", 13),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -518,9 +488,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XLIV_a",
+                        "segment.15.Percussion.Voice.XIV.1",
                         (
-                            baca.PartAssignment("Percussion", 44),
+                            baca.PartAssignment("Percussion", 14),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -528,9 +498,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XLIX_a",
+                        "segment.15.Percussion.Voice.XIX.1",
                         (
-                            baca.PartAssignment("Percussion", 49),
+                            baca.PartAssignment("Percussion", 19),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -538,57 +508,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XLI_a",
-                        (
-                            baca.PartAssignment("Percussion", 41),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XLVIII_a",
-                        (
-                            baca.PartAssignment("Percussion", 48),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XLVII_a",
-                        (
-                            baca.PartAssignment("Percussion", 47),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XLVI_a",
-                        (
-                            baca.PartAssignment("Percussion", 46),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XLV_a",
-                        (
-                            baca.PartAssignment("Percussion", 45),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XL_a",
+                        "segment.15.Percussion.Voice.XL.1",
                         (
                             baca.PartAssignment("Percussion", 40),
                             abjad.Timespan(
@@ -598,9 +518,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XVIII_a",
+                        "segment.15.Percussion.Voice.XLI.1",
                         (
-                            baca.PartAssignment("Percussion", 18),
+                            baca.PartAssignment("Percussion", 41),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -608,9 +528,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XVII_a",
+                        "segment.15.Percussion.Voice.XLII.1",
                         (
-                            baca.PartAssignment("Percussion", 17),
+                            baca.PartAssignment("Percussion", 42),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -618,9 +538,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XVI_a",
+                        "segment.15.Percussion.Voice.XLIII.1",
                         (
-                            baca.PartAssignment("Percussion", 16),
+                            baca.PartAssignment("Percussion", 43),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -628,7 +548,67 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XV_a",
+                        "segment.15.Percussion.Voice.XLIV.1",
+                        (
+                            baca.PartAssignment("Percussion", 44),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XLIX.1",
+                        (
+                            baca.PartAssignment("Percussion", 49),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XLV.1",
+                        (
+                            baca.PartAssignment("Percussion", 45),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XLVI.1",
+                        (
+                            baca.PartAssignment("Percussion", 46),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XLVII.1",
+                        (
+                            baca.PartAssignment("Percussion", 47),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XLVIII.1",
+                        (
+                            baca.PartAssignment("Percussion", 48),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XV.1",
                         (
                             baca.PartAssignment("Percussion", 15),
                             abjad.Timespan(
@@ -638,9 +618,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XXIII_a",
+                        "segment.15.Percussion.Voice.XVI.1",
                         (
-                            baca.PartAssignment("Percussion", 23),
+                            baca.PartAssignment("Percussion", 16),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -648,9 +628,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XXII_a",
+                        "segment.15.Percussion.Voice.XVII.1",
                         (
-                            baca.PartAssignment("Percussion", 22),
+                            baca.PartAssignment("Percussion", 17),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -658,9 +638,9 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XXIV_a",
+                        "segment.15.Percussion.Voice.XVIII.1",
                         (
-                            baca.PartAssignment("Percussion", 24),
+                            baca.PartAssignment("Percussion", 18),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
@@ -668,167 +648,7 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_XXIX_a",
-                        (
-                            baca.PartAssignment("Percussion", 29),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXI_a",
-                        (
-                            baca.PartAssignment("Percussion", 21),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXVIII_a",
-                        (
-                            baca.PartAssignment("Percussion", 28),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXVII_a",
-                        (
-                            baca.PartAssignment("Percussion", 27),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXVI_a",
-                        (
-                            baca.PartAssignment("Percussion", 26),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXV_a",
-                        (
-                            baca.PartAssignment("Percussion", 25),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXIII_a",
-                        (
-                            baca.PartAssignment("Percussion", 33),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXII_a",
-                        (
-                            baca.PartAssignment("Percussion", 32),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXIV_a",
-                        (
-                            baca.PartAssignment("Percussion", 34),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXIX_a",
-                        (
-                            baca.PartAssignment("Percussion", 39),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXI_a",
-                        (
-                            baca.PartAssignment("Percussion", 31),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXVIII_a",
-                        (
-                            baca.PartAssignment("Percussion", 38),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXVII_a",
-                        (
-                            baca.PartAssignment("Percussion", 37),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXVI_a",
-                        (
-                            baca.PartAssignment("Percussion", 36),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXXV_a",
-                        (
-                            baca.PartAssignment("Percussion", 35),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XXX_a",
-                        (
-                            baca.PartAssignment("Percussion", 30),
-                            abjad.Timespan(
-                                start_offset=abjad.Offset((0, 1)),
-                                stop_offset=abjad.Offset((8, 1)),
-                            ),
-                        ),
-                    ),
-                    (
-                        "o_Percussion_Voice_XX_a",
+                        "segment.15.Percussion.Voice.XX.1",
                         (
                             baca.PartAssignment("Percussion", 20),
                             abjad.Timespan(
@@ -838,9 +658,189 @@ abjad.OrderedDict(
                         ),
                     ),
                     (
-                        "o_Percussion_Voice_X_a",
+                        "segment.15.Percussion.Voice.XXI.1",
                         (
-                            baca.PartAssignment("Percussion", 10),
+                            baca.PartAssignment("Percussion", 21),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXII.1",
+                        (
+                            baca.PartAssignment("Percussion", 22),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXIII.1",
+                        (
+                            baca.PartAssignment("Percussion", 23),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXIV.1",
+                        (
+                            baca.PartAssignment("Percussion", 24),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXIX.1",
+                        (
+                            baca.PartAssignment("Percussion", 29),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXV.1",
+                        (
+                            baca.PartAssignment("Percussion", 25),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXVI.1",
+                        (
+                            baca.PartAssignment("Percussion", 26),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXVII.1",
+                        (
+                            baca.PartAssignment("Percussion", 27),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXVIII.1",
+                        (
+                            baca.PartAssignment("Percussion", 28),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXX.1",
+                        (
+                            baca.PartAssignment("Percussion", 30),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXI.1",
+                        (
+                            baca.PartAssignment("Percussion", 31),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXII.1",
+                        (
+                            baca.PartAssignment("Percussion", 32),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXIII.1",
+                        (
+                            baca.PartAssignment("Percussion", 33),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXIV.1",
+                        (
+                            baca.PartAssignment("Percussion", 34),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXIX.1",
+                        (
+                            baca.PartAssignment("Percussion", 39),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXV.1",
+                        (
+                            baca.PartAssignment("Percussion", 35),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXVI.1",
+                        (
+                            baca.PartAssignment("Percussion", 36),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXVII.1",
+                        (
+                            baca.PartAssignment("Percussion", 37),
+                            abjad.Timespan(
+                                start_offset=abjad.Offset((0, 1)),
+                                stop_offset=abjad.Offset((8, 1)),
+                            ),
+                        ),
+                    ),
+                    (
+                        "segment.15.Percussion.Voice.XXXVIII.1",
+                        (
+                            baca.PartAssignment("Percussion", 38),
                             abjad.Timespan(
                                 start_offset=abjad.Offset((0, 1)),
                                 stop_offset=abjad.Offset((8, 1)),
