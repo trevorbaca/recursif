@@ -121,9 +121,9 @@ segment.03.Global.Rests = {
 }
 
 
-segment.03.Percussion.Voice.I.part.1 = {
+segment.03.Percussion.Voice.1.part.1 = {
 
-    % [Percussion_Voice_I measure 33 / measure 1]
+    % [Percussion.Voice.1 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 1
     \set Staff.instrumentName = \markup \hcenter-in #8 1
     \clef "percussion"
@@ -137,74 +137,74 @@ segment.03.Percussion.Voice.I.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_I measure 34 / measure 2]
+    % [Percussion.Voice.1 measure 34 / measure 2]
     c'2
 
-    % [Percussion_Voice_I measure 35 / measure 3]
+    % [Percussion.Voice.1 measure 35 / measure 3]
     c'2
 
-    % [Percussion_Voice_I measure 36 / measure 4]
+    % [Percussion.Voice.1 measure 36 / measure 4]
     c'2
 
-    % [Percussion_Voice_I measure 37 / measure 5]
+    % [Percussion.Voice.1 measure 37 / measure 5]
     c'2
 
-    % [Percussion_Voice_I measure 38 / measure 6]
+    % [Percussion.Voice.1 measure 38 / measure 6]
     c'2
 
-    % [Percussion_Voice_I measure 39 / measure 7]
+    % [Percussion.Voice.1 measure 39 / measure 7]
     c'2
 
-    % [Percussion_Voice_I measure 40 / measure 8]
+    % [Percussion.Voice.1 measure 40 / measure 8]
     c'2
 
-    % [Percussion_Voice_I measure 41 / measure 9]
+    % [Percussion.Voice.1 measure 41 / measure 9]
     c'2
 
-    % [Percussion_Voice_I measure 42 / measure 10]
+    % [Percussion.Voice.1 measure 42 / measure 10]
     c'2
 
-    % [Percussion_Voice_I measure 43 / measure 11]
+    % [Percussion.Voice.1 measure 43 / measure 11]
     c'2
 
-    % [Percussion_Voice_I measure 44 / measure 12]
+    % [Percussion.Voice.1 measure 44 / measure 12]
     c'2
 
-    % [Percussion_Voice_I measure 45 / measure 13]
+    % [Percussion.Voice.1 measure 45 / measure 13]
     c'2
 
-    % [Percussion_Voice_I measure 46 / measure 14]
+    % [Percussion.Voice.1 measure 46 / measure 14]
     c'2
 
-    % [Percussion_Voice_I measure 47 / measure 15]
+    % [Percussion.Voice.1 measure 47 / measure 15]
     c'2
 
-    % [Percussion_Voice_I measure 48 / measure 16]
+    % [Percussion.Voice.1 measure 48 / measure 16]
     c'2
 
 }
 
 
-segment.03.Percussion.Voice.I = {
+segment.03.Percussion.Voice.1 = {
 
-    { \segment.03.Percussion.Voice.I.part.1 }
+    { \segment.03.Percussion.Voice.1.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_I"
+        \context Voice = "Percussion.Voice.1"
         {
 
-            % [Percussion_Voice_I measure 49 / measure 17]
+            % [Percussion.Voice.1 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_I"
+        \context Voice = "Percussion.Rest_Voice.1"
         {
 
-            % [Percussion_Rest_Voice_I measure 49 / measure 17]
+            % [Percussion.Rest_Voice.1 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -219,20 +219,20 @@ segment.03.Percussion.Voice.I = {
 }
 
 
-segment.03.Staff.I = <<
+segment.03.Staff.1 = <<
 
     \context GlobalRests = "Global_Rests"
     { \segment.03.Global.Rests }
 
-    \context Voice = "Percussion_Voice_I"
-    { \segment.03.Percussion.Voice.I }
+    \context Voice = "Percussion.Voice.1"
+    { \segment.03.Percussion.Voice.1 }
 
 >>
 
 
-segment.03.Percussion.Voice.II.part.1 = {
+segment.03.Percussion.Voice.2.part.1 = {
 
-    % [Percussion_Voice_II measure 33 / measure 1]
+    % [Percussion.Voice.2 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 2
     \set Staff.instrumentName = \markup \hcenter-in #8 2
     \clef "percussion"
@@ -249,7 +249,7 @@ segment.03.Percussion.Voice.II.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_II measure 34 / measure 2]
+        % [Percussion.Voice.2 measure 34 / measure 2]
         c'8
         [
 
@@ -271,7 +271,7 @@ segment.03.Percussion.Voice.II.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_II measure 35 / measure 3]
+        % [Percussion.Voice.2 measure 35 / measure 3]
         c'8
         [
 
@@ -291,7 +291,7 @@ segment.03.Percussion.Voice.II.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_II measure 36 / measure 4]
+        % [Percussion.Voice.2 measure 36 / measure 4]
         c'8
         [
 
@@ -306,7 +306,7 @@ segment.03.Percussion.Voice.II.part.1 = {
 
     }
 
-    % [Percussion_Voice_II measure 37 / measure 5]
+    % [Percussion.Voice.2 measure 37 / measure 5]
     c'8
     [
 
@@ -320,7 +320,7 @@ segment.03.Percussion.Voice.II.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_II measure 38 / measure 6]
+        % [Percussion.Voice.2 measure 38 / measure 6]
         c'4
 
         c'4
@@ -329,21 +329,21 @@ segment.03.Percussion.Voice.II.part.1 = {
 
     }
 
-    % [Percussion_Voice_II measure 39 / measure 7]
+    % [Percussion.Voice.2 measure 39 / measure 7]
     c'4
 
     c'4
 
-    % [Percussion_Voice_II measure 40 / measure 8]
+    % [Percussion.Voice.2 measure 40 / measure 8]
     c'2
 
-    % [Percussion_Voice_II measure 41 / measure 9]
+    % [Percussion.Voice.2 measure 41 / measure 9]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_II measure 42 / measure 10]
+        % [Percussion.Voice.2 measure 42 / measure 10]
         c'8
         [
 
@@ -365,7 +365,7 @@ segment.03.Percussion.Voice.II.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_II measure 43 / measure 11]
+        % [Percussion.Voice.2 measure 43 / measure 11]
         c'8
         [
 
@@ -385,7 +385,7 @@ segment.03.Percussion.Voice.II.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_II measure 44 / measure 12]
+        % [Percussion.Voice.2 measure 44 / measure 12]
         c'8
         [
 
@@ -400,7 +400,7 @@ segment.03.Percussion.Voice.II.part.1 = {
 
     }
 
-    % [Percussion_Voice_II measure 45 / measure 13]
+    % [Percussion.Voice.2 measure 45 / measure 13]
     c'8
     [
 
@@ -414,7 +414,7 @@ segment.03.Percussion.Voice.II.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_II measure 46 / measure 14]
+        % [Percussion.Voice.2 measure 46 / measure 14]
         c'4
 
         c'4
@@ -423,37 +423,37 @@ segment.03.Percussion.Voice.II.part.1 = {
 
     }
 
-    % [Percussion_Voice_II measure 47 / measure 15]
+    % [Percussion.Voice.2 measure 47 / measure 15]
     c'4
 
     c'4
 
-    % [Percussion_Voice_II measure 48 / measure 16]
+    % [Percussion.Voice.2 measure 48 / measure 16]
     c'2
 
 }
 
 
-segment.03.Percussion.Voice.II = {
+segment.03.Percussion.Voice.2 = {
 
-    { \segment.03.Percussion.Voice.II.part.1 }
+    { \segment.03.Percussion.Voice.2.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_II"
+        \context Voice = "Percussion.Voice.2"
         {
 
-            % [Percussion_Voice_II measure 49 / measure 17]
+            % [Percussion.Voice.2 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_II"
+        \context Voice = "Percussion.Rest_Voice.2"
         {
 
-            % [Percussion_Rest_Voice_II measure 49 / measure 17]
+            % [Percussion.Rest_Voice.2 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -468,17 +468,17 @@ segment.03.Percussion.Voice.II = {
 }
 
 
-segment.03.Staff.II = {
+segment.03.Staff.2 = {
 
-    \context Voice = "Percussion_Voice_II"
-    { \segment.03.Percussion.Voice.II }
+    \context Voice = "Percussion.Voice.2"
+    { \segment.03.Percussion.Voice.2 }
 
 }
 
 
-segment.03.Percussion.Voice.III.part.1 = {
+segment.03.Percussion.Voice.3.part.1 = {
 
-    % [Percussion_Voice_III measure 33 / measure 1]
+    % [Percussion.Voice.3 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 3
     \set Staff.instrumentName = \markup \hcenter-in #8 3
     \clef "percussion"
@@ -492,16 +492,16 @@ segment.03.Percussion.Voice.III.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 3
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_III measure 34 / measure 2]
+    % [Percussion.Voice.3 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_III measure 35 / measure 3]
+    % [Percussion.Voice.3 measure 35 / measure 3]
     c'2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_III measure 36 / measure 4]
+        % [Percussion.Voice.3 measure 36 / measure 4]
         c'4
 
         c'4
@@ -513,7 +513,7 @@ segment.03.Percussion.Voice.III.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_III measure 37 / measure 5]
+        % [Percussion.Voice.3 measure 37 / measure 5]
         c'8
         [
 
@@ -530,7 +530,7 @@ segment.03.Percussion.Voice.III.part.1 = {
 
     }
 
-    % [Percussion_Voice_III measure 38 / measure 6]
+    % [Percussion.Voice.3 measure 38 / measure 6]
     c'4
 
     c'4
@@ -538,7 +538,7 @@ segment.03.Percussion.Voice.III.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_III measure 39 / measure 7]
+        % [Percussion.Voice.3 measure 39 / measure 7]
         c'8
         [
 
@@ -560,7 +560,7 @@ segment.03.Percussion.Voice.III.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_III measure 40 / measure 8]
+        % [Percussion.Voice.3 measure 40 / measure 8]
         c'8
         [
 
@@ -575,7 +575,7 @@ segment.03.Percussion.Voice.III.part.1 = {
 
     }
 
-    % [Percussion_Voice_III measure 41 / measure 9]
+    % [Percussion.Voice.3 measure 41 / measure 9]
     c'8
     [
 
@@ -586,7 +586,7 @@ segment.03.Percussion.Voice.III.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_III measure 42 / measure 10]
+    % [Percussion.Voice.3 measure 42 / measure 10]
     c'8
     [
 
@@ -600,7 +600,7 @@ segment.03.Percussion.Voice.III.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_III measure 43 / measure 11]
+        % [Percussion.Voice.3 measure 43 / measure 11]
         c'8
         [
 
@@ -618,7 +618,7 @@ segment.03.Percussion.Voice.III.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_III measure 44 / measure 12]
+        % [Percussion.Voice.3 measure 44 / measure 12]
         c'8
         [
 
@@ -637,7 +637,7 @@ segment.03.Percussion.Voice.III.part.1 = {
 
     }
 
-    % [Percussion_Voice_III measure 45 / measure 13]
+    % [Percussion.Voice.3 measure 45 / measure 13]
     c'4
 
     c'4
@@ -645,7 +645,7 @@ segment.03.Percussion.Voice.III.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_III measure 46 / measure 14]
+        % [Percussion.Voice.3 measure 46 / measure 14]
         c'8
         [
 
@@ -665,7 +665,7 @@ segment.03.Percussion.Voice.III.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_III measure 47 / measure 15]
+        % [Percussion.Voice.3 measure 47 / measure 15]
         c'4
 
         c'4
@@ -674,32 +674,32 @@ segment.03.Percussion.Voice.III.part.1 = {
 
     }
 
-    % [Percussion_Voice_III measure 48 / measure 16]
+    % [Percussion.Voice.3 measure 48 / measure 16]
     c'2
 
 }
 
 
-segment.03.Percussion.Voice.III = {
+segment.03.Percussion.Voice.3 = {
 
-    { \segment.03.Percussion.Voice.III.part.1 }
+    { \segment.03.Percussion.Voice.3.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_III"
+        \context Voice = "Percussion.Voice.3"
         {
 
-            % [Percussion_Voice_III measure 49 / measure 17]
+            % [Percussion.Voice.3 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_III"
+        \context Voice = "Percussion.Rest_Voice.3"
         {
 
-            % [Percussion_Rest_Voice_III measure 49 / measure 17]
+            % [Percussion.Rest_Voice.3 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -714,17 +714,17 @@ segment.03.Percussion.Voice.III = {
 }
 
 
-segment.03.Staff.III = {
+segment.03.Staff.3 = {
 
-    \context Voice = "Percussion_Voice_III"
-    { \segment.03.Percussion.Voice.III }
+    \context Voice = "Percussion.Voice.3"
+    { \segment.03.Percussion.Voice.3 }
 
 }
 
 
-segment.03.Percussion.Voice.IV.part.1 = {
+segment.03.Percussion.Voice.4.part.1 = {
 
-    % [Percussion_Voice_IV measure 33 / measure 1]
+    % [Percussion.Voice.4 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 4
     \set Staff.instrumentName = \markup \hcenter-in #8 4
     \clef "percussion"
@@ -738,16 +738,16 @@ segment.03.Percussion.Voice.IV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 4
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_IV measure 34 / measure 2]
+    % [Percussion.Voice.4 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_IV measure 35 / measure 3]
+    % [Percussion.Voice.4 measure 35 / measure 3]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_IV measure 36 / measure 4]
+        % [Percussion.Voice.4 measure 36 / measure 4]
         c'8
         [
 
@@ -766,7 +766,7 @@ segment.03.Percussion.Voice.IV.part.1 = {
 
     }
 
-    % [Percussion_Voice_IV measure 37 / measure 5]
+    % [Percussion.Voice.4 measure 37 / measure 5]
     c'8
     [
 
@@ -780,7 +780,7 @@ segment.03.Percussion.Voice.IV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_IV measure 38 / measure 6]
+        % [Percussion.Voice.4 measure 38 / measure 6]
         c'8
         [
 
@@ -797,7 +797,7 @@ segment.03.Percussion.Voice.IV.part.1 = {
 
     }
 
-    % [Percussion_Voice_IV measure 39 / measure 7]
+    % [Percussion.Voice.4 measure 39 / measure 7]
     c'8
     [
 
@@ -811,7 +811,7 @@ segment.03.Percussion.Voice.IV.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_IV measure 40 / measure 8]
+        % [Percussion.Voice.4 measure 40 / measure 8]
         c'8
         [
 
@@ -826,10 +826,10 @@ segment.03.Percussion.Voice.IV.part.1 = {
 
     }
 
-    % [Percussion_Voice_IV measure 41 / measure 9]
+    % [Percussion.Voice.4 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_IV measure 42 / measure 10]
+    % [Percussion.Voice.4 measure 42 / measure 10]
     c'8
     [
 
@@ -840,13 +840,13 @@ segment.03.Percussion.Voice.IV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IV measure 43 / measure 11]
+    % [Percussion.Voice.4 measure 43 / measure 11]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_IV measure 44 / measure 12]
+        % [Percussion.Voice.4 measure 44 / measure 12]
         c'4
 
         c'4
@@ -855,7 +855,7 @@ segment.03.Percussion.Voice.IV.part.1 = {
 
     }
 
-    % [Percussion_Voice_IV measure 45 / measure 13]
+    % [Percussion.Voice.4 measure 45 / measure 13]
     c'8
     [
 
@@ -866,12 +866,12 @@ segment.03.Percussion.Voice.IV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IV measure 46 / measure 14]
+    % [Percussion.Voice.4 measure 46 / measure 14]
     c'4
 
     c'4
 
-    % [Percussion_Voice_IV measure 47 / measure 15]
+    % [Percussion.Voice.4 measure 47 / measure 15]
     c'8
     [
 
@@ -882,32 +882,32 @@ segment.03.Percussion.Voice.IV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IV measure 48 / measure 16]
+    % [Percussion.Voice.4 measure 48 / measure 16]
     c'2
 
 }
 
 
-segment.03.Percussion.Voice.IV = {
+segment.03.Percussion.Voice.4 = {
 
-    { \segment.03.Percussion.Voice.IV.part.1 }
+    { \segment.03.Percussion.Voice.4.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_IV"
+        \context Voice = "Percussion.Voice.4"
         {
 
-            % [Percussion_Voice_IV measure 49 / measure 17]
+            % [Percussion.Voice.4 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_IV"
+        \context Voice = "Percussion.Rest_Voice.4"
         {
 
-            % [Percussion_Rest_Voice_IV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.4 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -922,17 +922,17 @@ segment.03.Percussion.Voice.IV = {
 }
 
 
-segment.03.Staff.IV = {
+segment.03.Staff.4 = {
 
-    \context Voice = "Percussion_Voice_IV"
-    { \segment.03.Percussion.Voice.IV }
+    \context Voice = "Percussion.Voice.4"
+    { \segment.03.Percussion.Voice.4 }
 
 }
 
 
-segment.03.Percussion.Voice.V.part.1 = {
+segment.03.Percussion.Voice.5.part.1 = {
 
-    % [Percussion_Voice_V measure 33 / measure 1]
+    % [Percussion.Voice.5 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 5
     \set Staff.instrumentName = \markup \hcenter-in #8 5
     \clef "percussion"
@@ -946,22 +946,22 @@ segment.03.Percussion.Voice.V.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 5
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_V measure 34 / measure 2]
+    % [Percussion.Voice.5 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_V measure 35 / measure 3]
+    % [Percussion.Voice.5 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_V measure 36 / measure 4]
+    % [Percussion.Voice.5 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_V measure 37 / measure 5]
+    % [Percussion.Voice.5 measure 37 / measure 5]
     c'2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_V measure 38 / measure 6]
+        % [Percussion.Voice.5 measure 38 / measure 6]
         c'8
         [
 
@@ -979,7 +979,7 @@ segment.03.Percussion.Voice.V.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_V measure 39 / measure 7]
+        % [Percussion.Voice.5 measure 39 / measure 7]
         c'8
         [
 
@@ -1001,7 +1001,7 @@ segment.03.Percussion.Voice.V.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_V measure 40 / measure 8]
+        % [Percussion.Voice.5 measure 40 / measure 8]
         c'4
 
         c'4
@@ -1013,7 +1013,7 @@ segment.03.Percussion.Voice.V.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_V measure 41 / measure 9]
+        % [Percussion.Voice.5 measure 41 / measure 9]
         c'8
         [
 
@@ -1033,7 +1033,7 @@ segment.03.Percussion.Voice.V.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_V measure 42 / measure 10]
+        % [Percussion.Voice.5 measure 42 / measure 10]
         c'8
         [
 
@@ -1050,12 +1050,12 @@ segment.03.Percussion.Voice.V.part.1 = {
 
     }
 
-    % [Percussion_Voice_V measure 43 / measure 11]
+    % [Percussion.Voice.5 measure 43 / measure 11]
     c'4
 
     c'4
 
-    % [Percussion_Voice_V measure 44 / measure 12]
+    % [Percussion.Voice.5 measure 44 / measure 12]
     c'4
 
     c'4
@@ -1063,7 +1063,7 @@ segment.03.Percussion.Voice.V.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_V measure 45 / measure 13]
+        % [Percussion.Voice.5 measure 45 / measure 13]
         c'8
         [
 
@@ -1085,7 +1085,7 @@ segment.03.Percussion.Voice.V.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_V measure 46 / measure 14]
+        % [Percussion.Voice.5 measure 46 / measure 14]
         c'4
 
         c'4
@@ -1094,13 +1094,13 @@ segment.03.Percussion.Voice.V.part.1 = {
 
     }
 
-    % [Percussion_Voice_V measure 47 / measure 15]
+    % [Percussion.Voice.5 measure 47 / measure 15]
     c'2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_V measure 48 / measure 16]
+        % [Percussion.Voice.5 measure 48 / measure 16]
         c'8
         [
 
@@ -1118,26 +1118,26 @@ segment.03.Percussion.Voice.V.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.V = {
+segment.03.Percussion.Voice.5 = {
 
-    { \segment.03.Percussion.Voice.V.part.1 }
+    { \segment.03.Percussion.Voice.5.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_V"
+        \context Voice = "Percussion.Voice.5"
         {
 
-            % [Percussion_Voice_V measure 49 / measure 17]
+            % [Percussion.Voice.5 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_V"
+        \context Voice = "Percussion.Rest_Voice.5"
         {
 
-            % [Percussion_Rest_Voice_V measure 49 / measure 17]
+            % [Percussion.Rest_Voice.5 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1152,17 +1152,17 @@ segment.03.Percussion.Voice.V = {
 }
 
 
-segment.03.Staff.V = {
+segment.03.Staff.5 = {
 
-    \context Voice = "Percussion_Voice_V"
-    { \segment.03.Percussion.Voice.V }
+    \context Voice = "Percussion.Voice.5"
+    { \segment.03.Percussion.Voice.5 }
 
 }
 
 
-segment.03.Percussion.Voice.VI.part.1 = {
+segment.03.Percussion.Voice.6.part.1 = {
 
-    % [Percussion_Voice_VI measure 33 / measure 1]
+    % [Percussion.Voice.6 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 6
     \set Staff.instrumentName = \markup \hcenter-in #8 6
     \clef "percussion"
@@ -1176,22 +1176,22 @@ segment.03.Percussion.Voice.VI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 6
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_VI measure 34 / measure 2]
+    % [Percussion.Voice.6 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_VI measure 35 / measure 3]
+    % [Percussion.Voice.6 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_VI measure 36 / measure 4]
+    % [Percussion.Voice.6 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_VI measure 37 / measure 5]
+    % [Percussion.Voice.6 measure 37 / measure 5]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_VI measure 38 / measure 6]
+        % [Percussion.Voice.6 measure 38 / measure 6]
         c'8
         [
 
@@ -1210,7 +1210,7 @@ segment.03.Percussion.Voice.VI.part.1 = {
 
     }
 
-    % [Percussion_Voice_VI measure 39 / measure 7]
+    % [Percussion.Voice.6 measure 39 / measure 7]
     c'4
 
     c'4
@@ -1218,7 +1218,7 @@ segment.03.Percussion.Voice.VI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_VI measure 40 / measure 8]
+        % [Percussion.Voice.6 measure 40 / measure 8]
         c'4
 
         c'4
@@ -1227,15 +1227,15 @@ segment.03.Percussion.Voice.VI.part.1 = {
 
     }
 
-    % [Percussion_Voice_VI measure 41 / measure 9]
+    % [Percussion.Voice.6 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_VI measure 42 / measure 10]
+    % [Percussion.Voice.6 measure 42 / measure 10]
     c'4
 
     c'4
 
-    % [Percussion_Voice_VI measure 43 / measure 11]
+    % [Percussion.Voice.6 measure 43 / measure 11]
     c'8
     [
 
@@ -1246,21 +1246,21 @@ segment.03.Percussion.Voice.VI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_VI measure 44 / measure 12]
+    % [Percussion.Voice.6 measure 44 / measure 12]
     c'4
 
     c'4
 
-    % [Percussion_Voice_VI measure 45 / measure 13]
+    % [Percussion.Voice.6 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_VI measure 46 / measure 14]
+    % [Percussion.Voice.6 measure 46 / measure 14]
     c'2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_VI measure 47 / measure 15]
+        % [Percussion.Voice.6 measure 47 / measure 15]
         c'8
         [
 
@@ -1280,7 +1280,7 @@ segment.03.Percussion.Voice.VI.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_VI measure 48 / measure 16]
+        % [Percussion.Voice.6 measure 48 / measure 16]
         c'8
         [
 
@@ -1298,26 +1298,26 @@ segment.03.Percussion.Voice.VI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.VI = {
+segment.03.Percussion.Voice.6 = {
 
-    { \segment.03.Percussion.Voice.VI.part.1 }
+    { \segment.03.Percussion.Voice.6.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_VI"
+        \context Voice = "Percussion.Voice.6"
         {
 
-            % [Percussion_Voice_VI measure 49 / measure 17]
+            % [Percussion.Voice.6 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_VI"
+        \context Voice = "Percussion.Rest_Voice.6"
         {
 
-            % [Percussion_Rest_Voice_VI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.6 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1332,17 +1332,17 @@ segment.03.Percussion.Voice.VI = {
 }
 
 
-segment.03.Staff.VI = {
+segment.03.Staff.6 = {
 
-    \context Voice = "Percussion_Voice_VI"
-    { \segment.03.Percussion.Voice.VI }
+    \context Voice = "Percussion.Voice.6"
+    { \segment.03.Percussion.Voice.6 }
 
 }
 
 
-segment.03.Percussion.Voice.VII.part.1 = {
+segment.03.Percussion.Voice.7.part.1 = {
 
-    % [Percussion_Voice_VII measure 33 / measure 1]
+    % [Percussion.Voice.7 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 7
     \set Staff.instrumentName = \markup \hcenter-in #8 7
     \clef "percussion"
@@ -1356,28 +1356,28 @@ segment.03.Percussion.Voice.VII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 7
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_VII measure 34 / measure 2]
+    % [Percussion.Voice.7 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_VII measure 35 / measure 3]
+    % [Percussion.Voice.7 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_VII measure 36 / measure 4]
+    % [Percussion.Voice.7 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_VII measure 37 / measure 5]
+    % [Percussion.Voice.7 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_VII measure 38 / measure 6]
+    % [Percussion.Voice.7 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_VII measure 39 / measure 7]
+    % [Percussion.Voice.7 measure 39 / measure 7]
     c'2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_VII measure 40 / measure 8]
+        % [Percussion.Voice.7 measure 40 / measure 8]
         c'8
         [
 
@@ -1396,7 +1396,7 @@ segment.03.Percussion.Voice.VII.part.1 = {
 
     }
 
-    % [Percussion_Voice_VII measure 41 / measure 9]
+    % [Percussion.Voice.7 measure 41 / measure 9]
     c'8
     [
 
@@ -1407,7 +1407,7 @@ segment.03.Percussion.Voice.VII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_VII measure 42 / measure 10]
+    % [Percussion.Voice.7 measure 42 / measure 10]
     c'8
     [
 
@@ -1418,7 +1418,7 @@ segment.03.Percussion.Voice.VII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_VII measure 43 / measure 11]
+    % [Percussion.Voice.7 measure 43 / measure 11]
     c'4
 
     c'4
@@ -1426,7 +1426,7 @@ segment.03.Percussion.Voice.VII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_VII measure 44 / measure 12]
+        % [Percussion.Voice.7 measure 44 / measure 12]
         c'8
         [
 
@@ -1443,7 +1443,7 @@ segment.03.Percussion.Voice.VII.part.1 = {
 
     }
 
-    % [Percussion_Voice_VII measure 45 / measure 13]
+    % [Percussion.Voice.7 measure 45 / measure 13]
     c'8
     [
 
@@ -1454,7 +1454,7 @@ segment.03.Percussion.Voice.VII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_VII measure 46 / measure 14]
+    % [Percussion.Voice.7 measure 46 / measure 14]
     c'8
     [
 
@@ -1468,7 +1468,7 @@ segment.03.Percussion.Voice.VII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_VII measure 47 / measure 15]
+        % [Percussion.Voice.7 measure 47 / measure 15]
         c'4
 
         c'4
@@ -1480,7 +1480,7 @@ segment.03.Percussion.Voice.VII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_VII measure 48 / measure 16]
+        % [Percussion.Voice.7 measure 48 / measure 16]
         c'8
         [
 
@@ -1498,26 +1498,26 @@ segment.03.Percussion.Voice.VII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.VII = {
+segment.03.Percussion.Voice.7 = {
 
-    { \segment.03.Percussion.Voice.VII.part.1 }
+    { \segment.03.Percussion.Voice.7.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_VII"
+        \context Voice = "Percussion.Voice.7"
         {
 
-            % [Percussion_Voice_VII measure 49 / measure 17]
+            % [Percussion.Voice.7 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_VII"
+        \context Voice = "Percussion.Rest_Voice.7"
         {
 
-            % [Percussion_Rest_Voice_VII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.7 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1532,17 +1532,17 @@ segment.03.Percussion.Voice.VII = {
 }
 
 
-segment.03.Staff.VII = {
+segment.03.Staff.7 = {
 
-    \context Voice = "Percussion_Voice_VII"
-    { \segment.03.Percussion.Voice.VII }
+    \context Voice = "Percussion.Voice.7"
+    { \segment.03.Percussion.Voice.7 }
 
 }
 
 
-segment.03.Percussion.Voice.VIII.part.1 = {
+segment.03.Percussion.Voice.8.part.1 = {
 
-    % [Percussion_Voice_VIII measure 33 / measure 1]
+    % [Percussion.Voice.8 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 8
     \set Staff.instrumentName = \markup \hcenter-in #8 8
     \clef "percussion"
@@ -1556,28 +1556,28 @@ segment.03.Percussion.Voice.VIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 8
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_VIII measure 34 / measure 2]
+    % [Percussion.Voice.8 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_VIII measure 35 / measure 3]
+    % [Percussion.Voice.8 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_VIII measure 36 / measure 4]
+    % [Percussion.Voice.8 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_VIII measure 37 / measure 5]
+    % [Percussion.Voice.8 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_VIII measure 38 / measure 6]
+    % [Percussion.Voice.8 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_VIII measure 39 / measure 7]
+    % [Percussion.Voice.8 measure 39 / measure 7]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_VIII measure 40 / measure 8]
+        % [Percussion.Voice.8 measure 40 / measure 8]
         c'8
         [
 
@@ -1596,10 +1596,10 @@ segment.03.Percussion.Voice.VIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_VIII measure 41 / measure 9]
+    % [Percussion.Voice.8 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_VIII measure 42 / measure 10]
+    % [Percussion.Voice.8 measure 42 / measure 10]
     c'8
     [
 
@@ -1610,13 +1610,13 @@ segment.03.Percussion.Voice.VIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_VIII measure 43 / measure 11]
+    % [Percussion.Voice.8 measure 43 / measure 11]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_VIII measure 44 / measure 12]
+        % [Percussion.Voice.8 measure 44 / measure 12]
         c'8
         [
 
@@ -1633,10 +1633,10 @@ segment.03.Percussion.Voice.VIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_VIII measure 45 / measure 13]
+    % [Percussion.Voice.8 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_VIII measure 46 / measure 14]
+    % [Percussion.Voice.8 measure 46 / measure 14]
     c'8
     [
 
@@ -1647,13 +1647,13 @@ segment.03.Percussion.Voice.VIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_VIII measure 47 / measure 15]
+    % [Percussion.Voice.8 measure 47 / measure 15]
     r2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_VIII measure 48 / measure 16]
+        % [Percussion.Voice.8 measure 48 / measure 16]
         c'8
         [
 
@@ -1671,26 +1671,26 @@ segment.03.Percussion.Voice.VIII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.VIII = {
+segment.03.Percussion.Voice.8 = {
 
-    { \segment.03.Percussion.Voice.VIII.part.1 }
+    { \segment.03.Percussion.Voice.8.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_VIII"
+        \context Voice = "Percussion.Voice.8"
         {
 
-            % [Percussion_Voice_VIII measure 49 / measure 17]
+            % [Percussion.Voice.8 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_VIII"
+        \context Voice = "Percussion.Rest_Voice.8"
         {
 
-            % [Percussion_Rest_Voice_VIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.8 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1705,17 +1705,17 @@ segment.03.Percussion.Voice.VIII = {
 }
 
 
-segment.03.Staff.VIII = {
+segment.03.Staff.8 = {
 
-    \context Voice = "Percussion_Voice_VIII"
-    { \segment.03.Percussion.Voice.VIII }
+    \context Voice = "Percussion.Voice.8"
+    { \segment.03.Percussion.Voice.8 }
 
 }
 
 
-segment.03.Percussion.Voice.IX.part.1 = {
+segment.03.Percussion.Voice.9.part.1 = {
 
-    % [Percussion_Voice_IX measure 33 / measure 1]
+    % [Percussion.Voice.9 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 9
     \set Staff.instrumentName = \markup \hcenter-in #8 9
     \clef "percussion"
@@ -1737,7 +1737,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IX measure 34 / measure 2]
+    % [Percussion.Voice.9 measure 34 / measure 2]
     c'8
     [
 
@@ -1748,7 +1748,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IX measure 35 / measure 3]
+    % [Percussion.Voice.9 measure 35 / measure 3]
     c'8
     [
 
@@ -1759,7 +1759,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IX measure 36 / measure 4]
+    % [Percussion.Voice.9 measure 36 / measure 4]
     c'8
     [
 
@@ -1770,7 +1770,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IX measure 37 / measure 5]
+    % [Percussion.Voice.9 measure 37 / measure 5]
     c'8
     [
 
@@ -1781,7 +1781,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IX measure 38 / measure 6]
+    % [Percussion.Voice.9 measure 38 / measure 6]
     c'8
     [
 
@@ -1792,7 +1792,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IX measure 39 / measure 7]
+    % [Percussion.Voice.9 measure 39 / measure 7]
     c'8
     [
 
@@ -1803,7 +1803,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_IX measure 40 / measure 8]
+    % [Percussion.Voice.9 measure 40 / measure 8]
     c'8
     [
 
@@ -1817,7 +1817,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_IX measure 41 / measure 9]
+        % [Percussion.Voice.9 measure 41 / measure 9]
         c'8
         [
 
@@ -1835,7 +1835,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_IX measure 42 / measure 10]
+        % [Percussion.Voice.9 measure 42 / measure 10]
         c'8
         [
 
@@ -1850,16 +1850,16 @@ segment.03.Percussion.Voice.IX.part.1 = {
 
     }
 
-    % [Percussion_Voice_IX measure 43 / measure 11]
+    % [Percussion.Voice.9 measure 43 / measure 11]
     c'2
 
-    % [Percussion_Voice_IX measure 44 / measure 12]
+    % [Percussion.Voice.9 measure 44 / measure 12]
     c'2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_IX measure 45 / measure 13]
+        % [Percussion.Voice.9 measure 45 / measure 13]
         c'4
 
         c'4
@@ -1871,7 +1871,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_IX measure 46 / measure 14]
+        % [Percussion.Voice.9 measure 46 / measure 14]
         c'4
 
         c'4
@@ -1883,7 +1883,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_IX measure 47 / measure 15]
+        % [Percussion.Voice.9 measure 47 / measure 15]
         c'8
         [
 
@@ -1905,7 +1905,7 @@ segment.03.Percussion.Voice.IX.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_IX measure 48 / measure 16]
+        % [Percussion.Voice.9 measure 48 / measure 16]
         c'8
         [
 
@@ -1927,26 +1927,26 @@ segment.03.Percussion.Voice.IX.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.IX = {
+segment.03.Percussion.Voice.9 = {
 
-    { \segment.03.Percussion.Voice.IX.part.1 }
+    { \segment.03.Percussion.Voice.9.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_IX"
+        \context Voice = "Percussion.Voice.9"
         {
 
-            % [Percussion_Voice_IX measure 49 / measure 17]
+            % [Percussion.Voice.9 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_IX"
+        \context Voice = "Percussion.Rest_Voice.9"
         {
 
-            % [Percussion_Rest_Voice_IX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.9 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1961,17 +1961,17 @@ segment.03.Percussion.Voice.IX = {
 }
 
 
-segment.03.Staff.IX = {
+segment.03.Staff.9 = {
 
-    \context Voice = "Percussion_Voice_IX"
-    { \segment.03.Percussion.Voice.IX }
+    \context Voice = "Percussion.Voice.9"
+    { \segment.03.Percussion.Voice.9 }
 
 }
 
 
-segment.03.Percussion.Voice.X.part.1 = {
+segment.03.Percussion.Voice.10.part.1 = {
 
-    % [Percussion_Voice_X measure 33 / measure 1]
+    % [Percussion.Voice.10 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 10
     \set Staff.instrumentName = \markup \hcenter-in #8 10
     \clef "percussion"
@@ -1985,7 +1985,7 @@ segment.03.Percussion.Voice.X.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 10
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_X measure 34 / measure 2]
+    % [Percussion.Voice.10 measure 34 / measure 2]
     c'8
     [
 
@@ -1996,10 +1996,10 @@ segment.03.Percussion.Voice.X.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_X measure 35 / measure 3]
+    % [Percussion.Voice.10 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_X measure 36 / measure 4]
+    % [Percussion.Voice.10 measure 36 / measure 4]
     c'8
     [
 
@@ -2010,10 +2010,10 @@ segment.03.Percussion.Voice.X.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_X measure 37 / measure 5]
+    % [Percussion.Voice.10 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_X measure 38 / measure 6]
+    % [Percussion.Voice.10 measure 38 / measure 6]
     c'8
     [
 
@@ -2024,10 +2024,10 @@ segment.03.Percussion.Voice.X.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_X measure 39 / measure 7]
+    % [Percussion.Voice.10 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_X measure 40 / measure 8]
+    % [Percussion.Voice.10 measure 40 / measure 8]
     c'8
     [
 
@@ -2038,13 +2038,13 @@ segment.03.Percussion.Voice.X.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_X measure 41 / measure 9]
+    % [Percussion.Voice.10 measure 41 / measure 9]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_X measure 42 / measure 10]
+        % [Percussion.Voice.10 measure 42 / measure 10]
         c'4
 
         c'4
@@ -2056,7 +2056,7 @@ segment.03.Percussion.Voice.X.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_X measure 43 / measure 11]
+        % [Percussion.Voice.10 measure 43 / measure 11]
         c'8
         [
 
@@ -2076,7 +2076,7 @@ segment.03.Percussion.Voice.X.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_X measure 44 / measure 12]
+        % [Percussion.Voice.10 measure 44 / measure 12]
         c'8
         [
 
@@ -2091,7 +2091,7 @@ segment.03.Percussion.Voice.X.part.1 = {
 
     }
 
-    % [Percussion_Voice_X measure 45 / measure 13]
+    % [Percussion.Voice.10 measure 45 / measure 13]
     c'8
     [
 
@@ -2102,13 +2102,13 @@ segment.03.Percussion.Voice.X.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_X measure 46 / measure 14]
+    % [Percussion.Voice.10 measure 46 / measure 14]
     c'2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_X measure 47 / measure 15]
+        % [Percussion.Voice.10 measure 47 / measure 15]
         c'8
         [
 
@@ -2128,7 +2128,7 @@ segment.03.Percussion.Voice.X.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_X measure 48 / measure 16]
+        % [Percussion.Voice.10 measure 48 / measure 16]
         c'8
         [
 
@@ -2150,26 +2150,26 @@ segment.03.Percussion.Voice.X.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.X = {
+segment.03.Percussion.Voice.10 = {
 
-    { \segment.03.Percussion.Voice.X.part.1 }
+    { \segment.03.Percussion.Voice.10.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_X"
+        \context Voice = "Percussion.Voice.10"
         {
 
-            % [Percussion_Voice_X measure 49 / measure 17]
+            % [Percussion.Voice.10 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_X"
+        \context Voice = "Percussion.Rest_Voice.10"
         {
 
-            % [Percussion_Rest_Voice_X measure 49 / measure 17]
+            % [Percussion.Rest_Voice.10 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -2184,17 +2184,17 @@ segment.03.Percussion.Voice.X = {
 }
 
 
-segment.03.Staff.X = {
+segment.03.Staff.10 = {
 
-    \context Voice = "Percussion_Voice_X"
-    { \segment.03.Percussion.Voice.X }
+    \context Voice = "Percussion.Voice.10"
+    { \segment.03.Percussion.Voice.10 }
 
 }
 
 
-segment.03.Percussion.Voice.XI.part.1 = {
+segment.03.Percussion.Voice.11.part.1 = {
 
-    % [Percussion_Voice_XI measure 33 / measure 1]
+    % [Percussion.Voice.11 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 11
     \set Staff.instrumentName = \markup \hcenter-in #8 11
     \clef "percussion"
@@ -2208,10 +2208,10 @@ segment.03.Percussion.Voice.XI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 11
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XI measure 34 / measure 2]
+    % [Percussion.Voice.11 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XI measure 35 / measure 3]
+    % [Percussion.Voice.11 measure 35 / measure 3]
     c'8
     [
 
@@ -2222,7 +2222,7 @@ segment.03.Percussion.Voice.XI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XI measure 36 / measure 4]
+    % [Percussion.Voice.11 measure 36 / measure 4]
     c'8
     [
 
@@ -2233,13 +2233,13 @@ segment.03.Percussion.Voice.XI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XI measure 37 / measure 5]
+    % [Percussion.Voice.11 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XI measure 38 / measure 6]
+    % [Percussion.Voice.11 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XI measure 39 / measure 7]
+    % [Percussion.Voice.11 measure 39 / measure 7]
     c'8
     [
 
@@ -2250,7 +2250,7 @@ segment.03.Percussion.Voice.XI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XI measure 40 / measure 8]
+    % [Percussion.Voice.11 measure 40 / measure 8]
     c'8
     [
 
@@ -2261,16 +2261,16 @@ segment.03.Percussion.Voice.XI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XI measure 41 / measure 9]
+    % [Percussion.Voice.11 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XI measure 42 / measure 10]
+    % [Percussion.Voice.11 measure 42 / measure 10]
     r2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_XI measure 43 / measure 11]
+        % [Percussion.Voice.11 measure 43 / measure 11]
         c'8
         [
 
@@ -2288,7 +2288,7 @@ segment.03.Percussion.Voice.XI.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XI measure 44 / measure 12]
+        % [Percussion.Voice.11 measure 44 / measure 12]
         c'8
         [
 
@@ -2307,7 +2307,7 @@ segment.03.Percussion.Voice.XI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XI measure 45 / measure 13]
+    % [Percussion.Voice.11 measure 45 / measure 13]
     c'4
 
     c'4
@@ -2315,7 +2315,7 @@ segment.03.Percussion.Voice.XI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XI measure 46 / measure 14]
+        % [Percussion.Voice.11 measure 46 / measure 14]
         c'8
         [
 
@@ -2335,7 +2335,7 @@ segment.03.Percussion.Voice.XI.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XI measure 47 / measure 15]
+        % [Percussion.Voice.11 measure 47 / measure 15]
         c'8
         [
 
@@ -2353,7 +2353,7 @@ segment.03.Percussion.Voice.XI.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XI measure 48 / measure 16]
+        % [Percussion.Voice.11 measure 48 / measure 16]
         c'8
         [
 
@@ -2375,26 +2375,26 @@ segment.03.Percussion.Voice.XI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XI = {
+segment.03.Percussion.Voice.11 = {
 
-    { \segment.03.Percussion.Voice.XI.part.1 }
+    { \segment.03.Percussion.Voice.11.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XI"
+        \context Voice = "Percussion.Voice.11"
         {
 
-            % [Percussion_Voice_XI measure 49 / measure 17]
+            % [Percussion.Voice.11 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XI"
+        \context Voice = "Percussion.Rest_Voice.11"
         {
 
-            % [Percussion_Rest_Voice_XI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.11 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -2409,17 +2409,17 @@ segment.03.Percussion.Voice.XI = {
 }
 
 
-segment.03.Staff.XI = {
+segment.03.Staff.11 = {
 
-    \context Voice = "Percussion_Voice_XI"
-    { \segment.03.Percussion.Voice.XI }
+    \context Voice = "Percussion.Voice.11"
+    { \segment.03.Percussion.Voice.11 }
 
 }
 
 
-segment.03.Percussion.Voice.XII.part.1 = {
+segment.03.Percussion.Voice.12.part.1 = {
 
-    % [Percussion_Voice_XII measure 33 / measure 1]
+    % [Percussion.Voice.12 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 12
     \set Staff.instrumentName = \markup \hcenter-in #8 12
     \clef "percussion"
@@ -2433,13 +2433,13 @@ segment.03.Percussion.Voice.XII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 12
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XII measure 34 / measure 2]
+    % [Percussion.Voice.12 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XII measure 35 / measure 3]
+    % [Percussion.Voice.12 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XII measure 36 / measure 4]
+    % [Percussion.Voice.12 measure 36 / measure 4]
     c'8
     [
 
@@ -2450,16 +2450,16 @@ segment.03.Percussion.Voice.XII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XII measure 37 / measure 5]
+    % [Percussion.Voice.12 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XII measure 38 / measure 6]
+    % [Percussion.Voice.12 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XII measure 39 / measure 7]
+    % [Percussion.Voice.12 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XII measure 40 / measure 8]
+    % [Percussion.Voice.12 measure 40 / measure 8]
     c'8
     [
 
@@ -2470,19 +2470,19 @@ segment.03.Percussion.Voice.XII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XII measure 41 / measure 9]
+    % [Percussion.Voice.12 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XII measure 42 / measure 10]
+    % [Percussion.Voice.12 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XII measure 43 / measure 11]
+    % [Percussion.Voice.12 measure 43 / measure 11]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XII measure 44 / measure 12]
+        % [Percussion.Voice.12 measure 44 / measure 12]
         c'4
 
         c'4
@@ -2491,7 +2491,7 @@ segment.03.Percussion.Voice.XII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XII measure 45 / measure 13]
+    % [Percussion.Voice.12 measure 45 / measure 13]
     c'8
     [
 
@@ -2502,12 +2502,12 @@ segment.03.Percussion.Voice.XII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XII measure 46 / measure 14]
+    % [Percussion.Voice.12 measure 46 / measure 14]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XII measure 47 / measure 15]
+    % [Percussion.Voice.12 measure 47 / measure 15]
     c'8
     [
 
@@ -2521,7 +2521,7 @@ segment.03.Percussion.Voice.XII.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XII measure 48 / measure 16]
+        % [Percussion.Voice.12 measure 48 / measure 16]
         c'8
         [
 
@@ -2543,26 +2543,26 @@ segment.03.Percussion.Voice.XII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XII = {
+segment.03.Percussion.Voice.12 = {
 
-    { \segment.03.Percussion.Voice.XII.part.1 }
+    { \segment.03.Percussion.Voice.12.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XII"
+        \context Voice = "Percussion.Voice.12"
         {
 
-            % [Percussion_Voice_XII measure 49 / measure 17]
+            % [Percussion.Voice.12 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XII"
+        \context Voice = "Percussion.Rest_Voice.12"
         {
 
-            % [Percussion_Rest_Voice_XII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.12 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -2577,17 +2577,17 @@ segment.03.Percussion.Voice.XII = {
 }
 
 
-segment.03.Staff.XII = {
+segment.03.Staff.12 = {
 
-    \context Voice = "Percussion_Voice_XII"
-    { \segment.03.Percussion.Voice.XII }
+    \context Voice = "Percussion.Voice.12"
+    { \segment.03.Percussion.Voice.12 }
 
 }
 
 
-segment.03.Percussion.Voice.XIII.part.1 = {
+segment.03.Percussion.Voice.13.part.1 = {
 
-    % [Percussion_Voice_XIII measure 33 / measure 1]
+    % [Percussion.Voice.13 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 13
     \set Staff.instrumentName = \markup \hcenter-in #8 13
     \clef "percussion"
@@ -2601,16 +2601,16 @@ segment.03.Percussion.Voice.XIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 13
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XIII measure 34 / measure 2]
+    % [Percussion.Voice.13 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XIII measure 35 / measure 3]
+    % [Percussion.Voice.13 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XIII measure 36 / measure 4]
+    % [Percussion.Voice.13 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XIII measure 37 / measure 5]
+    % [Percussion.Voice.13 measure 37 / measure 5]
     c'8
     [
 
@@ -2621,7 +2621,7 @@ segment.03.Percussion.Voice.XIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIII measure 38 / measure 6]
+    % [Percussion.Voice.13 measure 38 / measure 6]
     c'8
     [
 
@@ -2632,7 +2632,7 @@ segment.03.Percussion.Voice.XIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIII measure 39 / measure 7]
+    % [Percussion.Voice.13 measure 39 / measure 7]
     c'8
     [
 
@@ -2643,7 +2643,7 @@ segment.03.Percussion.Voice.XIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIII measure 40 / measure 8]
+    % [Percussion.Voice.13 measure 40 / measure 8]
     c'8
     [
 
@@ -2654,22 +2654,22 @@ segment.03.Percussion.Voice.XIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIII measure 41 / measure 9]
+    % [Percussion.Voice.13 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XIII measure 42 / measure 10]
+    % [Percussion.Voice.13 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XIII measure 43 / measure 11]
+    % [Percussion.Voice.13 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XIII measure 44 / measure 12]
+    % [Percussion.Voice.13 measure 44 / measure 12]
     r2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_XIII measure 45 / measure 13]
+        % [Percussion.Voice.13 measure 45 / measure 13]
         c'8
         [
 
@@ -2684,13 +2684,13 @@ segment.03.Percussion.Voice.XIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XIII measure 46 / measure 14]
+    % [Percussion.Voice.13 measure 46 / measure 14]
     c'2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XIII measure 47 / measure 15]
+        % [Percussion.Voice.13 measure 47 / measure 15]
         c'8
         [
 
@@ -2712,7 +2712,7 @@ segment.03.Percussion.Voice.XIII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XIII measure 48 / measure 16]
+        % [Percussion.Voice.13 measure 48 / measure 16]
         c'4
 
         c'4
@@ -2724,26 +2724,26 @@ segment.03.Percussion.Voice.XIII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XIII = {
+segment.03.Percussion.Voice.13 = {
 
-    { \segment.03.Percussion.Voice.XIII.part.1 }
+    { \segment.03.Percussion.Voice.13.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XIII"
+        \context Voice = "Percussion.Voice.13"
         {
 
-            % [Percussion_Voice_XIII measure 49 / measure 17]
+            % [Percussion.Voice.13 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XIII"
+        \context Voice = "Percussion.Rest_Voice.13"
         {
 
-            % [Percussion_Rest_Voice_XIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.13 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -2758,17 +2758,17 @@ segment.03.Percussion.Voice.XIII = {
 }
 
 
-segment.03.Staff.XIII = {
+segment.03.Staff.13 = {
 
-    \context Voice = "Percussion_Voice_XIII"
-    { \segment.03.Percussion.Voice.XIII }
+    \context Voice = "Percussion.Voice.13"
+    { \segment.03.Percussion.Voice.13 }
 
 }
 
 
-segment.03.Percussion.Voice.XIV.part.1 = {
+segment.03.Percussion.Voice.14.part.1 = {
 
-    % [Percussion_Voice_XIV measure 33 / measure 1]
+    % [Percussion.Voice.14 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 14
     \set Staff.instrumentName = \markup \hcenter-in #8 14
     \clef "percussion"
@@ -2782,19 +2782,19 @@ segment.03.Percussion.Voice.XIV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 14
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XIV measure 34 / measure 2]
+    % [Percussion.Voice.14 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XIV measure 35 / measure 3]
+    % [Percussion.Voice.14 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XIV measure 36 / measure 4]
+    % [Percussion.Voice.14 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XIV measure 37 / measure 5]
+    % [Percussion.Voice.14 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XIV measure 38 / measure 6]
+    % [Percussion.Voice.14 measure 38 / measure 6]
     c'8
     [
 
@@ -2805,10 +2805,10 @@ segment.03.Percussion.Voice.XIV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIV measure 39 / measure 7]
+    % [Percussion.Voice.14 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XIV measure 40 / measure 8]
+    % [Percussion.Voice.14 measure 40 / measure 8]
     c'8
     [
 
@@ -2819,25 +2819,25 @@ segment.03.Percussion.Voice.XIV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIV measure 41 / measure 9]
+    % [Percussion.Voice.14 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XIV measure 42 / measure 10]
+    % [Percussion.Voice.14 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XIV measure 43 / measure 11]
+    % [Percussion.Voice.14 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XIV measure 44 / measure 12]
+    % [Percussion.Voice.14 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XIV measure 45 / measure 13]
+    % [Percussion.Voice.14 measure 45 / measure 13]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XIV measure 46 / measure 14]
+        % [Percussion.Voice.14 measure 46 / measure 14]
         c'4
 
         c'4
@@ -2846,7 +2846,7 @@ segment.03.Percussion.Voice.XIV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XIV measure 47 / measure 15]
+    % [Percussion.Voice.14 measure 47 / measure 15]
     c'4
 
     c'4
@@ -2854,7 +2854,7 @@ segment.03.Percussion.Voice.XIV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XIV measure 48 / measure 16]
+        % [Percussion.Voice.14 measure 48 / measure 16]
         c'4
 
         c'4
@@ -2866,26 +2866,26 @@ segment.03.Percussion.Voice.XIV.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XIV = {
+segment.03.Percussion.Voice.14 = {
 
-    { \segment.03.Percussion.Voice.XIV.part.1 }
+    { \segment.03.Percussion.Voice.14.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XIV"
+        \context Voice = "Percussion.Voice.14"
         {
 
-            % [Percussion_Voice_XIV measure 49 / measure 17]
+            % [Percussion.Voice.14 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XIV"
+        \context Voice = "Percussion.Rest_Voice.14"
         {
 
-            % [Percussion_Rest_Voice_XIV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.14 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -2900,17 +2900,17 @@ segment.03.Percussion.Voice.XIV = {
 }
 
 
-segment.03.Staff.XIV = {
+segment.03.Staff.14 = {
 
-    \context Voice = "Percussion_Voice_XIV"
-    { \segment.03.Percussion.Voice.XIV }
+    \context Voice = "Percussion.Voice.14"
+    { \segment.03.Percussion.Voice.14 }
 
 }
 
 
-segment.03.Percussion.Voice.XV.part.1 = {
+segment.03.Percussion.Voice.15.part.1 = {
 
-    % [Percussion_Voice_XV measure 33 / measure 1]
+    % [Percussion.Voice.15 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 15
     \set Staff.instrumentName = \markup \hcenter-in #8 15
     \clef "percussion"
@@ -2924,22 +2924,22 @@ segment.03.Percussion.Voice.XV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 15
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XV measure 34 / measure 2]
+    % [Percussion.Voice.15 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XV measure 35 / measure 3]
+    % [Percussion.Voice.15 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XV measure 36 / measure 4]
+    % [Percussion.Voice.15 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XV measure 37 / measure 5]
+    % [Percussion.Voice.15 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XV measure 38 / measure 6]
+    % [Percussion.Voice.15 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XV measure 39 / measure 7]
+    % [Percussion.Voice.15 measure 39 / measure 7]
     c'8
     [
 
@@ -2950,7 +2950,7 @@ segment.03.Percussion.Voice.XV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XV measure 40 / measure 8]
+    % [Percussion.Voice.15 measure 40 / measure 8]
     c'8
     [
 
@@ -2961,28 +2961,28 @@ segment.03.Percussion.Voice.XV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XV measure 41 / measure 9]
+    % [Percussion.Voice.15 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XV measure 42 / measure 10]
+    % [Percussion.Voice.15 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XV measure 43 / measure 11]
+    % [Percussion.Voice.15 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XV measure 44 / measure 12]
+    % [Percussion.Voice.15 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XV measure 45 / measure 13]
+    % [Percussion.Voice.15 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XV measure 46 / measure 14]
+    % [Percussion.Voice.15 measure 46 / measure 14]
     r2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_XV measure 47 / measure 15]
+        % [Percussion.Voice.15 measure 47 / measure 15]
         c'8
         [
 
@@ -3000,7 +3000,7 @@ segment.03.Percussion.Voice.XV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XV measure 48 / measure 16]
+        % [Percussion.Voice.15 measure 48 / measure 16]
         c'4
 
         c'4
@@ -3012,26 +3012,26 @@ segment.03.Percussion.Voice.XV.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XV = {
+segment.03.Percussion.Voice.15 = {
 
-    { \segment.03.Percussion.Voice.XV.part.1 }
+    { \segment.03.Percussion.Voice.15.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XV"
+        \context Voice = "Percussion.Voice.15"
         {
 
-            % [Percussion_Voice_XV measure 49 / measure 17]
+            % [Percussion.Voice.15 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XV"
+        \context Voice = "Percussion.Rest_Voice.15"
         {
 
-            % [Percussion_Rest_Voice_XV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.15 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -3046,17 +3046,17 @@ segment.03.Percussion.Voice.XV = {
 }
 
 
-segment.03.Staff.XV = {
+segment.03.Staff.15 = {
 
-    \context Voice = "Percussion_Voice_XV"
-    { \segment.03.Percussion.Voice.XV }
+    \context Voice = "Percussion.Voice.15"
+    { \segment.03.Percussion.Voice.15 }
 
 }
 
 
-segment.03.Percussion.Voice.XVI.part.1 = {
+segment.03.Percussion.Voice.16.part.1 = {
 
-    % [Percussion_Voice_XVI measure 33 / measure 1]
+    % [Percussion.Voice.16 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 16
     \set Staff.instrumentName = \markup \hcenter-in #8 16
     \clef "percussion"
@@ -3070,25 +3070,25 @@ segment.03.Percussion.Voice.XVI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 16
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XVI measure 34 / measure 2]
+    % [Percussion.Voice.16 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XVI measure 35 / measure 3]
+    % [Percussion.Voice.16 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XVI measure 36 / measure 4]
+    % [Percussion.Voice.16 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XVI measure 37 / measure 5]
+    % [Percussion.Voice.16 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XVI measure 38 / measure 6]
+    % [Percussion.Voice.16 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XVI measure 39 / measure 7]
+    % [Percussion.Voice.16 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XVI measure 40 / measure 8]
+    % [Percussion.Voice.16 measure 40 / measure 8]
     c'8
     [
 
@@ -3099,31 +3099,31 @@ segment.03.Percussion.Voice.XVI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XVI measure 41 / measure 9]
+    % [Percussion.Voice.16 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XVI measure 42 / measure 10]
+    % [Percussion.Voice.16 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XVI measure 43 / measure 11]
+    % [Percussion.Voice.16 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XVI measure 44 / measure 12]
+    % [Percussion.Voice.16 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XVI measure 45 / measure 13]
+    % [Percussion.Voice.16 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XVI measure 46 / measure 14]
+    % [Percussion.Voice.16 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_XVI measure 47 / measure 15]
+    % [Percussion.Voice.16 measure 47 / measure 15]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XVI measure 48 / measure 16]
+        % [Percussion.Voice.16 measure 48 / measure 16]
         c'4
 
         c'4
@@ -3135,26 +3135,26 @@ segment.03.Percussion.Voice.XVI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XVI = {
+segment.03.Percussion.Voice.16 = {
 
-    { \segment.03.Percussion.Voice.XVI.part.1 }
+    { \segment.03.Percussion.Voice.16.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XVI"
+        \context Voice = "Percussion.Voice.16"
         {
 
-            % [Percussion_Voice_XVI measure 49 / measure 17]
+            % [Percussion.Voice.16 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XVI"
+        \context Voice = "Percussion.Rest_Voice.16"
         {
 
-            % [Percussion_Rest_Voice_XVI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.16 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -3169,20 +3169,20 @@ segment.03.Percussion.Voice.XVI = {
 }
 
 
-segment.03.Staff.XVI = {
+segment.03.Staff.16 = {
 
-    \context Voice = "Percussion_Voice_XVI"
-    { \segment.03.Percussion.Voice.XVI }
+    \context Voice = "Percussion.Voice.16"
+    { \segment.03.Percussion.Voice.16 }
 
 }
 
 
-segment.03.Percussion.Voice.XVII.part.1 = {
+segment.03.Percussion.Voice.17.part.1 = {
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XVII measure 33 / measure 1]
+        % [Percussion.Voice.17 measure 33 / measure 1]
         \set Staff.shortInstrumentName = \markup \hcenter-in #8 17
         \set Staff.instrumentName = \markup \hcenter-in #8 17
         \clef "percussion"
@@ -3213,7 +3213,7 @@ segment.03.Percussion.Voice.XVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVII measure 34 / measure 2]
+        % [Percussion.Voice.17 measure 34 / measure 2]
         c'8
         [
 
@@ -3233,7 +3233,7 @@ segment.03.Percussion.Voice.XVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVII measure 35 / measure 3]
+        % [Percussion.Voice.17 measure 35 / measure 3]
         c'8
         [
 
@@ -3253,7 +3253,7 @@ segment.03.Percussion.Voice.XVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVII measure 36 / measure 4]
+        % [Percussion.Voice.17 measure 36 / measure 4]
         c'8
         [
 
@@ -3273,7 +3273,7 @@ segment.03.Percussion.Voice.XVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVII measure 37 / measure 5]
+        % [Percussion.Voice.17 measure 37 / measure 5]
         c'8
         [
 
@@ -3293,7 +3293,7 @@ segment.03.Percussion.Voice.XVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVII measure 38 / measure 6]
+        % [Percussion.Voice.17 measure 38 / measure 6]
         c'8
         [
 
@@ -3313,7 +3313,7 @@ segment.03.Percussion.Voice.XVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVII measure 39 / measure 7]
+        % [Percussion.Voice.17 measure 39 / measure 7]
         c'8
         [
 
@@ -3333,7 +3333,7 @@ segment.03.Percussion.Voice.XVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVII measure 40 / measure 8]
+        % [Percussion.Voice.17 measure 40 / measure 8]
         c'8
         [
 
@@ -3350,42 +3350,42 @@ segment.03.Percussion.Voice.XVII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XVII measure 41 / measure 9]
+    % [Percussion.Voice.17 measure 41 / measure 9]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVII measure 42 / measure 10]
+    % [Percussion.Voice.17 measure 42 / measure 10]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVII measure 43 / measure 11]
+    % [Percussion.Voice.17 measure 43 / measure 11]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVII measure 44 / measure 12]
+    % [Percussion.Voice.17 measure 44 / measure 12]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVII measure 45 / measure 13]
+    % [Percussion.Voice.17 measure 45 / measure 13]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVII measure 46 / measure 14]
+    % [Percussion.Voice.17 measure 46 / measure 14]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVII measure 47 / measure 15]
+    % [Percussion.Voice.17 measure 47 / measure 15]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVII measure 48 / measure 16]
+    % [Percussion.Voice.17 measure 48 / measure 16]
     c'4
 
     c'4
@@ -3393,26 +3393,26 @@ segment.03.Percussion.Voice.XVII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XVII = {
+segment.03.Percussion.Voice.17 = {
 
-    { \segment.03.Percussion.Voice.XVII.part.1 }
+    { \segment.03.Percussion.Voice.17.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XVII"
+        \context Voice = "Percussion.Voice.17"
         {
 
-            % [Percussion_Voice_XVII measure 49 / measure 17]
+            % [Percussion.Voice.17 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XVII"
+        \context Voice = "Percussion.Rest_Voice.17"
         {
 
-            % [Percussion_Rest_Voice_XVII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.17 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -3427,17 +3427,17 @@ segment.03.Percussion.Voice.XVII = {
 }
 
 
-segment.03.Staff.XVII = {
+segment.03.Staff.17 = {
 
-    \context Voice = "Percussion_Voice_XVII"
-    { \segment.03.Percussion.Voice.XVII }
+    \context Voice = "Percussion.Voice.17"
+    { \segment.03.Percussion.Voice.17 }
 
 }
 
 
-segment.03.Percussion.Voice.XVIII.part.1 = {
+segment.03.Percussion.Voice.18.part.1 = {
 
-    % [Percussion_Voice_XVIII measure 33 / measure 1]
+    % [Percussion.Voice.18 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 18
     \set Staff.instrumentName = \markup \hcenter-in #8 18
     \clef "percussion"
@@ -3451,12 +3451,12 @@ segment.03.Percussion.Voice.XVIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 18
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XVIII measure 34 / measure 2]
+    % [Percussion.Voice.18 measure 34 / measure 2]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVIII measure 35 / measure 3]
+    % [Percussion.Voice.18 measure 35 / measure 3]
     c'8
     [
 
@@ -3470,7 +3470,7 @@ segment.03.Percussion.Voice.XVIII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVIII measure 36 / measure 4]
+        % [Percussion.Voice.18 measure 36 / measure 4]
         c'8
         [
 
@@ -3487,15 +3487,15 @@ segment.03.Percussion.Voice.XVIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XVIII measure 37 / measure 5]
+    % [Percussion.Voice.18 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XVIII measure 38 / measure 6]
+    % [Percussion.Voice.18 measure 38 / measure 6]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XVIII measure 39 / measure 7]
+    % [Percussion.Voice.18 measure 39 / measure 7]
     c'8
     [
 
@@ -3509,7 +3509,7 @@ segment.03.Percussion.Voice.XVIII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XVIII measure 40 / measure 8]
+        % [Percussion.Voice.18 measure 40 / measure 8]
         c'8
         [
 
@@ -3526,52 +3526,13 @@ segment.03.Percussion.Voice.XVIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XVIII measure 41 / measure 9]
-    r2
-
-    \times 2/3
-    {
-
-        % [Percussion_Voice_XVIII measure 42 / measure 10]
-        c'8
-        [
-
-        c'8
-
-        c'8
-
-        c'8
-
-        c'8
-
-        c'8
-        ]
-
-    }
-
-    % [Percussion_Voice_XVIII measure 43 / measure 11]
-    c'8
-    [
-
-    c'8
-
-    c'8
-
-    c'8
-    ]
-
-    % [Percussion_Voice_XVIII measure 44 / measure 12]
-    c'4
-
-    c'4
-
-    % [Percussion_Voice_XVIII measure 45 / measure 13]
+    % [Percussion.Voice.18 measure 41 / measure 9]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XVIII measure 46 / measure 14]
+        % [Percussion.Voice.18 measure 42 / measure 10]
         c'8
         [
 
@@ -3588,7 +3549,7 @@ segment.03.Percussion.Voice.XVIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XVIII measure 47 / measure 15]
+    % [Percussion.Voice.18 measure 43 / measure 11]
     c'8
     [
 
@@ -3599,7 +3560,46 @@ segment.03.Percussion.Voice.XVIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XVIII measure 48 / measure 16]
+    % [Percussion.Voice.18 measure 44 / measure 12]
+    c'4
+
+    c'4
+
+    % [Percussion.Voice.18 measure 45 / measure 13]
+    r2
+
+    \times 2/3
+    {
+
+        % [Percussion.Voice.18 measure 46 / measure 14]
+        c'8
+        [
+
+        c'8
+
+        c'8
+
+        c'8
+
+        c'8
+
+        c'8
+        ]
+
+    }
+
+    % [Percussion.Voice.18 measure 47 / measure 15]
+    c'8
+    [
+
+    c'8
+
+    c'8
+
+    c'8
+    ]
+
+    % [Percussion.Voice.18 measure 48 / measure 16]
     c'4
 
     c'4
@@ -3607,26 +3607,26 @@ segment.03.Percussion.Voice.XVIII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XVIII = {
+segment.03.Percussion.Voice.18 = {
 
-    { \segment.03.Percussion.Voice.XVIII.part.1 }
+    { \segment.03.Percussion.Voice.18.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XVIII"
+        \context Voice = "Percussion.Voice.18"
         {
 
-            % [Percussion_Voice_XVIII measure 49 / measure 17]
+            % [Percussion.Voice.18 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XVIII"
+        \context Voice = "Percussion.Rest_Voice.18"
         {
 
-            % [Percussion_Rest_Voice_XVIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.18 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -3641,17 +3641,17 @@ segment.03.Percussion.Voice.XVIII = {
 }
 
 
-segment.03.Staff.XVIII = {
+segment.03.Staff.18 = {
 
-    \context Voice = "Percussion_Voice_XVIII"
-    { \segment.03.Percussion.Voice.XVIII }
+    \context Voice = "Percussion.Voice.18"
+    { \segment.03.Percussion.Voice.18 }
 
 }
 
 
-segment.03.Percussion.Voice.XIX.part.1 = {
+segment.03.Percussion.Voice.19.part.1 = {
 
-    % [Percussion_Voice_XIX measure 33 / measure 1]
+    % [Percussion.Voice.19 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 19
     \set Staff.instrumentName = \markup \hcenter-in #8 19
     \clef "percussion"
@@ -3665,13 +3665,13 @@ segment.03.Percussion.Voice.XIX.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 19
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XIX measure 34 / measure 2]
+    % [Percussion.Voice.19 measure 34 / measure 2]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XIX measure 35 / measure 3]
+        % [Percussion.Voice.19 measure 35 / measure 3]
         c'8
         [
 
@@ -3688,12 +3688,12 @@ segment.03.Percussion.Voice.XIX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XIX measure 36 / measure 4]
+    % [Percussion.Voice.19 measure 36 / measure 4]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XIX measure 37 / measure 5]
+    % [Percussion.Voice.19 measure 37 / measure 5]
     c'8
     [
 
@@ -3704,7 +3704,7 @@ segment.03.Percussion.Voice.XIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIX measure 38 / measure 6]
+    % [Percussion.Voice.19 measure 38 / measure 6]
     c'8
     [
 
@@ -3715,7 +3715,7 @@ segment.03.Percussion.Voice.XIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIX measure 39 / measure 7]
+    % [Percussion.Voice.19 measure 39 / measure 7]
     c'4
 
     c'4
@@ -3723,7 +3723,7 @@ segment.03.Percussion.Voice.XIX.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XIX measure 40 / measure 8]
+        % [Percussion.Voice.19 measure 40 / measure 8]
         c'8
         [
 
@@ -3740,13 +3740,13 @@ segment.03.Percussion.Voice.XIX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XIX measure 41 / measure 9]
+    % [Percussion.Voice.19 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XIX measure 42 / measure 10]
+    % [Percussion.Voice.19 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XIX measure 43 / measure 11]
+    % [Percussion.Voice.19 measure 43 / measure 11]
     c'4
 
     c'4
@@ -3754,7 +3754,7 @@ segment.03.Percussion.Voice.XIX.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XIX measure 44 / measure 12]
+        % [Percussion.Voice.19 measure 44 / measure 12]
         c'8
         [
 
@@ -3771,7 +3771,7 @@ segment.03.Percussion.Voice.XIX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XIX measure 45 / measure 13]
+    % [Percussion.Voice.19 measure 45 / measure 13]
     c'8
     [
 
@@ -3782,7 +3782,7 @@ segment.03.Percussion.Voice.XIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XIX measure 46 / measure 14]
+    % [Percussion.Voice.19 measure 46 / measure 14]
     c'8
     [
 
@@ -3796,7 +3796,7 @@ segment.03.Percussion.Voice.XIX.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XIX measure 47 / measure 15]
+        % [Percussion.Voice.19 measure 47 / measure 15]
         c'8
         [
 
@@ -3813,7 +3813,7 @@ segment.03.Percussion.Voice.XIX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XIX measure 48 / measure 16]
+    % [Percussion.Voice.19 measure 48 / measure 16]
     c'4
 
     c'4
@@ -3821,26 +3821,26 @@ segment.03.Percussion.Voice.XIX.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XIX = {
+segment.03.Percussion.Voice.19 = {
 
-    { \segment.03.Percussion.Voice.XIX.part.1 }
+    { \segment.03.Percussion.Voice.19.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XIX"
+        \context Voice = "Percussion.Voice.19"
         {
 
-            % [Percussion_Voice_XIX measure 49 / measure 17]
+            % [Percussion.Voice.19 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XIX"
+        \context Voice = "Percussion.Rest_Voice.19"
         {
 
-            % [Percussion_Rest_Voice_XIX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.19 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -3855,17 +3855,17 @@ segment.03.Percussion.Voice.XIX = {
 }
 
 
-segment.03.Staff.XIX = {
+segment.03.Staff.19 = {
 
-    \context Voice = "Percussion_Voice_XIX"
-    { \segment.03.Percussion.Voice.XIX }
+    \context Voice = "Percussion.Voice.19"
+    { \segment.03.Percussion.Voice.19 }
 
 }
 
 
-segment.03.Percussion.Voice.XX.part.1 = {
+segment.03.Percussion.Voice.20.part.1 = {
 
-    % [Percussion_Voice_XX measure 33 / measure 1]
+    % [Percussion.Voice.20 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 20
     \set Staff.instrumentName = \markup \hcenter-in #8 20
     \clef "percussion"
@@ -3879,21 +3879,21 @@ segment.03.Percussion.Voice.XX.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 20
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XX measure 34 / measure 2]
+    % [Percussion.Voice.20 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XX measure 35 / measure 3]
+    % [Percussion.Voice.20 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XX measure 36 / measure 4]
+    % [Percussion.Voice.20 measure 36 / measure 4]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XX measure 37 / measure 5]
+    % [Percussion.Voice.20 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XX measure 38 / measure 6]
+    % [Percussion.Voice.20 measure 38 / measure 6]
     c'8
     [
 
@@ -3904,13 +3904,13 @@ segment.03.Percussion.Voice.XX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XX measure 39 / measure 7]
+    % [Percussion.Voice.20 measure 39 / measure 7]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XX measure 40 / measure 8]
+        % [Percussion.Voice.20 measure 40 / measure 8]
         c'8
         [
 
@@ -3927,19 +3927,19 @@ segment.03.Percussion.Voice.XX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XX measure 41 / measure 9]
+    % [Percussion.Voice.20 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XX measure 42 / measure 10]
+    % [Percussion.Voice.20 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XX measure 43 / measure 11]
+    % [Percussion.Voice.20 measure 43 / measure 11]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XX measure 44 / measure 12]
+        % [Percussion.Voice.20 measure 44 / measure 12]
         c'8
         [
 
@@ -3956,10 +3956,10 @@ segment.03.Percussion.Voice.XX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XX measure 45 / measure 13]
+    % [Percussion.Voice.20 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XX measure 46 / measure 14]
+    % [Percussion.Voice.20 measure 46 / measure 14]
     c'8
     [
 
@@ -3970,10 +3970,10 @@ segment.03.Percussion.Voice.XX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XX measure 47 / measure 15]
+    % [Percussion.Voice.20 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_XX measure 48 / measure 16]
+    % [Percussion.Voice.20 measure 48 / measure 16]
     c'4
 
     c'4
@@ -3981,26 +3981,26 @@ segment.03.Percussion.Voice.XX.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XX = {
+segment.03.Percussion.Voice.20 = {
 
-    { \segment.03.Percussion.Voice.XX.part.1 }
+    { \segment.03.Percussion.Voice.20.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XX"
+        \context Voice = "Percussion.Voice.20"
         {
 
-            % [Percussion_Voice_XX measure 49 / measure 17]
+            % [Percussion.Voice.20 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XX"
+        \context Voice = "Percussion.Rest_Voice.20"
         {
 
-            % [Percussion_Rest_Voice_XX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.20 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -4015,17 +4015,17 @@ segment.03.Percussion.Voice.XX = {
 }
 
 
-segment.03.Staff.XX = {
+segment.03.Staff.20 = {
 
-    \context Voice = "Percussion_Voice_XX"
-    { \segment.03.Percussion.Voice.XX }
+    \context Voice = "Percussion.Voice.20"
+    { \segment.03.Percussion.Voice.20 }
 
 }
 
 
-segment.03.Percussion.Voice.XXI.part.1 = {
+segment.03.Percussion.Voice.21.part.1 = {
 
-    % [Percussion_Voice_XXI measure 33 / measure 1]
+    % [Percussion.Voice.21 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 21
     \set Staff.instrumentName = \markup \hcenter-in #8 21
     \clef "percussion"
@@ -4039,19 +4039,19 @@ segment.03.Percussion.Voice.XXI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 21
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXI measure 34 / measure 2]
+    % [Percussion.Voice.21 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXI measure 35 / measure 3]
+    % [Percussion.Voice.21 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXI measure 36 / measure 4]
+    % [Percussion.Voice.21 measure 36 / measure 4]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXI measure 37 / measure 5]
+        % [Percussion.Voice.21 measure 37 / measure 5]
         c'8
         [
 
@@ -4071,7 +4071,7 @@ segment.03.Percussion.Voice.XXI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXI measure 38 / measure 6]
+        % [Percussion.Voice.21 measure 38 / measure 6]
         c'8
         [
 
@@ -4088,17 +4088,17 @@ segment.03.Percussion.Voice.XXI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXI measure 39 / measure 7]
+    % [Percussion.Voice.21 measure 39 / measure 7]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXI measure 40 / measure 8]
+    % [Percussion.Voice.21 measure 40 / measure 8]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXI measure 41 / measure 9]
+    % [Percussion.Voice.21 measure 41 / measure 9]
     c'8
     [
 
@@ -4109,7 +4109,7 @@ segment.03.Percussion.Voice.XXI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXI measure 42 / measure 10]
+    % [Percussion.Voice.21 measure 42 / measure 10]
     c'8
     [
 
@@ -4120,7 +4120,7 @@ segment.03.Percussion.Voice.XXI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXI measure 43 / measure 11]
+    % [Percussion.Voice.21 measure 43 / measure 11]
     c'8
     [
 
@@ -4131,7 +4131,7 @@ segment.03.Percussion.Voice.XXI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXI measure 44 / measure 12]
+    % [Percussion.Voice.21 measure 44 / measure 12]
     c'8
     [
 
@@ -4145,7 +4145,7 @@ segment.03.Percussion.Voice.XXI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXI measure 45 / measure 13]
+        % [Percussion.Voice.21 measure 45 / measure 13]
         c'8
         [
 
@@ -4165,7 +4165,7 @@ segment.03.Percussion.Voice.XXI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXI measure 46 / measure 14]
+        % [Percussion.Voice.21 measure 46 / measure 14]
         c'8
         [
 
@@ -4182,12 +4182,12 @@ segment.03.Percussion.Voice.XXI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXI measure 47 / measure 15]
+    % [Percussion.Voice.21 measure 47 / measure 15]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXI measure 48 / measure 16]
+    % [Percussion.Voice.21 measure 48 / measure 16]
     c'4
 
     c'4
@@ -4195,26 +4195,26 @@ segment.03.Percussion.Voice.XXI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXI = {
+segment.03.Percussion.Voice.21 = {
 
-    { \segment.03.Percussion.Voice.XXI.part.1 }
+    { \segment.03.Percussion.Voice.21.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXI"
+        \context Voice = "Percussion.Voice.21"
         {
 
-            % [Percussion_Voice_XXI measure 49 / measure 17]
+            % [Percussion.Voice.21 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXI"
+        \context Voice = "Percussion.Rest_Voice.21"
         {
 
-            % [Percussion_Rest_Voice_XXI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.21 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -4229,17 +4229,17 @@ segment.03.Percussion.Voice.XXI = {
 }
 
 
-segment.03.Staff.XXI = {
+segment.03.Staff.21 = {
 
-    \context Voice = "Percussion_Voice_XXI"
-    { \segment.03.Percussion.Voice.XXI }
+    \context Voice = "Percussion.Voice.21"
+    { \segment.03.Percussion.Voice.21 }
 
 }
 
 
-segment.03.Percussion.Voice.XXII.part.1 = {
+segment.03.Percussion.Voice.22.part.1 = {
 
-    % [Percussion_Voice_XXII measure 33 / measure 1]
+    % [Percussion.Voice.22 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 22
     \set Staff.instrumentName = \markup \hcenter-in #8 22
     \clef "percussion"
@@ -4253,24 +4253,24 @@ segment.03.Percussion.Voice.XXII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 22
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXII measure 34 / measure 2]
+    % [Percussion.Voice.22 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXII measure 35 / measure 3]
+    % [Percussion.Voice.22 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXII measure 36 / measure 4]
+    % [Percussion.Voice.22 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXII measure 37 / measure 5]
+    % [Percussion.Voice.22 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXII measure 38 / measure 6]
+    % [Percussion.Voice.22 measure 38 / measure 6]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXII measure 39 / measure 7]
+    % [Percussion.Voice.22 measure 39 / measure 7]
     c'8
     [
 
@@ -4281,15 +4281,15 @@ segment.03.Percussion.Voice.XXII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXII measure 40 / measure 8]
+    % [Percussion.Voice.22 measure 40 / measure 8]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXII measure 41 / measure 9]
+    % [Percussion.Voice.22 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXII measure 42 / measure 10]
+    % [Percussion.Voice.22 measure 42 / measure 10]
     c'8
     [
 
@@ -4300,10 +4300,10 @@ segment.03.Percussion.Voice.XXII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXII measure 43 / measure 11]
+    % [Percussion.Voice.22 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XXII measure 44 / measure 12]
+    % [Percussion.Voice.22 measure 44 / measure 12]
     c'8
     [
 
@@ -4314,15 +4314,15 @@ segment.03.Percussion.Voice.XXII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXII measure 45 / measure 13]
+    % [Percussion.Voice.22 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XXII measure 46 / measure 14]
+    % [Percussion.Voice.22 measure 46 / measure 14]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXII measure 47 / measure 15]
+    % [Percussion.Voice.22 measure 47 / measure 15]
     c'8
     [
 
@@ -4333,7 +4333,7 @@ segment.03.Percussion.Voice.XXII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXII measure 48 / measure 16]
+    % [Percussion.Voice.22 measure 48 / measure 16]
     c'4
 
     c'4
@@ -4341,26 +4341,26 @@ segment.03.Percussion.Voice.XXII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXII = {
+segment.03.Percussion.Voice.22 = {
 
-    { \segment.03.Percussion.Voice.XXII.part.1 }
+    { \segment.03.Percussion.Voice.22.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXII"
+        \context Voice = "Percussion.Voice.22"
         {
 
-            % [Percussion_Voice_XXII measure 49 / measure 17]
+            % [Percussion.Voice.22 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXII"
+        \context Voice = "Percussion.Rest_Voice.22"
         {
 
-            % [Percussion_Rest_Voice_XXII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.22 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -4375,17 +4375,17 @@ segment.03.Percussion.Voice.XXII = {
 }
 
 
-segment.03.Staff.XXII = {
+segment.03.Staff.22 = {
 
-    \context Voice = "Percussion_Voice_XXII"
-    { \segment.03.Percussion.Voice.XXII }
+    \context Voice = "Percussion.Voice.22"
+    { \segment.03.Percussion.Voice.22 }
 
 }
 
 
-segment.03.Percussion.Voice.XXIII.part.1 = {
+segment.03.Percussion.Voice.23.part.1 = {
 
-    % [Percussion_Voice_XXIII measure 33 / measure 1]
+    % [Percussion.Voice.23 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 23
     \set Staff.instrumentName = \markup \hcenter-in #8 23
     \clef "percussion"
@@ -4399,25 +4399,25 @@ segment.03.Percussion.Voice.XXIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 23
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXIII measure 34 / measure 2]
+    % [Percussion.Voice.23 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXIII measure 35 / measure 3]
+    % [Percussion.Voice.23 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXIII measure 36 / measure 4]
+    % [Percussion.Voice.23 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXIII measure 37 / measure 5]
+    % [Percussion.Voice.23 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXIII measure 38 / measure 6]
+    % [Percussion.Voice.23 measure 38 / measure 6]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXIII measure 39 / measure 7]
+        % [Percussion.Voice.23 measure 39 / measure 7]
         c'8
         [
 
@@ -4434,18 +4434,18 @@ segment.03.Percussion.Voice.XXIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXIII measure 40 / measure 8]
+    % [Percussion.Voice.23 measure 40 / measure 8]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXIII measure 41 / measure 9]
+    % [Percussion.Voice.23 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXIII measure 42 / measure 10]
+    % [Percussion.Voice.23 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XXIII measure 43 / measure 11]
+    % [Percussion.Voice.23 measure 43 / measure 11]
     c'8
     [
 
@@ -4456,7 +4456,7 @@ segment.03.Percussion.Voice.XXIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXIII measure 44 / measure 12]
+    % [Percussion.Voice.23 measure 44 / measure 12]
     c'8
     [
 
@@ -4467,16 +4467,16 @@ segment.03.Percussion.Voice.XXIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXIII measure 45 / measure 13]
+    % [Percussion.Voice.23 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XXIII measure 46 / measure 14]
+    % [Percussion.Voice.23 measure 46 / measure 14]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXIII measure 47 / measure 15]
+        % [Percussion.Voice.23 measure 47 / measure 15]
         c'8
         [
 
@@ -4493,7 +4493,7 @@ segment.03.Percussion.Voice.XXIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXIII measure 48 / measure 16]
+    % [Percussion.Voice.23 measure 48 / measure 16]
     c'4
 
     c'4
@@ -4501,26 +4501,26 @@ segment.03.Percussion.Voice.XXIII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXIII = {
+segment.03.Percussion.Voice.23 = {
 
-    { \segment.03.Percussion.Voice.XXIII.part.1 }
+    { \segment.03.Percussion.Voice.23.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXIII"
+        \context Voice = "Percussion.Voice.23"
         {
 
-            % [Percussion_Voice_XXIII measure 49 / measure 17]
+            % [Percussion.Voice.23 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXIII"
+        \context Voice = "Percussion.Rest_Voice.23"
         {
 
-            % [Percussion_Rest_Voice_XXIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.23 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -4535,17 +4535,17 @@ segment.03.Percussion.Voice.XXIII = {
 }
 
 
-segment.03.Staff.XXIII = {
+segment.03.Staff.23 = {
 
-    \context Voice = "Percussion_Voice_XXIII"
-    { \segment.03.Percussion.Voice.XXIII }
+    \context Voice = "Percussion.Voice.23"
+    { \segment.03.Percussion.Voice.23 }
 
 }
 
 
-segment.03.Percussion.Voice.XXIV.part.1 = {
+segment.03.Percussion.Voice.24.part.1 = {
 
-    % [Percussion_Voice_XXIV measure 33 / measure 1]
+    % [Percussion.Voice.24 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 24
     \set Staff.instrumentName = \markup \hcenter-in #8 24
     \clef "percussion"
@@ -4559,39 +4559,39 @@ segment.03.Percussion.Voice.XXIV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 24
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXIV measure 34 / measure 2]
+    % [Percussion.Voice.24 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXIV measure 35 / measure 3]
+    % [Percussion.Voice.24 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXIV measure 36 / measure 4]
+    % [Percussion.Voice.24 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXIV measure 37 / measure 5]
+    % [Percussion.Voice.24 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXIV measure 38 / measure 6]
+    % [Percussion.Voice.24 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XXIV measure 39 / measure 7]
+    % [Percussion.Voice.24 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XXIV measure 40 / measure 8]
+    % [Percussion.Voice.24 measure 40 / measure 8]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXIV measure 41 / measure 9]
+    % [Percussion.Voice.24 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXIV measure 42 / measure 10]
+    % [Percussion.Voice.24 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XXIV measure 43 / measure 11]
+    % [Percussion.Voice.24 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XXIV measure 44 / measure 12]
+    % [Percussion.Voice.24 measure 44 / measure 12]
     c'8
     [
 
@@ -4602,16 +4602,16 @@ segment.03.Percussion.Voice.XXIV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXIV measure 45 / measure 13]
+    % [Percussion.Voice.24 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XXIV measure 46 / measure 14]
+    % [Percussion.Voice.24 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_XXIV measure 47 / measure 15]
+    % [Percussion.Voice.24 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_XXIV measure 48 / measure 16]
+    % [Percussion.Voice.24 measure 48 / measure 16]
     c'4
 
     c'4
@@ -4619,26 +4619,26 @@ segment.03.Percussion.Voice.XXIV.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXIV = {
+segment.03.Percussion.Voice.24 = {
 
-    { \segment.03.Percussion.Voice.XXIV.part.1 }
+    { \segment.03.Percussion.Voice.24.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXIV"
+        \context Voice = "Percussion.Voice.24"
         {
 
-            % [Percussion_Voice_XXIV measure 49 / measure 17]
+            % [Percussion.Voice.24 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXIV"
+        \context Voice = "Percussion.Rest_Voice.24"
         {
 
-            % [Percussion_Rest_Voice_XXIV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.24 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -4653,17 +4653,17 @@ segment.03.Percussion.Voice.XXIV = {
 }
 
 
-segment.03.Staff.XXIV = {
+segment.03.Staff.24 = {
 
-    \context Voice = "Percussion_Voice_XXIV"
-    { \segment.03.Percussion.Voice.XXIV }
+    \context Voice = "Percussion.Voice.24"
+    { \segment.03.Percussion.Voice.24 }
 
 }
 
 
-segment.03.Percussion.Voice.XXV.part.1 = {
+segment.03.Percussion.Voice.25.part.1 = {
 
-    % [Percussion_Voice_XXV measure 33 / measure 1]
+    % [Percussion.Voice.25 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 25
     \set Staff.instrumentName = \markup \hcenter-in #8 25
     \clef "percussion"
@@ -4685,7 +4685,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXV measure 34 / measure 2]
+    % [Percussion.Voice.25 measure 34 / measure 2]
     c'8
     [
 
@@ -4696,7 +4696,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXV measure 35 / measure 3]
+    % [Percussion.Voice.25 measure 35 / measure 3]
     c'8
     [
 
@@ -4707,7 +4707,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXV measure 36 / measure 4]
+    % [Percussion.Voice.25 measure 36 / measure 4]
     c'8
     [
 
@@ -4718,7 +4718,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXV measure 37 / measure 5]
+    % [Percussion.Voice.25 measure 37 / measure 5]
     c'8
     [
 
@@ -4729,7 +4729,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXV measure 38 / measure 6]
+    % [Percussion.Voice.25 measure 38 / measure 6]
     c'8
     [
 
@@ -4740,7 +4740,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXV measure 39 / measure 7]
+    % [Percussion.Voice.25 measure 39 / measure 7]
     c'8
     [
 
@@ -4751,7 +4751,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXV measure 40 / measure 8]
+    % [Percussion.Voice.25 measure 40 / measure 8]
     c'8
     [
 
@@ -4762,22 +4762,22 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXV measure 41 / measure 9]
+    % [Percussion.Voice.25 measure 41 / measure 9]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXV measure 42 / measure 10]
+    % [Percussion.Voice.25 measure 42 / measure 10]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXV measure 43 / measure 11]
+    % [Percussion.Voice.25 measure 43 / measure 11]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXV measure 44 / measure 12]
+    % [Percussion.Voice.25 measure 44 / measure 12]
     c'4
 
     c'4
@@ -4785,7 +4785,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXV measure 45 / measure 13]
+        % [Percussion.Voice.25 measure 45 / measure 13]
         c'8
         [
 
@@ -4805,7 +4805,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXV measure 46 / measure 14]
+        % [Percussion.Voice.25 measure 46 / measure 14]
         c'8
         [
 
@@ -4825,7 +4825,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXV measure 47 / measure 15]
+        % [Percussion.Voice.25 measure 47 / measure 15]
         c'8
         [
 
@@ -4845,7 +4845,7 @@ segment.03.Percussion.Voice.XXV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXV measure 48 / measure 16]
+        % [Percussion.Voice.25 measure 48 / measure 16]
         c'8
         [
 
@@ -4865,26 +4865,26 @@ segment.03.Percussion.Voice.XXV.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXV = {
+segment.03.Percussion.Voice.25 = {
 
-    { \segment.03.Percussion.Voice.XXV.part.1 }
+    { \segment.03.Percussion.Voice.25.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXV"
+        \context Voice = "Percussion.Voice.25"
         {
 
-            % [Percussion_Voice_XXV measure 49 / measure 17]
+            % [Percussion.Voice.25 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXV"
+        \context Voice = "Percussion.Rest_Voice.25"
         {
 
-            % [Percussion_Rest_Voice_XXV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.25 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -4899,17 +4899,17 @@ segment.03.Percussion.Voice.XXV = {
 }
 
 
-segment.03.Staff.XXV = {
+segment.03.Staff.25 = {
 
-    \context Voice = "Percussion_Voice_XXV"
-    { \segment.03.Percussion.Voice.XXV }
+    \context Voice = "Percussion.Voice.25"
+    { \segment.03.Percussion.Voice.25 }
 
 }
 
 
-segment.03.Percussion.Voice.XXVI.part.1 = {
+segment.03.Percussion.Voice.26.part.1 = {
 
-    % [Percussion_Voice_XXVI measure 33 / measure 1]
+    % [Percussion.Voice.26 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 26
     \set Staff.instrumentName = \markup \hcenter-in #8 26
     \clef "percussion"
@@ -4923,7 +4923,7 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 26
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXVI measure 34 / measure 2]
+    % [Percussion.Voice.26 measure 34 / measure 2]
     c'8
     [
 
@@ -4934,10 +4934,10 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVI measure 35 / measure 3]
+    % [Percussion.Voice.26 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXVI measure 36 / measure 4]
+    % [Percussion.Voice.26 measure 36 / measure 4]
     c'8
     [
 
@@ -4948,10 +4948,10 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVI measure 37 / measure 5]
+    % [Percussion.Voice.26 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXVI measure 38 / measure 6]
+    % [Percussion.Voice.26 measure 38 / measure 6]
     c'8
     [
 
@@ -4962,10 +4962,10 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVI measure 39 / measure 7]
+    % [Percussion.Voice.26 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XXVI measure 40 / measure 8]
+    % [Percussion.Voice.26 measure 40 / measure 8]
     c'8
     [
 
@@ -4976,13 +4976,13 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVI measure 41 / measure 9]
+    % [Percussion.Voice.26 measure 41 / measure 9]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXVI measure 42 / measure 10]
+        % [Percussion.Voice.26 measure 42 / measure 10]
         c'8
         [
 
@@ -4999,7 +4999,7 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXVI measure 43 / measure 11]
+    % [Percussion.Voice.26 measure 43 / measure 11]
     c'8
     [
 
@@ -5010,20 +5010,20 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVI measure 44 / measure 12]
+    % [Percussion.Voice.26 measure 44 / measure 12]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXVI measure 45 / measure 13]
+    % [Percussion.Voice.26 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XXVI measure 46 / measure 14]
+    % [Percussion.Voice.26 measure 46 / measure 14]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXVI measure 47 / measure 15]
+    % [Percussion.Voice.26 measure 47 / measure 15]
     c'8
     [
 
@@ -5037,7 +5037,7 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXVI measure 48 / measure 16]
+        % [Percussion.Voice.26 measure 48 / measure 16]
         c'8
         [
 
@@ -5057,26 +5057,26 @@ segment.03.Percussion.Voice.XXVI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXVI = {
+segment.03.Percussion.Voice.26 = {
 
-    { \segment.03.Percussion.Voice.XXVI.part.1 }
+    { \segment.03.Percussion.Voice.26.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXVI"
+        \context Voice = "Percussion.Voice.26"
         {
 
-            % [Percussion_Voice_XXVI measure 49 / measure 17]
+            % [Percussion.Voice.26 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXVI"
+        \context Voice = "Percussion.Rest_Voice.26"
         {
 
-            % [Percussion_Rest_Voice_XXVI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.26 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -5091,17 +5091,17 @@ segment.03.Percussion.Voice.XXVI = {
 }
 
 
-segment.03.Staff.XXVI = {
+segment.03.Staff.26 = {
 
-    \context Voice = "Percussion_Voice_XXVI"
-    { \segment.03.Percussion.Voice.XXVI }
+    \context Voice = "Percussion.Voice.26"
+    { \segment.03.Percussion.Voice.26 }
 
 }
 
 
-segment.03.Percussion.Voice.XXVII.part.1 = {
+segment.03.Percussion.Voice.27.part.1 = {
 
-    % [Percussion_Voice_XXVII measure 33 / measure 1]
+    % [Percussion.Voice.27 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 27
     \set Staff.instrumentName = \markup \hcenter-in #8 27
     \clef "percussion"
@@ -5115,10 +5115,10 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 27
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXVII measure 34 / measure 2]
+    % [Percussion.Voice.27 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXVII measure 35 / measure 3]
+    % [Percussion.Voice.27 measure 35 / measure 3]
     c'8
     [
 
@@ -5129,7 +5129,7 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVII measure 36 / measure 4]
+    % [Percussion.Voice.27 measure 36 / measure 4]
     c'8
     [
 
@@ -5140,13 +5140,13 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVII measure 37 / measure 5]
+    % [Percussion.Voice.27 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXVII measure 38 / measure 6]
+    % [Percussion.Voice.27 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XXVII measure 39 / measure 7]
+    % [Percussion.Voice.27 measure 39 / measure 7]
     c'8
     [
 
@@ -5157,7 +5157,7 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVII measure 40 / measure 8]
+    % [Percussion.Voice.27 measure 40 / measure 8]
     c'8
     [
 
@@ -5168,13 +5168,13 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVII measure 41 / measure 9]
+    % [Percussion.Voice.27 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXVII measure 42 / measure 10]
+    % [Percussion.Voice.27 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XXVII measure 43 / measure 11]
+    % [Percussion.Voice.27 measure 43 / measure 11]
     c'4
 
     c'4
@@ -5182,7 +5182,7 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXVII measure 44 / measure 12]
+        % [Percussion.Voice.27 measure 44 / measure 12]
         c'8
         [
 
@@ -5199,7 +5199,7 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXVII measure 45 / measure 13]
+    % [Percussion.Voice.27 measure 45 / measure 13]
     c'8
     [
 
@@ -5210,7 +5210,7 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVII measure 46 / measure 14]
+    % [Percussion.Voice.27 measure 46 / measure 14]
     c'8
     [
 
@@ -5221,7 +5221,7 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVII measure 47 / measure 15]
+    % [Percussion.Voice.27 measure 47 / measure 15]
     c'4
 
     c'4
@@ -5229,7 +5229,7 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXVII measure 48 / measure 16]
+        % [Percussion.Voice.27 measure 48 / measure 16]
         c'8
         [
 
@@ -5249,26 +5249,26 @@ segment.03.Percussion.Voice.XXVII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXVII = {
+segment.03.Percussion.Voice.27 = {
 
-    { \segment.03.Percussion.Voice.XXVII.part.1 }
+    { \segment.03.Percussion.Voice.27.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXVII"
+        \context Voice = "Percussion.Voice.27"
         {
 
-            % [Percussion_Voice_XXVII measure 49 / measure 17]
+            % [Percussion.Voice.27 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXVII"
+        \context Voice = "Percussion.Rest_Voice.27"
         {
 
-            % [Percussion_Rest_Voice_XXVII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.27 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -5283,17 +5283,17 @@ segment.03.Percussion.Voice.XXVII = {
 }
 
 
-segment.03.Staff.XXVII = {
+segment.03.Staff.27 = {
 
-    \context Voice = "Percussion_Voice_XXVII"
-    { \segment.03.Percussion.Voice.XXVII }
+    \context Voice = "Percussion.Voice.27"
+    { \segment.03.Percussion.Voice.27 }
 
 }
 
 
-segment.03.Percussion.Voice.XXVIII.part.1 = {
+segment.03.Percussion.Voice.28.part.1 = {
 
-    % [Percussion_Voice_XXVIII measure 33 / measure 1]
+    % [Percussion.Voice.28 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 28
     \set Staff.instrumentName = \markup \hcenter-in #8 28
     \clef "percussion"
@@ -5307,13 +5307,13 @@ segment.03.Percussion.Voice.XXVIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 28
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXVIII measure 34 / measure 2]
+    % [Percussion.Voice.28 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXVIII measure 35 / measure 3]
+    % [Percussion.Voice.28 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXVIII measure 36 / measure 4]
+    % [Percussion.Voice.28 measure 36 / measure 4]
     c'8
     [
 
@@ -5324,16 +5324,16 @@ segment.03.Percussion.Voice.XXVIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVIII measure 37 / measure 5]
+    % [Percussion.Voice.28 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXVIII measure 38 / measure 6]
+    % [Percussion.Voice.28 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XXVIII measure 39 / measure 7]
+    % [Percussion.Voice.28 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XXVIII measure 40 / measure 8]
+    % [Percussion.Voice.28 measure 40 / measure 8]
     c'8
     [
 
@@ -5344,19 +5344,19 @@ segment.03.Percussion.Voice.XXVIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVIII measure 41 / measure 9]
+    % [Percussion.Voice.28 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXVIII measure 42 / measure 10]
+    % [Percussion.Voice.28 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XXVIII measure 43 / measure 11]
+    % [Percussion.Voice.28 measure 43 / measure 11]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXVIII measure 44 / measure 12]
+        % [Percussion.Voice.28 measure 44 / measure 12]
         c'8
         [
 
@@ -5373,10 +5373,10 @@ segment.03.Percussion.Voice.XXVIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXVIII measure 45 / measure 13]
+    % [Percussion.Voice.28 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XXVIII measure 46 / measure 14]
+    % [Percussion.Voice.28 measure 46 / measure 14]
     c'8
     [
 
@@ -5387,13 +5387,13 @@ segment.03.Percussion.Voice.XXVIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXVIII measure 47 / measure 15]
+    % [Percussion.Voice.28 measure 47 / measure 15]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXVIII measure 48 / measure 16]
+        % [Percussion.Voice.28 measure 48 / measure 16]
         c'8
         [
 
@@ -5413,26 +5413,26 @@ segment.03.Percussion.Voice.XXVIII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXVIII = {
+segment.03.Percussion.Voice.28 = {
 
-    { \segment.03.Percussion.Voice.XXVIII.part.1 }
+    { \segment.03.Percussion.Voice.28.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXVIII"
+        \context Voice = "Percussion.Voice.28"
         {
 
-            % [Percussion_Voice_XXVIII measure 49 / measure 17]
+            % [Percussion.Voice.28 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXVIII"
+        \context Voice = "Percussion.Rest_Voice.28"
         {
 
-            % [Percussion_Rest_Voice_XXVIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.28 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -5447,17 +5447,17 @@ segment.03.Percussion.Voice.XXVIII = {
 }
 
 
-segment.03.Staff.XXVIII = {
+segment.03.Staff.28 = {
 
-    \context Voice = "Percussion_Voice_XXVIII"
-    { \segment.03.Percussion.Voice.XXVIII }
+    \context Voice = "Percussion.Voice.28"
+    { \segment.03.Percussion.Voice.28 }
 
 }
 
 
-segment.03.Percussion.Voice.XXIX.part.1 = {
+segment.03.Percussion.Voice.29.part.1 = {
 
-    % [Percussion_Voice_XXIX measure 33 / measure 1]
+    % [Percussion.Voice.29 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 29
     \set Staff.instrumentName = \markup \hcenter-in #8 29
     \clef "percussion"
@@ -5471,16 +5471,16 @@ segment.03.Percussion.Voice.XXIX.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 29
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXIX measure 34 / measure 2]
+    % [Percussion.Voice.29 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXIX measure 35 / measure 3]
+    % [Percussion.Voice.29 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXIX measure 36 / measure 4]
+    % [Percussion.Voice.29 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXIX measure 37 / measure 5]
+    % [Percussion.Voice.29 measure 37 / measure 5]
     c'8
     [
 
@@ -5491,7 +5491,7 @@ segment.03.Percussion.Voice.XXIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXIX measure 38 / measure 6]
+    % [Percussion.Voice.29 measure 38 / measure 6]
     c'8
     [
 
@@ -5502,7 +5502,7 @@ segment.03.Percussion.Voice.XXIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXIX measure 39 / measure 7]
+    % [Percussion.Voice.29 measure 39 / measure 7]
     c'8
     [
 
@@ -5513,7 +5513,7 @@ segment.03.Percussion.Voice.XXIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXIX measure 40 / measure 8]
+    % [Percussion.Voice.29 measure 40 / measure 8]
     c'8
     [
 
@@ -5524,24 +5524,24 @@ segment.03.Percussion.Voice.XXIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXIX measure 41 / measure 9]
+    % [Percussion.Voice.29 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXIX measure 42 / measure 10]
+    % [Percussion.Voice.29 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XXIX measure 43 / measure 11]
+    % [Percussion.Voice.29 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XXIX measure 44 / measure 12]
+    % [Percussion.Voice.29 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XXIX measure 45 / measure 13]
+    % [Percussion.Voice.29 measure 45 / measure 13]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXIX measure 46 / measure 14]
+    % [Percussion.Voice.29 measure 46 / measure 14]
     c'4
 
     c'4
@@ -5549,7 +5549,7 @@ segment.03.Percussion.Voice.XXIX.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXIX measure 47 / measure 15]
+        % [Percussion.Voice.29 measure 47 / measure 15]
         c'8
         [
 
@@ -5569,7 +5569,7 @@ segment.03.Percussion.Voice.XXIX.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXIX measure 48 / measure 16]
+        % [Percussion.Voice.29 measure 48 / measure 16]
         c'8
         [
 
@@ -5589,26 +5589,26 @@ segment.03.Percussion.Voice.XXIX.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXIX = {
+segment.03.Percussion.Voice.29 = {
 
-    { \segment.03.Percussion.Voice.XXIX.part.1 }
+    { \segment.03.Percussion.Voice.29.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXIX"
+        \context Voice = "Percussion.Voice.29"
         {
 
-            % [Percussion_Voice_XXIX measure 49 / measure 17]
+            % [Percussion.Voice.29 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXIX"
+        \context Voice = "Percussion.Rest_Voice.29"
         {
 
-            % [Percussion_Rest_Voice_XXIX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.29 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -5623,17 +5623,17 @@ segment.03.Percussion.Voice.XXIX = {
 }
 
 
-segment.03.Staff.XXIX = {
+segment.03.Staff.29 = {
 
-    \context Voice = "Percussion_Voice_XXIX"
-    { \segment.03.Percussion.Voice.XXIX }
+    \context Voice = "Percussion.Voice.29"
+    { \segment.03.Percussion.Voice.29 }
 
 }
 
 
-segment.03.Percussion.Voice.XXX.part.1 = {
+segment.03.Percussion.Voice.30.part.1 = {
 
-    % [Percussion_Voice_XXX measure 33 / measure 1]
+    % [Percussion.Voice.30 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 30
     \set Staff.instrumentName = \markup \hcenter-in #8 30
     \clef "percussion"
@@ -5647,19 +5647,19 @@ segment.03.Percussion.Voice.XXX.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 30
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXX measure 34 / measure 2]
+    % [Percussion.Voice.30 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXX measure 35 / measure 3]
+    % [Percussion.Voice.30 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXX measure 36 / measure 4]
+    % [Percussion.Voice.30 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXX measure 37 / measure 5]
+    % [Percussion.Voice.30 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXX measure 38 / measure 6]
+    % [Percussion.Voice.30 measure 38 / measure 6]
     c'8
     [
 
@@ -5670,10 +5670,10 @@ segment.03.Percussion.Voice.XXX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXX measure 39 / measure 7]
+    % [Percussion.Voice.30 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XXX measure 40 / measure 8]
+    % [Percussion.Voice.30 measure 40 / measure 8]
     c'8
     [
 
@@ -5684,25 +5684,25 @@ segment.03.Percussion.Voice.XXX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXX measure 41 / measure 9]
+    % [Percussion.Voice.30 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXX measure 42 / measure 10]
+    % [Percussion.Voice.30 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XXX measure 43 / measure 11]
+    % [Percussion.Voice.30 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XXX measure 44 / measure 12]
+    % [Percussion.Voice.30 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XXX measure 45 / measure 13]
+    % [Percussion.Voice.30 measure 45 / measure 13]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXX measure 46 / measure 14]
+        % [Percussion.Voice.30 measure 46 / measure 14]
         c'8
         [
 
@@ -5719,7 +5719,7 @@ segment.03.Percussion.Voice.XXX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXX measure 47 / measure 15]
+    % [Percussion.Voice.30 measure 47 / measure 15]
     c'8
     [
 
@@ -5733,7 +5733,7 @@ segment.03.Percussion.Voice.XXX.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXX measure 48 / measure 16]
+        % [Percussion.Voice.30 measure 48 / measure 16]
         c'8
         [
 
@@ -5753,26 +5753,26 @@ segment.03.Percussion.Voice.XXX.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXX = {
+segment.03.Percussion.Voice.30 = {
 
-    { \segment.03.Percussion.Voice.XXX.part.1 }
+    { \segment.03.Percussion.Voice.30.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXX"
+        \context Voice = "Percussion.Voice.30"
         {
 
-            % [Percussion_Voice_XXX measure 49 / measure 17]
+            % [Percussion.Voice.30 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXX"
+        \context Voice = "Percussion.Rest_Voice.30"
         {
 
-            % [Percussion_Rest_Voice_XXX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.30 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -5787,17 +5787,17 @@ segment.03.Percussion.Voice.XXX = {
 }
 
 
-segment.03.Staff.XXX = {
+segment.03.Staff.30 = {
 
-    \context Voice = "Percussion_Voice_XXX"
-    { \segment.03.Percussion.Voice.XXX }
+    \context Voice = "Percussion.Voice.30"
+    { \segment.03.Percussion.Voice.30 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXI.part.1 = {
+segment.03.Percussion.Voice.31.part.1 = {
 
-    % [Percussion_Voice_XXXI measure 33 / measure 1]
+    % [Percussion.Voice.31 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 31
     \set Staff.instrumentName = \markup \hcenter-in #8 31
     \clef "percussion"
@@ -5811,22 +5811,22 @@ segment.03.Percussion.Voice.XXXI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 31
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXXI measure 34 / measure 2]
+    % [Percussion.Voice.31 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXXI measure 35 / measure 3]
+    % [Percussion.Voice.31 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXXI measure 36 / measure 4]
+    % [Percussion.Voice.31 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXXI measure 37 / measure 5]
+    % [Percussion.Voice.31 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXXI measure 38 / measure 6]
+    % [Percussion.Voice.31 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XXXI measure 39 / measure 7]
+    % [Percussion.Voice.31 measure 39 / measure 7]
     c'8
     [
 
@@ -5837,7 +5837,7 @@ segment.03.Percussion.Voice.XXXI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXI measure 40 / measure 8]
+    % [Percussion.Voice.31 measure 40 / measure 8]
     c'8
     [
 
@@ -5848,25 +5848,25 @@ segment.03.Percussion.Voice.XXXI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXI measure 41 / measure 9]
+    % [Percussion.Voice.31 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXXI measure 42 / measure 10]
+    % [Percussion.Voice.31 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XXXI measure 43 / measure 11]
+    % [Percussion.Voice.31 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XXXI measure 44 / measure 12]
+    % [Percussion.Voice.31 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XXXI measure 45 / measure 13]
+    % [Percussion.Voice.31 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XXXI measure 46 / measure 14]
+    % [Percussion.Voice.31 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_XXXI measure 47 / measure 15]
+    % [Percussion.Voice.31 measure 47 / measure 15]
     c'4
 
     c'4
@@ -5874,7 +5874,7 @@ segment.03.Percussion.Voice.XXXI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXI measure 48 / measure 16]
+        % [Percussion.Voice.31 measure 48 / measure 16]
         c'8
         [
 
@@ -5894,26 +5894,26 @@ segment.03.Percussion.Voice.XXXI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXXI = {
+segment.03.Percussion.Voice.31 = {
 
-    { \segment.03.Percussion.Voice.XXXI.part.1 }
+    { \segment.03.Percussion.Voice.31.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXI"
+        \context Voice = "Percussion.Voice.31"
         {
 
-            % [Percussion_Voice_XXXI measure 49 / measure 17]
+            % [Percussion.Voice.31 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXI"
+        \context Voice = "Percussion.Rest_Voice.31"
         {
 
-            % [Percussion_Rest_Voice_XXXI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.31 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -5928,17 +5928,17 @@ segment.03.Percussion.Voice.XXXI = {
 }
 
 
-segment.03.Staff.XXXI = {
+segment.03.Staff.31 = {
 
-    \context Voice = "Percussion_Voice_XXXI"
-    { \segment.03.Percussion.Voice.XXXI }
+    \context Voice = "Percussion.Voice.31"
+    { \segment.03.Percussion.Voice.31 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXII.part.1 = {
+segment.03.Percussion.Voice.32.part.1 = {
 
-    % [Percussion_Voice_XXXII measure 33 / measure 1]
+    % [Percussion.Voice.32 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 32
     \set Staff.instrumentName = \markup \hcenter-in #8 32
     \clef "percussion"
@@ -5952,25 +5952,25 @@ segment.03.Percussion.Voice.XXXII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 32
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXXII measure 34 / measure 2]
+    % [Percussion.Voice.32 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXXII measure 35 / measure 3]
+    % [Percussion.Voice.32 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXXII measure 36 / measure 4]
+    % [Percussion.Voice.32 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXXII measure 37 / measure 5]
+    % [Percussion.Voice.32 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXXII measure 38 / measure 6]
+    % [Percussion.Voice.32 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XXXII measure 39 / measure 7]
+    % [Percussion.Voice.32 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XXXII measure 40 / measure 8]
+    % [Percussion.Voice.32 measure 40 / measure 8]
     c'8
     [
 
@@ -5981,31 +5981,31 @@ segment.03.Percussion.Voice.XXXII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXII measure 41 / measure 9]
+    % [Percussion.Voice.32 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXXII measure 42 / measure 10]
+    % [Percussion.Voice.32 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XXXII measure 43 / measure 11]
+    % [Percussion.Voice.32 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XXXII measure 44 / measure 12]
+    % [Percussion.Voice.32 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XXXII measure 45 / measure 13]
+    % [Percussion.Voice.32 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XXXII measure 46 / measure 14]
+    % [Percussion.Voice.32 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_XXXII measure 47 / measure 15]
+    % [Percussion.Voice.32 measure 47 / measure 15]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXII measure 48 / measure 16]
+        % [Percussion.Voice.32 measure 48 / measure 16]
         c'8
         [
 
@@ -6025,26 +6025,26 @@ segment.03.Percussion.Voice.XXXII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXXII = {
+segment.03.Percussion.Voice.32 = {
 
-    { \segment.03.Percussion.Voice.XXXII.part.1 }
+    { \segment.03.Percussion.Voice.32.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXII"
+        \context Voice = "Percussion.Voice.32"
         {
 
-            % [Percussion_Voice_XXXII measure 49 / measure 17]
+            % [Percussion.Voice.32 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXII"
+        \context Voice = "Percussion.Rest_Voice.32"
         {
 
-            % [Percussion_Rest_Voice_XXXII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.32 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -6059,17 +6059,17 @@ segment.03.Percussion.Voice.XXXII = {
 }
 
 
-segment.03.Staff.XXXII = {
+segment.03.Staff.32 = {
 
-    \context Voice = "Percussion_Voice_XXXII"
-    { \segment.03.Percussion.Voice.XXXII }
+    \context Voice = "Percussion.Voice.32"
+    { \segment.03.Percussion.Voice.32 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXIII.part.1 = {
+segment.03.Percussion.Voice.33.part.1 = {
 
-    % [Percussion_Voice_XXXIII measure 33 / measure 1]
+    % [Percussion.Voice.33 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 33
     \set Staff.instrumentName = \markup \hcenter-in #8 33
     \clef "percussion"
@@ -6083,31 +6083,31 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 33
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXXIII measure 34 / measure 2]
+    % [Percussion.Voice.33 measure 34 / measure 2]
     c'2
 
-    % [Percussion_Voice_XXXIII measure 35 / measure 3]
+    % [Percussion.Voice.33 measure 35 / measure 3]
     c'2
 
-    % [Percussion_Voice_XXXIII measure 36 / measure 4]
+    % [Percussion.Voice.33 measure 36 / measure 4]
     c'2
 
-    % [Percussion_Voice_XXXIII measure 37 / measure 5]
+    % [Percussion.Voice.33 measure 37 / measure 5]
     c'2
 
-    % [Percussion_Voice_XXXIII measure 38 / measure 6]
+    % [Percussion.Voice.33 measure 38 / measure 6]
     c'2
 
-    % [Percussion_Voice_XXXIII measure 39 / measure 7]
+    % [Percussion.Voice.33 measure 39 / measure 7]
     c'2
 
-    % [Percussion_Voice_XXXIII measure 40 / measure 8]
+    % [Percussion.Voice.33 measure 40 / measure 8]
     c'2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIII measure 41 / measure 9]
+        % [Percussion.Voice.33 measure 41 / measure 9]
         c'8
         [
 
@@ -6125,7 +6125,7 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIII measure 42 / measure 10]
+        % [Percussion.Voice.33 measure 42 / measure 10]
         c'8
         [
 
@@ -6143,7 +6143,7 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIII measure 43 / measure 11]
+        % [Percussion.Voice.33 measure 43 / measure 11]
         c'8
         [
 
@@ -6161,7 +6161,7 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIII measure 44 / measure 12]
+        % [Percussion.Voice.33 measure 44 / measure 12]
         c'8
         [
 
@@ -6179,7 +6179,7 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIII measure 45 / measure 13]
+        % [Percussion.Voice.33 measure 45 / measure 13]
         c'8
         [
 
@@ -6197,7 +6197,7 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIII measure 46 / measure 14]
+        % [Percussion.Voice.33 measure 46 / measure 14]
         c'8
         [
 
@@ -6215,7 +6215,7 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIII measure 47 / measure 15]
+        % [Percussion.Voice.33 measure 47 / measure 15]
         c'8
         [
 
@@ -6233,7 +6233,7 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIII measure 48 / measure 16]
+        % [Percussion.Voice.33 measure 48 / measure 16]
         c'8
         [
 
@@ -6251,26 +6251,26 @@ segment.03.Percussion.Voice.XXXIII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXXIII = {
+segment.03.Percussion.Voice.33 = {
 
-    { \segment.03.Percussion.Voice.XXXIII.part.1 }
+    { \segment.03.Percussion.Voice.33.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXIII"
+        \context Voice = "Percussion.Voice.33"
         {
 
-            % [Percussion_Voice_XXXIII measure 49 / measure 17]
+            % [Percussion.Voice.33 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXIII"
+        \context Voice = "Percussion.Rest_Voice.33"
         {
 
-            % [Percussion_Rest_Voice_XXXIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.33 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -6285,17 +6285,17 @@ segment.03.Percussion.Voice.XXXIII = {
 }
 
 
-segment.03.Staff.XXXIII = {
+segment.03.Staff.33 = {
 
-    \context Voice = "Percussion_Voice_XXXIII"
-    { \segment.03.Percussion.Voice.XXXIII }
+    \context Voice = "Percussion.Voice.33"
+    { \segment.03.Percussion.Voice.33 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXIV.part.1 = {
+segment.03.Percussion.Voice.34.part.1 = {
 
-    % [Percussion_Voice_XXXIV measure 33 / measure 1]
+    % [Percussion.Voice.34 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 34
     \set Staff.instrumentName = \markup \hcenter-in #8 34
     \clef "percussion"
@@ -6312,7 +6312,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXIV measure 34 / measure 2]
+        % [Percussion.Voice.34 measure 34 / measure 2]
         c'8
         [
 
@@ -6334,7 +6334,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXIV measure 35 / measure 3]
+        % [Percussion.Voice.34 measure 35 / measure 3]
         c'8
         [
 
@@ -6354,7 +6354,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIV measure 36 / measure 4]
+        % [Percussion.Voice.34 measure 36 / measure 4]
         c'8
         [
 
@@ -6369,7 +6369,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXIV measure 37 / measure 5]
+    % [Percussion.Voice.34 measure 37 / measure 5]
     c'8
     [
 
@@ -6383,7 +6383,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXIV measure 38 / measure 6]
+        % [Percussion.Voice.34 measure 38 / measure 6]
         c'4
 
         c'4
@@ -6392,21 +6392,21 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXIV measure 39 / measure 7]
+    % [Percussion.Voice.34 measure 39 / measure 7]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXXIV measure 40 / measure 8]
+    % [Percussion.Voice.34 measure 40 / measure 8]
     c'2
 
-    % [Percussion_Voice_XXXIV measure 41 / measure 9]
+    % [Percussion.Voice.34 measure 41 / measure 9]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXIV measure 42 / measure 10]
+        % [Percussion.Voice.34 measure 42 / measure 10]
         c'4
 
         c'4
@@ -6418,7 +6418,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXIV measure 43 / measure 11]
+        % [Percussion.Voice.34 measure 43 / measure 11]
         c'8
         [
 
@@ -6435,10 +6435,10 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXIV measure 44 / measure 12]
+    % [Percussion.Voice.34 measure 44 / measure 12]
     c'2
 
-    % [Percussion_Voice_XXXIV measure 45 / measure 13]
+    % [Percussion.Voice.34 measure 45 / measure 13]
     c'8
     [
 
@@ -6452,7 +6452,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXIV measure 46 / measure 14]
+        % [Percussion.Voice.34 measure 46 / measure 14]
         c'8
         [
 
@@ -6471,7 +6471,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXIV measure 47 / measure 15]
+    % [Percussion.Voice.34 measure 47 / measure 15]
     c'4
 
     c'4
@@ -6479,7 +6479,7 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXIV measure 48 / measure 16]
+        % [Percussion.Voice.34 measure 48 / measure 16]
         c'8
         [
 
@@ -6497,26 +6497,26 @@ segment.03.Percussion.Voice.XXXIV.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXXIV = {
+segment.03.Percussion.Voice.34 = {
 
-    { \segment.03.Percussion.Voice.XXXIV.part.1 }
+    { \segment.03.Percussion.Voice.34.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXIV"
+        \context Voice = "Percussion.Voice.34"
         {
 
-            % [Percussion_Voice_XXXIV measure 49 / measure 17]
+            % [Percussion.Voice.34 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXIV"
+        \context Voice = "Percussion.Rest_Voice.34"
         {
 
-            % [Percussion_Rest_Voice_XXXIV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.34 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -6531,17 +6531,17 @@ segment.03.Percussion.Voice.XXXIV = {
 }
 
 
-segment.03.Staff.XXXIV = {
+segment.03.Staff.34 = {
 
-    \context Voice = "Percussion_Voice_XXXIV"
-    { \segment.03.Percussion.Voice.XXXIV }
+    \context Voice = "Percussion.Voice.34"
+    { \segment.03.Percussion.Voice.34 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXV.part.1 = {
+segment.03.Percussion.Voice.35.part.1 = {
 
-    % [Percussion_Voice_XXXV measure 33 / measure 1]
+    % [Percussion.Voice.35 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 35
     \set Staff.instrumentName = \markup \hcenter-in #8 35
     \clef "percussion"
@@ -6555,16 +6555,16 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 35
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXXV measure 34 / measure 2]
+    % [Percussion.Voice.35 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXXV measure 35 / measure 3]
+    % [Percussion.Voice.35 measure 35 / measure 3]
     c'2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXV measure 36 / measure 4]
+        % [Percussion.Voice.35 measure 36 / measure 4]
         c'4
 
         c'4
@@ -6576,7 +6576,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXV measure 37 / measure 5]
+        % [Percussion.Voice.35 measure 37 / measure 5]
         c'8
         [
 
@@ -6593,7 +6593,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXV measure 38 / measure 6]
+    % [Percussion.Voice.35 measure 38 / measure 6]
     c'4
 
     c'4
@@ -6601,7 +6601,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXV measure 39 / measure 7]
+        % [Percussion.Voice.35 measure 39 / measure 7]
         c'8
         [
 
@@ -6623,7 +6623,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXV measure 40 / measure 8]
+        % [Percussion.Voice.35 measure 40 / measure 8]
         c'8
         [
 
@@ -6638,7 +6638,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXV measure 41 / measure 9]
+    % [Percussion.Voice.35 measure 41 / measure 9]
     c'8
     [
 
@@ -6649,7 +6649,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXV measure 42 / measure 10]
+    % [Percussion.Voice.35 measure 42 / measure 10]
     c'8
     [
 
@@ -6660,13 +6660,13 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXV measure 43 / measure 11]
+    % [Percussion.Voice.35 measure 43 / measure 11]
     c'2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXV measure 44 / measure 12]
+        % [Percussion.Voice.35 measure 44 / measure 12]
         c'4
 
         c'4
@@ -6675,7 +6675,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXV measure 45 / measure 13]
+    % [Percussion.Voice.35 measure 45 / measure 13]
     c'4
 
     c'4
@@ -6683,7 +6683,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXV measure 46 / measure 14]
+        % [Percussion.Voice.35 measure 46 / measure 14]
         c'8
         [
 
@@ -6703,7 +6703,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXV measure 47 / measure 15]
+        % [Percussion.Voice.35 measure 47 / measure 15]
         c'8
         [
 
@@ -6725,7 +6725,7 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXV measure 48 / measure 16]
+        % [Percussion.Voice.35 measure 48 / measure 16]
         c'8
         [
 
@@ -6743,26 +6743,26 @@ segment.03.Percussion.Voice.XXXV.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXXV = {
+segment.03.Percussion.Voice.35 = {
 
-    { \segment.03.Percussion.Voice.XXXV.part.1 }
+    { \segment.03.Percussion.Voice.35.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXV"
+        \context Voice = "Percussion.Voice.35"
         {
 
-            % [Percussion_Voice_XXXV measure 49 / measure 17]
+            % [Percussion.Voice.35 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXV"
+        \context Voice = "Percussion.Rest_Voice.35"
         {
 
-            % [Percussion_Rest_Voice_XXXV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.35 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -6777,17 +6777,17 @@ segment.03.Percussion.Voice.XXXV = {
 }
 
 
-segment.03.Staff.XXXV = {
+segment.03.Staff.35 = {
 
-    \context Voice = "Percussion_Voice_XXXV"
-    { \segment.03.Percussion.Voice.XXXV }
+    \context Voice = "Percussion.Voice.35"
+    { \segment.03.Percussion.Voice.35 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXVI.part.1 = {
+segment.03.Percussion.Voice.36.part.1 = {
 
-    % [Percussion_Voice_XXXVI measure 33 / measure 1]
+    % [Percussion.Voice.36 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 36
     \set Staff.instrumentName = \markup \hcenter-in #8 36
     \clef "percussion"
@@ -6801,16 +6801,16 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 36
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXXVI measure 34 / measure 2]
+    % [Percussion.Voice.36 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXXVI measure 35 / measure 3]
+    % [Percussion.Voice.36 measure 35 / measure 3]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXVI measure 36 / measure 4]
+        % [Percussion.Voice.36 measure 36 / measure 4]
         c'8
         [
 
@@ -6829,7 +6829,7 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVI measure 37 / measure 5]
+    % [Percussion.Voice.36 measure 37 / measure 5]
     c'8
     [
 
@@ -6843,7 +6843,7 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXVI measure 38 / measure 6]
+        % [Percussion.Voice.36 measure 38 / measure 6]
         c'8
         [
 
@@ -6860,7 +6860,7 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVI measure 39 / measure 7]
+    % [Percussion.Voice.36 measure 39 / measure 7]
     c'8
     [
 
@@ -6874,7 +6874,7 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXVI measure 40 / measure 8]
+        % [Percussion.Voice.36 measure 40 / measure 8]
         c'8
         [
 
@@ -6889,10 +6889,10 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVI measure 41 / measure 9]
+    % [Percussion.Voice.36 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXXVI measure 42 / measure 10]
+    % [Percussion.Voice.36 measure 42 / measure 10]
     c'8
     [
 
@@ -6903,13 +6903,13 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXVI measure 43 / measure 11]
+    % [Percussion.Voice.36 measure 43 / measure 11]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXVI measure 44 / measure 12]
+        % [Percussion.Voice.36 measure 44 / measure 12]
         c'8
         [
 
@@ -6928,7 +6928,7 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVI measure 45 / measure 13]
+    % [Percussion.Voice.36 measure 45 / measure 13]
     c'8
     [
 
@@ -6939,12 +6939,12 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXVI measure 46 / measure 14]
+    % [Percussion.Voice.36 measure 46 / measure 14]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXXVI measure 47 / measure 15]
+    % [Percussion.Voice.36 measure 47 / measure 15]
     c'8
     [
 
@@ -6958,7 +6958,7 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXVI measure 48 / measure 16]
+        % [Percussion.Voice.36 measure 48 / measure 16]
         c'8
         [
 
@@ -6976,26 +6976,26 @@ segment.03.Percussion.Voice.XXXVI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XXXVI = {
+segment.03.Percussion.Voice.36 = {
 
-    { \segment.03.Percussion.Voice.XXXVI.part.1 }
+    { \segment.03.Percussion.Voice.36.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXVI"
+        \context Voice = "Percussion.Voice.36"
         {
 
-            % [Percussion_Voice_XXXVI measure 49 / measure 17]
+            % [Percussion.Voice.36 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXVI"
+        \context Voice = "Percussion.Rest_Voice.36"
         {
 
-            % [Percussion_Rest_Voice_XXXVI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.36 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -7010,17 +7010,17 @@ segment.03.Percussion.Voice.XXXVI = {
 }
 
 
-segment.03.Staff.XXXVI = {
+segment.03.Staff.36 = {
 
-    \context Voice = "Percussion_Voice_XXXVI"
-    { \segment.03.Percussion.Voice.XXXVI }
+    \context Voice = "Percussion.Voice.36"
+    { \segment.03.Percussion.Voice.36 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXVII.part.1 = {
+segment.03.Percussion.Voice.37.part.1 = {
 
-    % [Percussion_Voice_XXXVII measure 33 / measure 1]
+    % [Percussion.Voice.37 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 37
     \set Staff.instrumentName = \markup \hcenter-in #8 37
     \clef "percussion"
@@ -7034,22 +7034,22 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXXVII measure 34 / measure 2]
+    % [Percussion.Voice.37 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXXVII measure 35 / measure 3]
+    % [Percussion.Voice.37 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXXVII measure 36 / measure 4]
+    % [Percussion.Voice.37 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXXVII measure 37 / measure 5]
+    % [Percussion.Voice.37 measure 37 / measure 5]
     c'2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXVII measure 38 / measure 6]
+        % [Percussion.Voice.37 measure 38 / measure 6]
         c'8
         [
 
@@ -7067,7 +7067,7 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXVII measure 39 / measure 7]
+        % [Percussion.Voice.37 measure 39 / measure 7]
         c'8
         [
 
@@ -7089,7 +7089,7 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXVII measure 40 / measure 8]
+        % [Percussion.Voice.37 measure 40 / measure 8]
         c'4
 
         c'4
@@ -7101,7 +7101,7 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXVII measure 41 / measure 9]
+        % [Percussion.Voice.37 measure 41 / measure 9]
         c'8
         [
 
@@ -7121,7 +7121,7 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXVII measure 42 / measure 10]
+        % [Percussion.Voice.37 measure 42 / measure 10]
         c'8
         [
 
@@ -7138,12 +7138,12 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVII measure 43 / measure 11]
+    % [Percussion.Voice.37 measure 43 / measure 11]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXXVII measure 44 / measure 12]
+    % [Percussion.Voice.37 measure 44 / measure 12]
     c'4
 
     c'4
@@ -7151,7 +7151,7 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXVII measure 45 / measure 13]
+        % [Percussion.Voice.37 measure 45 / measure 13]
         c'4
 
         c'4
@@ -7163,7 +7163,7 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXVII measure 46 / measure 14]
+        % [Percussion.Voice.37 measure 46 / measure 14]
         c'8
         [
 
@@ -7185,7 +7185,7 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXVII measure 47 / measure 15]
+        % [Percussion.Voice.37 measure 47 / measure 15]
         c'8
         [
 
@@ -7200,32 +7200,32 @@ segment.03.Percussion.Voice.XXXVII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVII measure 48 / measure 16]
+    % [Percussion.Voice.37 measure 48 / measure 16]
     c'2
 
 }
 
 
-segment.03.Percussion.Voice.XXXVII = {
+segment.03.Percussion.Voice.37 = {
 
-    { \segment.03.Percussion.Voice.XXXVII.part.1 }
+    { \segment.03.Percussion.Voice.37.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXVII"
+        \context Voice = "Percussion.Voice.37"
         {
 
-            % [Percussion_Voice_XXXVII measure 49 / measure 17]
+            % [Percussion.Voice.37 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXVII"
+        \context Voice = "Percussion.Rest_Voice.37"
         {
 
-            % [Percussion_Rest_Voice_XXXVII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.37 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -7240,17 +7240,17 @@ segment.03.Percussion.Voice.XXXVII = {
 }
 
 
-segment.03.Staff.XXXVII = {
+segment.03.Staff.37 = {
 
-    \context Voice = "Percussion_Voice_XXXVII"
-    { \segment.03.Percussion.Voice.XXXVII }
+    \context Voice = "Percussion.Voice.37"
+    { \segment.03.Percussion.Voice.37 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXVIII.part.1 = {
+segment.03.Percussion.Voice.38.part.1 = {
 
-    % [Percussion_Voice_XXXVIII measure 33 / measure 1]
+    % [Percussion.Voice.38 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 38
     \set Staff.instrumentName = \markup \hcenter-in #8 38
     \clef "percussion"
@@ -7264,22 +7264,22 @@ segment.03.Percussion.Voice.XXXVIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 38
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXXVIII measure 34 / measure 2]
+    % [Percussion.Voice.38 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXXVIII measure 35 / measure 3]
+    % [Percussion.Voice.38 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXXVIII measure 36 / measure 4]
+    % [Percussion.Voice.38 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXXVIII measure 37 / measure 5]
+    % [Percussion.Voice.38 measure 37 / measure 5]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXVIII measure 38 / measure 6]
+        % [Percussion.Voice.38 measure 38 / measure 6]
         c'8
         [
 
@@ -7298,7 +7298,7 @@ segment.03.Percussion.Voice.XXXVIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVIII measure 39 / measure 7]
+    % [Percussion.Voice.38 measure 39 / measure 7]
     c'4
 
     c'4
@@ -7306,7 +7306,7 @@ segment.03.Percussion.Voice.XXXVIII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXVIII measure 40 / measure 8]
+        % [Percussion.Voice.38 measure 40 / measure 8]
         c'4
 
         c'4
@@ -7315,15 +7315,15 @@ segment.03.Percussion.Voice.XXXVIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVIII measure 41 / measure 9]
+    % [Percussion.Voice.38 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XXXVIII measure 42 / measure 10]
+    % [Percussion.Voice.38 measure 42 / measure 10]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXXVIII measure 43 / measure 11]
+    % [Percussion.Voice.38 measure 43 / measure 11]
     c'8
     [
 
@@ -7334,18 +7334,18 @@ segment.03.Percussion.Voice.XXXVIII.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXVIII measure 44 / measure 12]
+    % [Percussion.Voice.38 measure 44 / measure 12]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XXXVIII measure 45 / measure 13]
+    % [Percussion.Voice.38 measure 45 / measure 13]
     r2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_XXXVIII measure 46 / measure 14]
+        % [Percussion.Voice.38 measure 46 / measure 14]
         c'8
         [
 
@@ -7363,7 +7363,7 @@ segment.03.Percussion.Voice.XXXVIII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXVIII measure 47 / measure 15]
+        % [Percussion.Voice.38 measure 47 / measure 15]
         c'8
         [
 
@@ -7380,32 +7380,32 @@ segment.03.Percussion.Voice.XXXVIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXVIII measure 48 / measure 16]
+    % [Percussion.Voice.38 measure 48 / measure 16]
     c'2
 
 }
 
 
-segment.03.Percussion.Voice.XXXVIII = {
+segment.03.Percussion.Voice.38 = {
 
-    { \segment.03.Percussion.Voice.XXXVIII.part.1 }
+    { \segment.03.Percussion.Voice.38.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXVIII"
+        \context Voice = "Percussion.Voice.38"
         {
 
-            % [Percussion_Voice_XXXVIII measure 49 / measure 17]
+            % [Percussion.Voice.38 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXVIII"
+        \context Voice = "Percussion.Rest_Voice.38"
         {
 
-            % [Percussion_Rest_Voice_XXXVIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.38 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -7420,17 +7420,17 @@ segment.03.Percussion.Voice.XXXVIII = {
 }
 
 
-segment.03.Staff.XXXVIII = {
+segment.03.Staff.38 = {
 
-    \context Voice = "Percussion_Voice_XXXVIII"
-    { \segment.03.Percussion.Voice.XXXVIII }
+    \context Voice = "Percussion.Voice.38"
+    { \segment.03.Percussion.Voice.38 }
 
 }
 
 
-segment.03.Percussion.Voice.XXXIX.part.1 = {
+segment.03.Percussion.Voice.39.part.1 = {
 
-    % [Percussion_Voice_XXXIX measure 33 / measure 1]
+    % [Percussion.Voice.39 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 39
     \set Staff.instrumentName = \markup \hcenter-in #8 39
     \clef "percussion"
@@ -7444,28 +7444,28 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 39
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XXXIX measure 34 / measure 2]
+    % [Percussion.Voice.39 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XXXIX measure 35 / measure 3]
+    % [Percussion.Voice.39 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XXXIX measure 36 / measure 4]
+    % [Percussion.Voice.39 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XXXIX measure 37 / measure 5]
+    % [Percussion.Voice.39 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XXXIX measure 38 / measure 6]
+    % [Percussion.Voice.39 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XXXIX measure 39 / measure 7]
+    % [Percussion.Voice.39 measure 39 / measure 7]
     c'2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXIX measure 40 / measure 8]
+        % [Percussion.Voice.39 measure 40 / measure 8]
         c'8
         [
 
@@ -7484,7 +7484,7 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXIX measure 41 / measure 9]
+    % [Percussion.Voice.39 measure 41 / measure 9]
     c'8
     [
 
@@ -7495,7 +7495,7 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXIX measure 42 / measure 10]
+    % [Percussion.Voice.39 measure 42 / measure 10]
     c'8
     [
 
@@ -7506,7 +7506,7 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXIX measure 43 / measure 11]
+    % [Percussion.Voice.39 measure 43 / measure 11]
     c'4
 
     c'4
@@ -7514,7 +7514,7 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XXXIX measure 44 / measure 12]
+        % [Percussion.Voice.39 measure 44 / measure 12]
         c'8
         [
 
@@ -7531,7 +7531,7 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXIX measure 45 / measure 13]
+    % [Percussion.Voice.39 measure 45 / measure 13]
     c'8
     [
 
@@ -7542,7 +7542,7 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XXXIX measure 46 / measure 14]
+    % [Percussion.Voice.39 measure 46 / measure 14]
     c'8
     [
 
@@ -7556,7 +7556,7 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XXXIX measure 47 / measure 15]
+        % [Percussion.Voice.39 measure 47 / measure 15]
         c'8
         [
 
@@ -7575,32 +7575,32 @@ segment.03.Percussion.Voice.XXXIX.part.1 = {
 
     }
 
-    % [Percussion_Voice_XXXIX measure 48 / measure 16]
+    % [Percussion.Voice.39 measure 48 / measure 16]
     c'2
 
 }
 
 
-segment.03.Percussion.Voice.XXXIX = {
+segment.03.Percussion.Voice.39 = {
 
-    { \segment.03.Percussion.Voice.XXXIX.part.1 }
+    { \segment.03.Percussion.Voice.39.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XXXIX"
+        \context Voice = "Percussion.Voice.39"
         {
 
-            % [Percussion_Voice_XXXIX measure 49 / measure 17]
+            % [Percussion.Voice.39 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XXXIX"
+        \context Voice = "Percussion.Rest_Voice.39"
         {
 
-            % [Percussion_Rest_Voice_XXXIX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.39 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -7615,17 +7615,17 @@ segment.03.Percussion.Voice.XXXIX = {
 }
 
 
-segment.03.Staff.XXXIX = {
+segment.03.Staff.39 = {
 
-    \context Voice = "Percussion_Voice_XXXIX"
-    { \segment.03.Percussion.Voice.XXXIX }
+    \context Voice = "Percussion.Voice.39"
+    { \segment.03.Percussion.Voice.39 }
 
 }
 
 
-segment.03.Percussion.Voice.XL.part.1 = {
+segment.03.Percussion.Voice.40.part.1 = {
 
-    % [Percussion_Voice_XL measure 33 / measure 1]
+    % [Percussion.Voice.40 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 40
     \set Staff.instrumentName = \markup \hcenter-in #8 40
     \clef "percussion"
@@ -7639,28 +7639,28 @@ segment.03.Percussion.Voice.XL.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 40
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XL measure 34 / measure 2]
+    % [Percussion.Voice.40 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XL measure 35 / measure 3]
+    % [Percussion.Voice.40 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XL measure 36 / measure 4]
+    % [Percussion.Voice.40 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XL measure 37 / measure 5]
+    % [Percussion.Voice.40 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XL measure 38 / measure 6]
+    % [Percussion.Voice.40 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XL measure 39 / measure 7]
+    % [Percussion.Voice.40 measure 39 / measure 7]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XL measure 40 / measure 8]
+        % [Percussion.Voice.40 measure 40 / measure 8]
         c'8
         [
 
@@ -7679,10 +7679,10 @@ segment.03.Percussion.Voice.XL.part.1 = {
 
     }
 
-    % [Percussion_Voice_XL measure 41 / measure 9]
+    % [Percussion.Voice.40 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XL measure 42 / measure 10]
+    % [Percussion.Voice.40 measure 42 / measure 10]
     c'8
     [
 
@@ -7693,13 +7693,13 @@ segment.03.Percussion.Voice.XL.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XL measure 43 / measure 11]
+    % [Percussion.Voice.40 measure 43 / measure 11]
     r2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XL measure 44 / measure 12]
+        % [Percussion.Voice.40 measure 44 / measure 12]
         c'8
         [
 
@@ -7716,10 +7716,10 @@ segment.03.Percussion.Voice.XL.part.1 = {
 
     }
 
-    % [Percussion_Voice_XL measure 45 / measure 13]
+    % [Percussion.Voice.40 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XL measure 46 / measure 14]
+    % [Percussion.Voice.40 measure 46 / measure 14]
     c'8
     [
 
@@ -7730,35 +7730,35 @@ segment.03.Percussion.Voice.XL.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XL measure 47 / measure 15]
+    % [Percussion.Voice.40 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_XL measure 48 / measure 16]
+    % [Percussion.Voice.40 measure 48 / measure 16]
     c'2
 
 }
 
 
-segment.03.Percussion.Voice.XL = {
+segment.03.Percussion.Voice.40 = {
 
-    { \segment.03.Percussion.Voice.XL.part.1 }
+    { \segment.03.Percussion.Voice.40.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XL"
+        \context Voice = "Percussion.Voice.40"
         {
 
-            % [Percussion_Voice_XL measure 49 / measure 17]
+            % [Percussion.Voice.40 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XL"
+        \context Voice = "Percussion.Rest_Voice.40"
         {
 
-            % [Percussion_Rest_Voice_XL measure 49 / measure 17]
+            % [Percussion.Rest_Voice.40 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -7773,17 +7773,17 @@ segment.03.Percussion.Voice.XL = {
 }
 
 
-segment.03.Staff.XL = {
+segment.03.Staff.40 = {
 
-    \context Voice = "Percussion_Voice_XL"
-    { \segment.03.Percussion.Voice.XL }
+    \context Voice = "Percussion.Voice.40"
+    { \segment.03.Percussion.Voice.40 }
 
 }
 
 
-segment.03.Percussion.Voice.XLI.part.1 = {
+segment.03.Percussion.Voice.41.part.1 = {
 
-    % [Percussion_Voice_XLI measure 33 / measure 1]
+    % [Percussion.Voice.41 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 41
     \set Staff.instrumentName = \markup \hcenter-in #8 41
     \clef "percussion"
@@ -7797,37 +7797,37 @@ segment.03.Percussion.Voice.XLI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 41
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLI measure 34 / measure 2]
+    % [Percussion.Voice.41 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLI measure 35 / measure 3]
+    % [Percussion.Voice.41 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLI measure 36 / measure 4]
+    % [Percussion.Voice.41 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLI measure 37 / measure 5]
+    % [Percussion.Voice.41 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLI measure 38 / measure 6]
+    % [Percussion.Voice.41 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLI measure 39 / measure 7]
+    % [Percussion.Voice.41 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLI measure 40 / measure 8]
+    % [Percussion.Voice.41 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLI measure 41 / measure 9]
+    % [Percussion.Voice.41 measure 41 / measure 9]
     c'2
 
-    % [Percussion_Voice_XLI measure 42 / measure 10]
+    % [Percussion.Voice.41 measure 42 / measure 10]
     c'2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_XLI measure 43 / measure 11]
+        % [Percussion.Voice.41 measure 43 / measure 11]
         c'8
         [
 
@@ -7845,7 +7845,7 @@ segment.03.Percussion.Voice.XLI.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XLI measure 44 / measure 12]
+        % [Percussion.Voice.41 measure 44 / measure 12]
         c'8
         [
 
@@ -7863,7 +7863,7 @@ segment.03.Percussion.Voice.XLI.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XLI measure 45 / measure 13]
+        % [Percussion.Voice.41 measure 45 / measure 13]
         c'8
         [
 
@@ -7885,7 +7885,7 @@ segment.03.Percussion.Voice.XLI.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XLI measure 46 / measure 14]
+        % [Percussion.Voice.41 measure 46 / measure 14]
         c'8
         [
 
@@ -7907,7 +7907,7 @@ segment.03.Percussion.Voice.XLI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XLI measure 47 / measure 15]
+        % [Percussion.Voice.41 measure 47 / measure 15]
         c'4
 
         c'4
@@ -7919,7 +7919,7 @@ segment.03.Percussion.Voice.XLI.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XLI measure 48 / measure 16]
+        % [Percussion.Voice.41 measure 48 / measure 16]
         c'4
 
         c'4
@@ -7931,26 +7931,26 @@ segment.03.Percussion.Voice.XLI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XLI = {
+segment.03.Percussion.Voice.41 = {
 
-    { \segment.03.Percussion.Voice.XLI.part.1 }
+    { \segment.03.Percussion.Voice.41.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLI"
+        \context Voice = "Percussion.Voice.41"
         {
 
-            % [Percussion_Voice_XLI measure 49 / measure 17]
+            % [Percussion.Voice.41 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLI"
+        \context Voice = "Percussion.Rest_Voice.41"
         {
 
-            % [Percussion_Rest_Voice_XLI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.41 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -7965,17 +7965,17 @@ segment.03.Percussion.Voice.XLI = {
 }
 
 
-segment.03.Staff.XLI = {
+segment.03.Staff.41 = {
 
-    \context Voice = "Percussion_Voice_XLI"
-    { \segment.03.Percussion.Voice.XLI }
+    \context Voice = "Percussion.Voice.41"
+    { \segment.03.Percussion.Voice.41 }
 
 }
 
 
-segment.03.Percussion.Voice.XLII.part.1 = {
+segment.03.Percussion.Voice.42.part.1 = {
 
-    % [Percussion_Voice_XLII measure 33 / measure 1]
+    % [Percussion.Voice.42 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 42
     \set Staff.instrumentName = \markup \hcenter-in #8 42
     \clef "percussion"
@@ -7989,34 +7989,34 @@ segment.03.Percussion.Voice.XLII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 42
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLII measure 34 / measure 2]
+    % [Percussion.Voice.42 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLII measure 35 / measure 3]
+    % [Percussion.Voice.42 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLII measure 36 / measure 4]
+    % [Percussion.Voice.42 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLII measure 37 / measure 5]
+    % [Percussion.Voice.42 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLII measure 38 / measure 6]
+    % [Percussion.Voice.42 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLII measure 39 / measure 7]
+    % [Percussion.Voice.42 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLII measure 40 / measure 8]
+    % [Percussion.Voice.42 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLII measure 41 / measure 9]
+    % [Percussion.Voice.42 measure 41 / measure 9]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XLII measure 42 / measure 10]
+        % [Percussion.Voice.42 measure 42 / measure 10]
         c'8
         [
 
@@ -8038,7 +8038,7 @@ segment.03.Percussion.Voice.XLII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XLII measure 43 / measure 11]
+        % [Percussion.Voice.42 measure 43 / measure 11]
         c'8
         [
 
@@ -8055,10 +8055,10 @@ segment.03.Percussion.Voice.XLII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XLII measure 44 / measure 12]
+    % [Percussion.Voice.42 measure 44 / measure 12]
     c'2
 
-    % [Percussion_Voice_XLII measure 45 / measure 13]
+    % [Percussion.Voice.42 measure 45 / measure 13]
     c'8
     [
 
@@ -8072,7 +8072,7 @@ segment.03.Percussion.Voice.XLII.part.1 = {
     \times 4/5
     {
 
-        % [Percussion_Voice_XLII measure 46 / measure 14]
+        % [Percussion.Voice.42 measure 46 / measure 14]
         c'8
         [
 
@@ -8090,7 +8090,7 @@ segment.03.Percussion.Voice.XLII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XLII measure 47 / measure 15]
+        % [Percussion.Voice.42 measure 47 / measure 15]
         c'8
         [
 
@@ -8110,7 +8110,7 @@ segment.03.Percussion.Voice.XLII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XLII measure 48 / measure 16]
+        % [Percussion.Voice.42 measure 48 / measure 16]
         c'4
 
         c'4
@@ -8122,26 +8122,26 @@ segment.03.Percussion.Voice.XLII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XLII = {
+segment.03.Percussion.Voice.42 = {
 
-    { \segment.03.Percussion.Voice.XLII.part.1 }
+    { \segment.03.Percussion.Voice.42.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLII"
+        \context Voice = "Percussion.Voice.42"
         {
 
-            % [Percussion_Voice_XLII measure 49 / measure 17]
+            % [Percussion.Voice.42 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLII"
+        \context Voice = "Percussion.Rest_Voice.42"
         {
 
-            % [Percussion_Rest_Voice_XLII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.42 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -8156,17 +8156,17 @@ segment.03.Percussion.Voice.XLII = {
 }
 
 
-segment.03.Staff.XLII = {
+segment.03.Staff.42 = {
 
-    \context Voice = "Percussion_Voice_XLII"
-    { \segment.03.Percussion.Voice.XLII }
+    \context Voice = "Percussion.Voice.42"
+    { \segment.03.Percussion.Voice.42 }
 
 }
 
 
-segment.03.Percussion.Voice.XLIII.part.1 = {
+segment.03.Percussion.Voice.43.part.1 = {
 
-    % [Percussion_Voice_XLIII measure 33 / measure 1]
+    % [Percussion.Voice.43 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 43
     \set Staff.instrumentName = \markup \hcenter-in #8 43
     \clef "percussion"
@@ -8180,40 +8180,40 @@ segment.03.Percussion.Voice.XLIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 43
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLIII measure 34 / measure 2]
+    % [Percussion.Voice.43 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLIII measure 35 / measure 3]
+    % [Percussion.Voice.43 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLIII measure 36 / measure 4]
+    % [Percussion.Voice.43 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLIII measure 37 / measure 5]
+    % [Percussion.Voice.43 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLIII measure 38 / measure 6]
+    % [Percussion.Voice.43 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLIII measure 39 / measure 7]
+    % [Percussion.Voice.43 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLIII measure 40 / measure 8]
+    % [Percussion.Voice.43 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLIII measure 41 / measure 9]
+    % [Percussion.Voice.43 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XLIII measure 42 / measure 10]
+    % [Percussion.Voice.43 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XLIII measure 43 / measure 11]
+    % [Percussion.Voice.43 measure 43 / measure 11]
     c'2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XLIII measure 44 / measure 12]
+        % [Percussion.Voice.43 measure 44 / measure 12]
         c'4
 
         c'4
@@ -8222,7 +8222,7 @@ segment.03.Percussion.Voice.XLIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XLIII measure 45 / measure 13]
+    % [Percussion.Voice.43 measure 45 / measure 13]
     c'4
 
     c'4
@@ -8230,7 +8230,7 @@ segment.03.Percussion.Voice.XLIII.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XLIII measure 46 / measure 14]
+        % [Percussion.Voice.43 measure 46 / measure 14]
         c'8
         [
 
@@ -8247,13 +8247,13 @@ segment.03.Percussion.Voice.XLIII.part.1 = {
 
     }
 
-    % [Percussion_Voice_XLIII measure 47 / measure 15]
+    % [Percussion.Voice.43 measure 47 / measure 15]
     c'2
 
     \times 2/3
     {
 
-        % [Percussion_Voice_XLIII measure 48 / measure 16]
+        % [Percussion.Voice.43 measure 48 / measure 16]
         c'4
 
         c'4
@@ -8265,26 +8265,26 @@ segment.03.Percussion.Voice.XLIII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XLIII = {
+segment.03.Percussion.Voice.43 = {
 
-    { \segment.03.Percussion.Voice.XLIII.part.1 }
+    { \segment.03.Percussion.Voice.43.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLIII"
+        \context Voice = "Percussion.Voice.43"
         {
 
-            % [Percussion_Voice_XLIII measure 49 / measure 17]
+            % [Percussion.Voice.43 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLIII"
+        \context Voice = "Percussion.Rest_Voice.43"
         {
 
-            % [Percussion_Rest_Voice_XLIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.43 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -8299,17 +8299,17 @@ segment.03.Percussion.Voice.XLIII = {
 }
 
 
-segment.03.Staff.XLIII = {
+segment.03.Staff.43 = {
 
-    \context Voice = "Percussion_Voice_XLIII"
-    { \segment.03.Percussion.Voice.XLIII }
+    \context Voice = "Percussion.Voice.43"
+    { \segment.03.Percussion.Voice.43 }
 
 }
 
 
-segment.03.Percussion.Voice.XLIV.part.1 = {
+segment.03.Percussion.Voice.44.part.1 = {
 
-    % [Percussion_Voice_XLIV measure 33 / measure 1]
+    % [Percussion.Voice.44 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 44
     \set Staff.instrumentName = \markup \hcenter-in #8 44
     \clef "percussion"
@@ -8323,40 +8323,40 @@ segment.03.Percussion.Voice.XLIV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 44
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLIV measure 34 / measure 2]
+    % [Percussion.Voice.44 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLIV measure 35 / measure 3]
+    % [Percussion.Voice.44 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLIV measure 36 / measure 4]
+    % [Percussion.Voice.44 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLIV measure 37 / measure 5]
+    % [Percussion.Voice.44 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLIV measure 38 / measure 6]
+    % [Percussion.Voice.44 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLIV measure 39 / measure 7]
+    % [Percussion.Voice.44 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLIV measure 40 / measure 8]
+    % [Percussion.Voice.44 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLIV measure 41 / measure 9]
+    % [Percussion.Voice.44 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XLIV measure 42 / measure 10]
+    % [Percussion.Voice.44 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XLIV measure 43 / measure 11]
+    % [Percussion.Voice.44 measure 43 / measure 11]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XLIV measure 44 / measure 12]
+        % [Percussion.Voice.44 measure 44 / measure 12]
         c'8
         [
 
@@ -8375,7 +8375,7 @@ segment.03.Percussion.Voice.XLIV.part.1 = {
 
     }
 
-    % [Percussion_Voice_XLIV measure 45 / measure 13]
+    % [Percussion.Voice.44 measure 45 / measure 13]
     c'8
     [
 
@@ -8386,12 +8386,12 @@ segment.03.Percussion.Voice.XLIV.part.1 = {
     c'8
     ]
 
-    % [Percussion_Voice_XLIV measure 46 / measure 14]
+    % [Percussion.Voice.44 measure 46 / measure 14]
     c'4
 
     c'4
 
-    % [Percussion_Voice_XLIV measure 47 / measure 15]
+    % [Percussion.Voice.44 measure 47 / measure 15]
     c'8
     [
 
@@ -8405,7 +8405,7 @@ segment.03.Percussion.Voice.XLIV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XLIV measure 48 / measure 16]
+        % [Percussion.Voice.44 measure 48 / measure 16]
         c'4
 
         c'4
@@ -8417,26 +8417,26 @@ segment.03.Percussion.Voice.XLIV.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XLIV = {
+segment.03.Percussion.Voice.44 = {
 
-    { \segment.03.Percussion.Voice.XLIV.part.1 }
+    { \segment.03.Percussion.Voice.44.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLIV"
+        \context Voice = "Percussion.Voice.44"
         {
 
-            % [Percussion_Voice_XLIV measure 49 / measure 17]
+            % [Percussion.Voice.44 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLIV"
+        \context Voice = "Percussion.Rest_Voice.44"
         {
 
-            % [Percussion_Rest_Voice_XLIV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.44 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -8451,17 +8451,17 @@ segment.03.Percussion.Voice.XLIV = {
 }
 
 
-segment.03.Staff.XLIV = {
+segment.03.Staff.44 = {
 
-    \context Voice = "Percussion_Voice_XLIV"
-    { \segment.03.Percussion.Voice.XLIV }
+    \context Voice = "Percussion.Voice.44"
+    { \segment.03.Percussion.Voice.44 }
 
 }
 
 
-segment.03.Percussion.Voice.XLV.part.1 = {
+segment.03.Percussion.Voice.45.part.1 = {
 
-    % [Percussion_Voice_XLV measure 33 / measure 1]
+    % [Percussion.Voice.45 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 45
     \set Staff.instrumentName = \markup \hcenter-in #8 45
     \clef "percussion"
@@ -8475,46 +8475,46 @@ segment.03.Percussion.Voice.XLV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 45
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLV measure 34 / measure 2]
+    % [Percussion.Voice.45 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLV measure 35 / measure 3]
+    % [Percussion.Voice.45 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLV measure 36 / measure 4]
+    % [Percussion.Voice.45 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLV measure 37 / measure 5]
+    % [Percussion.Voice.45 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLV measure 38 / measure 6]
+    % [Percussion.Voice.45 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLV measure 39 / measure 7]
+    % [Percussion.Voice.45 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLV measure 40 / measure 8]
+    % [Percussion.Voice.45 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLV measure 41 / measure 9]
+    % [Percussion.Voice.45 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XLV measure 42 / measure 10]
+    % [Percussion.Voice.45 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XLV measure 43 / measure 11]
+    % [Percussion.Voice.45 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XLV measure 44 / measure 12]
+    % [Percussion.Voice.45 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XLV measure 45 / measure 13]
+    % [Percussion.Voice.45 measure 45 / measure 13]
     c'2
 
     \times 4/5
     {
 
-        % [Percussion_Voice_XLV measure 46 / measure 14]
+        % [Percussion.Voice.45 measure 46 / measure 14]
         c'8
         [
 
@@ -8532,7 +8532,7 @@ segment.03.Percussion.Voice.XLV.part.1 = {
     \times 2/3
     {
 
-        % [Percussion_Voice_XLV measure 47 / measure 15]
+        % [Percussion.Voice.45 measure 47 / measure 15]
         c'4
 
         c'4
@@ -8544,7 +8544,7 @@ segment.03.Percussion.Voice.XLV.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XLV measure 48 / measure 16]
+        % [Percussion.Voice.45 measure 48 / measure 16]
         c'8
         [
 
@@ -8566,26 +8566,26 @@ segment.03.Percussion.Voice.XLV.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XLV = {
+segment.03.Percussion.Voice.45 = {
 
-    { \segment.03.Percussion.Voice.XLV.part.1 }
+    { \segment.03.Percussion.Voice.45.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLV"
+        \context Voice = "Percussion.Voice.45"
         {
 
-            % [Percussion_Voice_XLV measure 49 / measure 17]
+            % [Percussion.Voice.45 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLV"
+        \context Voice = "Percussion.Rest_Voice.45"
         {
 
-            % [Percussion_Rest_Voice_XLV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.45 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -8600,17 +8600,17 @@ segment.03.Percussion.Voice.XLV = {
 }
 
 
-segment.03.Staff.XLV = {
+segment.03.Staff.45 = {
 
-    \context Voice = "Percussion_Voice_XLV"
-    { \segment.03.Percussion.Voice.XLV }
+    \context Voice = "Percussion.Voice.45"
+    { \segment.03.Percussion.Voice.45 }
 
 }
 
 
-segment.03.Percussion.Voice.XLVI.part.1 = {
+segment.03.Percussion.Voice.46.part.1 = {
 
-    % [Percussion_Voice_XLVI measure 33 / measure 1]
+    % [Percussion.Voice.46 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 46
     \set Staff.instrumentName = \markup \hcenter-in #8 46
     \clef "percussion"
@@ -8624,46 +8624,46 @@ segment.03.Percussion.Voice.XLVI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 46
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLVI measure 34 / measure 2]
+    % [Percussion.Voice.46 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLVI measure 35 / measure 3]
+    % [Percussion.Voice.46 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLVI measure 36 / measure 4]
+    % [Percussion.Voice.46 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLVI measure 37 / measure 5]
+    % [Percussion.Voice.46 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLVI measure 38 / measure 6]
+    % [Percussion.Voice.46 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLVI measure 39 / measure 7]
+    % [Percussion.Voice.46 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLVI measure 40 / measure 8]
+    % [Percussion.Voice.46 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLVI measure 41 / measure 9]
+    % [Percussion.Voice.46 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XLVI measure 42 / measure 10]
+    % [Percussion.Voice.46 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XLVI measure 43 / measure 11]
+    % [Percussion.Voice.46 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XLVI measure 44 / measure 12]
+    % [Percussion.Voice.46 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XLVI measure 45 / measure 13]
+    % [Percussion.Voice.46 measure 45 / measure 13]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XLVI measure 46 / measure 14]
+        % [Percussion.Voice.46 measure 46 / measure 14]
         c'8
         [
 
@@ -8682,7 +8682,7 @@ segment.03.Percussion.Voice.XLVI.part.1 = {
 
     }
 
-    % [Percussion_Voice_XLVI measure 47 / measure 15]
+    % [Percussion.Voice.46 measure 47 / measure 15]
     c'4
 
     c'4
@@ -8690,7 +8690,7 @@ segment.03.Percussion.Voice.XLVI.part.1 = {
     \times 4/7
     {
 
-        % [Percussion_Voice_XLVI measure 48 / measure 16]
+        % [Percussion.Voice.46 measure 48 / measure 16]
         c'8
         [
 
@@ -8712,26 +8712,26 @@ segment.03.Percussion.Voice.XLVI.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XLVI = {
+segment.03.Percussion.Voice.46 = {
 
-    { \segment.03.Percussion.Voice.XLVI.part.1 }
+    { \segment.03.Percussion.Voice.46.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLVI"
+        \context Voice = "Percussion.Voice.46"
         {
 
-            % [Percussion_Voice_XLVI measure 49 / measure 17]
+            % [Percussion.Voice.46 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLVI"
+        \context Voice = "Percussion.Rest_Voice.46"
         {
 
-            % [Percussion_Rest_Voice_XLVI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.46 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -8746,17 +8746,17 @@ segment.03.Percussion.Voice.XLVI = {
 }
 
 
-segment.03.Staff.XLVI = {
+segment.03.Staff.46 = {
 
-    \context Voice = "Percussion_Voice_XLVI"
-    { \segment.03.Percussion.Voice.XLVI }
+    \context Voice = "Percussion.Voice.46"
+    { \segment.03.Percussion.Voice.46 }
 
 }
 
 
-segment.03.Percussion.Voice.XLVII.part.1 = {
+segment.03.Percussion.Voice.47.part.1 = {
 
-    % [Percussion_Voice_XLVII measure 33 / measure 1]
+    % [Percussion.Voice.47 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 47
     \set Staff.instrumentName = \markup \hcenter-in #8 47
     \clef "percussion"
@@ -8770,52 +8770,52 @@ segment.03.Percussion.Voice.XLVII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 47
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLVII measure 34 / measure 2]
+    % [Percussion.Voice.47 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLVII measure 35 / measure 3]
+    % [Percussion.Voice.47 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLVII measure 36 / measure 4]
+    % [Percussion.Voice.47 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLVII measure 37 / measure 5]
+    % [Percussion.Voice.47 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLVII measure 38 / measure 6]
+    % [Percussion.Voice.47 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLVII measure 39 / measure 7]
+    % [Percussion.Voice.47 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLVII measure 40 / measure 8]
+    % [Percussion.Voice.47 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLVII measure 41 / measure 9]
+    % [Percussion.Voice.47 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XLVII measure 42 / measure 10]
+    % [Percussion.Voice.47 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XLVII measure 43 / measure 11]
+    % [Percussion.Voice.47 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XLVII measure 44 / measure 12]
+    % [Percussion.Voice.47 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XLVII measure 45 / measure 13]
+    % [Percussion.Voice.47 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XLVII measure 46 / measure 14]
+    % [Percussion.Voice.47 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_XLVII measure 47 / measure 15]
+    % [Percussion.Voice.47 measure 47 / measure 15]
     c'2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XLVII measure 48 / measure 16]
+        % [Percussion.Voice.47 measure 48 / measure 16]
         c'8
         [
 
@@ -8837,26 +8837,26 @@ segment.03.Percussion.Voice.XLVII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XLVII = {
+segment.03.Percussion.Voice.47 = {
 
-    { \segment.03.Percussion.Voice.XLVII.part.1 }
+    { \segment.03.Percussion.Voice.47.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLVII"
+        \context Voice = "Percussion.Voice.47"
         {
 
-            % [Percussion_Voice_XLVII measure 49 / measure 17]
+            % [Percussion.Voice.47 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLVII"
+        \context Voice = "Percussion.Rest_Voice.47"
         {
 
-            % [Percussion_Rest_Voice_XLVII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.47 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -8871,17 +8871,17 @@ segment.03.Percussion.Voice.XLVII = {
 }
 
 
-segment.03.Staff.XLVII = {
+segment.03.Staff.47 = {
 
-    \context Voice = "Percussion_Voice_XLVII"
-    { \segment.03.Percussion.Voice.XLVII }
+    \context Voice = "Percussion.Voice.47"
+    { \segment.03.Percussion.Voice.47 }
 
 }
 
 
-segment.03.Percussion.Voice.XLVIII.part.1 = {
+segment.03.Percussion.Voice.48.part.1 = {
 
-    % [Percussion_Voice_XLVIII measure 33 / measure 1]
+    % [Percussion.Voice.48 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 48
     \set Staff.instrumentName = \markup \hcenter-in #8 48
     \clef "percussion"
@@ -8895,52 +8895,52 @@ segment.03.Percussion.Voice.XLVIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 48
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLVIII measure 34 / measure 2]
+    % [Percussion.Voice.48 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLVIII measure 35 / measure 3]
+    % [Percussion.Voice.48 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLVIII measure 36 / measure 4]
+    % [Percussion.Voice.48 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLVIII measure 37 / measure 5]
+    % [Percussion.Voice.48 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLVIII measure 38 / measure 6]
+    % [Percussion.Voice.48 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLVIII measure 39 / measure 7]
+    % [Percussion.Voice.48 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLVIII measure 40 / measure 8]
+    % [Percussion.Voice.48 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLVIII measure 41 / measure 9]
+    % [Percussion.Voice.48 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XLVIII measure 42 / measure 10]
+    % [Percussion.Voice.48 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XLVIII measure 43 / measure 11]
+    % [Percussion.Voice.48 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XLVIII measure 44 / measure 12]
+    % [Percussion.Voice.48 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XLVIII measure 45 / measure 13]
+    % [Percussion.Voice.48 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XLVIII measure 46 / measure 14]
+    % [Percussion.Voice.48 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_XLVIII measure 47 / measure 15]
+    % [Percussion.Voice.48 measure 47 / measure 15]
     r2
 
     \times 4/7
     {
 
-        % [Percussion_Voice_XLVIII measure 48 / measure 16]
+        % [Percussion.Voice.48 measure 48 / measure 16]
         c'8
         [
 
@@ -8962,26 +8962,26 @@ segment.03.Percussion.Voice.XLVIII.part.1 = {
 }
 
 
-segment.03.Percussion.Voice.XLVIII = {
+segment.03.Percussion.Voice.48 = {
 
-    { \segment.03.Percussion.Voice.XLVIII.part.1 }
+    { \segment.03.Percussion.Voice.48.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLVIII"
+        \context Voice = "Percussion.Voice.48"
         {
 
-            % [Percussion_Voice_XLVIII measure 49 / measure 17]
+            % [Percussion.Voice.48 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLVIII"
+        \context Voice = "Percussion.Rest_Voice.48"
         {
 
-            % [Percussion_Rest_Voice_XLVIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.48 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -8996,17 +8996,17 @@ segment.03.Percussion.Voice.XLVIII = {
 }
 
 
-segment.03.Staff.XLVIII = {
+segment.03.Staff.48 = {
 
-    \context Voice = "Percussion_Voice_XLVIII"
-    { \segment.03.Percussion.Voice.XLVIII }
+    \context Voice = "Percussion.Voice.48"
+    { \segment.03.Percussion.Voice.48 }
 
 }
 
 
-segment.03.Percussion.Voice.XLIX.part.1 = {
+segment.03.Percussion.Voice.49.part.1 = {
 
-    % [Percussion_Voice_XLIX measure 33 / measure 1]
+    % [Percussion.Voice.49 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 49
     \set Staff.instrumentName = \markup \hcenter-in #8 49
     \clef "percussion"
@@ -9020,74 +9020,74 @@ segment.03.Percussion.Voice.XLIX.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 49
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_XLIX measure 34 / measure 2]
+    % [Percussion.Voice.49 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_XLIX measure 35 / measure 3]
+    % [Percussion.Voice.49 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_XLIX measure 36 / measure 4]
+    % [Percussion.Voice.49 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_XLIX measure 37 / measure 5]
+    % [Percussion.Voice.49 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_XLIX measure 38 / measure 6]
+    % [Percussion.Voice.49 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_XLIX measure 39 / measure 7]
+    % [Percussion.Voice.49 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_XLIX measure 40 / measure 8]
+    % [Percussion.Voice.49 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_XLIX measure 41 / measure 9]
+    % [Percussion.Voice.49 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_XLIX measure 42 / measure 10]
+    % [Percussion.Voice.49 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_XLIX measure 43 / measure 11]
+    % [Percussion.Voice.49 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_XLIX measure 44 / measure 12]
+    % [Percussion.Voice.49 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_XLIX measure 45 / measure 13]
+    % [Percussion.Voice.49 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_XLIX measure 46 / measure 14]
+    % [Percussion.Voice.49 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_XLIX measure 47 / measure 15]
+    % [Percussion.Voice.49 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_XLIX measure 48 / measure 16]
+    % [Percussion.Voice.49 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.XLIX = {
+segment.03.Percussion.Voice.49 = {
 
-    { \segment.03.Percussion.Voice.XLIX.part.1 }
+    { \segment.03.Percussion.Voice.49.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_XLIX"
+        \context Voice = "Percussion.Voice.49"
         {
 
-            % [Percussion_Voice_XLIX measure 49 / measure 17]
+            % [Percussion.Voice.49 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_XLIX"
+        \context Voice = "Percussion.Rest_Voice.49"
         {
 
-            % [Percussion_Rest_Voice_XLIX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.49 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9102,17 +9102,17 @@ segment.03.Percussion.Voice.XLIX = {
 }
 
 
-segment.03.Staff.XLIX = {
+segment.03.Staff.49 = {
 
-    \context Voice = "Percussion_Voice_XLIX"
-    { \segment.03.Percussion.Voice.XLIX }
+    \context Voice = "Percussion.Voice.49"
+    { \segment.03.Percussion.Voice.49 }
 
 }
 
 
-segment.03.Percussion.Voice.L.part.1 = {
+segment.03.Percussion.Voice.50.part.1 = {
 
-    % [Percussion_Voice_L measure 33 / measure 1]
+    % [Percussion.Voice.50 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 50
     \set Staff.instrumentName = \markup \hcenter-in #8 50
     \clef "percussion"
@@ -9126,74 +9126,74 @@ segment.03.Percussion.Voice.L.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 50
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_L measure 34 / measure 2]
+    % [Percussion.Voice.50 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_L measure 35 / measure 3]
+    % [Percussion.Voice.50 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_L measure 36 / measure 4]
+    % [Percussion.Voice.50 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_L measure 37 / measure 5]
+    % [Percussion.Voice.50 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_L measure 38 / measure 6]
+    % [Percussion.Voice.50 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_L measure 39 / measure 7]
+    % [Percussion.Voice.50 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_L measure 40 / measure 8]
+    % [Percussion.Voice.50 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_L measure 41 / measure 9]
+    % [Percussion.Voice.50 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_L measure 42 / measure 10]
+    % [Percussion.Voice.50 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_L measure 43 / measure 11]
+    % [Percussion.Voice.50 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_L measure 44 / measure 12]
+    % [Percussion.Voice.50 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_L measure 45 / measure 13]
+    % [Percussion.Voice.50 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_L measure 46 / measure 14]
+    % [Percussion.Voice.50 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_L measure 47 / measure 15]
+    % [Percussion.Voice.50 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_L measure 48 / measure 16]
+    % [Percussion.Voice.50 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.L = {
+segment.03.Percussion.Voice.50 = {
 
-    { \segment.03.Percussion.Voice.L.part.1 }
+    { \segment.03.Percussion.Voice.50.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_L"
+        \context Voice = "Percussion.Voice.50"
         {
 
-            % [Percussion_Voice_L measure 49 / measure 17]
+            % [Percussion.Voice.50 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_L"
+        \context Voice = "Percussion.Rest_Voice.50"
         {
 
-            % [Percussion_Rest_Voice_L measure 49 / measure 17]
+            % [Percussion.Rest_Voice.50 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9208,17 +9208,17 @@ segment.03.Percussion.Voice.L = {
 }
 
 
-segment.03.Staff.L = {
+segment.03.Staff.50 = {
 
-    \context Voice = "Percussion_Voice_L"
-    { \segment.03.Percussion.Voice.L }
+    \context Voice = "Percussion.Voice.50"
+    { \segment.03.Percussion.Voice.50 }
 
 }
 
 
-segment.03.Percussion.Voice.LI.part.1 = {
+segment.03.Percussion.Voice.51.part.1 = {
 
-    % [Percussion_Voice_LI measure 33 / measure 1]
+    % [Percussion.Voice.51 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 51
     \set Staff.instrumentName = \markup \hcenter-in #8 51
     \clef "percussion"
@@ -9232,74 +9232,74 @@ segment.03.Percussion.Voice.LI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 51
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LI measure 34 / measure 2]
+    % [Percussion.Voice.51 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LI measure 35 / measure 3]
+    % [Percussion.Voice.51 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LI measure 36 / measure 4]
+    % [Percussion.Voice.51 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LI measure 37 / measure 5]
+    % [Percussion.Voice.51 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LI measure 38 / measure 6]
+    % [Percussion.Voice.51 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LI measure 39 / measure 7]
+    % [Percussion.Voice.51 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LI measure 40 / measure 8]
+    % [Percussion.Voice.51 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LI measure 41 / measure 9]
+    % [Percussion.Voice.51 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LI measure 42 / measure 10]
+    % [Percussion.Voice.51 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LI measure 43 / measure 11]
+    % [Percussion.Voice.51 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LI measure 44 / measure 12]
+    % [Percussion.Voice.51 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LI measure 45 / measure 13]
+    % [Percussion.Voice.51 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LI measure 46 / measure 14]
+    % [Percussion.Voice.51 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LI measure 47 / measure 15]
+    % [Percussion.Voice.51 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LI measure 48 / measure 16]
+    % [Percussion.Voice.51 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LI = {
+segment.03.Percussion.Voice.51 = {
 
-    { \segment.03.Percussion.Voice.LI.part.1 }
+    { \segment.03.Percussion.Voice.51.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LI"
+        \context Voice = "Percussion.Voice.51"
         {
 
-            % [Percussion_Voice_LI measure 49 / measure 17]
+            % [Percussion.Voice.51 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LI"
+        \context Voice = "Percussion.Rest_Voice.51"
         {
 
-            % [Percussion_Rest_Voice_LI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.51 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9314,17 +9314,17 @@ segment.03.Percussion.Voice.LI = {
 }
 
 
-segment.03.Staff.LI = {
+segment.03.Staff.51 = {
 
-    \context Voice = "Percussion_Voice_LI"
-    { \segment.03.Percussion.Voice.LI }
+    \context Voice = "Percussion.Voice.51"
+    { \segment.03.Percussion.Voice.51 }
 
 }
 
 
-segment.03.Percussion.Voice.LII.part.1 = {
+segment.03.Percussion.Voice.52.part.1 = {
 
-    % [Percussion_Voice_LII measure 33 / measure 1]
+    % [Percussion.Voice.52 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 52
     \set Staff.instrumentName = \markup \hcenter-in #8 52
     \clef "percussion"
@@ -9338,74 +9338,74 @@ segment.03.Percussion.Voice.LII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 52
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LII measure 34 / measure 2]
+    % [Percussion.Voice.52 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LII measure 35 / measure 3]
+    % [Percussion.Voice.52 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LII measure 36 / measure 4]
+    % [Percussion.Voice.52 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LII measure 37 / measure 5]
+    % [Percussion.Voice.52 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LII measure 38 / measure 6]
+    % [Percussion.Voice.52 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LII measure 39 / measure 7]
+    % [Percussion.Voice.52 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LII measure 40 / measure 8]
+    % [Percussion.Voice.52 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LII measure 41 / measure 9]
+    % [Percussion.Voice.52 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LII measure 42 / measure 10]
+    % [Percussion.Voice.52 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LII measure 43 / measure 11]
+    % [Percussion.Voice.52 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LII measure 44 / measure 12]
+    % [Percussion.Voice.52 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LII measure 45 / measure 13]
+    % [Percussion.Voice.52 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LII measure 46 / measure 14]
+    % [Percussion.Voice.52 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LII measure 47 / measure 15]
+    % [Percussion.Voice.52 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LII measure 48 / measure 16]
+    % [Percussion.Voice.52 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LII = {
+segment.03.Percussion.Voice.52 = {
 
-    { \segment.03.Percussion.Voice.LII.part.1 }
+    { \segment.03.Percussion.Voice.52.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LII"
+        \context Voice = "Percussion.Voice.52"
         {
 
-            % [Percussion_Voice_LII measure 49 / measure 17]
+            % [Percussion.Voice.52 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LII"
+        \context Voice = "Percussion.Rest_Voice.52"
         {
 
-            % [Percussion_Rest_Voice_LII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.52 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9420,17 +9420,17 @@ segment.03.Percussion.Voice.LII = {
 }
 
 
-segment.03.Staff.LII = {
+segment.03.Staff.52 = {
 
-    \context Voice = "Percussion_Voice_LII"
-    { \segment.03.Percussion.Voice.LII }
+    \context Voice = "Percussion.Voice.52"
+    { \segment.03.Percussion.Voice.52 }
 
 }
 
 
-segment.03.Percussion.Voice.LIII.part.1 = {
+segment.03.Percussion.Voice.53.part.1 = {
 
-    % [Percussion_Voice_LIII measure 33 / measure 1]
+    % [Percussion.Voice.53 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 53
     \set Staff.instrumentName = \markup \hcenter-in #8 53
     \clef "percussion"
@@ -9444,74 +9444,74 @@ segment.03.Percussion.Voice.LIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 53
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LIII measure 34 / measure 2]
+    % [Percussion.Voice.53 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LIII measure 35 / measure 3]
+    % [Percussion.Voice.53 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LIII measure 36 / measure 4]
+    % [Percussion.Voice.53 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LIII measure 37 / measure 5]
+    % [Percussion.Voice.53 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LIII measure 38 / measure 6]
+    % [Percussion.Voice.53 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LIII measure 39 / measure 7]
+    % [Percussion.Voice.53 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LIII measure 40 / measure 8]
+    % [Percussion.Voice.53 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LIII measure 41 / measure 9]
+    % [Percussion.Voice.53 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LIII measure 42 / measure 10]
+    % [Percussion.Voice.53 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LIII measure 43 / measure 11]
+    % [Percussion.Voice.53 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LIII measure 44 / measure 12]
+    % [Percussion.Voice.53 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LIII measure 45 / measure 13]
+    % [Percussion.Voice.53 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LIII measure 46 / measure 14]
+    % [Percussion.Voice.53 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LIII measure 47 / measure 15]
+    % [Percussion.Voice.53 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LIII measure 48 / measure 16]
+    % [Percussion.Voice.53 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LIII = {
+segment.03.Percussion.Voice.53 = {
 
-    { \segment.03.Percussion.Voice.LIII.part.1 }
+    { \segment.03.Percussion.Voice.53.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LIII"
+        \context Voice = "Percussion.Voice.53"
         {
 
-            % [Percussion_Voice_LIII measure 49 / measure 17]
+            % [Percussion.Voice.53 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LIII"
+        \context Voice = "Percussion.Rest_Voice.53"
         {
 
-            % [Percussion_Rest_Voice_LIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.53 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9526,17 +9526,17 @@ segment.03.Percussion.Voice.LIII = {
 }
 
 
-segment.03.Staff.LIII = {
+segment.03.Staff.53 = {
 
-    \context Voice = "Percussion_Voice_LIII"
-    { \segment.03.Percussion.Voice.LIII }
+    \context Voice = "Percussion.Voice.53"
+    { \segment.03.Percussion.Voice.53 }
 
 }
 
 
-segment.03.Percussion.Voice.LIV.part.1 = {
+segment.03.Percussion.Voice.54.part.1 = {
 
-    % [Percussion_Voice_LIV measure 33 / measure 1]
+    % [Percussion.Voice.54 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 54
     \set Staff.instrumentName = \markup \hcenter-in #8 54
     \clef "percussion"
@@ -9550,74 +9550,74 @@ segment.03.Percussion.Voice.LIV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 54
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LIV measure 34 / measure 2]
+    % [Percussion.Voice.54 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LIV measure 35 / measure 3]
+    % [Percussion.Voice.54 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LIV measure 36 / measure 4]
+    % [Percussion.Voice.54 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LIV measure 37 / measure 5]
+    % [Percussion.Voice.54 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LIV measure 38 / measure 6]
+    % [Percussion.Voice.54 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LIV measure 39 / measure 7]
+    % [Percussion.Voice.54 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LIV measure 40 / measure 8]
+    % [Percussion.Voice.54 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LIV measure 41 / measure 9]
+    % [Percussion.Voice.54 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LIV measure 42 / measure 10]
+    % [Percussion.Voice.54 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LIV measure 43 / measure 11]
+    % [Percussion.Voice.54 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LIV measure 44 / measure 12]
+    % [Percussion.Voice.54 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LIV measure 45 / measure 13]
+    % [Percussion.Voice.54 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LIV measure 46 / measure 14]
+    % [Percussion.Voice.54 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LIV measure 47 / measure 15]
+    % [Percussion.Voice.54 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LIV measure 48 / measure 16]
+    % [Percussion.Voice.54 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LIV = {
+segment.03.Percussion.Voice.54 = {
 
-    { \segment.03.Percussion.Voice.LIV.part.1 }
+    { \segment.03.Percussion.Voice.54.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LIV"
+        \context Voice = "Percussion.Voice.54"
         {
 
-            % [Percussion_Voice_LIV measure 49 / measure 17]
+            % [Percussion.Voice.54 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LIV"
+        \context Voice = "Percussion.Rest_Voice.54"
         {
 
-            % [Percussion_Rest_Voice_LIV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.54 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9632,17 +9632,17 @@ segment.03.Percussion.Voice.LIV = {
 }
 
 
-segment.03.Staff.LIV = {
+segment.03.Staff.54 = {
 
-    \context Voice = "Percussion_Voice_LIV"
-    { \segment.03.Percussion.Voice.LIV }
+    \context Voice = "Percussion.Voice.54"
+    { \segment.03.Percussion.Voice.54 }
 
 }
 
 
-segment.03.Percussion.Voice.LV.part.1 = {
+segment.03.Percussion.Voice.55.part.1 = {
 
-    % [Percussion_Voice_LV measure 33 / measure 1]
+    % [Percussion.Voice.55 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 55
     \set Staff.instrumentName = \markup \hcenter-in #8 55
     \clef "percussion"
@@ -9656,74 +9656,74 @@ segment.03.Percussion.Voice.LV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 55
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LV measure 34 / measure 2]
+    % [Percussion.Voice.55 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LV measure 35 / measure 3]
+    % [Percussion.Voice.55 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LV measure 36 / measure 4]
+    % [Percussion.Voice.55 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LV measure 37 / measure 5]
+    % [Percussion.Voice.55 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LV measure 38 / measure 6]
+    % [Percussion.Voice.55 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LV measure 39 / measure 7]
+    % [Percussion.Voice.55 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LV measure 40 / measure 8]
+    % [Percussion.Voice.55 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LV measure 41 / measure 9]
+    % [Percussion.Voice.55 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LV measure 42 / measure 10]
+    % [Percussion.Voice.55 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LV measure 43 / measure 11]
+    % [Percussion.Voice.55 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LV measure 44 / measure 12]
+    % [Percussion.Voice.55 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LV measure 45 / measure 13]
+    % [Percussion.Voice.55 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LV measure 46 / measure 14]
+    % [Percussion.Voice.55 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LV measure 47 / measure 15]
+    % [Percussion.Voice.55 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LV measure 48 / measure 16]
+    % [Percussion.Voice.55 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LV = {
+segment.03.Percussion.Voice.55 = {
 
-    { \segment.03.Percussion.Voice.LV.part.1 }
+    { \segment.03.Percussion.Voice.55.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LV"
+        \context Voice = "Percussion.Voice.55"
         {
 
-            % [Percussion_Voice_LV measure 49 / measure 17]
+            % [Percussion.Voice.55 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LV"
+        \context Voice = "Percussion.Rest_Voice.55"
         {
 
-            % [Percussion_Rest_Voice_LV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.55 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9738,17 +9738,17 @@ segment.03.Percussion.Voice.LV = {
 }
 
 
-segment.03.Staff.LV = {
+segment.03.Staff.55 = {
 
-    \context Voice = "Percussion_Voice_LV"
-    { \segment.03.Percussion.Voice.LV }
+    \context Voice = "Percussion.Voice.55"
+    { \segment.03.Percussion.Voice.55 }
 
 }
 
 
-segment.03.Percussion.Voice.LVI.part.1 = {
+segment.03.Percussion.Voice.56.part.1 = {
 
-    % [Percussion_Voice_LVI measure 33 / measure 1]
+    % [Percussion.Voice.56 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 56
     \set Staff.instrumentName = \markup \hcenter-in #8 56
     \clef "percussion"
@@ -9762,74 +9762,74 @@ segment.03.Percussion.Voice.LVI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 56
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LVI measure 34 / measure 2]
+    % [Percussion.Voice.56 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LVI measure 35 / measure 3]
+    % [Percussion.Voice.56 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LVI measure 36 / measure 4]
+    % [Percussion.Voice.56 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LVI measure 37 / measure 5]
+    % [Percussion.Voice.56 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LVI measure 38 / measure 6]
+    % [Percussion.Voice.56 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LVI measure 39 / measure 7]
+    % [Percussion.Voice.56 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LVI measure 40 / measure 8]
+    % [Percussion.Voice.56 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LVI measure 41 / measure 9]
+    % [Percussion.Voice.56 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LVI measure 42 / measure 10]
+    % [Percussion.Voice.56 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LVI measure 43 / measure 11]
+    % [Percussion.Voice.56 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LVI measure 44 / measure 12]
+    % [Percussion.Voice.56 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LVI measure 45 / measure 13]
+    % [Percussion.Voice.56 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LVI measure 46 / measure 14]
+    % [Percussion.Voice.56 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LVI measure 47 / measure 15]
+    % [Percussion.Voice.56 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LVI measure 48 / measure 16]
+    % [Percussion.Voice.56 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LVI = {
+segment.03.Percussion.Voice.56 = {
 
-    { \segment.03.Percussion.Voice.LVI.part.1 }
+    { \segment.03.Percussion.Voice.56.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LVI"
+        \context Voice = "Percussion.Voice.56"
         {
 
-            % [Percussion_Voice_LVI measure 49 / measure 17]
+            % [Percussion.Voice.56 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LVI"
+        \context Voice = "Percussion.Rest_Voice.56"
         {
 
-            % [Percussion_Rest_Voice_LVI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.56 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9844,17 +9844,17 @@ segment.03.Percussion.Voice.LVI = {
 }
 
 
-segment.03.Staff.LVI = {
+segment.03.Staff.56 = {
 
-    \context Voice = "Percussion_Voice_LVI"
-    { \segment.03.Percussion.Voice.LVI }
+    \context Voice = "Percussion.Voice.56"
+    { \segment.03.Percussion.Voice.56 }
 
 }
 
 
-segment.03.Percussion.Voice.LVII.part.1 = {
+segment.03.Percussion.Voice.57.part.1 = {
 
-    % [Percussion_Voice_LVII measure 33 / measure 1]
+    % [Percussion.Voice.57 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 57
     \set Staff.instrumentName = \markup \hcenter-in #8 57
     \clef "percussion"
@@ -9868,74 +9868,74 @@ segment.03.Percussion.Voice.LVII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 57
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LVII measure 34 / measure 2]
+    % [Percussion.Voice.57 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LVII measure 35 / measure 3]
+    % [Percussion.Voice.57 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LVII measure 36 / measure 4]
+    % [Percussion.Voice.57 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LVII measure 37 / measure 5]
+    % [Percussion.Voice.57 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LVII measure 38 / measure 6]
+    % [Percussion.Voice.57 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LVII measure 39 / measure 7]
+    % [Percussion.Voice.57 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LVII measure 40 / measure 8]
+    % [Percussion.Voice.57 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LVII measure 41 / measure 9]
+    % [Percussion.Voice.57 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LVII measure 42 / measure 10]
+    % [Percussion.Voice.57 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LVII measure 43 / measure 11]
+    % [Percussion.Voice.57 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LVII measure 44 / measure 12]
+    % [Percussion.Voice.57 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LVII measure 45 / measure 13]
+    % [Percussion.Voice.57 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LVII measure 46 / measure 14]
+    % [Percussion.Voice.57 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LVII measure 47 / measure 15]
+    % [Percussion.Voice.57 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LVII measure 48 / measure 16]
+    % [Percussion.Voice.57 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LVII = {
+segment.03.Percussion.Voice.57 = {
 
-    { \segment.03.Percussion.Voice.LVII.part.1 }
+    { \segment.03.Percussion.Voice.57.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LVII"
+        \context Voice = "Percussion.Voice.57"
         {
 
-            % [Percussion_Voice_LVII measure 49 / measure 17]
+            % [Percussion.Voice.57 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LVII"
+        \context Voice = "Percussion.Rest_Voice.57"
         {
 
-            % [Percussion_Rest_Voice_LVII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.57 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -9950,17 +9950,17 @@ segment.03.Percussion.Voice.LVII = {
 }
 
 
-segment.03.Staff.LVII = {
+segment.03.Staff.57 = {
 
-    \context Voice = "Percussion_Voice_LVII"
-    { \segment.03.Percussion.Voice.LVII }
+    \context Voice = "Percussion.Voice.57"
+    { \segment.03.Percussion.Voice.57 }
 
 }
 
 
-segment.03.Percussion.Voice.LVIII.part.1 = {
+segment.03.Percussion.Voice.58.part.1 = {
 
-    % [Percussion_Voice_LVIII measure 33 / measure 1]
+    % [Percussion.Voice.58 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 58
     \set Staff.instrumentName = \markup \hcenter-in #8 58
     \clef "percussion"
@@ -9974,74 +9974,74 @@ segment.03.Percussion.Voice.LVIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 58
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LVIII measure 34 / measure 2]
+    % [Percussion.Voice.58 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LVIII measure 35 / measure 3]
+    % [Percussion.Voice.58 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LVIII measure 36 / measure 4]
+    % [Percussion.Voice.58 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LVIII measure 37 / measure 5]
+    % [Percussion.Voice.58 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LVIII measure 38 / measure 6]
+    % [Percussion.Voice.58 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LVIII measure 39 / measure 7]
+    % [Percussion.Voice.58 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LVIII measure 40 / measure 8]
+    % [Percussion.Voice.58 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LVIII measure 41 / measure 9]
+    % [Percussion.Voice.58 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LVIII measure 42 / measure 10]
+    % [Percussion.Voice.58 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LVIII measure 43 / measure 11]
+    % [Percussion.Voice.58 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LVIII measure 44 / measure 12]
+    % [Percussion.Voice.58 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LVIII measure 45 / measure 13]
+    % [Percussion.Voice.58 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LVIII measure 46 / measure 14]
+    % [Percussion.Voice.58 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LVIII measure 47 / measure 15]
+    % [Percussion.Voice.58 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LVIII measure 48 / measure 16]
+    % [Percussion.Voice.58 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LVIII = {
+segment.03.Percussion.Voice.58 = {
 
-    { \segment.03.Percussion.Voice.LVIII.part.1 }
+    { \segment.03.Percussion.Voice.58.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LVIII"
+        \context Voice = "Percussion.Voice.58"
         {
 
-            % [Percussion_Voice_LVIII measure 49 / measure 17]
+            % [Percussion.Voice.58 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LVIII"
+        \context Voice = "Percussion.Rest_Voice.58"
         {
 
-            % [Percussion_Rest_Voice_LVIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.58 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -10056,17 +10056,17 @@ segment.03.Percussion.Voice.LVIII = {
 }
 
 
-segment.03.Staff.LVIII = {
+segment.03.Staff.58 = {
 
-    \context Voice = "Percussion_Voice_LVIII"
-    { \segment.03.Percussion.Voice.LVIII }
+    \context Voice = "Percussion.Voice.58"
+    { \segment.03.Percussion.Voice.58 }
 
 }
 
 
-segment.03.Percussion.Voice.LIX.part.1 = {
+segment.03.Percussion.Voice.59.part.1 = {
 
-    % [Percussion_Voice_LIX measure 33 / measure 1]
+    % [Percussion.Voice.59 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 59
     \set Staff.instrumentName = \markup \hcenter-in #8 59
     \clef "percussion"
@@ -10080,74 +10080,74 @@ segment.03.Percussion.Voice.LIX.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 59
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LIX measure 34 / measure 2]
+    % [Percussion.Voice.59 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LIX measure 35 / measure 3]
+    % [Percussion.Voice.59 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LIX measure 36 / measure 4]
+    % [Percussion.Voice.59 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LIX measure 37 / measure 5]
+    % [Percussion.Voice.59 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LIX measure 38 / measure 6]
+    % [Percussion.Voice.59 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LIX measure 39 / measure 7]
+    % [Percussion.Voice.59 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LIX measure 40 / measure 8]
+    % [Percussion.Voice.59 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LIX measure 41 / measure 9]
+    % [Percussion.Voice.59 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LIX measure 42 / measure 10]
+    % [Percussion.Voice.59 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LIX measure 43 / measure 11]
+    % [Percussion.Voice.59 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LIX measure 44 / measure 12]
+    % [Percussion.Voice.59 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LIX measure 45 / measure 13]
+    % [Percussion.Voice.59 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LIX measure 46 / measure 14]
+    % [Percussion.Voice.59 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LIX measure 47 / measure 15]
+    % [Percussion.Voice.59 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LIX measure 48 / measure 16]
+    % [Percussion.Voice.59 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LIX = {
+segment.03.Percussion.Voice.59 = {
 
-    { \segment.03.Percussion.Voice.LIX.part.1 }
+    { \segment.03.Percussion.Voice.59.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LIX"
+        \context Voice = "Percussion.Voice.59"
         {
 
-            % [Percussion_Voice_LIX measure 49 / measure 17]
+            % [Percussion.Voice.59 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LIX"
+        \context Voice = "Percussion.Rest_Voice.59"
         {
 
-            % [Percussion_Rest_Voice_LIX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.59 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -10162,17 +10162,17 @@ segment.03.Percussion.Voice.LIX = {
 }
 
 
-segment.03.Staff.LIX = {
+segment.03.Staff.59 = {
 
-    \context Voice = "Percussion_Voice_LIX"
-    { \segment.03.Percussion.Voice.LIX }
+    \context Voice = "Percussion.Voice.59"
+    { \segment.03.Percussion.Voice.59 }
 
 }
 
 
-segment.03.Percussion.Voice.LX.part.1 = {
+segment.03.Percussion.Voice.60.part.1 = {
 
-    % [Percussion_Voice_LX measure 33 / measure 1]
+    % [Percussion.Voice.60 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 60
     \set Staff.instrumentName = \markup \hcenter-in #8 60
     \clef "percussion"
@@ -10186,74 +10186,74 @@ segment.03.Percussion.Voice.LX.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 60
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LX measure 34 / measure 2]
+    % [Percussion.Voice.60 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LX measure 35 / measure 3]
+    % [Percussion.Voice.60 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LX measure 36 / measure 4]
+    % [Percussion.Voice.60 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LX measure 37 / measure 5]
+    % [Percussion.Voice.60 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LX measure 38 / measure 6]
+    % [Percussion.Voice.60 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LX measure 39 / measure 7]
+    % [Percussion.Voice.60 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LX measure 40 / measure 8]
+    % [Percussion.Voice.60 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LX measure 41 / measure 9]
+    % [Percussion.Voice.60 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LX measure 42 / measure 10]
+    % [Percussion.Voice.60 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LX measure 43 / measure 11]
+    % [Percussion.Voice.60 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LX measure 44 / measure 12]
+    % [Percussion.Voice.60 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LX measure 45 / measure 13]
+    % [Percussion.Voice.60 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LX measure 46 / measure 14]
+    % [Percussion.Voice.60 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LX measure 47 / measure 15]
+    % [Percussion.Voice.60 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LX measure 48 / measure 16]
+    % [Percussion.Voice.60 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LX = {
+segment.03.Percussion.Voice.60 = {
 
-    { \segment.03.Percussion.Voice.LX.part.1 }
+    { \segment.03.Percussion.Voice.60.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LX"
+        \context Voice = "Percussion.Voice.60"
         {
 
-            % [Percussion_Voice_LX measure 49 / measure 17]
+            % [Percussion.Voice.60 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LX"
+        \context Voice = "Percussion.Rest_Voice.60"
         {
 
-            % [Percussion_Rest_Voice_LX measure 49 / measure 17]
+            % [Percussion.Rest_Voice.60 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -10268,17 +10268,17 @@ segment.03.Percussion.Voice.LX = {
 }
 
 
-segment.03.Staff.LX = {
+segment.03.Staff.60 = {
 
-    \context Voice = "Percussion_Voice_LX"
-    { \segment.03.Percussion.Voice.LX }
+    \context Voice = "Percussion.Voice.60"
+    { \segment.03.Percussion.Voice.60 }
 
 }
 
 
-segment.03.Percussion.Voice.LXI.part.1 = {
+segment.03.Percussion.Voice.61.part.1 = {
 
-    % [Percussion_Voice_LXI measure 33 / measure 1]
+    % [Percussion.Voice.61 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 61
     \set Staff.instrumentName = \markup \hcenter-in #8 61
     \clef "percussion"
@@ -10292,74 +10292,74 @@ segment.03.Percussion.Voice.LXI.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 61
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LXI measure 34 / measure 2]
+    % [Percussion.Voice.61 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LXI measure 35 / measure 3]
+    % [Percussion.Voice.61 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LXI measure 36 / measure 4]
+    % [Percussion.Voice.61 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LXI measure 37 / measure 5]
+    % [Percussion.Voice.61 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LXI measure 38 / measure 6]
+    % [Percussion.Voice.61 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LXI measure 39 / measure 7]
+    % [Percussion.Voice.61 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LXI measure 40 / measure 8]
+    % [Percussion.Voice.61 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LXI measure 41 / measure 9]
+    % [Percussion.Voice.61 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LXI measure 42 / measure 10]
+    % [Percussion.Voice.61 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LXI measure 43 / measure 11]
+    % [Percussion.Voice.61 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LXI measure 44 / measure 12]
+    % [Percussion.Voice.61 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LXI measure 45 / measure 13]
+    % [Percussion.Voice.61 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LXI measure 46 / measure 14]
+    % [Percussion.Voice.61 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LXI measure 47 / measure 15]
+    % [Percussion.Voice.61 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LXI measure 48 / measure 16]
+    % [Percussion.Voice.61 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LXI = {
+segment.03.Percussion.Voice.61 = {
 
-    { \segment.03.Percussion.Voice.LXI.part.1 }
+    { \segment.03.Percussion.Voice.61.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LXI"
+        \context Voice = "Percussion.Voice.61"
         {
 
-            % [Percussion_Voice_LXI measure 49 / measure 17]
+            % [Percussion.Voice.61 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LXI"
+        \context Voice = "Percussion.Rest_Voice.61"
         {
 
-            % [Percussion_Rest_Voice_LXI measure 49 / measure 17]
+            % [Percussion.Rest_Voice.61 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -10374,17 +10374,17 @@ segment.03.Percussion.Voice.LXI = {
 }
 
 
-segment.03.Staff.LXI = {
+segment.03.Staff.61 = {
 
-    \context Voice = "Percussion_Voice_LXI"
-    { \segment.03.Percussion.Voice.LXI }
+    \context Voice = "Percussion.Voice.61"
+    { \segment.03.Percussion.Voice.61 }
 
 }
 
 
-segment.03.Percussion.Voice.LXII.part.1 = {
+segment.03.Percussion.Voice.62.part.1 = {
 
-    % [Percussion_Voice_LXII measure 33 / measure 1]
+    % [Percussion.Voice.62 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 62
     \set Staff.instrumentName = \markup \hcenter-in #8 62
     \clef "percussion"
@@ -10398,74 +10398,74 @@ segment.03.Percussion.Voice.LXII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 62
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LXII measure 34 / measure 2]
+    % [Percussion.Voice.62 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LXII measure 35 / measure 3]
+    % [Percussion.Voice.62 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LXII measure 36 / measure 4]
+    % [Percussion.Voice.62 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LXII measure 37 / measure 5]
+    % [Percussion.Voice.62 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LXII measure 38 / measure 6]
+    % [Percussion.Voice.62 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LXII measure 39 / measure 7]
+    % [Percussion.Voice.62 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LXII measure 40 / measure 8]
+    % [Percussion.Voice.62 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LXII measure 41 / measure 9]
+    % [Percussion.Voice.62 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LXII measure 42 / measure 10]
+    % [Percussion.Voice.62 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LXII measure 43 / measure 11]
+    % [Percussion.Voice.62 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LXII measure 44 / measure 12]
+    % [Percussion.Voice.62 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LXII measure 45 / measure 13]
+    % [Percussion.Voice.62 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LXII measure 46 / measure 14]
+    % [Percussion.Voice.62 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LXII measure 47 / measure 15]
+    % [Percussion.Voice.62 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LXII measure 48 / measure 16]
+    % [Percussion.Voice.62 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LXII = {
+segment.03.Percussion.Voice.62 = {
 
-    { \segment.03.Percussion.Voice.LXII.part.1 }
+    { \segment.03.Percussion.Voice.62.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LXII"
+        \context Voice = "Percussion.Voice.62"
         {
 
-            % [Percussion_Voice_LXII measure 49 / measure 17]
+            % [Percussion.Voice.62 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LXII"
+        \context Voice = "Percussion.Rest_Voice.62"
         {
 
-            % [Percussion_Rest_Voice_LXII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.62 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -10480,17 +10480,17 @@ segment.03.Percussion.Voice.LXII = {
 }
 
 
-segment.03.Staff.LXII = {
+segment.03.Staff.62 = {
 
-    \context Voice = "Percussion_Voice_LXII"
-    { \segment.03.Percussion.Voice.LXII }
+    \context Voice = "Percussion.Voice.62"
+    { \segment.03.Percussion.Voice.62 }
 
 }
 
 
-segment.03.Percussion.Voice.LXIII.part.1 = {
+segment.03.Percussion.Voice.63.part.1 = {
 
-    % [Percussion_Voice_LXIII measure 33 / measure 1]
+    % [Percussion.Voice.63 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 63
     \set Staff.instrumentName = \markup \hcenter-in #8 63
     \clef "percussion"
@@ -10504,74 +10504,74 @@ segment.03.Percussion.Voice.LXIII.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 63
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LXIII measure 34 / measure 2]
+    % [Percussion.Voice.63 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LXIII measure 35 / measure 3]
+    % [Percussion.Voice.63 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LXIII measure 36 / measure 4]
+    % [Percussion.Voice.63 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LXIII measure 37 / measure 5]
+    % [Percussion.Voice.63 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LXIII measure 38 / measure 6]
+    % [Percussion.Voice.63 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LXIII measure 39 / measure 7]
+    % [Percussion.Voice.63 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LXIII measure 40 / measure 8]
+    % [Percussion.Voice.63 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LXIII measure 41 / measure 9]
+    % [Percussion.Voice.63 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LXIII measure 42 / measure 10]
+    % [Percussion.Voice.63 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LXIII measure 43 / measure 11]
+    % [Percussion.Voice.63 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LXIII measure 44 / measure 12]
+    % [Percussion.Voice.63 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LXIII measure 45 / measure 13]
+    % [Percussion.Voice.63 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LXIII measure 46 / measure 14]
+    % [Percussion.Voice.63 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LXIII measure 47 / measure 15]
+    % [Percussion.Voice.63 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LXIII measure 48 / measure 16]
+    % [Percussion.Voice.63 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LXIII = {
+segment.03.Percussion.Voice.63 = {
 
-    { \segment.03.Percussion.Voice.LXIII.part.1 }
+    { \segment.03.Percussion.Voice.63.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LXIII"
+        \context Voice = "Percussion.Voice.63"
         {
 
-            % [Percussion_Voice_LXIII measure 49 / measure 17]
+            % [Percussion.Voice.63 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LXIII"
+        \context Voice = "Percussion.Rest_Voice.63"
         {
 
-            % [Percussion_Rest_Voice_LXIII measure 49 / measure 17]
+            % [Percussion.Rest_Voice.63 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -10586,17 +10586,17 @@ segment.03.Percussion.Voice.LXIII = {
 }
 
 
-segment.03.Staff.LXIII = {
+segment.03.Staff.63 = {
 
-    \context Voice = "Percussion_Voice_LXIII"
-    { \segment.03.Percussion.Voice.LXIII }
+    \context Voice = "Percussion.Voice.63"
+    { \segment.03.Percussion.Voice.63 }
 
 }
 
 
-segment.03.Percussion.Voice.LXIV.part.1 = {
+segment.03.Percussion.Voice.64.part.1 = {
 
-    % [Percussion_Voice_LXIV measure 33 / measure 1]
+    % [Percussion.Voice.64 measure 33 / measure 1]
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 64
     \set Staff.instrumentName = \markup \hcenter-in #8 64
     \clef "percussion"
@@ -10610,74 +10610,74 @@ segment.03.Percussion.Voice.LXIV.part.1 = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #8 64
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [Percussion_Voice_LXIV measure 34 / measure 2]
+    % [Percussion.Voice.64 measure 34 / measure 2]
     r2
 
-    % [Percussion_Voice_LXIV measure 35 / measure 3]
+    % [Percussion.Voice.64 measure 35 / measure 3]
     r2
 
-    % [Percussion_Voice_LXIV measure 36 / measure 4]
+    % [Percussion.Voice.64 measure 36 / measure 4]
     r2
 
-    % [Percussion_Voice_LXIV measure 37 / measure 5]
+    % [Percussion.Voice.64 measure 37 / measure 5]
     r2
 
-    % [Percussion_Voice_LXIV measure 38 / measure 6]
+    % [Percussion.Voice.64 measure 38 / measure 6]
     r2
 
-    % [Percussion_Voice_LXIV measure 39 / measure 7]
+    % [Percussion.Voice.64 measure 39 / measure 7]
     r2
 
-    % [Percussion_Voice_LXIV measure 40 / measure 8]
+    % [Percussion.Voice.64 measure 40 / measure 8]
     r2
 
-    % [Percussion_Voice_LXIV measure 41 / measure 9]
+    % [Percussion.Voice.64 measure 41 / measure 9]
     r2
 
-    % [Percussion_Voice_LXIV measure 42 / measure 10]
+    % [Percussion.Voice.64 measure 42 / measure 10]
     r2
 
-    % [Percussion_Voice_LXIV measure 43 / measure 11]
+    % [Percussion.Voice.64 measure 43 / measure 11]
     r2
 
-    % [Percussion_Voice_LXIV measure 44 / measure 12]
+    % [Percussion.Voice.64 measure 44 / measure 12]
     r2
 
-    % [Percussion_Voice_LXIV measure 45 / measure 13]
+    % [Percussion.Voice.64 measure 45 / measure 13]
     r2
 
-    % [Percussion_Voice_LXIV measure 46 / measure 14]
+    % [Percussion.Voice.64 measure 46 / measure 14]
     r2
 
-    % [Percussion_Voice_LXIV measure 47 / measure 15]
+    % [Percussion.Voice.64 measure 47 / measure 15]
     r2
 
-    % [Percussion_Voice_LXIV measure 48 / measure 16]
+    % [Percussion.Voice.64 measure 48 / measure 16]
     r2
 
 }
 
 
-segment.03.Percussion.Voice.LXIV = {
+segment.03.Percussion.Voice.64 = {
 
-    { \segment.03.Percussion.Voice.LXIV.part.1 }
+    { \segment.03.Percussion.Voice.64.part.1 }
 
     <<
 
-        \context Voice = "Percussion_Voice_LXIV"
+        \context Voice = "Percussion.Voice.64"
         {
 
-            % [Percussion_Voice_LXIV measure 49 / measure 17]
+            % [Percussion.Voice.64 measure 49 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
 
         }
 
-        \context Voice = "Percussion_Rest_Voice_LXIV"
+        \context Voice = "Percussion.Rest_Voice.64"
         {
 
-            % [Percussion_Rest_Voice_LXIV measure 49 / measure 17]
+            % [Percussion.Rest_Voice.64 measure 49 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -10692,9 +10692,9 @@ segment.03.Percussion.Voice.LXIV = {
 }
 
 
-segment.03.Staff.LXIV = {
+segment.03.Staff.64 = {
 
-    \context Voice = "Percussion_Voice_LXIV"
-    { \segment.03.Percussion.Voice.LXIV }
+    \context Voice = "Percussion.Voice.64"
+    { \segment.03.Percussion.Voice.64 }
 
 }

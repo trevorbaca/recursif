@@ -1,5 +1,4 @@
 import baca
-import roman
 
 from recursif import library as recursif
 
@@ -19,8 +18,7 @@ maker = baca.SegmentMaker(
 recursif.assign_parts(maker)
 
 for voice_number in range(1, 64 + 1):
-    numeral = roman.toRoman(voice_number)
-    voice_name = f"Percussion_Voice_{numeral}"
+    voice_name = f"Percussion.Voice.{voice_number}"
     maker(
         voice_name,
         baca.staff_position(0),
