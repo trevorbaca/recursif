@@ -18,7 +18,9 @@ pages.append(first_page)
 for page_number in range(2, 16 + 1):
     measure = (page_number - 1) * 16 + 1
     page = baca.page(
-        baca.system(measure=measure, y_offset=0, (below_global, between_staves)),
+        baca.system(
+            measure=measure, y_offset=0, distances=(below_global, between_staves)
+        ),
         number=page_number,
     )
     pages.append(page)
