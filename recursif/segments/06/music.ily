@@ -2,7 +2,7 @@
 segment.06.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 81 / measure 1]
+    % [Global_Skips measure 1]
     %! baca.SegmentMaker._make_global_skips(2)
     %! baca.SegmentMaker._reapply_persistent_indicators(1)
     %! baca.SegmentMaker._set_status_tag()
@@ -61,7 +61,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 82 / measure 2]
+    % [Global_Skips measure 2]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -93,7 +93,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 83 / measure 3]
+    % [Global_Skips measure 3]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -125,7 +125,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 84 / measure 4]
+    % [Global_Skips measure 4]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -157,7 +157,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 85 / measure 5]
+    % [Global_Skips measure 5]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -189,7 +189,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 86 / measure 6]
+    % [Global_Skips measure 6]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -221,7 +221,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 87 / measure 7]
+    % [Global_Skips measure 7]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -253,7 +253,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 88 / measure 8]
+    % [Global_Skips measure 8]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -285,7 +285,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 89 / measure 9]
+    % [Global_Skips measure 9]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -317,7 +317,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 90 / measure 10]
+    % [Global_Skips measure 10]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -349,7 +349,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 91 / measure 11]
+    % [Global_Skips measure 11]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -381,7 +381,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 92 / measure 12]
+    % [Global_Skips measure 12]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -413,7 +413,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 93 / measure 13]
+    % [Global_Skips measure 13]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -445,7 +445,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 94 / measure 14]
+    % [Global_Skips measure 14]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -477,7 +477,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 95 / measure 15]
+    % [Global_Skips measure 15]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -509,7 +509,7 @@ segment.06.Global.Skips = {
     %@% \bacaStartTextSpanCT
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Skips measure 96 / measure 16]
+    % [Global_Skips measure 16]
     %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2
     %! LOCAL_MEASURE_NUMBER
@@ -543,7 +543,7 @@ segment.06.Global.Skips = {
     %! baca.SegmentMaker._comment_measure_numbers()
     %! baca.SegmentMaker._style_phantom_measures(1)
     %! PHANTOM
-    % [Global_Skips measure 97 / measure 17]
+    % [Global_Skips measure 17]
     %! baca.SegmentMaker._make_global_skips(3)
     %! PHANTOM
     %! baca.SegmentMaker._set_status_tag()
@@ -592,89 +592,89 @@ segment.06.Global.Skips = {
 segment.06.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 81 / measure 1]
+    % [Global_Rests measure 1]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 82 / measure 2]
+    % [Global_Rests measure 2]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 83 / measure 3]
+    % [Global_Rests measure 3]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 84 / measure 4]
+    % [Global_Rests measure 4]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 85 / measure 5]
+    % [Global_Rests measure 5]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 86 / measure 6]
+    % [Global_Rests measure 6]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 87 / measure 7]
+    % [Global_Rests measure 7]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 88 / measure 8]
+    % [Global_Rests measure 8]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 89 / measure 9]
+    % [Global_Rests measure 9]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 90 / measure 10]
+    % [Global_Rests measure 10]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 91 / measure 11]
+    % [Global_Rests measure 11]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 92 / measure 12]
+    % [Global_Rests measure 12]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 93 / measure 13]
+    % [Global_Rests measure 13]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 94 / measure 14]
+    % [Global_Rests measure 14]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 95 / measure 15]
+    % [Global_Rests measure 15]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Global_Rests measure 96 / measure 16]
+    % [Global_Rests measure 16]
     %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2
 
     %! baca.SegmentMaker._comment_measure_numbers()
     %! baca.SegmentMaker._style_phantom_measures(4)
     %! PHANTOM
-    % [Global_Rests measure 97 / measure 17]
+    % [Global_Rests measure 17]
     %! baca.SegmentMaker._make_global_rests(2)
     %! PHANTOM
     R1 * 1/4
@@ -688,7 +688,7 @@ segment.06.Global.Rests = {
 segment.06.Percussion.Voice.1.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 81 / measure 1]
+    % [Percussion.Voice.1 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -736,77 +736,77 @@ segment.06.Percussion.Voice.1.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 82 / measure 2]
+    % [Percussion.Voice.1 measure 2]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 83 / measure 3]
+    % [Percussion.Voice.1 measure 3]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 84 / measure 4]
+    % [Percussion.Voice.1 measure 4]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 85 / measure 5]
+    % [Percussion.Voice.1 measure 5]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 86 / measure 6]
+    % [Percussion.Voice.1 measure 6]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 87 / measure 7]
+    % [Percussion.Voice.1 measure 7]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 88 / measure 8]
+    % [Percussion.Voice.1 measure 8]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 89 / measure 9]
+    % [Percussion.Voice.1 measure 9]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 90 / measure 10]
+    % [Percussion.Voice.1 measure 10]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 91 / measure 11]
+    % [Percussion.Voice.1 measure 11]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 92 / measure 12]
+    % [Percussion.Voice.1 measure 12]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 93 / measure 13]
+    % [Percussion.Voice.1 measure 13]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 94 / measure 14]
+    % [Percussion.Voice.1 measure 14]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 95 / measure 15]
+    % [Percussion.Voice.1 measure 15]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 96 / measure 16]
+    % [Percussion.Voice.1 measure 16]
     %! recursif.rhythm()
     c'2
 
@@ -834,7 +834,7 @@ segment.06.Percussion.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.1 measure 97 / measure 17]
+            % [Percussion.Voice.1 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -881,7 +881,7 @@ segment.06.Percussion.Voice.1 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.1 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.1 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -947,7 +947,7 @@ segment.06.Staff.1 = <<
 segment.06.Percussion.Voice.2.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 81 / measure 1]
+    % [Percussion.Voice.2 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -1000,7 +1000,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.2 measure 82 / measure 2]
+        % [Percussion.Voice.2 measure 2]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1035,7 +1035,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.2 measure 83 / measure 3]
+        % [Percussion.Voice.2 measure 3]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1067,7 +1067,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.2 measure 84 / measure 4]
+        % [Percussion.Voice.2 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1091,7 +1091,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 85 / measure 5]
+    % [Percussion.Voice.2 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -1114,7 +1114,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.2 measure 86 / measure 6]
+        % [Percussion.Voice.2 measure 6]
         %! recursif.rhythm()
         c'4
 
@@ -1128,7 +1128,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 87 / measure 7]
+    % [Percussion.Voice.2 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -1136,12 +1136,12 @@ segment.06.Percussion.Voice.2.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 88 / measure 8]
+    % [Percussion.Voice.2 measure 8]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 89 / measure 9]
+    % [Percussion.Voice.2 measure 9]
     %! recursif.rhythm()
     r2
 
@@ -1151,7 +1151,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.2 measure 90 / measure 10]
+        % [Percussion.Voice.2 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1186,7 +1186,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.2 measure 91 / measure 11]
+        % [Percussion.Voice.2 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1218,7 +1218,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.2 measure 92 / measure 12]
+        % [Percussion.Voice.2 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1242,7 +1242,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 93 / measure 13]
+    % [Percussion.Voice.2 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -1265,7 +1265,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.2 measure 94 / measure 14]
+        % [Percussion.Voice.2 measure 14]
         %! recursif.rhythm()
         c'4
 
@@ -1279,7 +1279,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 95 / measure 15]
+    % [Percussion.Voice.2 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -1287,7 +1287,7 @@ segment.06.Percussion.Voice.2.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 96 / measure 16]
+    % [Percussion.Voice.2 measure 16]
     %! recursif.rhythm()
     c'2
 
@@ -1315,7 +1315,7 @@ segment.06.Percussion.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.2 measure 97 / measure 17]
+            % [Percussion.Voice.2 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -1362,7 +1362,7 @@ segment.06.Percussion.Voice.2 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.2 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.2 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -1422,7 +1422,7 @@ segment.06.Staff.2 = {
 segment.06.Percussion.Voice.3.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 81 / measure 1]
+    % [Percussion.Voice.3 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -1470,12 +1470,12 @@ segment.06.Percussion.Voice.3.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 82 / measure 2]
+    % [Percussion.Voice.3 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 83 / measure 3]
+    % [Percussion.Voice.3 measure 3]
     %! recursif.rhythm()
     c'2
 
@@ -1485,7 +1485,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 84 / measure 4]
+        % [Percussion.Voice.3 measure 4]
         %! recursif.rhythm()
         c'4
 
@@ -1504,7 +1504,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 85 / measure 5]
+        % [Percussion.Voice.3 measure 5]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1531,7 +1531,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 86 / measure 6]
+    % [Percussion.Voice.3 measure 6]
     %! recursif.rhythm()
     c'4
 
@@ -1544,7 +1544,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 87 / measure 7]
+        % [Percussion.Voice.3 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1579,7 +1579,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 88 / measure 8]
+        % [Percussion.Voice.3 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1603,7 +1603,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 89 / measure 9]
+    % [Percussion.Voice.3 measure 9]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -1621,7 +1621,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 90 / measure 10]
+    % [Percussion.Voice.3 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -1644,7 +1644,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 91 / measure 11]
+        % [Percussion.Voice.3 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1673,7 +1673,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 92 / measure 12]
+        % [Percussion.Voice.3 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1703,7 +1703,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 93 / measure 13]
+    % [Percussion.Voice.3 measure 13]
     %! recursif.rhythm()
     c'4
 
@@ -1716,7 +1716,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 94 / measure 14]
+        % [Percussion.Voice.3 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1748,7 +1748,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 95 / measure 15]
+        % [Percussion.Voice.3 measure 15]
         %! recursif.rhythm()
         c'4
 
@@ -1762,7 +1762,7 @@ segment.06.Percussion.Voice.3.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 96 / measure 16]
+    % [Percussion.Voice.3 measure 16]
     %! recursif.rhythm()
     c'2
 
@@ -1790,7 +1790,7 @@ segment.06.Percussion.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.3 measure 97 / measure 17]
+            % [Percussion.Voice.3 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -1837,7 +1837,7 @@ segment.06.Percussion.Voice.3 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.3 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.3 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -1897,7 +1897,7 @@ segment.06.Staff.3 = {
 segment.06.Percussion.Voice.4.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 81 / measure 1]
+    % [Percussion.Voice.4 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -1945,12 +1945,12 @@ segment.06.Percussion.Voice.4.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 82 / measure 2]
+    % [Percussion.Voice.4 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 83 / measure 3]
+    % [Percussion.Voice.4 measure 3]
     %! recursif.rhythm()
     r2
 
@@ -1960,7 +1960,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.4 measure 84 / measure 4]
+        % [Percussion.Voice.4 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -1990,7 +1990,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 85 / measure 5]
+    % [Percussion.Voice.4 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2013,7 +2013,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.4 measure 86 / measure 6]
+        % [Percussion.Voice.4 measure 6]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2040,7 +2040,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 87 / measure 7]
+    % [Percussion.Voice.4 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2063,7 +2063,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.4 measure 88 / measure 8]
+        % [Percussion.Voice.4 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2087,12 +2087,12 @@ segment.06.Percussion.Voice.4.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 89 / measure 9]
+    % [Percussion.Voice.4 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 90 / measure 10]
+    % [Percussion.Voice.4 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2110,7 +2110,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 91 / measure 11]
+    % [Percussion.Voice.4 measure 11]
     %! recursif.rhythm()
     r2
 
@@ -2120,7 +2120,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.4 measure 92 / measure 12]
+        % [Percussion.Voice.4 measure 12]
         %! recursif.rhythm()
         c'4
 
@@ -2134,7 +2134,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 93 / measure 13]
+    % [Percussion.Voice.4 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2152,7 +2152,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 94 / measure 14]
+    % [Percussion.Voice.4 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -2160,7 +2160,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 95 / measure 15]
+    % [Percussion.Voice.4 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2178,7 +2178,7 @@ segment.06.Percussion.Voice.4.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 96 / measure 16]
+    % [Percussion.Voice.4 measure 16]
     %! recursif.rhythm()
     c'2
 
@@ -2206,7 +2206,7 @@ segment.06.Percussion.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.4 measure 97 / measure 17]
+            % [Percussion.Voice.4 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -2253,7 +2253,7 @@ segment.06.Percussion.Voice.4 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.4 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.4 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -2313,7 +2313,7 @@ segment.06.Staff.4 = {
 segment.06.Percussion.Voice.5.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.5 measure 81 / measure 1]
+    % [Percussion.Voice.5 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -2374,7 +2374,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.5 measure 82 / measure 2]
+    % [Percussion.Voice.5 measure 2]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2392,7 +2392,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.5 measure 83 / measure 3]
+    % [Percussion.Voice.5 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2410,7 +2410,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.5 measure 84 / measure 4]
+    % [Percussion.Voice.5 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2433,7 +2433,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.5 measure 85 / measure 5]
+        % [Percussion.Voice.5 measure 5]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2457,7 +2457,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.5 measure 86 / measure 6]
+    % [Percussion.Voice.5 measure 6]
     %! recursif.rhythm()
     c'2
 
@@ -2467,7 +2467,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.5 measure 87 / measure 7]
+        % [Percussion.Voice.5 measure 7]
         %! recursif.rhythm()
         c'4
 
@@ -2486,7 +2486,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.5 measure 88 / measure 8]
+        % [Percussion.Voice.5 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2516,7 +2516,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.5 measure 89 / measure 9]
+    % [Percussion.Voice.5 measure 9]
     %! recursif.rhythm()
     c'4
 
@@ -2524,7 +2524,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.5 measure 90 / measure 10]
+    % [Percussion.Voice.5 measure 10]
     %! recursif.rhythm()
     c'4
 
@@ -2537,7 +2537,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.5 measure 91 / measure 11]
+        % [Percussion.Voice.5 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2569,7 +2569,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.5 measure 92 / measure 12]
+        % [Percussion.Voice.5 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2601,7 +2601,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.5 measure 93 / measure 13]
+        % [Percussion.Voice.5 measure 13]
         %! recursif.rhythm()
         c'4
 
@@ -2620,7 +2620,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.5 measure 94 / measure 14]
+        % [Percussion.Voice.5 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2655,7 +2655,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.5 measure 95 / measure 15]
+        % [Percussion.Voice.5 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2679,7 +2679,7 @@ segment.06.Percussion.Voice.5.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.5 measure 96 / measure 16]
+    % [Percussion.Voice.5 measure 16]
     %! recursif.rhythm()
     c'2
 
@@ -2707,7 +2707,7 @@ segment.06.Percussion.Voice.5 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.5 measure 97 / measure 17]
+            % [Percussion.Voice.5 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -2754,7 +2754,7 @@ segment.06.Percussion.Voice.5 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.5 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.5 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -2814,7 +2814,7 @@ segment.06.Staff.5 = {
 segment.06.Percussion.Voice.6.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 81 / measure 1]
+    % [Percussion.Voice.6 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -2862,7 +2862,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 82 / measure 2]
+    % [Percussion.Voice.6 measure 2]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2880,12 +2880,12 @@ segment.06.Percussion.Voice.6.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 83 / measure 3]
+    % [Percussion.Voice.6 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 84 / measure 4]
+    % [Percussion.Voice.6 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -2903,7 +2903,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 85 / measure 5]
+    % [Percussion.Voice.6 measure 5]
     %! recursif.rhythm()
     r2
 
@@ -2913,7 +2913,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.6 measure 86 / measure 6]
+        % [Percussion.Voice.6 measure 6]
         %! recursif.rhythm()
         c'4
 
@@ -2927,7 +2927,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 87 / measure 7]
+    % [Percussion.Voice.6 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -2940,7 +2940,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.6 measure 88 / measure 8]
+        % [Percussion.Voice.6 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -2970,7 +2970,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 89 / measure 9]
+    % [Percussion.Voice.6 measure 9]
     %! recursif.rhythm()
     r2
 
@@ -2980,7 +2980,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.6 measure 90 / measure 10]
+        % [Percussion.Voice.6 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -3007,7 +3007,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 91 / measure 11]
+    % [Percussion.Voice.6 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3030,7 +3030,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.6 measure 92 / measure 12]
+        % [Percussion.Voice.6 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -3057,7 +3057,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 93 / measure 13]
+    % [Percussion.Voice.6 measure 13]
     %! recursif.rhythm()
     r2
 
@@ -3067,7 +3067,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.6 measure 94 / measure 14]
+        % [Percussion.Voice.6 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -3096,7 +3096,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.6 measure 95 / measure 15]
+        % [Percussion.Voice.6 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -3123,7 +3123,7 @@ segment.06.Percussion.Voice.6.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.6 measure 96 / measure 16]
+    % [Percussion.Voice.6 measure 16]
     %! recursif.rhythm()
     c'2
 
@@ -3151,7 +3151,7 @@ segment.06.Percussion.Voice.6 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.6 measure 97 / measure 17]
+            % [Percussion.Voice.6 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -3198,7 +3198,7 @@ segment.06.Percussion.Voice.6 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.6 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.6 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -3258,7 +3258,7 @@ segment.06.Staff.6 = {
 segment.06.Percussion.Voice.7.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 81 / measure 1]
+    % [Percussion.Voice.7 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -3306,12 +3306,12 @@ segment.06.Percussion.Voice.7.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 82 / measure 2]
+    % [Percussion.Voice.7 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 83 / measure 3]
+    % [Percussion.Voice.7 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3329,7 +3329,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 84 / measure 4]
+    % [Percussion.Voice.7 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3347,12 +3347,12 @@ segment.06.Percussion.Voice.7.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 85 / measure 5]
+    % [Percussion.Voice.7 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 86 / measure 6]
+    % [Percussion.Voice.7 measure 6]
     %! recursif.rhythm()
     r2
 
@@ -3362,7 +3362,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.7 measure 87 / measure 7]
+        % [Percussion.Voice.7 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -3391,7 +3391,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.7 measure 88 / measure 8]
+        % [Percussion.Voice.7 measure 8]
         %! recursif.rhythm()
         c'4
 
@@ -3405,7 +3405,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 89 / measure 9]
+    % [Percussion.Voice.7 measure 9]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3423,7 +3423,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 90 / measure 10]
+    % [Percussion.Voice.7 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3446,7 +3446,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.7 measure 91 / measure 11]
+        % [Percussion.Voice.7 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -3473,7 +3473,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 92 / measure 12]
+    % [Percussion.Voice.7 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -3481,7 +3481,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 93 / measure 13]
+    % [Percussion.Voice.7 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3499,7 +3499,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 94 / measure 14]
+    % [Percussion.Voice.7 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3522,7 +3522,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.7 measure 95 / measure 15]
+        % [Percussion.Voice.7 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -3552,7 +3552,7 @@ segment.06.Percussion.Voice.7.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.7 measure 96 / measure 16]
+    % [Percussion.Voice.7 measure 16]
     %! recursif.rhythm()
     c'2
 
@@ -3580,7 +3580,7 @@ segment.06.Percussion.Voice.7 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.7 measure 97 / measure 17]
+            % [Percussion.Voice.7 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -3627,7 +3627,7 @@ segment.06.Percussion.Voice.7 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.7 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.7 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -3687,7 +3687,7 @@ segment.06.Staff.7 = {
 segment.06.Percussion.Voice.8.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 81 / measure 1]
+    % [Percussion.Voice.8 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -3735,17 +3735,17 @@ segment.06.Percussion.Voice.8.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 82 / measure 2]
+    % [Percussion.Voice.8 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 83 / measure 3]
+    % [Percussion.Voice.8 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 84 / measure 4]
+    % [Percussion.Voice.8 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3763,17 +3763,17 @@ segment.06.Percussion.Voice.8.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 85 / measure 5]
+    % [Percussion.Voice.8 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 86 / measure 6]
+    % [Percussion.Voice.8 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 87 / measure 7]
+    % [Percussion.Voice.8 measure 7]
     %! recursif.rhythm()
     r2
 
@@ -3783,7 +3783,7 @@ segment.06.Percussion.Voice.8.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.8 measure 88 / measure 8]
+        % [Percussion.Voice.8 measure 8]
         %! recursif.rhythm()
         c'4
 
@@ -3797,12 +3797,12 @@ segment.06.Percussion.Voice.8.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 89 / measure 9]
+    % [Percussion.Voice.8 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 90 / measure 10]
+    % [Percussion.Voice.8 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3820,12 +3820,12 @@ segment.06.Percussion.Voice.8.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 91 / measure 11]
+    % [Percussion.Voice.8 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 92 / measure 12]
+    % [Percussion.Voice.8 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -3833,12 +3833,12 @@ segment.06.Percussion.Voice.8.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 93 / measure 13]
+    % [Percussion.Voice.8 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 94 / measure 14]
+    % [Percussion.Voice.8 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -3856,12 +3856,12 @@ segment.06.Percussion.Voice.8.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 95 / measure 15]
+    % [Percussion.Voice.8 measure 15]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.8 measure 96 / measure 16]
+    % [Percussion.Voice.8 measure 16]
     %! recursif.rhythm()
     c'2
 
@@ -3889,7 +3889,7 @@ segment.06.Percussion.Voice.8 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.8 measure 97 / measure 17]
+            % [Percussion.Voice.8 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -3936,7 +3936,7 @@ segment.06.Percussion.Voice.8 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.8 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.8 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -4001,7 +4001,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 81 / measure 1]
+        % [Percussion.Voice.9 measure 1]
         %! -PARTS
         %! baca.SegmentMaker._reapply_persistent_indicators(3)
         %! baca.SegmentMaker._set_status_tag()
@@ -4076,7 +4076,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 82 / measure 2]
+        % [Percussion.Voice.9 measure 2]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4108,7 +4108,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 83 / measure 3]
+        % [Percussion.Voice.9 measure 3]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4140,7 +4140,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 84 / measure 4]
+        % [Percussion.Voice.9 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4167,7 +4167,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.9 measure 85 / measure 5]
+    % [Percussion.Voice.9 measure 5]
     %! recursif.rhythm()
     c'4
 
@@ -4175,7 +4175,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.9 measure 86 / measure 6]
+    % [Percussion.Voice.9 measure 6]
     %! recursif.rhythm()
     c'4
 
@@ -4183,7 +4183,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.9 measure 87 / measure 7]
+    % [Percussion.Voice.9 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -4191,7 +4191,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.9 measure 88 / measure 8]
+    % [Percussion.Voice.9 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -4204,7 +4204,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 89 / measure 9]
+        % [Percussion.Voice.9 measure 9]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4239,7 +4239,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 90 / measure 10]
+        % [Percussion.Voice.9 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4274,7 +4274,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 91 / measure 11]
+        % [Percussion.Voice.9 measure 11]
         %! recursif.rhythm()
         c'4
 
@@ -4293,7 +4293,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 92 / measure 12]
+        % [Percussion.Voice.9 measure 12]
         %! recursif.rhythm()
         c'4
 
@@ -4307,12 +4307,12 @@ segment.06.Percussion.Voice.9.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.9 measure 93 / measure 13]
+    % [Percussion.Voice.9 measure 13]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.9 measure 94 / measure 14]
+    % [Percussion.Voice.9 measure 14]
     %! recursif.rhythm()
     c'2
 
@@ -4322,7 +4322,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 95 / measure 15]
+        % [Percussion.Voice.9 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4351,7 +4351,7 @@ segment.06.Percussion.Voice.9.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.9 measure 96 / measure 16]
+        % [Percussion.Voice.9 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4398,7 +4398,7 @@ segment.06.Percussion.Voice.9 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.9 measure 97 / measure 17]
+            % [Percussion.Voice.9 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -4445,7 +4445,7 @@ segment.06.Percussion.Voice.9 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.9 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.9 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -4505,7 +4505,7 @@ segment.06.Staff.9 = {
 segment.06.Percussion.Voice.10.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 81 / measure 1]
+    % [Percussion.Voice.10 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -4553,7 +4553,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 82 / measure 2]
+    % [Percussion.Voice.10 measure 2]
     %! recursif.rhythm()
     c'4
 
@@ -4561,7 +4561,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 83 / measure 3]
+    % [Percussion.Voice.10 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -4584,7 +4584,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.10 measure 84 / measure 4]
+        % [Percussion.Voice.10 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4611,7 +4611,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 85 / measure 5]
+    % [Percussion.Voice.10 measure 5]
     %! recursif.rhythm()
     r2
 
@@ -4621,7 +4621,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.10 measure 86 / measure 6]
+        % [Percussion.Voice.10 measure 6]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4648,7 +4648,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 87 / measure 7]
+    % [Percussion.Voice.10 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -4666,7 +4666,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 88 / measure 8]
+    % [Percussion.Voice.10 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -4674,17 +4674,17 @@ segment.06.Percussion.Voice.10.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 89 / measure 9]
+    % [Percussion.Voice.10 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 90 / measure 10]
+    % [Percussion.Voice.10 measure 10]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 91 / measure 11]
+    % [Percussion.Voice.10 measure 11]
     %! recursif.rhythm()
     c'4
 
@@ -4697,7 +4697,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.10 measure 92 / measure 12]
+        % [Percussion.Voice.10 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4727,7 +4727,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 93 / measure 13]
+    % [Percussion.Voice.10 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -4750,7 +4750,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.10 measure 94 / measure 14]
+        % [Percussion.Voice.10 measure 14]
         %! recursif.rhythm()
         c'4
 
@@ -4764,7 +4764,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.10 measure 95 / measure 15]
+    % [Percussion.Voice.10 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -4777,7 +4777,7 @@ segment.06.Percussion.Voice.10.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.10 measure 96 / measure 16]
+        % [Percussion.Voice.10 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -4824,7 +4824,7 @@ segment.06.Percussion.Voice.10 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.10 measure 97 / measure 17]
+            % [Percussion.Voice.10 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -4871,7 +4871,7 @@ segment.06.Percussion.Voice.10 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.10 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.10 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -4931,7 +4931,7 @@ segment.06.Staff.10 = {
 segment.06.Percussion.Voice.11.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 81 / measure 1]
+    % [Percussion.Voice.11 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -4979,7 +4979,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 82 / measure 2]
+    % [Percussion.Voice.11 measure 2]
     %! recursif.rhythm()
     r2
 
@@ -4989,7 +4989,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.11 measure 83 / measure 3]
+        % [Percussion.Voice.11 measure 3]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5016,7 +5016,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 84 / measure 4]
+    % [Percussion.Voice.11 measure 4]
     %! recursif.rhythm()
     c'4
 
@@ -5024,7 +5024,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 85 / measure 5]
+    % [Percussion.Voice.11 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5042,7 +5042,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 86 / measure 6]
+    % [Percussion.Voice.11 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5065,7 +5065,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.11 measure 87 / measure 7]
+        % [Percussion.Voice.11 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5092,7 +5092,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 88 / measure 8]
+    % [Percussion.Voice.11 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -5100,12 +5100,12 @@ segment.06.Percussion.Voice.11.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 89 / measure 9]
+    % [Percussion.Voice.11 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 90 / measure 10]
+    % [Percussion.Voice.11 measure 10]
     %! recursif.rhythm()
     r2
 
@@ -5115,7 +5115,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.11 measure 91 / measure 11]
+        % [Percussion.Voice.11 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5150,7 +5150,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.11 measure 92 / measure 12]
+        % [Percussion.Voice.11 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5179,7 +5179,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.11 measure 93 / measure 13]
+        % [Percussion.Voice.11 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5206,7 +5206,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.11 measure 94 / measure 14]
+    % [Percussion.Voice.11 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -5219,7 +5219,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.11 measure 95 / measure 15]
+        % [Percussion.Voice.11 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5254,7 +5254,7 @@ segment.06.Percussion.Voice.11.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.11 measure 96 / measure 16]
+        % [Percussion.Voice.11 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5301,7 +5301,7 @@ segment.06.Percussion.Voice.11 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.11 measure 97 / measure 17]
+            % [Percussion.Voice.11 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -5348,7 +5348,7 @@ segment.06.Percussion.Voice.11 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.11 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.11 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -5408,7 +5408,7 @@ segment.06.Staff.11 = {
 segment.06.Percussion.Voice.12.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 81 / measure 1]
+    % [Percussion.Voice.12 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -5456,17 +5456,17 @@ segment.06.Percussion.Voice.12.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 82 / measure 2]
+    % [Percussion.Voice.12 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 83 / measure 3]
+    % [Percussion.Voice.12 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 84 / measure 4]
+    % [Percussion.Voice.12 measure 4]
     %! recursif.rhythm()
     c'4
 
@@ -5474,12 +5474,12 @@ segment.06.Percussion.Voice.12.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 85 / measure 5]
+    % [Percussion.Voice.12 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 86 / measure 6]
+    % [Percussion.Voice.12 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5497,12 +5497,12 @@ segment.06.Percussion.Voice.12.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 87 / measure 7]
+    % [Percussion.Voice.12 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 88 / measure 8]
+    % [Percussion.Voice.12 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -5510,27 +5510,27 @@ segment.06.Percussion.Voice.12.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 89 / measure 9]
+    % [Percussion.Voice.12 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 90 / measure 10]
+    % [Percussion.Voice.12 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 91 / measure 11]
+    % [Percussion.Voice.12 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 92 / measure 12]
+    % [Percussion.Voice.12 measure 12]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 93 / measure 13]
+    % [Percussion.Voice.12 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5553,7 +5553,7 @@ segment.06.Percussion.Voice.12.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.12 measure 94 / measure 14]
+        % [Percussion.Voice.12 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5580,7 +5580,7 @@ segment.06.Percussion.Voice.12.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.12 measure 95 / measure 15]
+    % [Percussion.Voice.12 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5603,7 +5603,7 @@ segment.06.Percussion.Voice.12.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.12 measure 96 / measure 16]
+        % [Percussion.Voice.12 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5650,7 +5650,7 @@ segment.06.Percussion.Voice.12 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.12 measure 97 / measure 17]
+            % [Percussion.Voice.12 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -5697,7 +5697,7 @@ segment.06.Percussion.Voice.12 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.12 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.12 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -5757,7 +5757,7 @@ segment.06.Staff.12 = {
 segment.06.Percussion.Voice.13.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 81 / measure 1]
+    % [Percussion.Voice.13 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -5818,7 +5818,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 82 / measure 2]
+    % [Percussion.Voice.13 measure 2]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5836,7 +5836,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 83 / measure 3]
+    % [Percussion.Voice.13 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5854,7 +5854,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 84 / measure 4]
+    % [Percussion.Voice.13 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5872,7 +5872,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 85 / measure 5]
+    % [Percussion.Voice.13 measure 5]
     %! recursif.rhythm()
     c'4
 
@@ -5880,7 +5880,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 86 / measure 6]
+    % [Percussion.Voice.13 measure 6]
     %! recursif.rhythm()
     c'4
 
@@ -5893,7 +5893,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.13 measure 87 / measure 7]
+        % [Percussion.Voice.13 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5925,7 +5925,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.13 measure 88 / measure 8]
+        % [Percussion.Voice.13 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -5952,7 +5952,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 89 / measure 9]
+    % [Percussion.Voice.13 measure 9]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5970,7 +5970,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 90 / measure 10]
+    % [Percussion.Voice.13 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -5988,7 +5988,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 91 / measure 11]
+    % [Percussion.Voice.13 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6006,7 +6006,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 92 / measure 12]
+    % [Percussion.Voice.13 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6029,7 +6029,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.13 measure 93 / measure 13]
+        % [Percussion.Voice.13 measure 13]
         %! recursif.rhythm()
         c'4
 
@@ -6048,7 +6048,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.13 measure 94 / measure 14]
+        % [Percussion.Voice.13 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6078,7 +6078,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.13 measure 95 / measure 15]
+    % [Percussion.Voice.13 measure 15]
     %! recursif.rhythm()
     c'2
 
@@ -6088,7 +6088,7 @@ segment.06.Percussion.Voice.13.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.13 measure 96 / measure 16]
+        % [Percussion.Voice.13 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6135,7 +6135,7 @@ segment.06.Percussion.Voice.13 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.13 measure 97 / measure 17]
+            % [Percussion.Voice.13 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -6182,7 +6182,7 @@ segment.06.Percussion.Voice.13 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.13 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.13 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -6242,7 +6242,7 @@ segment.06.Staff.13 = {
 segment.06.Percussion.Voice.14.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 81 / measure 1]
+    % [Percussion.Voice.14 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -6290,7 +6290,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 82 / measure 2]
+    % [Percussion.Voice.14 measure 2]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6308,12 +6308,12 @@ segment.06.Percussion.Voice.14.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 83 / measure 3]
+    % [Percussion.Voice.14 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 84 / measure 4]
+    % [Percussion.Voice.14 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6331,7 +6331,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 85 / measure 5]
+    % [Percussion.Voice.14 measure 5]
     %! recursif.rhythm()
     r2
 
@@ -6341,7 +6341,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.14 measure 86 / measure 6]
+        % [Percussion.Voice.14 measure 6]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6368,7 +6368,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 87 / measure 7]
+    % [Percussion.Voice.14 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6391,7 +6391,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.14 measure 88 / measure 8]
+        % [Percussion.Voice.14 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6418,12 +6418,12 @@ segment.06.Percussion.Voice.14.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 89 / measure 9]
+    % [Percussion.Voice.14 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 90 / measure 10]
+    % [Percussion.Voice.14 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6441,12 +6441,12 @@ segment.06.Percussion.Voice.14.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 91 / measure 11]
+    % [Percussion.Voice.14 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 92 / measure 12]
+    % [Percussion.Voice.14 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6464,7 +6464,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.14 measure 93 / measure 13]
+    % [Percussion.Voice.14 measure 13]
     %! recursif.rhythm()
     r2
 
@@ -6474,7 +6474,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.14 measure 94 / measure 14]
+        % [Percussion.Voice.14 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6503,7 +6503,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.14 measure 95 / measure 15]
+        % [Percussion.Voice.14 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6535,7 +6535,7 @@ segment.06.Percussion.Voice.14.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.14 measure 96 / measure 16]
+        % [Percussion.Voice.14 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6582,7 +6582,7 @@ segment.06.Percussion.Voice.14 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.14 measure 97 / measure 17]
+            % [Percussion.Voice.14 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -6629,7 +6629,7 @@ segment.06.Percussion.Voice.14 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.14 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.14 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -6689,7 +6689,7 @@ segment.06.Staff.14 = {
 segment.06.Percussion.Voice.15.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 81 / measure 1]
+    % [Percussion.Voice.15 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -6737,12 +6737,12 @@ segment.06.Percussion.Voice.15.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 82 / measure 2]
+    % [Percussion.Voice.15 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 83 / measure 3]
+    % [Percussion.Voice.15 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6760,7 +6760,7 @@ segment.06.Percussion.Voice.15.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 84 / measure 4]
+    % [Percussion.Voice.15 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6778,17 +6778,17 @@ segment.06.Percussion.Voice.15.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 85 / measure 5]
+    % [Percussion.Voice.15 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 86 / measure 6]
+    % [Percussion.Voice.15 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 87 / measure 7]
+    % [Percussion.Voice.15 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -6801,7 +6801,7 @@ segment.06.Percussion.Voice.15.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.15 measure 88 / measure 8]
+        % [Percussion.Voice.15 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6828,17 +6828,17 @@ segment.06.Percussion.Voice.15.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 89 / measure 9]
+    % [Percussion.Voice.15 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 90 / measure 10]
+    % [Percussion.Voice.15 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 91 / measure 11]
+    % [Percussion.Voice.15 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6856,7 +6856,7 @@ segment.06.Percussion.Voice.15.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 92 / measure 12]
+    % [Percussion.Voice.15 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -6874,12 +6874,12 @@ segment.06.Percussion.Voice.15.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 93 / measure 13]
+    % [Percussion.Voice.15 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.15 measure 94 / measure 14]
+    % [Percussion.Voice.15 measure 14]
     %! recursif.rhythm()
     r2
 
@@ -6889,7 +6889,7 @@ segment.06.Percussion.Voice.15.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.15 measure 95 / measure 15]
+        % [Percussion.Voice.15 measure 15]
         %! recursif.rhythm()
         c'4
 
@@ -6908,7 +6908,7 @@ segment.06.Percussion.Voice.15.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.15 measure 96 / measure 16]
+        % [Percussion.Voice.15 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -6955,7 +6955,7 @@ segment.06.Percussion.Voice.15 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.15 measure 97 / measure 17]
+            % [Percussion.Voice.15 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -7002,7 +7002,7 @@ segment.06.Percussion.Voice.15 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.15 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.15 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -7062,7 +7062,7 @@ segment.06.Staff.15 = {
 segment.06.Percussion.Voice.16.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 81 / measure 1]
+    % [Percussion.Voice.16 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -7110,17 +7110,17 @@ segment.06.Percussion.Voice.16.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 82 / measure 2]
+    % [Percussion.Voice.16 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 83 / measure 3]
+    % [Percussion.Voice.16 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 84 / measure 4]
+    % [Percussion.Voice.16 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -7138,17 +7138,17 @@ segment.06.Percussion.Voice.16.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 85 / measure 5]
+    % [Percussion.Voice.16 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 86 / measure 6]
+    % [Percussion.Voice.16 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 87 / measure 7]
+    % [Percussion.Voice.16 measure 7]
     %! recursif.rhythm()
     r2
 
@@ -7158,7 +7158,7 @@ segment.06.Percussion.Voice.16.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.16 measure 88 / measure 8]
+        % [Percussion.Voice.16 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -7185,22 +7185,22 @@ segment.06.Percussion.Voice.16.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 89 / measure 9]
+    % [Percussion.Voice.16 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 90 / measure 10]
+    % [Percussion.Voice.16 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 91 / measure 11]
+    % [Percussion.Voice.16 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 92 / measure 12]
+    % [Percussion.Voice.16 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -7218,17 +7218,17 @@ segment.06.Percussion.Voice.16.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 93 / measure 13]
+    % [Percussion.Voice.16 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 94 / measure 14]
+    % [Percussion.Voice.16 measure 14]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.16 measure 95 / measure 15]
+    % [Percussion.Voice.16 measure 15]
     %! recursif.rhythm()
     r2
 
@@ -7238,7 +7238,7 @@ segment.06.Percussion.Voice.16.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.16 measure 96 / measure 16]
+        % [Percussion.Voice.16 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -7285,7 +7285,7 @@ segment.06.Percussion.Voice.16 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.16 measure 97 / measure 17]
+            % [Percussion.Voice.16 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -7332,7 +7332,7 @@ segment.06.Percussion.Voice.16 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.16 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.16 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -7397,7 +7397,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 81 / measure 1]
+        % [Percussion.Voice.17 measure 1]
         %! -PARTS
         %! baca.SegmentMaker._reapply_persistent_indicators(3)
         %! baca.SegmentMaker._set_status_tag()
@@ -7469,7 +7469,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 82 / measure 2]
+        % [Percussion.Voice.17 measure 2]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -7498,7 +7498,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 83 / measure 3]
+        % [Percussion.Voice.17 measure 3]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -7527,7 +7527,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 84 / measure 4]
+        % [Percussion.Voice.17 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -7551,22 +7551,22 @@ segment.06.Percussion.Voice.17.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.17 measure 85 / measure 5]
+    % [Percussion.Voice.17 measure 5]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.17 measure 86 / measure 6]
+    % [Percussion.Voice.17 measure 6]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.17 measure 87 / measure 7]
+    % [Percussion.Voice.17 measure 7]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.17 measure 88 / measure 8]
+    % [Percussion.Voice.17 measure 8]
     %! recursif.rhythm()
     c'2
 
@@ -7576,7 +7576,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 89 / measure 9]
+        % [Percussion.Voice.17 measure 9]
         %! recursif.rhythm()
         c'4
 
@@ -7595,7 +7595,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 90 / measure 10]
+        % [Percussion.Voice.17 measure 10]
         %! recursif.rhythm()
         c'4
 
@@ -7614,7 +7614,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 91 / measure 11]
+        % [Percussion.Voice.17 measure 11]
         %! recursif.rhythm()
         c'4
 
@@ -7633,7 +7633,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 92 / measure 12]
+        % [Percussion.Voice.17 measure 12]
         %! recursif.rhythm()
         c'4
 
@@ -7652,42 +7652,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 93 / measure 13]
-        %! recursif.rhythm()
-        c'8
-        %! recursif.rhythm()
-        [
-
-        %! recursif.rhythm()
-        c'8
-
-        %! recursif.rhythm()
-        c'8
-
-        %! recursif.rhythm()
-        c'8
-
-        %! recursif.rhythm()
-        c'8
-
-        %! recursif.rhythm()
-        c'8
-
-        %! recursif.rhythm()
-        c'8
-        %! recursif.rhythm()
-        ]
-
-    %! recursif.rhythm()
-    }
-
-    %! recursif.rhythm()
-    \times 4/7
-    %! recursif.rhythm()
-    {
-
-        %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 94 / measure 14]
+        % [Percussion.Voice.17 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -7722,7 +7687,7 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 95 / measure 15]
+        % [Percussion.Voice.17 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -7757,7 +7722,42 @@ segment.06.Percussion.Voice.17.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.17 measure 96 / measure 16]
+        % [Percussion.Voice.17 measure 15]
+        %! recursif.rhythm()
+        c'8
+        %! recursif.rhythm()
+        [
+
+        %! recursif.rhythm()
+        c'8
+
+        %! recursif.rhythm()
+        c'8
+
+        %! recursif.rhythm()
+        c'8
+
+        %! recursif.rhythm()
+        c'8
+
+        %! recursif.rhythm()
+        c'8
+
+        %! recursif.rhythm()
+        c'8
+        %! recursif.rhythm()
+        ]
+
+    %! recursif.rhythm()
+    }
+
+    %! recursif.rhythm()
+    \times 4/7
+    %! recursif.rhythm()
+    {
+
+        %! baca.SegmentMaker._comment_measure_numbers()
+        % [Percussion.Voice.17 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -7810,7 +7810,7 @@ segment.06.Percussion.Voice.17 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.17 measure 97 / measure 17]
+            % [Percussion.Voice.17 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -7857,7 +7857,7 @@ segment.06.Percussion.Voice.17 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.17 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.17 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -7917,7 +7917,7 @@ segment.06.Staff.17 = {
 segment.06.Percussion.Voice.18.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.18 measure 81 / measure 1]
+    % [Percussion.Voice.18 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -7970,7 +7970,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.18 measure 82 / measure 2]
+        % [Percussion.Voice.18 measure 2]
         %! recursif.rhythm()
         c'4
 
@@ -7989,7 +7989,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.18 measure 83 / measure 3]
+        % [Percussion.Voice.18 measure 3]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8016,12 +8016,12 @@ segment.06.Percussion.Voice.18.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.18 measure 84 / measure 4]
+    % [Percussion.Voice.18 measure 4]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.18 measure 85 / measure 5]
+    % [Percussion.Voice.18 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -8044,7 +8044,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.18 measure 86 / measure 6]
+        % [Percussion.Voice.18 measure 6]
         %! recursif.rhythm()
         c'4
 
@@ -8058,7 +8058,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.18 measure 87 / measure 7]
+    % [Percussion.Voice.18 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -8066,12 +8066,12 @@ segment.06.Percussion.Voice.18.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.18 measure 88 / measure 8]
+    % [Percussion.Voice.18 measure 8]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.18 measure 89 / measure 9]
+    % [Percussion.Voice.18 measure 9]
     %! recursif.rhythm()
     r2
 
@@ -8081,7 +8081,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.18 measure 90 / measure 10]
+        % [Percussion.Voice.18 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8105,7 +8105,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.18 measure 91 / measure 11]
+    % [Percussion.Voice.18 measure 11]
     %! recursif.rhythm()
     c'4
 
@@ -8118,7 +8118,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.18 measure 92 / measure 12]
+        % [Percussion.Voice.18 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8148,7 +8148,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.18 measure 93 / measure 13]
+    % [Percussion.Voice.18 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -8171,7 +8171,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.18 measure 94 / measure 14]
+        % [Percussion.Voice.18 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8200,7 +8200,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.18 measure 95 / measure 15]
+        % [Percussion.Voice.18 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8232,7 +8232,7 @@ segment.06.Percussion.Voice.18.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.18 measure 96 / measure 16]
+        % [Percussion.Voice.18 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8285,7 +8285,7 @@ segment.06.Percussion.Voice.18 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.18 measure 97 / measure 17]
+            % [Percussion.Voice.18 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -8332,7 +8332,7 @@ segment.06.Percussion.Voice.18 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.18 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.18 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -8392,7 +8392,7 @@ segment.06.Staff.18 = {
 segment.06.Percussion.Voice.19.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.19 measure 81 / measure 1]
+    % [Percussion.Voice.19 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -8440,7 +8440,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.19 measure 82 / measure 2]
+    % [Percussion.Voice.19 measure 2]
     %! recursif.rhythm()
     r2
 
@@ -8450,7 +8450,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 83 / measure 3]
+        % [Percussion.Voice.19 measure 3]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8479,7 +8479,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 84 / measure 4]
+        % [Percussion.Voice.19 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8514,7 +8514,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 85 / measure 5]
+        % [Percussion.Voice.19 measure 5]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8541,7 +8541,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.19 measure 86 / measure 6]
+    % [Percussion.Voice.19 measure 6]
     %! recursif.rhythm()
     c'4
 
@@ -8554,7 +8554,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 87 / measure 7]
+        % [Percussion.Voice.19 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8589,7 +8589,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 88 / measure 8]
+        % [Percussion.Voice.19 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8613,7 +8613,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.19 measure 89 / measure 9]
+    % [Percussion.Voice.19 measure 9]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -8631,7 +8631,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.19 measure 90 / measure 10]
+    % [Percussion.Voice.19 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -8654,7 +8654,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 91 / measure 11]
+        % [Percussion.Voice.19 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8689,7 +8689,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 92 / measure 12]
+        % [Percussion.Voice.19 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8718,7 +8718,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 93 / measure 13]
+        % [Percussion.Voice.19 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8745,7 +8745,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.19 measure 94 / measure 14]
+    % [Percussion.Voice.19 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -8758,7 +8758,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 95 / measure 15]
+        % [Percussion.Voice.19 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8787,7 +8787,7 @@ segment.06.Percussion.Voice.19.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.19 measure 96 / measure 16]
+        % [Percussion.Voice.19 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -8840,7 +8840,7 @@ segment.06.Percussion.Voice.19 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.19 measure 97 / measure 17]
+            % [Percussion.Voice.19 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -8887,7 +8887,7 @@ segment.06.Percussion.Voice.19 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.19 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.19 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -8947,7 +8947,7 @@ segment.06.Staff.19 = {
 segment.06.Percussion.Voice.20.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 81 / measure 1]
+    % [Percussion.Voice.20 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -8995,12 +8995,12 @@ segment.06.Percussion.Voice.20.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 82 / measure 2]
+    % [Percussion.Voice.20 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 83 / measure 3]
+    % [Percussion.Voice.20 measure 3]
     %! recursif.rhythm()
     r2
 
@@ -9010,7 +9010,7 @@ segment.06.Percussion.Voice.20.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.20 measure 84 / measure 4]
+        % [Percussion.Voice.20 measure 4]
         %! recursif.rhythm()
         c'4
 
@@ -9024,7 +9024,7 @@ segment.06.Percussion.Voice.20.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 85 / measure 5]
+    % [Percussion.Voice.20 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -9047,7 +9047,7 @@ segment.06.Percussion.Voice.20.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.20 measure 86 / measure 6]
+        % [Percussion.Voice.20 measure 6]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9074,7 +9074,7 @@ segment.06.Percussion.Voice.20.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 87 / measure 7]
+    % [Percussion.Voice.20 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -9097,7 +9097,7 @@ segment.06.Percussion.Voice.20.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.20 measure 88 / measure 8]
+        % [Percussion.Voice.20 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9121,12 +9121,12 @@ segment.06.Percussion.Voice.20.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 89 / measure 9]
+    % [Percussion.Voice.20 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 90 / measure 10]
+    % [Percussion.Voice.20 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -9144,17 +9144,17 @@ segment.06.Percussion.Voice.20.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 91 / measure 11]
+    % [Percussion.Voice.20 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 92 / measure 12]
+    % [Percussion.Voice.20 measure 12]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 93 / measure 13]
+    % [Percussion.Voice.20 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -9177,7 +9177,7 @@ segment.06.Percussion.Voice.20.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.20 measure 94 / measure 14]
+        % [Percussion.Voice.20 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9204,7 +9204,7 @@ segment.06.Percussion.Voice.20.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.20 measure 95 / measure 15]
+    % [Percussion.Voice.20 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -9227,7 +9227,7 @@ segment.06.Percussion.Voice.20.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.20 measure 96 / measure 16]
+        % [Percussion.Voice.20 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9280,7 +9280,7 @@ segment.06.Percussion.Voice.20 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.20 measure 97 / measure 17]
+            % [Percussion.Voice.20 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -9327,7 +9327,7 @@ segment.06.Percussion.Voice.20 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.20 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.20 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -9387,7 +9387,7 @@ segment.06.Staff.20 = {
 segment.06.Percussion.Voice.21.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.21 measure 81 / measure 1]
+    % [Percussion.Voice.21 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -9435,17 +9435,17 @@ segment.06.Percussion.Voice.21.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.21 measure 82 / measure 2]
+    % [Percussion.Voice.21 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.21 measure 83 / measure 3]
+    % [Percussion.Voice.21 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.21 measure 84 / measure 4]
+    % [Percussion.Voice.21 measure 4]
     %! recursif.rhythm()
     r2
 
@@ -9455,7 +9455,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.21 measure 85 / measure 5]
+        % [Percussion.Voice.21 measure 5]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9479,7 +9479,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.21 measure 86 / measure 6]
+    % [Percussion.Voice.21 measure 6]
     %! recursif.rhythm()
     c'2
 
@@ -9489,7 +9489,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.21 measure 87 / measure 7]
+        % [Percussion.Voice.21 measure 7]
         %! recursif.rhythm()
         c'4
 
@@ -9508,7 +9508,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.21 measure 88 / measure 8]
+        % [Percussion.Voice.21 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9538,7 +9538,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.21 measure 89 / measure 9]
+    % [Percussion.Voice.21 measure 9]
     %! recursif.rhythm()
     c'4
 
@@ -9546,7 +9546,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.21 measure 90 / measure 10]
+    % [Percussion.Voice.21 measure 10]
     %! recursif.rhythm()
     c'4
 
@@ -9559,7 +9559,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.21 measure 91 / measure 11]
+        % [Percussion.Voice.21 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9591,7 +9591,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.21 measure 92 / measure 12]
+        % [Percussion.Voice.21 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9623,7 +9623,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.21 measure 93 / measure 13]
+        % [Percussion.Voice.21 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9647,7 +9647,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.21 measure 94 / measure 14]
+    % [Percussion.Voice.21 measure 14]
     %! recursif.rhythm()
     c'2
 
@@ -9657,7 +9657,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.21 measure 95 / measure 15]
+        % [Percussion.Voice.21 measure 15]
         %! recursif.rhythm()
         c'4
 
@@ -9676,7 +9676,7 @@ segment.06.Percussion.Voice.21.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.21 measure 96 / measure 16]
+        % [Percussion.Voice.21 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9729,7 +9729,7 @@ segment.06.Percussion.Voice.21 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.21 measure 97 / measure 17]
+            % [Percussion.Voice.21 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -9776,7 +9776,7 @@ segment.06.Percussion.Voice.21 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.21 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.21 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -9836,7 +9836,7 @@ segment.06.Staff.21 = {
 segment.06.Percussion.Voice.22.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 81 / measure 1]
+    % [Percussion.Voice.22 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -9884,22 +9884,22 @@ segment.06.Percussion.Voice.22.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 82 / measure 2]
+    % [Percussion.Voice.22 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 83 / measure 3]
+    % [Percussion.Voice.22 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 84 / measure 4]
+    % [Percussion.Voice.22 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 85 / measure 5]
+    % [Percussion.Voice.22 measure 5]
     %! recursif.rhythm()
     r2
 
@@ -9909,7 +9909,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.22 measure 86 / measure 6]
+        % [Percussion.Voice.22 measure 6]
         %! recursif.rhythm()
         c'4
 
@@ -9923,7 +9923,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 87 / measure 7]
+    % [Percussion.Voice.22 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -9936,7 +9936,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.22 measure 88 / measure 8]
+        % [Percussion.Voice.22 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -9966,7 +9966,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 89 / measure 9]
+    % [Percussion.Voice.22 measure 9]
     %! recursif.rhythm()
     r2
 
@@ -9976,7 +9976,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.22 measure 90 / measure 10]
+        % [Percussion.Voice.22 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -10003,7 +10003,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 91 / measure 11]
+    % [Percussion.Voice.22 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -10026,7 +10026,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.22 measure 92 / measure 12]
+        % [Percussion.Voice.22 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -10053,7 +10053,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 93 / measure 13]
+    % [Percussion.Voice.22 measure 13]
     %! recursif.rhythm()
     r2
 
@@ -10063,7 +10063,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.22 measure 94 / measure 14]
+        % [Percussion.Voice.22 measure 14]
         %! recursif.rhythm()
         c'4
 
@@ -10077,7 +10077,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.22 measure 95 / measure 15]
+    % [Percussion.Voice.22 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -10090,7 +10090,7 @@ segment.06.Percussion.Voice.22.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.22 measure 96 / measure 16]
+        % [Percussion.Voice.22 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -10143,7 +10143,7 @@ segment.06.Percussion.Voice.22 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.22 measure 97 / measure 17]
+            % [Percussion.Voice.22 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -10190,7 +10190,7 @@ segment.06.Percussion.Voice.22 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.22 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.22 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -10250,7 +10250,7 @@ segment.06.Staff.22 = {
 segment.06.Percussion.Voice.23.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 81 / measure 1]
+    % [Percussion.Voice.23 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -10298,27 +10298,27 @@ segment.06.Percussion.Voice.23.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 82 / measure 2]
+    % [Percussion.Voice.23 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 83 / measure 3]
+    % [Percussion.Voice.23 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 84 / measure 4]
+    % [Percussion.Voice.23 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 85 / measure 5]
+    % [Percussion.Voice.23 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 86 / measure 6]
+    % [Percussion.Voice.23 measure 6]
     %! recursif.rhythm()
     r2
 
@@ -10328,7 +10328,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.23 measure 87 / measure 7]
+        % [Percussion.Voice.23 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -10357,7 +10357,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.23 measure 88 / measure 8]
+        % [Percussion.Voice.23 measure 8]
         %! recursif.rhythm()
         c'4
 
@@ -10371,7 +10371,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 89 / measure 9]
+    % [Percussion.Voice.23 measure 9]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -10389,7 +10389,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 90 / measure 10]
+    % [Percussion.Voice.23 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -10412,7 +10412,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.23 measure 91 / measure 11]
+        % [Percussion.Voice.23 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -10439,7 +10439,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 92 / measure 12]
+    % [Percussion.Voice.23 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -10447,7 +10447,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 93 / measure 13]
+    % [Percussion.Voice.23 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -10465,7 +10465,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 94 / measure 14]
+    % [Percussion.Voice.23 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -10483,7 +10483,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.23 measure 95 / measure 15]
+    % [Percussion.Voice.23 measure 15]
     %! recursif.rhythm()
     c'2
 
@@ -10493,7 +10493,7 @@ segment.06.Percussion.Voice.23.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.23 measure 96 / measure 16]
+        % [Percussion.Voice.23 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -10546,7 +10546,7 @@ segment.06.Percussion.Voice.23 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.23 measure 97 / measure 17]
+            % [Percussion.Voice.23 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -10593,7 +10593,7 @@ segment.06.Percussion.Voice.23 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.23 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.23 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -10653,7 +10653,7 @@ segment.06.Staff.23 = {
 segment.06.Percussion.Voice.24.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 81 / measure 1]
+    % [Percussion.Voice.24 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -10701,32 +10701,32 @@ segment.06.Percussion.Voice.24.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 82 / measure 2]
+    % [Percussion.Voice.24 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 83 / measure 3]
+    % [Percussion.Voice.24 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 84 / measure 4]
+    % [Percussion.Voice.24 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 85 / measure 5]
+    % [Percussion.Voice.24 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 86 / measure 6]
+    % [Percussion.Voice.24 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 87 / measure 7]
+    % [Percussion.Voice.24 measure 7]
     %! recursif.rhythm()
     r2
 
@@ -10736,7 +10736,7 @@ segment.06.Percussion.Voice.24.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.24 measure 88 / measure 8]
+        % [Percussion.Voice.24 measure 8]
         %! recursif.rhythm()
         c'4
 
@@ -10750,12 +10750,12 @@ segment.06.Percussion.Voice.24.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 89 / measure 9]
+    % [Percussion.Voice.24 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 90 / measure 10]
+    % [Percussion.Voice.24 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -10773,12 +10773,12 @@ segment.06.Percussion.Voice.24.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 91 / measure 11]
+    % [Percussion.Voice.24 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 92 / measure 12]
+    % [Percussion.Voice.24 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -10786,12 +10786,12 @@ segment.06.Percussion.Voice.24.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 93 / measure 13]
+    % [Percussion.Voice.24 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 94 / measure 14]
+    % [Percussion.Voice.24 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -10809,7 +10809,7 @@ segment.06.Percussion.Voice.24.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.24 measure 95 / measure 15]
+    % [Percussion.Voice.24 measure 15]
     %! recursif.rhythm()
     r2
 
@@ -10819,7 +10819,7 @@ segment.06.Percussion.Voice.24.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.24 measure 96 / measure 16]
+        % [Percussion.Voice.24 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -10872,7 +10872,7 @@ segment.06.Percussion.Voice.24 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.24 measure 97 / measure 17]
+            % [Percussion.Voice.24 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -10919,7 +10919,7 @@ segment.06.Percussion.Voice.24 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.24 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.24 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -10979,7 +10979,7 @@ segment.06.Staff.24 = {
 segment.06.Percussion.Voice.25.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 81 / measure 1]
+    % [Percussion.Voice.25 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -11027,37 +11027,37 @@ segment.06.Percussion.Voice.25.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 82 / measure 2]
+    % [Percussion.Voice.25 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 83 / measure 3]
+    % [Percussion.Voice.25 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 84 / measure 4]
+    % [Percussion.Voice.25 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 85 / measure 5]
+    % [Percussion.Voice.25 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 86 / measure 6]
+    % [Percussion.Voice.25 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 87 / measure 7]
+    % [Percussion.Voice.25 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 88 / measure 8]
+    % [Percussion.Voice.25 measure 8]
     %! recursif.rhythm()
     r2
 
@@ -11067,7 +11067,7 @@ segment.06.Percussion.Voice.25.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.25 measure 89 / measure 9]
+        % [Percussion.Voice.25 measure 9]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11096,7 +11096,7 @@ segment.06.Percussion.Voice.25.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.25 measure 90 / measure 10]
+        % [Percussion.Voice.25 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11120,12 +11120,12 @@ segment.06.Percussion.Voice.25.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 91 / measure 11]
+    % [Percussion.Voice.25 measure 11]
     %! recursif.rhythm()
     c'2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.25 measure 92 / measure 12]
+    % [Percussion.Voice.25 measure 12]
     %! recursif.rhythm()
     c'2
 
@@ -11135,7 +11135,7 @@ segment.06.Percussion.Voice.25.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.25 measure 93 / measure 13]
+        % [Percussion.Voice.25 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11170,7 +11170,7 @@ segment.06.Percussion.Voice.25.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.25 measure 94 / measure 14]
+        % [Percussion.Voice.25 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11205,7 +11205,7 @@ segment.06.Percussion.Voice.25.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.25 measure 95 / measure 15]
+        % [Percussion.Voice.25 measure 15]
         %! recursif.rhythm()
         c'4
 
@@ -11224,7 +11224,7 @@ segment.06.Percussion.Voice.25.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.25 measure 96 / measure 16]
+        % [Percussion.Voice.25 measure 16]
         %! recursif.rhythm()
         c'4
 
@@ -11261,7 +11261,7 @@ segment.06.Percussion.Voice.25 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.25 measure 97 / measure 17]
+            % [Percussion.Voice.25 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -11308,7 +11308,7 @@ segment.06.Percussion.Voice.25 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.25 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.25 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -11368,7 +11368,7 @@ segment.06.Staff.25 = {
 segment.06.Percussion.Voice.26.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 81 / measure 1]
+    % [Percussion.Voice.26 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -11416,42 +11416,42 @@ segment.06.Percussion.Voice.26.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 82 / measure 2]
+    % [Percussion.Voice.26 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 83 / measure 3]
+    % [Percussion.Voice.26 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 84 / measure 4]
+    % [Percussion.Voice.26 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 85 / measure 5]
+    % [Percussion.Voice.26 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 86 / measure 6]
+    % [Percussion.Voice.26 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 87 / measure 7]
+    % [Percussion.Voice.26 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 88 / measure 8]
+    % [Percussion.Voice.26 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 89 / measure 9]
+    % [Percussion.Voice.26 measure 9]
     %! recursif.rhythm()
     r2
 
@@ -11461,7 +11461,7 @@ segment.06.Percussion.Voice.26.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.26 measure 90 / measure 10]
+        % [Percussion.Voice.26 measure 10]
         %! recursif.rhythm()
         c'4
 
@@ -11480,7 +11480,7 @@ segment.06.Percussion.Voice.26.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.26 measure 91 / measure 11]
+        % [Percussion.Voice.26 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11512,7 +11512,7 @@ segment.06.Percussion.Voice.26.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.26 measure 92 / measure 12]
+        % [Percussion.Voice.26 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11536,7 +11536,7 @@ segment.06.Percussion.Voice.26.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.26 measure 93 / measure 13]
+    % [Percussion.Voice.26 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -11559,7 +11559,7 @@ segment.06.Percussion.Voice.26.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.26 measure 94 / measure 14]
+        % [Percussion.Voice.26 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11588,7 +11588,7 @@ segment.06.Percussion.Voice.26.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.26 measure 95 / measure 15]
+        % [Percussion.Voice.26 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11620,7 +11620,7 @@ segment.06.Percussion.Voice.26.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.26 measure 96 / measure 16]
+        % [Percussion.Voice.26 measure 16]
         %! recursif.rhythm()
         c'4
 
@@ -11657,7 +11657,7 @@ segment.06.Percussion.Voice.26 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.26 measure 97 / measure 17]
+            % [Percussion.Voice.26 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -11704,7 +11704,7 @@ segment.06.Percussion.Voice.26 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.26 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.26 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -11764,7 +11764,7 @@ segment.06.Staff.26 = {
 segment.06.Percussion.Voice.27.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 81 / measure 1]
+    % [Percussion.Voice.27 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -11812,47 +11812,47 @@ segment.06.Percussion.Voice.27.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 82 / measure 2]
+    % [Percussion.Voice.27 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 83 / measure 3]
+    % [Percussion.Voice.27 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 84 / measure 4]
+    % [Percussion.Voice.27 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 85 / measure 5]
+    % [Percussion.Voice.27 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 86 / measure 6]
+    % [Percussion.Voice.27 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 87 / measure 7]
+    % [Percussion.Voice.27 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 88 / measure 8]
+    % [Percussion.Voice.27 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 89 / measure 9]
+    % [Percussion.Voice.27 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 90 / measure 10]
+    % [Percussion.Voice.27 measure 10]
     %! recursif.rhythm()
     r2
 
@@ -11862,7 +11862,7 @@ segment.06.Percussion.Voice.27.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.27 measure 91 / measure 11]
+        % [Percussion.Voice.27 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11891,7 +11891,7 @@ segment.06.Percussion.Voice.27.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.27 measure 92 / measure 12]
+        % [Percussion.Voice.27 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11921,7 +11921,7 @@ segment.06.Percussion.Voice.27.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 93 / measure 13]
+    % [Percussion.Voice.27 measure 13]
     %! recursif.rhythm()
     c'4
 
@@ -11934,7 +11934,7 @@ segment.06.Percussion.Voice.27.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.27 measure 94 / measure 14]
+        % [Percussion.Voice.27 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -11961,7 +11961,7 @@ segment.06.Percussion.Voice.27.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.27 measure 95 / measure 15]
+    % [Percussion.Voice.27 measure 15]
     %! recursif.rhythm()
     c'2
 
@@ -11971,7 +11971,7 @@ segment.06.Percussion.Voice.27.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.27 measure 96 / measure 16]
+        % [Percussion.Voice.27 measure 16]
         %! recursif.rhythm()
         c'4
 
@@ -12008,7 +12008,7 @@ segment.06.Percussion.Voice.27 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.27 measure 97 / measure 17]
+            % [Percussion.Voice.27 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -12055,7 +12055,7 @@ segment.06.Percussion.Voice.27 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.27 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.27 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -12115,7 +12115,7 @@ segment.06.Staff.27 = {
 segment.06.Percussion.Voice.28.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 81 / measure 1]
+    % [Percussion.Voice.28 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -12163,52 +12163,52 @@ segment.06.Percussion.Voice.28.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 82 / measure 2]
+    % [Percussion.Voice.28 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 83 / measure 3]
+    % [Percussion.Voice.28 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 84 / measure 4]
+    % [Percussion.Voice.28 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 85 / measure 5]
+    % [Percussion.Voice.28 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 86 / measure 6]
+    % [Percussion.Voice.28 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 87 / measure 7]
+    % [Percussion.Voice.28 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 88 / measure 8]
+    % [Percussion.Voice.28 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 89 / measure 9]
+    % [Percussion.Voice.28 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 90 / measure 10]
+    % [Percussion.Voice.28 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 91 / measure 11]
+    % [Percussion.Voice.28 measure 11]
     %! recursif.rhythm()
     r2
 
@@ -12218,7 +12218,7 @@ segment.06.Percussion.Voice.28.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.28 measure 92 / measure 12]
+        % [Percussion.Voice.28 measure 12]
         %! recursif.rhythm()
         c'4
 
@@ -12232,7 +12232,7 @@ segment.06.Percussion.Voice.28.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 93 / measure 13]
+    % [Percussion.Voice.28 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -12250,7 +12250,7 @@ segment.06.Percussion.Voice.28.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 94 / measure 14]
+    % [Percussion.Voice.28 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -12258,7 +12258,7 @@ segment.06.Percussion.Voice.28.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.28 measure 95 / measure 15]
+    % [Percussion.Voice.28 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -12281,7 +12281,7 @@ segment.06.Percussion.Voice.28.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.28 measure 96 / measure 16]
+        % [Percussion.Voice.28 measure 16]
         %! recursif.rhythm()
         c'4
 
@@ -12318,7 +12318,7 @@ segment.06.Percussion.Voice.28 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.28 measure 97 / measure 17]
+            % [Percussion.Voice.28 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -12365,7 +12365,7 @@ segment.06.Percussion.Voice.28 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.28 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.28 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -12425,7 +12425,7 @@ segment.06.Staff.28 = {
 segment.06.Percussion.Voice.29.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 81 / measure 1]
+    % [Percussion.Voice.29 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -12473,57 +12473,57 @@ segment.06.Percussion.Voice.29.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 82 / measure 2]
+    % [Percussion.Voice.29 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 83 / measure 3]
+    % [Percussion.Voice.29 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 84 / measure 4]
+    % [Percussion.Voice.29 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 85 / measure 5]
+    % [Percussion.Voice.29 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 86 / measure 6]
+    % [Percussion.Voice.29 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 87 / measure 7]
+    % [Percussion.Voice.29 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 88 / measure 8]
+    % [Percussion.Voice.29 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 89 / measure 9]
+    % [Percussion.Voice.29 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 90 / measure 10]
+    % [Percussion.Voice.29 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 91 / measure 11]
+    % [Percussion.Voice.29 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 92 / measure 12]
+    % [Percussion.Voice.29 measure 12]
     %! recursif.rhythm()
     r2
 
@@ -12533,7 +12533,7 @@ segment.06.Percussion.Voice.29.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.29 measure 93 / measure 13]
+        % [Percussion.Voice.29 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -12557,7 +12557,7 @@ segment.06.Percussion.Voice.29.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.29 measure 94 / measure 14]
+    % [Percussion.Voice.29 measure 14]
     %! recursif.rhythm()
     c'2
 
@@ -12567,7 +12567,7 @@ segment.06.Percussion.Voice.29.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.29 measure 95 / measure 15]
+        % [Percussion.Voice.29 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -12602,7 +12602,7 @@ segment.06.Percussion.Voice.29.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.29 measure 96 / measure 16]
+        % [Percussion.Voice.29 measure 16]
         %! recursif.rhythm()
         c'4
 
@@ -12639,7 +12639,7 @@ segment.06.Percussion.Voice.29 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.29 measure 97 / measure 17]
+            % [Percussion.Voice.29 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -12686,7 +12686,7 @@ segment.06.Percussion.Voice.29 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.29 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.29 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -12746,7 +12746,7 @@ segment.06.Staff.29 = {
 segment.06.Percussion.Voice.30.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 81 / measure 1]
+    % [Percussion.Voice.30 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -12794,62 +12794,62 @@ segment.06.Percussion.Voice.30.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 82 / measure 2]
+    % [Percussion.Voice.30 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 83 / measure 3]
+    % [Percussion.Voice.30 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 84 / measure 4]
+    % [Percussion.Voice.30 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 85 / measure 5]
+    % [Percussion.Voice.30 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 86 / measure 6]
+    % [Percussion.Voice.30 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 87 / measure 7]
+    % [Percussion.Voice.30 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 88 / measure 8]
+    % [Percussion.Voice.30 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 89 / measure 9]
+    % [Percussion.Voice.30 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 90 / measure 10]
+    % [Percussion.Voice.30 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 91 / measure 11]
+    % [Percussion.Voice.30 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 92 / measure 12]
+    % [Percussion.Voice.30 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 93 / measure 13]
+    % [Percussion.Voice.30 measure 13]
     %! recursif.rhythm()
     r2
 
@@ -12859,7 +12859,7 @@ segment.06.Percussion.Voice.30.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.30 measure 94 / measure 14]
+        % [Percussion.Voice.30 measure 14]
         %! recursif.rhythm()
         c'4
 
@@ -12873,7 +12873,7 @@ segment.06.Percussion.Voice.30.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.30 measure 95 / measure 15]
+    % [Percussion.Voice.30 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -12886,7 +12886,7 @@ segment.06.Percussion.Voice.30.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.30 measure 96 / measure 16]
+        % [Percussion.Voice.30 measure 16]
         %! recursif.rhythm()
         c'4
 
@@ -12923,7 +12923,7 @@ segment.06.Percussion.Voice.30 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.30 measure 97 / measure 17]
+            % [Percussion.Voice.30 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -12970,7 +12970,7 @@ segment.06.Percussion.Voice.30 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.30 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.30 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -13030,7 +13030,7 @@ segment.06.Staff.30 = {
 segment.06.Percussion.Voice.31.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 81 / measure 1]
+    % [Percussion.Voice.31 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -13078,67 +13078,67 @@ segment.06.Percussion.Voice.31.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 82 / measure 2]
+    % [Percussion.Voice.31 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 83 / measure 3]
+    % [Percussion.Voice.31 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 84 / measure 4]
+    % [Percussion.Voice.31 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 85 / measure 5]
+    % [Percussion.Voice.31 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 86 / measure 6]
+    % [Percussion.Voice.31 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 87 / measure 7]
+    % [Percussion.Voice.31 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 88 / measure 8]
+    % [Percussion.Voice.31 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 89 / measure 9]
+    % [Percussion.Voice.31 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 90 / measure 10]
+    % [Percussion.Voice.31 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 91 / measure 11]
+    % [Percussion.Voice.31 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 92 / measure 12]
+    % [Percussion.Voice.31 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 93 / measure 13]
+    % [Percussion.Voice.31 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.31 measure 94 / measure 14]
+    % [Percussion.Voice.31 measure 14]
     %! recursif.rhythm()
     r2
 
@@ -13148,7 +13148,7 @@ segment.06.Percussion.Voice.31.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.31 measure 95 / measure 15]
+        % [Percussion.Voice.31 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -13177,7 +13177,7 @@ segment.06.Percussion.Voice.31.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.31 measure 96 / measure 16]
+        % [Percussion.Voice.31 measure 16]
         %! recursif.rhythm()
         c'4
 
@@ -13214,7 +13214,7 @@ segment.06.Percussion.Voice.31 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.31 measure 97 / measure 17]
+            % [Percussion.Voice.31 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -13261,7 +13261,7 @@ segment.06.Percussion.Voice.31 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.31 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.31 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -13321,7 +13321,7 @@ segment.06.Staff.31 = {
 segment.06.Percussion.Voice.32.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 81 / measure 1]
+    % [Percussion.Voice.32 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -13369,72 +13369,72 @@ segment.06.Percussion.Voice.32.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 82 / measure 2]
+    % [Percussion.Voice.32 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 83 / measure 3]
+    % [Percussion.Voice.32 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 84 / measure 4]
+    % [Percussion.Voice.32 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 85 / measure 5]
+    % [Percussion.Voice.32 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 86 / measure 6]
+    % [Percussion.Voice.32 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 87 / measure 7]
+    % [Percussion.Voice.32 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 88 / measure 8]
+    % [Percussion.Voice.32 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 89 / measure 9]
+    % [Percussion.Voice.32 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 90 / measure 10]
+    % [Percussion.Voice.32 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 91 / measure 11]
+    % [Percussion.Voice.32 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 92 / measure 12]
+    % [Percussion.Voice.32 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 93 / measure 13]
+    % [Percussion.Voice.32 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 94 / measure 14]
+    % [Percussion.Voice.32 measure 14]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.32 measure 95 / measure 15]
+    % [Percussion.Voice.32 measure 15]
     %! recursif.rhythm()
     r2
 
@@ -13444,7 +13444,7 @@ segment.06.Percussion.Voice.32.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.32 measure 96 / measure 16]
+        % [Percussion.Voice.32 measure 16]
         %! recursif.rhythm()
         c'4
 
@@ -13481,7 +13481,7 @@ segment.06.Percussion.Voice.32 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.32 measure 97 / measure 17]
+            % [Percussion.Voice.32 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -13528,7 +13528,7 @@ segment.06.Percussion.Voice.32 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.32 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.32 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -13588,7 +13588,7 @@ segment.06.Staff.32 = {
 segment.06.Percussion.Voice.33.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 81 / measure 1]
+    % [Percussion.Voice.33 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -13639,7 +13639,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 82 / measure 2]
+    % [Percussion.Voice.33 measure 2]
     %! recursif.rhythm()
     c'4
 
@@ -13647,7 +13647,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 83 / measure 3]
+    % [Percussion.Voice.33 measure 3]
     %! recursif.rhythm()
     c'4
 
@@ -13655,7 +13655,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 84 / measure 4]
+    % [Percussion.Voice.33 measure 4]
     %! recursif.rhythm()
     c'4
 
@@ -13663,7 +13663,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 85 / measure 5]
+    % [Percussion.Voice.33 measure 5]
     %! recursif.rhythm()
     c'4
 
@@ -13671,7 +13671,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 86 / measure 6]
+    % [Percussion.Voice.33 measure 6]
     %! recursif.rhythm()
     c'4
 
@@ -13679,7 +13679,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 87 / measure 7]
+    % [Percussion.Voice.33 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -13687,7 +13687,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 88 / measure 8]
+    % [Percussion.Voice.33 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -13695,7 +13695,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 89 / measure 9]
+    % [Percussion.Voice.33 measure 9]
     %! recursif.rhythm()
     c'4
 
@@ -13703,7 +13703,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 90 / measure 10]
+    % [Percussion.Voice.33 measure 10]
     %! recursif.rhythm()
     c'4
 
@@ -13711,7 +13711,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 91 / measure 11]
+    % [Percussion.Voice.33 measure 11]
     %! recursif.rhythm()
     c'4
 
@@ -13719,7 +13719,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 92 / measure 12]
+    % [Percussion.Voice.33 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -13727,7 +13727,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 93 / measure 13]
+    % [Percussion.Voice.33 measure 13]
     %! recursif.rhythm()
     c'4
 
@@ -13735,7 +13735,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 94 / measure 14]
+    % [Percussion.Voice.33 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -13743,7 +13743,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 95 / measure 15]
+    % [Percussion.Voice.33 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -13751,7 +13751,7 @@ segment.06.Percussion.Voice.33.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.33 measure 96 / measure 16]
+    % [Percussion.Voice.33 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -13782,7 +13782,7 @@ segment.06.Percussion.Voice.33 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.33 measure 97 / measure 17]
+            % [Percussion.Voice.33 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -13829,7 +13829,7 @@ segment.06.Percussion.Voice.33 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.33 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.33 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -13889,7 +13889,7 @@ segment.06.Staff.33 = {
 segment.06.Percussion.Voice.34.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 81 / measure 1]
+    % [Percussion.Voice.34 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -13942,7 +13942,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.34 measure 82 / measure 2]
+        % [Percussion.Voice.34 measure 2]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -13969,7 +13969,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 83 / measure 3]
+    % [Percussion.Voice.34 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -13987,7 +13987,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 84 / measure 4]
+    % [Percussion.Voice.34 measure 4]
     %! recursif.rhythm()
     c'4
 
@@ -13995,7 +13995,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 85 / measure 5]
+    % [Percussion.Voice.34 measure 5]
     %! recursif.rhythm()
     r2
 
@@ -14005,7 +14005,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.34 measure 86 / measure 6]
+        % [Percussion.Voice.34 measure 6]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14032,7 +14032,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 87 / measure 7]
+    % [Percussion.Voice.34 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14050,7 +14050,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 88 / measure 8]
+    % [Percussion.Voice.34 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -14058,7 +14058,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 89 / measure 9]
+    % [Percussion.Voice.34 measure 9]
     %! recursif.rhythm()
     r2
 
@@ -14068,7 +14068,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.34 measure 90 / measure 10]
+        % [Percussion.Voice.34 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14095,7 +14095,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 91 / measure 11]
+    % [Percussion.Voice.34 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14113,7 +14113,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 92 / measure 12]
+    % [Percussion.Voice.34 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -14121,7 +14121,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 93 / measure 13]
+    % [Percussion.Voice.34 measure 13]
     %! recursif.rhythm()
     r2
 
@@ -14131,7 +14131,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.34 measure 94 / measure 14]
+        % [Percussion.Voice.34 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14158,7 +14158,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 95 / measure 15]
+    % [Percussion.Voice.34 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14176,7 +14176,7 @@ segment.06.Percussion.Voice.34.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.34 measure 96 / measure 16]
+    % [Percussion.Voice.34 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -14207,7 +14207,7 @@ segment.06.Percussion.Voice.34 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.34 measure 97 / measure 17]
+            % [Percussion.Voice.34 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -14254,7 +14254,7 @@ segment.06.Percussion.Voice.34 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.34 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.34 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -14314,7 +14314,7 @@ segment.06.Staff.34 = {
 segment.06.Percussion.Voice.35.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 81 / measure 1]
+    % [Percussion.Voice.35 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -14362,12 +14362,12 @@ segment.06.Percussion.Voice.35.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 82 / measure 2]
+    % [Percussion.Voice.35 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 83 / measure 3]
+    % [Percussion.Voice.35 measure 3]
     %! recursif.rhythm()
     c'4
 
@@ -14380,7 +14380,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.35 measure 84 / measure 4]
+        % [Percussion.Voice.35 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14407,7 +14407,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 85 / measure 5]
+    % [Percussion.Voice.35 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14425,7 +14425,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 86 / measure 6]
+    % [Percussion.Voice.35 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14448,7 +14448,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.35 measure 87 / measure 7]
+        % [Percussion.Voice.35 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14475,7 +14475,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 88 / measure 8]
+    % [Percussion.Voice.35 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -14483,17 +14483,17 @@ segment.06.Percussion.Voice.35.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 89 / measure 9]
+    % [Percussion.Voice.35 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 90 / measure 10]
+    % [Percussion.Voice.35 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 91 / measure 11]
+    % [Percussion.Voice.35 measure 11]
     %! recursif.rhythm()
     c'4
 
@@ -14506,7 +14506,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.35 measure 92 / measure 12]
+        % [Percussion.Voice.35 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14533,7 +14533,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 93 / measure 13]
+    % [Percussion.Voice.35 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14551,7 +14551,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 94 / measure 14]
+    % [Percussion.Voice.35 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14574,7 +14574,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.35 measure 95 / measure 15]
+        % [Percussion.Voice.35 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14601,7 +14601,7 @@ segment.06.Percussion.Voice.35.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.35 measure 96 / measure 16]
+    % [Percussion.Voice.35 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -14632,7 +14632,7 @@ segment.06.Percussion.Voice.35 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.35 measure 97 / measure 17]
+            % [Percussion.Voice.35 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -14679,7 +14679,7 @@ segment.06.Percussion.Voice.35 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.35 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.35 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -14739,7 +14739,7 @@ segment.06.Staff.35 = {
 segment.06.Percussion.Voice.36.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 81 / measure 1]
+    % [Percussion.Voice.36 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -14787,12 +14787,12 @@ segment.06.Percussion.Voice.36.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 82 / measure 2]
+    % [Percussion.Voice.36 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 83 / measure 3]
+    % [Percussion.Voice.36 measure 3]
     %! recursif.rhythm()
     r2
 
@@ -14802,7 +14802,7 @@ segment.06.Percussion.Voice.36.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.36 measure 84 / measure 4]
+        % [Percussion.Voice.36 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14829,12 +14829,12 @@ segment.06.Percussion.Voice.36.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 85 / measure 5]
+    % [Percussion.Voice.36 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 86 / measure 6]
+    % [Percussion.Voice.36 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14852,12 +14852,12 @@ segment.06.Percussion.Voice.36.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 87 / measure 7]
+    % [Percussion.Voice.36 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 88 / measure 8]
+    % [Percussion.Voice.36 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -14865,17 +14865,17 @@ segment.06.Percussion.Voice.36.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 89 / measure 9]
+    % [Percussion.Voice.36 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 90 / measure 10]
+    % [Percussion.Voice.36 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 91 / measure 11]
+    % [Percussion.Voice.36 measure 11]
     %! recursif.rhythm()
     r2
 
@@ -14885,7 +14885,7 @@ segment.06.Percussion.Voice.36.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.36 measure 92 / measure 12]
+        % [Percussion.Voice.36 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -14912,12 +14912,12 @@ segment.06.Percussion.Voice.36.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 93 / measure 13]
+    % [Percussion.Voice.36 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 94 / measure 14]
+    % [Percussion.Voice.36 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -14935,12 +14935,12 @@ segment.06.Percussion.Voice.36.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 95 / measure 15]
+    % [Percussion.Voice.36 measure 15]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.36 measure 96 / measure 16]
+    % [Percussion.Voice.36 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -14971,7 +14971,7 @@ segment.06.Percussion.Voice.36 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.36 measure 97 / measure 17]
+            % [Percussion.Voice.36 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -15018,7 +15018,7 @@ segment.06.Percussion.Voice.36 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.36 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.36 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -15078,7 +15078,7 @@ segment.06.Staff.36 = {
 segment.06.Percussion.Voice.37.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 81 / measure 1]
+    % [Percussion.Voice.37 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -15126,22 +15126,22 @@ segment.06.Percussion.Voice.37.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 82 / measure 2]
+    % [Percussion.Voice.37 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 83 / measure 3]
+    % [Percussion.Voice.37 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 84 / measure 4]
+    % [Percussion.Voice.37 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 85 / measure 5]
+    % [Percussion.Voice.37 measure 5]
     %! recursif.rhythm()
     c'4
 
@@ -15149,7 +15149,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 86 / measure 6]
+    % [Percussion.Voice.37 measure 6]
     %! recursif.rhythm()
     c'4
 
@@ -15162,7 +15162,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.37 measure 87 / measure 7]
+        % [Percussion.Voice.37 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -15194,7 +15194,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.37 measure 88 / measure 8]
+        % [Percussion.Voice.37 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -15221,7 +15221,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 89 / measure 9]
+    % [Percussion.Voice.37 measure 9]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -15239,7 +15239,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 90 / measure 10]
+    % [Percussion.Voice.37 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -15257,7 +15257,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 91 / measure 11]
+    % [Percussion.Voice.37 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -15275,7 +15275,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 92 / measure 12]
+    % [Percussion.Voice.37 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -15298,7 +15298,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.37 measure 93 / measure 13]
+        % [Percussion.Voice.37 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -15330,7 +15330,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.37 measure 94 / measure 14]
+        % [Percussion.Voice.37 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -15357,7 +15357,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 95 / measure 15]
+    % [Percussion.Voice.37 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -15365,7 +15365,7 @@ segment.06.Percussion.Voice.37.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.37 measure 96 / measure 16]
+    % [Percussion.Voice.37 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -15396,7 +15396,7 @@ segment.06.Percussion.Voice.37 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.37 measure 97 / measure 17]
+            % [Percussion.Voice.37 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -15443,7 +15443,7 @@ segment.06.Percussion.Voice.37 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.37 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.37 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -15503,7 +15503,7 @@ segment.06.Staff.37 = {
 segment.06.Percussion.Voice.38.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 81 / measure 1]
+    % [Percussion.Voice.38 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -15551,22 +15551,22 @@ segment.06.Percussion.Voice.38.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 82 / measure 2]
+    % [Percussion.Voice.38 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 83 / measure 3]
+    % [Percussion.Voice.38 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 84 / measure 4]
+    % [Percussion.Voice.38 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 85 / measure 5]
+    % [Percussion.Voice.38 measure 5]
     %! recursif.rhythm()
     r2
 
@@ -15576,7 +15576,7 @@ segment.06.Percussion.Voice.38.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.38 measure 86 / measure 6]
+        % [Percussion.Voice.38 measure 6]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -15603,7 +15603,7 @@ segment.06.Percussion.Voice.38.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 87 / measure 7]
+    % [Percussion.Voice.38 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -15626,7 +15626,7 @@ segment.06.Percussion.Voice.38.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.38 measure 88 / measure 8]
+        % [Percussion.Voice.38 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -15653,12 +15653,12 @@ segment.06.Percussion.Voice.38.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 89 / measure 9]
+    % [Percussion.Voice.38 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 90 / measure 10]
+    % [Percussion.Voice.38 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -15676,12 +15676,12 @@ segment.06.Percussion.Voice.38.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 91 / measure 11]
+    % [Percussion.Voice.38 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 92 / measure 12]
+    % [Percussion.Voice.38 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -15699,12 +15699,12 @@ segment.06.Percussion.Voice.38.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 93 / measure 13]
+    % [Percussion.Voice.38 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 94 / measure 14]
+    % [Percussion.Voice.38 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -15712,7 +15712,7 @@ segment.06.Percussion.Voice.38.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 95 / measure 15]
+    % [Percussion.Voice.38 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -15730,7 +15730,7 @@ segment.06.Percussion.Voice.38.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.38 measure 96 / measure 16]
+    % [Percussion.Voice.38 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -15761,7 +15761,7 @@ segment.06.Percussion.Voice.38 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.38 measure 97 / measure 17]
+            % [Percussion.Voice.38 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -15808,7 +15808,7 @@ segment.06.Percussion.Voice.38 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.38 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.38 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -15868,7 +15868,7 @@ segment.06.Staff.38 = {
 segment.06.Percussion.Voice.39.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 81 / measure 1]
+    % [Percussion.Voice.39 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -15916,32 +15916,32 @@ segment.06.Percussion.Voice.39.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 82 / measure 2]
+    % [Percussion.Voice.39 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 83 / measure 3]
+    % [Percussion.Voice.39 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 84 / measure 4]
+    % [Percussion.Voice.39 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 85 / measure 5]
+    % [Percussion.Voice.39 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 86 / measure 6]
+    % [Percussion.Voice.39 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 87 / measure 7]
+    % [Percussion.Voice.39 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -15954,7 +15954,7 @@ segment.06.Percussion.Voice.39.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.39 measure 88 / measure 8]
+        % [Percussion.Voice.39 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -15981,17 +15981,17 @@ segment.06.Percussion.Voice.39.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 89 / measure 9]
+    % [Percussion.Voice.39 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 90 / measure 10]
+    % [Percussion.Voice.39 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 91 / measure 11]
+    % [Percussion.Voice.39 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16009,7 +16009,7 @@ segment.06.Percussion.Voice.39.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 92 / measure 12]
+    % [Percussion.Voice.39 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16027,12 +16027,12 @@ segment.06.Percussion.Voice.39.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 93 / measure 13]
+    % [Percussion.Voice.39 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 94 / measure 14]
+    % [Percussion.Voice.39 measure 14]
     %! recursif.rhythm()
     r2
 
@@ -16042,7 +16042,7 @@ segment.06.Percussion.Voice.39.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.39 measure 95 / measure 15]
+        % [Percussion.Voice.39 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -16069,7 +16069,7 @@ segment.06.Percussion.Voice.39.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.39 measure 96 / measure 16]
+    % [Percussion.Voice.39 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -16100,7 +16100,7 @@ segment.06.Percussion.Voice.39 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.39 measure 97 / measure 17]
+            % [Percussion.Voice.39 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -16147,7 +16147,7 @@ segment.06.Percussion.Voice.39 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.39 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.39 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -16207,7 +16207,7 @@ segment.06.Staff.39 = {
 segment.06.Percussion.Voice.40.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 81 / measure 1]
+    % [Percussion.Voice.40 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -16255,32 +16255,32 @@ segment.06.Percussion.Voice.40.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 82 / measure 2]
+    % [Percussion.Voice.40 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 83 / measure 3]
+    % [Percussion.Voice.40 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 84 / measure 4]
+    % [Percussion.Voice.40 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 85 / measure 5]
+    % [Percussion.Voice.40 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 86 / measure 6]
+    % [Percussion.Voice.40 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 87 / measure 7]
+    % [Percussion.Voice.40 measure 7]
     %! recursif.rhythm()
     r2
 
@@ -16290,7 +16290,7 @@ segment.06.Percussion.Voice.40.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.40 measure 88 / measure 8]
+        % [Percussion.Voice.40 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -16317,22 +16317,22 @@ segment.06.Percussion.Voice.40.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 89 / measure 9]
+    % [Percussion.Voice.40 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 90 / measure 10]
+    % [Percussion.Voice.40 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 91 / measure 11]
+    % [Percussion.Voice.40 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 92 / measure 12]
+    % [Percussion.Voice.40 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16350,22 +16350,22 @@ segment.06.Percussion.Voice.40.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 93 / measure 13]
+    % [Percussion.Voice.40 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 94 / measure 14]
+    % [Percussion.Voice.40 measure 14]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 95 / measure 15]
+    % [Percussion.Voice.40 measure 15]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.40 measure 96 / measure 16]
+    % [Percussion.Voice.40 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -16396,7 +16396,7 @@ segment.06.Percussion.Voice.40 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.40 measure 97 / measure 17]
+            % [Percussion.Voice.40 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -16443,7 +16443,7 @@ segment.06.Percussion.Voice.40 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.40 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.40 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -16503,7 +16503,7 @@ segment.06.Staff.40 = {
 segment.06.Percussion.Voice.41.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 81 / measure 1]
+    % [Percussion.Voice.41 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -16564,7 +16564,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 82 / measure 2]
+    % [Percussion.Voice.41 measure 2]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16582,7 +16582,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 83 / measure 3]
+    % [Percussion.Voice.41 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16600,7 +16600,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 84 / measure 4]
+    % [Percussion.Voice.41 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16618,7 +16618,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 85 / measure 5]
+    % [Percussion.Voice.41 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16636,7 +16636,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 86 / measure 6]
+    % [Percussion.Voice.41 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16654,7 +16654,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 87 / measure 7]
+    % [Percussion.Voice.41 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16672,7 +16672,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 88 / measure 8]
+    % [Percussion.Voice.41 measure 8]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -16695,7 +16695,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.41 measure 89 / measure 9]
+        % [Percussion.Voice.41 measure 9]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -16727,7 +16727,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.41 measure 90 / measure 10]
+        % [Percussion.Voice.41 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -16759,7 +16759,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.41 measure 91 / measure 11]
+        % [Percussion.Voice.41 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -16791,7 +16791,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.41 measure 92 / measure 12]
+        % [Percussion.Voice.41 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -16818,7 +16818,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 93 / measure 13]
+    % [Percussion.Voice.41 measure 13]
     %! recursif.rhythm()
     c'4
 
@@ -16826,7 +16826,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 94 / measure 14]
+    % [Percussion.Voice.41 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -16834,7 +16834,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 95 / measure 15]
+    % [Percussion.Voice.41 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -16842,7 +16842,7 @@ segment.06.Percussion.Voice.41.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.41 measure 96 / measure 16]
+    % [Percussion.Voice.41 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -16873,7 +16873,7 @@ segment.06.Percussion.Voice.41 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.41 measure 97 / measure 17]
+            % [Percussion.Voice.41 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -16920,7 +16920,7 @@ segment.06.Percussion.Voice.41 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.41 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.41 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -16980,7 +16980,7 @@ segment.06.Staff.41 = {
 segment.06.Percussion.Voice.42.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 81 / measure 1]
+    % [Percussion.Voice.42 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -17028,7 +17028,7 @@ segment.06.Percussion.Voice.42.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 82 / measure 2]
+    % [Percussion.Voice.42 measure 2]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17046,12 +17046,12 @@ segment.06.Percussion.Voice.42.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 83 / measure 3]
+    % [Percussion.Voice.42 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 84 / measure 4]
+    % [Percussion.Voice.42 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17069,12 +17069,12 @@ segment.06.Percussion.Voice.42.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 85 / measure 5]
+    % [Percussion.Voice.42 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 86 / measure 6]
+    % [Percussion.Voice.42 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17092,12 +17092,12 @@ segment.06.Percussion.Voice.42.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 87 / measure 7]
+    % [Percussion.Voice.42 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 88 / measure 8]
+    % [Percussion.Voice.42 measure 8]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17115,12 +17115,12 @@ segment.06.Percussion.Voice.42.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 89 / measure 9]
+    % [Percussion.Voice.42 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 90 / measure 10]
+    % [Percussion.Voice.42 measure 10]
     %! recursif.rhythm()
     c'4
 
@@ -17128,7 +17128,7 @@ segment.06.Percussion.Voice.42.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 91 / measure 11]
+    % [Percussion.Voice.42 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17151,7 +17151,7 @@ segment.06.Percussion.Voice.42.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.42 measure 92 / measure 12]
+        % [Percussion.Voice.42 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -17178,7 +17178,7 @@ segment.06.Percussion.Voice.42.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 93 / measure 13]
+    % [Percussion.Voice.42 measure 13]
     %! recursif.rhythm()
     r2
 
@@ -17188,7 +17188,7 @@ segment.06.Percussion.Voice.42.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.42 measure 94 / measure 14]
+        % [Percussion.Voice.42 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -17215,7 +17215,7 @@ segment.06.Percussion.Voice.42.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 95 / measure 15]
+    % [Percussion.Voice.42 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17233,7 +17233,7 @@ segment.06.Percussion.Voice.42.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.42 measure 96 / measure 16]
+    % [Percussion.Voice.42 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -17264,7 +17264,7 @@ segment.06.Percussion.Voice.42 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.42 measure 97 / measure 17]
+            % [Percussion.Voice.42 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -17311,7 +17311,7 @@ segment.06.Percussion.Voice.42 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.42 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.42 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -17371,7 +17371,7 @@ segment.06.Staff.42 = {
 segment.06.Percussion.Voice.43.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 81 / measure 1]
+    % [Percussion.Voice.43 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -17419,12 +17419,12 @@ segment.06.Percussion.Voice.43.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 82 / measure 2]
+    % [Percussion.Voice.43 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 83 / measure 3]
+    % [Percussion.Voice.43 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17442,7 +17442,7 @@ segment.06.Percussion.Voice.43.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 84 / measure 4]
+    % [Percussion.Voice.43 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17460,17 +17460,17 @@ segment.06.Percussion.Voice.43.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 85 / measure 5]
+    % [Percussion.Voice.43 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 86 / measure 6]
+    % [Percussion.Voice.43 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 87 / measure 7]
+    % [Percussion.Voice.43 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17488,7 +17488,7 @@ segment.06.Percussion.Voice.43.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 88 / measure 8]
+    % [Percussion.Voice.43 measure 8]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17506,12 +17506,12 @@ segment.06.Percussion.Voice.43.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 89 / measure 9]
+    % [Percussion.Voice.43 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 90 / measure 10]
+    % [Percussion.Voice.43 measure 10]
     %! recursif.rhythm()
     r2
 
@@ -17521,7 +17521,7 @@ segment.06.Percussion.Voice.43.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.43 measure 91 / measure 11]
+        % [Percussion.Voice.43 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -17548,7 +17548,7 @@ segment.06.Percussion.Voice.43.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 92 / measure 12]
+    % [Percussion.Voice.43 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -17556,7 +17556,7 @@ segment.06.Percussion.Voice.43.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 93 / measure 13]
+    % [Percussion.Voice.43 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17574,7 +17574,7 @@ segment.06.Percussion.Voice.43.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 94 / measure 14]
+    % [Percussion.Voice.43 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17597,7 +17597,7 @@ segment.06.Percussion.Voice.43.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.43 measure 95 / measure 15]
+        % [Percussion.Voice.43 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -17624,7 +17624,7 @@ segment.06.Percussion.Voice.43.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.43 measure 96 / measure 16]
+    % [Percussion.Voice.43 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -17655,7 +17655,7 @@ segment.06.Percussion.Voice.43 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.43 measure 97 / measure 17]
+            % [Percussion.Voice.43 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -17702,7 +17702,7 @@ segment.06.Percussion.Voice.43 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.43 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.43 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -17762,7 +17762,7 @@ segment.06.Staff.43 = {
 segment.06.Percussion.Voice.44.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 81 / measure 1]
+    % [Percussion.Voice.44 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -17810,17 +17810,17 @@ segment.06.Percussion.Voice.44.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 82 / measure 2]
+    % [Percussion.Voice.44 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 83 / measure 3]
+    % [Percussion.Voice.44 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 84 / measure 4]
+    % [Percussion.Voice.44 measure 4]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17838,22 +17838,22 @@ segment.06.Percussion.Voice.44.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 85 / measure 5]
+    % [Percussion.Voice.44 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 86 / measure 6]
+    % [Percussion.Voice.44 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 87 / measure 7]
+    % [Percussion.Voice.44 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 88 / measure 8]
+    % [Percussion.Voice.44 measure 8]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17871,22 +17871,22 @@ segment.06.Percussion.Voice.44.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 89 / measure 9]
+    % [Percussion.Voice.44 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 90 / measure 10]
+    % [Percussion.Voice.44 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 91 / measure 11]
+    % [Percussion.Voice.44 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 92 / measure 12]
+    % [Percussion.Voice.44 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -17894,12 +17894,12 @@ segment.06.Percussion.Voice.44.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 93 / measure 13]
+    % [Percussion.Voice.44 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 94 / measure 14]
+    % [Percussion.Voice.44 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -17917,12 +17917,12 @@ segment.06.Percussion.Voice.44.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 95 / measure 15]
+    % [Percussion.Voice.44 measure 15]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.44 measure 96 / measure 16]
+    % [Percussion.Voice.44 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -17953,7 +17953,7 @@ segment.06.Percussion.Voice.44 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.44 measure 97 / measure 17]
+            % [Percussion.Voice.44 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -18000,7 +18000,7 @@ segment.06.Percussion.Voice.44 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.44 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.44 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -18060,7 +18060,7 @@ segment.06.Staff.44 = {
 segment.06.Percussion.Voice.45.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 81 / measure 1]
+    % [Percussion.Voice.45 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -18108,22 +18108,22 @@ segment.06.Percussion.Voice.45.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 82 / measure 2]
+    % [Percussion.Voice.45 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 83 / measure 3]
+    % [Percussion.Voice.45 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 84 / measure 4]
+    % [Percussion.Voice.45 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 85 / measure 5]
+    % [Percussion.Voice.45 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18141,7 +18141,7 @@ segment.06.Percussion.Voice.45.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 86 / measure 6]
+    % [Percussion.Voice.45 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18159,7 +18159,7 @@ segment.06.Percussion.Voice.45.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 87 / measure 7]
+    % [Percussion.Voice.45 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18177,7 +18177,7 @@ segment.06.Percussion.Voice.45.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 88 / measure 8]
+    % [Percussion.Voice.45 measure 8]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18195,22 +18195,22 @@ segment.06.Percussion.Voice.45.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 89 / measure 9]
+    % [Percussion.Voice.45 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 90 / measure 10]
+    % [Percussion.Voice.45 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 91 / measure 11]
+    % [Percussion.Voice.45 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 92 / measure 12]
+    % [Percussion.Voice.45 measure 12]
     %! recursif.rhythm()
     r2
 
@@ -18220,7 +18220,7 @@ segment.06.Percussion.Voice.45.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.45 measure 93 / measure 13]
+        % [Percussion.Voice.45 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -18252,7 +18252,7 @@ segment.06.Percussion.Voice.45.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.45 measure 94 / measure 14]
+        % [Percussion.Voice.45 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -18279,7 +18279,7 @@ segment.06.Percussion.Voice.45.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 95 / measure 15]
+    % [Percussion.Voice.45 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -18287,7 +18287,7 @@ segment.06.Percussion.Voice.45.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.45 measure 96 / measure 16]
+    % [Percussion.Voice.45 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -18318,7 +18318,7 @@ segment.06.Percussion.Voice.45 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.45 measure 97 / measure 17]
+            % [Percussion.Voice.45 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -18365,7 +18365,7 @@ segment.06.Percussion.Voice.45 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.45 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.45 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -18425,7 +18425,7 @@ segment.06.Staff.45 = {
 segment.06.Percussion.Voice.46.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 81 / measure 1]
+    % [Percussion.Voice.46 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -18473,27 +18473,27 @@ segment.06.Percussion.Voice.46.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 82 / measure 2]
+    % [Percussion.Voice.46 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 83 / measure 3]
+    % [Percussion.Voice.46 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 84 / measure 4]
+    % [Percussion.Voice.46 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 85 / measure 5]
+    % [Percussion.Voice.46 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 86 / measure 6]
+    % [Percussion.Voice.46 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18511,12 +18511,12 @@ segment.06.Percussion.Voice.46.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 87 / measure 7]
+    % [Percussion.Voice.46 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 88 / measure 8]
+    % [Percussion.Voice.46 measure 8]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18534,32 +18534,32 @@ segment.06.Percussion.Voice.46.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 89 / measure 9]
+    % [Percussion.Voice.46 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 90 / measure 10]
+    % [Percussion.Voice.46 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 91 / measure 11]
+    % [Percussion.Voice.46 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 92 / measure 12]
+    % [Percussion.Voice.46 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 93 / measure 13]
+    % [Percussion.Voice.46 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 94 / measure 14]
+    % [Percussion.Voice.46 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -18567,7 +18567,7 @@ segment.06.Percussion.Voice.46.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 95 / measure 15]
+    % [Percussion.Voice.46 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18585,7 +18585,7 @@ segment.06.Percussion.Voice.46.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.46 measure 96 / measure 16]
+    % [Percussion.Voice.46 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -18616,7 +18616,7 @@ segment.06.Percussion.Voice.46 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.46 measure 97 / measure 17]
+            % [Percussion.Voice.46 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -18663,7 +18663,7 @@ segment.06.Percussion.Voice.46 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.46 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.46 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -18723,7 +18723,7 @@ segment.06.Staff.46 = {
 segment.06.Percussion.Voice.47.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 81 / measure 1]
+    % [Percussion.Voice.47 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -18771,32 +18771,32 @@ segment.06.Percussion.Voice.47.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 82 / measure 2]
+    % [Percussion.Voice.47 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 83 / measure 3]
+    % [Percussion.Voice.47 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 84 / measure 4]
+    % [Percussion.Voice.47 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 85 / measure 5]
+    % [Percussion.Voice.47 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 86 / measure 6]
+    % [Percussion.Voice.47 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 87 / measure 7]
+    % [Percussion.Voice.47 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18814,7 +18814,7 @@ segment.06.Percussion.Voice.47.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 88 / measure 8]
+    % [Percussion.Voice.47 measure 8]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -18832,32 +18832,32 @@ segment.06.Percussion.Voice.47.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 89 / measure 9]
+    % [Percussion.Voice.47 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 90 / measure 10]
+    % [Percussion.Voice.47 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 91 / measure 11]
+    % [Percussion.Voice.47 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 92 / measure 12]
+    % [Percussion.Voice.47 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 93 / measure 13]
+    % [Percussion.Voice.47 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 94 / measure 14]
+    % [Percussion.Voice.47 measure 14]
     %! recursif.rhythm()
     r2
 
@@ -18867,7 +18867,7 @@ segment.06.Percussion.Voice.47.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.47 measure 95 / measure 15]
+        % [Percussion.Voice.47 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -18894,7 +18894,7 @@ segment.06.Percussion.Voice.47.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.47 measure 96 / measure 16]
+    % [Percussion.Voice.47 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -18925,7 +18925,7 @@ segment.06.Percussion.Voice.47 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.47 measure 97 / measure 17]
+            % [Percussion.Voice.47 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -18972,7 +18972,7 @@ segment.06.Percussion.Voice.47 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.47 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.47 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -19032,7 +19032,7 @@ segment.06.Staff.47 = {
 segment.06.Percussion.Voice.48.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 81 / measure 1]
+    % [Percussion.Voice.48 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -19080,37 +19080,37 @@ segment.06.Percussion.Voice.48.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 82 / measure 2]
+    % [Percussion.Voice.48 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 83 / measure 3]
+    % [Percussion.Voice.48 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 84 / measure 4]
+    % [Percussion.Voice.48 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 85 / measure 5]
+    % [Percussion.Voice.48 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 86 / measure 6]
+    % [Percussion.Voice.48 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 87 / measure 7]
+    % [Percussion.Voice.48 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 88 / measure 8]
+    % [Percussion.Voice.48 measure 8]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -19128,42 +19128,42 @@ segment.06.Percussion.Voice.48.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 89 / measure 9]
+    % [Percussion.Voice.48 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 90 / measure 10]
+    % [Percussion.Voice.48 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 91 / measure 11]
+    % [Percussion.Voice.48 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 92 / measure 12]
+    % [Percussion.Voice.48 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 93 / measure 13]
+    % [Percussion.Voice.48 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 94 / measure 14]
+    % [Percussion.Voice.48 measure 14]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 95 / measure 15]
+    % [Percussion.Voice.48 measure 15]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.48 measure 96 / measure 16]
+    % [Percussion.Voice.48 measure 16]
     %! recursif.rhythm()
     c'4
 
@@ -19194,7 +19194,7 @@ segment.06.Percussion.Voice.48 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.48 measure 97 / measure 17]
+            % [Percussion.Voice.48 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -19241,7 +19241,7 @@ segment.06.Percussion.Voice.48 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.48 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.48 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -19301,7 +19301,7 @@ segment.06.Staff.48 = {
 segment.06.Percussion.Voice.49.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.49 measure 81 / measure 1]
+    % [Percussion.Voice.49 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -19352,7 +19352,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.49 measure 82 / measure 2]
+    % [Percussion.Voice.49 measure 2]
     %! recursif.rhythm()
     c'4
 
@@ -19360,7 +19360,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.49 measure 83 / measure 3]
+    % [Percussion.Voice.49 measure 3]
     %! recursif.rhythm()
     c'4
 
@@ -19368,7 +19368,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.49 measure 84 / measure 4]
+    % [Percussion.Voice.49 measure 4]
     %! recursif.rhythm()
     c'4
 
@@ -19376,7 +19376,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.49 measure 85 / measure 5]
+    % [Percussion.Voice.49 measure 5]
     %! recursif.rhythm()
     c'4
 
@@ -19384,7 +19384,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.49 measure 86 / measure 6]
+    % [Percussion.Voice.49 measure 6]
     %! recursif.rhythm()
     c'4
 
@@ -19392,7 +19392,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.49 measure 87 / measure 7]
+    % [Percussion.Voice.49 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -19400,7 +19400,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.49 measure 88 / measure 8]
+    % [Percussion.Voice.49 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -19413,7 +19413,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.49 measure 89 / measure 9]
+        % [Percussion.Voice.49 measure 9]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19445,7 +19445,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.49 measure 90 / measure 10]
+        % [Percussion.Voice.49 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19477,7 +19477,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.49 measure 91 / measure 11]
+        % [Percussion.Voice.49 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19509,7 +19509,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.49 measure 92 / measure 12]
+        % [Percussion.Voice.49 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19541,7 +19541,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.49 measure 93 / measure 13]
+        % [Percussion.Voice.49 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19573,7 +19573,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.49 measure 94 / measure 14]
+        % [Percussion.Voice.49 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19605,7 +19605,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.49 measure 95 / measure 15]
+        % [Percussion.Voice.49 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19637,7 +19637,7 @@ segment.06.Percussion.Voice.49.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.49 measure 96 / measure 16]
+        % [Percussion.Voice.49 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19687,7 +19687,7 @@ segment.06.Percussion.Voice.49 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.49 measure 97 / measure 17]
+            % [Percussion.Voice.49 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -19734,7 +19734,7 @@ segment.06.Percussion.Voice.49 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.49 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.49 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -19794,7 +19794,7 @@ segment.06.Staff.49 = {
 segment.06.Percussion.Voice.50.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 81 / measure 1]
+    % [Percussion.Voice.50 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -19847,7 +19847,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.50 measure 82 / measure 2]
+        % [Percussion.Voice.50 measure 2]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19874,7 +19874,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 83 / measure 3]
+    % [Percussion.Voice.50 measure 3]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -19892,7 +19892,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 84 / measure 4]
+    % [Percussion.Voice.50 measure 4]
     %! recursif.rhythm()
     c'4
 
@@ -19900,7 +19900,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 85 / measure 5]
+    % [Percussion.Voice.50 measure 5]
     %! recursif.rhythm()
     r2
 
@@ -19910,7 +19910,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.50 measure 86 / measure 6]
+        % [Percussion.Voice.50 measure 6]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -19937,7 +19937,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 87 / measure 7]
+    % [Percussion.Voice.50 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -19955,7 +19955,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 88 / measure 8]
+    % [Percussion.Voice.50 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -19963,12 +19963,12 @@ segment.06.Percussion.Voice.50.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 89 / measure 9]
+    % [Percussion.Voice.50 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 90 / measure 10]
+    % [Percussion.Voice.50 measure 10]
     %! recursif.rhythm()
     c'4
 
@@ -19976,7 +19976,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 91 / measure 11]
+    % [Percussion.Voice.50 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -19999,7 +19999,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.50 measure 92 / measure 12]
+        % [Percussion.Voice.50 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -20026,12 +20026,12 @@ segment.06.Percussion.Voice.50.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 93 / measure 13]
+    % [Percussion.Voice.50 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 94 / measure 14]
+    % [Percussion.Voice.50 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -20039,7 +20039,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.50 measure 95 / measure 15]
+    % [Percussion.Voice.50 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -20062,7 +20062,7 @@ segment.06.Percussion.Voice.50.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.50 measure 96 / measure 16]
+        % [Percussion.Voice.50 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -20112,7 +20112,7 @@ segment.06.Percussion.Voice.50 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.50 measure 97 / measure 17]
+            % [Percussion.Voice.50 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -20159,7 +20159,7 @@ segment.06.Percussion.Voice.50 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.50 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.50 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -20219,7 +20219,7 @@ segment.06.Staff.50 = {
 segment.06.Percussion.Voice.51.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 81 / measure 1]
+    % [Percussion.Voice.51 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -20267,12 +20267,12 @@ segment.06.Percussion.Voice.51.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 82 / measure 2]
+    % [Percussion.Voice.51 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 83 / measure 3]
+    % [Percussion.Voice.51 measure 3]
     %! recursif.rhythm()
     c'4
 
@@ -20285,7 +20285,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.51 measure 84 / measure 4]
+        % [Percussion.Voice.51 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -20312,7 +20312,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 85 / measure 5]
+    % [Percussion.Voice.51 measure 5]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -20330,7 +20330,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 86 / measure 6]
+    % [Percussion.Voice.51 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -20353,7 +20353,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.51 measure 87 / measure 7]
+        % [Percussion.Voice.51 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -20380,7 +20380,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 88 / measure 8]
+    % [Percussion.Voice.51 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -20388,12 +20388,12 @@ segment.06.Percussion.Voice.51.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 89 / measure 9]
+    % [Percussion.Voice.51 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 90 / measure 10]
+    % [Percussion.Voice.51 measure 10]
     %! recursif.rhythm()
     r2
 
@@ -20403,7 +20403,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.51 measure 91 / measure 11]
+        % [Percussion.Voice.51 measure 11]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -20430,7 +20430,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 92 / measure 12]
+    % [Percussion.Voice.51 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -20438,7 +20438,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 93 / measure 13]
+    % [Percussion.Voice.51 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -20456,7 +20456,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 94 / measure 14]
+    % [Percussion.Voice.51 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -20474,7 +20474,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.51 measure 95 / measure 15]
+    % [Percussion.Voice.51 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -20487,7 +20487,7 @@ segment.06.Percussion.Voice.51.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.51 measure 96 / measure 16]
+        % [Percussion.Voice.51 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -20537,7 +20537,7 @@ segment.06.Percussion.Voice.51 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.51 measure 97 / measure 17]
+            % [Percussion.Voice.51 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -20584,7 +20584,7 @@ segment.06.Percussion.Voice.51 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.51 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.51 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -20644,7 +20644,7 @@ segment.06.Staff.51 = {
 segment.06.Percussion.Voice.52.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 81 / measure 1]
+    % [Percussion.Voice.52 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -20692,12 +20692,12 @@ segment.06.Percussion.Voice.52.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 82 / measure 2]
+    % [Percussion.Voice.52 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 83 / measure 3]
+    % [Percussion.Voice.52 measure 3]
     %! recursif.rhythm()
     r2
 
@@ -20707,7 +20707,7 @@ segment.06.Percussion.Voice.52.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.52 measure 84 / measure 4]
+        % [Percussion.Voice.52 measure 4]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -20734,12 +20734,12 @@ segment.06.Percussion.Voice.52.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 85 / measure 5]
+    % [Percussion.Voice.52 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 86 / measure 6]
+    % [Percussion.Voice.52 measure 6]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -20757,12 +20757,12 @@ segment.06.Percussion.Voice.52.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 87 / measure 7]
+    % [Percussion.Voice.52 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 88 / measure 8]
+    % [Percussion.Voice.52 measure 8]
     %! recursif.rhythm()
     c'4
 
@@ -20770,22 +20770,22 @@ segment.06.Percussion.Voice.52.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 89 / measure 9]
+    % [Percussion.Voice.52 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 90 / measure 10]
+    % [Percussion.Voice.52 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 91 / measure 11]
+    % [Percussion.Voice.52 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 92 / measure 12]
+    % [Percussion.Voice.52 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -20793,12 +20793,12 @@ segment.06.Percussion.Voice.52.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 93 / measure 13]
+    % [Percussion.Voice.52 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 94 / measure 14]
+    % [Percussion.Voice.52 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -20816,7 +20816,7 @@ segment.06.Percussion.Voice.52.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.52 measure 95 / measure 15]
+    % [Percussion.Voice.52 measure 15]
     %! recursif.rhythm()
     r2
 
@@ -20826,7 +20826,7 @@ segment.06.Percussion.Voice.52.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.52 measure 96 / measure 16]
+        % [Percussion.Voice.52 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -20876,7 +20876,7 @@ segment.06.Percussion.Voice.52 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.52 measure 97 / measure 17]
+            % [Percussion.Voice.52 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -20923,7 +20923,7 @@ segment.06.Percussion.Voice.52 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.52 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.52 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -20983,7 +20983,7 @@ segment.06.Staff.52 = {
 segment.06.Percussion.Voice.53.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 81 / measure 1]
+    % [Percussion.Voice.53 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -21031,22 +21031,22 @@ segment.06.Percussion.Voice.53.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 82 / measure 2]
+    % [Percussion.Voice.53 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 83 / measure 3]
+    % [Percussion.Voice.53 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 84 / measure 4]
+    % [Percussion.Voice.53 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 85 / measure 5]
+    % [Percussion.Voice.53 measure 5]
     %! recursif.rhythm()
     c'4
 
@@ -21054,7 +21054,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 86 / measure 6]
+    % [Percussion.Voice.53 measure 6]
     %! recursif.rhythm()
     c'4
 
@@ -21067,7 +21067,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.53 measure 87 / measure 7]
+        % [Percussion.Voice.53 measure 7]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21099,7 +21099,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.53 measure 88 / measure 8]
+        % [Percussion.Voice.53 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21126,7 +21126,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 89 / measure 9]
+    % [Percussion.Voice.53 measure 9]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21144,7 +21144,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 90 / measure 10]
+    % [Percussion.Voice.53 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21162,7 +21162,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 91 / measure 11]
+    % [Percussion.Voice.53 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21180,7 +21180,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 92 / measure 12]
+    % [Percussion.Voice.53 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21198,7 +21198,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 93 / measure 13]
+    % [Percussion.Voice.53 measure 13]
     %! recursif.rhythm()
     c'4
 
@@ -21206,7 +21206,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.53 measure 94 / measure 14]
+    % [Percussion.Voice.53 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -21219,7 +21219,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.53 measure 95 / measure 15]
+        % [Percussion.Voice.53 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21251,7 +21251,7 @@ segment.06.Percussion.Voice.53.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.53 measure 96 / measure 16]
+        % [Percussion.Voice.53 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21301,7 +21301,7 @@ segment.06.Percussion.Voice.53 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.53 measure 97 / measure 17]
+            % [Percussion.Voice.53 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -21348,7 +21348,7 @@ segment.06.Percussion.Voice.53 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.53 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.53 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -21408,7 +21408,7 @@ segment.06.Staff.53 = {
 segment.06.Percussion.Voice.54.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 81 / measure 1]
+    % [Percussion.Voice.54 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -21456,22 +21456,22 @@ segment.06.Percussion.Voice.54.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 82 / measure 2]
+    % [Percussion.Voice.54 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 83 / measure 3]
+    % [Percussion.Voice.54 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 84 / measure 4]
+    % [Percussion.Voice.54 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 85 / measure 5]
+    % [Percussion.Voice.54 measure 5]
     %! recursif.rhythm()
     r2
 
@@ -21481,7 +21481,7 @@ segment.06.Percussion.Voice.54.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.54 measure 86 / measure 6]
+        % [Percussion.Voice.54 measure 6]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21508,7 +21508,7 @@ segment.06.Percussion.Voice.54.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 87 / measure 7]
+    % [Percussion.Voice.54 measure 7]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21531,7 +21531,7 @@ segment.06.Percussion.Voice.54.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.54 measure 88 / measure 8]
+        % [Percussion.Voice.54 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21558,12 +21558,12 @@ segment.06.Percussion.Voice.54.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 89 / measure 9]
+    % [Percussion.Voice.54 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 90 / measure 10]
+    % [Percussion.Voice.54 measure 10]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21581,12 +21581,12 @@ segment.06.Percussion.Voice.54.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 91 / measure 11]
+    % [Percussion.Voice.54 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 92 / measure 12]
+    % [Percussion.Voice.54 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21604,7 +21604,7 @@ segment.06.Percussion.Voice.54.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 93 / measure 13]
+    % [Percussion.Voice.54 measure 13]
     %! recursif.rhythm()
     r2
 
@@ -21614,7 +21614,7 @@ segment.06.Percussion.Voice.54.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.54 measure 94 / measure 14]
+        % [Percussion.Voice.54 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21641,7 +21641,7 @@ segment.06.Percussion.Voice.54.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.54 measure 95 / measure 15]
+    % [Percussion.Voice.54 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21664,7 +21664,7 @@ segment.06.Percussion.Voice.54.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.54 measure 96 / measure 16]
+        % [Percussion.Voice.54 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21714,7 +21714,7 @@ segment.06.Percussion.Voice.54 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.54 measure 97 / measure 17]
+            % [Percussion.Voice.54 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -21761,7 +21761,7 @@ segment.06.Percussion.Voice.54 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.54 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.54 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -21821,7 +21821,7 @@ segment.06.Staff.54 = {
 segment.06.Percussion.Voice.55.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 81 / measure 1]
+    % [Percussion.Voice.55 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -21869,32 +21869,32 @@ segment.06.Percussion.Voice.55.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 82 / measure 2]
+    % [Percussion.Voice.55 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 83 / measure 3]
+    % [Percussion.Voice.55 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 84 / measure 4]
+    % [Percussion.Voice.55 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 85 / measure 5]
+    % [Percussion.Voice.55 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 86 / measure 6]
+    % [Percussion.Voice.55 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 87 / measure 7]
+    % [Percussion.Voice.55 measure 7]
     %! recursif.rhythm()
     c'4
 
@@ -21907,7 +21907,7 @@ segment.06.Percussion.Voice.55.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.55 measure 88 / measure 8]
+        % [Percussion.Voice.55 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -21934,17 +21934,17 @@ segment.06.Percussion.Voice.55.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 89 / measure 9]
+    % [Percussion.Voice.55 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 90 / measure 10]
+    % [Percussion.Voice.55 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 91 / measure 11]
+    % [Percussion.Voice.55 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21962,7 +21962,7 @@ segment.06.Percussion.Voice.55.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 92 / measure 12]
+    % [Percussion.Voice.55 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -21980,17 +21980,17 @@ segment.06.Percussion.Voice.55.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 93 / measure 13]
+    % [Percussion.Voice.55 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 94 / measure 14]
+    % [Percussion.Voice.55 measure 14]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.55 measure 95 / measure 15]
+    % [Percussion.Voice.55 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -22003,7 +22003,7 @@ segment.06.Percussion.Voice.55.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.55 measure 96 / measure 16]
+        % [Percussion.Voice.55 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -22053,7 +22053,7 @@ segment.06.Percussion.Voice.55 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.55 measure 97 / measure 17]
+            % [Percussion.Voice.55 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -22100,7 +22100,7 @@ segment.06.Percussion.Voice.55 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.55 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.55 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -22160,7 +22160,7 @@ segment.06.Staff.55 = {
 segment.06.Percussion.Voice.56.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 81 / measure 1]
+    % [Percussion.Voice.56 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -22208,32 +22208,32 @@ segment.06.Percussion.Voice.56.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 82 / measure 2]
+    % [Percussion.Voice.56 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 83 / measure 3]
+    % [Percussion.Voice.56 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 84 / measure 4]
+    % [Percussion.Voice.56 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 85 / measure 5]
+    % [Percussion.Voice.56 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 86 / measure 6]
+    % [Percussion.Voice.56 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 87 / measure 7]
+    % [Percussion.Voice.56 measure 7]
     %! recursif.rhythm()
     r2
 
@@ -22243,7 +22243,7 @@ segment.06.Percussion.Voice.56.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.56 measure 88 / measure 8]
+        % [Percussion.Voice.56 measure 8]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -22270,22 +22270,22 @@ segment.06.Percussion.Voice.56.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 89 / measure 9]
+    % [Percussion.Voice.56 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 90 / measure 10]
+    % [Percussion.Voice.56 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 91 / measure 11]
+    % [Percussion.Voice.56 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 92 / measure 12]
+    % [Percussion.Voice.56 measure 12]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -22303,17 +22303,17 @@ segment.06.Percussion.Voice.56.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 93 / measure 13]
+    % [Percussion.Voice.56 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 94 / measure 14]
+    % [Percussion.Voice.56 measure 14]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.56 measure 95 / measure 15]
+    % [Percussion.Voice.56 measure 15]
     %! recursif.rhythm()
     r2
 
@@ -22323,7 +22323,7 @@ segment.06.Percussion.Voice.56.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.56 measure 96 / measure 16]
+        % [Percussion.Voice.56 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -22373,7 +22373,7 @@ segment.06.Percussion.Voice.56 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.56 measure 97 / measure 17]
+            % [Percussion.Voice.56 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -22420,7 +22420,7 @@ segment.06.Percussion.Voice.56 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.56 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.56 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -22480,7 +22480,7 @@ segment.06.Staff.56 = {
 segment.06.Percussion.Voice.57.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 81 / measure 1]
+    % [Percussion.Voice.57 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -22528,42 +22528,42 @@ segment.06.Percussion.Voice.57.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 82 / measure 2]
+    % [Percussion.Voice.57 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 83 / measure 3]
+    % [Percussion.Voice.57 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 84 / measure 4]
+    % [Percussion.Voice.57 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 85 / measure 5]
+    % [Percussion.Voice.57 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 86 / measure 6]
+    % [Percussion.Voice.57 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 87 / measure 7]
+    % [Percussion.Voice.57 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 88 / measure 8]
+    % [Percussion.Voice.57 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 89 / measure 9]
+    % [Percussion.Voice.57 measure 9]
     %! recursif.rhythm()
     c'4
 
@@ -22571,7 +22571,7 @@ segment.06.Percussion.Voice.57.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 90 / measure 10]
+    % [Percussion.Voice.57 measure 10]
     %! recursif.rhythm()
     c'4
 
@@ -22579,7 +22579,7 @@ segment.06.Percussion.Voice.57.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 91 / measure 11]
+    % [Percussion.Voice.57 measure 11]
     %! recursif.rhythm()
     c'4
 
@@ -22587,7 +22587,7 @@ segment.06.Percussion.Voice.57.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.57 measure 92 / measure 12]
+    % [Percussion.Voice.57 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -22600,7 +22600,7 @@ segment.06.Percussion.Voice.57.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.57 measure 93 / measure 13]
+        % [Percussion.Voice.57 measure 13]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -22632,7 +22632,7 @@ segment.06.Percussion.Voice.57.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.57 measure 94 / measure 14]
+        % [Percussion.Voice.57 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -22664,7 +22664,7 @@ segment.06.Percussion.Voice.57.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.57 measure 95 / measure 15]
+        % [Percussion.Voice.57 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -22696,7 +22696,7 @@ segment.06.Percussion.Voice.57.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.57 measure 96 / measure 16]
+        % [Percussion.Voice.57 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -22746,7 +22746,7 @@ segment.06.Percussion.Voice.57 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.57 measure 97 / measure 17]
+            % [Percussion.Voice.57 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -22793,7 +22793,7 @@ segment.06.Percussion.Voice.57 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.57 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.57 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -22853,7 +22853,7 @@ segment.06.Staff.57 = {
 segment.06.Percussion.Voice.58.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 81 / measure 1]
+    % [Percussion.Voice.58 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -22901,42 +22901,42 @@ segment.06.Percussion.Voice.58.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 82 / measure 2]
+    % [Percussion.Voice.58 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 83 / measure 3]
+    % [Percussion.Voice.58 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 84 / measure 4]
+    % [Percussion.Voice.58 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 85 / measure 5]
+    % [Percussion.Voice.58 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 86 / measure 6]
+    % [Percussion.Voice.58 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 87 / measure 7]
+    % [Percussion.Voice.58 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 88 / measure 8]
+    % [Percussion.Voice.58 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 89 / measure 9]
+    % [Percussion.Voice.58 measure 9]
     %! recursif.rhythm()
     r2
 
@@ -22946,7 +22946,7 @@ segment.06.Percussion.Voice.58.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.58 measure 90 / measure 10]
+        % [Percussion.Voice.58 measure 10]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -22973,7 +22973,7 @@ segment.06.Percussion.Voice.58.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 91 / measure 11]
+    % [Percussion.Voice.58 measure 11]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -22991,7 +22991,7 @@ segment.06.Percussion.Voice.58.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 92 / measure 12]
+    % [Percussion.Voice.58 measure 12]
     %! recursif.rhythm()
     c'4
 
@@ -22999,12 +22999,12 @@ segment.06.Percussion.Voice.58.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 93 / measure 13]
+    % [Percussion.Voice.58 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 94 / measure 14]
+    % [Percussion.Voice.58 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -23012,7 +23012,7 @@ segment.06.Percussion.Voice.58.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.58 measure 95 / measure 15]
+    % [Percussion.Voice.58 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -23035,7 +23035,7 @@ segment.06.Percussion.Voice.58.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.58 measure 96 / measure 16]
+        % [Percussion.Voice.58 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -23085,7 +23085,7 @@ segment.06.Percussion.Voice.58 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.58 measure 97 / measure 17]
+            % [Percussion.Voice.58 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -23132,7 +23132,7 @@ segment.06.Percussion.Voice.58 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.58 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.58 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -23192,7 +23192,7 @@ segment.06.Staff.58 = {
 segment.06.Percussion.Voice.59.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 81 / measure 1]
+    % [Percussion.Voice.59 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -23240,52 +23240,52 @@ segment.06.Percussion.Voice.59.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 82 / measure 2]
+    % [Percussion.Voice.59 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 83 / measure 3]
+    % [Percussion.Voice.59 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 84 / measure 4]
+    % [Percussion.Voice.59 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 85 / measure 5]
+    % [Percussion.Voice.59 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 86 / measure 6]
+    % [Percussion.Voice.59 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 87 / measure 7]
+    % [Percussion.Voice.59 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 88 / measure 8]
+    % [Percussion.Voice.59 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 89 / measure 9]
+    % [Percussion.Voice.59 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 90 / measure 10]
+    % [Percussion.Voice.59 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 91 / measure 11]
+    % [Percussion.Voice.59 measure 11]
     %! recursif.rhythm()
     c'4
 
@@ -23298,7 +23298,7 @@ segment.06.Percussion.Voice.59.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.59 measure 92 / measure 12]
+        % [Percussion.Voice.59 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -23325,7 +23325,7 @@ segment.06.Percussion.Voice.59.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 93 / measure 13]
+    % [Percussion.Voice.59 measure 13]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -23343,7 +23343,7 @@ segment.06.Percussion.Voice.59.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 94 / measure 14]
+    % [Percussion.Voice.59 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -23361,7 +23361,7 @@ segment.06.Percussion.Voice.59.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.59 measure 95 / measure 15]
+    % [Percussion.Voice.59 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -23374,7 +23374,7 @@ segment.06.Percussion.Voice.59.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.59 measure 96 / measure 16]
+        % [Percussion.Voice.59 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -23424,7 +23424,7 @@ segment.06.Percussion.Voice.59 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.59 measure 97 / measure 17]
+            % [Percussion.Voice.59 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -23471,7 +23471,7 @@ segment.06.Percussion.Voice.59 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.59 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.59 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -23531,7 +23531,7 @@ segment.06.Staff.59 = {
 segment.06.Percussion.Voice.60.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 81 / measure 1]
+    % [Percussion.Voice.60 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -23579,52 +23579,52 @@ segment.06.Percussion.Voice.60.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 82 / measure 2]
+    % [Percussion.Voice.60 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 83 / measure 3]
+    % [Percussion.Voice.60 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 84 / measure 4]
+    % [Percussion.Voice.60 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 85 / measure 5]
+    % [Percussion.Voice.60 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 86 / measure 6]
+    % [Percussion.Voice.60 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 87 / measure 7]
+    % [Percussion.Voice.60 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 88 / measure 8]
+    % [Percussion.Voice.60 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 89 / measure 9]
+    % [Percussion.Voice.60 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 90 / measure 10]
+    % [Percussion.Voice.60 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 91 / measure 11]
+    % [Percussion.Voice.60 measure 11]
     %! recursif.rhythm()
     r2
 
@@ -23634,7 +23634,7 @@ segment.06.Percussion.Voice.60.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.60 measure 92 / measure 12]
+        % [Percussion.Voice.60 measure 12]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -23661,12 +23661,12 @@ segment.06.Percussion.Voice.60.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 93 / measure 13]
+    % [Percussion.Voice.60 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 94 / measure 14]
+    % [Percussion.Voice.60 measure 14]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -23684,7 +23684,7 @@ segment.06.Percussion.Voice.60.part.1 = {
     ]
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.60 measure 95 / measure 15]
+    % [Percussion.Voice.60 measure 15]
     %! recursif.rhythm()
     r2
 
@@ -23694,7 +23694,7 @@ segment.06.Percussion.Voice.60.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.60 measure 96 / measure 16]
+        % [Percussion.Voice.60 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -23744,7 +23744,7 @@ segment.06.Percussion.Voice.60 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.60 measure 97 / measure 17]
+            % [Percussion.Voice.60 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -23791,7 +23791,7 @@ segment.06.Percussion.Voice.60 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.60 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.60 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -23851,7 +23851,7 @@ segment.06.Staff.60 = {
 segment.06.Percussion.Voice.61.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 81 / measure 1]
+    % [Percussion.Voice.61 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -23899,62 +23899,62 @@ segment.06.Percussion.Voice.61.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 82 / measure 2]
+    % [Percussion.Voice.61 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 83 / measure 3]
+    % [Percussion.Voice.61 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 84 / measure 4]
+    % [Percussion.Voice.61 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 85 / measure 5]
+    % [Percussion.Voice.61 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 86 / measure 6]
+    % [Percussion.Voice.61 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 87 / measure 7]
+    % [Percussion.Voice.61 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 88 / measure 8]
+    % [Percussion.Voice.61 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 89 / measure 9]
+    % [Percussion.Voice.61 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 90 / measure 10]
+    % [Percussion.Voice.61 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 91 / measure 11]
+    % [Percussion.Voice.61 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 92 / measure 12]
+    % [Percussion.Voice.61 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 93 / measure 13]
+    % [Percussion.Voice.61 measure 13]
     %! recursif.rhythm()
     c'4
 
@@ -23962,7 +23962,7 @@ segment.06.Percussion.Voice.61.part.1 = {
     c'4
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.61 measure 94 / measure 14]
+    % [Percussion.Voice.61 measure 14]
     %! recursif.rhythm()
     c'4
 
@@ -23975,7 +23975,7 @@ segment.06.Percussion.Voice.61.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.61 measure 95 / measure 15]
+        % [Percussion.Voice.61 measure 15]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -24007,7 +24007,7 @@ segment.06.Percussion.Voice.61.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.61 measure 96 / measure 16]
+        % [Percussion.Voice.61 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -24057,7 +24057,7 @@ segment.06.Percussion.Voice.61 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.61 measure 97 / measure 17]
+            % [Percussion.Voice.61 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -24104,7 +24104,7 @@ segment.06.Percussion.Voice.61 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.61 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.61 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -24164,7 +24164,7 @@ segment.06.Staff.61 = {
 segment.06.Percussion.Voice.62.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 81 / measure 1]
+    % [Percussion.Voice.62 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -24212,62 +24212,62 @@ segment.06.Percussion.Voice.62.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 82 / measure 2]
+    % [Percussion.Voice.62 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 83 / measure 3]
+    % [Percussion.Voice.62 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 84 / measure 4]
+    % [Percussion.Voice.62 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 85 / measure 5]
+    % [Percussion.Voice.62 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 86 / measure 6]
+    % [Percussion.Voice.62 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 87 / measure 7]
+    % [Percussion.Voice.62 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 88 / measure 8]
+    % [Percussion.Voice.62 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 89 / measure 9]
+    % [Percussion.Voice.62 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 90 / measure 10]
+    % [Percussion.Voice.62 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 91 / measure 11]
+    % [Percussion.Voice.62 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 92 / measure 12]
+    % [Percussion.Voice.62 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 93 / measure 13]
+    % [Percussion.Voice.62 measure 13]
     %! recursif.rhythm()
     r2
 
@@ -24277,7 +24277,7 @@ segment.06.Percussion.Voice.62.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.62 measure 94 / measure 14]
+        % [Percussion.Voice.62 measure 14]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -24304,7 +24304,7 @@ segment.06.Percussion.Voice.62.part.1 = {
     }
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.62 measure 95 / measure 15]
+    % [Percussion.Voice.62 measure 15]
     %! recursif.rhythm()
     c'8
     %! recursif.rhythm()
@@ -24327,7 +24327,7 @@ segment.06.Percussion.Voice.62.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.62 measure 96 / measure 16]
+        % [Percussion.Voice.62 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -24377,7 +24377,7 @@ segment.06.Percussion.Voice.62 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.62 measure 97 / measure 17]
+            % [Percussion.Voice.62 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -24424,7 +24424,7 @@ segment.06.Percussion.Voice.62 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.62 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.62 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -24484,7 +24484,7 @@ segment.06.Staff.62 = {
 segment.06.Percussion.Voice.63.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 81 / measure 1]
+    % [Percussion.Voice.63 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -24532,72 +24532,72 @@ segment.06.Percussion.Voice.63.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 82 / measure 2]
+    % [Percussion.Voice.63 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 83 / measure 3]
+    % [Percussion.Voice.63 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 84 / measure 4]
+    % [Percussion.Voice.63 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 85 / measure 5]
+    % [Percussion.Voice.63 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 86 / measure 6]
+    % [Percussion.Voice.63 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 87 / measure 7]
+    % [Percussion.Voice.63 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 88 / measure 8]
+    % [Percussion.Voice.63 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 89 / measure 9]
+    % [Percussion.Voice.63 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 90 / measure 10]
+    % [Percussion.Voice.63 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 91 / measure 11]
+    % [Percussion.Voice.63 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 92 / measure 12]
+    % [Percussion.Voice.63 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 93 / measure 13]
+    % [Percussion.Voice.63 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 94 / measure 14]
+    % [Percussion.Voice.63 measure 14]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.63 measure 95 / measure 15]
+    % [Percussion.Voice.63 measure 15]
     %! recursif.rhythm()
     c'4
 
@@ -24610,7 +24610,7 @@ segment.06.Percussion.Voice.63.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.63 measure 96 / measure 16]
+        % [Percussion.Voice.63 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -24660,7 +24660,7 @@ segment.06.Percussion.Voice.63 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.63 measure 97 / measure 17]
+            % [Percussion.Voice.63 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -24707,7 +24707,7 @@ segment.06.Percussion.Voice.63 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.63 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.63 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
@@ -24767,7 +24767,7 @@ segment.06.Staff.63 = {
 segment.06.Percussion.Voice.64.part.1 = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 81 / measure 1]
+    % [Percussion.Voice.64 measure 1]
     %! -PARTS
     %! baca.SegmentMaker._reapply_persistent_indicators(3)
     %! baca.SegmentMaker._set_status_tag()
@@ -24815,72 +24815,72 @@ segment.06.Percussion.Voice.64.part.1 = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 82 / measure 2]
+    % [Percussion.Voice.64 measure 2]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 83 / measure 3]
+    % [Percussion.Voice.64 measure 3]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 84 / measure 4]
+    % [Percussion.Voice.64 measure 4]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 85 / measure 5]
+    % [Percussion.Voice.64 measure 5]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 86 / measure 6]
+    % [Percussion.Voice.64 measure 6]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 87 / measure 7]
+    % [Percussion.Voice.64 measure 7]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 88 / measure 8]
+    % [Percussion.Voice.64 measure 8]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 89 / measure 9]
+    % [Percussion.Voice.64 measure 9]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 90 / measure 10]
+    % [Percussion.Voice.64 measure 10]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 91 / measure 11]
+    % [Percussion.Voice.64 measure 11]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 92 / measure 12]
+    % [Percussion.Voice.64 measure 12]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 93 / measure 13]
+    % [Percussion.Voice.64 measure 13]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 94 / measure 14]
+    % [Percussion.Voice.64 measure 14]
     %! recursif.rhythm()
     r2
 
     %! baca.SegmentMaker._comment_measure_numbers()
-    % [Percussion.Voice.64 measure 95 / measure 15]
+    % [Percussion.Voice.64 measure 15]
     %! recursif.rhythm()
     r2
 
@@ -24890,7 +24890,7 @@ segment.06.Percussion.Voice.64.part.1 = {
     {
 
         %! baca.SegmentMaker._comment_measure_numbers()
-        % [Percussion.Voice.64 measure 96 / measure 16]
+        % [Percussion.Voice.64 measure 16]
         %! recursif.rhythm()
         c'8
         %! recursif.rhythm()
@@ -24940,7 +24940,7 @@ segment.06.Percussion.Voice.64 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Voice.64 measure 97 / measure 17]
+            % [Percussion.Voice.64 measure 17]
             %! baca.SegmentMaker._make_multimeasure_rest_container(2)
             %! PHANTOM
             %! NOTE
@@ -24987,7 +24987,7 @@ segment.06.Percussion.Voice.64 = {
             %! baca.SegmentMaker._comment_measure_numbers()
             %! baca.SegmentMaker._style_phantom_measures(5)
             %! PHANTOM
-            % [Percussion.Rest_Voice.64 measure 97 / measure 17]
+            % [Percussion.Rest_Voice.64 measure 17]
             %! baca.SegmentMaker._style_phantom_measures(6)
             %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
