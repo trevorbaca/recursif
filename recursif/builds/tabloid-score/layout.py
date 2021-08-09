@@ -6,10 +6,9 @@ between_staves = 7
 pages = []
 first_page = baca.page(
     baca.system(
-        below_global,
-        6,
         measure=1,
         y_offset=50,
+        distances=(below_global, 6),
     ),
     number=1,
 )
