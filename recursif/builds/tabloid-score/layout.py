@@ -24,7 +24,9 @@ for page_number in range(2, 16 + 1):
     )
     pages.append(page)
 
-breaks = baca.breaks(*pages)
+spacing = baca.SpacingSpecifier(
+    breaks=baca.breaks(*pages),
+)
 
 if __name__ == "__main__":
-    baca.build.make_layout_ly(breaks)
+    baca.build.make_layout_ly(spacing)
