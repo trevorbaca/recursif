@@ -11,6 +11,7 @@ distances = (0,)
 spacing = baca.SpacingSpecifier(
     breaks=baca.breaks(
         baca.page(
+            1,
             baca.system(measure=1, y_offset=first + 0 * system, distances=distances),
             baca.system(measure=11, y_offset=first + 1 * system, distances=distances),
             baca.system(measure=21, y_offset=first + 2 * system, distances=distances),
@@ -23,9 +24,9 @@ spacing = baca.SpacingSpecifier(
             baca.system(measure=91, y_offset=first + 9 * system, distances=distances),
             baca.system(measure=101, y_offset=first + 10 * system, distances=distances),
             baca.system(measure=111, y_offset=first + 11 * system, distances=distances),
-            number=1,
         ),
         baca.page(
+            2,
             baca.system(measure=121, y_offset=second + 0 * system, distances=distances),
             baca.system(measure=131, y_offset=second + 1 * system, distances=distances),
             baca.system(measure=141, y_offset=second + 2 * system, distances=distances),
@@ -48,7 +49,6 @@ spacing = baca.SpacingSpecifier(
             baca.system(
                 measure=251, y_offset=second + 13 * system, distances=distances
             ),
-            number=2,
         ),
     ),
 )
