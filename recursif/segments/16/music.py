@@ -8,7 +8,7 @@ from recursif import library as recursif
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    check_all_are_pitched=True,
+    error_on_not_yet_pitched=True,
     final_segment=True,
     instruments=recursif.instruments,
     margin_markups=recursif.margin_markups,
