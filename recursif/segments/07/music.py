@@ -7,6 +7,7 @@ from recursif import library as recursif
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    **baca.segments(),
     error_on_not_yet_pitched=True,
     instruments=recursif.instruments,
     margin_markups=recursif.margin_markups,
@@ -26,4 +27,4 @@ for voice_number in range(1, 64 + 1):
     )
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(maker)
+    baca.build.make_segment_pdf(maker, runtime=baca.segments(runtime=True))
