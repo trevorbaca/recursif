@@ -8,7 +8,6 @@ from recursif import library as recursif
 
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
     instruments=recursif.instruments,
     margin_markups=recursif.margin_markups,
     metronome_marks=recursif.metronome_marks,
@@ -30,4 +29,5 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         maker,
         **baca.segments(runtime=True),
+        error_on_not_yet_pitched=True,
     )
