@@ -27,4 +27,7 @@ for voice_number in range(1, 64 + 1):
     )
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(maker, runtime=baca.segments(runtime=True))
+    baca.build.make_segment_pdf(
+        maker,
+        **baca.segments(runtime=True),
+    )
