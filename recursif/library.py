@@ -150,7 +150,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 # functions
 
 
-def assign_parts(maker: baca.SegmentMaker):
+def assign_parts(maker: baca.CommandAccumulator):
     """
     Assigns parts.
     """
