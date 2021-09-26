@@ -7,7 +7,7 @@ from recursif import library as recursif
 ##################################### [P] #####################################
 ###############################################################################
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=recursif.instruments,
     margin_markups=recursif.margin_markups,

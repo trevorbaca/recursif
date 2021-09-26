@@ -28,7 +28,7 @@ class ScoreTemplate:
         return score
 
 
-class SegmentMaker(baca.SegmentMaker):
+class CommandAccumulator(baca.CommandAccumulator):
     """
     Segment-maker.
     """
@@ -36,7 +36,7 @@ class SegmentMaker(baca.SegmentMaker):
     def __init__(self, measure_duration=abjad.Duration(1, 2), page_number=None):
         assert isinstance(page_number, int), repr(page_number)
         name = f"page {page_number}"
-        superclass = super(SegmentMaker, self)
+        superclass = super(CommandAccumulator, self)
         superclass.__init__(name=name)
         measure_duration = abjad.Duration(measure_duration)
         self.measure_duration = measure_duration
@@ -128,7 +128,7 @@ class SegmentMaker(baca.SegmentMaker):
 if __name__ == "__main__":
     output_directory = pathlib.Path.home() / "Desktop"
     for page_number in range(1, 16 + 1):
-        maker = SegmentMaker(page_number=page_number)
+        maker = CommandAccumulator(page_number=page_number)
         lilypond_file = maker()
         file_name = "page-%02d.py" % page_number
         output_file = output_directory / file_name
