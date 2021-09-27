@@ -7,7 +7,7 @@ from recursif import library as recursif
 ###############################################################################
 
 commands = baca.CommandAccumulator(
-    **baca.segments(),
+    **baca.segment_accumulation_defaults(),
     instruments=recursif.instruments,
     margin_markups=recursif.margin_markups,
     metronome_marks=recursif.metronome_marks,
@@ -28,6 +28,6 @@ for voice_number in range(1, 64 + 1):
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segments(runtime=True),
+        **baca.segment_interpretation_defaults(),
         error_on_not_yet_pitched=True,
     )
