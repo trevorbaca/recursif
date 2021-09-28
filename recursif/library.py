@@ -65,89 +65,42 @@ def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
     )
 
 
-class ScoreTemplate(baca.ScoreTemplate):
-    """
-    Score template.
-    """
+part_manifest = baca.PartManifest(
+    baca.Section(abbreviation="PERC", count=64, name="Percussion"),
+)
 
-    ### CLASS VARIABLES ###
 
-    _always_make_global_rests = True
+def make_empty_score():
+    site = "recursif.ScoreTemplate.__call__()"
+    tag = abjad.Tag(site)
+    # GLOBAL CONTEXT
+    global_context = baca.templates.make_global_context()
 
-    _global_rests_in_topmost_staff = True
+    staves = []
+    for staff_index in range(64):
+        staff_number = staff_index + 1
+        voice = abjad.Voice(name=f"Percussion.Voice.{staff_number}", tag=tag)
+        staff = abjad.Staff([voice], name=f"Staff.{staff_number}", tag=tag)
+        abjad.annotate(staff, "default_instrument", instruments["Percussion"])
+        staves.append(staff)
 
-    _part_manifest = baca.PartManifest(
-        baca.Section(abbreviation="PERC", count=64, name="Percussion")
+    # STAFF GROUP
+    staff_group = abjad.StaffGroup(staves, name="Staff_Group", tag=tag)
+
+    # MUSIC CONTEXT
+    music_context = abjad.Context(
+        [staff_group],
+        lilypond_type="MusicContext",
+        name="Music_Context",
+        tag=tag,
     )
 
-    # all_music_in_part_containers = True
-
-    ### SPECIAL METHODS ###
-
-    def __call__(self) -> abjad.Score:
-        """
-        Calls score template.
-        """
-        site = "recursif.ScoreTemplate.__call__()"
-        tag = abjad.Tag(site)
-        # GLOBAL CONTEXT
-        global_context = baca.templates.make_global_context()
-
-        super(ScoreTemplate, self).__init__()
-        staves = []
-        for staff_index in range(64):
-            staff_number = staff_index + 1
-            voice = abjad.Voice(name=f"Percussion.Voice.{staff_number}", tag=tag)
-            staff = abjad.Staff([voice], name=f"Staff.{staff_number}", tag=tag)
-            abjad.annotate(staff, "default_instrument", instruments["Percussion"])
-            staves.append(staff)
-
-        # STAFF GROUP
-        staff_group = abjad.StaffGroup(staves, name="Staff_Group", tag=tag)
-
-        # MUSIC CONTEXT
-        music_context = abjad.Context(
-            [staff_group],
-            lilypond_type="MusicContext",
-            name="Music_Context",
-            tag=tag,
-        )
-
-        # SCORE
-        score = abjad.Score([global_context, music_context], name="Score", tag=tag)
-        baca.templates.assert_lilypond_identifiers(score)
-        baca.templates.assert_unique_context_names(score)
-        baca.templates.assert_matching_custom_context_names(score)
-        return score
-
-    ### PUBLIC PROPERTIES ###
-
-    @property
-    def part_manifest(self):
-        """
-        Gets part manifest.
-
-        ..  container:: example
-
-            >>> import recursif
-            >>> score_template = recursif.library.ScoreTemplate()
-            >>> part = score_template.part_manifest.parts[0]
-            >>> string = abjad.storage(part)
-            >>> print(string)
-            baca.Part(
-                instrument='Percussion',
-                member=1,
-                number=1,
-                section='Percussion',
-                section_abbreviation='PERC',
-                zfill=2,
-                )
-
-        """
-        return self._part_manifest
-
-
-# functions
+    # SCORE
+    score = abjad.Score([global_context, music_context], name="Score", tag=tag)
+    baca.templates.assert_lilypond_identifiers(score)
+    baca.templates.assert_unique_context_names(score)
+    baca.templates.assert_matching_custom_context_names(score)
+    return score
 
 
 def assign_parts(maker: baca.CommandAccumulator):
@@ -158,9 +111,8 @@ def assign_parts(maker: baca.CommandAccumulator):
         voice_name = f"Percussion.Voice.{n}"
         part_assignment = baca.PartAssignment(section="Percussion", token=n)
         assert part_assignment.token is not None
-        score_template = ScoreTemplate()
         for part in part_assignment:
-            if part not in score_template.part_manifest.parts:
+            if part not in part_manifest.parts:
                 raise Exception(f"no {part!r} in part manifest.")
         command = baca.assign_parts(part_assignment)
         maker(voice_name, command)
