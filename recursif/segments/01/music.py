@@ -2,17 +2,20 @@ import baca
 
 from recursif import library as recursif
 
-###############################################################################
-##################################### [A] #####################################
-###############################################################################
+#########################################################################################
+########################################### 01 ##########################################
+#########################################################################################
+
+score = recursif.make_empty_score()
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=recursif.instruments,
     margin_markups=recursif.margin_markups,
     metronome_marks=recursif.metronome_marks,
-    score_template=recursif.make_empty_score,
     time_signatures=16 * [(2, 4)],
+    voice_names=voice_names,
 )
 
 commands(
@@ -46,7 +49,8 @@ if __name__ == "__main__":
         commands,
         **baca.segment_interpretation_defaults(),
         always_make_global_rests=True,
+        error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         part_manifest=recursif.part_manifest,
-        error_on_not_yet_pitched=True,
+        score=score,
     )
