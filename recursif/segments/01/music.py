@@ -51,6 +51,10 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        lilypond_file_keywords=baca.make_lilypond_file_dictionary(
+            include_layout_ly=True,
+            includes=["../../stylesheet.ily"],
+        ),
         part_manifest=recursif.part_manifest,
         score=score,
     )
