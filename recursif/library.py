@@ -4,10 +4,10 @@ from abjadext import rmakers
 
 # instruments & margin markup
 
-instruments = abjad.OrderedDict([("Percussion", abjad.Percussion())])
+instruments = dict([("Percussion", abjad.Percussion())])
 
 
-margin_markups = abjad.OrderedDict()
+margin_markups = dict()
 for staff_number in range(1, 64 + 1):
     markup = abjad.MarginMarkup(markup=rf"\markup \hcenter-in #8 {staff_number}")
     margin_markups[str(staff_number)] = markup
@@ -34,7 +34,7 @@ def margin_markup(
 
 # metronome marks
 
-metronome_marks = abjad.OrderedDict(
+metronome_marks = dict(
     [("38-42", abjad.MetronomeMark((1, 2), 40, textual_indication="38-42"))]
 )
 
