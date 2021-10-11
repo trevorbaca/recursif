@@ -19,7 +19,7 @@ def make_poeme_2003_page_n(n):
         staff = abjad.Staff(lilypond_type="RhythmicStaff")
         string = r'\bold \fontsize #4 {"%s" \hspace #2 ""}'
         string %= part_number
-        staff.set.instrument_name = abjad.Markup(string)
+        staff.set.instrument_name = abjad.Markup(r"\markup {string}", literal=True)
         arguments = (part_number, first_measure_on_page, last_measure_on_page)
         integer_divisions_ = integer_divisions(*arguments)
         for integer_division in integer_divisions_:
