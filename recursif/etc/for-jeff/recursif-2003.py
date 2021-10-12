@@ -15,7 +15,7 @@ class ScoreTemplate:
         staves = []
         for staff_index in range(64):
             staff = abjad.Staff()
-            markup = abjad.Markup(r"\markup {staff_index + 1}", literal=True)
+            markup = abjad.Markup(r"\markup {staff_index + 1}")
             markup = markup.scale((1.5, 1.5))
             markup = markup.bold()
             markup = markup.hcenter_in(12)
