@@ -1,0 +1,125 @@
+% Poème récursif (2003) percussion 11 part
+% part_identifier = 'PERC-11'
+
+\version "2.23.1"
+\language "english"
+
+#(ly:set-option 'relative-includes #t)
+\include "../stylesheet.ily"
+\include "../_segments/01.ily"
+\include "../_segments/02.ily"
+\include "../_segments/03.ily"
+\include "../_segments/04.ily"
+\include "../_segments/05.ily"
+\include "../_segments/06.ily"
+\include "../_segments/07.ily"
+\include "../_segments/08.ily"
+\include "../_segments/09.ily"
+\include "../_segments/10.ily"
+\include "../_segments/11.ily"
+\include "../_segments/12.ily"
+\include "../_segments/13.ily"
+\include "../_segments/14.ily"
+\include "../_segments/15.ily"
+\include "../_segments/16.ily"
+
+\paper {
+    evenFooterMarkup =
+        \markup
+        \on-the-fly #print-page-number-check-first
+        \fill-line {
+            " "
+            \bold
+            \fontsize #3
+            \override #'(font-name . "Palatino")
+            \line {
+                \override #'(font-name . "Palatino Italic")
+                { Poème récursif }
+                \hspace #1.5
+                —
+                \hspace #1.5
+                \on-the-fly #print-page-number-check-first
+                \fromproperty #'page:page-number-string
+                \hspace #1.5
+                —
+                \hspace #1.5
+                \override #'(font-name . "Palatino Italic")
+                { percussion 11 part }
+                \hspace #1.5
+            }
+            " "
+        }
+    oddFooterMarkup = \evenFooterMarkup
+}
+
+\header {
+    subtitle =
+        \markup \column \center-align
+        {
+            \override #'(font-name . "Palatino Italic") \fontsize #3
+            {
+                \line { percussion (11) }
+                \line { part }
+            }
+        }
+}
+
+
+\score {
+    <<
+        {
+        \include "layout.ly"
+        }
+        {
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
+                        \a_GlobalSkips
+                        \b_GlobalSkips
+                        \c_GlobalSkips
+                        \d_GlobalSkips
+                        \e_GlobalSkips
+                        \f_GlobalSkips
+                        \g_GlobalSkips
+                        \h_GlobalSkips
+                        \i_GlobalSkips
+                        \j_GlobalSkips
+                        \k_GlobalSkips
+                        \l_GlobalSkips
+                        \m_GlobalSkips
+                        \n_GlobalSkips
+                        \o_GlobalSkips
+                        \p_GlobalSkips
+                    }
+                >>
+                \context MusicContext = "MusicContext"
+                {
+                    \context Staff = "Staff"
+                    {
+                        \clef "percussion"
+                        \a_Percussion_Voice_XI_a
+                        \b_Percussion_Voice_XI_a
+                        \c_Percussion_Voice_XI_a
+                        \d_Percussion_Voice_XI_a
+                        \e_Percussion_Voice_XI_a
+                        \f_Percussion_Voice_XI_a
+                        \g_Percussion_Voice_XI_a
+                        \h_Percussion_Voice_XI_a
+                        \i_Percussion_Voice_XI_a
+                        \j_Percussion_Voice_XI_a
+                        \k_Percussion_Voice_XI_a
+                        \l_Percussion_Voice_XI_a
+                        \m_Percussion_Voice_XI_a
+                        \n_Percussion_Voice_XI_a
+                        \o_Percussion_Voice_XI_a
+                        \p_Percussion_Voice_XI_a
+                    }
+                }
+            >>
+        }
+    >>
+}
+
