@@ -2,7 +2,6 @@
 % part_identifier = 'PERC-15'
 
 \version "2.23.1"
-\language "english"
 
 \include "../stylesheet.ily"
 \include "../_segments/01.ily"
