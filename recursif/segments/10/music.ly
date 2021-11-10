@@ -3,7 +3,6 @@
 \version "2.23.1"
 %! baca._make_lilypond_file()
 %! abjad.LilyPondFile._get_format_pieces()
-\language "english"
 \include "../../stylesheet.ily"
 %! baca.path.extern()
 \include "music.ily"
