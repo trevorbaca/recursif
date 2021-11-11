@@ -1,8 +1,6 @@
 %! baca._make_lilypond_file()
 %! abjad.LilyPondFile._get_format_pieces()
-\version "2.23.1"
-%! baca._make_lilypond_file()
-%! abjad.LilyPondFile._get_format_pieces()
+\version "2.22.1"
 \include "../../stylesheet.ily"
 %! baca.path.extern()
 \include "music.ily"
@@ -35,18 +33,18 @@
         %! recursif.ScoreTemplate.__call__()
         <<
 
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             \context GlobalContext = "Global_Context"
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             <<
 
-                %! abjad.ScoreTemplate._make_global_context()
+                %! baca.make_global_context()
                 \context GlobalSkips = "Global_Skips"
-                %! abjad.ScoreTemplate._make_global_context()
+                %! baca.make_global_context()
                 %! baca.path.extern()
                 { \segment.13.Global.Skips }
 
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             >>
 
             %! recursif.ScoreTemplate.__call__()
