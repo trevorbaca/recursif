@@ -45,6 +45,6 @@ def make_poeme_2003_page_n(n):
             ]
         ),
     )
-    lilypond_file.default_paper_size = "11x17", "portrait"
+    lilypond_file.default_paper_size = "tabloid"
     lilypond_file.global_staff_size = 8.5
     return lilypond_file

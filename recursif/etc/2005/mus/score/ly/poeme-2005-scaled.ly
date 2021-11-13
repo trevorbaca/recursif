@@ -1,6 +1,6 @@
 \version "2.7.11"
 
-#(set-default-paper-size "11x17")
+#(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
 
 \paper {

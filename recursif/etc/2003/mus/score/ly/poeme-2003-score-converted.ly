@@ -7,7 +7,7 @@
 \include "english.ly"
 \include "poeme-2003-parts.ly"
 
-#(set-default-paper-size "11x17" 'portrait)
+#(set-default-paper-size "tabloid")
 #(set-global-staff-size 8.50)
 
 \paper {
