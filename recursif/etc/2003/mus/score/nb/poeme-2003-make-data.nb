@@ -221,7 +221,7 @@ Cell[BoxData[
  RowBox[{
   RowBox[{
   "paper", "=", 
-   "\"\<\\<#(set-default-paper-size \\\"tabloid\\\" 'portrait)\n\
+   "\"\<\\<#(set-default-paper-size \\\"tabloid\\\")\n\
 #(set-global-staff-size 8.50)\n\n\\\\paper {\n\tfirstpagenumber = 3\n\t\
 printfirstpagenumber = ##t\n\toddFooterMarkup = \\\\markup \\\\fill-line {\n\t\
 \t\\\\halign #0 \\\\bold \\\\fontsize #6 \\\\fromproperty \
