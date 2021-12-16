@@ -25,29 +25,6 @@
     top-system-spacing.minimum-distance = 10
 }
 
-\header {
-    composer = \markup {
-        \override #'(font-name . "Palatino")
-        \fontsize #10
-        \column {
-        \line { Trevor Bača (*1975) \hspace #29 }
-        " "
-        }
-    }
-    tagline = \markup \null
-    title = \markup \column {
-        \center-align {
-            \override #'(font-name . "Palatino")
-            \fontsize #20
-            \line {
-                POÈME RÉCURSIF \hspace #24
-            }
-            " "
-            " "
-        }
-    }
-}
-
 \layout {
     indent = 0
     ragged-bottom = ##t
