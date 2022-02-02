@@ -1,447 +1,112 @@
-(* Content-type: application/mathematica *)
-
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
-
-(* CreatedBy='Mathematica 7.0' *)
-
-(*CacheID: 234*)
-(* Internal cache information:
-NotebookFileLineBreakTest
-NotebookFileLineBreakTest
-NotebookDataPosition[       145,          7]
-NotebookDataLength[     15232,        437]
-NotebookOptionsPosition[     13909,        390]
-NotebookOutlinePosition[     14268,        406]
-CellTagsIndexPosition[     14225,        403]
-WindowFrame->Normal*)
-
-(* Beginning of Notebook Content *)
-Notebook[{
-Cell["2005-07-05. Poeme recursif. Renotation.", "Text"],
-
-Cell[BoxData[
- RowBox[{"<<", "M`"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"e", "[", "1", "]"}], "=", 
-   RowBox[{"Transpose", "[", 
-    RowBox[{"CellularAutomaton", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"24178440", ",", 
-        RowBox[{"{", 
-         RowBox[{"8", ",", "1"}], "}"}]}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", "1", "}"}], ",", "0"}], "}"}], ",", "300", ",", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"211", ",", 
-          RowBox[{"211", "+", "256", "-", "1"}]}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"31", ",", 
-          RowBox[{"31", "+", "64", "-", "1"}]}], "}"}]}], "}"}]}], "]"}], 
-    "]"}]}], ";"}]], "Input"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Dimensions", "[", 
-  RowBox[{"e", "[", "1", "]"}], "]"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"64", ",", "256"}], "}"}]], "Output"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"e", "[", "2", "]"}], "=", 
-   RowBox[{
-    RowBox[{"e", "[", "1", "]"}], "/.", 
-    RowBox[{"{", "\[IndentingNewLine]", 
-     RowBox[{
-      RowBox[{"0", "\[RuleDelayed]", "\"\<\\tr2\\n\>\""}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{"1", "\[RuleDelayed]", "\"\<\\tb'2\\n\>\""}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{"2", "\[RuleDelayed]", "\"\<\\tb'4 b'\\n\>\""}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{
-      "3", "\[RuleDelayed]", "\"\<\\t\\\\times 2/3 {b'4 b' b'}\\n\>\""}], ",",
-       "\[IndentingNewLine]", 
-      RowBox[{"4", "\[RuleDelayed]", "\"\<\\tb'8[ b' b' b']\\n\>\""}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{
-      "5", "\[RuleDelayed]", 
-       "\"\<\\t\\\\times 4/5 {b'8[ b' b' b' b']}\\n\>\""}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{
-      "6", "\[RuleDelayed]", 
-       "\"\<\\t\\\\times 4/6 {b'8[ b' b' b' b' b']}\\n\>\""}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{
-      "7", "\[RuleDelayed]", 
-       "\"\<\\t\\\\times 4/7 {b'8[ b' b' b' b' b' b']}\\n\>\""}]}], "}"}]}]}],
-   ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"e", "[", "3", "]"}], "=", 
-   RowBox[{"Take", "[", 
-    RowBox[{
-     RowBox[{"e", "[", "2", "]"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"1", ",", "64"}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"1", ",", "32"}], "}"}]}], "]"}]}], ";"}]], "Input"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Dimensions", "[", 
-  RowBox[{"e", "[", "3", "]"}], "]"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"64", ",", "32"}], "}"}]], "Output"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[{
- RowBox[{
-  RowBox[{
-   RowBox[{"t", "[", "1", "]"}], "=", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"\"\<A\>\"", "<>", 
-      RowBox[{"FromCharacterCode", "[", "#", "]"}]}], "&"}], "/@", 
-    RowBox[{"Range", "[", 
-     RowBox[{"65", ",", 
-      RowBox[{"65", "+", "26", "-", "1"}]}], "]"}]}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"t", "[", "2", "]"}], "=", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"\"\<B\>\"", "<>", 
-      RowBox[{"FromCharacterCode", "[", "#", "]"}]}], "&"}], "/@", 
-    RowBox[{"Range", "[", 
-     RowBox[{"65", ",", 
-      RowBox[{"65", "+", "26", "-", "1"}]}], "]"}]}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"t", "[", "3", "]"}], "=", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"\"\<C\>\"", "<>", 
-      RowBox[{"FromCharacterCode", "[", "#", "]"}]}], "&"}], "/@", 
-    RowBox[{"Range", "[", 
-     RowBox[{"65", ",", 
-      RowBox[{"65", "+", "12", "-", "1"}]}], "]"}]}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"t", "[", "4", "]"}], "=", 
-  RowBox[{"Join", "[", 
-   RowBox[{
-    RowBox[{"t", "[", "1", "]"}], ",", 
-    RowBox[{"t", "[", "2", "]"}], ",", 
-    RowBox[{"t", "[", "3", "]"}]}], "]"}]}]}], "Input"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"\<\"AA\"\>", ",", "\<\"AB\"\>", ",", "\<\"AC\"\>", 
-   ",", "\<\"AD\"\>", ",", "\<\"AE\"\>", ",", "\<\"AF\"\>", ",", "\<\"AG\"\>",
-    ",", "\<\"AH\"\>", ",", "\<\"AI\"\>", ",", "\<\"AJ\"\>", 
-   ",", "\<\"AK\"\>", ",", "\<\"AL\"\>", ",", "\<\"AM\"\>", ",", "\<\"AN\"\>",
-    ",", "\<\"AO\"\>", ",", "\<\"AP\"\>", ",", "\<\"AQ\"\>", 
-   ",", "\<\"AR\"\>", ",", "\<\"AS\"\>", ",", "\<\"AT\"\>", ",", "\<\"AU\"\>",
-    ",", "\<\"AV\"\>", ",", "\<\"AW\"\>", ",", "\<\"AX\"\>", 
-   ",", "\<\"AY\"\>", ",", "\<\"AZ\"\>", ",", "\<\"BA\"\>", ",", "\<\"BB\"\>",
-    ",", "\<\"BC\"\>", ",", "\<\"BD\"\>", ",", "\<\"BE\"\>", 
-   ",", "\<\"BF\"\>", ",", "\<\"BG\"\>", ",", "\<\"BH\"\>", ",", "\<\"BI\"\>",
-    ",", "\<\"BJ\"\>", ",", "\<\"BK\"\>", ",", "\<\"BL\"\>", 
-   ",", "\<\"BM\"\>", ",", "\<\"BN\"\>", ",", "\<\"BO\"\>", ",", "\<\"BP\"\>",
-    ",", "\<\"BQ\"\>", ",", "\<\"BR\"\>", ",", "\<\"BS\"\>", 
-   ",", "\<\"BT\"\>", ",", "\<\"BU\"\>", ",", "\<\"BV\"\>", ",", "\<\"BW\"\>",
-    ",", "\<\"BX\"\>", ",", "\<\"BY\"\>", ",", "\<\"BZ\"\>", 
-   ",", "\<\"CA\"\>", ",", "\<\"CB\"\>", ",", "\<\"CC\"\>", ",", "\<\"CD\"\>",
-    ",", "\<\"CE\"\>", ",", "\<\"CF\"\>", ",", "\<\"CG\"\>", 
-   ",", "\<\"CH\"\>", ",", "\<\"CI\"\>", ",", "\<\"CJ\"\>", ",", "\<\"CK\"\>",
-    ",", "\<\"CL\"\>"}], "}"}]], "Output"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-  "inputfileheader", "=", 
-   "\"\<\\<%{\n\tPoeme recursif (2005)\n\tTrevor Baca\n%}\n\n\\\\version \
-\\\"2.7.0\\\"\n\\\\include \\\"english.ly\\\"\n\n\\>\>\""}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"SetDirectory", "[", 
-   RowBox[{"$MusicDirectory", "<>", "\"\</rec2\>\""}], "]"}], ";"}]], "Input"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[{
- RowBox[{"strm", "=", 
-  RowBox[{
-  "OpenWrite", "[", "\"\<rec-input.ly\>\"", "]"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "inputfileheader"}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"MapThread", "[", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"WriteString", "[", 
-      RowBox[{
-      "strm", ",", "#1", ",", "\"\< = {\\n\\t\\\\time 2/4\\n\>\"", ",", 
-       RowBox[{"Sequence", "@@", "#2"}], ",", "\"\<}\\n\\n\>\""}], "]"}], 
-     "&"}], ",", 
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"t", "[", "4", "]"}], ",", 
-      RowBox[{"e", "[", "3", "]"}]}], "}"}]}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"Close", "[", "strm", "]"}], ";"}]}], "Input"],
-
-Cell[BoxData[
- RowBox[{"OutputStream", "[", 
-  RowBox[{"\<\"rec-input.ly\"\>", ",", "8"}], "]"}]], "Output"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-  "scorefileheader", "=", 
-   "\"\<\\<%{\n\tPoeme recursif (2005)\n\tTrevor Baca\n%}\n\n\\\\version \
-\\\"2.7.0\\\"\n\\\\include \\\"english.ly\\\"\n\\\\include \\\"rec-input.ly\\\
-\"\n\n\\>\>\""}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-  "paper", "=", 
-   "\"\<\\<#(set-default-paper-size \\\"tabloid\\\")\n\
-#(set-global-staff-size 8.50)\n\n\\\\paper {\n\tfirstpagenumber = 3\n\t\
-printfirstpagenumber = ##t\n\toddFooterMarkup = \\\\markup \\\\fill-line {\n\t\
-\t\\\\halign #0 \\\\bold \\\\fontsize #6 \\\\fromproperty \
-#'page:page-number-string\n\t}\n\tevenFooterMarkup = \\\\markup \\\\fill-line \
-{\n\t\t\\\\halign #0 \\\\bold \\\\fontsize #6 \\\\fromproperty \
-#'page:page-number-string\n\t}\n\toddHeaderMarkup = \\\\markup \\\\fill-line \
-{\\\" \\\"}\n\tevenHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\n}\n\n\
-\\>\>\""}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-  "scoreheader", "=", 
-   "\"\<\\<\\t\\\\header {\n\t\ttitle = \\\"POEME RECURSIF\\\"\n\t\tcomposer \
-= \\\"Trevor Baca\\\"\n\t}\n\\>\>\""}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-  "gridmeasure", "=", 
-   "\"\<\\<\ngridmeasure = {\n\t\\\\repeat unfold 8 b'16\n}\n\n\\>\>\""}], 
-  ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-  "firststaff", "=", 
-   "\"\<\\<\n\t\t\\\\new Staff {\n\t\t\t\\\\set Staff.instrument = \\\\markup \
-\\\\bold \\\\fontsize #4 {\\\"1\\\" \\\\hspace #2 \\\"\\\"}\n                 \
-       <<\n                                \\\\new Voice {\n                  \
-                      \\voiceOne\n                                        \
-\\override Staff.NoteCollision #'merge-differently-headed = ##t\n             \
-                           \\override NoteHead #'transparent = ##t\n          \
-                              \\override Stem #'transparent = ##t\n           \
-                             \\override Beam #'transparent = ##t\n            \
-                            \\\\repeat unfold 32 \\gridmeasure}\n             \
-               \\\\new Voice {\\AA}\n                        >>\n             \
-   }\n\\>\>\""}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-  "layout", "=", 
-   "\"\<\\<\n\t\\layout {\n                \\context {\\Score\n               \
-         \\override StaffSymbol #'line-count = #1\n                        \
-\\override Clef #'transparent = ##t\n                        \\override \
-BarLine #'transparent = ##t\n                        \\override BarLine \
-#'hair-thickness = #0.4\n                        \\override TupletBracket \
-#'bracket-visibility = ##t\n                        \\override TupletBracket \
-#'edge-height = #'(0.5 . 0.5)\n                        \\override \
-TupletBracket #'shorten-pair = #'(0 . 0)\n                        \\override \
-TupletBracket #'thickness = #0.8\n                        \\override \
-TupletBracket #'font-series = #'bold\n                        \\override \
-TupletBracket #'direction = #1\n                        \\override Stem \
-#'direction = #-1\n                        \\override BarNumber \
-#'break-visibility = #end-of-line-invisible\n                        \
-\\override BarNumber #'font-size = #4\n                        \\override \
-BarNumber #'print-function = #(make-stencil-boxer 0.5 0.5 \
-Text_interface::print)\n                        \\override BarNumber \
-#'padding = #2\n                        \\override BarNumber \
-#'self-alignment-X = #0.1\n                }\n                \\context \
-{\\StaffGroup\n                }\n                \\context {\\Staff\n        \
-                minimumVerticalExtent = ##f\n                        \
-verticalExtent = #'(-4.55 . 4.0)\n                        \\\\remove \
-\\\"Time_signature_engraver\\\"\n                }\n                indent = \
-0.0\\cm\n                raggedright = ##t\n        }\n\\>\>\""}], 
-  ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"WrapStaff", "[", 
-   RowBox[{"music_", ",", "instrument_"}], "]"}], ":=", 
-  RowBox[{"StringJoin", "[", "\[IndentingNewLine]", 
-   RowBox[{
-   "\"\<\\t\\t\\\\new Staff {\\n\>\"", ",", "\[IndentingNewLine]", 
-    "\"\<\\t\\t\\t\\set Staff.instrument = \\\\markup \\\\bold \\\\fontsize \
-#4 \>\"", ",", "\[IndentingNewLine]", 
-    RowBox[{"\"\<{\\\"\>\"", "<>", 
-     RowBox[{"ToString", "[", "instrument", "]"}], "<>", 
-     "\"\<\\\" \\\\hspace #2 \\\"\\\"}\\n\>\""}], ",", "\[IndentingNewLine]", 
-    "\"\<\\t\\t\\t\\set Staff.instr = \\\\markup \\\\bold \\\\fontsize #4 \
-\>\"", ",", "\[IndentingNewLine]", 
-    RowBox[{"\"\<{\\\"\>\"", "<>", 
-     RowBox[{"ToString", "[", "instrument", "]"}], "<>", 
-     "\"\<\\\" \\\\hspace #2 \\\"\\\"}\\n\>\""}], ",", "\[IndentingNewLine]", 
-    
-    RowBox[{"\"\<\\t\\t\\t\\\\\>\"", "<>", 
-     RowBox[{"ToString", "[", "music", "]"}], "<>", "\"\<}\\n\>\""}]}], 
-   "]"}]}]], "Input"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[{
- RowBox[{
-  RowBox[{"strm", "=", 
-   RowBox[{"OpenWrite", "[", "\"\<rec-score.ly\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", " ", "scorefileheader"}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "paper"}], "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "gridmeasure"}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "\"\<\\n\\\\score {\\n\>\""}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "scoreheader"}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "\"\<\\t\\\\new StaffGroup <<\>\""}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "firststaff"}], "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", 
-    RowBox[{"Sequence", "@@", 
-     RowBox[{"MapThread", "[", 
-      RowBox[{"WrapStaff", ",", 
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"Rest", "[", 
-          RowBox[{"t", "[", "4", "]"}], "]"}], ",", 
-         RowBox[{"Rest", "[", 
-          RowBox[{"Range", "[", "64", "]"}], "]"}]}], "}"}]}], "]"}]}]}], 
-   "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "\"\<\\t>>\>\""}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "layout"}], "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", "\"\<}\\n\>\""}], "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{"Close", "[", "strm", "]"}]}], "Input"],
-
-Cell[BoxData["\<\"rec-score.ly\"\>"], "Output"]
-}, Open  ]]
-},
-WindowSize->{860, 587},
-WindowMargins->{{4, Automatic}, {Automatic, 4}},
-ShowSelection->True,
-FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 11, 2008)",
-StyleDefinitions->"Default.nb"
-]
-(* End of Notebook Content *)
-
-(* Internal cache information *)
-(*CellTagsOutline
-CellTagsIndex->{}
-*)
-(*CellTagsIndex
-CellTagsIndex->{}
-*)
-(*NotebookFileOutline
-Notebook[{
-Cell[545, 20, 55, 0, 26, "Text"],
-Cell[603, 22, 46, 1, 27, "Input"],
-Cell[652, 25, 701, 22, 27, "Input"],
-Cell[CellGroupData[{
-Cell[1378, 51, 91, 2, 27, "Input"],
-Cell[1472, 55, 76, 2, 27, "Output"]
-}, Open  ]],
-Cell[1563, 60, 1132, 30, 148, "Input"],
-Cell[2698, 92, 302, 10, 27, "Input"],
-Cell[CellGroupData[{
-Cell[3025, 106, 91, 2, 27, "Input"],
-Cell[3119, 110, 75, 2, 27, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[3231, 117, 1218, 40, 73, "Input"],
-Cell[4452, 159, 1341, 20, 58, "Output"]
-}, Open  ]],
-Cell[5808, 182, 214, 5, 148, "Input"],
-Cell[6025, 189, 134, 3, 27, "Input"],
-Cell[CellGroupData[{
-Cell[6184, 196, 760, 23, 73, "Input"],
-Cell[6947, 221, 108, 2, 27, "Output"]
-}, Open  ]],
-Cell[7070, 226, 250, 6, 163, "Input"],
-Cell[7323, 234, 662, 12, 268, "Input"],
-Cell[7988, 248, 193, 5, 88, "Input"],
-Cell[8184, 255, 152, 5, 103, "Input"],
-Cell[8339, 262, 887, 14, 253, "Input"],
-Cell[9229, 278, 1748, 27, 493, "Input"],
-Cell[10980, 307, 961, 20, 118, "Input"],
-Cell[CellGroupData[{
-Cell[11966, 331, 1877, 54, 208, "Input"],
-Cell[13846, 387, 47, 0, 27, "Output"]
-}, Open  ]]
-}
-]
-*)
-
-(* End of internal cache information *)
-
+Notebook[{Cell[
+"\<2005-07-05. Poeme recursif. Renotation.\>","Text",ExpressionUUID -> "fa1743eb-3569-4270-b55f-1e6e9ca6ad4b"],Cell[
+BoxData[
+RowBox[{"<<","M`"}]],"Input",CellLabel -> "In[159]:= ",ExpressionUUID -> "db9a8108-5017-4471-b702-793de49aa957"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"e","[","1","]"}],"=",RowBox[{"Transpose","[",RowBox[{"CellularAutomaton","[",RowBox[
+{RowBox[{"{",RowBox[{"24178440",",",RowBox[{"{",RowBox[{"8",",","1"}],"}"}]}],"}"}],",",RowBox[
+{"{",RowBox[{RowBox[{"{","1","}"}],",","0"}],"}"}],",","300",",",RowBox[{"{",RowBox[
+{RowBox[{"{",RowBox[{"211",",",RowBox[{"211","+","256","-","1"}]}],"}"}],",",RowBox[
+{"{",RowBox[{"31",",",RowBox[{"31","+","64","-","1"}]}],"}"}]}],"}"}]}],"]"}],"]"}]}],";"}]],
+"Input",CellLabel -> "In[160]:= ",ExpressionUUID -> "ffde608d-d529-4df7-b183-02f8d0ea1730"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Dimensions","[",RowBox[{"e","[","1","]"}],"]"}]],"Input",
+CellLabel -> "In[161]:= ",ExpressionUUID -> "fc075ba5-0781-4eb9-a5ad-07e6e03eb438"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"64",",","256"}],"}"}],StandardForm],"Output",CellLabel -> "Out[161]= ",
+ExpressionUUID -> "0e933219-7020-4f44-b486-d20ac54f2576"]},Open],ExpressionUUID -> "f876e29f-f9c8-483d-89dc-52779b86b129"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"e","[","2","]"}],"=",RowBox[{RowBox[{"e","[","1","]"}],"/.",RowBox[
+{"{","\[IndentingNewLine]",RowBox[{RowBox[{"0","\[RuleDelayed]","\"\\tr2\\n\""}],",","\[IndentingNewLine]",RowBox[
+{"1","\[RuleDelayed]","\"\\tb'2\\n\""}],",","\[IndentingNewLine]",RowBox[{"2","\[RuleDelayed]","\"\\tb'4 b'\\n\""}],",","\[IndentingNewLine]",RowBox[
+{"3","\[RuleDelayed]","\"\\t\\\\times 2/3 {b'4 b' b'}\\n\""}],",","\[IndentingNewLine]",RowBox[
+{"4","\[RuleDelayed]","\"\\tb'8[ b' b' b']\\n\""}],",","\[IndentingNewLine]",RowBox[
+{"5","\[RuleDelayed]","\"\\t\\\\times 4/5 {b'8[ b' b' b' b']}\\n\""}],",","\[IndentingNewLine]",RowBox[
+{"6","\[RuleDelayed]","\"\\t\\\\times 4/6 {b'8[ b' b' b' b' b']}\\n\""}],",","\[IndentingNewLine]",RowBox[
+{"7","\[RuleDelayed]","\"\\t\\\\times 4/7 {b'8[ b' b' b' b' b' b']}\\n\""}]}],"}"}]}]}],";"}]],
+"Input",CellLabel -> "In[162]:= ",ExpressionUUID -> "ad972d42-5a2a-45c7-853b-716d15fcb751"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"e","[","3","]"}],"=",RowBox[{"Take","[",RowBox[{RowBox[{"e","[","2","]"}],",",RowBox[
+{"{",RowBox[{"1",",","64"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","32"}],"}"}]}],"]"}]}],";"}]],
+"Input",CellLabel -> "In[163]:= ",ExpressionUUID -> "03296a4d-5cc1-478a-958e-1c724278f1b6"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Dimensions","[",RowBox[{"e","[","3","]"}],"]"}]],"Input",
+CellLabel -> "In[164]:= ",ExpressionUUID -> "81f47dd8-f189-4e06-9bfd-938ff8f8153e"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"64",",","32"}],"}"}],StandardForm],"Output",CellLabel -> "Out[164]= ",
+ExpressionUUID -> "b59267d6-4696-44d1-bb70-a74a9dcbeed5"]},Open],ExpressionUUID -> "1a05266c-0249-48b5-8391-d17178099a93"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{RowBox[{"t","[","1","]"}],"=",RowBox[{RowBox[{RowBox[
+{"\"A\"","<>",RowBox[{"FromCharacterCode","[","#","]"}]}],"&"}],"/@",RowBox[{"Range","[",RowBox[
+{"65",",",RowBox[{"65","+","26","-","1"}]}],"]"}]}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{RowBox[{"t","[","2","]"}],"=",RowBox[{RowBox[{RowBox[{"\"B\"","<>",RowBox[
+{"FromCharacterCode","[","#","]"}]}],"&"}],"/@",RowBox[{"Range","[",RowBox[{"65",",",RowBox[
+{"65","+","26","-","1"}]}],"]"}]}]}],";"}],"\[IndentingNewLine]",RowBox[{RowBox[{RowBox[
+{"t","[","3","]"}],"=",RowBox[{RowBox[{RowBox[{"\"C\"","<>",RowBox[{"FromCharacterCode","[","#","]"}]}],"&"}],"/@",RowBox[
+{"Range","[",RowBox[{"65",",",RowBox[{"65","+","12","-","1"}]}],"]"}]}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"t","[","4","]"}],"=",RowBox[{"Join","[",RowBox[{RowBox[{"t","[","1","]"}],",",RowBox[
+{"t","[","2","]"}],",",RowBox[{"t","[","3","]"}]}],"]"}]}]}],"Input",CellLabel -> "In[165]:= ",
+ExpressionUUID -> "9cba4b6d-1c00-4320-968c-00923f5b079c"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"\"AA\"",",","\"AB\"",",","\"AC\"",",","\"AD\"",",","\"AE\"",",","\"AF\"",",","\"AG\"",",","\"AH\"",",","\"AI\"",",","\"AJ\"",",","\"AK\"",",","\"AL\"",",","\"AM\"",",","\"AN\"",",","\"AO\"",",","\"AP\"",",","\"AQ\"",",","\"AR\"",",","\"AS\"",",","\"AT\"",",","\"AU\"",",","\"AV\"",",","\"AW\"",",","\"AX\"",",","\"AY\"",",","\"AZ\"",",","\"BA\"",",","\"BB\"",",","\"BC\"",",","\"BD\"",",","\"BE\"",",","\"BF\"",",","\"BG\"",",","\"BH\"",",","\"BI\"",",","\"BJ\"",",","\"BK\"",",","\"BL\"",",","\"BM\"",",","\"BN\"",",","\"BO\"",",","\"BP\"",",","\"BQ\"",",","\"BR\"",",","\"BS\"",",","\"BT\"",",","\"BU\"",",","\"BV\"",",","\"BW\"",",","\"BX\"",",","\"BY\"",",","\"BZ\"",",","\"CA\"",",","\"CB\"",",","\"CC\"",",","\"CD\"",",","\"CE\"",",","\"CF\"",",","\"CG\"",",","\"CH\"",",","\"CI\"",",","\"CJ\"",",","\"CK\"",",","\"CL\""}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[168]= ",ExpressionUUID -> "16e4e901-d2d1-4764-9a1c-30c16a2f4dbe"]},
+Open],ExpressionUUID -> "8cb21fae-c11a-4779-929a-9b1a669303d1"],Cell[
+BoxData[RowBox[
+{RowBox[{"inputfileheader","=","\"\\<%{\n\tPoeme recursif (2005)\n\tTrevor Baca\n%}\n\n\\\\version \\\"2.7.0\\\"\n\\\\include \\\"english.ly\\\"\n\n\\>\""}],";"}]],
+"Input",CellLabel -> "In[169]:= ",ExpressionUUID -> "1f246828-d05d-4a6f-a621-911626b705df"],Cell[
+BoxData[
+RowBox[{"(*",RowBox[{RowBox[{"SetDirectory","[",RowBox[{"$MusicDirectory","<>","\"/rec2\""}],"]"}],";"}],"*)"}]],
+"Input",ExpressionUUID -> "16e8ecd2-3aa6-4b73-8151-b505ce056532"],Cell[
+BoxData[{RowBox[
+{"strm","=",RowBox[{"OpenWrite","[","\"rec-input.ly\"","]"}]}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","inputfileheader"}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"MapThread","[",RowBox[{RowBox[{RowBox[{"WriteString","[",RowBox[{"strm",",","#1",",","\" = {\\n\\t\\\\time 2/4\\n\"",",",RowBox[
+{"Sequence","@@","#2"}],",","\"}\\n\\n\""}],"]"}],"&"}],",",RowBox[{"{",RowBox[{RowBox[
+{"t","[","4","]"}],",",RowBox[{"e","[","3","]"}]}],"}"}]}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"Close","[","strm","]"}],";"}]}],"Input",CellLabel -> "In[171]:= ",ExpressionUUID -> "20c81911-1efb-4c54-bd99-71e33318c7da"],Cell[
+BoxData[
+RowBox[{RowBox[{"scorefileheader","=","\"\\<%{\n\tPoeme recursif (2005)\n\tTrevor Baca\n%}\n\n\\\\version \\\"2.7.0\\\"\n\\\\include \\\"english.ly\\\"\n\\\\include \\\"rec-input.ly\\\"\n\n\\>\""}],";"}]],
+"Input",CellLabel -> "In[175]:= ",ExpressionUUID -> "2ca7aa32-7e20-4aa9-b9ac-b13469d9c80b"],Cell[
+BoxData[
+RowBox[{RowBox[{"paper","=","\"\\<#(set-default-paper-size \\\"tabloid\\\")\n#(set-global-staff-size 8.50)\n\n\\\\paper {\n\tfirstpagenumber = 3\n\tprintfirstpagenumber = ##t\n\toddFooterMarkup = \\\\markup \\\\fill-line {\n\t\t\\\\halign #0 \\\\bold \\\\fontsize #6 \\\\fromproperty #'page:page-number-string\n\t}\n\tevenFooterMarkup = \\\\markup \\\\fill-line {\n\t\t\\\\halign #0 \\\\bold \\\\fontsize #6 \\\\fromproperty #'page:page-number-string\n\t}\n\toddHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\n\tevenHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\n}\n\n\\>\""}],";"}]],
+"Input",CellLabel -> "In[176]:= ",ExpressionUUID -> "cfc435f9-05df-46f9-8dbc-1fa39d9a5c3a"],Cell[
+BoxData[
+RowBox[{RowBox[{"scoreheader","=","\"\\<\\t\\\\header {\n\t\ttitle = \\\"POEME RECURSIF\\\"\n\t\tcomposer = \\\"Trevor Baca\\\"\n\t}\n\\>\""}],";"}]],
+"Input",CellLabel -> "In[177]:= ",ExpressionUUID -> "e516bb58-e169-41d5-8adf-18069939b620"],Cell[
+BoxData[
+RowBox[{RowBox[{"gridmeasure","=","\"\\<\ngridmeasure = {\n\t\\\\repeat unfold 8 b'16\n}\n\n\\>\""}],";"}]],
+"Input",CellLabel -> "In[178]:= ",ExpressionUUID -> "a6292e7d-ce1f-4976-9f40-de6c1a3071bb"],Cell[
+BoxData[
+RowBox[{RowBox[{"firststaff","=","\"\\<\n\t\t\\\\new Staff {\n\t\t\t\\\\set Staff.instrument = \\\\markup \\\\bold \\\\fontsize #4 {\\\"1\\\" \\\\hspace #2 \\\"\\\"}\n                        <<\n                                \\\\new Voice {\n                                        \\\\voiceOne\n                                        \\\\override Staff.NoteCollision #'merge-differently-headed = ##t\n                                        \\\\override NoteHead #'transparent = ##t\n                                        \\\\override Stem #'transparent = ##t\n                                        \\\\override Beam #'transparent = ##t\n                                        \\\\repeat unfold 32 \\\\gridmeasure}\n                            \\\\new Voice {\\\\AA}\n                        >>\n                }\n\\>\""}],";"}]],
+"Input",CellLabel -> "In[181]:= ",ExpressionUUID -> "9a4e7687-1483-4090-a962-ed0e1d6ad8de"],Cell[
+BoxData[
+RowBox[{RowBox[{"layout","=","\"\\<\n\t\\\\layout {\n                \\\\context {\\\\Score\n                        \\\\override StaffSymbol #'line-count = #1\n                        \\\\override Clef #'transparent = ##t\n                        \\\\override BarLine #'transparent = ##t\n                        \\\\override BarLine #'hair-thickness = #0.4\n                        \\\\override TupletBracket #'bracket-visibility = ##t\n                        \\\\override TupletBracket #'edge-height = #'(0.5 . 0.5)\n                        \\\\override TupletBracket #'shorten-pair = #'(0 . 0)\n                        \\\\override TupletBracket #'thickness = #0.8\n                        \\\\override TupletBracket #'font-series = #'bold\n                        \\\\override TupletBracket #'direction = #1\n                        \\\\override Stem #'direction = #-1\n                        \\\\override BarNumber #'break-visibility = #end-of-line-invisible\n                        \\\\override BarNumber #'font-size = #4\n                        \\\\override BarNumber #'print-function = #(make-stencil-boxer 0.5 0.5 Text_interface::print)\n                        \\\\override BarNumber #'padding = #2\n                        \\\\override BarNumber #'self-alignment-X = #0.1\n                }\n                \\\\context {\\\\StaffGroup\n                }\n                \\\\context {\\\\Staff\n                        minimumVerticalExtent = ##f\n                        verticalExtent = #'(-4.55 . 4.0)\n                        \\\\remove \\\"Time_signature_engraver\\\"\n                }\n                indent = 0.0\\\\cm\n                raggedright = ##t\n        }\n\\>\""}],";"}]],
+"Input",CellLabel -> "In[182]:= ",ExpressionUUID -> "6d559d8c-c785-4100-9e2e-f35118653ea5"],Cell[
+BoxData[
+RowBox[{RowBox[{"WrapStaff","[",RowBox[{"music_",",","instrument_"}],"]"}],":=",RowBox[
+{"StringJoin","[","\[IndentingNewLine]",RowBox[{"\"\\t\\t\\\\new Staff {\\n\"",",","\[IndentingNewLine]","\"\\t\\t\\t\\\\set Staff.instrument = \\\\markup \\\\bold \\\\fontsize #4 \"",",","\[IndentingNewLine]",RowBox[
+{"\"{\\\"\"","<>",RowBox[{"ToString","[","instrument","]"}],"<>","\"\\\" \\\\hspace #2 \\\"\\\"}\\n\""}],",","\[IndentingNewLine]","\"\\t\\t\\t\\\\set Staff.instr = \\\\markup \\\\bold \\\\fontsize #4 \"",",","\[IndentingNewLine]",RowBox[
+{"\"{\\\"\"","<>",RowBox[{"ToString","[","instrument","]"}],"<>","\"\\\" \\\\hspace #2 \\\"\\\"}\\n\""}],",","\[IndentingNewLine]",RowBox[
+{"\"\\t\\t\\t\\\\\"","<>",RowBox[{"ToString","[","music","]"}],"<>","\"}\\n\""}]}],"]"}]}]],
+"Input",CellLabel -> "In[184]:= ",ExpressionUUID -> "c478744b-38ce-4790-b3b8-1b43add880fa"],Cell[
+BoxData[
+{RowBox[{RowBox[{"strm","=",RowBox[{"OpenWrite","[","\"rec-score.ly\"","]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",","," ","scorefileheader"}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","paper"}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","gridmeasure"}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","\"\\n\\\\score {\\n\""}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","scoreheader"}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","\"\\t\\\\new StaffGroup <<\""}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","firststaff"}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",",RowBox[{"Sequence","@@",RowBox[{"MapThread","[",RowBox[
+{"WrapStaff",",",RowBox[{"{",RowBox[{RowBox[{"Rest","[",RowBox[{"t","[","4","]"}],"]"}],",",RowBox[
+{"Rest","[",RowBox[{"Range","[","64","]"}],"]"}]}],"}"}]}],"]"}]}]}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","\"\\t>>\""}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","layout"}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","\"}\\n\""}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{"Close","[","strm","]"}]}],"Input",CellLabel -> "In[185]:= ",ExpressionUUID -> "82442b36-a206-442f-9f73-f4340ad41b34"]},
+StyleDefinitions -> "Default.nb",ShowSelection -> True,WindowSize -> {860,587},WindowMargins -> {{4,Automatic},{Automatic,4}},
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (January 4, 2022)"]
