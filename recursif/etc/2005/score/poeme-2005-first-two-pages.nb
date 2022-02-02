@@ -1,488 +1,107 @@
-(* Content-type: application/mathematica *)
+Notebook[{Cell[
+"\<Po\[EGrave]me r\[EAcute]cursif (2005), revision 2. Compressed for InDesign titlepage.\>",
+"Text",ExpressionUUID -> "922e2602-0302-4853-927a-3d98cd59a710"],Cell[
+BoxData[RowBox[
+{"<<","M`"}]],"Input",ExpressionUUID -> "e03ab3e3-aacc-45ce-8e25-602f26b2738a"],Cell[
 
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
-
-(* CreatedBy='Mathematica 7.0' *)
-
-(*CacheID: 234*)
-(* Internal cache information:
-NotebookFileLineBreakTest
-NotebookFileLineBreakTest
-NotebookDataPosition[       145,          7]
-NotebookDataLength[     16673,        480]
-NotebookOptionsPosition[     15685,        443]
-NotebookOutlinePosition[     16063,        460]
-CellTagsIndexPosition[     16020,        457]
-WindowFrame->Normal*)
-
-(* Beginning of Notebook Content *)
-Notebook[{
-Cell["\<\
-Po\[EGrave]me r\[EAcute]cursif (2005), revision 2. Compressed for InDesign \
-titlepage.\
-\>", "Text"],
-
-Cell[BoxData[
- RowBox[{"<<", "M`"}]], "Input"],
-
-Cell["Source:", "Text"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"mm", "=", "32"}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"e", "[", "1", "]"}], "=", 
-   RowBox[{"Transpose", "[", 
-    RowBox[{"CellularAutomaton", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"24178440", ",", 
-        RowBox[{"{", 
-         RowBox[{"8", ",", "1"}], "}"}]}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", "1", "}"}], ",", "0"}], "}"}], ",", "300", ",", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"211", ",", 
-          RowBox[{"211", "+", "mm", "-", "1"}]}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"31", ",", 
-          RowBox[{"31", "+", "64", "-", "1"}]}], "}"}]}], "}"}]}], "]"}], 
-    "]"}]}], ";"}]], "Input"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Dimensions", "[", 
-  RowBox[{"e", "[", "1", "]"}], "]"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"64", ",", "32"}], "}"}]], "Output"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"e", "[", "2", "]"}], "=", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"Length", "/@", 
-      RowBox[{"Split", "[", 
-       RowBox[{"#", ",", 
-        RowBox[{
-         RowBox[{
-          RowBox[{"#1", "\[Equal]", "#2"}], "&&", 
-          RowBox[{"#1", ">", "0"}]}], "&"}]}], "]"}]}], "&"}], "/@", 
-    RowBox[{"Transpose", "[", 
-     RowBox[{"CellularAutomaton", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"1170703", ",", 
-         RowBox[{"{", 
-          RowBox[{"7", ",", "1"}], "}"}]}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"{", "1", "}"}], ",", "0"}], "}"}], ",", "300", ",", 
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"{", 
-          RowBox[{"211", ",", 
-           RowBox[{"211", "+", "mm", "-", "1"}]}], "}"}], ",", 
-         RowBox[{"{", 
-          RowBox[{"31", ",", 
-           RowBox[{"31", "+", "64", "-", "1"}]}], "}"}]}], "}"}]}], "]"}], 
-     "]"}]}]}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"e", "[", "3", "]"}], "=", 
-   RowBox[{"MapThread", "[", 
-    RowBox[{
-     RowBox[{
-      RowBox[{"WolfPartition", "[", 
-       RowBox[{"#1", ",", "#2"}], "]"}], "&"}], ",", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"e", "[", "1", "]"}], ",", 
-       RowBox[{"e", "[", "2", "]"}]}], "}"}]}], "]"}]}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"e", "[", "4", "]"}], "=", 
-   RowBox[{"Map", "[", 
-    RowBox[{
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"Plus", "@@", "#"}], ",", 
-        RowBox[{"Length", "[", "#", "]"}]}], "}"}], "&"}], ",", 
-     RowBox[{"e", "[", "3", "]"}], ",", 
-     RowBox[{"{", "2", "}"}]}], "]"}]}], ";"}]], "Input"],
-
-Cell[BoxData[{
- RowBox[{
-  RowBox[{
-   RowBox[{"t2", "[", 
-    RowBox[{"{", 
-     RowBox[{"0", ",", "h_"}], "}"}], "]"}], ":=", 
-   RowBox[{"Sequence", "@@", 
-    RowBox[{"Table", "[", 
-     RowBox[{
-      RowBox[{"RTree", "[", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"1", ",", "\"\<half\>\""}], "}"}], ",", 
-        RowBox[{"{", "}"}], ",", "\"\<rest\>\""}], "]"}], ",", 
-      RowBox[{"{", "h", "}"}]}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"t2", "[", 
-    RowBox[{"{", 
-     RowBox[{"1", ",", "h_"}], "}"}], "]"}], ":=", 
-   RowBox[{"ToDottedRTree", "[", 
-    RowBox[{"DivideDuration", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"h", ",", "\"\<half\>\""}], "}"}], ",", 
-      RowBox[{"{", "1", "}"}]}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"t2", "[", 
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"d_", "?", "Positive"}], ",", "h_"}], "}"}], "]"}], ":=", 
-   RowBox[{"BeamRTree", "[", 
-    RowBox[{"ToDottedRTree", "[", 
-     RowBox[{"DivideDuration", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"h", ",", "\"\<half\>\""}], "}"}], ",", 
-       RowBox[{"Table", "[", 
-        RowBox[{"1", ",", 
-         RowBox[{"{", "d", "}"}]}], "]"}]}], "]"}], "]"}], "]"}]}], 
-  ";"}]}], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"e", "[", "5", "]"}], "=", 
-   RowBox[{"Map", "[", 
-    RowBox[{"t2", ",", 
-     RowBox[{"e", "[", "4", "]"}], ",", 
-     RowBox[{"{", "2", "}"}]}], "]"}]}], ";"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"f", "[", "1", "]"}], "=", 
-   RowBox[{"e", "[", "5", "]"}]}], ";"}]], "Input"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Dimensions", "[", 
-  RowBox[{"f", "[", "1", "]"}], "]"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{"{", "64", "}"}]], "Output"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[{
- RowBox[{
-  RowBox[{"InstLabels", "=", 
-   RowBox[{"Table", "[", 
-    RowBox[{
-     RowBox[{
-     "\"\<\\\\set RhythmicStaff.instrument = \\\\markup {\>\"", "<>", 
-      RowBox[{"ToString", "[", "i", "]"}], "<>", 
-      "\"\< \\\\hspace #2 }\\n\\\\set RhythmicStaff.instr = \\\\markup {\>\"",
-       "<>", 
-      RowBox[{"ToString", "[", "i", "]"}], "<>", "\"\< \\\\hspace #2 }\>\""}],
-      ",", 
-     RowBox[{"{", 
-      RowBox[{"i", ",", "1", ",", 
-       RowBox[{"Length", "[", 
-        RowBox[{"f", "[", "1", "]"}], "]"}]}], "}"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"S", "=", 
-   RowBox[{"\"\<score\>\"", "[", 
-    RowBox[{"\"\<StaffGroup\>\"", "@@", 
-     RowBox[{"MapThread", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"\"\<RhythmicStaff\>\"", "[", 
-         RowBox[{"#1", ",", "#2"}], "]"}], "&"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"InstLabels", ",", 
-         RowBox[{"f", "[", "1", "]"}]}], "}"}]}], "]"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"B", "[", "1", "]"}], "=", 
-   RowBox[{"\"\<breaks\>\"", "@@", 
-    RowBox[{"(", 
-     RowBox[{
-      RowBox[{"Table", "[", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Table", "[", 
-           RowBox[{
-            RowBox[{"{", "\"\<\\\\time 2/4 s2 \\\\noBreak\>\"", "}"}], ",", 
-            RowBox[{"{", "15", "}"}]}], "]"}], "~", "Join", "~", 
-          RowBox[{"{", 
-           RowBox[{"{", "\"\<s2 \\\\break\>\"", "}"}], "}"}]}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"mm", "/", "16"}], "}"}]}], "]"}], "//", 
-      RowBox[{
-       RowBox[{"Flatten", "[", 
-        RowBox[{"#", ",", "2"}], "]"}], "&"}]}], ")"}]}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"B", "[", "2", "]"}], "=", 
-   RowBox[{"\"\<breaks\>\"", "@@", 
-    RowBox[{"Flatten", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"\"\<s2*16\>\"", ",", 
-        RowBox[{"Table", "[", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"\"\<s2\>\"", ",", 
-            RowBox[{"\"\<\\\\mark \\\\markup {\>\"", "<>", 
-             RowBox[{"ToString", "[", 
-              RowBox[{
-               RowBox[{"k", "*", "16"}], "+", "2"}], "]"}], "<>", 
-             "\"\<}\>\""}], ",", "\"\<s2*15\>\""}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"k", ",", "1", ",", 
-            RowBox[{
-             RowBox[{"mm", "/", "16"}], "-", "1"}]}], "}"}]}], "]"}]}], "}"}],
-       ",", "2"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"B", "[", "3", "]"}], "=", 
-   RowBox[{"\"\<breaks\>\"", "[", 
-    RowBox[{
-     RowBox[{"\"\<s2*\>\"", "<>", 
-      RowBox[{"ToString", "[", "mm", "]"}]}], ",", "\[IndentingNewLine]", 
-     "\"\<\\\\override Score.SpanBar #'transparent = ##f\>\"", ",", 
-     "\[IndentingNewLine]", 
-     "\"\<\\\\override Score.BarLine #'transparent = ##f\>\"", ",", 
-     "\[IndentingNewLine]", 
-     "\"\<\\\\override Score.BarLine #'hair-thickness = #1.0\>\"", ",", 
-     "\[IndentingNewLine]", 
-     "\"\<\\\\override Score.BarLine #'kern = #1.9\>\"", ",", 
-     "\[IndentingNewLine]", 
-     "\"\<\\\\override Score.BarLine #'thick-thickness = #3.0\>\"", ",", 
-     "\[IndentingNewLine]", 
-     "\"\<\\\\override Score.SpanBar #'extra-offset = #'(1.0 . 0)\>\"", ",", 
-     "\[IndentingNewLine]", 
-     "\"\<\\\\override Score.BarLine #'extra-offset = #'(1.0 . 0)\>\"", ",", 
-     "\[IndentingNewLine]", "\"\<\\\\bar \\\"|.\\\"\>\""}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"S", "=", 
-   RowBox[{"Insert", "[", 
-    RowBox[{"S", ",", 
-     RowBox[{"B", "[", "1", "]"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"S", "=", 
-   RowBox[{"Insert", "[", 
-    RowBox[{"S", ",", 
-     RowBox[{"B", "[", "2", "]"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"S", "=", 
-   RowBox[{"Insert", "[", 
-    RowBox[{"S", ",", 
-     RowBox[{"B", "[", "3", "]"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"1", ",", "1", ",", "1"}], "}"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"L", "=", 
-   RowBox[{"\"\<layout\>\"", "[", "\[IndentingNewLine]", 
-    RowBox[{"\"\<indent = #0.0\>\"", ",", "\[IndentingNewLine]", 
-     RowBox[{"\"\<context\>\"", "[", "\[IndentingNewLine]", 
-      RowBox[{
-      "\"\<\\\\Voice\>\"", ",", "\[IndentingNewLine]", 
-       "\"\<\\\\remove \\\"Forbid_line_break_engraver\\\"\>\"", ",", 
-       "\[IndentingNewLine]", "\"\<tupletFullLength = ##t\>\"", ",", 
-       "\[IndentingNewLine]", "\"\<allowBeamBreak = ##t\>\""}], 
-      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
-     RowBox[{"\"\<context\>\"", "[", "\[IndentingNewLine]", 
-      RowBox[{
-      "\"\<\\\\RhythmicStaff\>\"", ",", "\[IndentingNewLine]", 
-       "\"\<\\\\override TimeSignature #'break-visibility = ##(#f #f #t)\>\"",
-        ",", "\[IndentingNewLine]", 
-       "\"\<\\\\override TimeSignature #'transparent = ##t\>\"", ",", 
-       "\[IndentingNewLine]", "\"\<minimumVerticalExtent = ##f\>\"", ",", 
-       "\[IndentingNewLine]", "\"\<verticalExtent = #'(-3.25 . 4.0)\>\""}], 
-      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
-     RowBox[{"\"\<context\>\"", "[", "\[IndentingNewLine]", 
-      RowBox[{
-      "\"\<\\\\Score\>\"", ",", "\[IndentingNewLine]", 
-       "\"\<\\\\remove \\\"Bar_number_engraver\\\"\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override SpacingSpanner #'strict-note-spacing = ##t\>\"", ",",
-        "\[IndentingNewLine]", 
-       "\"\<\\\\override SpacingSpanner #'uniform-stretching = ##t\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<proportionalNotationDuration = #(ly:make-moment 1 16)\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override SpanBar #'transparent = ##t\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override BarLine #'transparent = ##t\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override InstrumentName #'self-alignment-X = #right\>\"", ",",
-        "\[IndentingNewLine]", 
-       "\"\<\\\\override InstrumentName #'X-offset-callbacks = \
-#`(,Self_alignment_interface::aligned_on_self)\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override InstrumentName #'font-size = #4\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override InstrumentName #'font-series = #'bold\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override RehearsalMark #'self-alignment-X = #left\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override RehearsalMark #'X-offset-callbacks = \
-#`(,Self_alignment_interface::aligned_on_self)\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override RehearsalMark #'color = #black\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override RehearsalMark #'extra-offset = #'(1.9 . 3)\>\"", ",",
-        "\[IndentingNewLine]", 
-       "\"\<\\\\override RehearsalMark #'font-size = #8\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override RehearsalMark #'print-function = \
-#(make-stencil-boxer 0.3 0.75 Text_interface::print)\>\"", ",", 
-       "\[IndentingNewLine]", "\"\<\\\\override Stem #'direction = #down\>\"",
-        ",", "\[IndentingNewLine]", 
-       "\"\<\\\\override TupletBracket #'direction = #up\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override TupletBracket #'staff-padding = #0.5\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override TupletBracket #'edge-height = #'(0.5 . 0.5)\>\"", 
-       ",", "\[IndentingNewLine]", 
-       "\"\<\\\\override TupletBracket #'thickness = #1.0\>\"", ",", 
-       "\[IndentingNewLine]", 
-       "\"\<\\\\override TupletBracket #'font-series = #'bold\>\"", ",", 
-       "\[IndentingNewLine]", "\"\<allowBeamBreak = ##t\>\""}], 
-      "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"AppendTo", "[", 
-   RowBox[{"S", ",", "L"}], "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-  "SetDirectory", "[", "\"\<//Users//trevorbaca//Scores//rec2\>\"", 
-   "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"strm", "=", 
-   RowBox[{"OpenWrite", "[", "\"\<poeme-2005-2-compressed.ly\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{
-   "strm", ",", "\[IndentingNewLine]", 
-    "\"\<\\\\version \\\"2.7.11\\\"\\n\\n\>\"", ",", "\[IndentingNewLine]", 
-    "\"\<#(set-default-paper-size \\\"11x17\\\")\\n\>\"", ",", 
-    "\[IndentingNewLine]", "\"\<#(set-global-staff-size 8)\\n\\n\>\"", ",", 
-    "\[IndentingNewLine]", "\"\<\\\\paper {\\n\>\"", ",", 
-    "\[IndentingNewLine]", "\"\<topmargin = 120\\mm\\n\>\"", ",", 
-    "\[IndentingNewLine]", "\"\<bottommargin = 15\\mm\\n\>\"", ",", 
-    "\[IndentingNewLine]", "\"\<firstpagenumber = 3\\n\>\"", ",", 
-    "\[IndentingNewLine]", "\"\<printpagenumber = ##t\\n\>\"", ",", 
-    "\[IndentingNewLine]", 
-    "\"\<oddFooterMarkup = \\\\markup \\\\fill-line {\\\\halign #0 \\\\bold \
-\\\\fontsize #8 \\\\fromproperty #'page:page-number-string }\\n\>\"", ",", 
-    "\[IndentingNewLine]", 
-    "\"\<evenFooterMarkup = \\\\markup \\\\fill-line {\\\\halign #0 \\\\bold \
-\\\\fontsize #8 \\\\fromproperty #'page:page-number-string }\\n\>\"", ",", 
-    "\[IndentingNewLine]", 
-    "\"\<oddHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\\n\>\"", ",", 
-    "\[IndentingNewLine]", 
-    "\"\<evenHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\\n\>\"", ",",
-     "\[IndentingNewLine]", "\"\<}\\n\\n\>\"", ",", "\[IndentingNewLine]", 
-    "\"\<\\\\header {\\n\>\"", ",", "\[IndentingNewLine]", 
-    "\"\<tagline = \\\"\\\"\\n\>\"", ",", "\[IndentingNewLine]", 
-    "\"\<}\\n\\n\>\""}], "\[IndentingNewLine]", "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"WriteString", "[", 
-   RowBox[{"strm", ",", 
-    RowBox[{"ToLily", "[", "S", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
-
- RowBox[{
-  RowBox[{"Close", "[", "strm", "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{"Run", "[", 
-  "\"\<. /Users/trevorbaca/.profile && lily poeme-2005-2-compressed.ly > \
-poeme-2005-2-compressed.out 2>&1\>\"", "]"}]}], "Input"],
-
-Cell[BoxData["0"], "Output"]
-}, Open  ]]
-},
-WindowSize->{716, 547},
-WindowMargins->{{4, Automatic}, {Automatic, 4}},
-ShowSelection->True,
-FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
-21, 2016)",
-StyleDefinitions->"Default.nb"
-]
-(* End of Notebook Content *)
-
-(* Internal cache information *)
-(*CellTagsOutline
-CellTagsIndex->{}
-*)
-(*CellTagsIndex
-CellTagsIndex->{}
-*)
-(*NotebookFileOutline
-Notebook[{
-Cell[545, 20, 111, 3, 30, "Text"],
-Cell[659, 25, 46, 1, 32, "Input"],
-Cell[708, 28, 23, 0, 30, "Text"],
-Cell[734, 30, 69, 2, 32, "Input"],
-Cell[806, 34, 700, 22, 54, "Input"],
-Cell[CellGroupData[{
-Cell[1531, 60, 91, 2, 32, "Input"],
-Cell[1625, 64, 75, 2, 32, "Output"]
-}, Open  ]],
-Cell[1715, 69, 986, 31, 75, "Input"],
-Cell[2704, 102, 372, 12, 32, "Input"],
-Cell[3079, 116, 367, 12, 32, "Input"],
-Cell[3449, 130, 1307, 41, 96, "Input"],
-Cell[4759, 173, 220, 7, 32, "Input"],
-Cell[4982, 182, 125, 4, 32, "Input"],
-Cell[CellGroupData[{
-Cell[5132, 190, 91, 2, 32, "Input"],
-Cell[5226, 194, 51, 1, 32, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[5314, 200, 10324, 238, 2133, "Input"],
-Cell[15641, 440, 28, 0, 32, "Output"]
-}, Open  ]]
-}
-]
-*)
-
+"\<Source:\>","Text",ExpressionUUID -> "8767b29b-3299-4158-abac-3d31744b02cd"],Cell[
+BoxData[
+RowBox[{RowBox[{"mm","=","32"}],";"}]],"Input",CellLabel -> "In[198]:= ",ExpressionUUID -> "348065a9-e51f-4ae7-ba6e-31db75af7d95"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"e","[","1","]"}],"=",RowBox[{"Transpose","[",RowBox[{"CellularAutomaton","[",RowBox[
+{RowBox[{"{",RowBox[{"24178440",",",RowBox[{"{",RowBox[{"8",",","1"}],"}"}]}],"}"}],",",RowBox[
+{"{",RowBox[{RowBox[{"{","1","}"}],",","0"}],"}"}],",","300",",",RowBox[{"{",RowBox[
+{RowBox[{"{",RowBox[{"211",",",RowBox[{"211","+","mm","-","1"}]}],"}"}],",",RowBox[
+{"{",RowBox[{"31",",",RowBox[{"31","+","64","-","1"}]}],"}"}]}],"}"}]}],"]"}],"]"}]}],";"}]],
+"Input",CellLabel -> "In[199]:= ",ExpressionUUID -> "5e1398d7-a506-4f75-a500-35140f29028c"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Dimensions","[",RowBox[{"e","[","1","]"}],"]"}]],"Input",
+CellLabel -> "In[200]:= ",ExpressionUUID -> "d3bb7115-a9cd-412a-8f45-36b257f063f6"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"64",",","32"}],"}"}],StandardForm],"Output",CellLabel -> "Out[200]= ",
+ExpressionUUID -> "2f4f0c67-312e-4532-b8f5-b3fd5f86844e"]},Open],ExpressionUUID -> "4d251cae-4d19-499f-aacb-86fe9aed925f"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"e","[","2","]"}],"=",RowBox[{RowBox[{RowBox[{"Length","/@",RowBox[
+{"Split","[",RowBox[{"#",",",RowBox[{RowBox[{RowBox[{"#1","\[Equal]","#2"}],"&&",RowBox[
+{"#1",">","0"}]}],"&"}]}],"]"}]}],"&"}],"/@",RowBox[{"Transpose","[",RowBox[{"CellularAutomaton","[",RowBox[
+{RowBox[{"{",RowBox[{"1170703",",",RowBox[{"{",RowBox[{"7",",","1"}],"}"}]}],"}"}],",",RowBox[
+{"{",RowBox[{RowBox[{"{","1","}"}],",","0"}],"}"}],",","300",",",RowBox[{"{",RowBox[
+{RowBox[{"{",RowBox[{"211",",",RowBox[{"211","+","mm","-","1"}]}],"}"}],",",RowBox[
+{"{",RowBox[{"31",",",RowBox[{"31","+","64","-","1"}]}],"}"}]}],"}"}]}],"]"}],"]"}]}]}],";"}]],
+"Input",CellLabel -> "In[201]:= ",ExpressionUUID -> "20b5c047-66bf-4d64-9c12-2dc65555eb7f"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"e","[","3","]"}],"=",RowBox[{"MapThread","[",RowBox[{RowBox[
+{RowBox[{"WolfPartition","[",RowBox[{"#1",",","#2"}],"]"}],"&"}],",",RowBox[{"{",RowBox[
+{RowBox[{"e","[","1","]"}],",",RowBox[{"e","[","2","]"}]}],"}"}]}],"]"}]}],";"}]],
+"Input",CellLabel -> "In[202]:= ",ExpressionUUID -> "aaec690e-15d3-4b48-b708-45f55a146489"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"e","[","4","]"}],"=",RowBox[{"Map","[",RowBox[{RowBox[{RowBox[
+{"{",RowBox[{RowBox[{"Plus","@@","#"}],",",RowBox[{"Length","[","#","]"}]}],"}"}],"&"}],",",RowBox[
+{"e","[","3","]"}],",",RowBox[{"{","2","}"}]}],"]"}]}],";"}]],"Input",CellLabel -> "In[203]:= ",
+ExpressionUUID -> "9674bfe3-c3ce-4f16-acf4-295b844e4b24"],Cell[
+BoxData[{RowBox[{RowBox[
+{RowBox[{"t2","[",RowBox[{"{",RowBox[{"0",",","h_"}],"}"}],"]"}],":=",RowBox[{"Sequence","@@",RowBox[
+{"Table","[",RowBox[{RowBox[{"RTree","[",RowBox[{RowBox[{"{",RowBox[{"1",",","\"half\""}],"}"}],",",RowBox[
+{"{","}"}],",","\"rest\""}],"]"}],",",RowBox[{"{","h","}"}]}],"]"}]}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{RowBox[{"t2","[",RowBox[{"{",RowBox[{"1",",","h_"}],"}"}],"]"}],":=",RowBox[
+{"ToDottedRTree","[",RowBox[{"DivideDuration","[",RowBox[{RowBox[{"{",RowBox[{"h",",","\"half\""}],"}"}],",",RowBox[
+{"{","1","}"}]}],"]"}],"]"}]}],";"}],"\[IndentingNewLine]",RowBox[{RowBox[{RowBox[
+{"t2","[",RowBox[{"{",RowBox[{RowBox[{"d_","?","Positive"}],",","h_"}],"}"}],"]"}],":=",RowBox[
+{"BeamRTree","[",RowBox[{"ToDottedRTree","[",RowBox[{"DivideDuration","[",RowBox[
+{RowBox[{"{",RowBox[{"h",",","\"half\""}],"}"}],",",RowBox[{"Table","[",RowBox[{"1",",",RowBox[
+{"{","d","}"}]}],"]"}]}],"]"}],"]"}],"]"}]}],";"}]}],"Input",CellLabel -> "In[204]:= ",
+ExpressionUUID -> "c2a806fb-fcb4-4793-bea4-33481a8e745d"],Cell[
+BoxData[RowBox[{RowBox[
+{RowBox[{"e","[","5","]"}],"=",RowBox[{"Map","[",RowBox[{"t2",",",RowBox[{"e","[","4","]"}],",",RowBox[
+{"{","2","}"}]}],"]"}]}],";"}]],"Input",CellLabel -> "In[207]:= ",ExpressionUUID -> "c930e7bd-5a04-482b-862d-3d486fdff5cf"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"f","[","1","]"}],"=",RowBox[{"e","[","5","]"}]}],";"}]],
+"Input",CellLabel -> "In[208]:= ",ExpressionUUID -> "4b6fbedd-d072-49b9-82e1-7c025a9c4633"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Dimensions","[",RowBox[{"f","[","1","]"}],"]"}]],"Input",
+CellLabel -> "In[209]:= ",ExpressionUUID -> "73578afa-ac09-4edb-84c4-f1891d62eea5"],Cell[
+BoxData[
+RowBox[{"{","64","}"}],StandardForm],"Output",CellLabel -> "Out[209]= ",ExpressionUUID -> "8f7bea4c-253f-4f11-82ed-229e6f7aefaf"]},
+Open],ExpressionUUID -> "dc7be7da-7eee-43f0-b844-c2a78031a0cf"],Cell[
+BoxData[RowBox[
+{RowBox[{RowBox[{"InstLabels","=",RowBox[{"Table","[",RowBox[{RowBox[{"\"\\\\set RhythmicStaff.instrument = \\\\markup {\"","<>",RowBox[
+{"ToString","[","i","]"}],"<>","\" \\\\hspace #2 }\\n\\\\set RhythmicStaff.instr = \\\\markup {\"","<>",RowBox[
+{"ToString","[","i","]"}],"<>","\" \\\\hspace #2 }\""}],",",RowBox[{"{",RowBox[{"i",",","1",",",RowBox[
+{"Length","[",RowBox[{"f","[","1","]"}],"]"}]}],"}"}]}],"]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"S","=",RowBox[{"\"score\"","[",RowBox[{"\"StaffGroup\"","@@",RowBox[{"MapThread","[",RowBox[
+{RowBox[{RowBox[{"\"RhythmicStaff\"","[",RowBox[{"#1",",","#2"}],"]"}],"&"}],",",RowBox[
+{"{",RowBox[{"InstLabels",",",RowBox[{"f","[","1","]"}]}],"}"}]}],"]"}]}],"]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{RowBox[{"B","[","1","]"}],"=",RowBox[{"\"breaks\"","@@",RowBox[{"(",RowBox[
+{RowBox[{"Table","[",RowBox[{RowBox[{"{",RowBox[{RowBox[{"Table","[",RowBox[{RowBox[
+{"{","\"\\\\time 2/4 s2 \\\\noBreak\"","}"}],",",RowBox[{"{","15","}"}]}],"]"}],"~","Join","~",RowBox[
+{"{",RowBox[{"{","\"s2 \\\\break\"","}"}],"}"}]}],"}"}],",",RowBox[{"{",RowBox[{"mm","/","16"}],"}"}]}],"]"}],"//",RowBox[
+{RowBox[{"Flatten","[",RowBox[{"#",",","2"}],"]"}],"&"}]}],")"}]}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{RowBox[{"B","[","2","]"}],"=",RowBox[{"\"breaks\"","@@",RowBox[{"Flatten","[",RowBox[
+{RowBox[{"{",RowBox[{"\"s2*16\"",",",RowBox[{"Table","[",RowBox[{RowBox[{"{",RowBox[
+{"\"s2\"",",",RowBox[{"\"\\\\mark \\\\markup {\"","<>",RowBox[{"ToString","[",RowBox[
+{RowBox[{"k","*","16"}],"+","2"}],"]"}],"<>","\"}\""}],",","\"s2*15\""}],"}"}],",",RowBox[
+{"{",RowBox[{"k",",","1",",",RowBox[{RowBox[{"mm","/","16"}],"-","1"}]}],"}"}]}],"]"}]}],"}"}],",","2"}],"]"}]}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{RowBox[{"B","[","3","]"}],"=",RowBox[{"\"breaks\"","[",RowBox[{RowBox[{"\"s2*\"","<>",RowBox[
+{"ToString","[","mm","]"}]}],",","\[IndentingNewLine]","\"\\\\override Score.SpanBar #'transparent = ##f\"",",","\[IndentingNewLine]","\"\\\\override Score.BarLine #'transparent = ##f\"",",","\[IndentingNewLine]","\"\\\\override Score.BarLine #'hair-thickness = #1.0\"",",","\[IndentingNewLine]","\"\\\\override Score.BarLine #'kern = #1.9\"",",","\[IndentingNewLine]","\"\\\\override Score.BarLine #'thick-thickness = #3.0\"",",","\[IndentingNewLine]","\"\\\\override Score.SpanBar #'extra-offset = #'(1.0 . 0)\"",",","\[IndentingNewLine]","\"\\\\override Score.BarLine #'extra-offset = #'(1.0 . 0)\"",",","\[IndentingNewLine]","\"\\\\bar \\\"|.\\\"\""}],"]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"S","=",RowBox[{"Insert","[",RowBox[{"S",",",RowBox[{"B","[","1","]"}],",",RowBox[
+{"{",RowBox[{"1",",","1",",","1"}],"}"}]}],"]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"S","=",RowBox[{"Insert","[",RowBox[{"S",",",RowBox[{"B","[","2","]"}],",",RowBox[
+{"{",RowBox[{"1",",","1",",","1"}],"}"}]}],"]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"S","=",RowBox[{"Insert","[",RowBox[{"S",",",RowBox[{"B","[","3","]"}],",",RowBox[
+{"{",RowBox[{"1",",","1",",","1"}],"}"}]}],"]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"L","=",RowBox[{"\"layout\"","[","\[IndentingNewLine]",RowBox[{"\"indent = #0.0\"",",","\[IndentingNewLine]",RowBox[
+{"\"context\"","[","\[IndentingNewLine]",RowBox[{"\"\\\\Voice\"",",","\[IndentingNewLine]","\"\\\\remove \\\"Forbid_line_break_engraver\\\"\"",",","\[IndentingNewLine]","\"tupletFullLength = ##t\"",",","\[IndentingNewLine]","\"allowBeamBreak = ##t\""}],"\[IndentingNewLine]","]"}],",","\[IndentingNewLine]",RowBox[
+{"\"context\"","[","\[IndentingNewLine]",RowBox[{"\"\\\\RhythmicStaff\"",",","\[IndentingNewLine]","\"\\\\override TimeSignature #'break-visibility = ##(#f #f #t)\"",",","\[IndentingNewLine]","\"\\\\override TimeSignature #'transparent = ##t\"",",","\[IndentingNewLine]","\"minimumVerticalExtent = ##f\"",",","\[IndentingNewLine]","\"verticalExtent = #'(-3.25 . 4.0)\""}],"\[IndentingNewLine]","]"}],",","\[IndentingNewLine]",RowBox[
+{"\"context\"","[","\[IndentingNewLine]",RowBox[{"\"\\\\Score\"",",","\[IndentingNewLine]","\"\\\\remove \\\"Bar_number_engraver\\\"\"",",","\[IndentingNewLine]","\"\\\\override SpacingSpanner #'strict-note-spacing = ##t\"",",","\[IndentingNewLine]","\"\\\\override SpacingSpanner #'uniform-stretching = ##t\"",",","\[IndentingNewLine]","\"proportionalNotationDuration = #(ly:make-moment 1 16)\"",",","\[IndentingNewLine]","\"\\\\override SpanBar #'transparent = ##t\"",",","\[IndentingNewLine]","\"\\\\override BarLine #'transparent = ##t\"",",","\[IndentingNewLine]","\"\\\\override InstrumentName #'self-alignment-X = #right\"",",","\[IndentingNewLine]","\"\\\\override InstrumentName #'X-offset-callbacks = #`(,Self_alignment_interface::aligned_on_self)\"",",","\[IndentingNewLine]","\"\\\\override InstrumentName #'font-size = #4\"",",","\[IndentingNewLine]","\"\\\\override InstrumentName #'font-series = #'bold\"",",","\[IndentingNewLine]","\"\\\\override RehearsalMark #'self-alignment-X = #left\"",",","\[IndentingNewLine]","\"\\\\override RehearsalMark #'X-offset-callbacks = #`(,Self_alignment_interface::aligned_on_self)\"",",","\[IndentingNewLine]","\"\\\\override RehearsalMark #'color = #black\"",",","\[IndentingNewLine]","\"\\\\override RehearsalMark #'extra-offset = #'(1.9 . 3)\"",",","\[IndentingNewLine]","\"\\\\override RehearsalMark #'font-size = #8\"",",","\[IndentingNewLine]","\"\\\\override RehearsalMark #'print-function = #(make-stencil-boxer 0.3 0.75 Text_interface::print)\"",",","\[IndentingNewLine]","\"\\\\override Stem #'direction = #down\"",",","\[IndentingNewLine]","\"\\\\override TupletBracket #'direction = #up\"",",","\[IndentingNewLine]","\"\\\\override TupletBracket #'staff-padding = #0.5\"",",","\[IndentingNewLine]","\"\\\\override TupletBracket #'edge-height = #'(0.5 . 0.5)\"",",","\[IndentingNewLine]","\"\\\\override TupletBracket #'thickness = #1.0\"",",","\[IndentingNewLine]","\"\\\\override TupletBracket #'font-series = #'bold\"",",","\[IndentingNewLine]","\"allowBeamBreak = ##t\""}],"\[IndentingNewLine]","]"}]}],"\[IndentingNewLine]","]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"AppendTo","[",RowBox[{"S",",","L"}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{"(*",RowBox[{RowBox[{"SetDirectory","[","\"//Users//trevorbaca//Scores//rec2\"","]"}],";"}],"*)"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"strm","=",RowBox[{"OpenWrite","[","\"poeme-2005-2-compressed.ly\"","]"}]}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",","\[IndentingNewLine]","\"\\\\version \\\"2.7.11\\\"\\n\\n\"",",","\[IndentingNewLine]","\"#(set-default-paper-size \\\"11x17\\\")\\n\"",",","\[IndentingNewLine]","\"#(set-global-staff-size 8)\\n\\n\"",",","\[IndentingNewLine]","\"\\\\paper {\\n\"",",","\[IndentingNewLine]","\"topmargin = 120\\\\mm\\n\"",",","\[IndentingNewLine]","\"bottommargin = 15\\\\mm\\n\"",",","\[IndentingNewLine]","\"firstpagenumber = 3\\n\"",",","\[IndentingNewLine]","\"printpagenumber = ##t\\n\"",",","\[IndentingNewLine]","\"oddFooterMarkup = \\\\markup \\\\fill-line {\\\\halign #0 \\\\bold \\\\fontsize #8 \\\\fromproperty #'page:page-number-string }\\n\"",",","\[IndentingNewLine]","\"evenFooterMarkup = \\\\markup \\\\fill-line {\\\\halign #0 \\\\bold \\\\fontsize #8 \\\\fromproperty #'page:page-number-string }\\n\"",",","\[IndentingNewLine]","\"oddHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\\n\"",",","\[IndentingNewLine]","\"evenHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\\n\"",",","\[IndentingNewLine]","\"}\\n\\n\"",",","\[IndentingNewLine]","\"\\\\header {\\n\"",",","\[IndentingNewLine]","\"tagline = \\\"\\\"\\n\"",",","\[IndentingNewLine]","\"}\\n\\n\""}],"\[IndentingNewLine]","]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"WriteString","[",RowBox[{"strm",",",RowBox[{"ToLily","[","S","]"}]}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
+{RowBox[{"Close","[","strm","]"}],";"}],"\[IndentingNewLine]",RowBox[{"(*",RowBox[
+{"Run","[","\". /Users/trevorbaca/.profile && lily poeme-2005-2-compressed.ly > poeme-2005-2-compressed.out 2>&1\"","]"}],"*)"}]}]],
+"Input",CellLabel -> "In[239]:= ",ExpressionUUID -> "e7eb51fd-c27f-4cd5-a2e2-1d90b0b41492"]},
+StyleDefinitions -> "Default.nb",ShowSelection -> True,WindowSize -> {716,547},WindowMargins -> {{4,Automatic},{Automatic,4}},
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2 (January 4, 2022)"]
