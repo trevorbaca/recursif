@@ -188,6 +188,6 @@ recursif-colophon-markup = \markup {
     \override #'(baseline-skip . 4)
     \right-column {
         \line { Austin, Tex. }
-        \line { Aug. 2003. }
+        \line { Aug. 2005. }
         }
     }

@@ -911,7 +911,7 @@ segment.13.Percussion.Voice.1 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -925,13 +925,13 @@ segment.13.Staff.1 = <<
     %! baca.path.extern()
     { \segment.13.Global.Rests }
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.1"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.1 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 >>
 
@@ -1385,7 +1385,7 @@ segment.13.Percussion.Voice.2 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -1393,13 +1393,13 @@ segment.13.Percussion.Voice.2 = {
 %! baca.path.extern()
 segment.13.Staff.2 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.2"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.2 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -1853,7 +1853,7 @@ segment.13.Percussion.Voice.3 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -1861,13 +1861,13 @@ segment.13.Percussion.Voice.3 = {
 %! baca.path.extern()
 segment.13.Staff.3 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.3"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.3 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -2262,7 +2262,7 @@ segment.13.Percussion.Voice.4 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -2270,13 +2270,13 @@ segment.13.Percussion.Voice.4 = {
 %! baca.path.extern()
 segment.13.Staff.4 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.4"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.4 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -2704,7 +2704,7 @@ segment.13.Percussion.Voice.5 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -2712,13 +2712,13 @@ segment.13.Percussion.Voice.5 = {
 %! baca.path.extern()
 segment.13.Staff.5 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.5"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.5 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -3067,7 +3067,7 @@ segment.13.Percussion.Voice.6 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -3075,13 +3075,13 @@ segment.13.Percussion.Voice.6 = {
 %! baca.path.extern()
 segment.13.Staff.6 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.6"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.6 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -3463,7 +3463,7 @@ segment.13.Percussion.Voice.7 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -3471,13 +3471,13 @@ segment.13.Percussion.Voice.7 = {
 %! baca.path.extern()
 segment.13.Staff.7 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.7"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.7 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -3816,7 +3816,7 @@ segment.13.Percussion.Voice.8 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -3824,13 +3824,13 @@ segment.13.Percussion.Voice.8 = {
 %! baca.path.extern()
 segment.13.Staff.8 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.8"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.8 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -4198,7 +4198,7 @@ segment.13.Percussion.Voice.9 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -4206,13 +4206,13 @@ segment.13.Percussion.Voice.9 = {
 %! baca.path.extern()
 segment.13.Staff.9 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.9"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.9 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -4579,7 +4579,7 @@ segment.13.Percussion.Voice.10 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -4587,13 +4587,13 @@ segment.13.Percussion.Voice.10 = {
 %! baca.path.extern()
 segment.13.Staff.10 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.10"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.10 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -4883,7 +4883,7 @@ segment.13.Percussion.Voice.11 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -4891,13 +4891,13 @@ segment.13.Percussion.Voice.11 = {
 %! baca.path.extern()
 segment.13.Staff.11 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.11"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.11 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -5202,7 +5202,7 @@ segment.13.Percussion.Voice.12 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -5210,13 +5210,13 @@ segment.13.Percussion.Voice.12 = {
 %! baca.path.extern()
 segment.13.Staff.12 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.12"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.12 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -5516,7 +5516,7 @@ segment.13.Percussion.Voice.13 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -5524,13 +5524,13 @@ segment.13.Percussion.Voice.13 = {
 %! baca.path.extern()
 segment.13.Staff.13 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.13"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.13 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -5825,7 +5825,7 @@ segment.13.Percussion.Voice.14 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -5833,13 +5833,13 @@ segment.13.Percussion.Voice.14 = {
 %! baca.path.extern()
 segment.13.Staff.14 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.14"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.14 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -6101,7 +6101,7 @@ segment.13.Percussion.Voice.15 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -6109,13 +6109,13 @@ segment.13.Percussion.Voice.15 = {
 %! baca.path.extern()
 segment.13.Staff.15 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.15"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.15 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -6377,7 +6377,7 @@ segment.13.Percussion.Voice.16 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -6385,13 +6385,13 @@ segment.13.Percussion.Voice.16 = {
 %! baca.path.extern()
 segment.13.Staff.16 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.16"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.16 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -6831,7 +6831,7 @@ segment.13.Percussion.Voice.17 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -6839,13 +6839,13 @@ segment.13.Percussion.Voice.17 = {
 %! baca.path.extern()
 segment.13.Staff.17 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.17"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.17 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -7181,7 +7181,7 @@ segment.13.Percussion.Voice.18 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -7189,13 +7189,13 @@ segment.13.Percussion.Voice.18 = {
 %! baca.path.extern()
 segment.13.Staff.18 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.18"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.18 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -7531,7 +7531,7 @@ segment.13.Percussion.Voice.19 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -7539,13 +7539,13 @@ segment.13.Percussion.Voice.19 = {
 %! baca.path.extern()
 segment.13.Staff.19 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.19"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.19 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -7829,7 +7829,7 @@ segment.13.Percussion.Voice.20 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -7837,13 +7837,13 @@ segment.13.Percussion.Voice.20 = {
 %! baca.path.extern()
 segment.13.Staff.20 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.20"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.20 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -8179,7 +8179,7 @@ segment.13.Percussion.Voice.21 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -8187,13 +8187,13 @@ segment.13.Percussion.Voice.21 = {
 %! baca.path.extern()
 segment.13.Staff.21 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.21"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.21 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -8477,7 +8477,7 @@ segment.13.Percussion.Voice.22 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -8485,13 +8485,13 @@ segment.13.Percussion.Voice.22 = {
 %! baca.path.extern()
 segment.13.Staff.22 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.22"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.22 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -8775,7 +8775,7 @@ segment.13.Percussion.Voice.23 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -8783,13 +8783,13 @@ segment.13.Percussion.Voice.23 = {
 %! baca.path.extern()
 segment.13.Staff.23 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.23"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.23 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -9047,7 +9047,7 @@ segment.13.Percussion.Voice.24 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -9055,13 +9055,13 @@ segment.13.Percussion.Voice.24 = {
 %! baca.path.extern()
 segment.13.Staff.24 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.24"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.24 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -9397,7 +9397,7 @@ segment.13.Percussion.Voice.25 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -9405,13 +9405,13 @@ segment.13.Percussion.Voice.25 = {
 %! baca.path.extern()
 segment.13.Staff.25 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.25"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.25 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -9695,7 +9695,7 @@ segment.13.Percussion.Voice.26 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -9703,13 +9703,13 @@ segment.13.Percussion.Voice.26 = {
 %! baca.path.extern()
 segment.13.Staff.26 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.26"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.26 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -9993,7 +9993,7 @@ segment.13.Percussion.Voice.27 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -10001,13 +10001,13 @@ segment.13.Percussion.Voice.27 = {
 %! baca.path.extern()
 segment.13.Staff.27 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.27"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.27 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -10265,7 +10265,7 @@ segment.13.Percussion.Voice.28 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -10273,13 +10273,13 @@ segment.13.Percussion.Voice.28 = {
 %! baca.path.extern()
 segment.13.Staff.28 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.28"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.28 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -10563,7 +10563,7 @@ segment.13.Percussion.Voice.29 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -10571,13 +10571,13 @@ segment.13.Percussion.Voice.29 = {
 %! baca.path.extern()
 segment.13.Staff.29 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.29"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.29 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -10835,7 +10835,7 @@ segment.13.Percussion.Voice.30 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -10843,13 +10843,13 @@ segment.13.Percussion.Voice.30 = {
 %! baca.path.extern()
 segment.13.Staff.30 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.30"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.30 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -11107,7 +11107,7 @@ segment.13.Percussion.Voice.31 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -11115,13 +11115,13 @@ segment.13.Percussion.Voice.31 = {
 %! baca.path.extern()
 segment.13.Staff.31 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.31"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.31 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -11366,7 +11366,7 @@ segment.13.Percussion.Voice.32 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -11374,13 +11374,13 @@ segment.13.Percussion.Voice.32 = {
 %! baca.path.extern()
 segment.13.Staff.32 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.32"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.32 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -11660,7 +11660,7 @@ segment.13.Percussion.Voice.33 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -11668,13 +11668,13 @@ segment.13.Percussion.Voice.33 = {
 %! baca.path.extern()
 segment.13.Staff.33 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.33"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.33 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -12078,7 +12078,7 @@ segment.13.Percussion.Voice.34 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -12086,13 +12086,13 @@ segment.13.Percussion.Voice.34 = {
 %! baca.path.extern()
 segment.13.Staff.34 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.34"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.34 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -12496,7 +12496,7 @@ segment.13.Percussion.Voice.35 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -12504,13 +12504,13 @@ segment.13.Percussion.Voice.35 = {
 %! baca.path.extern()
 segment.13.Staff.35 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.35"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.35 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -12828,7 +12828,7 @@ segment.13.Percussion.Voice.36 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -12836,13 +12836,13 @@ segment.13.Percussion.Voice.36 = {
 %! baca.path.extern()
 segment.13.Staff.36 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.36"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.36 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -13246,7 +13246,7 @@ segment.13.Percussion.Voice.37 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -13254,13 +13254,13 @@ segment.13.Percussion.Voice.37 = {
 %! baca.path.extern()
 segment.13.Staff.37 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.37"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.37 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -13604,7 +13604,7 @@ segment.13.Percussion.Voice.38 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -13612,13 +13612,13 @@ segment.13.Percussion.Voice.38 = {
 %! baca.path.extern()
 segment.13.Staff.38 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.38"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.38 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -13936,7 +13936,7 @@ segment.13.Percussion.Voice.39 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -13944,13 +13944,13 @@ segment.13.Percussion.Voice.39 = {
 %! baca.path.extern()
 segment.13.Staff.39 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.39"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.39 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -14225,7 +14225,7 @@ segment.13.Percussion.Voice.40 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -14233,13 +14233,13 @@ segment.13.Percussion.Voice.40 = {
 %! baca.path.extern()
 segment.13.Staff.40 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.40"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.40 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -14591,7 +14591,7 @@ segment.13.Percussion.Voice.41 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -14599,13 +14599,13 @@ segment.13.Percussion.Voice.41 = {
 %! baca.path.extern()
 segment.13.Staff.41 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.41"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.41 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -14923,7 +14923,7 @@ segment.13.Percussion.Voice.42 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -14931,13 +14931,13 @@ segment.13.Percussion.Voice.42 = {
 %! baca.path.extern()
 segment.13.Staff.42 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.42"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.42 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -15255,7 +15255,7 @@ segment.13.Percussion.Voice.43 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -15263,13 +15263,13 @@ segment.13.Percussion.Voice.43 = {
 %! baca.path.extern()
 segment.13.Staff.43 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.43"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.43 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -15568,7 +15568,7 @@ segment.13.Percussion.Voice.44 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -15576,13 +15576,13 @@ segment.13.Percussion.Voice.44 = {
 %! baca.path.extern()
 segment.13.Staff.44 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.44"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.44 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -15874,7 +15874,7 @@ segment.13.Percussion.Voice.45 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -15882,13 +15882,13 @@ segment.13.Percussion.Voice.45 = {
 %! baca.path.extern()
 segment.13.Staff.45 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.45"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.45 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -16187,7 +16187,7 @@ segment.13.Percussion.Voice.46 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -16195,13 +16195,13 @@ segment.13.Percussion.Voice.46 = {
 %! baca.path.extern()
 segment.13.Staff.46 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.46"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.46 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -16463,7 +16463,7 @@ segment.13.Percussion.Voice.47 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -16471,13 +16471,13 @@ segment.13.Percussion.Voice.47 = {
 %! baca.path.extern()
 segment.13.Staff.47 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.47"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.47 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -16736,7 +16736,7 @@ segment.13.Percussion.Voice.48 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -16744,13 +16744,13 @@ segment.13.Percussion.Voice.48 = {
 %! baca.path.extern()
 segment.13.Staff.48 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.48"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.48 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -17190,7 +17190,7 @@ segment.13.Percussion.Voice.49 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -17198,13 +17198,13 @@ segment.13.Percussion.Voice.49 = {
 %! baca.path.extern()
 segment.13.Staff.49 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.49"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.49 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -17540,7 +17540,7 @@ segment.13.Percussion.Voice.50 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -17548,13 +17548,13 @@ segment.13.Percussion.Voice.50 = {
 %! baca.path.extern()
 segment.13.Staff.50 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.50"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.50 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -17890,7 +17890,7 @@ segment.13.Percussion.Voice.51 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -17898,13 +17898,13 @@ segment.13.Percussion.Voice.51 = {
 %! baca.path.extern()
 segment.13.Staff.51 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.51"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.51 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -18188,7 +18188,7 @@ segment.13.Percussion.Voice.52 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -18196,13 +18196,13 @@ segment.13.Percussion.Voice.52 = {
 %! baca.path.extern()
 segment.13.Staff.52 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.52"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.52 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -18538,7 +18538,7 @@ segment.13.Percussion.Voice.53 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -18546,13 +18546,13 @@ segment.13.Percussion.Voice.53 = {
 %! baca.path.extern()
 segment.13.Staff.53 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.53"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.53 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -18836,7 +18836,7 @@ segment.13.Percussion.Voice.54 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -18844,13 +18844,13 @@ segment.13.Percussion.Voice.54 = {
 %! baca.path.extern()
 segment.13.Staff.54 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.54"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.54 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -19134,7 +19134,7 @@ segment.13.Percussion.Voice.55 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -19142,13 +19142,13 @@ segment.13.Percussion.Voice.55 = {
 %! baca.path.extern()
 segment.13.Staff.55 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.55"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.55 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -19406,7 +19406,7 @@ segment.13.Percussion.Voice.56 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -19414,13 +19414,13 @@ segment.13.Percussion.Voice.56 = {
 %! baca.path.extern()
 segment.13.Staff.56 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.56"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.56 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -19756,7 +19756,7 @@ segment.13.Percussion.Voice.57 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -19764,13 +19764,13 @@ segment.13.Percussion.Voice.57 = {
 %! baca.path.extern()
 segment.13.Staff.57 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.57"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.57 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -20054,7 +20054,7 @@ segment.13.Percussion.Voice.58 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -20062,13 +20062,13 @@ segment.13.Percussion.Voice.58 = {
 %! baca.path.extern()
 segment.13.Staff.58 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.58"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.58 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -20352,7 +20352,7 @@ segment.13.Percussion.Voice.59 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -20360,13 +20360,13 @@ segment.13.Percussion.Voice.59 = {
 %! baca.path.extern()
 segment.13.Staff.59 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.59"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.59 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -20624,7 +20624,7 @@ segment.13.Percussion.Voice.60 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -20632,13 +20632,13 @@ segment.13.Percussion.Voice.60 = {
 %! baca.path.extern()
 segment.13.Staff.60 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.60"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.60 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -20922,7 +20922,7 @@ segment.13.Percussion.Voice.61 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -20930,13 +20930,13 @@ segment.13.Percussion.Voice.61 = {
 %! baca.path.extern()
 segment.13.Staff.61 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.61"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.61 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -21194,7 +21194,7 @@ segment.13.Percussion.Voice.62 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -21202,13 +21202,13 @@ segment.13.Percussion.Voice.62 = {
 %! baca.path.extern()
 segment.13.Staff.62 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.62"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.62 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -21466,7 +21466,7 @@ segment.13.Percussion.Voice.63 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -21474,13 +21474,13 @@ segment.13.Percussion.Voice.63 = {
 %! baca.path.extern()
 segment.13.Staff.63 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.63"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.63 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -21725,7 +21725,7 @@ segment.13.Percussion.Voice.64 = {
     %! PHANTOM
     >>
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -21733,12 +21733,12 @@ segment.13.Percussion.Voice.64 = {
 %! baca.path.extern()
 segment.13.Staff.64 = {
 
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     \context Voice = "Percussion.Voice.64"
-    %! recursif.ScoreTemplate.__call__()
+    %! recursif.make_empty_score()
     %! baca.path.extern()
     { \segment.13.Percussion.Voice.64 }
 
-%! recursif.ScoreTemplate.__call__()
+%! recursif.make_empty_score()
 %! baca.path.extern()
 }
