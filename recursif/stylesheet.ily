@@ -8,7 +8,7 @@
     evenFooterMarkup = \markup
         \fill-line {
         \halign #0 \bold \fontsize #8
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         \fromproperty #'page:page-number-string 
         }
     evenHeaderMarkup = \markup \null
@@ -16,7 +16,7 @@
     oddFooterMarkup = \markup
         \fill-line {
         \halign #0 \bold \fontsize #8
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         \fromproperty #'page:page-number-string
         }
     oddHeaderMarkup = \markup \null
