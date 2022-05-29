@@ -72,7 +72,6 @@ def make_empty_score():
         staff_number = staff_index + 1
         voice = abjad.Voice(name=f"Percussion.Voice.{staff_number}", tag=tag)
         staff = abjad.Staff([voice], name=f"Staff.{staff_number}", tag=tag)
-        abjad.annotate(staff, "default_instrument", instruments["Percussion"])
         staves.append(staff)
     staff_group = abjad.StaffGroup(staves, name="Staff_Group", tag=tag)
     music_context = abjad.Context(
