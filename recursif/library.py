@@ -6,61 +6,21 @@ import abjad
 import baca
 from abjadext import rmakers
 
-instruments = dict([("Percussion", abjad.Percussion())])
+
+def assign_parts(maker: baca.CommandAccumulator):
+    for n in range(1, 64 + 1):
+        voice_name = f"Percussion.Voice.{n}"
+        part_assignment = baca.PartAssignment(section="Percussion", token=n)
+        assert part_assignment.token is not None
+        for part in part_assignment:
+            if part not in part_manifest.parts:
+                raise Exception(f"no {part!r} in part manifest.")
+        command = baca.assign_parts(part_assignment)
+        maker(voice_name, command)
 
 
-margin_markups = dict()
-for staff_number in range(1, 64 + 1):
-    markup = abjad.MarginMarkup(markup=rf"\markup \hcenter-in #8 {staff_number}")
-    margin_markups[str(staff_number)] = markup
-
-
-def margin_markup(
-    key,
-    alert=None,
-    context="Staff",
-    selector=lambda _: abjad.select.leaf(_, 0),
-):
-    margin_markup = margin_markups[key]
-    command = baca.margin_markup(
-        margin_markup,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    return baca.not_parts(command)
-
-
-metronome_marks = dict(
-    [("38-42", abjad.MetronomeMark((1, 2), 40, textual_indication='"38-42"'))]
-)
-
-
-def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
-    assert page_number in range(1, 16 + 1)
-    start_measure_number = 16 * (page_number - 1) + 1
-    stop = start_measure_number + 16
-    measure_numbers = range(start_measure_number, stop)
-    tuplet_ratios = []
-    for measure_number in measure_numbers:
-        total = 255 + voice_number - measure_number
-        count = voice_number - 1
-        count = int(abjad.math.binomial_coefficient(total, count) % 8)
-        if 0 < count:
-            tuplet_ratios.append(count * (1,))
-        else:
-            tuplet_ratios.append((-1,))
-    return baca.rhythm(
-        rmakers.tuplet(tuplet_ratios),
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        tag=abjad.Tag("recursif.rhythm()"),
-    )
-
-
-part_manifest = baca.PartManifest(
-    baca.Section(abbreviation="PERC", count=64, name="Percussion"),
-)
+def instruments():
+    return dict([("Percussion", abjad.Percussion())])
 
 
 def make_empty_score():
@@ -87,16 +47,61 @@ def make_empty_score():
     return score
 
 
-def assign_parts(maker: baca.CommandAccumulator):
-    for n in range(1, 64 + 1):
-        voice_name = f"Percussion.Voice.{n}"
-        part_assignment = baca.PartAssignment(section="Percussion", token=n)
-        assert part_assignment.token is not None
-        for part in part_assignment:
-            if part not in part_manifest.parts:
-                raise Exception(f"no {part!r} in part manifest.")
-        command = baca.assign_parts(part_assignment)
-        maker(voice_name, command)
+def margin_markup(
+    key,
+    alert=None,
+    context="Staff",
+    selector=lambda _: abjad.select.leaf(_, 0),
+):
+    margin_markup = margin_markups[key]
+    command = baca.margin_markup(
+        margin_markup,
+        alert=alert,
+        context=context,
+        selector=selector,
+    )
+    return baca.not_parts(command)
+
+
+def margin_markups():
+    margin_markups = dict()
+    for staff_number in range(1, 64 + 1):
+        markup = abjad.MarginMarkup(markup=rf"\markup \hcenter-in #8 {staff_number}")
+        margin_markups[str(staff_number)] = markup
+
+
+def metronome_marks():
+    return dict(
+        [("38-42", abjad.MetronomeMark((1, 2), 40, textual_indication='"38-42"'))]
+    )
+
+
+def part_manifest():
+    return baca.PartManifest(
+        baca.Section(abbreviation="PERC", count=64, name="Percussion"),
+    )
+
+
+def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
+    assert page_number in range(1, 16 + 1)
+    start_measure_number = 16 * (page_number - 1) + 1
+    stop = start_measure_number + 16
+    measure_numbers = range(start_measure_number, stop)
+    tuplet_ratios = []
+    for measure_number in measure_numbers:
+        total = 255 + voice_number - measure_number
+        count = voice_number - 1
+        count = int(abjad.math.binomial_coefficient(total, count) % 8)
+        if 0 < count:
+            tuplet_ratios.append(count * (1,))
+        else:
+            tuplet_ratios.append((-1,))
+    return baca.rhythm(
+        rmakers.tuplet(tuplet_ratios),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
+        tag=abjad.Tag("recursif.rhythm()"),
+    )
 
 
 def unscaled():
