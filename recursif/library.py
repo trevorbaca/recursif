@@ -47,15 +47,15 @@ def make_empty_score():
     return score
 
 
-def margin_markup(
+def short_instrument_name(
     key,
     alert=None,
     context="Staff",
     selector=lambda _: abjad.select.leaf(_, 0),
 ):
-    margin_markup = margin_markups[key]
-    command = baca.margin_markup(
-        margin_markup,
+    short_instrument_name = short_instrument_names[key]
+    command = baca.short_instrument_name(
+        short_instrument_name,
         alert=alert,
         context=context,
         selector=selector,
@@ -63,11 +63,11 @@ def margin_markup(
     return baca.not_parts(command)
 
 
-def margin_markups():
-    margin_markups = dict()
+def short_instrument_names():
+    short_instrument_names = dict()
     for staff_number in range(1, 64 + 1):
-        markup = abjad.MarginMarkup(markup=rf"\markup \hcenter-in #8 {staff_number}")
-        margin_markups[str(staff_number)] = markup
+        markup = abjad.ShortInstrumentName(rf"\markup \hcenter-in #8 {staff_number}")
+        short_instrument_names[str(staff_number)] = markup
 
 
 def metronome_marks():
