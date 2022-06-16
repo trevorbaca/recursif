@@ -7,7 +7,7 @@ import baca
 from abjadext import rmakers
 
 
-def assign_parts(maker: baca.CommandAccumulator):
+def assign_parts(commands):
     for n in range(1, 64 + 1):
         voice_name = f"Percussion.Voice.{n}"
         part_assignment = baca.PartAssignment(section="Percussion", token=n)
@@ -15,8 +15,8 @@ def assign_parts(maker: baca.CommandAccumulator):
         for part in part_assignment:
             if part not in part_manifest.parts:
                 raise Exception(f"no {part!r} in part manifest.")
-        command = baca.assign_parts(part_assignment)
-        maker(voice_name, command)
+        command = baca.assign_part(part_assignment)
+        commands(voice_name, command)
 
 
 def instruments():
