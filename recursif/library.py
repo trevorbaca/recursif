@@ -10,17 +10,19 @@ from abjadext import rmakers
 def assign_parts(commands):
     for n in range(1, 64 + 1):
         voice_name = f"Percussion.Voice.{n}"
-        part_assignment = baca.PartAssignment(section="Percussion", token=n)
+        part_assignment = baca.PartAssignment("Percussion", n)
         assert part_assignment.token is not None
         for part in part_assignment:
-            if part not in part_manifest.parts:
+            if part not in part_manifest:
                 raise Exception(f"no {part!r} in part manifest.")
         command = baca.assign_part(part_assignment)
         commands(voice_name, command)
 
 
 def instruments():
-    return dict([("Percussion", abjad.Percussion())])
+    return {
+        "Percussion": abjad.Percussion(),
+    }
 
 
 def make_empty_score():
@@ -71,15 +73,13 @@ def short_instrument_names():
 
 
 def metronome_marks():
-    return dict(
-        [("38-42", abjad.MetronomeMark((1, 2), 40, textual_indication='"38-42"'))]
-    )
+    return {
+        "38-42": abjad.MetronomeMark((1, 2), 40, textual_indication='"38-42"'),
+    }
 
 
 def part_manifest():
-    return baca.PartManifest(
-        baca.Section(abbreviation="PERC", count=64, name="Percussion"),
-    )
+    return (*[baca.Part("Percussion", _) for _ in range(1, 64 + 1)],)
 
 
 def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
