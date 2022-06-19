@@ -84,7 +84,7 @@ def part_manifest():
     return (*[baca.Part("Percussion", _) for _ in range(1, 64 + 1)],)
 
 
-def rhythm(voice_number, page_number):
+def rhythm(time_signatures, voice_number, page_number):
     assert page_number in range(1, 16 + 1)
     start_measure_number = 16 * (page_number - 1) + 1
     stop = start_measure_number + 16
@@ -98,12 +98,14 @@ def rhythm(voice_number, page_number):
             tuplet_ratios.append(count * (1,))
         else:
             tuplet_ratios.append((-1,))
-    return baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.tuplet(tuplet_ratios),
         rmakers.beam(),
         rmakers.extract_trivial(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    music = rhythm_maker(time_signatures, voice_number, page_number)
+    return music
 
 
 def unscaled():
