@@ -2,6 +2,8 @@
 >>> import recursif
 
 """
+import inspect
+
 import abjad
 import baca
 from abjadext import rmakers
@@ -82,7 +84,7 @@ def part_manifest():
     return (*[baca.Part("Percussion", _) for _ in range(1, 64 + 1)],)
 
 
-def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
+def rhythm(voice_number, page_number):
     assert page_number in range(1, 16 + 1)
     start_measure_number = 16 * (page_number - 1) + 1
     stop = start_measure_number + 16
@@ -100,7 +102,7 @@ def rhythm(voice_number: int, page_number: int) -> baca.RhythmCommand:
         rmakers.tuplet(tuplet_ratios),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("recursif.rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
