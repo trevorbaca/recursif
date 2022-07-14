@@ -37,7 +37,7 @@ def make_empty_score():
         voice = abjad.Voice(name=f"Percussion.Voice.{staff_number}", tag=tag)
         staff = abjad.Staff([voice], name=f"Staff.{staff_number}", tag=tag)
         staves.append(staff)
-    staff_group = abjad.StaffGroup(staves, name="Staff_Group", tag=tag)
+    staff_group = abjad.StaffGroup(staves, name="StaffGroup", tag=tag)
     music_context = abjad.Context(
         [staff_group],
         lilypond_type="MusicContext",
