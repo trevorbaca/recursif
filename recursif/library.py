@@ -21,12 +21,6 @@ def assign_parts(commands):
         commands(voice_name, command)
 
 
-def instruments():
-    return {
-        "Percussion": abjad.Percussion(),
-    }
-
-
 def make_empty_score():
     site = "recursif.make_empty_score()"
     tag = abjad.Tag(site)
@@ -64,19 +58,6 @@ def short_instrument_name(
         selector=selector,
     )
     return baca.not_parts(command)
-
-
-def short_instrument_names():
-    short_instrument_names = dict()
-    for staff_number in range(1, 64 + 1):
-        markup = abjad.ShortInstrumentName(rf"\markup \hcenter-in #8 {staff_number}")
-        short_instrument_names[str(staff_number)] = markup
-
-
-def metronome_marks():
-    return {
-        "38-42": abjad.MetronomeMark((1, 2), 40, textual_indication='"38-42"'),
-    }
 
 
 def part_manifest():
@@ -1151,3 +1132,30 @@ def unscaled():
     )
     assert sum(sums) == 31189
     return dictionary
+
+
+instruments = {
+    "Percussion": abjad.Percussion(),
+}
+
+
+metronome_marks = {
+    "38-42": abjad.MetronomeMark((1, 2), 40, textual_indication='"38-42"'),
+}
+
+
+def _make_short_instrument_names():
+    short_instrument_names = dict()
+    for staff_number in range(1, 64 + 1):
+        markup = abjad.ShortInstrumentName(rf"\markup \hcenter-in #8 {staff_number}")
+        short_instrument_names[str(staff_number)] = markup
+
+
+short_instrument_names = _make_short_instrument_names()
+
+
+manifests = {
+    "abjad.Instrument": instruments,
+    "abjad.MetronomeMark": metronome_marks,
+    "abjad.ShortInstrumentName": short_instrument_names,
+}
