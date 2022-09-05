@@ -9,6 +9,13 @@ import baca
 from abjadext import rmakers
 
 
+def _make_short_instrument_names():
+    short_instrument_names = dict()
+    for staff_number in range(1, 64 + 1):
+        markup = abjad.ShortInstrumentName(rf"\markup \hcenter-in #8 {staff_number}")
+        short_instrument_names[str(staff_number)] = markup
+
+
 def assign_parts(commands):
     for n in range(1, 64 + 1):
         voice_name = f"Percussion.Voice.{n}"
@@ -42,22 +49,6 @@ def make_empty_score():
     baca.score.assert_lilypond_identifiers(score)
     baca.score.assert_unique_context_names(score)
     return score
-
-
-def short_instrument_name(
-    key,
-    alert=None,
-    context="Staff",
-    selector=lambda _: abjad.select.leaf(_, 0),
-):
-    short_instrument_name = short_instrument_names[key]
-    command = baca.short_instrument_name(
-        short_instrument_name,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    return baca.not_parts(command)
 
 
 def part_manifest():
@@ -1142,13 +1133,6 @@ instruments = {
 metronome_marks = {
     "38-42": abjad.MetronomeMark((1, 2), 40, textual_indication='"38-42"'),
 }
-
-
-def _make_short_instrument_names():
-    short_instrument_names = dict()
-    for staff_number in range(1, 64 + 1):
-        markup = abjad.ShortInstrumentName(rf"\markup \hcenter-in #8 {staff_number}")
-        short_instrument_names[str(staff_number)] = markup
 
 
 short_instrument_names = _make_short_instrument_names()
