@@ -16,18 +16,6 @@ def _make_short_instrument_names():
         short_instrument_names[str(staff_number)] = markup
 
 
-def assign_parts(commands):
-    for n in range(1, 64 + 1):
-        voice_name = f"Percussion.Voice.{n}"
-        part_assignment = baca.PartAssignment("Percussion", n)
-        assert part_assignment.token is not None
-        for part in part_assignment:
-            if part not in part_manifest:
-                raise Exception(f"no {part!r} in part manifest.")
-        command = baca.assign_part(part_assignment)
-        commands(voice_name, command)
-
-
 def make_empty_score():
     site = "recursif.make_empty_score()"
     tag = abjad.Tag(site)
