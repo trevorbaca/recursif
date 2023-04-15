@@ -1119,7 +1119,9 @@ instruments = {
 
 
 metronome_marks = {
-    "38-42": abjad.MetronomeMark(abjad.Duration(1, 2), 40, textual_indication='"38-42"'),
+    "38-42": abjad.MetronomeMark(
+        abjad.Duration(1, 2), 40, textual_indication='"38-42"'
+    ),
 }
 
 
