@@ -61994,7 +61994,6 @@ indent = #0.0
 \Voice
 \remove "Forbid_line_break_engraver"
 tupletFullLength = ##t
-\override Beam #'breakable = ##t
 }
 \context {
 \RhythmicStaff
@@ -62027,7 +62026,6 @@ proportionalNotationDuration = #(ly:make-moment 1 16)
 \override TupletBracket #'edge-height = #'(0.5 . 0.5)
 \override TupletBracket #'thickness = #1.0
 \override TupletBracket #'font-series = #'bold
-\override Beam #'breakable = ##t
 }
 }
 }
