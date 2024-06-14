@@ -1,4 +1,4 @@
-\version "2.12.0"
+\version "2.25.13"
 
 \new RhythmicStaff <<
 \include "line-breaking.ly"
@@ -6,7 +6,7 @@
 \set RhythmicStaff.instrumentName = \markup {17 \hspace #4 }
 \set RhythmicStaff.shortInstrumentName = \markup {17 \hspace #4 }
 b'1.
-\times 8/9 {
+\tuplet 9/8 {
 b'8[
 b'8
 b'8
@@ -24,7 +24,7 @@ b'2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -32,14 +32,14 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4
 b'4
 b'4
 }
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -49,7 +49,7 @@ b'8
 b'8]
 }
 b'\breve
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -65,7 +65,7 @@ r2
 }
 b'2
 b'1
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -73,7 +73,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4
 b'4
 b'4
@@ -94,8 +94,8 @@ b'8]
 {
 r2
 }
-\times 12/14 {
-\once \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+\tuplet 14/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -104,64 +104,6 @@ b'8
 b'8
 b'8
 b'8
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-\times 4/7 {
-b'4
-b'4
-b'4
-b'4
-b'4
-b'4
-b'4
-}
-{
-r2
-}
-{
-r2
-}
-\times 4/7 {
-b'8[
 b'8
 b'8
 b'8
@@ -172,7 +114,53 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+\tuplet 7/4 {
+b'4
+b'4
+b'4
+b'4
+b'4
+b'4
+b'4
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -184,12 +172,24 @@ b'8]
 {
 r2
 }
-\times 2/3 {
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 3/2 {
 b'2
 b'2
 b'2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -204,64 +204,10 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4
 b'4
 b'4
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-b'2
-{
-r2
-}
-\times 2/3 {
-b'4
-b'4
-b'4
-}
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-b'2
-b'2
 }
 {
 b'8[
@@ -273,6 +219,60 @@ b'8]
 r2
 }
 b'2
+{
+r2
+}
+\tuplet 3/2 {
+b'4
+b'4
+b'4
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+b'2
+b'2
+}
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+b'2
 b'2
 {
 b'8[
@@ -283,7 +283,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -301,15 +301,15 @@ b'8]
 {
 r2
 }
-\times 6/5 {
-\once \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+\tuplet 5/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4
 b'4
 b'4
 b'4
 b'4
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -317,7 +317,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4
 b'4
 b'4
@@ -345,7 +345,7 @@ r2
 }
 b'2
 b'1
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -353,7 +353,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4
 b'4
 b'4
@@ -397,7 +397,7 @@ r2
 }
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -412,7 +412,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4
 b'4
 b'4
@@ -428,87 +428,6 @@ r2
 r2
 }
 b'2
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-\times 2/3 {
-b'4
-b'4
-b'4
-}
-\times 2/3 {
-b'4
-b'4
-b'4
-}
-\times 4/6 {
-b'4
-b'4
-b'4
-b'4
-b'4
-b'4
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-\times 2/3 {
-b'4
-b'4
-b'4
-}
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
 b'2
 {
 b'8[
@@ -522,8 +441,89 @@ r2
 {
 r2
 }
+\tuplet 3/2 {
+b'4
+b'4
+b'4
+}
+\tuplet 3/2 {
+b'4
+b'4
+b'4
+}
+\tuplet 6/4 {
+b'4
+b'4
+b'4
+b'4
+b'4
+b'4
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 3/2 {
+b'4
+b'4
+b'4
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
 b'2
-\times 4/5 {
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+b'2
+\tuplet 5/4 {
 b'4
 b'4
 b'4
@@ -541,7 +541,7 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4
 b'4
 b'4
@@ -570,8 +570,8 @@ b'2
 {
 r2
 }
-\times 10/8 {
-\once \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+\tuplet 8/10 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4
 b'4
 b'4
@@ -601,7 +601,7 @@ r2
 b'2
 b'2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -647,7 +647,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -658,19 +658,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -682,51 +670,7 @@ b'8]
 {
 r2
 }
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-\times 2/3 {
-b'4
-b'4
-b'4
-}
-{
-r2
-}
-\times 2/3 {
-b'4
-b'4
-b'4
-}
-{
-r2
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-\times 2/3 {
-b'4
-b'4
-b'4
-}
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -741,26 +685,7 @@ r2
 {
 r2
 }
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/6 {
-b'4
-b'4
-b'4
-b'4
-b'4
-b'4
-}
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -774,27 +699,102 @@ r2
 {
 r2
 }
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-\times 2/3 {
+\tuplet 3/2 {
 b'4
 b'4
 b'4
 }
-\times 4/7 {
+{
+r2
+}
+\tuplet 3/2 {
+b'4
+b'4
+b'4
+}
+{
+r2
+}
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+\tuplet 3/2 {
+b'4
+b'4
+b'4
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'4
+b'4
+b'4
+b'4
+b'4
+b'4
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 3/2 {
+b'4
+b'4
+b'4
+}
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -814,7 +814,7 @@ b'2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -822,7 +822,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4
 b'4
 b'4
@@ -837,7 +837,7 @@ b'4
 b'4
 b'4
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -846,7 +846,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4
 b'4
 b'4
@@ -854,27 +854,7 @@ b'4
 {
 r2
 }
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -889,15 +869,12 @@ r2
 r2
 }
 {
-r2
+b'8[
+b'8
+b'8
+b'8]
 }
-{
-r2
-}
-{
-r2
-}
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -915,6 +892,29 @@ r2
 r2
 }
 {
+r2
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
 b'4
 b'4
 b'4
@@ -922,7 +922,7 @@ b'4
 b'4
 b'4
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4
 b'4
 b'4
@@ -943,7 +943,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -955,7 +955,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
