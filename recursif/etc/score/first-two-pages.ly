@@ -1,13 +1,13 @@
-\version "2.7.11"
+\version "2.25.13"
 
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
 
 \paper {
-topmargin = 120\mm
-bottommargin = 15\mm
-firstpagenumber = 3
-printpagenumber = ##t
+top-margin = 120\mm
+bottom-margin = 15\mm
+first-page-number = 3
+print-page-number = ##t
 oddFooterMarkup = \markup \fill-line {\halign #0 \bold \fontsize #8 \fromproperty #'page:page-number-string }
 evenFooterMarkup = \markup \fill-line {\halign #0 \bold \fontsize #8 \fromproperty #'page:page-number-string }
 oddHeaderMarkup = \markup \fill-line {" "}
@@ -24,13 +24,13 @@ tagline = ""
 \new RhythmicStaff <<
 {
 s2*32
-\override Score.SpanBar #'transparent = ##f
-\override Score.BarLine #'transparent = ##f
-\override Score.BarLine #'hair-thickness = #1.0
-\override Score.BarLine #'kern = #1.9
-\override Score.BarLine #'thick-thickness = #3.0
-\override Score.SpanBar #'extra-offset = #'(1.0 . 0)
-\override Score.BarLine #'extra-offset = #'(1.0 . 0)
+\override Score.SpanBar.transparent = ##f
+\override Score.BarLine.transparent = ##f
+\override Score.BarLine.hair-thickness = #1.0
+\override Score.BarLine.kern = #1.9
+\override Score.BarLine.thick-thickness = #3.0
+\override Score.SpanBar.extra-offset = #'(1.0 . 0)
+\override Score.BarLine.extra-offset = #'(1.0 . 0)
 \bar "|."
 }
 {
@@ -74,22 +74,22 @@ s2 \break
 s2 \break
 }
 {
-\set RhythmicStaff.instrument = \markup {1 \hspace #2 }
-\set RhythmicStaff.instr = \markup {1 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {1 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {1 \hspace #2 }
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'2[
 b'2
 b'2]
@@ -104,12 +104,12 @@ b'1
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -136,7 +136,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -147,8 +147,8 @@ b'8]
 {
 r2
 }
-\times 10/9 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 9/10 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -172,12 +172,12 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -185,7 +185,7 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -196,8 +196,8 @@ r2
 }
 >>
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {2 \hspace #2 }
-\set RhythmicStaff.instr = \markup {2 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {2 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {2 \hspace #2 }
 b'2
 {
 b'8[
@@ -208,7 +208,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -217,7 +217,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -227,7 +227,7 @@ r2
 }
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -236,52 +236,8 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
-b'4
-b'4
-b'4
-b'4
-b'4
-b'4]
-}
-{
-r2
-}
-{
-r2
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-b'4[
-b'4
 b'4
 b'4
 b'4
@@ -293,6 +249,50 @@ b'4]
 r2
 }
 {
+r2
+}
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+b'4[
+b'4
+b'4
+b'4
+b'4
+b'4
+b'4
+b'4]
+}
+{
+r2
+}
+{
 b'8[
 b'8
 b'8
@@ -316,7 +316,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -325,7 +325,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -336,8 +336,8 @@ b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {3 \hspace #2 }
-\set RhythmicStaff.instr = \markup {3 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {3 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {3 \hspace #2 }
 b'2
 {
 b'4[
@@ -348,7 +348,7 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -369,7 +369,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -380,7 +380,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -391,7 +391,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -401,8 +401,8 @@ b'8]
 }
 b'1
 b'2
-\times 6/5 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 5/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -446,8 +446,8 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {4 \hspace #2 }
-\set RhythmicStaff.instr = \markup {4 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {4 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {4 \hspace #2 }
 {
 b'8[
 b'8
@@ -466,7 +466,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -496,7 +496,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -507,7 +507,7 @@ b'4]
 b'2
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -539,7 +539,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -547,12 +547,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -562,9 +562,9 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {5 \hspace #2 }
-\set RhythmicStaff.instr = \markup {5 \hspace #2 }
-\times 4/5 {
+\set RhythmicStaff.instrumentName = \markup {5 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {5 \hspace #2 }
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -577,153 +577,7 @@ r2
 {
 r2
 }
-\times 4/5 {
-b'4[
-b'4
-b'4
-b'4
-b'4]
-}
-{
-r2
-}
-{
-r2
-}
-b'2
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-b'2
-b'2
-\times 4/5 {
-b'4[
-b'4
-b'4
-b'4
-b'4]
-}
-b'2
-b'2
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-b'2
-b'2
-{
-b'4[
-b'4
-b'4
-b'4]
-}
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-b'2
-b'2
-b'2
-}
-\new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {6 \hspace #2 }
-\set RhythmicStaff.instr = \markup {6 \hspace #2 }
-\times 6/5 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
-b'4[
-b'4
-b'4
-b'4
-b'4]
-}
-b'2
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-b'4[
-b'4
-b'4
-b'4
-b'4
-b'4]
-}
-{
-r2
-}
-b'2
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-b'2
-\times 4/5 {
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -737,6 +591,44 @@ r2
 r2
 }
 b'2
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+b'2
+b'2
+\tuplet 5/4 {
+b'4[
+b'4
+b'4
+b'4
+b'4]
+}
+b'2
+b'2
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+b'2
 {
 b'8[
 b'8
@@ -745,6 +637,14 @@ b'8]
 }
 {
 r2
+}
+b'2
+b'2
+{
+b'4[
+b'4
+b'4
+b'4]
 }
 b'2
 {
@@ -758,8 +658,108 @@ b'2
 b'2
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {7 \hspace #2 }
-\set RhythmicStaff.instr = \markup {7 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {6 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {6 \hspace #2 }
+\tuplet 5/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
+b'4[
+b'4
+b'4
+b'4
+b'4]
+}
+b'2
+b'2
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+b'4[
+b'4
+b'4
+b'4
+b'4
+b'4]
+}
+{
+r2
+}
+b'2
+b'2
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+b'2
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+b'2
+\tuplet 5/4 {
+b'4[
+b'4
+b'4
+b'4
+b'4]
+}
+{
+r2
+}
+{
+r2
+}
+b'2
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+b'2
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+b'2
+b'2
+b'2
+}
+\new RhythmicStaff {
+\set RhythmicStaff.instrumentName = \markup {7 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {7 \hspace #2 }
 b'1
 b'2
 {
@@ -805,7 +805,7 @@ r2
 }
 b'1
 b'2
-\times 4/5 {
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -816,7 +816,7 @@ b'2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -839,7 +839,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -847,12 +847,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -862,8 +862,8 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {8 \hspace #2 }
-\set RhythmicStaff.instr = \markup {8 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {8 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {8 \hspace #2 }
 {
 r2
 }
@@ -880,8 +880,8 @@ b'8]
 {
 r2
 }
-\times 6/5 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 5/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -927,7 +927,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -935,12 +935,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -958,7 +958,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -969,8 +969,8 @@ b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {9 \hspace #2 }
-\set RhythmicStaff.instr = \markup {9 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {9 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {9 \hspace #2 }
 {
 r2
 }
@@ -984,7 +984,7 @@ b'1.
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1002,7 +1002,7 @@ r2
 b'2[
 b'2]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1024,7 +1024,7 @@ b'8]
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1041,7 +1041,7 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1059,7 +1059,7 @@ b'2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1076,8 +1076,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {10 \hspace #2 }
-\set RhythmicStaff.instr = \markup {10 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {10 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {10 \hspace #2 }
 {
 r2
 }
@@ -1087,7 +1087,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1102,7 +1102,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1110,7 +1110,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1127,12 +1127,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1145,7 +1145,7 @@ r2
 }
 b'1
 b'2
-\times 8/9 {
+\tuplet 9/8 {
 b'8[
 b'8
 b'8
@@ -1165,7 +1165,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1176,7 +1176,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1187,7 +1187,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1195,17 +1195,17 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -1215,15 +1215,15 @@ b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {11 \hspace #2 }
-\set RhythmicStaff.instr = \markup {11 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {11 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {11 \hspace #2 }
 {
 r2
 }
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1244,7 +1244,7 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1258,7 +1258,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1269,36 +1269,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-\times 8/9 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1313,6 +1284,35 @@ r2
 {
 r2
 }
+\tuplet 9/8 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
 {
 r2
 }
@@ -1325,7 +1325,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1345,7 +1345,7 @@ b'8]
 {
 r2
 }
-\times 8/10 {
+\tuplet 10/8 {
 b'8[
 b'8
 b'8
@@ -1359,9 +1359,9 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {12 \hspace #2 }
-\set RhythmicStaff.instr = \markup {12 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {12 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {12 \hspace #2 }
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -1370,12 +1370,12 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'2[
 b'2
 b'2]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1401,7 +1401,7 @@ b'4.
 b'4.
 b'4.]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1418,7 +1418,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1430,7 +1430,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1442,7 +1442,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1463,7 +1463,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -1474,12 +1474,12 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'2[
 b'2
 b'2]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1487,7 +1487,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1497,9 +1497,9 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {13 \hspace #2 }
-\set RhythmicStaff.instr = \markup {13 \hspace #2 }
-\times 2/3 {
+\set RhythmicStaff.instrumentName = \markup {13 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {13 \hspace #2 }
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1507,7 +1507,7 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1525,7 +1525,7 @@ b'8
 b'8]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1533,7 +1533,7 @@ b'8
 b'8
 b'8]
 }
-\times 8/12 {
+\tuplet 12/8 {
 b'4[
 b'4
 b'4
@@ -1550,8 +1550,8 @@ b'4]
 {
 r2
 }
-\times 12/13 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 13/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -1572,7 +1572,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1586,7 +1586,7 @@ b'4.]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -1595,7 +1595,7 @@ b'4
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1607,7 +1607,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1619,7 +1619,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1631,7 +1631,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1642,9 +1642,9 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {14 \hspace #2 }
-\set RhythmicStaff.instr = \markup {14 \hspace #2 }
-\times 4/6 {
+\set RhythmicStaff.instrumentName = \markup {14 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {14 \hspace #2 }
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1655,7 +1655,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1673,7 +1673,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1681,8 +1681,8 @@ b'4]
 {
 r2
 }
-\times 12/10 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 10/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -1703,7 +1703,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'2[
 b'2
 b'2
@@ -1715,7 +1715,7 @@ b'2]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1732,12 +1732,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1752,7 +1752,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1769,7 +1769,7 @@ r2
 {
 r2
 }
-\times 8/10 {
+\tuplet 10/8 {
 b'8[
 b'8
 b'8
@@ -1783,15 +1783,15 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {15 \hspace #2 }
-\set RhythmicStaff.instr = \markup {15 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {15 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {15 \hspace #2 }
 {
 b'4[
 b'4
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -1805,7 +1805,7 @@ r2
 {
 r2
 }
-\times 8/10 {
+\tuplet 10/8 {
 b'8[
 b'8
 b'8
@@ -1820,7 +1820,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -1835,8 +1835,8 @@ r2
 r2
 }
 b'2
-\times 10/14 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 14/10 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -1855,7 +1855,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1867,7 +1867,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1879,7 +1879,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1894,7 +1894,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -1922,10 +1922,10 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {16 \hspace #2 }
-\set RhythmicStaff.instr = \markup {16 \hspace #2 }
-\times 6/7 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\set RhythmicStaff.instrumentName = \markup {16 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {16 \hspace #2 }
+\tuplet 7/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -1937,7 +1937,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1949,7 +1949,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -1998,25 +1998,13 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
-b'4
-b'4
-b'4
-b'4
-b'4]
-}
-{
-r2
-}
-\times 4/7 {
-b'4[
-b'4
 b'4
 b'4
 b'4
@@ -2026,7 +2014,19 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
+b'4[
+b'4
+b'4
+b'4
+b'4
+b'4
+b'4]
+}
+{
+r2
+}
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2038,12 +2038,12 @@ b'8]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'2[
 b'2
 b'2]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2054,10 +2054,10 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {17 \hspace #2 }
-\set RhythmicStaff.instr = \markup {17 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {17 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {17 \hspace #2 }
 b'1.
-\times 8/9 {
+\tuplet 9/8 {
 b'8[
 b'8
 b'8
@@ -2075,7 +2075,7 @@ b'2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -2083,14 +2083,14 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2100,7 +2100,7 @@ b'8
 b'8]
 }
 b'\breve
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -2116,7 +2116,7 @@ r2
 }
 b'2
 b'1
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -2124,7 +2124,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -2145,8 +2145,8 @@ b'8]
 {
 r2
 }
-\times 12/14 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 14/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -2164,8 +2164,8 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {18 \hspace #2 }
-\set RhythmicStaff.instr = \markup {18 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {18 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {18 \hspace #2 }
 {
 r2
 }
@@ -2178,7 +2178,7 @@ r2
 b'2
 b'2
 b'2
-\times 4/5 {
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -2233,7 +2233,7 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -2241,7 +2241,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -2249,18 +2249,18 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 6/7 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 7/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -2271,8 +2271,8 @@ b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {19 \hspace #2 }
-\set RhythmicStaff.instr = \markup {19 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {19 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {19 \hspace #2 }
 {
 r2
 }
@@ -2284,7 +2284,7 @@ r2
 }
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2298,7 +2298,7 @@ r2
 }
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2330,7 +2330,7 @@ r2
 }
 b'2
 b'2
-\times 4/5 {
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -2366,7 +2366,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -2375,7 +2375,7 @@ b'4
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2386,8 +2386,8 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {20 \hspace #2 }
-\set RhythmicStaff.instr = \markup {20 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {20 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {20 \hspace #2 }
 {
 r2
 }
@@ -2395,7 +2395,7 @@ r2
 r2
 }
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -2464,18 +2464,18 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -2489,12 +2489,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2505,10 +2505,10 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {21 \hspace #2 }
-\set RhythmicStaff.instr = \markup {21 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {21 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {21 \hspace #2 }
 b'1
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -2560,8 +2560,8 @@ b'8]
 {
 r2
 }
-\times 12/13 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 13/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -2579,7 +2579,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2597,17 +2597,17 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {22 \hspace #2 }
-\set RhythmicStaff.instr = \markup {22 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {22 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {22 \hspace #2 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -2616,7 +2616,7 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -2692,7 +2692,7 @@ b'2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -2700,7 +2700,7 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -2717,22 +2717,22 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {23 \hspace #2 }
-\set RhythmicStaff.instr = \markup {23 \hspace #2 }
-\times 2/3 {
+\set RhythmicStaff.instrumentName = \markup {23 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {23 \hspace #2 }
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -2784,7 +2784,7 @@ r2
 b'2.[
 b'2.]
 }
-\times 8/9 {
+\tuplet 9/8 {
 b'8[
 b'8
 b'8
@@ -2798,7 +2798,7 @@ b'8]
 {
 r2
 }
-\times 8/10 {
+\tuplet 10/8 {
 b'8[
 b'8
 b'8
@@ -2813,7 +2813,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -2821,7 +2821,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -2831,13 +2831,13 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {24 \hspace #2 }
-\set RhythmicStaff.instr = \markup {24 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {24 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {24 \hspace #2 }
 b'2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -2867,7 +2867,7 @@ b'8
 b'8]
 }
 b'2
-\times 8/9 {
+\tuplet 9/8 {
 b'8[
 b'8
 b'8
@@ -2892,12 +2892,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -2908,7 +2908,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2923,7 +2923,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -2935,21 +2935,21 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {25 \hspace #2 }
-\set RhythmicStaff.instr = \markup {25 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {25 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {25 \hspace #2 }
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -2984,12 +2984,12 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3003,12 +3003,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3016,7 +3016,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'2[
 b'2
 b'2
@@ -3028,7 +3028,7 @@ b'2]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3037,7 +3037,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -3065,7 +3065,7 @@ b'8]
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3075,8 +3075,8 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {26 \hspace #2 }
-\set RhythmicStaff.instr = \markup {26 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {26 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {26 \hspace #2 }
 {
 b'8[
 b'8
@@ -3121,7 +3121,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -3129,7 +3129,7 @@ b'4
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3147,7 +3147,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3159,12 +3159,12 @@ b'8]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'2[
 b'2
 b'2]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3179,12 +3179,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3199,12 +3199,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -3219,12 +3219,12 @@ r2
 b'2
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {27 \hspace #2 }
-\set RhythmicStaff.instr = \markup {27 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {27 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {27 \hspace #2 }
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3243,7 +3243,7 @@ r2
 }
 b'1
 b'2
-\times 4/5 {
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -3253,7 +3253,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3270,37 +3270,7 @@ r2
 {
 r2
 }
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3318,7 +3288,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3330,7 +3300,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3342,7 +3312,37 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+{
+r2
+}
+{
+r2
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3362,8 +3362,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {28 \hspace #2 }
-\set RhythmicStaff.instr = \markup {28 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {28 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {28 \hspace #2 }
 {
 r2
 }
@@ -3379,7 +3379,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3388,7 +3388,7 @@ b'8
 b'8]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3408,7 +3408,7 @@ b'2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3416,7 +3416,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3430,7 +3430,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3439,7 +3439,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3471,7 +3471,7 @@ r2
 {
 r2
 }
-\times 8/10 {
+\tuplet 10/8 {
 b'8[
 b'8
 b'8
@@ -3500,8 +3500,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {29 \hspace #2 }
-\set RhythmicStaff.instr = \markup {29 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {29 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {29 \hspace #2 }
 {
 r2
 }
@@ -3516,13 +3516,13 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3542,8 +3542,8 @@ b'8
 b'8]
 }
 b'2
-\times 12/9 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 9/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -3557,7 +3557,7 @@ b'8]
 {
 r2
 }
-\times 8/13 {
+\tuplet 13/8 {
 b'4[
 b'4
 b'4
@@ -3587,7 +3587,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3599,7 +3599,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3619,8 +3619,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {30 \hspace #2 }
-\set RhythmicStaff.instr = \markup {30 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {30 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {30 \hspace #2 }
 {
 r2
 }
@@ -3637,7 +3637,7 @@ r2
 }
 b'1
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3646,7 +3646,7 @@ b'8
 b'8]
 }
 b'2
-\times 4/5 {
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -3657,7 +3657,7 @@ b'4]
 r2
 }
 b'2
-\times 8/14 {
+\tuplet 14/8 {
 b'4[
 b'4
 b'4
@@ -3703,7 +3703,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3725,8 +3725,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {31 \hspace #2 }
-\set RhythmicStaff.instr = \markup {31 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {31 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {31 \hspace #2 }
 b'2
 {
 b'8[
@@ -3741,7 +3741,7 @@ b'2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3757,13 +3757,13 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3775,7 +3775,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3790,12 +3790,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3810,7 +3810,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3830,7 +3830,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'2[
 b'2
 b'2]
@@ -3852,9 +3852,9 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {32 \hspace #2 }
-\set RhythmicStaff.instr = \markup {32 \hspace #2 }
-\times 4/5 {
+\set RhythmicStaff.instrumentName = \markup {32 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {32 \hspace #2 }
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -3864,7 +3864,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -3872,12 +3872,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3885,7 +3885,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -3899,8 +3899,8 @@ b'2
 {
 r2
 }
-\times 12/10 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 10/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -3918,7 +3918,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3926,7 +3926,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3935,7 +3935,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -3955,7 +3955,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3967,7 +3967,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -3987,8 +3987,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {33 \hspace #2 }
-\set RhythmicStaff.instr = \markup {33 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {33 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {33 \hspace #2 }
 {
 r2
 }
@@ -4008,12 +4008,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4028,7 +4028,7 @@ b'8]
 r2
 }
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4043,7 +4043,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4064,7 +4064,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -4075,7 +4075,7 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4092,12 +4092,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4123,8 +4123,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {34 \hspace #2 }
-\set RhythmicStaff.instr = \markup {34 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {34 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {34 \hspace #2 }
 {
 r2
 }
@@ -4139,7 +4139,7 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4149,7 +4149,7 @@ r2
 }
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4168,7 +4168,7 @@ b'2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4176,13 +4176,13 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4193,25 +4193,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4223,7 +4205,13 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+{
+r2
+}
+{
+r2
+}
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4232,7 +4220,19 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+{
+r2
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -4252,8 +4252,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {35 \hspace #2 }
-\set RhythmicStaff.instr = \markup {35 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {35 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {35 \hspace #2 }
 b'2
 b'2
 {
@@ -4271,12 +4271,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4299,7 +4299,7 @@ b'4]
 }
 b'2
 b'2
-\times 4/5 {
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -4311,12 +4311,12 @@ b'2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4330,12 +4330,12 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4350,7 +4350,7 @@ r2
 {
 r2
 }
-\times 8/10 {
+\tuplet 10/8 {
 b'4[
 b'4
 b'4
@@ -4362,15 +4362,15 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {36 \hspace #2 }
-\set RhythmicStaff.instr = \markup {36 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {36 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {36 \hspace #2 }
 {
 b'8[
 b'8
@@ -4386,7 +4386,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4394,33 +4394,22 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
-b'4
-b'4]
-}
-{
-r2
-}
-\times 4/7 {
-b'4[
-b'4
-b'4
-b'4
-b'4
 b'4
 b'4]
 }
 {
 r2
 }
-{
+\tuplet 7/4 {
 b'4[
+b'4
 b'4
 b'4
 b'4
@@ -4430,8 +4419,19 @@ b'4]
 {
 r2
 }
-\times 12/9 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+{
+b'4[
+b'4
+b'4
+b'4
+b'4
+b'4]
+}
+{
+r2
+}
+\tuplet 9/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -4449,7 +4449,7 @@ r2
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4460,7 +4460,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -4469,7 +4469,7 @@ b'4
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4484,7 +4484,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -4496,7 +4496,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4510,8 +4510,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {37 \hspace #2 }
-\set RhythmicStaff.instr = \markup {37 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {37 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {37 \hspace #2 }
 b'2
 {
 b'8[
@@ -4526,7 +4526,7 @@ b'2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4538,7 +4538,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4553,8 +4553,8 @@ r2
 {
 r2
 }
-\times 6/5 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 5/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -4581,12 +4581,12 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4612,7 +4612,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4628,8 +4628,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {38 \hspace #2 }
-\set RhythmicStaff.instr = \markup {38 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {38 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {38 \hspace #2 }
 {
 b'2[
 b'2]
@@ -4644,12 +4644,12 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -4671,7 +4671,7 @@ b'2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4697,7 +4697,7 @@ r2
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -4705,7 +4705,7 @@ b'4
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4726,7 +4726,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4742,9 +4742,9 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {39 \hspace #2 }
-\set RhythmicStaff.instr = \markup {39 \hspace #2 }
-\times 2/3 {
+\set RhythmicStaff.instrumentName = \markup {39 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {39 \hspace #2 }
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4768,7 +4768,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4783,7 +4783,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4794,7 +4794,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4802,12 +4802,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4815,7 +4815,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4840,7 +4840,7 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4860,7 +4860,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4872,7 +4872,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -4886,9 +4886,9 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {40 \hspace #2 }
-\set RhythmicStaff.instr = \markup {40 \hspace #2 }
-\times 4/6 {
+\set RhythmicStaff.instrumentName = \markup {40 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {40 \hspace #2 }
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4902,7 +4902,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4931,7 +4931,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -4945,12 +4945,12 @@ b'4.
 b'4.
 b'4.]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 8/9 {
+\tuplet 9/8 {
 b'8[
 b'8
 b'8
@@ -4979,7 +4979,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -4993,12 +4993,12 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5013,27 +5013,27 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {41 \hspace #2 }
-\set RhythmicStaff.instr = \markup {41 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {41 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {41 \hspace #2 }
 {
 r2
 }
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -5054,7 +5054,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5065,7 +5065,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5100,7 +5100,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5111,19 +5111,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5135,7 +5123,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5147,271 +5135,7 @@ b'8]
 {
 r2
 }
-{
-r2
-}
-{
-r2
-}
-}
-\new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {42 \hspace #2 }
-\set RhythmicStaff.instr = \markup {42 \hspace #2 }
-\times 2/3 {
-b'4[
-b'4
-b'4]
-}
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-b'2
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-b'4[
-b'4
-b'4
-b'4]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-\times 2/3 {
-b'4[
-b'4
-b'4]
-}
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-}
-\new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {43 \hspace #2 }
-\set RhythmicStaff.instr = \markup {43 \hspace #2 }
-{
-r2
-}
-\times 4/7 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-b'4[
-b'4
-b'4
-b'4
-b'4
-b'4]
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-b'2
-{
-b'4[
-b'4
-b'4
-b'4]
-}
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/6 {
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-\times 6/7 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
-b'4[
-b'4
-b'4
-b'4
-b'4
-b'4
-b'4]
-}
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5431,8 +5155,284 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {44 \hspace #2 }
-\set RhythmicStaff.instr = \markup {44 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {42 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {42 \hspace #2 }
+\tuplet 3/2 {
+b'4[
+b'4
+b'4]
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+b'2
+b'2
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+b'4[
+b'4
+b'4
+b'4]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 3/2 {
+b'4[
+b'4
+b'4]
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+}
+\new RhythmicStaff {
+\set RhythmicStaff.instrumentName = \markup {43 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {43 \hspace #2 }
+{
+r2
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+b'4[
+b'4
+b'4
+b'4
+b'4
+b'4]
+}
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+b'2
+{
+b'4[
+b'4
+b'4
+b'4]
+}
+b'2
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 6/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+\tuplet 7/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
+b'4[
+b'4
+b'4
+b'4
+b'4
+b'4
+b'4]
+}
+\tuplet 7/4 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+{
+r2
+}
+}
+\new RhythmicStaff {
+\set RhythmicStaff.instrumentName = \markup {44 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {44 \hspace #2 }
 {
 r2
 }
@@ -5446,7 +5446,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5457,7 +5457,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5479,8 +5479,8 @@ b'2[
 b'2]
 }
 b'2
-\times 6/5 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 5/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -5505,8 +5505,8 @@ b'8
 b'8
 b'8]
 }
-\times 12/9 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 9/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -5529,7 +5529,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -5551,15 +5551,15 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {45 \hspace #2 }
-\set RhythmicStaff.instr = \markup {45 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {45 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {45 \hspace #2 }
 {
 b'4[
 b'4
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5570,7 +5570,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5578,7 +5578,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -5606,7 +5606,7 @@ b'8
 b'8
 b'8]
 }
-\times 8/13 {
+\tuplet 13/8 {
 b'4[
 b'4
 b'4
@@ -5624,7 +5624,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5632,7 +5632,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -5646,7 +5646,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5666,7 +5666,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -5683,16 +5683,16 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {46 \hspace #2 }
-\set RhythmicStaff.instr = \markup {46 \hspace #2 }
-\times 4/6 {
+\set RhythmicStaff.instrumentName = \markup {46 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {46 \hspace #2 }
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5703,7 +5703,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5724,7 +5724,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5735,7 +5735,7 @@ b'8]
 {
 r2
 }
-\times 4/5 {
+\tuplet 5/4 {
 b'4[
 b'4
 b'4
@@ -5747,8 +5747,8 @@ r2
 }
 b'2
 b'2
-\times 5/7 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 7/5 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'2[
 b'2
 b'2
@@ -5758,7 +5758,7 @@ b'2
 b'2]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -5769,7 +5769,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5786,7 +5786,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5798,7 +5798,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5810,7 +5810,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5824,9 +5824,9 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {47 \hspace #2 }
-\set RhythmicStaff.instr = \markup {47 \hspace #2 }
-\times 4/6 {
+\set RhythmicStaff.instrumentName = \markup {47 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {47 \hspace #2 }
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5837,7 +5837,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5876,7 +5876,7 @@ b'8
 b'8
 b'8]
 }
-\times 8/11 {
+\tuplet 11/8 {
 b'4[
 b'4
 b'4
@@ -5894,7 +5894,7 @@ b'2
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -5905,7 +5905,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -5929,7 +5929,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -5942,14 +5942,14 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {48 \hspace #2 }
-\set RhythmicStaff.instr = \markup {48 \hspace #2 }
-\times 2/3 {
+\set RhythmicStaff.instrumentName = \markup {48 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {48 \hspace #2 }
+\tuplet 3/2 {
 b'2[
 b'2
 b'2]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -5984,13 +5984,13 @@ b'8]
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 6/7 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 7/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -5999,12 +5999,12 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6019,12 +6019,12 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6035,7 +6035,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -6047,7 +6047,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -6079,11 +6079,11 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {49 \hspace #2 }
-\set RhythmicStaff.instr = \markup {49 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {49 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {49 \hspace #2 }
 b'2
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6107,7 +6107,7 @@ r2
 b'2
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -6119,7 +6119,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -6134,7 +6134,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -6143,7 +6143,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -6157,13 +6157,13 @@ r2
 }
 b'2
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 10/13 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 13/10 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -6178,12 +6178,12 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6193,8 +6193,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {50 \hspace #2 }
-\set RhythmicStaff.instr = \markup {50 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {50 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {50 \hspace #2 }
 {
 b'8[
 b'8
@@ -6207,7 +6207,7 @@ r2
 b'2
 b'2
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -6222,7 +6222,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -6230,20 +6230,12 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
-b'4[
-b'4
-b'4]
-}
-{
-r2
-}
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6251,7 +6243,15 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 3/2 {
+b'4[
+b'4
+b'4]
+}
+{
+r2
+}
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -6266,7 +6266,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -6303,7 +6303,7 @@ b'8
 b'8]
 }
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -6317,8 +6317,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {51 \hspace #2 }
-\set RhythmicStaff.instr = \markup {51 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {51 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {51 \hspace #2 }
 {
 b'8[
 b'8
@@ -6340,7 +6340,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6348,17 +6348,17 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6366,7 +6366,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -6375,12 +6375,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6397,7 +6397,7 @@ r2
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6405,7 +6405,7 @@ b'4]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6444,8 +6444,8 @@ r2
 b'2
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {52 \hspace #2 }
-\set RhythmicStaff.instr = \markup {52 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {52 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {52 \hspace #2 }
 {
 b'2[
 b'2]
@@ -6459,7 +6459,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6477,7 +6477,7 @@ b'4
 b'4]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6492,12 +6492,12 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6505,7 +6505,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -6514,7 +6514,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6532,17 +6532,17 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6569,8 +6569,8 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {53 \hspace #2 }
-\set RhythmicStaff.instr = \markup {53 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {53 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {53 \hspace #2 }
 {
 r2
 }
@@ -6598,7 +6598,7 @@ r2
 }
 b'1
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6609,7 +6609,7 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6617,7 +6617,7 @@ b'4]
 {
 r2
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6631,7 +6631,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6639,7 +6639,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6667,9 +6667,9 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {54 \hspace #2 }
-\set RhythmicStaff.instr = \markup {54 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {54 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {54 \hspace #2 }
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -6707,7 +6707,7 @@ b'8]
 {
 r2
 }
-\times 8/14 {
+\tuplet 14/8 {
 b'4[
 b'4
 b'4
@@ -6723,13 +6723,13 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
-\times 8/13 {
+\tuplet 13/8 {
 b'4[
 b'4
 b'4
@@ -6756,12 +6756,12 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6790,9 +6790,9 @@ r2
 b'2
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {55 \hspace #2 }
-\set RhythmicStaff.instr = \markup {55 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {55 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {55 \hspace #2 }
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -6842,12 +6842,12 @@ b'4]
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6871,7 +6871,7 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6883,7 +6883,7 @@ r2
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6899,8 +6899,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {56 \hspace #2 }
-\set RhythmicStaff.instr = \markup {56 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {56 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {56 \hspace #2 }
 {
 b'8[
 b'8
@@ -6947,7 +6947,7 @@ b'8]
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6962,7 +6962,7 @@ r2
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -6983,7 +6983,7 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -6993,7 +6993,7 @@ b'2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7007,9 +7007,9 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {57 \hspace #2 }
-\set RhythmicStaff.instr = \markup {57 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {57 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {57 \hspace #2 }
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7085,7 +7085,7 @@ r2
 r2
 }
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -7094,7 +7094,7 @@ b'4
 b'4
 b'4]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7103,7 +7103,7 @@ b'8
 b'8]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7112,7 +7112,7 @@ b'8
 b'8]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7128,9 +7128,9 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {58 \hspace #2 }
-\set RhythmicStaff.instr = \markup {58 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {58 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {58 \hspace #2 }
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7179,7 +7179,7 @@ r2
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7194,7 +7194,7 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7203,7 +7203,7 @@ b'4]
 b'2.[
 b'2.]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7226,8 +7226,8 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {59 \hspace #2 }
-\set RhythmicStaff.instr = \markup {59 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {59 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {59 \hspace #2 }
 {
 r2
 }
@@ -7246,7 +7246,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -7276,7 +7276,7 @@ b'4]
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7286,7 +7286,7 @@ b'2
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7295,7 +7295,7 @@ b'8
 b'8]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -7306,7 +7306,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'4[
 b'4
 b'4
@@ -7316,7 +7316,7 @@ b'4
 b'4]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'4[
 b'4
 b'4
@@ -7329,9 +7329,9 @@ r2
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {60 \hspace #2 }
-\set RhythmicStaff.instr = \markup {60 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {60 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {60 \hspace #2 }
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7358,7 +7358,7 @@ b'8
 b'8
 b'8]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7381,7 +7381,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'2[
 b'2
 b'2
@@ -7389,7 +7389,7 @@ b'2
 b'2
 b'2]
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7429,7 +7429,7 @@ r2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7441,9 +7441,9 @@ r2
 b'2
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {61 \hspace #2 }
-\set RhythmicStaff.instr = \markup {61 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {61 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {61 \hspace #2 }
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7461,7 +7461,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7472,7 +7472,7 @@ b'8]
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'2[
 b'2
 b'2
@@ -7484,7 +7484,7 @@ b'2]
 r2
 }
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'2[
 b'2
 b'2
@@ -7494,13 +7494,13 @@ b'2
 b'2]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7509,13 +7509,13 @@ b'8
 b'8]
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7536,7 +7536,7 @@ r2
 r2
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7545,7 +7545,7 @@ b'8
 b'8]
 }
 b'2
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7555,9 +7555,9 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {62 \hspace #2 }
-\set RhythmicStaff.instr = \markup {62 \hspace #2 }
-\times 4/7 {
+\set RhythmicStaff.instrumentName = \markup {62 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {62 \hspace #2 }
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7578,7 +7578,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7603,8 +7603,8 @@ r2
 }
 b'2
 b'2
-\times 12/10 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 10/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -7635,7 +7635,7 @@ b'8]
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7646,7 +7646,7 @@ b'4
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7660,7 +7660,7 @@ r2
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7681,13 +7681,13 @@ b'4]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {63 \hspace #2 }
-\set RhythmicStaff.instr = \markup {63 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {63 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {63 \hspace #2 }
 b'2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7695,89 +7695,13 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 12/10 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
-b'8[
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-{
-r2
-}
-b'2
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-{
-r2
-}
-\times 4/5 {
-b'4[
-b'4
-b'4
-b'4
-b'4]
-}
-{
-r2
-}
-{
-b'8[
-b'8
-b'8
-b'8]
-}
-b'2
-\times 2/3 {
-b'4[
-b'4
-b'4]
-}
-{
-r2
-}
-{
-r2
-}
-b'2
-\times 2/3 {
-b'4[
-b'4
-b'4]
-}
-\times 2/3 {
-b'4[
-b'4
-b'4]
-}
-{
-b'4[
-b'4
-b'4
-b'4]
-}
-{
-r2
-}
-\times 8/10 {
+\tuplet 10/12 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'8[
 b'8
 b'8
@@ -7796,7 +7720,83 @@ r2
 r2
 }
 b'2
-\times 4/6 {
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+\tuplet 5/4 {
+b'4[
+b'4
+b'4
+b'4
+b'4]
+}
+{
+r2
+}
+{
+b'8[
+b'8
+b'8
+b'8]
+}
+b'2
+\tuplet 3/2 {
+b'4[
+b'4
+b'4]
+}
+{
+r2
+}
+{
+r2
+}
+b'2
+\tuplet 3/2 {
+b'4[
+b'4
+b'4]
+}
+\tuplet 3/2 {
+b'4[
+b'4
+b'4]
+}
+{
+b'4[
+b'4
+b'4
+b'4]
+}
+{
+r2
+}
+\tuplet 10/8 {
+b'8[
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8
+b'8]
+}
+{
+r2
+}
+{
+r2
+}
+b'2
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7806,8 +7806,8 @@ b'8]
 }
 }
 \new RhythmicStaff {
-\set RhythmicStaff.instrument = \markup {64 \hspace #2 }
-\set RhythmicStaff.instr = \markup {64 \hspace #2 }
+\set RhythmicStaff.instrumentName = \markup {64 \hspace #2 }
+\set RhythmicStaff.shortInstrumentName = \markup {64 \hspace #2 }
 b'2
 {
 b'8[
@@ -7821,7 +7821,7 @@ b'2
 r2
 }
 b'2
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7841,7 +7841,7 @@ b'8]
 r2
 }
 b'2
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7856,7 +7856,7 @@ r2
 {
 r2
 }
-\times 4/6 {
+\tuplet 6/4 {
 b'8[
 b'8
 b'8
@@ -7864,7 +7864,7 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7872,7 +7872,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7881,12 +7881,12 @@ b'8
 b'8
 b'8]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
 }
-\times 2/3 {
+\tuplet 3/2 {
 b'4[
 b'4
 b'4]
@@ -7894,7 +7894,7 @@ b'4]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7906,7 +7906,7 @@ b'8]
 {
 r2
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7915,8 +7915,8 @@ b'8
 b'8
 b'8]
 }
-\times 6/7 {
-\once \set tupletNumberFormatFunction = #fraction-tuplet-formatter
+\tuplet 7/6 {
+\once \override TupletNumber.text = #tuplet-number::calc-fraction-text
 b'4[
 b'4
 b'4
@@ -7925,7 +7925,7 @@ b'4
 b'4
 b'4]
 }
-\times 4/7 {
+\tuplet 7/4 {
 b'8[
 b'8
 b'8
@@ -7947,40 +7947,40 @@ indent = #0.0
 \Voice
 \remove "Forbid_line_break_engraver"
 tupletFullLength = ##t
-allowBeamBreak = ##t
+\override Beam.breakable = ##t
 }
 \context {
 \RhythmicStaff
-\override TimeSignature #'break-visibility = ##(#f #f #t)
-\override TimeSignature #'transparent = ##t
-minimumVerticalExtent = ##f
+\override TimeSignature.break-visibility = ##(#f #f #t)
+\override TimeSignature.transparent = ##t
+\override VerticalAxisGroup.minimum-Y-extent = ##f
 verticalExtent = #'(-3.25 . 4.0)
 }
 \context {
 \Score
 \remove "Bar_number_engraver"
-\override SpacingSpanner #'strict-note-spacing = ##t
-\override SpacingSpanner #'uniform-stretching = ##t
-proportionalNotationDuration = #(ly:make-moment 1 16)
-\override SpanBar #'transparent = ##t
-\override BarLine #'transparent = ##t
-\override InstrumentName #'self-alignment-X = #right
-\override InstrumentName #'X-offset-callbacks = #`(,Self_alignment_interface::aligned_on_self)
-\override InstrumentName #'font-size = #4
-\override InstrumentName #'font-series = #'bold
-\override RehearsalMark #'self-alignment-X = #left
-\override RehearsalMark #'X-offset-callbacks = #`(,Self_alignment_interface::aligned_on_self)
-\override RehearsalMark #'color = #black
-\override RehearsalMark #'extra-offset = #'(1.9 . 3)
-\override RehearsalMark #'font-size = #8
-\override RehearsalMark #'print-function = #(make-stencil-boxer 0.3 0.75 Text_interface::print)
-\override Stem #'direction = #down
-\override TupletBracket #'direction = #up
-\override TupletBracket #'staff-padding = #0.5
-\override TupletBracket #'edge-height = #'(0.5 . 0.5)
-\override TupletBracket #'thickness = #1.0
-\override TupletBracket #'font-series = #'bold
-allowBeamBreak = ##t
+\override SpacingSpanner.strict-note-spacing = ##t
+\override SpacingSpanner.uniform-stretching = ##t
+proportionalNotationDuration = \musicLength 16
+\override SpanBar.transparent = ##t
+\override BarLine.transparent = ##t
+\override InstrumentName.self-alignment-X = #right
+\override InstrumentName.X-offset-callbacks = #`(,ly:self-alignment-interface::aligned-on-self)
+\override InstrumentName.font-size = #4
+\override InstrumentName.font-series = #'bold
+\override RehearsalMark.self-alignment-X = #left
+\override RehearsalMark.X-offset-callbacks = #`(,ly:self-alignment-interface::aligned-on-self)
+\override RehearsalMark.color = #black
+\override RehearsalMark.extra-offset = #'(1.9 . 3)
+\override RehearsalMark.font-size = #8
+\override RehearsalMark.stencil = #(make-stencil-boxer 0.3 0.75 ly:text-interface::print)
+\override Stem.direction = #down
+\override TupletBracket.direction = #up
+\override TupletBracket.staff-padding = #0.5
+\override TupletBracket.edge-height = #'(0.5 . 0.5)
+\override TupletBracket.thickness = #1.0
+\override TupletBracket.font-series = #'bold
+\override Beam.breakable = ##t
 }
 }
 }
