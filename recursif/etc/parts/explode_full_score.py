@@ -21,7 +21,7 @@ def explode_full_score():
                 part_file.close()
             cur_part += 1
             part_file = open("ly/data/%s.ly" % str(cur_part).zfill(2), "w")
-            part_file.write('\\version "2.12.0"\n\n')
+            part_file.write('\\version "2.25.16"\n\n')
         if cur_part == 64 and ">>" in line:
             part_file.write(">>")
             part_file.close()
