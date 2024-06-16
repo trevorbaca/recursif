@@ -1,3 +1,4 @@
+\version "2.25.13"
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
 
@@ -93,6 +94,7 @@
     % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
     \consists Staff_collecting_engraver
     \accepts GlobalSkips
+    \defaultchild GlobalSkips
     \accepts GlobalRests
     \accepts PageLayout
 
@@ -194,7 +196,7 @@
 
     autoBeaming = ##f
     barNumberVisibility = #(every-nth-bar-number-visible 16)
-    proportionalNotationDuration = #(ly:make-moment 1 18)
+    proportionalNotationDuration = \musicLength 1*1/18
     tupletFullLength = ##t
   }
 }
