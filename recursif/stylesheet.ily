@@ -1,12 +1,12 @@
 \version "2.25.16"
+\include "baca.ily"
+
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
 
-\include "baca.ily"
-
 \paper
 {
-  bottom-margin = 7.5\mm
+  bottom-margin = 7.5
   evenFooterMarkup = \markup
     \fill-line {
     \halign #0 \bold \fontsize #8
@@ -14,7 +14,7 @@
     \fromproperty #'page:page-number-string 
     }
   evenHeaderMarkup = \markup \null
-  left-margin = 15\mm
+  left-margin = 15
   oddFooterMarkup = \markup
     \fill-line {
     \halign #0 \bold \fontsize #8
@@ -22,8 +22,8 @@
     \fromproperty #'page:page-number-string
     }
   oddHeaderMarkup = \markup \null
-  right-margin = 0\mm
-  top-margin = 12\mm
+  right-margin = 0
+  top-margin = 12
   top-system-spacing.minimum-distance = 10
 }
 
@@ -35,12 +35,8 @@
   ragged-right = ##t
 }
 
-%%% CONTEXTS
-
 \layout
 {
-
-  % GLOBAL SKIPS
   \context
   {
     \name GlobalSkips
@@ -48,28 +44,20 @@
     \consists Script_engraver
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextScript.font-size = 6
-
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL RESTS
   \context
   {
     \name GlobalRests
     \type Engraver_group
     \consists Multi_measure_rest_engraver
-
     \override MultiMeasureRest.transparent = ##t
-
     \override MultiMeasureRestText.extra-offset = #'(0 . -7)
     \override MultiMeasureRestText.font-size = 3
     \override MultiMeasureRestText.outside-staff-priority = 0
     \override MultiMeasureRestText.padding = 0
   }
-
-  % PAGE LAYOUT
   \context
   {
     \name PageLayout
@@ -77,11 +65,8 @@
     \consists Text_engraver
     \consists Text_spanner_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL CONTEXT
   \context
   {
     \name GlobalContext
@@ -97,48 +82,33 @@
     \defaultchild GlobalSkips
     \accepts GlobalRests
     \accepts PageLayout
-
     \override BarNumber.Y-extent = ##f
     \override BarNumber.extra-offset = #'(-4 . -4)
     \override BarNumber.font-size = 1
-
     \override TextSpanner.to-barline = ##t
   }
-
-  % VOICE
   \context
   {
     \Voice
     \remove Forbid_line_break_engraver
   }
-
-  % STAFF
   \context
   {
     \Staff
     \remove Time_signature_engraver
-
     \override Clef.stencil = ##f
-
     \override StaffSymbol.line-count = 1
-
     \override Stem.thickness = 0
-
     \override TimeSignature.stencil = ##f
-
     \override TupletBracket.bracket-visibility = ##t
     \override TupletBracket.direction = #up
     \override TupletBracket.staff-padding = 0.75
     \override TupletBracket.thickness = 0.5
-
     \override TupletNumber.font-size = 0
   }
-
-  % STAFF GROUP
   \context
   {
     \StaffGroup
-
     \override StaffGrouper.staff-staff-spacing = #'(
       (basic-distance . 0)
       (minimum-distance . 9)
@@ -146,8 +116,6 @@
       (stretchability . 0)
     )
   }
-
-  % MUSIC CONTEXT
   \context
   {
     \ChoirStaff
@@ -156,8 +124,6 @@
     \alias ChoirStaff
     systemStartDelimiter = #'SystemStartBar
   }
-
-  % SCORE
   \context
   {
     \Score
@@ -166,13 +132,10 @@
     \remove Bar_number_engraver
     \remove Metronome_mark_engraver
     \remove System_start_delimiter_engraver
-
     % necessary for uniform overlapping polyrhythms with accidentals
     \override Accidental.X-extent = ##f
-
     \override BarLine.bar-extent = #'(0 . 0)
     \override BarLine.hair-thickness = 0.5
-
     \override BarNumber.Y-extent = ##f
     \override BarNumber.break-visibility = #end-of-line-invisible
     \override BarNumber.font-size = 6
@@ -181,19 +144,15 @@
     \override BarNumber.stencil = 
       #(make-stencil-boxer 0.1 1.0 ly:text-interface::print)
     \override BarNumber.X-extent = #'(0 . 0)
-
     \override SpacingSpanner.strict-grace-spacing = ##t
     \override SpacingSpanner.strict-note-spacing = ##t
     \override SpacingSpanner.uniform-stretching = ##t
-
     \override TextScript.font-name = #"Palatino"
     % DISCOVERY: overriding TextScript.X-extent = ##f
     %      makes LilyPond ignore self-alignment-X tweaks;
     %      probably should never be done at stylesheet level.
     % NOTE:    may be best to override NO text script properties.
-
     \override TextSpanner.to-barline = ##t
-
     autoBeaming = ##f
     barNumberVisibility = #(every-nth-bar-number-visible 16)
     proportionalNotationDuration = \musicLength 1*1/18
@@ -201,7 +160,7 @@
   }
 }
 
-%%% COLOPHON %%%
+% COLOPHON
 
 recursif-colophon-markup = \markup {
   \override #'(font-name . "Palatino")

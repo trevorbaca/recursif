@@ -4,8 +4,8 @@
 #(set-global-staff-size 8)
 
 \paper {
-top-margin = 120\mm
-bottom-margin = 15\mm
+top-margin = 120
+bottom-margin = 15
 first-page-number = 3
 print-page-number = ##t
 oddFooterMarkup = \markup \fill-line {\halign #0 \bold \fontsize #8 \fromproperty #'page:page-number-string }
