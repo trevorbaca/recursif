@@ -132,8 +132,6 @@
     \remove Bar_number_engraver
     \remove Metronome_mark_engraver
     \remove System_start_delimiter_engraver
-    % necessary for uniform overlapping polyrhythms with accidentals
-    \override Accidental.X-extent = ##f
     \override BarLine.bar-extent = #'(0 . 0)
     \override BarLine.hair-thickness = 0.5
     \override BarNumber.Y-extent = ##f
@@ -147,11 +145,6 @@
     \override SpacingSpanner.strict-grace-spacing = ##t
     \override SpacingSpanner.strict-note-spacing = ##t
     \override SpacingSpanner.uniform-stretching = ##t
-    \override TextScript.font-name = #"Palatino"
-    % DISCOVERY: overriding TextScript.X-extent = ##f
-    %      makes LilyPond ignore self-alignment-X tweaks;
-    %      probably should never be done at stylesheet level.
-    % NOTE:    may be best to override NO text script properties.
     \override TextSpanner.to-barline = ##t
     autoBeaming = ##f
     barNumberVisibility = #(every-nth-bar-number-visible 16)
