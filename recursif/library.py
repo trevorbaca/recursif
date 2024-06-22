@@ -20,7 +20,7 @@ def _make_short_instrument_names():
 def make_empty_score():
     site = "recursif.make_empty_score()"
     tag = abjad.Tag(site)
-    global_context = baca.score.make_global_context()
+    global_context = baca.score.make_global_context(make_time_signatures_context=True)
     staves = []
     for staff_index in range(64):
         staff_number = staff_index + 1
