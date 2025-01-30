@@ -1,4 +1,4 @@
-\version "2.25.22"
+\version "2.25.23"
 
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
@@ -62312,7 +62312,7 @@ verticalExtent = #'(-4.25 . 4.5)
 \remove "Bar_number_engraver"
 \override SpacingSpanner.strict-note-spacing = ##t
 \override SpacingSpanner.uniform-stretching = ##t
-proportionalNotationDuration = \musicLength 16
+proportionalNotationDuration = #1/16
 \override SpanBar.transparent = ##t
 \override BarLine.transparent = ##t
 \override InstrumentName.self-alignment-X = #right

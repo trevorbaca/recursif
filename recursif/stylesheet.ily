@@ -1,4 +1,4 @@
-\version "2.25.22"
+\version "2.25.23"
 \include "baca.ily"
 
 #(set-default-paper-size "tabloid")
@@ -138,7 +138,7 @@
     \override TextSpanner.to-barline = ##t
     autoBeaming = ##f
     barNumberVisibility = #(every-nth-bar-number-visible 16)
-    proportionalNotationDuration = \musicLength 1*1/18
+    proportionalNotationDuration = #1/18
     tupletFullLength = ##t
   }
 }
