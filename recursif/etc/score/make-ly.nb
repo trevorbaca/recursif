@@ -55,7 +55,7 @@ BoxData[RowBox[{"{",RowBox[
 StandardForm],"Output",CellLabel -> "Out[168]= ",ExpressionUUID -> "16e4e901-d2d1-4764-9a1c-30c16a2f4dbe"]},
 Open],ExpressionUUID -> "8cb21fae-c11a-4779-929a-9b1a669303d1"],Cell[
 BoxData[RowBox[
-{RowBox[{"inputfileheader","=","\"\\<%{\n\tPoeme recursif (2005)\n\tTrevor Baca\n%}\n\n\\\\version \\\"2.7.0\\\"\n\\\\include \\\"english.ly\\\"\n\n\\>\""}],";"}]],
+{RowBox[{"inputfileheader","=","\"\\<%{\n\tPoeme recursif (2005)\n\tTrevor Baca\n%}\n\n\\\\version \\\"2.7.0\\\"\n\\\\language \\\"english\\\"\n\n\\>\""}],";"}]],
 "Input",CellLabel -> "In[169]:= ",ExpressionUUID -> "1f246828-d05d-4a6f-a621-911626b705df"],Cell[
 BoxData[
 RowBox[{"(*",RowBox[{RowBox[{"SetDirectory","[",RowBox[{"$MusicDirectory","<>","\"/rec2\""}],"]"}],";"}],"*)"}]],
@@ -68,7 +68,7 @@ BoxData[{RowBox[
 {"t","[","4","]"}],",",RowBox[{"e","[","3","]"}]}],"}"}]}],"]"}],";"}],"\[IndentingNewLine]",RowBox[
 {RowBox[{"Close","[","strm","]"}],";"}]}],"Input",CellLabel -> "In[171]:= ",ExpressionUUID -> "20c81911-1efb-4c54-bd99-71e33318c7da"],Cell[
 BoxData[
-RowBox[{RowBox[{"scorefileheader","=","\"\\<%{\n\tPoeme recursif (2005)\n\tTrevor Baca\n%}\n\n\\\\version \\\"2.7.0\\\"\n\\\\include \\\"english.ly\\\"\n\\\\include \\\"rec-input.ly\\\"\n\n\\>\""}],";"}]],
+RowBox[{RowBox[{"scorefileheader","=","\"\\<%{\n\tPoeme recursif (2005)\n\tTrevor Baca\n%}\n\n\\\\version \\\"2.7.0\\\"\n\\\\language \\\"english\\\"\n\\\\include \\\"rec-input.ly\\\"\n\n\\>\""}],";"}]],
 "Input",CellLabel -> "In[175]:= ",ExpressionUUID -> "2ca7aa32-7e20-4aa9-b9ac-b13469d9c80b"],Cell[
 BoxData[
 RowBox[{RowBox[{"paper","=","\"\\<#(set-default-paper-size \\\"tabloid\\\")\n#(set-global-staff-size 8.50)\n\n\\\\paper {\n\tfirstpagenumber = 3\n\tprintfirstpagenumber = ##t\n\toddFooterMarkup = \\\\markup \\\\fill-line {\n\t\t\\\\halign #0 \\\\bold \\\\fontsize #6 \\\\fromproperty #'page:page-number-string\n\t}\n\tevenFooterMarkup = \\\\markup \\\\fill-line {\n\t\t\\\\halign #0 \\\\bold \\\\fontsize #6 \\\\fromproperty #'page:page-number-string\n\t}\n\toddHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\n\tevenHeaderMarkup = \\\\markup \\\\fill-line {\\\" \\\"}\n}\n\n\\>\""}],";"}]],
