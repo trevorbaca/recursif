@@ -1,4 +1,4 @@
-\version "2.25.25"
+\version "2.25.26"
 
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 8)
