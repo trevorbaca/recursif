@@ -61,7 +61,7 @@ def rhythm(time_signatures, voice_number, page_number):
     rhythm_maker = rmakers.stack(
         rmakers.tuplet(tuplet_ratios),
         rmakers.beam_runs(),
-        rmakers.extract_trivial(),
+        rmakers.extract_trivial_tuplets(),
         tag=baca.helpers.function_name(inspect.currentframe()),
     )
     music = rhythm_maker(time_signatures, voice_number, page_number)
