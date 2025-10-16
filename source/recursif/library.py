@@ -60,7 +60,7 @@ def rhythm(time_signatures, voice_number, page_number):
             tuplet_ratios.append((-1,))
     rhythm_maker = rmakers.stack(
         rmakers.tuplet(tuplet_ratios),
-        rmakers.beam_runs(),
+        rmakers.attach_beams_to_runs_by_leaf_list(),
         rmakers.extract_trivial_tuplets(),
         tag=baca.helpers.function_name(inspect.currentframe()),
     )
